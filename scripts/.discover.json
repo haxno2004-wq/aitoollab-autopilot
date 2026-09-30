@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T14:56:22.827Z",
+  "fetchedAt": "2026-09-30T14:57:32.364Z",
   "candidates": [
     {
       "source": "hn",
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1464,
+        "stars": 1470,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -132,7 +132,7 @@
       "topic": "dioramas: A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). ",
       "score": 2,
       "meta": {
-        "stars": 139,
+        "stars": 140,
         "url": "https://github.com/blendi-remade/dioramas"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 274,
+        "stars": 275,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
