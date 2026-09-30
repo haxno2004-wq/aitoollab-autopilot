@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-09-30T16:27:25.621Z",
-  "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
-  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
-  "slug": "show-hn-archgw-open-source-intelligent-proxy-for-ai-agents-built",
+  "pickedAt": "2026-09-30T17:30:19.493Z",
+  "topic": "Ask HN: What are some actual use cases of AI Agents right now?",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "ask-hn-what-are-some-actual-use-cases-of-ai-agents-right-now",
   "source": "hn",
   "sourceMeta": {
-    "points": 20,
-    "url": "https://github.com/katanemo/archgw"
+    "points": 169,
+    "url": "https://news.ycombinator.com/item?id=39373662"
   },
-  "finalScore": 8,
-  "remaining": 11
+  "finalScore": 7,
+  "remaining": 10
 }
