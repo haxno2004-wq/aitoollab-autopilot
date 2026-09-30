@@ -59,9 +59,19 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
-      - name: Ensure Pages project exists (idempotent)
+      - name: Ensure Pages project exists (idempotent, strict)
         if: steps.gen.outcome == 'success'
-        run: npx wrangler pages project create aitoollab --production-branch=main 2>&1 | grep -v "already exists" || echo "Pages project already exists"
+        run: |
+          OUT=$(npx wrangler pages project create aitoollab --production-branch=main 2>&1) || true
+          echo "$OUT"
+          if echo "$OUT" | grep -qiE "already exists"; then
+            echo "✅ Pages project already exists"
+          elif echo "$OUT" | grep -qiE "created successfully|\"created\": ?true|aitoollab"; then
+            echo "✅ Pages project created"
+          else
+            echo "::error::Could not create Pages project 'aitoollab' — see wrangler output above (common causes: subdomain aitoollab.pages.dev already taken by another account, or token missing Pages:Edit)"
+            exit 1
+          fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
