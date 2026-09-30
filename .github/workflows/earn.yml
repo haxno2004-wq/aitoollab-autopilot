@@ -49,11 +49,17 @@ jobs:
         if: steps.gen.outcome == 'success'
         run: |
           set -e
-          CODE=$(curl -s -o /tmp/cf.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID")
-          echo "token/account check: HTTP $CODE (403 is OK for minimal-scope tokens)"
+          VER=$(curl -s -o /tmp/v.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/user/tokens/verify")
+          echo "token verify: HTTP $VER $(head -c 200 /tmp/v.json)"
+          if [ "$VER" != "200" ]; then
+            echo "::error::CLOUDFLARE_API_TOKEN value is INVALID (401 = typo/truncated/rolled after copying). Create a fresh token and re-set the secret."
+            exit 1
+          fi
+          echo "✅ token is active"
           CODE2=$(curl -s -o /tmp/cfp.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects")
           echo "Pages permission check: HTTP $CODE2"
-          if [ "$CODE2" != "200" ]; then cat /tmp/cfp.json; echo "::error::Token missing Cloudflare Pages:Edit permission - create a custom token with Account > Cloudflare Pages > Edit"; exit 1; fi
+          if [ "$CODE2" != "200" ]; then cat /tmp/cfp.json; echo "::error::Token missing Cloudflare Pages:Edit permission - edit the token and set the Pages row to Edit (third dropdown)"; exit 1; fi
+          echo "✅ Pages:Edit confirmed"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
