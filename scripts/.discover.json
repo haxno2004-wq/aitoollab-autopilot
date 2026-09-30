@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-30T15:08:24.166Z",
+  "fetchedAt": "2026-09-30T15:10:30.356Z",
   "candidates": [
     {
       "source": "github",
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 5,
       "meta": {
-        "stars": 1505,
+        "stars": 1509,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -15,7 +15,7 @@
       "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "score": 4,
       "meta": {
-        "points": 1008,
+        "points": 1012,
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
       }
     },
@@ -33,7 +33,7 @@
       "topic": "Dots: Always-on agents",
       "score": 3,
       "meta": {
-        "points": 695,
+        "points": 696,
         "url": "https://openai.com/index/introducing-dots/"
       }
     },
@@ -42,7 +42,7 @@
       "topic": "Pi.dev: You Said No MCP",
       "score": 3,
       "meta": {
-        "points": 346,
+        "points": 351,
         "url": "https://earendil.com/posts/you-said-no-mcp/"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 284,
+        "stars": 287,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
