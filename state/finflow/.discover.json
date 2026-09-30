@@ -1,22 +1,10 @@
 {
-  "fetchedAt": "2026-09-30T16:27:15.326Z",
+  "fetchedAt": "2026-09-30T17:30:19.332Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "A Staff Engineer's Guide to Inventing Work",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
       "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "score": 4,
       "meta": {}
     },
     {
@@ -69,7 +57,7 @@
     },
     {
       "source": "hn",
-      "topic": "Pi.dev: You Said No MCP",
+      "topic": "You Said No MCP",
       "score": 3,
       "meta": {}
     },
@@ -117,37 +105,13 @@
     },
     {
       "source": "hn",
-      "topic": "Language models for text classification: From bag-of-words to Jev",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Needed 1+1, built a functional programming language",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "NRC issues first U.S. construction permit for a BWRX-300 small modular reactor",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The AI Race Just Got Awkward",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "RSS Feeds for Last.fm",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Using 2D DFT, dithering, etc. to maximize eInk manga image quality",
+      "topic": "I Could've Accessed 17T Microsoft Records",
       "score": 1,
       "meta": {}
     },
@@ -166,6 +130,18 @@
     {
       "source": "hn",
       "topic": "Moist-Electric Wallpaper for Indoor Energy Harvesting and Humidity Management",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I created a BGP-based blackhole system that you can set up in minutes",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
       "score": 1,
       "meta": {}
     },
@@ -237,19 +213,19 @@
     },
     {
       "source": "hn",
+      "topic": "Mathematical Origami",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Testing WebGPU data layouts with Facet",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I Could've Accessed 17T Microsoft Records",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Mathematical Origami",
+      "topic": "A Brief History of the Bloomberg Terminal",
       "score": 0,
       "meta": {}
     },
@@ -261,7 +237,19 @@
     },
     {
       "source": "hn",
-      "topic": "A Brief History of the Bloomberg Terminal",
+      "topic": "SDF Public Access Unix System ... est. 1987",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Let's Ditch Google (Verb)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What TLA+ can and can't check",
       "score": 0,
       "meta": {}
     },
@@ -339,12 +327,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Turning 40 in Dec, feeling embarrassed, ashamed, & defeated by active stock picking. Looking to clean up my portfolio...",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Cash deposit without paperwork",
       "score": 0,
       "meta": {}
@@ -363,13 +345,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can I stop contributing to retirement?",
+      "topic": "So confused on what to do for my retirement account. Company offers a 401k with no match, but during orientation they said not to use it???",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "So confused on what to do for my retirement account. Company offers a 401k with no match, but during orientation they said not to use it???",
+      "topic": "Can I stop contributing to retirement?",
       "score": 0,
       "meta": {}
     }
