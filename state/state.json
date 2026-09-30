@@ -1,11 +1,13 @@
 {
   "publishedSlugs": [
     "logo-design-skill-a-comprehensive-logo-design-skill-for-claude-g",
-    "ai-system-design-ai-system-design-learn-how-to-design-ai-systems"
+    "ai-system-design-ai-system-design-learn-how-to-design-ai-systems",
+    "dots-open-source-dots-for-the-web-an-ai-agent-with-its-own-brows"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
-    "ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step."
+    "ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+    "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked."
   ],
-  "lastRun": "2026-09-30T15:04:55.353Z"
+  "lastRun": "2026-09-30T15:07:05.659Z"
 }

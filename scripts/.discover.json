@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-30T15:04:09.448Z",
+  "fetchedAt": "2026-09-30T15:06:22.980Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "score": 4,
       "meta": {
-        "points": 1007,
+        "points": 1008,
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
       }
     },
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1491,
+        "stars": 1494,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -42,7 +42,7 @@
       "topic": "Pi.dev: You Said No MCP",
       "score": 3,
       "meta": {
-        "points": 340,
+        "points": 346,
         "url": "https://earendil.com/posts/you-said-no-mcp/"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 280,
+        "stars": 282,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
@@ -177,7 +177,7 @@
       "topic": "muse2api:  Muse(muse.ai)  OpenAI / 48h OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
       "score": 0,
       "meta": {
-        "stars": 182,
+        "stars": 183,
         "url": "https://github.com/czg86389-hub/muse2api"
       }
     },
