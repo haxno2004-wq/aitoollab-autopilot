@@ -87,8 +87,8 @@
   "llm": {
     "primary": {
       "provider": "gemini",
-      "model": "gemini-2.5-flash",
-      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+      "model": "auto",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta"
     },
     "fallback": {
       "provider": "openrouter",
