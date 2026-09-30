@@ -1,9 +1,11 @@
 {
   "publishedSlugs": [
-    "logo-design-skill-a-comprehensive-logo-design-skill-for-claude-g"
+    "logo-design-skill-a-comprehensive-logo-design-skill-for-claude-g",
+    "ai-system-design-ai-system-design-learn-how-to-design-ai-systems"
   ],
   "usedTopics": [
-    "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test"
+    "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
+    "ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step."
   ],
-  "lastRun": "2026-09-30T14:58:32.283Z"
+  "lastRun": "2026-09-30T15:04:55.353Z"
 }

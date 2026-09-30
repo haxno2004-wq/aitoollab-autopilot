@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-30T14:57:32.364Z",
+  "fetchedAt": "2026-09-30T15:04:09.448Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "score": 4,
       "meta": {
-        "points": 1006,
+        "points": 1007,
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
       }
     },
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1470,
+        "stars": 1491,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -33,7 +33,7 @@
       "topic": "Dots: Always-on agents",
       "score": 3,
       "meta": {
-        "points": 693,
+        "points": 695,
         "url": "https://openai.com/index/introducing-dots/"
       }
     },
@@ -42,7 +42,7 @@
       "topic": "Pi.dev: You Said No MCP",
       "score": 3,
       "meta": {
-        "points": 338,
+        "points": 340,
         "url": "https://earendil.com/posts/you-said-no-mcp/"
       }
     },
@@ -114,7 +114,7 @@
       "topic": "BeefTV: Local-first, lightweight, AI-native video workspace.",
       "score": 2,
       "meta": {
-        "stars": 615,
+        "stars": 616,
         "url": "https://github.com/glanderness/BeefTV"
       }
     },
@@ -132,7 +132,7 @@
       "topic": "dioramas: A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). ",
       "score": 2,
       "meta": {
-        "stars": 140,
+        "stars": 142,
         "url": "https://github.com/blendi-remade/dioramas"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 275,
+        "stars": 280,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
@@ -168,7 +168,7 @@
       "topic": "beebots: Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.",
       "score": 0,
       "meta": {
-        "stars": 182,
+        "stars": 183,
         "url": "https://github.com/imikerussell/beebots"
       }
     },
@@ -186,7 +186,7 @@
       "topic": "SeeCut: An AI editor that watches its own cut: talking-head / AI-avatar video  auto-edited short video. /  AI",
       "score": 0,
       "meta": {
-        "stars": 166,
+        "stars": 167,
         "url": "https://github.com/YeJe-cpu/SeeCut"
       }
     },
