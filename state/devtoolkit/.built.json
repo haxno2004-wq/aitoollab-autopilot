@@ -1,8 +1,8 @@
 {
-  "slug": "a-brief-history-of-the-bloomberg-terminal",
-  "title": "A Brief History of the Bloomberg Terminal: A Hands-On Review",
-  "description": "Explore the history of the Bloomberg Terminal through a hands-on review. Discover what it is, its strengths and weaknesses, and who should use it today.",
-  "date": "2026-09-30T17:30:31.936Z",
-  "words": 995,
+  "slug": "dumb-servers-smart-clients-distributing-os-images-with-quarry",
+  "title": "Quarry Review: Distributing OS Images with Dumb Servers",
+  "description": "Discover Quarry in our hands-on review. Learn how this open-source tool shifts OS image distribution to smart clients and dumb servers.",
+  "date": "2026-09-30T22:19:19.560Z",
+  "words": 1218,
   "provider": "gemini"
 }

@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-09-30T17:30:18.365Z",
-  "topic": "A Brief History of the Bloomberg Terminal",
+  "pickedAt": "2026-09-30T22:18:50.263Z",
+  "topic": "Dumb servers, smart clients: Distributing OS images with Quarry",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "a-brief-history-of-the-bloomberg-terminal",
+  "slug": "dumb-servers-smart-clients-distributing-os-images-with-quarry",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 5,
-  "remaining": 25
+  "finalScore": 6,
+  "remaining": 27
 }

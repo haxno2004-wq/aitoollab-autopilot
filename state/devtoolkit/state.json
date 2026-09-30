@@ -1,9 +1,11 @@
 {
   "publishedSlugs": [
-    "a-brief-history-of-the-bloomberg-terminal"
+    "a-brief-history-of-the-bloomberg-terminal",
+    "dumb-servers-smart-clients-distributing-os-images-with-quarry"
   ],
   "usedTopics": [
-    "A Brief History of the Bloomberg Terminal"
+    "A Brief History of the Bloomberg Terminal",
+    "Dumb servers, smart clients: Distributing OS images with Quarry"
   ],
-  "lastRun": "2026-09-30T17:30:57.431Z"
+  "lastRun": "2026-09-30T22:20:39.988Z"
 }
