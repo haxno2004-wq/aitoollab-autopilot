@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T14:43:34.022Z",
+  "fetchedAt": "2026-09-30T14:46:06.631Z",
   "candidates": [
     {
       "source": "hn",
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1421,
+        "stars": 1428,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -24,7 +24,7 @@
       "topic": "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
       "score": 4,
       "meta": {
-        "stars": 991,
+        "stars": 992,
         "url": "https://github.com/kaankiziltug/logo-design-skill"
       }
     },
@@ -42,7 +42,7 @@
       "topic": "Pi.dev: You Said No MCP",
       "score": 3,
       "meta": {
-        "points": 319,
+        "points": 325,
         "url": "https://earendil.com/posts/you-said-no-mcp/"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 268,
+        "stars": 270,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
@@ -186,7 +186,7 @@
       "topic": "SeeCut: An AI editor that watches its own cut: talking-head / AI-avatar video  auto-edited short video. /  AI",
       "score": 0,
       "meta": {
-        "stars": 165,
+        "stars": 166,
         "url": "https://github.com/YeJe-cpu/SeeCut"
       }
     },
