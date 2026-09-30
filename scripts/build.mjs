@@ -22,7 +22,7 @@ function renderPage(body, meta, config) {
     ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(config.adsense.client)}" crossorigin="anonymous"></script>`
     : "";
   return `<!doctype html>
-<html lang="${esc(config.site.language)}">
+<html lang="${esc(config.site.language)}" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@ function renderPage(body, meta, config) {
   <meta property="og:description" content="${esc(meta.description)}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="${b}${meta.url}">
-  <meta name="twitter:card" content="summary">
+  ${meta.image ? `<meta property="og:image" content="${esc(meta.image)}">\n  <meta name="twitter:card" content="summary_large_image">\n  <meta name="twitter:image" content="${esc(meta.image)}">` : '<meta name="twitter:card" content="summary">'}
   <link rel="canonical" href="${b}${meta.url}">
   <link rel="alternate" type="application/rss+xml" title="${esc(config.site.name)} RSS" href="${b}/rss.xml">
   <link rel="sitemap" type="application/xml" href="${b}/sitemap.xml">
@@ -92,6 +92,7 @@ function articleSchema(a, config, url) {
   return {
     "@type": "Article",
     headline: a.title,
+    ...(a._image && !a._image.startsWith("data:") ? { image: a._image } : {}),
     description: a.metaDescription,
     datePublished: a._date,
     dateModified: a._date,
@@ -120,6 +121,9 @@ function structuredData(a, config, url) {
 }
 
 function articleBodyHtml(a, config) {
+  const heroImg = a._image
+    ? `<img class="hero-img" src="${esc(a._image)}" alt="AI-generated illustration for: ${esc(a.title)}" width="1200" height="600" loading="eager">`
+    : "";
   const sectionsHtml = (a.sections || [])
     .map((s) => `<section><h2>${esc(s.heading)}</h2>${mdToHtml(s.body || "")}</section>`)
     .join("\n");
@@ -131,6 +135,7 @@ function articleBodyHtml(a, config) {
     <p class="kicker">${(a._date || "").slice(0, 10)} · ${a._wordCount} words · autonomous edition</p>
     <h1>${esc(a.title)}</h1>
     <p class="dek">${esc(a.metaDescription)}</p>
+    ${heroImg}
     ${sectionsHtml}
     ${faqHtml}
     <section class="takeaway"><h2>Key takeaway</h2><p><strong>${esc(a.keyTakeaway || "")}</strong></p></section>
@@ -141,7 +146,7 @@ function articleBodyHtml(a, config) {
 function articleHtml(a, config) {
   const url = `/posts/${a._slug}.html`;
   const body = articleBodyHtml(a, config);
-  const meta = { title: a.title, description: a.metaDescription, url };
+  const meta = { title: a.title, description: a.metaDescription, url, image: a._image };
   return renderPage(body, meta, config) + "\n" + structuredData(a, config, url);
 }
 
@@ -150,13 +155,21 @@ function homePagePostsHtml(posts, config) {
     .slice(0, 30)
     .map(
       (p) => `<li class="card">
+  <a class="thumb" href="/posts/${esc(p.slug)}.html">${
+        p.image
+          ? `<img src="${esc(p.image)}" alt="Illustration for: ${esc(p.title)}" loading="lazy" width="640" height="280">`
+          : ""
+      }</a>
+  <div class="card-body">
   <a href="/posts/${esc(p.slug)}.html"><h2>${esc(p.title)}</h2></a>
   <p class="dek">${esc(p.description)}</p>
-  <p class="meta"><time>${p.date.slice(0, 10)}</time> · ${(p.tags || []).map((t) => `#${esc(t)}`).join(" · ")}</p>
+  <p class="meta"><time>${p.date.slice(0, 10)}</time> · ${(p.tags || []).map((t) => `<span class="tag">#${esc(t)}</span>`).join(" ")}</p>
+  </div>
 </li>`
     )
     .join("\n");
   return `<section class="hero">
+  <span class="eyebrow">⚡ Updated by an autonomous agent</span>
   <h1>${esc(config.site.name)}</h1>
   <p class="dek">${esc(config.site.tagline)}</p>
 </section>
@@ -224,7 +237,62 @@ function readContentPosts(contentDir) {
   }
 }
 
-export function buildSite(config, article) {
+// ---------- AI hero images (free, keyless Pollinations; never blocks a build) ----------
+
+function imagePromptFor(article) {
+  const kw = (article.tags || []).slice(0, 2).join(", ");
+  return `modern editorial illustration about ${article.title.slice(0, 80)}. ${kw}. futuristic, clean, vibrant gradient lighting, glassmorphism, high detail, no text`;
+}
+
+function svgFallback(slug) {
+  const hue = [...slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue},80%,60%)"/><stop offset="1" stop-color="hsl(${(hue + 70) % 360},80%,45%)"/></linearGradient></defs><rect width="1200" height="600" fill="url(#g)"/><circle cx="950" cy="140" r="220" fill="rgba(255,255,255,0.14)"/><circle cx="240" cy="480" r="300" fill="rgba(0,0,0,0.10)"/><text x="60" y="330" font-family="Segoe UI,Arial" font-size="64" font-weight="800" fill="rgba(255,255,255,0.92)">AI ToolLab</text></svg>`;
+  return `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
+}
+
+function detectImage(buf) {
+  if (buf.length < 12) return null;
+  const h = buf.subarray(0, 4).toString("hex");
+  if (h.startsWith("ffd8")) return "jpg";
+  if (h.startsWith("89504e47")) return "png";
+  if (h === "52494646" && buf.subarray(8, 12).toString("ascii") === "WEBP") return "webp";
+  return null;
+}
+
+async function generateImageFor(article, slug, imagesDir) {
+  // cache: any previously generated format wins — CI and local reruns are free
+  for (const ext of ["jpg", "png", "webp"]) {
+    const f = path.join(imagesDir, `${slug}.${ext}`);
+    if (fs.existsSync(f) && fs.statSync(f).size > 3000) return `/assets/img/${slug}.${ext}`;
+  }
+
+  const prompt = encodeURIComponent(imagePromptFor(article));
+  const providers = [
+    { url: (seed) => `https://image.pollinations.ai/prompt/${prompt}?width=1200&height=600&nologo=true&seed=${seed}`, seed: slug.length },
+    { url: (seed) => `https://api.a0.dev/assets/image?text=${prompt}&aspect=16:9&seed=${seed}`, seed: (slug.charCodeAt(0) || 7) * 13 },
+  ];
+
+  for (const p of providers) {
+    try {
+      const res = await fetch(p.url(p.seed), { signal: AbortSignal.timeout(60000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const buf = Buffer.from(await res.arrayBuffer());
+      const ext = detectImage(buf);
+      if (!ext || buf.length < 3000) throw new Error(`not a valid image (${buf.length}b)`);
+      const file = path.join(imagesDir, `${slug}.${ext}`);
+      fs.writeFileSync(file, buf);
+      console.log(`[img] generated hero for ${slug} (${Math.round(buf.length / 1024)}kb ${ext})`);
+      return `/assets/img/${slug}.${ext}`;
+    } catch (err) {
+      console.error(`[img] provider failed for ${slug}: ${err.message} — trying next`);
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+  }
+  console.error(`[img] all providers failed for ${slug} — SVG gradient fallback (will retry next run)`);
+  return svgFallback(slug);
+}
+
+export async function buildSite(config, article) {
   const publicDir = "public";
   fs.mkdirSync(publicDir, { recursive: true });
 
@@ -239,8 +307,19 @@ export function buildSite(config, article) {
   fs.mkdirSync(contentDir, { recursive: true });
   fs.writeFileSync(path.join(contentDir, `${slug}.json`), JSON.stringify(dated, null, 2) + "\n");
 
-  // rebuild all article pages from the archive
+  // rebuild all article pages from the archive — images first, so both article
+  // pages and the home page can reference downloaded files when they succeed.
+  // Images live in site/assets/img (committed to the repo) so CI never regenerates them.
   const all = readContentPosts(contentDir);
+  const imagesDir = path.join("site", "assets", "img");
+  fs.mkdirSync(imagesDir, { recursive: true });
+  const b = base(config);
+  for (const a of all) {
+    const s = a._slug || slugify(a.title);
+    const local = await generateImageFor(a, s, imagesDir);
+    a._image = local.startsWith("data:") ? local : `${b}${local}`;
+  }
+  fs.cpSync(imagesDir, path.join(publicDir, "assets", "img"), { recursive: true });
   fs.mkdirSync(path.join(publicDir, "posts"), { recursive: true });
   for (const a of all) {
     const s = a._slug || slugify(a.title);
@@ -253,6 +332,7 @@ export function buildSite(config, article) {
     description: a.metaDescription,
     date: a._date || new Date(0).toISOString(),
     tags: a.tags || [],
+    image: a._image,
   }));
 
   fs.writeFileSync(path.join(publicDir, "index.html"), homeHtml(posts, config));
@@ -281,7 +361,7 @@ const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv
 if (isMain) try {
   const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
   const gen = JSON.parse(fs.readFileSync("scripts/.generate.json", "utf8"));
-  const entry = buildSite(config, gen);
+  const entry = await buildSite(config, gen);
   fs.writeFileSync("scripts/.built.json", JSON.stringify(entry, null, 2));
 } catch (err) {
   console.error("[build] FAILED:", err.message);

@@ -60,7 +60,7 @@ fs.writeFileSync(
 );
 
 // 4. build
-const entry = buildSite(config, article);
+const entry = await buildSite(config, article);
 fs.writeFileSync("scripts/.built.json", JSON.stringify(entry, null, 2));
 
 // 5. report (direct call so .built.json is guaranteed present)
