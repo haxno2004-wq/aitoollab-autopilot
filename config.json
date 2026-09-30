@@ -26,14 +26,54 @@
       "note": "Editorial picks, updated weekly."
     },
     "links": [
-      { "id": "elevenlabs", "label": "ElevenLabs", "url": "https://elevenlabs.io/?ref=YOUR_ID", "context": "voice, audio, dubbing" },
-      { "id": "notion", "label": "Notion AI", "url": "https://www.notion.so/product/ai?ref=YOUR_ID", "context": "notes, docs, workspace" },
-      { "id": "jasper", "label": "Jasper", "url": "https://www.jasper.ai/?ref=YOUR_ID", "context": "marketing copy, brand voice" },
-      { "id": "descript", "label": "Descript", "url": "https://www.descript.com/?ref=YOUR_ID", "context": "video, podcast editing" },
-      { "id": "perplexity", "label": "Perplexity Pro", "url": "https://www.perplexity.ai/pro?ref=YOUR_ID", "context": "research, cited answers" },
-      { "id": "framer", "label": "Framer", "url": "https://www.framer.com/?ref=YOUR_ID", "context": "site building, design" },
-      { "id": "grammarly", "label": "Grammarly", "url": "https://www.grammarly.com/?ref=YOUR_ID", "context": "writing quality" },
-      { "id": "zapier", "label": "Zapier", "url": "https://zapier.com/?ref=YOUR_ID", "context": "automation, integrations" }
+      {
+        "id": "elevenlabs",
+        "label": "ElevenLabs",
+        "url": "https://elevenlabs.io/?ref=YOUR_ID",
+        "context": "voice, audio, dubbing"
+      },
+      {
+        "id": "notion",
+        "label": "Notion AI",
+        "url": "https://www.notion.so/product/ai?ref=YOUR_ID",
+        "context": "notes, docs, workspace"
+      },
+      {
+        "id": "jasper",
+        "label": "Jasper",
+        "url": "https://www.jasper.ai/?ref=YOUR_ID",
+        "context": "marketing copy, brand voice"
+      },
+      {
+        "id": "descript",
+        "label": "Descript",
+        "url": "https://www.descript.com/?ref=YOUR_ID",
+        "context": "video, podcast editing"
+      },
+      {
+        "id": "perplexity",
+        "label": "Perplexity Pro",
+        "url": "https://www.perplexity.ai/pro?ref=YOUR_ID",
+        "context": "research, cited answers"
+      },
+      {
+        "id": "framer",
+        "label": "Framer",
+        "url": "https://www.framer.com/?ref=YOUR_ID",
+        "context": "site building, design"
+      },
+      {
+        "id": "grammarly",
+        "label": "Grammarly",
+        "url": "https://www.grammarly.com/?ref=YOUR_ID",
+        "context": "writing quality"
+      },
+      {
+        "id": "zapier",
+        "label": "Zapier",
+        "url": "https://zapier.com/?ref=YOUR_ID",
+        "context": "automation, integrations"
+      }
     ]
   },
   "adsense": {
@@ -42,7 +82,7 @@
   },
   "indexnow": {
     "enabled": true,
-    "key": ""
+    "key": "9d7e5592-9074-43b7-bfde-948b822d71d6"
   },
   "llm": {
     "primary": {
