@@ -50,12 +50,23 @@ jobs:
         run: |
           set -e
           VER=$(curl -s -o /tmp/v.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/user/tokens/verify")
+          if [ "$VER" != "200" ]; then
+            # account-owned tokens (cfat_*) verify against the account endpoint instead
+            VER=$(curl -s -o /tmp/v.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/tokens/verify")
+          fi
           echo "token verify: HTTP $VER $(head -c 200 /tmp/v.json)"
           if [ "$VER" != "200" ]; then
-            echo "::error::CLOUDFLARE_API_TOKEN value is INVALID (401 = typo/truncated/rolled after copying). Create a fresh token and re-set the secret."
+            echo "::error::CLOUDFLARE_API_TOKEN value is INVALID for both user- and account-owned verify endpoints (401 = typo/truncated/deleted). Create a fresh token and re-set the secret."
             exit 1
           fi
           echo "✅ token is active"
+          ACC=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts?per_page=5")
+          echo "accounts this token can access: $(echo "$ACC" | head -c 400)"
+          if ! echo "$ACC" | grep -q "\"id\":\"$CLOUDFLARE_ACCOUNT_ID\""; then
+            echo "::error::CLOUDFLARE_ACCOUNT_ID secret does not match any account this token belongs to (see list above). Copy the Account ID again from Workers & Pages > Overview > right sidebar."
+            exit 1
+          fi
+          echo "✅ account ID matches"
           CODE2=$(curl -s -o /tmp/cfp.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects")
           echo "Pages permission check: HTTP $CODE2"
           if [ "$CODE2" != "200" ]; then cat /tmp/cfp.json; echo "::error::Token missing Cloudflare Pages:Edit permission - edit the token and set the Pages row to Edit (third dropdown)"; exit 1; fi
