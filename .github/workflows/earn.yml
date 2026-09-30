@@ -74,7 +74,9 @@ jobs:
         run: |
           git config user.name "earning-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add state/ content/ scripts/.discover.json
+          git add state/ 2>/dev/null || true
+          git add content/ 2>/dev/null || true
+          git add scripts/.discover.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "autopilot: $(date -u +%F) run [skip ci]"
           git pull --rebase=autostash origin ${GITHUB_REF_NAME} || true
           git push || echo "push failed (will retry next run)"
