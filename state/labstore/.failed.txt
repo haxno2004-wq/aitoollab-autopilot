@@ -1,1 +1,1 @@
-no LLM key for product generation
+product generation failed
