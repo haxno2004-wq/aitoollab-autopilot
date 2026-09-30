@@ -50,11 +50,10 @@ jobs:
         run: |
           set -e
           CODE=$(curl -s -o /tmp/cf.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID")
-          echo "token/account check: HTTP $CODE"
-          if [ "$CODE" != "200" ]; then cat /tmp/cf.json; echo "::error::CLOUDFLARE_API_TOKEN or CLOUDFLARE_ACCOUNT_ID is invalid (see JSON above)"; exit 1; fi
+          echo "token/account check: HTTP $CODE (403 is OK for minimal-scope tokens)"
           CODE2=$(curl -s -o /tmp/cfp.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects")
           echo "Pages permission check: HTTP $CODE2"
-          if [ "$CODE2" != "200" ]; then cat /tmp/cfp.json; echo "::error::Token missing Cloudflare Pages:Edit permission - re-create the API token using the 'Edit Cloudflare Workers' template PLUS 'Account > Cloudflare Pages > Edit'"; exit 1; fi
+          if [ "$CODE2" != "200" ]; then cat /tmp/cfp.json; echo "::error::Token missing Cloudflare Pages:Edit permission - create a custom token with Account > Cloudflare Pages > Edit"; exit 1; fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
