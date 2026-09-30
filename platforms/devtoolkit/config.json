@@ -3,7 +3,8 @@
   "site": {
     "name": "DevToolkit Daily",
     "tagline": "Field-tested dev tools, terminal utilities, and workflow upgrades for working programmers.",
-    "url": "https://devtoolkit.pages.dev",
+    "url": "https://devtoolkit-daily.pages.dev",
+    "pagesProject": "devtoolkit-daily",
     "language": "en",
     "author": "DevToolkit Editorial"
   },

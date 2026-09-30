@@ -3,7 +3,8 @@
   "site": {
     "name": "PromptForge Shop",
     "tagline": "Professionally engineered AI prompt packs and templates — instant download, use with any AI model.",
-    "url": "https://promptforge.pages.dev",
+    "url": "https://promptforge-shop.pages.dev",
+    "pagesProject": "promptforge-shop",
     "language": "en",
     "author": "PromptForge"
   },

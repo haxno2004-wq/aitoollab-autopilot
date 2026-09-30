@@ -46,7 +46,9 @@ export async function runStore() {
   const usedTitles = new Set((state.usedTopics || []).map((t) => t.toLowerCase()));
 
   const rotateDays = config.store?.rotateDays || 10;
-  const nextAllowed = state.lastRun ? new Date(state.lastRun).getTime() + rotateDays * 864e5 : 0;
+  // rotation keys off the last PRODUCT (not lastRun — report.mjs touches lastRun every run,
+  // which would otherwise postpone creation forever on skips)
+  const nextAllowed = state.lastProductAt ? new Date(state.lastProductAt).getTime() + rotateDays * 864e5 : 0;
   if (Date.now() < nextAllowed) {
     const hrs = Math.ceil((nextAllowed - Date.now()) / 36e5);
     console.log(`[store/${ctx.id}] rotation: next product in ~${hrs}h (nothing to do)`);
@@ -94,7 +96,7 @@ export async function runStore() {
   // track for dedupe + reporting
   if (!state.publishedSlugs.includes(slug)) state.publishedSlugs.push(slug);
   state.usedTopics.push(next.title);
-  state.lastRun = nowIso();
+  state.lastProductAt = nowIso();
   saveState(ctx.stateFile, state);
 
   const row = [nowIso(), slug, product.name, "gumroad", product.price || 19, "success"];
