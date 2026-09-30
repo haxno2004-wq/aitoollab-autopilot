@@ -1,0 +1,20 @@
+{
+  "name": "ai-tools-content-autopilot",
+  "version": "1.0.0",
+  "description": "Autonomous free-earning content autopilot: discovers trending AI-tools topics, generates SEO articles via free LLM tiers, publishes to Cloudflare Pages, pings search engines, and reports.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "run:dry": "node scripts/dryrun.mjs",
+    "run:discover": "node scripts/discover.mjs",
+    "run:select": "node scripts/select.mjs",
+    "run:generate": "node scripts/generate.mjs",
+    "run:build": "node scripts/build.mjs",
+    "run:indexnow": "node scripts/indexnow.mjs",
+    "run:report": "node scripts/report.mjs",
+    "status": "node scripts/monitor/status.mjs"
+  }
+}

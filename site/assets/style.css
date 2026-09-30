@@ -1,0 +1,134 @@
+:root {
+  --bg: #fafaf7;
+  --fg: #1c1e21;
+  --muted: #6b7280;
+  --accent: #4f46e5;
+  --accent-contrast: #ffffff;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --code-bg: #f3f4f6;
+}
+
+[data-theme="dark"] {
+  --bg: #0f1115;
+  --fg: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #818cf8;
+  --accent-contrast: #0f1115;
+  --card: #171a21;
+  --border: #2a2f3a;
+  --code-bg: #1f2430;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.7;
+}
+
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 1.25rem; }
+
+.site-head {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.head-wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 0.9rem; padding-bottom: 0.9rem; }
+.brand { font-weight: 800; text-decoration: none; color: var(--fg); font-size: 1.15rem; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 1rem; font-size: 0.95rem; }
+nav a:hover { color: var(--accent); }
+
+.hero { margin: 2.5rem 0 2rem; }
+.hero h1 { font-size: 2.2rem; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
+.hero .dek { color: var(--muted); font-size: 1.1rem; margin: 0; }
+
+.posts { list-style: none; padding: 0; margin: 0 0 3rem; display: grid; gap: 1rem; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  transition: border-color 0.15s ease;
+}
+.card:hover { border-color: var(--accent); }
+.card h2 { margin: 0 0 0.35rem; font-size: 1.25rem; line-height: 1.35; }
+.card a { color: var(--fg); text-decoration: none; }
+.card a:hover h2 { color: var(--accent); }
+.card .dek { color: var(--muted); margin: 0 0 0.5rem; font-size: 0.98rem; }
+.card .meta { color: var(--muted); font-size: 0.85rem; margin: 0; }
+
+article { padding: 2.5rem 0 3rem; }
+.kicker { color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 0.5rem; }
+article h1 { font-size: 2.1rem; line-height: 1.25; letter-spacing: -0.02em; margin: 0 0 0.6rem; }
+.dek { color: var(--muted); font-size: 1.12rem; margin: 0 0 2rem; }
+article h2 { font-size: 1.45rem; margin: 2.2rem 0 0.8rem; letter-spacing: -0.01em; }
+article p { margin: 0 0 1.1rem; }
+article ul, article ol { padding-left: 1.4rem; margin: 0 0 1.1rem; }
+article li { margin-bottom: 0.4rem; }
+article a { color: var(--accent); }
+article blockquote {
+  margin: 1.2rem 0;
+  padding: 0.6rem 1.1rem;
+  border-left: 3px solid var(--accent);
+  background: var(--card);
+  border-radius: 0 8px 8px 0;
+  color: var(--muted);
+}
+article code {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.88em;
+}
+
+.faq details {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem 1.1rem;
+  margin-bottom: 0.7rem;
+}
+.faq summary { cursor: pointer; font-weight: 600; }
+.faq div { color: var(--fg); margin-top: 0.6rem; }
+
+.takeaway {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 0.4rem 1.3rem 0.8rem;
+  margin: 2rem 0;
+}
+
+.aff-box {
+  background: var(--card);
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.3rem;
+  margin: 2rem 0;
+}
+.aff-box h3 { margin: 0 0 0.6rem; font-size: 1.05rem; }
+.aff-box ul { list-style: none; padding: 0; margin: 0 0 0.6rem; }
+.aff-box li { margin-bottom: 0.35rem; }
+.aff-box .why { color: var(--muted); font-size: 0.92rem; }
+.aff-note { color: var(--muted); font-size: 0.82rem; margin: 0; }
+
+.site-foot {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 1.5rem 0 2.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 640px) {
+  article h1 { font-size: 1.7rem; }
+  .hero h1 { font-size: 1.8rem; }
+}

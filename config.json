@@ -1,0 +1,72 @@
+{
+  "site": {
+    "name": "AI ToolLab",
+    "tagline": "Practical reviews, benchmarks, and workflows for the AI tools that actually save you time.",
+    "url": "https://aitoollab.pages.dev",
+    "language": "en",
+    "author": "AI ToolLab Editorial"
+  },
+  "niche": "AI tools & automation",
+  "keywords": [
+    "ai tools",
+    "ai automation",
+    "ai productivity",
+    "best ai tools",
+    "ai workflow",
+    "ai agents",
+    "ai writing tools",
+    "ai video tools",
+    "prompt engineering"
+  ],
+  "affiliate": {
+    "disclosure": "Disclosure: This article contains affiliate links. If you buy through them, we may earn a commission at no extra cost to you.",
+    "slotArticleFootnote": {
+      "enabled": true,
+      "heading": "Tools worth trying this week",
+      "note": "Editorial picks, updated weekly."
+    },
+    "links": [
+      { "id": "elevenlabs", "label": "ElevenLabs", "url": "https://elevenlabs.io/?ref=YOUR_ID", "context": "voice, audio, dubbing" },
+      { "id": "notion", "label": "Notion AI", "url": "https://www.notion.so/product/ai?ref=YOUR_ID", "context": "notes, docs, workspace" },
+      { "id": "jasper", "label": "Jasper", "url": "https://www.jasper.ai/?ref=YOUR_ID", "context": "marketing copy, brand voice" },
+      { "id": "descript", "label": "Descript", "url": "https://www.descript.com/?ref=YOUR_ID", "context": "video, podcast editing" },
+      { "id": "perplexity", "label": "Perplexity Pro", "url": "https://www.perplexity.ai/pro?ref=YOUR_ID", "context": "research, cited answers" },
+      { "id": "framer", "label": "Framer", "url": "https://www.framer.com/?ref=YOUR_ID", "context": "site building, design" },
+      { "id": "grammarly", "label": "Grammarly", "url": "https://www.grammarly.com/?ref=YOUR_ID", "context": "writing quality" },
+      { "id": "zapier", "label": "Zapier", "url": "https://zapier.com/?ref=YOUR_ID", "context": "automation, integrations" }
+    ]
+  },
+  "adsense": {
+    "enabled": false,
+    "client": ""
+  },
+  "indexnow": {
+    "enabled": true,
+    "key": ""
+  },
+  "llm": {
+    "primary": {
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+    },
+    "fallback": {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "endpoint": "https://openrouter.ai/api/v1/chat/completions"
+    },
+    "maxOutputTokens": 8192,
+    "requestTimeoutMs": 90000,
+    "backoffBaseMs": 2000,
+    "backoffMaxAttempts": 3
+  },
+  "limits": {
+    "minWords": 800,
+    "minSections": 3,
+    "minFaqs": 3
+  },
+  "report": {
+    "stateFile": "state/state.json",
+    "logFile": "state/log.csv"
+  }
+}
