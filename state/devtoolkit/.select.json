@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-09-30T16:27:22.632Z",
-  "topic": "A Staff Engineer's Guide to Inventing Work",
-  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
-  "slug": "a-staff-engineers-guide-to-inventing-work",
+  "pickedAt": "2026-09-30T17:30:18.365Z",
+  "topic": "A Brief History of the Bloomberg Terminal",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "a-brief-history-of-the-bloomberg-terminal",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
-  "remaining": 28
+  "finalScore": 5,
+  "remaining": 25
 }

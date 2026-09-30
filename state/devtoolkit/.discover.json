@@ -1,18 +1,6 @@
 {
-  "fetchedAt": "2026-09-30T16:27:22.613Z",
+  "fetchedAt": "2026-09-30T17:30:18.338Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "A Staff Engineer's Guide to Inventing Work",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "score": 4,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "How Delhi cut electricity loss from 50 to 5 percent",
@@ -51,7 +39,7 @@
     },
     {
       "source": "hn",
-      "topic": "Pi.dev: You Said No MCP",
+      "topic": "You Said No MCP",
       "score": 3,
       "meta": {}
     },
@@ -99,37 +87,13 @@
     },
     {
       "source": "hn",
-      "topic": "Language models for text classification: From bag-of-words to Jev",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Needed 1+1, built a functional programming language",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "NRC issues first U.S. construction permit for a BWRX-300 small modular reactor",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The AI Race Just Got Awkward",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "RSS Feeds for Last.fm",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Using 2D DFT, dithering, etc. to maximize eInk manga image quality",
+      "topic": "I Could've Accessed 17T Microsoft Records",
       "score": 1,
       "meta": {}
     },
@@ -153,14 +117,14 @@
     },
     {
       "source": "hn",
-      "topic": "Testing WebGPU data layouts with Facet",
-      "score": 0,
+      "topic": "Show HN: I created a BGP-based blackhole system that you can set up in minutes",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I Could've Accessed 17T Microsoft Records",
-      "score": 0,
+      "topic": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
+      "score": 1,
       "meta": {}
     },
     {
@@ -171,7 +135,31 @@
     },
     {
       "source": "hn",
+      "topic": "Testing WebGPU data layouts with Facet",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Floppy Emu Hardware Failure Analysis Results",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "SDF Public Access Unix System ... est. 1987",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Let's Ditch Google (Verb)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What TLA+ can and can't check",
       "score": 0,
       "meta": {}
     }
