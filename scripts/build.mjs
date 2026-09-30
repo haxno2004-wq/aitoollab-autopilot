@@ -3,6 +3,9 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { mdToHtml } from "../lib/markdown.mjs";
 import { slugify } from "../lib/state.mjs";
+import { platformCtx } from "../lib/platform.mjs";
+
+const ctx = platformCtx();
 
 function esc(s) {
   return String(s)
@@ -16,8 +19,65 @@ function base(config) {
   return config.site.url.replace(/\/+$/, "");
 }
 
+// ---------- AI hero images (free, keyless; never blocks a build) ----------
+
+function imagePromptFor(title, tags) {
+  const kw = (tags || []).slice(0, 2).join(", ");
+  return `modern editorial illustration about ${String(title).slice(0, 80)}. ${kw}. futuristic, clean, vibrant gradient lighting, glassmorphism, high detail, no text`;
+}
+
+function svgFallback(slug) {
+  const hue = [...slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue},80%,60%)"/><stop offset="1" stop-color="hsl(${(hue + 70) % 360},80%,45%)"/></linearGradient></defs><rect width="1200" height="600" fill="url(#g)"/><circle cx="950" cy="140" r="220" fill="rgba(255,255,255,0.14)"/><circle cx="240" cy="480" r="300" fill="rgba(0,0,0,0.10)"/><text x="60" y="330" font-family="Segoe UI,Arial" font-size="64" font-weight="800" fill="rgba(255,255,255,0.92)">${esc(ctx.config.site.name)}</text></svg>`;
+  return `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
+}
+
+function detectImage(buf) {
+  if (buf.length < 12) return null;
+  const h = buf.subarray(0, 4).toString("hex");
+  if (h.startsWith("ffd8")) return "jpg";
+  if (h.startsWith("89504e47")) return "png";
+  if (h === "52494646" && buf.subarray(8, 12).toString("ascii") === "WEBP") return "webp";
+  return null;
+}
+
+async function generateImageFor(title, tags, slug, imagesDir) {
+  for (const ext of ["jpg", "png", "webp"]) {
+    const f = path.join(imagesDir, `${slug}.${ext}`);
+    if (fs.existsSync(f) && fs.statSync(f).size > 3000) return `/assets/img/${slug}.${ext}`;
+  }
+  const prompt = encodeURIComponent(imagePromptFor(title, tags));
+  const providers = [
+    { url: `https://image.pollinations.ai/prompt/${prompt}?width=1200&height=600&nologo=true&seed=${slug.length}`, name: "pollinations" },
+    { url: `https://api.a0.dev/assets/image?text=${prompt}&aspect=16:9&seed=${(slug.charCodeAt(0) || 7) * 13}`, name: "a0" },
+  ];
+  for (const p of providers) {
+    try {
+      const res = await fetch(p.url, { signal: AbortSignal.timeout(60000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const buf = Buffer.from(await res.arrayBuffer());
+      const ext = detectImage(buf);
+      if (!ext || buf.length < 3000) throw new Error(`invalid image (${buf.length}b)`);
+      fs.writeFileSync(path.join(imagesDir, `${slug}.${ext}`), buf);
+      console.log(`[img/${ctx.id}] ${slug} ← ${p.name} (${Math.round(buf.length / 1024)}kb ${ext})`);
+      return `/assets/img/${slug}.${ext}`;
+    } catch (err) {
+      console.error(`[img/${ctx.id}] ${p.name} failed for ${slug}: ${err.message}`);
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+  }
+  console.error(`[img/${ctx.id}] fallback SVG for ${slug} (will retry next run)`);
+  return svgFallback(slug);
+}
+
+// ---------- rendering ----------
+
 function renderPage(body, meta, config) {
   const b = base(config);
+  const th = config.theme || {};
+  const accent = th.accent || "#6d5cff";
+  const accent2 = th.accent2 || "#00c2a8";
+  const accent3 = th.accent3 || "#ff5c8a";
   const adsenseScript = config.adsense?.enabled
     ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(config.adsense.client)}" crossorigin="anonymous"></script>`
     : "";
@@ -37,8 +97,11 @@ function renderPage(body, meta, config) {
   <link rel="canonical" href="${b}${meta.url}">
   <link rel="alternate" type="application/rss+xml" title="${esc(config.site.name)} RSS" href="${b}/rss.xml">
   <link rel="sitemap" type="application/xml" href="${b}/sitemap.xml">
-  <meta name="theme-color" content="#0f1115">
+  <meta name="theme-color" content="${esc(th.bgDark || "#0a0c14")}">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <style>
+    :root { --accent:${accent}; --accent2:${accent2}; --accent3:${accent3}; }
+  </style>
   <link rel="stylesheet" href="/assets/style.css">
   <script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script>
 </head>
@@ -54,7 +117,7 @@ ${body}
   </main>
   <footer class="site-foot">
     <div class="wrap">
-      <p>${esc(config.affiliate.disclosure)}</p>
+      <p>${esc(config.affiliate?.disclosure || "")}</p>
       <p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously · <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a></p>
     </div>
   </footer>
@@ -64,8 +127,8 @@ ${body}
 }
 
 function affiliateBox(config, n = 3) {
-  const links = config.affiliate.links;
-  // stable pseudo-random pick seeded by week number so the box rotates weekly
+  const links = config.affiliate?.links || [];
+  if (!links.length) return "";
   const seed = Math.floor(Date.now() / 6048e5);
   const used = new Set();
   const picks = [];
@@ -79,11 +142,11 @@ function affiliateBox(config, n = 3) {
     .map((l) => `<li><a href="${esc(l.url)}" rel="sponsored noopener" target="_blank">${esc(l.label)}</a><span class="why"> — ${esc(l.context)}</span></li>`)
     .join("\n      ");
   return `<aside class="aff-box">
-  <h3>${esc(config.affiliate.slotArticleFootnote.heading)}</h3>
+  <h3>${esc(config.affiliate.slotArticleFootnote?.heading || "Tools worth trying")}</h3>
   <ul>
       ${items}
   </ul>
-  <p class="aff-note">${esc(config.affiliate.slotArticleFootnote.note)} · ${esc(config.affiliate.disclosure)}</p>
+  <p class="aff-note">${esc(config.affiliate.slotArticleFootnote?.note || "Editorial picks.")} · ${esc(config.affiliate.disclosure)}</p>
 </aside>`;
 }
 
@@ -92,8 +155,8 @@ function articleSchema(a, config, url) {
   return {
     "@type": "Article",
     headline: a.title,
-    ...(a._image && !a._image.startsWith("data:") ? { image: a._image } : {}),
     description: a.metaDescription,
+    ...(a._image && !a._image.startsWith("data:") ? { image: `${b}${a._image}` } : {}),
     datePublished: a._date,
     dateModified: a._date,
     keywords: (a.tags || []).join(", "),
@@ -150,44 +213,83 @@ function articleHtml(a, config) {
   return renderPage(body, meta, config) + "\n" + structuredData(a, config, url);
 }
 
-function homePagePostsHtml(posts, config) {
-  const items = posts
-    .slice(0, 30)
-    .map(
-      (p) => `<li class="card">
-  <a class="thumb" href="/posts/${esc(p.slug)}.html">${
-        p.image
-          ? `<img src="${esc(p.image)}" alt="Illustration for: ${esc(p.title)}" loading="lazy" width="640" height="280">`
-          : ""
-      }</a>
-  <div class="card-body">
-  <a href="/posts/${esc(p.slug)}.html"><h2>${esc(p.title)}</h2></a>
-  <p class="dek">${esc(p.description)}</p>
-  <p class="meta"><time>${p.date.slice(0, 10)}</time> · ${(p.tags || []).map((t) => `<span class="tag">#${esc(t)}</span>`).join(" ")}</p>
-  </div>
-</li>`
-    )
+// ---------- store product pages ----------
+
+function productBodyHtml(p, config) {
+  const img = p._image
+    ? `<img class="hero-img" src="${esc(p._image)}" alt="Preview art for ${esc(p.name)}" width="1200" height="600">`
+    : "";
+  const includesHtml = (p.includes || [])
+    .map((i) => `<li>${esc(i)}</li>`)
     .join("\n");
-  return `<section class="hero">
-  <span class="eyebrow">⚡ Updated by an autonomous agent</span>
+  const cta = p.buyUrl
+    ? `<a class="buy-btn" href="${esc(p.buyUrl)}" rel="noopener nofollow sponsored" target="_blank">Get it on Gumroad — $${esc(p.price)}</a>`
+    : `<p class="muted-note">Checkout link pending — set <code>buyUrl</code> in the product JSON.</p>`;
+  const sampleHtml = p.sampleItems?.length
+    ? `<section><h2>What's inside (sample)</h2><ul>${p.sampleItems.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></section>`
+    : "";
+
+  return `<article class="product">
+    <p class="kicker">digital product · instant download</p>
+    <h1>${esc(p.name)}</h1>
+    <p class="dek">${esc(p.tagline)}</p>
+    ${img}
+    <section><h2>What this is</h2>${mdToHtml(p.description)}</section>
+    ${sampleHtml}
+    <section><h2>Included</h2><ul class="includes">${includesHtml}</ul></section>
+    <section class="takeaway"><h2>Price</h2><p class="price-line"><strong>$${esc(p.price)}</strong> · ${esc(p.license || "personal use license")}</p><p>${cta}</p></section>
+  </article>`;
+}
+
+function productHtml(p, config) {
+  const url = `/products/${p._slug}.html`;
+  const body = productBodyHtml(p, config);
+  const meta = { title: p.name, description: p.tagline, url, image: p._image };
+  return renderPage(body, meta, config) + `\n<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: p.name,
+    description: p.description,
+    offers: { "@type": "Offer", price: p.price, priceCurrency: "USD", availability: "https://schema.org/InStock", url: `${base(config)}${url}` },
+  })}</script>`;
+}
+
+// ---------- index / home per type ----------
+
+function homeHtml(items, config) {
+  const isStore = (config.type || "content") === "store";
+  const cardItems = items
+    .slice(0, 30)
+    .map((p) => {
+      const href = isStore ? `/products/${p.slug}.html` : `/posts/${p.slug}.html`;
+      return `<li class="card">
+  <a class="thumb" href="${href}">${p.image ? `<img src="${esc(p.image)}" alt="Illustration for: ${esc(p.title)}" loading="lazy" width="640" height="280">` : ""}</a>
+  <div class="card-body">
+  <a href="${href}"><h2>${esc(p.title)}</h2></a>
+  <p class="dek">${esc(p.description)}</p>
+  <p class="meta">${isStore && p.price ? `<span class="tag">$${esc(p.price)}</span> · ` : ""}<time>${p.date.slice(0, 10)}</time>${p.tags?.length ? " · " + p.tags.map((t) => `<span class="tag">#${esc(t)}</span>`).join(" ") : ""}</p>
+  </div>
+</li>`;
+    })
+    .join("\n");
+  const eyebrow = isStore ? "🛍️ Fresh digital products, added automatically" : "⚡ Updated by an autonomous agent";
+  const body = `<section class="hero">
+  <span class="eyebrow">${eyebrow}</span>
   <h1>${esc(config.site.name)}</h1>
   <p class="dek">${esc(config.site.tagline)}</p>
 </section>
 <ul class="posts">
-${items}
+${cardItems}
 </ul>`;
+  return renderPage(body, { title: config.site.name, description: config.site.tagline, url: "/" }, config);
 }
 
-function homeHtml(posts, config) {
-  const meta = { title: config.site.name, description: config.site.tagline, url: "/" };
-  return renderPage(homePagePostsHtml(posts, config), meta, config);
-}
-
-function sitemapXml(posts, config) {
+function sitemapXml(items, config, kind) {
   const b = base(config);
+  const seg = kind === "store" ? "products" : "posts";
   const urls = [
-    { loc: "/", lastmod: posts[0]?.date },
-    ...posts.map((p) => ({ loc: `/posts/${p.slug}.html`, lastmod: p.date })),
+    { loc: "/", lastmod: items[0]?.date },
+    ...items.map((p) => ({ loc: `/${seg}/${p.slug}.html`, lastmod: p.date })),
   ];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -201,15 +303,16 @@ ${urls
 `;
 }
 
-function rssXml(posts, config) {
+function rssXml(items, config, kind) {
   const b = base(config);
-  const items = posts
+  const seg = kind === "store" ? "products" : "posts";
+  const body = items
     .slice(0, 20)
     .map(
       (p) => `    <item>
       <title>${esc(p.title)}</title>
-      <link>${b}/posts/${esc(p.slug)}.html</link>
-      <guid isPermaLink="true">${b}/posts/${esc(p.slug)}.html</guid>
+      <link>${b}/${seg}/${esc(p.slug)}.html</link>
+      <guid isPermaLink="true">${b}/${seg}/${esc(p.slug)}.html</guid>
       <pubDate>${new Date(p.date).toUTCString()}</pubDate>
       <description>${esc(p.description)}</description>
     </item>`
@@ -220,150 +323,102 @@ function rssXml(posts, config) {
     <title>${esc(config.site.name)}</title>
     <link>${b}/</link>
     <description>${esc(config.site.tagline)}</description>
-${items}
+${body}
 </channel></rss>
 `;
 }
 
-function readContentPosts(contentDir) {
+// ---------- main build ----------
+
+function readArchive(archiveDir) {
   try {
     return fs
-      .readdirSync(contentDir)
+      .readdirSync(archiveDir)
       .filter((f) => f.endsWith(".json"))
-      .map((f) => JSON.parse(fs.readFileSync(path.join(contentDir, f), "utf8")))
+      .map((f) => JSON.parse(fs.readFileSync(path.join(archiveDir, f), "utf8")))
       .sort((a, b) => (b._date || "").localeCompare(a._date || ""));
   } catch {
     return [];
   }
 }
 
-// ---------- AI hero images (free, keyless Pollinations; never blocks a build) ----------
-
-function imagePromptFor(article) {
-  const kw = (article.tags || []).slice(0, 2).join(", ");
-  return `modern editorial illustration about ${article.title.slice(0, 80)}. ${kw}. futuristic, clean, vibrant gradient lighting, glassmorphism, high detail, no text`;
-}
-
-function svgFallback(slug) {
-  const hue = [...slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(${hue},80%,60%)"/><stop offset="1" stop-color="hsl(${(hue + 70) % 360},80%,45%)"/></linearGradient></defs><rect width="1200" height="600" fill="url(#g)"/><circle cx="950" cy="140" r="220" fill="rgba(255,255,255,0.14)"/><circle cx="240" cy="480" r="300" fill="rgba(0,0,0,0.10)"/><text x="60" y="330" font-family="Segoe UI,Arial" font-size="64" font-weight="800" fill="rgba(255,255,255,0.92)">AI ToolLab</text></svg>`;
-  return `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
-}
-
-function detectImage(buf) {
-  if (buf.length < 12) return null;
-  const h = buf.subarray(0, 4).toString("hex");
-  if (h.startsWith("ffd8")) return "jpg";
-  if (h.startsWith("89504e47")) return "png";
-  if (h === "52494646" && buf.subarray(8, 12).toString("ascii") === "WEBP") return "webp";
-  return null;
-}
-
-async function generateImageFor(article, slug, imagesDir) {
-  // cache: any previously generated format wins — CI and local reruns are free
-  for (const ext of ["jpg", "png", "webp"]) {
-    const f = path.join(imagesDir, `${slug}.${ext}`);
-    if (fs.existsSync(f) && fs.statSync(f).size > 3000) return `/assets/img/${slug}.${ext}`;
-  }
-
-  const prompt = encodeURIComponent(imagePromptFor(article));
-  const providers = [
-    { url: (seed) => `https://image.pollinations.ai/prompt/${prompt}?width=1200&height=600&nologo=true&seed=${seed}`, seed: slug.length },
-    { url: (seed) => `https://api.a0.dev/assets/image?text=${prompt}&aspect=16:9&seed=${seed}`, seed: (slug.charCodeAt(0) || 7) * 13 },
-  ];
-
-  for (const p of providers) {
-    try {
-      const res = await fetch(p.url(p.seed), { signal: AbortSignal.timeout(60000) });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const buf = Buffer.from(await res.arrayBuffer());
-      const ext = detectImage(buf);
-      if (!ext || buf.length < 3000) throw new Error(`not a valid image (${buf.length}b)`);
-      const file = path.join(imagesDir, `${slug}.${ext}`);
-      fs.writeFileSync(file, buf);
-      console.log(`[img] generated hero for ${slug} (${Math.round(buf.length / 1024)}kb ${ext})`);
-      return `/assets/img/${slug}.${ext}`;
-    } catch (err) {
-      console.error(`[img] provider failed for ${slug}: ${err.message} — trying next`);
-      await new Promise((r) => setTimeout(r, 1500));
-    }
-  }
-  console.error(`[img] all providers failed for ${slug} — SVG gradient fallback (will retry next run)`);
-  return svgFallback(slug);
-}
-
-export async function buildSite(config, article) {
-  const publicDir = "public";
+export async function buildSite(config, newItem, ctxOverride) {
+  const C = ctxOverride || ctx;
+  const publicDir = C.distDir;
+  const isStore = (config.type || "content") === "store";
   fs.mkdirSync(publicDir, { recursive: true });
 
   fs.cpSync("site/assets", path.join(publicDir, "assets"), { recursive: true });
+  if (fs.existsSync("site/shared")) fs.cpSync("site/shared", path.join(publicDir, "shared"), { recursive: true });
 
-  const contentDir = "content/posts";
-  const slug = article._slug || slugify(article.title);
-  const dated = { ...article, _date: article._date || new Date().toISOString() };
+  const archiveDir = isStore ? C.productsDir : C.contentDir;
+  const item = { ...newItem, _date: newItem._date || new Date().toISOString() };
+  const slug = item._slug || item.slug || slugify(item.title || item.name);
+  item._slug = slug; // normalize so archive file, pages and sitemap always agree
+  fs.mkdirSync(archiveDir, { recursive: true });
+  fs.writeFileSync(path.join(archiveDir, `${slug}.json`), JSON.stringify(item, null, 2) + "\n");
 
-  // canonical save — the repo (content/posts) is the source of truth, so every
-  // run can rebuild the ENTIRE site and old articles never disappear
-  fs.mkdirSync(contentDir, { recursive: true });
-  fs.writeFileSync(path.join(contentDir, `${slug}.json`), JSON.stringify(dated, null, 2) + "\n");
+  const all = readArchive(archiveDir);
 
-  // rebuild all article pages from the archive — images first, so both article
-  // pages and the home page can reference downloaded files when they succeed.
-  // Images live in site/assets/img (committed to the repo) so CI never regenerates them.
-  const all = readContentPosts(contentDir);
-  const imagesDir = path.join("site", "assets", "img");
+  // images (shared across platforms via site/shared/img)
+  const imagesDir = "site/shared/img";
   fs.mkdirSync(imagesDir, { recursive: true });
   const b = base(config);
   for (const a of all) {
-    const s = a._slug || slugify(a.title);
-    const local = await generateImageFor(a, s, imagesDir);
+    const s = a._slug || slugify(a.title || a.name);
+    const local = await generateImageFor(a.title || a.name, a.tags, s, imagesDir);
     a._image = local.startsWith("data:") ? local : `${b}${local}`;
   }
   fs.cpSync(imagesDir, path.join(publicDir, "assets", "img"), { recursive: true });
-  fs.mkdirSync(path.join(publicDir, "posts"), { recursive: true });
+
+  const seg = isStore ? "products" : "posts";
+  fs.mkdirSync(path.join(publicDir, seg), { recursive: true });
   for (const a of all) {
-    const s = a._slug || slugify(a.title);
-    fs.writeFileSync(path.join(publicDir, "posts", `${s}.html`), articleHtml(a, config));
+    const s = a._slug || slugify(a.title || a.name);
+    fs.writeFileSync(path.join(publicDir, seg, `${s}.html`), isStore ? productHtml(a, config) : articleHtml(a, config));
   }
 
-  const posts = all.map((a) => ({
-    slug: a._slug || slugify(a.title),
-    title: a.title,
-    description: a.metaDescription,
+  const listItems = all.map((a) => ({
+    slug: a._slug || slugify(a.title || a.name),
+    title: a.title || a.name,
+    description: a.metaDescription || a.tagline,
     date: a._date || new Date(0).toISOString(),
     tags: a.tags || [],
     image: a._image,
+    price: a.price,
   }));
 
-  fs.writeFileSync(path.join(publicDir, "index.html"), homeHtml(posts, config));
-  fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemapXml(posts, config));
-  fs.writeFileSync(path.join(publicDir, "rss.xml"), rssXml(posts, config));
-  fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${base(config)}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(publicDir, "index.html"), homeHtml(listItems, config));
+  fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemapXml(listItems, config, config.type));
+  fs.writeFileSync(path.join(publicDir, "rss.xml"), rssXml(listItems, config, config.type));
+  fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${b}/sitemap.xml\n`);
 
   if (config.indexnow?.enabled && config.indexnow.key) {
     fs.writeFileSync(path.join(publicDir, `${config.indexnow.key}.txt`), config.indexnow.key + "\n");
   }
 
-  console.log(`[build] ${slug} published (${dated._wordCount} words, via ${dated._provider}) · rebuilt ${all.length} page(s)`);
+  const published = all.length;
+  console.log(`[build/${C.id}] ${slug} published (${item._wordCount || "product"}) · ${published} item(s) live`);
   return {
     slug,
-    title: dated.title,
-    description: dated.metaDescription,
-    date: dated._date,
-    words: dated._wordCount,
-    provider: dated._provider,
+    title: item.title || item.name,
+    description: item.metaDescription || item.tagline,
+    date: item._date,
+    words: item._wordCount,
+    provider: item._provider,
   };
 }
 
-// CLI (only when executed directly, not when imported by dryrun.mjs)
+// CLI
 const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
-
-if (isMain) try {
-  const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
-  const gen = JSON.parse(fs.readFileSync("scripts/.generate.json", "utf8"));
-  const entry = await buildSite(config, gen);
-  fs.writeFileSync("scripts/.built.json", JSON.stringify(entry, null, 2));
-} catch (err) {
-  console.error("[build] FAILED:", err.message);
-  process.exit(1);
+if (isMain) {
+  try {
+    const genFile = `${ctx.stateDir}/.generate.json`;
+    const gen = JSON.parse(fs.readFileSync(genFile, "utf8"));
+    const entry = await buildSite(ctx.config, gen, ctx);
+    fs.writeFileSync(`${ctx.stateDir}/.built.json`, JSON.stringify(entry, null, 2));
+  } catch (err) {
+    console.error(`[build/${ctx.id}] FAILED:`, err.message);
+    process.exit(1);
+  }
 }

@@ -1,0 +1,113 @@
+{
+  "fetchedAt": "2026-09-30T16:27:25.599Z",
+  "candidates": [
+    {
+      "source": "hn",
+      "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
+      "score": 6,
+      "meta": {
+        "points": 20,
+        "url": "https://github.com/katanemo/archgw"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: What are some actual use cases of AI Agents right now?",
+      "score": 5,
+      "meta": {
+        "points": 169,
+        "url": "https://news.ycombinator.com/item?id=39373662"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: We started building an AI dev tool but it turned into a Sims-style game",
+      "score": 5,
+      "meta": {
+        "points": 156,
+        "url": "https://www.youtube.com/watch?v=sRPnX_f2V_c"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
+      "score": 4,
+      "meta": {
+        "points": 69,
+        "url": "https://github.com/fchimpan/gh-slimify"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Reverse-engineering web apps into agent tools",
+      "score": 4,
+      "meta": {
+        "points": 96,
+        "url": "https://news.ycombinator.com/item?id=48847834"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A big tech dev experience for an open source CMS",
+      "score": 3,
+      "meta": {
+        "points": 58,
+        "url": "https://contentfoundry.com/"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "score": 3,
+      "meta": {
+        "points": 260,
+        "url": "https://github.com/nex-crm/wuphf"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI",
+      "score": 2,
+      "meta": {
+        "points": 146,
+        "url": "https://news.ycombinator.com/item?id=43996555"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: I'm a PM at a big system of record SaaS. We're cooked",
+      "score": 2,
+      "meta": {
+        "points": 103,
+        "url": "https://news.ycombinator.com/item?id=46917886"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A web browser agent in your Chrome side panel",
+      "score": 2,
+      "meta": {
+        "points": 153,
+        "url": "https://github.com/parsaghaffari/browserbee"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "score": 1,
+      "meta": {
+        "points": 93,
+        "url": "https://ozbrain.com"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I built an AI agent that turns ROS 2's turtlesim into a digital artist",
+      "score": 1,
+      "meta": {
+        "points": 30,
+        "url": "https://github.com/Yutarop/turtlesim_agent"
+      }
+    }
+  ]
+}

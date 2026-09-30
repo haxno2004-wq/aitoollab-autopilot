@@ -1,110 +1,165 @@
 import fs from "node:fs";
 import { pathToFileURL } from "node:url";
+import { platformCtx } from "../lib/platform.mjs";
 import { fetchWithRetry } from "../lib/http.mjs";
 
 /**
- * discover.mjs — pull candidate topics from free, keyless sources:
- *   1. Hacker News (Algolia API): front-page + top story titles about AI/LLM/agents/automation
- *   2. GitHub Trending via github.com/trending HTML scrape (fallback: search API for recently-created AI repos)
- * Output: scripts/.discover.json with a de-duplicated, scored candidate list.
+ * discover.mjs — topic discovery from free, keyless sources.
+ * Sources are configurable per platform via config.discovery:
+ *   { "hn": { "query": "AI OR LLM" }, "github": { "q": "ai stars:>50" }, "reddit": ["personalfinance"] }
+ * Defaults keep the original AI-tools behavior.
  */
 
-const AI_RE = /\b(ai|a\.i\.|llm|gpt|gemini|claude|copilot|agent|agents|automation|automate|open.?source|model|prompt|rts?|voice|image gen|video gen|rag|mcp|workflow)\b/i;
-const AI_REPO_RE = /(ai|llm|gpt|agent|rag|mcp|prompt|automation|copilot|voice|diffus)/i;
+const ctx = platformCtx();
+const config = ctx.config;
+
+// optional per-platform topic filter (regex string in config.discovery.topicFilter)
+const TOPIC_RE = config.discovery?.topicFilter ? new RegExp(config.discovery.topicFilter, "i") : null;
 const GENERIC = /^(show|hny|ask|tell|poll)[hn]?:/i;
+const ASCII_OK = /^[-\x20-~]{10,}$/;
 
 function score(title) {
   let s = 0;
   const t = title.toLowerCase();
-  if (/\b(best|top|alternatives|vs|review|comparison|worth it|guide|how to|tools?|stack|workflow|automat)/.test(t)) s += 3;
-  if (/\b(free|open.?source|self.?host)/.test(t)) s += 2;
-  if (t.length >= 45 && t.length <= 95) s += 1; // article-length sweet spot
+  const kws = config.keywords || [];
+  if (kws.some((k) => t.includes(k))) s += 3;
+  if (/\b(best|top|alternatives|vs|review|comparison|worth it|guide|how to|tools?|stack|workflow|automat|strateg|mistakes|budget|invest|save)/.test(t)) s += 3;
+  if (/\b(free|open.?source|self.?host|beginner|simple)/.test(t)) s += 2;
+  if (t.length >= 45 && t.length <= 95) s += 1;
   return s;
 }
 
-async function fromHackerNews() {
-  const cands = [];
-  let data;
-  const first = await fetchWithRetry(
-    "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50",
-    { method: "GET" },
-    { attempts: 2, baseMs: 1500, timeoutMs: 20000 },
-  );
-  if (first.status !== 200 || !first.data?.hits) {
-    console.error(`[discover] HN front page unavailable (HTTP ${first.status}), trying recent search`);
-    const alt = await fetchWithRetry(
-      "https://hn.algolia.com/api/v1/search_by_date?query=AI%20OR%20LLM%20OR%20agent&tags=story&hitsPerPage=50&numericFilters=points%3E20",
-      { method: "GET" },
-      { attempts: 2, baseMs: 1500, timeoutMs: 20000 },
-    );
-    if (alt.status !== 200 || !alt.data?.hits) throw new Error(`HN sources failed (${alt.status})`);
-    data = alt.data;
-  } else {
-    data = first.data;
-  }
-  for (const h of data.hits) {
-    const title = h.title || "";
-    if (GENERIC.test(title) || !AI_RE.test(title)) continue;
-    if (!/^[-\x20-~]{10,}$/.test(title)) continue; // English-language site: printable ASCII only
-    cands.push({
-      source: "hn",
-      topic: title.replace(/\s*\(\d{4}\)\s*$/, "").trim(),
-      score: score(title) + Math.min(3, Math.floor((h.points || 0) / 100)),
-      meta: { points: h.points, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}` },
-    });
-  }
-  return cands;
+function baseFilter(title) {
+  return !GENERIC.test(title) && ASCII_OK.test(title);
 }
 
-async function fromGithubTrending() {
-  const cands = [];
+async function hnSearch(query, sort) {
   const { status, data } = await fetchWithRetry(
-    "https://api.github.com/search/repositories?q=created:%3E" +
-      new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10) +
-      "+ai+stars:%3E50&sort=stars&order=desc&per_page=25",
+    `https://hn.algolia.com/api/v1/${sort}?query=${encodeURIComponent(query)}&tags=story&hitsPerPage=50&numericFilters=points%3E15`,
+    { method: "GET" },
+    { attempts: 2, baseMs: 1500, timeoutMs: 20000 }
+  );
+  if (status !== 200 || !data?.hits) throw new Error(`HN HTTP ${status}`);
+  return data.hits.map((h) => ({
+    source: "hn",
+    topic: (h.title || "").replace(/\s*\(\d{4}\)\s*$/, "").trim(),
+    score: score(h.title || "") + Math.min(3, Math.floor((h.points || 0) / 100)),
+    meta: { points: h.points, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}` },
+  }));
+}
+
+async function fromHackerNews() {
+  const q = config.discovery?.hn?.query || "AI OR LLM OR agent";
+  let hits;
+  try {
+    hits = await hnSearch(q, "search");
+  } catch {
+    hits = await hnSearch(q, "search_by_date");
+  }
+  let out = hits.filter((c) => baseFilter(c.topic) && (!TOPIC_RE || TOPIC_RE.test(c.topic)));
+  // niche queries can legitimately return few stories — top up from the front page
+  if (out.length < 8) {
+    try {
+      const { status, data } = await fetchWithRetry(
+        "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50",
+        { method: "GET" },
+        { attempts: 2, baseMs: 1500, timeoutMs: 20000 }
+      );
+      if (status === 200 && data?.hits) {
+        const extra = data.hits
+          .map((h) => ({
+            source: "hn",
+            topic: (h.title || "").replace(/\s*\(\d{4}\)\s*$/, "").trim(),
+            score: score(h.title || "") + Math.min(3, Math.floor((h.points || 0) / 100)),
+            meta: {},
+          }))
+          .filter((c) => baseFilter(c.topic) && (!TOPIC_RE || TOPIC_RE.test(c.topic)));
+        out.push(...extra);
+      }
+    } catch {
+      /* front-page top-up is best-effort */
+    }
+  }
+  return out;
+}
+
+async function fromGithub() {
+  const q = config.discovery?.github?.q || "created:>PLACEHOLDER ai stars:>50";
+  const date = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+  const finalQ = q.includes("PLACEHOLDER") ? q.replace("created:>PLACEHOLDER", `created:>${date}`) : q;
+  const { status, data } = await fetchWithRetry(
+    `https://api.github.com/search/repositories?q=${encodeURIComponent(finalQ)}&sort=stars&order=desc&per_page=25`,
     {
       method: "GET",
       headers: {
         accept: "application/vnd.github+json",
-        // GITHUB_TOKEN improves rate limits in Actions; anonymous works locally
+        "user-agent": "fleet-autopilot",
         ...(process.env.GITHUB_TOKEN ? { authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}),
-        "user-agent": "ai-tools-content-autopilot",
       },
     },
-    { attempts: 2, baseMs: 1500, timeoutMs: 20000 },
+    { attempts: 2, baseMs: 1500, timeoutMs: 20000 }
   );
-  if (status !== 200 || !data?.items) throw new Error(`github search HTTP ${status}`);
+  if (status !== 200 || !data?.items) throw new Error(`github HTTP ${status}`);
+  const out = [];
   for (const r of data.items) {
     const desc = r.description || "";
-    const name = `${r.name} — ${desc}`.trim();
-    if (!AI_REPO_RE.test(name)) continue;
-    // prefer ASCII-describable projects; skip repos whose description is mostly non-Latin
+    if (!desc || desc.length < 20) continue;
     const printable = desc.replace(/[^\x20-~]/g, "").length;
-    if (desc.length > 20 && printable / desc.length < 0.7) continue;
-    const topic = `${r.name}: ${desc || "what it does and why developers care"}`.replace(/[^\x20-~\n]/g, "").trim().slice(0, 140) || `${r.name}: what it does and why developers care`;
-    cands.push({
+    if (printable / desc.length < 0.7) continue;
+    const topic = `${r.name}: ${desc}`.replace(/[^\x20-~\n]/g, "").trim().slice(0, 140);
+    out.push({
       source: "github",
       topic,
-      score: score(name) + Math.min(3, Math.floor((r.stargazers_count || 0) / 500)),
+      score: score(topic) + Math.min(3, Math.floor((r.stargazers_count || 0) / 500)),
       meta: { stars: r.stargazers_count, url: r.html_url },
     });
   }
-  return cands;
+  return out;
+}
+
+async function fromReddit() {
+  const subs = config.discovery?.reddit || [];
+  const out = [];
+  for (const sub of subs) {
+    try {
+      const { status, data } = await fetchWithRetry(
+        `https://www.reddit.com/r/${sub}/top/.rss?t=week&limit=40`,
+        { method: "GET", headers: { "user-agent": "fleet-autopilot/1.0" } },
+        { attempts: 2, baseMs: 1500, timeoutMs: 20000, rawText: true }
+      );
+      if (status !== 200 || typeof data !== "string") throw new Error(`reddit HTTP ${status}`);
+      // minimal RSS title extraction
+      const titles = [...data.matchAll(/<media:title>([^<]+)<\/media:title>|<title>([^<]+)<\/title>/g)]
+        .map((m) => (m[1] || m[2] || "").replace(/&#38;/g, "&").replace(/&amp;/g, "&").trim())
+        .filter((t) => t && !/^(r\/|reddit)/i.test(t));
+      for (const t of titles) {
+        if (!baseFilter(t)) continue;
+        out.push({ source: `reddit/${sub}`, topic: t, score: score(t), meta: {} });
+      }
+    } catch (err) {
+      console.error(`[discover] r/${sub} failed: ${err.message}`);
+    }
+  }
+  return out;
 }
 
 export async function runDiscovery() {
-  const sources = [fromHackerNews(), fromGithubTrending()];
+  const sources = [];
+  const d = config.discovery || {};
+  if (d.hn !== false) sources.push(fromHackerNews());
+  if (d.github) sources.push(fromGithub());
+  if (d.reddit?.length) sources.push(fromReddit());
+
   const results = await Promise.allSettled(sources);
   const all = [];
   const errors = [];
   for (const r of results) {
     if (r.status === "fulfilled") all.push(...r.value);
-    else errors.push(r.reason?.message || String(r.reason));
+    else errors.push(r.reason?.message || String(r.reason) || "(source failed with no error message)");
   }
   if (!all.length) throw new Error("all discovery sources failed: " + errors.join(" | "));
-  if (errors.length) console.error("[discover] partial failures:", errors.join(" | "));
+  if (errors.length) console.error(`[discover/${ctx.id}] partial failures:`, errors.join(" | "));
 
-  // dedupe by normalized title
   const seen = new Map();
   for (const c of all) {
     const key = c.topic.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().slice(0, 60);
@@ -112,24 +167,17 @@ export async function runDiscovery() {
   }
   const candidates = [...seen.values()].sort((a, b) => b.score - a.score);
 
-  const out = { fetchedAt: new Date().toISOString(), candidates };
-  fs.mkdirSync("scripts", { recursive: true });
-  fs.writeFileSync("scripts/.discover.json", JSON.stringify(out, null, 2));
-  console.log(`[discover] ${candidates.length} candidates (${all.length} raw)`);
-  for (const c of candidates.slice(0, 8)) console.log(`  ${c.score}  [${c.source}] ${c.topic}`);
+  fs.mkdirSync(ctx.stateDir, { recursive: true });
+  fs.writeFileSync(`${ctx.stateDir}/.discover.json`, JSON.stringify({ fetchedAt: new Date().toISOString(), candidates }, null, 2));
+  console.log(`[discover/${ctx.id}] ${candidates.length} candidates (${all.length} raw)`);
+  for (const c of candidates.slice(0, 5)) console.log(`  ${c.score}  [${c.source}] ${c.topic}`);
   return candidates.length;
 }
 
-// CLI (only when executed directly, not when imported)
 const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
-
-async function main() {
-  try {
-    await runDiscovery();
-  } catch (err) {
-    console.error("[discover] FAILED:", err.message);
+if (isMain) {
+  runDiscovery().catch((err) => {
+    console.error(`[discover/${ctx.id}] FAILED:`, err.message);
     process.exit(1);
-  }
+  });
 }
-
-if (isMain) main();

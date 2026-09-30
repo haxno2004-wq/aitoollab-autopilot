@@ -1,0 +1,53 @@
+{
+  "type": "content",
+  "site": {
+    "name": "DevToolkit Daily",
+    "tagline": "Field-tested dev tools, terminal utilities, and workflow upgrades for working programmers.",
+    "url": "https://devtoolkit.pages.dev",
+    "language": "en",
+    "author": "DevToolkit Editorial"
+  },
+  "theme": { "accent": "#ff7b54", "accent2": "#4ecdc4", "accent3": "#c44dff", "bgDark": "#0d0a12" },
+  "niche": "Dev tools & coding",
+  "keywords": [
+    "dev tools",
+    "cli",
+    "terminal",
+    "developer productivity",
+    "open source",
+    "code editor",
+    "self-hosted",
+    "api tools",
+    "vscode"
+  ],
+  "discovery": {
+    "hn": { "query": "developer tools OR CLI OR terminal OR IDE OR open source" },
+    "github": { "q": "created:>PLACEHOLDER developer tools cli stars:>80" }
+  },
+  "affiliate": {
+    "disclosure": "Disclosure: This article contains affiliate links. If you buy through them, we may earn a commission at no extra cost to you.",
+    "slotArticleFootnote": {
+      "enabled": true,
+      "heading": "Upgrade your setup",
+      "note": "Editorial picks, updated weekly."
+    },
+    "links": [
+      { "id": "jetbrains", "label": "JetBrains IDEs", "url": "https://www.jetbrains.com/?ref=YOUR_ID", "context": "professional IDEs" },
+      { "id": "githubcopilot", "label": "GitHub Copilot", "url": "https://github.com/features/copilot", "context": "AI pair programmer" },
+      { "id": "terminaltrove", "label": "Terminal Trove", "url": "https://terminaltrove.com/", "context": "CLI tool discovery (not affiliated)" },
+      { "id": "digitalocean", "label": "DigitalOcean", "url": "https://m.do.co/c/YOUR_ID", "context": "$200 free hosting credit" }
+    ]
+  },
+  "adsense": { "enabled": false, "client": "" },
+  "indexnow": { "enabled": true, "key": "" },
+  "llm": {
+    "primary": { "provider": "gemini", "model": "auto", "endpoint": "https://generativelanguage.googleapis.com/v1beta" },
+    "fallback": { "provider": "openrouter", "model": "meta-llama/llama-3.3-70b-instruct:free", "endpoint": "https://openrouter.ai/api/v1/chat/completions" },
+    "maxOutputTokens": 8192,
+    "requestTimeoutMs": 90000,
+    "backoffBaseMs": 2000,
+    "backoffMaxAttempts": 3
+  },
+  "limits": { "minWords": 800, "minSections": 3, "minFaqs": 3 },
+  "report": { "stateFile": "state/devtoolkit/state.json", "logFile": "state/devtoolkit/log.csv" }
+}

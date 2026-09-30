@@ -1,0 +1,43 @@
+{
+  "type": "store",
+  "site": {
+    "name": "PromptForge Shop",
+    "tagline": "Professionally engineered AI prompt packs and templates — instant download, use with any AI model.",
+    "url": "https://promptforge.pages.dev",
+    "language": "en",
+    "author": "PromptForge"
+  },
+  "theme": { "accent": "#f59e0b", "accent2": "#8b5cf6", "accent3": "#ec4899", "bgDark": "#120c04" },
+  "niche": "AI prompt packs & templates",
+  "keywords": ["prompt pack", "chatgpt prompts", "ai templates", "productivity prompts"],
+  "catalog": [
+    { "title": "The Content Engine: 12 prompts that turn one idea into a week of posts", "focus": "content marketing prompts for solo founders", "angle": "practical, plug-and-play, with usage tips per prompt" },
+    { "title": "The Deep Research Assistant: 12 prompts for faster, citable research", "focus": "research and analysis prompts for knowledge workers", "angle": "structured outputs, verification steps built in" },
+    { "title": "The Code Reviewer's Kit: 12 prompts for cleaner pull requests", "focus": "code review, refactoring and testing prompts for developers", "angle": "language-agnostic, works in any AI IDE" },
+    { "title": "The Job Hunt Arsenal: 12 prompts for resumes, cover letters and interviews", "focus": "job search prompts that personalize to your experience", "angle": "honest, no-fabrication prompts with recruiter psychology" },
+    { "title": "The Finance Clarity Pack: 12 prompts to understand and cut your spending", "focus": "personal finance analysis prompts", "angle": "privacy-first: prompts that work on categories, not raw data" },
+    { "title": "The Learning Accelerator: 12 prompts that teach anything faster", "focus": "learning, memorization and skill-building prompts", "angle": "spaced repetition and Feynman-technique based" }
+  ],
+  "store": {
+    "rotateDays": 10,
+    "note": "One new product every 10 days keeps quality high and stays far under LLM free tiers"
+  },
+  "gumroad": {
+    "enabled": true,
+    "note": "Set GUMROAD_ACCESS_TOKEN secret. When set, products are auto-published as drafts (publish: false) — you click publish in Gumroad after a 1-min review. Free forever plan, 10% + fee per sale.",
+    "publish": false
+  },
+  "affiliate": {
+    "disclosure": "Products are digital downloads delivered via Gumroad. This site may earn commissions from links marked as sponsored."
+  },
+  "indexnow": { "enabled": true, "key": "" },
+  "llm": {
+    "primary": { "provider": "gemini", "model": "auto", "endpoint": "https://generativelanguage.googleapis.com/v1beta" },
+    "fallback": { "provider": "openrouter", "model": "meta-llama/llama-3.3-70b-instruct:free", "endpoint": "https://openrouter.ai/api/v1/chat/completions" },
+    "maxOutputTokens": 8192,
+    "requestTimeoutMs": 120000,
+    "backoffBaseMs": 2000,
+    "backoffMaxAttempts": 3
+  },
+  "report": { "stateFile": "state/labstore/state.json", "logFile": "state/labstore/log.csv" }
+}

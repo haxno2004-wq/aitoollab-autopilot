@@ -6,7 +6,7 @@
     "language": "en",
     "author": "AI ToolLab Editorial"
   },
-  "niche": "AI tools & automation",
+  "discovery": { "hn": { "query": "AI OR LLM OR agent" } },
   "keywords": [
     "ai tools",
     "ai automation",
@@ -106,7 +106,7 @@
     "minFaqs": 3
   },
   "report": {
-    "stateFile": "state/state.json",
-    "logFile": "state/log.csv"
+    "stateFile": "state/aitoollab/state.json",
+    "logFile": "state/aitoollab/log.csv"
   }
 }

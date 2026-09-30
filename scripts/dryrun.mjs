@@ -1,39 +1,33 @@
 import fs from "node:fs";
 import { buildSite } from "./build.mjs";
 import { runDiscovery } from "./discover.mjs";
+import { platformCtx } from "../lib/platform.mjs";
 import { validateArticle } from "../lib/llm.mjs";
+import { nowIso } from "../lib/state.mjs";
 
 /**
- * dryrun.mjs — exercises the whole pipeline without API keys:
- *   discover (real network, non-fatal) → select → generate (fixture) → build → report.
- * Output lands in public/ for inspection.
+ * dryrun.mjs — exercises a platform's whole pipeline without API keys:
+ *   PLATFORM=finflow npm run run:dry
+ * discover (real network, non-fatal) → select → generate (fixture) → build → report.
  */
 
-// 1. discovery — real network, but failure is non-fatal here
+const ctx = platformCtx();
+const config = ctx.config;
+
 let discoveryInfo = "skipped";
 try {
   const n = await runDiscovery();
   discoveryInfo = `ok (${n} candidates)`;
 } catch (err) {
-  console.warn(`[dryrun] discover failed (non-fatal): ${err.message}`);
+  console.warn(`[dryrun/${ctx.id}] discover failed (non-fatal): ${err.message}`);
 }
 
-// 2. selection — needs discovery output; synthesize a fallback topic if discovery failed
-if (!fs.existsSync("scripts/.discover.json")) {
+if (!fs.existsSync(`${ctx.stateDir}/.discover.json`)) {
+  fs.mkdirSync(ctx.stateDir, { recursive: true });
   fs.writeFileSync(
-    "scripts/.discover.json",
+    `${ctx.stateDir}/.discover.json`,
     JSON.stringify(
-      {
-        fetchedAt: new Date().toISOString(),
-        candidates: [
-          {
-            source: "fixture",
-            topic: "Best free AI tools for automating your workday in 2026",
-            score: 5,
-            meta: { url: "https://example.com" },
-          },
-        ],
-      },
+      { fetchedAt: nowIso(), candidates: [{ source: "fixture", topic: `Best free ${config.niche} tools worth your time in 2026`, score: 5, meta: {} }] },
       null,
       2
     )
@@ -42,28 +36,19 @@ if (!fs.existsSync("scripts/.discover.json")) {
 }
 await import("./select.mjs");
 
-// 3. generation — use fixture instead of calling providers
 const fixture = JSON.parse(fs.readFileSync("scripts/fixtures/article-fixture.json", "utf8"));
-const sel = JSON.parse(fs.readFileSync("scripts/.select.json", "utf8"));
-const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
-
+const sel = JSON.parse(fs.readFileSync(`${ctx.stateDir}/.select.json`, "utf8"));
 const article = validateArticle(fixture, config.limits);
 article._provider = "fixture";
 article._topic = sel.topic;
 article._slug = sel.slug;
 article._angle = sel.angle;
 article._source = sel.source;
-article._date = new Date().toISOString();
-fs.writeFileSync(
-  "scripts/.generate.json",
-  JSON.stringify({ ...article, _topic: sel.topic, _slug: sel.slug }, null, 2)
-);
+article._date = nowIso();
+fs.writeFileSync(`${ctx.stateDir}/.generate.json`, JSON.stringify(article, null, 2));
 
-// 4. build
-const entry = await buildSite(config, article);
-fs.writeFileSync("scripts/.built.json", JSON.stringify(entry, null, 2));
-
-// 5. report (direct call so .built.json is guaranteed present)
+const entry = await buildSite(config, article, ctx);
+fs.writeFileSync(`${ctx.stateDir}/.built.json`, JSON.stringify(entry, null, 2));
 await import("./report.mjs");
 
-console.log(`\n[dryrun] DONE — discovery: ${discoveryInfo} · site in public/ · open public/index.html to inspect`);
+console.log(`\n[dryrun/${ctx.id}] DONE — discovery: ${discoveryInfo} · site in ${ctx.distDir}/`);

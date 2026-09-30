@@ -1,23 +1,31 @@
-name: Earning autopilot
+name: Fleet autopilot
 
 on:
   schedule:
-    # 06:17 UTC and 18:17 UTC daily (offset from the hour to dodge cron traffic jams)
     - cron: "17 6 * * *"
     - cron: "17 18 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      platforms:
+        description: "Comma-separated platform ids (empty = all)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
 
 concurrency:
-  group: earning-autopilot
+  group: fleet-autopilot
   cancel-in-progress: false
 
 jobs:
-  earn:
+  platform:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [aitoollab, finflow, devtoolkit, labstore]
     steps:
       - uses: actions/checkout@v4
 
@@ -25,112 +33,105 @@ jobs:
         with:
           node-version: 20
 
-      - name: Discover trending topics
-        run: node scripts/discover.mjs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Select topic
-        run: node scripts/select.mjs
-
-      - name: Generate article (Gemini → OpenRouter fallback)
-        id: gen
-        run: node scripts/generate.mjs
+      - name: Pipeline — ${{ matrix.platform }}
+        id: pipe
+        run: |
+          set -e
+          export PLATFORM=${{ matrix.platform }}
+          if [ "$PLATFORM" = "labstore" ]; then
+            # store: rotation-aware product creation, then storefront build
+            node scripts/store.mjs
+            if [ -f state/labstore/.built.json ]; then
+              node -e "
+                const fs=require('fs');
+                const p=JSON.parse(fs.readFileSync('state/labstore/.built.json','utf8'));
+                fs.writeFileSync('state/labstore/.generate.json', JSON.stringify(p,null,2));
+              "
+              node scripts/build.mjs
+            else
+              echo "rotation skip — rebuilding storefront from archive"
+              node -e "
+                const fs=require('fs');
+                const dir='content/labstore/products';
+                const f=fs.existsSync(dir)?fs.readdirSync(dir).filter(x=>x.endsWith('.json'))[0]:null;
+                if(!f){console.log('no products yet; nothing to build');process.exit(0);}
+                fs.writeFileSync('state/labstore/.generate.json', fs.readFileSync(dir+'/'+f,'utf8'));
+              "
+              [ -f state/labstore/.generate.json ] && node scripts/build.mjs || echo "storefront not ready"
+            fi
+          else
+            node scripts/discover.mjs
+            node scripts/select.mjs
+            node scripts/generate.mjs
+            node scripts/build.mjs
+          fi
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build site
-        if: steps.gen.outcome == 'success'
-        run: node scripts/build.mjs
-
-      - name: Preflight Cloudflare credentials
-        if: steps.gen.outcome == 'success'
-        run: |
-          set -e
-          VER=$(curl -s -o /tmp/v.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/user/tokens/verify")
-          if [ "$VER" != "200" ]; then
-            # account-owned tokens (cfat_*) verify against the account endpoint instead
-            VER=$(curl -s -o /tmp/v.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/tokens/verify")
-          fi
-          echo "token verify: HTTP $VER $(head -c 200 /tmp/v.json)"
-          if [ "$VER" != "200" ]; then
-            echo "::error::CLOUDFLARE_API_TOKEN value is INVALID for both user- and account-owned verify endpoints (401 = typo/truncated/deleted). Create a fresh token and re-set the secret."
-            exit 1
-          fi
-          echo "✅ token is active"
-          ACC=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts?per_page=5")
-          echo "accounts this token can access: $(echo "$ACC" | head -c 400)"
-          if ! echo "$ACC" | grep -q "\"id\":\"$CLOUDFLARE_ACCOUNT_ID\""; then
-            echo "::error::CLOUDFLARE_ACCOUNT_ID secret does not match any account this token belongs to (see list above). Copy the Account ID again from Workers & Pages > Overview > right sidebar."
-            exit 1
-          fi
-          echo "✅ account ID matches"
-          CODE2=$(curl -s -o /tmp/cfp.json -w "%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects")
-          echo "Pages permission check: HTTP $CODE2"
-          if [ "$CODE2" != "200" ]; then cat /tmp/cfp.json; echo "::error::Token missing Cloudflare Pages:Edit permission - edit the token and set the Pages row to Edit (third dropdown)"; exit 1; fi
-          echo "✅ Pages:Edit confirmed"
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-
-      - name: Ensure Pages project exists (idempotent, strict)
-        if: steps.gen.outcome == 'success'
-        run: |
-          set -e
-          CODE=$(curl -s -o /tmp/p.json -w "%{http_code}" -X POST \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects" \
-            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            -H "Content-Type: application/json" \
-            -d '{"name":"aitoollab","production_branch":"main"}')
-          echo "project create: HTTP $CODE"
-          head -c 500 /tmp/p.json; echo
-          if [ "$CODE" = "200" ]; then
-            echo "✅ Pages project created"
-          elif grep -q "already_exists\|already exists" /tmp/p.json; then
-            echo "✅ Pages project already exists"
-          else
-            echo "::error::Could not create Pages project (see JSON above; 10205 = name taken on pages.dev, 9106 = token issue)"
-            exit 1
-          fi
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-
-      - name: Deploy to Cloudflare Pages
-        id: deploy
-        if: steps.gen.outcome == 'success'
+      - name: Deploy ${{ matrix.platform }} to Cloudflare Pages
+        if: steps.pipe.outcome == 'success'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=aitoollab --commit-dirty=true
+          command: pages deploy dist/${{ matrix.platform }} --project-name=${{ matrix.platform }} --commit-dirty=true
 
-      - name: Ping IndexNow (Bing + others)
-        if: steps.gen.outcome == 'success'
+      - name: Ping IndexNow — ${{ matrix.platform }}
+        if: steps.pipe.outcome == 'success'
         run: node scripts/indexnow.mjs
         continue-on-error: true
         env:
+          PLATFORM: ${{ matrix.platform }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 
-      - name: Record report
+      - name: Record report — ${{ matrix.platform }}
         if: always()
         run: node scripts/report.mjs
+        env:
+          PLATFORM: ${{ matrix.platform }}
 
-      - name: Earning monitor summary
-        if: always()
-        run: node scripts/monitor/status.mjs --summary
-
-      - name: Commit state + article record
+      - name: Commit ${{ matrix.platform }} artifacts
         if: always()
         run: |
-          git config user.name "earning-bot"
+          git config user.name "fleet-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add state/ 2>/dev/null || true
-          git add content/ 2>/dev/null || true
-          git add site/assets/img/ 2>/dev/null || true
-          git add scripts/.discover.json 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "autopilot: $(date -u +%F) run [skip ci]"
-          git pull --rebase=autostash origin ${GITHUB_REF_NAME} || true
-          git push || echo "push failed (will retry next run)"
+          git add state/${{ matrix.platform }}/ 2>/dev/null || true
+          git add content/${{ matrix.platform }}/ 2>/dev/null || true
+          git add site/shared/img/ 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "fleet[${{ matrix.platform }}]: $(date -u +%F_%H:%M) run [skip ci]" || true
+          git pull --rebase=autostash origin ${GITHUB_REF_NAME} 2>/dev/null || true
+          git push 2>/dev/null || echo "push deferred (another matrix job holds the lock; next run syncs)"
+
+  dashboard:
+    needs: platform
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build Command Deck from live fleet state
+        run: node scripts/dashboard.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy Command Deck
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist/dashboard --project-name=fleetdeck --commit-dirty=true
+
+      - name: Fleet summary
+        if: always()
+        run: node scripts/monitor/status.mjs --summary

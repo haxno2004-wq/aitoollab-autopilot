@@ -1,6 +1,8 @@
 import fs from "node:fs";
-import { loadState } from "../lib/state.mjs";
-import { slugify } from "../lib/state.mjs";
+import { platformCtx } from "../lib/platform.mjs";
+import { loadState, slugify } from "../lib/state.mjs";
+
+const ctx = platformCtx();
 
 function angleFor(topic) {
   const t = topic.toLowerCase();
@@ -25,12 +27,24 @@ function shortHash(s) {
   return h.toString(36);
 }
 
-function main() {
-  const config = JSON.parse(fs.readFileSync("config.json", "utf8"));
-  const state = loadState(config.report.stateFile);
-  const disc = JSON.parse(fs.readFileSync("scripts/.discover.json", "utf8"));
+const FLEET_TOPICS = "state/fleet-used-topics.json";
 
+function fleetUsed() {
+  try {
+    return JSON.parse(fs.readFileSync(FLEET_TOPICS, "utf8"));
+  } catch {
+    return [];
+  }
+}
+
+function main() {
+  const config = ctx.config;
+  const state = loadState(ctx.stateFile);
+  const disc = JSON.parse(fs.readFileSync(`${ctx.stateDir}/.discover.json`, "utf8"));
+
+  // dedupe against this platform's history AND the whole fleet (no cross-site duplicates)
   const used = new Set(state.usedTopics.map((t) => t.toLowerCase()));
+  for (const t of fleetUsed()) used.add(t.toLowerCase());
   const pool = disc.candidates.filter((c) => !used.has(c.topic.toLowerCase()));
 
   if (!pool.length) throw new Error("no unused candidates — re-run discover");
@@ -56,8 +70,12 @@ function main() {
     finalScore: pick.finalScore,
     remaining: ranked.length - 1,
   };
-  fs.writeFileSync("scripts/.select.json", JSON.stringify(out, null, 2));
-  console.log(`[select] picked: "${pick.topic}" (score ${pick.finalScore}, ${pick.source}) → slug ${slug}`);
+  fs.writeFileSync(`${ctx.stateDir}/.select.json`, JSON.stringify(out, null, 2));
+  const fleet = fleetUsed();
+  fleet.push(pick.topic);
+  fs.mkdirSync("state", { recursive: true });
+  fs.writeFileSync(FLEET_TOPICS, JSON.stringify(fleet, null, 2) + "\n");
+  console.log(`[select/${ctx.id}] picked: "${pick.topic}" (score ${pick.finalScore}, ${pick.source}) → slug ${slug}`);
   if (!out.remaining) console.log("[select] warning: pool exhausted after this pick");
 }
 

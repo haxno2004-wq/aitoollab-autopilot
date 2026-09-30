@@ -1,0 +1,58 @@
+{
+  "title": "The practical guide to free AI automation tools in 2026",
+  "metaDescription": "A hands-on look at the free AI automation tools worth your time in 2026, what each is genuinely good at, and how to pick the right one for your workflow.",
+  "tags": [
+    "ai tools",
+    "automation",
+    "productivity",
+    "workflow"
+  ],
+  "keyTakeaway": "Start with one boring, repetitive task, automate it with a free tier tool, and expand only when the first workflow saves you real time every week.",
+  "sections": [
+    {
+      "heading": "Why AI automation finally clicked",
+      "body": "AI automation stopped being a demo and started being infrastructure. The difference is boring but important: the tools got reliable enough at narrow tasks — summarizing, drafting, classifying, routing, extracting — that you can chain them together without babysitting every step. The result is what productivity people have wanted for years: software that does the tedious 20 percent of your job while you keep the interesting 80 percent.\n\nThe catch is choice. There are dozens of AI automation tools now, and most reviews read like brochures. This guide takes the opposite approach: it assumes your time is the scarce resource, and it judges every tool by one question — how quickly can a normal person get a real, repeatable workflow out of it without paying anything?"
+    },
+    {
+      "heading": "The free-tier landscape in 2026",
+      "body": "Nearly every serious AI tool now has a permanent free tier, and the differences between them matter more than the marketing. Some free tiers are generous with volume but withhold the useful features. Others give you the full toolkit but cap you at a handful of runs per day, which is fine for personal automation and useless for team workflows.\n\nA practical way to think about it: you are not choosing a tool, you are choosing a bottleneck you can live with. If your workflow runs once a day, a tight daily cap is invisible. If it runs on every incoming email, the cap becomes the product. Before committing to any platform, run your actual workload against the free limit for a week and see where you actually land — it takes an hour and saves months of mild regret."
+    },
+    {
+      "heading": "Three workflows that work on free tiers",
+      "body": "The inbox triage loop is the classic starter. An automation watches your inbox, uses an AI model to classify each message (needs-reply, needs-read, noise), labels it, and drafts a reply for the first category. On free tiers this comfortably handles a personal inbox and a small side-business mailbox.\n\nThe content pipeline is the second: capture an idea, have the AI expand it into a structured draft, and file the draft into your notes or publishing queue. The third is meeting-to-action: transcript in, summary and action items out, tasks pushed to your tracker. All three share a shape — one repetitive trigger, one AI judgment step, one mechanical output — which is exactly the shape free-tier automation handles best."
+    },
+    {
+      "heading": "How to choose without overthinking it",
+      "body": "Start from the trigger, not the tool. Write down the task you want gone, find where it starts (an email arrives, a file lands in a folder, a meeting ends), and pick the automation platform that speaks to that trigger natively. Then pick the AI step separately: the best setup treats the automation platform and the AI model as two composable pieces, not one bundle.\n\nBeware of suites that lock both halves together. They look convenient, but they make it expensive to swap the model later, and the model you want in 2026 will not be the model you want in 2027. Composability is the free-tier user's superpower: it lets you upgrade one piece when a better free option appears, instead of migrating everything."
+    },
+    {
+      "heading": "Practical tips that save hours",
+      "body": "- Keep a one-line log of every workflow you build: trigger, AI step, output, date. After a month you will know your real usage and which free caps actually bite.\n- Write the instructions to the AI as if briefing a new intern: explicit, with examples of good and bad outputs. Vague prompts are the number-one reason automations disappoint.\n- Always keep a human checkpoint in the loop for anything customer-facing. Draft, do not send.\n- When a free cap becomes the bottleneck, first try batching (one run per day instead of ten small runs) before paying for anything.\n- Revisit your tool choices quarterly; the free-tier landscape shifts fast, and last year's compromise is often this year's bargain."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can you really run useful AI automation entirely on free tiers?",
+      "a": "Yes, for personal-scale workflows. Free tiers in 2026 comfortably handle a few dozen AI-run tasks per day, which covers inbox triage, daily summaries, and content drafting for one person. Team-scale or high-volume automation eventually bumps into caps, at which point batching or a paid plan becomes worth it."
+    },
+    {
+      "q": "Do I need to know how to code?",
+      "a": "No for the workflows described here — modern automation platforms are visual, and the AI step is a prompt in a text box. Coding helps at the edges, like cleaning up odd data formats, but it is not the gate it used to be."
+    },
+    {
+      "q": "Is it safe to let AI read my email or documents?",
+      "a": "Treat it like giving a contractor access: grant the minimum scope, prefer tools that state they do not train on your data, and keep anything sensitive out of the loop until you trust the pipeline. Reviewing what the automation drafted before it goes anywhere is the single best safety habit."
+    },
+    {
+      "q": "How long until an automation saves more time than it costs to build?",
+      "a": "For a simple, well-chosen task like inbox triage, most people break even within the first week or two. The break-even stretches when the task is rare, messy, or changes shape often — those are the tasks to leave manual."
+    }
+  ],
+  "_wordCount": 894,
+  "_provider": "fixture",
+  "_topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
+  "_slug": "show-hn-archgw-open-source-intelligent-proxy-for-ai-agents-built",
+  "_angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
+  "_source": "hn",
+  "_date": "2026-09-30T16:27:25.627Z"
+}

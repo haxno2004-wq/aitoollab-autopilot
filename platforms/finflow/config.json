@@ -1,0 +1,55 @@
+{
+  "type": "content",
+  "site": {
+    "name": "MoneyPilot",
+    "tagline": "Practical, no-hype personal finance: budgeting systems, side income, and money automation that actually works.",
+    "url": "https://moneypilot.pages.dev",
+    "language": "en",
+    "author": "MoneyPilot Editorial"
+  },
+  "theme": { "accent": "#00b894", "accent2": "#0984e3", "accent3": "#fdcb6e", "bgDark": "#07120d" },
+  "niche": "Personal finance",
+  "keywords": [
+    "budgeting",
+    "save money",
+    "side hustle",
+    "passive income",
+    "personal finance",
+    "money management",
+    "debt payoff",
+    "emergency fund",
+    "investing basics"
+  ],
+  "discovery": {
+    "hn": { "query": "money OR budget OR savings OR \"side hustle\" OR investing OR salary" },
+    "reddit": ["personalfinance", "Frugal", "sidehustle"]
+  },
+  "affiliate": {
+    "disclosure": "Disclosure: This article contains affiliate links. If you sign up through them, we may earn a commission at no extra cost to you. Nothing here is financial advice.",
+    "slotArticleFootnote": {
+      "enabled": true,
+      "heading": "Money tools worth trying",
+      "note": "Editorial picks, updated weekly."
+    },
+    "links": [
+      { "id": "ynab", "label": "YNAB", "url": "https://www.ynab.com/?ref=YOUR_ID", "context": "zero-based budgeting app" },
+      { "id": "empower", "label": "Empower", "url": "https://www.empower.com/?ref=YOUR_ID", "context": "free net-worth tracking" },
+      { "id": "acorns", "label": "Acorns", "url": "https://www.acorns.com/?ref=YOUR_ID", "context": "round-up micro-investing" },
+      { "id": "sofi", "label": "SoFi", "url": "https://www.sofi.com/?ref=YOUR_ID", "context": "banking & refinancing" },
+      { "id": "rocketmoney", "label": "Rocket Money", "url": "https://www.rocketmoney.com/?ref=YOUR_ID", "context": "subscription cancellation" },
+      { "id": "highyield", "label": "High-Yield Savings", "url": "https://www.bankrate.com/banking/savings/best-high-yield-interests-savings-accounts/", "context": "compare current rates (not affiliated)" }
+    ]
+  },
+  "adsense": { "enabled": false, "client": "" },
+  "indexnow": { "enabled": true, "key": "" },
+  "llm": {
+    "primary": { "provider": "gemini", "model": "auto", "endpoint": "https://generativelanguage.googleapis.com/v1beta" },
+    "fallback": { "provider": "openrouter", "model": "meta-llama/llama-3.3-70b-instruct:free", "endpoint": "https://openrouter.ai/api/v1/chat/completions" },
+    "maxOutputTokens": 8192,
+    "requestTimeoutMs": 90000,
+    "backoffBaseMs": 2000,
+    "backoffMaxAttempts": 3
+  },
+  "limits": { "minWords": 800, "minSections": 3, "minFaqs": 3 },
+  "report": { "stateFile": "state/finflow/state.json", "logFile": "state/finflow/log.csv" }
+}
