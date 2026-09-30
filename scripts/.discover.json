@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-09-30T15:06:22.980Z",
+  "fetchedAt": "2026-09-30T15:08:24.166Z",
   "candidates": [
+    {
+      "source": "github",
+      "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "score": 5,
+      "meta": {
+        "stars": 1505,
+        "url": "https://github.com/feder-cr/dots"
+      }
+    },
     {
       "source": "hn",
       "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
@@ -8,15 +17,6 @@
       "meta": {
         "points": 1008,
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
-      }
-    },
-    {
-      "source": "github",
-      "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
-      "score": 4,
-      "meta": {
-        "stars": 1494,
-        "url": "https://github.com/feder-cr/dots"
       }
     },
     {
@@ -114,7 +114,7 @@
       "topic": "BeefTV: Local-first, lightweight, AI-native video workspace.",
       "score": 2,
       "meta": {
-        "stars": 616,
+        "stars": 618,
         "url": "https://github.com/glanderness/BeefTV"
       }
     },
@@ -132,7 +132,7 @@
       "topic": "dioramas: A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). ",
       "score": 2,
       "meta": {
-        "stars": 142,
+        "stars": 143,
         "url": "https://github.com/blendi-remade/dioramas"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 282,
+        "stars": 284,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
