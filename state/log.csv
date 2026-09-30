@@ -13,3 +13,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-09-30T15:21:26.447Z,-,no run,-,0,skipped
 2026-09-30T15:23:49.151Z,dots-always-on-agents,"Dots Always-On Agents Review: Features, Pros & Cons",gemini,977,success
 2026-09-30T15:32:08.356Z,genspark-claw-community-skill-pack-cli-for-genspark-claw-opencla,Genspark-Claw Review: Community Skills & CLI for Agents,gemini,1161,success
+2026-09-30T15:38:19.359Z,icode-a-lightweight-extensible-fully-offline-development-platfor,Mastering iCode: A Step-by-Step Offline AI Workflow Guide,gemini,886,success
