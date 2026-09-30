@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T14:46:06.631Z",
+  "fetchedAt": "2026-09-30T14:47:49.214Z",
   "candidates": [
     {
       "source": "hn",
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1428,
+        "stars": 1437,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -141,7 +141,7 @@
       "topic": "Offensive-Security-AI-Models: Uncensored AI models or those fine-tuned for cybersecurity tasks.",
       "score": 0,
       "meta": {
-        "stars": 456,
+        "stars": 457,
         "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models"
       }
     },
@@ -159,8 +159,17 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 270,
+        "stars": 271,
         "url": "https://github.com/echris6/motion-video-kit"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "beebots: Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.",
+      "score": 0,
+      "meta": {
+        "stars": 182,
+        "url": "https://github.com/imikerussell/beebots"
       }
     },
     {
@@ -170,15 +179,6 @@
       "meta": {
         "stars": 182,
         "url": "https://github.com/czg86389-hub/muse2api"
-      }
-    },
-    {
-      "source": "github",
-      "topic": "beebots: Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.",
-      "score": 0,
-      "meta": {
-        "stars": 181,
-        "url": "https://github.com/imikerussell/beebots"
       }
     },
     {
