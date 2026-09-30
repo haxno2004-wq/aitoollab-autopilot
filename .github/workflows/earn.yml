@@ -39,26 +39,9 @@ jobs:
           set -e
           export PLATFORM=${{ matrix.platform }}
           if [ "$PLATFORM" = "labstore" ]; then
-            # store: rotation-aware product creation, then storefront build
-            node scripts/store.mjs
-            if [ -f state/labstore/.built.json ]; then
-              node -e "
-                const fs=require('fs');
-                const p=JSON.parse(fs.readFileSync('state/labstore/.built.json','utf8'));
-                fs.writeFileSync('state/labstore/.generate.json', JSON.stringify(p,null,2));
-              "
-              node scripts/build.mjs
-            else
-              echo "rotation skip — rebuilding storefront from archive"
-              node -e "
-                const fs=require('fs');
-                const dir='content/labstore/products';
-                const f=fs.existsSync(dir)?fs.readdirSync(dir).filter(x=>x.endsWith('.json'))[0]:null;
-                if(!f){console.log('no products yet; nothing to build');process.exit(0);}
-                fs.writeFileSync('state/labstore/.generate.json', fs.readFileSync(dir+'/'+f,'utf8'));
-              "
-              [ -f state/labstore/.generate.json ] && node scripts/build.mjs || echo "storefront not ready"
-            fi
+            # store: rotation-aware product creation; storefront ALWAYS deploys
+            node scripts/store.mjs || echo "store: generation failed this run — will retry next run"
+            node scripts/store-build.mjs
           else
             node scripts/discover.mjs
             node scripts/select.mjs
