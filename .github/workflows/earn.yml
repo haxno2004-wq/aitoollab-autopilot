@@ -106,11 +106,15 @@ jobs:
           git add content/${{ matrix.platform }}/ 2>/dev/null || true
           git add site/shared/img/ 2>/dev/null || true
           git diff --cached --quiet || git commit -m "fleet[${{ matrix.platform }}]: $(date -u +%F_%H:%M) run [skip ci]" || true
-          # 4 matrix jobs push concurrently — retry until the race resolves
+          # 4 matrix jobs push concurrently — rebase (state files are per-platform now,
+          # so conflicts are impossible); fall back to merge if a rebase ever wedges
           for i in 1 2 3 4 5 6; do
-            if git pull --rebase=autostash origin "${GITHUB_REF_NAME}" 2>/dev/null && git push origin HEAD:"${GITHUB_REF_NAME}" 2>/dev/null; then
+            if git push origin HEAD:"${GITHUB_REF_NAME}" 2>/dev/null; then
               echo "✅ pushed on attempt $i"; break
             fi
+            git pull --rebase origin "${GITHUB_REF_NAME}" 2>/dev/null \
+              || (git rebase --abort 2>/dev/null; git pull --no-rebase origin "${GITHUB_REF_NAME}" 2>/dev/null) \
+              || true
             echo "push race (attempt $i) — retrying in 10s"; sleep 10
           done
 

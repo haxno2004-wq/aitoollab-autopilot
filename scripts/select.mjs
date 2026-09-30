@@ -27,14 +27,18 @@ function shortHash(s) {
   return h.toString(36);
 }
 
-const FLEET_TOPICS = "state/fleet-used-topics.json";
-
+// fleet-wide topic dedupe: read every platform's own committed state.json.
+// No shared mutable files → parallel matrix jobs never conflict on rebase.
 function fleetUsed() {
+  const out = [];
   try {
-    return JSON.parse(fs.readFileSync(FLEET_TOPICS, "utf8"));
-  } catch {
-    return [];
-  }
+    for (const d of fs.readdirSync("state").filter((d) => fs.existsSync(`state/${d}/state.json`))) {
+      try {
+        out.push(...JSON.parse(fs.readFileSync(`state/${d}/state.json`, "utf8")).usedTopics || []);
+      } catch {}
+    }
+  } catch {}
+  return out;
 }
 
 function main() {
@@ -71,10 +75,6 @@ function main() {
     remaining: ranked.length - 1,
   };
   fs.writeFileSync(`${ctx.stateDir}/.select.json`, JSON.stringify(out, null, 2));
-  const fleet = fleetUsed();
-  fleet.push(pick.topic);
-  fs.mkdirSync("state", { recursive: true });
-  fs.writeFileSync(FLEET_TOPICS, JSON.stringify(fleet, null, 2) + "\n");
   console.log(`[select/${ctx.id}] picked: "${pick.topic}" (score ${pick.finalScore}, ${pick.source}) → slug ${slug}`);
   if (!out.remaining) console.log("[select] warning: pool exhausted after this pick");
 }
