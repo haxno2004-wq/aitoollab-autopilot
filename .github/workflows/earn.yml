@@ -62,14 +62,20 @@ jobs:
       - name: Ensure Pages project exists (idempotent, strict)
         if: steps.gen.outcome == 'success'
         run: |
-          OUT=$(npx wrangler pages project create aitoollab --production-branch=main 2>&1) || true
-          echo "$OUT"
-          if echo "$OUT" | grep -qiE "already exists"; then
-            echo "✅ Pages project already exists"
-          elif echo "$OUT" | grep -qiE "created successfully|\"created\": ?true|aitoollab"; then
+          set -e
+          CODE=$(curl -s -o /tmp/p.json -w "%{http_code}" -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{"name":"aitoollab","production_branch":"main"}')
+          echo "project create: HTTP $CODE"
+          head -c 500 /tmp/p.json; echo
+          if [ "$CODE" = "200" ]; then
             echo "✅ Pages project created"
+          elif grep -q "already_exists\|already exists" /tmp/p.json; then
+            echo "✅ Pages project already exists"
           else
-            echo "::error::Could not create Pages project 'aitoollab' — see wrangler output above (common causes: subdomain aitoollab.pages.dev already taken by another account, or token missing Pages:Edit)"
+            echo "::error::Could not create Pages project (see JSON above; 10205 = name taken on pages.dev, 9106 = token issue)"
             exit 1
           fi
         env:
