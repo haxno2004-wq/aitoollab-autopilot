@@ -1,0 +1,90 @@
+{
+  "_slug": "the-content-engine-solo-founder-edition-1tp7sq5",
+  "_date": "2026-09-30T17:30:32.996Z",
+  "name": "The Content Engine: Solo Founder Edition",
+  "tagline": "Turn a single idea into a full week of high-converting content across platforms.",
+  "metaDescription": "Discover 12 plug-and-play AI prompts designed for solo founders. Transform one core idea into a week of engaging posts without burning out on marketing.",
+  "description": "### Stop Trading Hours for Social Media Posts\n\nAs a solo founder, your time is your most precious asset. You know you need to build in public, share your expertise, and stay top-of-mind, but staring at a blank screen every morning drains the energy you should be spending on your product.\n\n**The Content Engine** is built specifically for solo founders who want a systematic, repeatable approach to content marketing. Instead of brainstorming from scratch daily, this pack gives you 12 field-tested prompts that take a single idea—a feature launch, a customer insight, or a hard-earned lesson—and expand it into a full week of native posts for LinkedIn, Twitter/X, and your newsletter.\n\nThese prompts work because they don't ask generic AI to \"write a post.\" Instead, they enforce strict structural frameworks, persuasive copywriting angles, and platform-specific formatting. Each prompt includes a built-in usage tip to help you maintain your authentic founder voice while letting AI handle the heavy lifting of drafting, hooking, and formatting. Reclaim your calendar and build a consistent marketing engine today.",
+  "tags": [
+    "content marketing",
+    "ai prompts",
+    "solo founders",
+    "social media"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "1 Markdown file with 12 structured prompts",
+    "Categorized by content type: Authority, Storytelling, Conversion, and Behind-the-Scenes",
+    "Includes usage tips and customization variables for each prompt"
+  ],
+  "sampleItems": [
+    "Write a contrarian industry take based on this core belief: [Insert Idea]. Frame it around why most traditional companies get this wrong, using a short story format with a punchy concluding takeaway for solo founders.",
+    "Draft a step-by-step technical breakdown of how we built [Insert Feature], focusing on the specific mistake we made and the exact fix we implemented, optimized for technical founders on X."
+  ],
+  "items": [
+    {
+      "title": "The Contrarian Take",
+      "category": "Authority",
+      "body": "Act as an expert B2B SaaS copywriter. Take this conventional industry wisdom: [Insert Wisdom]. Write a short, punchy LinkedIn post explaining why this advice is broken for solo founders today. Start with a bold one-line hook that challenges the status quo. Use short paragraphs, high-contrast spacing, and conclude with an actionable alternative approach. Avoid corporate jargon and maintain an authoritative, conversational tone. Usage tip: Best used when you want to spark discussion and build early-stage authority in your niche."
+    },
+    {
+      "title": "The Founder Failure Story",
+      "category": "Storytelling",
+      "body": "Write a vulnerability-driven Twitter thread starter (or short LinkedIn post) about a recent mistake you made while building [Insert Product/Feature]. Outline the situation clearly in the first two sentences, detail the false assumption you held, explain the cost of that mistake, and finish with the exact lesson learned. Keep the tone humble, pragmatic, and transparent. Avoid false modesty. Usage tip: Pair this with a screenshot of a failed metric or code snippet to dramatically increase engagement."
+    },
+    {
+      "title": "The Feature-to-Benefit Translator",
+      "category": "Conversion",
+      "body": "Act as a direct-response marketer. Take this technical product feature update: [Insert Feature Update]. Translate it into a high-converting social media post using the 'Pain-Agitate-Solve' framework. Explicitly state the frustrating manual process solo founders currently endure, highlight the hidden tax of that frustration, and introduce your feature as the seamless automated relief. Finish with a clear, low-friction call-to-action to try the tool. Usage tip: Use this prompt on product launch days or weekly update drops."
+    },
+    {
+      "title": "The Customer Insight Breakdown",
+      "category": "Authority",
+      "body": "Take this real piece of customer feedback or support ticket quote: '[Insert Quote]'. Write a thoughtful post analyzing the deeper market trend behind this single comment. Explain why this specific pain point represents a massive blind spot for legacy competitors. Conclude by positioning your solo-founded product as the natural evolution of how this problem should be solved. Usage tip: Excellent for showing potential investors and users that you listen closely to early adopters."
+    },
+    {
+      "title": "The Behind-the-Scenes Build",
+      "category": "Behind-the-Scenes",
+      "body": "Draft a behind-the-scenes build-in-public post detailing how you solved a specific technical or operational bottleneck this week regarding [Insert Topic]. Break the solution down into three clear, numbered steps that another solo founder can replicate. Keep the tone encouraging, technical yet accessible, and completely devoid of fluff. Usage tip: Include a photo of your messy desk, whiteboard sketch, or IDE to ground the post in authentic reality."
+    },
+    {
+      "title": "The Metrics Transparency Post",
+      "category": "Behind-the-Scenes",
+      "body": "Write an honest, numbers-driven reflection on your startup's recent milestone or plateau involving [Insert Metric, e.g., MRR, churn, traffic]. Detail what went right, what completely flopped, and the single experiment you are running next week to fix the gap. Avoid toxic positivity; focus entirely on objective data and pragmatic execution. Usage tip: Transparency builds profound long-term trust; use this at the end of every month."
+    },
+    {
+      "title": "The Step-by-Step Playbook",
+      "category": "Authority",
+      "body": "Turn this high-level strategy or workflow: [Insert Strategy] into a comprehensive, actionable 5-step framework. Write each step as a distinct command verb followed by the exact implementation detail. Ensure the entire post can be read and understood in under 60 seconds by a busy founder drinking their morning coffee. Usage tip: This format performs exceptionally well when saved or bookmarked by users."
+    },
+    {
+      "title": "The Direct Problem-Agitate Hook",
+      "category": "Conversion",
+      "body": "Write a short-form post targeting solo founders who are struggling with [Insert Problem]. Hook the reader instantly by calling out the exact symptom of the problem. Agitate the situation by explaining why ignoring it will cost them time and revenue this quarter. Present your product as the obvious, lightweight remedy. Keep the total word count under 100 words for maximum impact on mobile screens. Usage tip: Ideal for quick mid-week promotional posts that drive profile clicks."
+    },
+    {
+      "title": "The Hot Take Manifesto",
+      "category": "Authority",
+      "body": "Act as a provocative industry analyst. Write a short manifesto defending this strong opinion about the future of [Insert Industry/Niche]: [Insert Opinion]. Use declarative sentences. Contrast your forward-looking approach with the outdated methods still taught in traditional business books. End with a question that forces the reader to pick a side in the comments. Usage tip: Use sparingly when you want to maximize comment velocity and algorithmic reach."
+    },
+    {
+      "title": "The Micro-Case Study",
+      "category": "Storytelling",
+      "body": "Write a micro-case study showing how an early user named [Insert Persona, e.g., Sarah, a freelance designer] used [Insert Product] to solve [Specific Problem] in less than [Timeframe]. Structure the post as Before, After, and the exact Bridge your software provided. Focus on the emotional relief of the user rather than just software features. Usage tip: Social proof is your strongest sales lever; run this prompt every time a user leaves positive feedback."
+    },
+    {
+      "title": "The FAQ Myth-Buster",
+      "category": "Authority",
+      "body": "Address the single biggest objection or misconception potential buyers have about your product: [Insert Objection]. Write a post that starts by validating why people believe this myth, gently deconstructs the underlying assumption with logic, and proves why your approach is actually safer or more effective. Usage tip: Preemptively kills sales objections before prospects even reach your pricing page."
+    },
+    {
+      "title": "The Weekly Experiment Summary",
+      "category": "Behind-the-Scenes",
+      "body": "Summarize your solo founder journey this week into three bullet points: What shipped, what broke, and what surprised you about [Insert Topic]. Keep the tone upbeat, relentless, and grounded in the realities of bootstrapping. End with a forward-looking statement about next week's primary objective. Usage tip: Creates a reliable weekly ritual that your audience will begin looking forward to."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Content Engine: 12 prompts that turn one idea into a week of posts",
+  "_provider": "gemini"
+}
