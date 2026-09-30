@@ -1,0 +1,239 @@
+{
+  "fetchedAt": "2026-09-30T14:24:26.424Z",
+  "candidates": [
+    {
+      "source": "hn",
+      "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "score": 4,
+      "meta": {
+        "points": 1000,
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "score": 4,
+      "meta": {
+        "stars": 1376,
+        "url": "https://github.com/feder-cr/dots"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
+      "score": 4,
+      "meta": {
+        "stars": 988,
+        "url": "https://github.com/kaankiziltug/logo-design-skill"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Dots: Always-on agents",
+      "score": 3,
+      "meta": {
+        "points": 690,
+        "url": "https://openai.com/index/introducing-dots/"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+      "score": 3,
+      "meta": {
+        "stars": 472,
+        "url": "https://github.com/amitshekhariitbhu/ai-system-design"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "bridgeclip: Open-source AI video clipping desktop app by BridgeMind",
+      "score": 3,
+      "meta": {
+        "stars": 345,
+        "url": "https://github.com/bridge-mind/bridgeclip"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "MuseAI-Skills: muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, connector manifests. muse.ai  / Unofficial archive",
+      "score": 3,
+      "meta": {
+        "stars": 306,
+        "url": "https://github.com/win4r/MuseAI-Skills"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "iCode: A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy ",
+      "score": 3,
+      "meta": {
+        "stars": 272,
+        "url": "https://github.com/openJiuwen-ai/iCode"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "paperclip-guide: Companion guide for the NetworkChuck Paperclip video: install Paperclip and build an AI IT department. Every step tested on",
+      "score": 3,
+      "meta": {
+        "stars": 128,
+        "url": "https://github.com/theNetworkChuck/paperclip-guide"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "semrush-ai-tool: Semrush SEO AI-powered analysis tool MCP server & CLI for keyword research, domain analytics, backlink analysis",
+      "score": 3,
+      "meta": {
+        "stars": 126,
+        "url": "https://github.com/springvoiceswell/semrush-ai-tool"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "genspark-claw:  Community skill pack & CLI for Genspark Claw, OpenClaw & Hermes agents  5 production-ready SKILL.md skills (deep research, r",
+      "score": 3,
+      "meta": {
+        "stars": 121,
+        "url": "https://github.com/breakstageaxe61/genspark-claw"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Pi.dev: You Said No MCP",
+      "score": 2,
+      "meta": {
+        "points": 298,
+        "url": "https://earendil.com/posts/you-said-no-mcp/"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "BeefTV: Local-first, lightweight, AI-native video workspace.",
+      "score": 2,
+      "meta": {
+        "stars": 610,
+        "url": "https://github.com/glanderness/BeefTV"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "x-scraper-no-api: Free, self-hosted X (Twitter) scraper no API key, no credits. Uses your own browser session via Playwright. Export tweets,",
+      "score": 2,
+      "meta": {
+        "stars": 167,
+        "url": "https://github.com/JoinArtisanVent/x-scraper-no-api"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "dioramas: A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). ",
+      "score": 2,
+      "meta": {
+        "stars": 136,
+        "url": "https://github.com/blendi-remade/dioramas"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "Offensive-Security-AI-Models: Uncensored AI models or those fine-tuned for cybersecurity tasks.",
+      "score": 0,
+      "meta": {
+        "stars": 456,
+        "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "SolidWorks: SolidWorks MCP Server connects an AI assistant to a running SolidWorks instance. Sketch, extrude, fillet, export STEP/STL, gener",
+      "score": 0,
+      "meta": {
+        "stars": 380,
+        "url": "https://github.com/CaptureGrubEnchant/SolidWorks"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
+      "score": 0,
+      "meta": {
+        "stars": 250,
+        "url": "https://github.com/echris6/motion-video-kit"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "muse2api:  Muse(muse.ai)  OpenAI / 48h OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
+      "score": 0,
+      "meta": {
+        "stars": 182,
+        "url": "https://github.com/czg86389-hub/muse2api"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "beebots: Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.",
+      "score": 0,
+      "meta": {
+        "stars": 181,
+        "url": "https://github.com/imikerussell/beebots"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "SeeCut: An AI editor that watches its own cut: talking-head / AI-avatar video  auto-edited short video. /  AI",
+      "score": 0,
+      "meta": {
+        "stars": 164,
+        "url": "https://github.com/YeJe-cpu/SeeCut"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "seiso: A Markdown convention and linter for project docs written by AI and read by humans and agents",
+      "score": 0,
+      "meta": {
+        "stars": 152,
+        "url": "https://github.com/scarletkc/seiso"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "Naive-N0.5-Flash: Naive-N0.5-Flash is an open-weight 309B MoE model with 15.5B active parameters, built for coding and AI R&D.",
+      "score": 0,
+      "meta": {
+        "stars": 136,
+        "url": "https://github.com/NaiveAI-Labs/Naive-N0.5-Flash"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "jev-gui-delegate: AI-assisted Windows and Chrome GUI delegation for Codex: task contracts, local execution, Jev semantic decisions, recovery",
+      "score": 0,
+      "meta": {
+        "stars": 131,
+        "url": "https://github.com/YUTA-fywoo/jev-gui-delegate"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "building-with-typesafe-jev: Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev: typed decisions, calibrated confide",
+      "score": 0,
+      "meta": {
+        "stars": 125,
+        "url": "https://github.com/aaddrick/building-with-typesafe-jev"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "grok-self: grok-cli-self the lightweight, zero-dependency Grok CLI. Chat with xAI's Grok AI (Grok 4) in your terminal: one-shot prompts",
+      "score": 0,
+      "meta": {
+        "stars": 123,
+        "url": "https://github.com/PointAntStorm/grok-self"
+      }
+    }
+  ]
+}
