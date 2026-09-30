@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-30T15:37:55.618Z",
+  "fetchedAt": "2026-09-30T15:41:38.018Z",
   "candidates": [
     {
       "source": "github",
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 5,
       "meta": {
-        "stars": 1582,
+        "stars": 1588,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -15,7 +15,7 @@
       "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "score": 4,
       "meta": {
-        "points": 1018,
+        "points": 1021,
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
       }
     },
@@ -42,7 +42,7 @@
       "topic": "Pi.dev: You Said No MCP",
       "score": 3,
       "meta": {
-        "points": 377,
+        "points": 379,
         "url": "https://earendil.com/posts/you-said-no-mcp/"
       }
     },
@@ -114,7 +114,7 @@
       "topic": "BeefTV: Local-first, lightweight, AI-native video workspace.",
       "score": 2,
       "meta": {
-        "stars": 619,
+        "stars": 620,
         "url": "https://github.com/glanderness/BeefTV"
       }
     },
@@ -141,7 +141,7 @@
       "topic": "Offensive-Security-AI-Models: Uncensored AI models or those fine-tuned for cybersecurity tasks.",
       "score": 0,
       "meta": {
-        "stars": 458,
+        "stars": 459,
         "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models"
       }
     },
@@ -159,8 +159,17 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 303,
+        "stars": 304,
         "url": "https://github.com/echris6/motion-video-kit"
+      }
+    },
+    {
+      "source": "github",
+      "topic": "beebots: Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.",
+      "score": 0,
+      "meta": {
+        "stars": 184,
+        "url": "https://github.com/imikerussell/beebots"
       }
     },
     {
@@ -170,15 +179,6 @@
       "meta": {
         "stars": 184,
         "url": "https://github.com/czg86389-hub/muse2api"
-      }
-    },
-    {
-      "source": "github",
-      "topic": "beebots: Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.",
-      "score": 0,
-      "meta": {
-        "stars": 183,
-        "url": "https://github.com/imikerussell/beebots"
       }
     },
     {
