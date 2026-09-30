@@ -72,6 +72,23 @@ jobs:
           GUMROAD_ACCESS_TOKEN: ${{ secrets.GUMROAD_ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Ensure Pages project exists — ${{ matrix.platform }}
+        if: steps.pipe.outcome == 'success'
+        run: |
+          set -e
+          CODE=$(curl -s -o /tmp/p.json -w "%{http_code}" -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{"name":"${{ matrix.platform }}","production_branch":"main"}')
+          echo "project create: HTTP $CODE"
+          if [ "$CODE" = "200" ]; then echo "✅ created"
+          elif grep -qi "already_exists\|already exists" /tmp/p.json; then echo "✅ already exists"
+          else head -c 300 /tmp/p.json; echo; echo "::error::Could not ensure Pages project ${{ matrix.platform }}"; exit 1; fi
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Deploy ${{ matrix.platform }} to Cloudflare Pages
         if: steps.pipe.outcome == 'success'
         uses: cloudflare/wrangler-action@v3
