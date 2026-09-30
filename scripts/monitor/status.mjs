@@ -22,7 +22,13 @@ function readJson(file, fallback) {
 }
 function readLines(file) {
   try {
-    return fs.readFileSync(file, "utf8").trim().split("\n").slice(1).filter(Boolean);
+    return fs
+      .readFileSync(file, "utf8")
+      .replace(/\r/g, "") // tolerate CRLF checkouts on Windows
+      .trim()
+      .split("\n")
+      .slice(1)
+      .filter(Boolean);
   } catch {
     return [];
   }
