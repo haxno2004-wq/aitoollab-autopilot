@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-30T14:24:26.424Z",
+  "fetchedAt": "2026-09-30T14:43:34.022Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "score": 4,
       "meta": {
-        "points": 1000,
+        "points": 1005,
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
       }
     },
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1376,
+        "stars": 1421,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -24,7 +24,7 @@
       "topic": "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
       "score": 4,
       "meta": {
-        "stars": 988,
+        "stars": 991,
         "url": "https://github.com/kaankiziltug/logo-design-skill"
       }
     },
@@ -33,8 +33,17 @@
       "topic": "Dots: Always-on agents",
       "score": 3,
       "meta": {
-        "points": 690,
+        "points": 692,
         "url": "https://openai.com/index/introducing-dots/"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Pi.dev: You Said No MCP",
+      "score": 3,
+      "meta": {
+        "points": 319,
+        "url": "https://earendil.com/posts/you-said-no-mcp/"
       }
     },
     {
@@ -42,7 +51,7 @@
       "topic": "ai-system-design: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
       "score": 3,
       "meta": {
-        "stars": 472,
+        "stars": 473,
         "url": "https://github.com/amitshekhariitbhu/ai-system-design"
       }
     },
@@ -101,20 +110,11 @@
       }
     },
     {
-      "source": "hn",
-      "topic": "Pi.dev: You Said No MCP",
-      "score": 2,
-      "meta": {
-        "points": 298,
-        "url": "https://earendil.com/posts/you-said-no-mcp/"
-      }
-    },
-    {
       "source": "github",
       "topic": "BeefTV: Local-first, lightweight, AI-native video workspace.",
       "score": 2,
       "meta": {
-        "stars": 610,
+        "stars": 613,
         "url": "https://github.com/glanderness/BeefTV"
       }
     },
@@ -132,7 +132,7 @@
       "topic": "dioramas: A free, open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy 7.1 on fal). ",
       "score": 2,
       "meta": {
-        "stars": 136,
+        "stars": 139,
         "url": "https://github.com/blendi-remade/dioramas"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 250,
+        "stars": 268,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
@@ -186,7 +186,7 @@
       "topic": "SeeCut: An AI editor that watches its own cut: talking-head / AI-avatar video  auto-edited short video. /  AI",
       "score": 0,
       "meta": {
-        "stars": 164,
+        "stars": 165,
         "url": "https://github.com/YeJe-cpu/SeeCut"
       }
     },
