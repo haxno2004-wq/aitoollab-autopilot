@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-30T14:49:14.989Z",
+  "fetchedAt": "2026-09-30T14:56:22.827Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
       "score": 4,
       "meta": {
-        "points": 1005,
+        "points": 1006,
         "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
       }
     },
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1443,
+        "stars": 1464,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -24,7 +24,7 @@
       "topic": "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
       "score": 4,
       "meta": {
-        "stars": 992,
+        "stars": 993,
         "url": "https://github.com/kaankiziltug/logo-design-skill"
       }
     },
@@ -33,7 +33,7 @@
       "topic": "Dots: Always-on agents",
       "score": 3,
       "meta": {
-        "points": 692,
+        "points": 693,
         "url": "https://openai.com/index/introducing-dots/"
       }
     },
@@ -42,7 +42,7 @@
       "topic": "Pi.dev: You Said No MCP",
       "score": 3,
       "meta": {
-        "points": 325,
+        "points": 338,
         "url": "https://earendil.com/posts/you-said-no-mcp/"
       }
     },
@@ -78,7 +78,7 @@
       "topic": "iCode: A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy ",
       "score": 3,
       "meta": {
-        "stars": 272,
+        "stars": 273,
         "url": "https://github.com/openJiuwen-ai/iCode"
       }
     },
@@ -114,7 +114,7 @@
       "topic": "BeefTV: Local-first, lightweight, AI-native video workspace.",
       "score": 2,
       "meta": {
-        "stars": 614,
+        "stars": 615,
         "url": "https://github.com/glanderness/BeefTV"
       }
     },
@@ -159,7 +159,7 @@
       "topic": "motion-video-kit: Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch f",
       "score": 0,
       "meta": {
-        "stars": 271,
+        "stars": 274,
         "url": "https://github.com/echris6/motion-video-kit"
       }
     },
