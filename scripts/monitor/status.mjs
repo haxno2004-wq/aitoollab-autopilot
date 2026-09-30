@@ -39,7 +39,8 @@ for (const p of fleet) {
   const weekAgo = Date.now() - 7 * 864e5;
   const last7 = success.filter((r) => new Date(r[0]).getTime() > weekAgo).length;
   const words = success.reduce((s, r) => s + (parseInt(r[4], 10) || 0), 0);
-  const live = p.type === "store" ? fs.readdirSync(p.productsDir).filter((f) => f.endsWith(".json")).length : fs.readdirSync(p.contentDir).filter((f) => f.endsWith(".json")).length;
+  const archiveDir = p.type === "store" ? p.productsDir : p.contentDir;
+  const live = fs.existsSync(archiveDir) ? fs.readdirSync(archiveDir).filter((f) => f.endsWith(".json")).length : 0;
   const monetized =
     p.id === "labstore"
       ? !!(p.config.gumroad?.enabled && process.env.GUMROAD_ACCESS_TOKEN)
