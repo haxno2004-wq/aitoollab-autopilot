@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T14:47:49.214Z",
+  "fetchedAt": "2026-09-30T14:49:14.989Z",
   "candidates": [
     {
       "source": "hn",
@@ -15,7 +15,7 @@
       "topic": "dots: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
       "score": 4,
       "meta": {
-        "stars": 1437,
+        "stars": 1443,
         "url": "https://github.com/feder-cr/dots"
       }
     },
@@ -114,7 +114,7 @@
       "topic": "BeefTV: Local-first, lightweight, AI-native video workspace.",
       "score": 2,
       "meta": {
-        "stars": 613,
+        "stars": 614,
         "url": "https://github.com/glanderness/BeefTV"
       }
     },
