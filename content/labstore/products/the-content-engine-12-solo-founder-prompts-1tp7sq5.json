@@ -1,0 +1,90 @@
+{
+  "_slug": "the-content-engine-12-solo-founder-prompts-1tp7sq5",
+  "_date": "2026-10-01T22:43:58.255Z",
+  "name": "The Content Engine: 12 Solo Founder Prompts",
+  "tagline": "Turn a single raw idea into a full week of high-converting social media posts in minutes.",
+  "metaDescription": "Stop staring at a blank screen. Use these 12 practical AI prompts designed for solo founders to transform one core idea into a full week of engaging posts.",
+  "description": "# The Content Engine for Solo Founders\n\nIf you are a solo founder wearing every hat, content marketing often feels like an impossible chore. You have the product vision, but translating that into a consistent stream of engaging social media posts drains your energy and time.\n\nThis digital product solves the blank-page syndrome permanently. **The Content Engine** gives you 12 field-tested, highly specific AI prompts designed exclusively for bootstrapped founders and indie hackers. Instead of generating generic fluff, these prompts extract your unique insights, product updates, and customer wins, restructuring them into platform-specific hooks, threads, stories, and educational carousels.\n\n### Why These Prompts Work\nMost AI prompts fail because they lack structural constraints. These prompts use multi-step reasoning frameworks that force the AI to adopt a specific audience persona, analyze your core idea for hidden angles, and output ready-to-publish drafts. They rely on proven copywriting frameworks—like PAS (Problem-Agitate-Solve) and Before-After-Bridge—tailored specifically for the tech and startup landscape.\n\n### Who It's For\nDesigned for solopreneurs, indie hackers, and bootstrapped startup founders who need to build in public and drive organic traffic without hiring a marketing agency.",
+  "tags": [
+    "content marketing",
+    "ai prompts",
+    "solo founders",
+    "social media"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "1 PDF guide containing 12 categorized prompts",
+    "1 Notion template with plug-and-play sections",
+    "Markdown files compatible with all major AI chat interfaces"
+  ],
+  "sampleItems": [
+    "Take this feature update: [Insert update]. Write a 5-part X thread using the Hook-Story-Offer framework that speaks directly to bootstrapped founders struggling with time management.",
+    "Analyze this customer testimonial: [Insert quote]. Write a LinkedIn post that deconstructs the underlying problem, shows how our product solved it, and ends with a subtle founder reflection."
+  ],
+  "items": [
+    {
+      "title": "The Origin Story Reframer",
+      "category": "Brand Building",
+      "body": "Act as an expert startup copywriter. Take this raw founder journal entry or casual thought: '[Insert raw thought here]'. Rewrite it into a compelling 'build in public' X post. Focus on the emotional tension, the unexpected obstacle, and the exact realization that led to your current product decision. Keep the tone authentic, vulnerable, and devoid of corporate jargon. Use short paragraphs and ensure the final line invites constructive feedback from other founders."
+    },
+    {
+      "title": "The Feature-to-Benefit Translator",
+      "category": "Product Marketing",
+      "body": "Act as a direct-response copywriter specializing in SaaS. Take this technical feature description: '[Insert feature]'. Translate it into a LinkedIn post using the Before-After-Bridge framework. Show the tedious manual process founders currently endure (Before), introduce the seamless automated state enabled by the feature (After), and present our product as the bridge. Conclude with a clear, low-friction call-to-action to try the demo."
+    },
+    {
+      "title": "The Contrarian Industry Take",
+      "category": "Thought Leadership",
+      "body": "Act as a provocative industry analyst. Review this conventional wisdom in our market: '[Insert common belief]'. Write a short-form post that challenges this assumption based on your real-world experience as a solo founder. Back up your contrarian stance with one logical argument and a brief observation from building your product. Avoid sounding arrogant; instead, position yourself as a curious explorer sharing an inconvenient truth."
+    },
+    {
+      "title": "The Customer Success Deconstruction",
+      "category": "Social Proof",
+      "body": "Act as a growth marketer. Take this piece of user feedback or win: '[Insert quote or data]'. Craft a LinkedIn case study post that highlights the customer's initial pain point, the exact moment they used our product, and the quantifiable metric they improved. Structure it with a strong hook, three bullet points detailing the tactical steps they took, and a concluding sentence celebrating their milestone."
+    },
+    {
+      "title": "The Metric Breakdown",
+      "category": "Build in Public",
+      "body": "Act as a transparent startup advisor. Take this recent business metric or milestone: '[Insert metric, e.g., MRR, churn rate, signups]'. Write an engaging post detailing the messy middle behind that number. Explain what strategy failed to get us here, what experiment actually moved the needle, and one actionable lesson other solo founders can apply to their own metrics this week. Keep the tone grounded and honest."
+    },
+    {
+      "title": "The Pain-Agitate-Solve Carousel Script",
+      "category": "Educational",
+      "body": "Act as a visual content strategist. Take this core user frustration: '[Insert frustration]'. Outline a 6-slide educational carousel for LinkedIn or Instagram. Slide 1 must be a thumb-stopping hook about the hidden cost of the problem. Slides 2 and 3 agitate the issue by showing how bad habits compound. Slides 4 and 5 deliver the tactical solution using our methodology. Slide 6 is a clear invitation to save and share the post."
+    },
+    {
+      "title": "The Quick Win Tutorial",
+      "category": "Educational",
+      "body": "Act as a pragmatic product educator. Take this specific workflow or shortcut related to our niche: '[Insert workflow]'. Write a step-by-step instructional post that a solo founder can read and execute in under five minutes. Use numbered lists, clear action verbs, and highlight the exact time or money saved by implementing this specific tactic. End with an encouragement to test it immediately."
+    },
+    {
+      "title": "The Behind-The-Scenes Tech Stack",
+      "category": "Build in Public",
+      "body": "Act as a transparent indie hacker. List the tools, APIs, or no-code platforms behind this specific feature or workflow: '[Insert feature/process]'. Write a short, punchy post explaining why you chose this specific stack, the one major limitation you had to work around, and how it helps you keep overhead low as a solo founder. Invite readers to share their own tech stack recommendations in the comments."
+    },
+    {
+      "title": "The FAQ Authority Post",
+      "category": "Authority Building",
+      "body": "Act as a subject matter expert. Take the most common objection or technical question prospective users ask: '[Insert question]'. Write a definitive, authoritative post that answers the question thoroughly while subtly positioning our product's philosophy as the superior approach. Start with a direct, uncompromising answer, followed by two supporting rationale points, and close with an invitation for further debate."
+    },
+    {
+      "title": "The Visionary Future Projection",
+      "category": "Brand Building",
+      "body": "Act as a startup visionary. Take this long-term industry trend or shift: '[Insert trend]'. Write a forward-looking post explaining how this trend will completely alter the daily reality of solo founders over the next two years. Position our product not just as a current utility, but as a necessary companion for navigating that future landscape. Keep the tone inspiring, grounded, and ambitious."
+    },
+    {
+      "title": "The Lesson Learned the Hard Way",
+      "category": "Storytelling",
+      "body": "Act as a reflective founder. Recall a recent mistake, bug, or failed marketing experiment: '[Insert mistake]'. Write a storytelling post that opens with the embarrassing moment things broke. Walk the reader through the messy diagnosis process, reveal the root cause, and share the exact system you put in place to ensure it never happens again. Emphasize resilience and continuous iteration."
+    },
+    {
+      "title": "The Resource Roundup Curator",
+      "category": "Value Add",
+      "body": "Act as a generous curator of startup resources. Take these 3 tools, books, or articles that helped you this month: '[Insert items]'. Write a quick-read post categorizing why each resource is valuable specifically for solo founders with limited budgets. Add a personal one-sentence review for each item. Conclude by asking your network for their own top resource recommendation."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Content Engine: 12 prompts that turn one idea into a week of posts",
+  "_provider": "gemini"
+}
