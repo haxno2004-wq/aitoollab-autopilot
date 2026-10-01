@@ -1,8 +1,8 @@
 {
-  "slug": "show-hn-a-tool-to-safely-migrate-github-actions-workflows-to-ubu",
-  "title": "Migrate GitHub Actions to Ubuntu-Slim: A Step-by-Step Guide",
-  "description": "Learn how to safely migrate your GitHub Actions workflows to the Ubuntu-slim runner with this practical, step-by-step technical tutorial and setup advice.",
-  "date": "2026-10-01T13:18:40.043Z",
-  "words": 953,
+  "slug": "show-hn-reverse-engineering-web-apps-into-agent-tools",
+  "title": "Reverse-Engineering Web Apps into AI Agent Tools: A Review",
+  "description": "Discover how reverse-engineering web apps into tool schemas empowers AI agents to automate private workflows, where it breaks down, and how to use it safely.",
+  "date": "2026-10-01T22:43:59.470Z",
+  "words": 1088,
   "provider": "gemini"
 }
