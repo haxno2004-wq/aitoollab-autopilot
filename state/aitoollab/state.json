@@ -13,7 +13,8 @@
     "pi-dev-you-said-no-mcp",
     "show-hn-archgw-open-source-intelligent-proxy-for-ai-agents-built",
     "ask-hn-what-are-some-actual-use-cases-of-ai-agents-right-now",
-    "show-hn-we-started-building-an-ai-dev-tool-but-it-turned-into-a"
+    "show-hn-we-started-building-an-ai-dev-tool-but-it-turned-into-a",
+    "show-hn-a-tool-to-safely-migrate-github-actions-workflows-to-ubu"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -29,7 +30,8 @@
     "Pi.dev: You Said No MCP",
     "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
     "Ask HN: What are some actual use cases of AI Agents right now?",
-    "Show HN: We started building an AI dev tool but it turned into a Sims-style game"
+    "Show HN: We started building an AI dev tool but it turned into a Sims-style game",
+    "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner"
   ],
-  "lastRun": "2026-09-30T22:19:39.908Z"
+  "lastRun": "2026-10-01T13:19:05.299Z"
 }
