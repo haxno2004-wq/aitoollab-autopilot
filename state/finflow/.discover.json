@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-09-30T22:18:55.341Z",
+  "fetchedAt": "2026-10-01T13:17:21.932Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "The top secret URSALA, RAQUEL, and FARRAH satellites",
+      "score": 6,
+      "meta": {}
+    },
     {
       "source": "reddit/personalfinance",
       "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
@@ -9,19 +15,13 @@
     },
     {
       "source": "hn",
-      "topic": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+      "topic": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Commit description as a thinking tool",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The top secret URSALA, RAQUEL, and FARRAH satellites",
+      "topic": "How to speed up the Rust compiler in September 2026",
       "score": 4,
       "meta": {}
     },
@@ -45,7 +45,19 @@
     },
     {
       "source": "hn",
-      "topic": "You said no MCP",
+      "topic": "A brief history of the Bloomberg terminal",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The last time my family was replaced by technology",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Surprisingly complex waves reveal the brain's inner workings",
       "score": 3,
       "meta": {}
     },
@@ -63,103 +75,121 @@
     },
     {
       "source": "hn",
-      "topic": "I could've accessed 17T Microsoft records",
+      "topic": "Why the Bronze Age Collapsed",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The last time my family was replaced by technology",
+      "topic": "LinkedIn Larpmaxxing",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A brief history of the Bloomberg terminal",
-      "score": 1,
+      "topic": "EDG C++ front-end goes public",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Before pixels: Modular industrial dashboards",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "What TLA+ can and can't check",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Surprisingly complex waves reveal the brain's inner workings",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Singapore govt dating app uses Gale-Shapley stable marriage algorithm",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Responsible Release of AI-Generated Mathematics",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Halfspace experimental IDE for solid modeling with distance fields",
-      "score": 1,
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Returning from vacation? The government can search your phone without a warrant",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Doing a Machine Learning PhD While Working in Japan",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "StreetComplete on iOS is now in public beta",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Great Dirhombicosidodecahedron (\"Miller's Monster\")",
+      "topic": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dumb servers, smart clients: Distributing OS images with Quarry",
+      "topic": "Google breaks promise to provide 10 years of updates to Chromebooks",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Functional Ultrasound Imaging (fUSI) from scratch",
+      "topic": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+      "topic": "Adding Floating-Point Decimals for Fun and Profit",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
+      "topic": "Jacques Barzun, Cultural historian and critic",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Speeding up the separating axis test using inscribed spheres",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Truemetrics (YC S23) Is Hiring a GTM Founder's Associate",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "$71.5k wire fraud caught Day 1, but Chase delayed 5 month & lost funds. Need help!",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "401k advice for broke people because 15% is NOT realistic",
       "score": 1,
       "meta": {}
     },
@@ -177,12 +207,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "college overimbursed me and wants their money back but i never received anything",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "My (22) parents (55) want to put my name on their mortgage",
       "score": 1,
       "meta": {}
@@ -195,13 +219,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "In laws thinking of taking out heloc to afford their retirement?",
+      "topic": "65 year old mother has too much money in the bank. What should she do with it?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "65 year old mother has too much money in the bank. What should she do with it?",
+      "topic": "In laws thinking of taking out heloc to afford their retirement?",
       "score": 1,
       "meta": {}
     },
@@ -219,6 +243,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "If I open a debit card, will my parents be able to tell?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I move out into section 8 housing or stay home with my dad?",
       "score": 1,
       "meta": {}
@@ -230,45 +260,9 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "EDG C++ front-end goes public",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gitea 28.0",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "CS240 AI Cheating Retrospective",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dear Software Makers",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why the Bronze Age Collapsed",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Before pixels: Modular industrial dashboards",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Coltrane's Tone Circle",
-      "score": 0,
+      "source": "reddit/personalfinance",
+      "topic": "Lost my entire wallet. What are my options to pay for groceries, etc?",
+      "score": 1,
       "meta": {}
     },
     {
@@ -297,24 +291,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Our toddler will be starting pre-k soon. The school is asking if they can bill our private health insurance, which is optional? Why would we say yes?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Quest Diagnostics billed me nearly 1k",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Savings starting to accumulate",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Mom wants to lock in 10yr bonds with 40% of her retirement and live off the interest..good idea?",
       "score": 0,
       "meta": {}
@@ -322,6 +298,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Is my down payment too big?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "My dad is taking my money.",
       "score": 0,
       "meta": {}
     },
@@ -345,25 +327,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Cash deposit without paperwork",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "I am deathly afraid of spending money",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "So confused on what to do for my retirement account. Company offers a 401k with no match, but during orientation they said not to use it???",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "My dad is taking my money.",
+      "topic": "My companies 401k switched from a per-paycheck match to a single contribution at the end of the year.",
       "score": 0,
       "meta": {}
     },
@@ -376,6 +346,18 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Can I stop contributing to retirement?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Does anyone pay property taxes with a card?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Sell off stocks to buy house?",
       "score": 0,
       "meta": {}
     }

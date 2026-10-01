@@ -1,0 +1,91 @@
+{
+  "_slug": "the-content-engine-1tp7sq5",
+  "_date": "2026-10-01T13:17:52.551Z",
+  "name": "The Content Engine",
+  "tagline": "12 plug-and-play prompts that turn a single idea into a full week of engaging posts for solo founders.",
+  "metaDescription": "Stop staring at a blank screen. Get 12 plug-and-play AI prompts designed for solo founders to repurpose one raw idea into a full week of high-converting social posts.",
+  "description": "If you are a solo founder wearing every hat in your business, content creation is likely the first thing that slips. You have the insights, but you lack the hours needed to format, rewrite, and schedule them across multiple platforms. **The Content Engine** solves this exact problem by giving you a reliable system to multiply your output without multiplying your effort.\n\nDesigned specifically for bootstrapper realities, this prompt pack helps you take one raw thought, customer quote, or product milestone and systematically expand it into a week's worth of targeted distribution. \n\nThese prompts work because they leverage structured constraint. Instead of asking AI to write a generic post, each prompt enforces a specific narrative arc—such as the contrarian hook, the data-backed teardown, or the vulnerable behind-the-scenes update. They are engineered to sound human, punchy, and natively suited for platforms like LinkedIn and X (Twitter). Stop guessing what to post next and start running your content creation like a scalable machine.",
+  "tags": [
+    "content marketing",
+    "ai prompts",
+    "solo founders",
+    "social media"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "1 PDF guide containing 12 categorized AI prompts",
+    "Notion workspace template for easy copy-pasting",
+    "Usage tips and tone-of-voice modifiers for each prompt",
+    "Compatible with ChatGPT, Claude, and other LLMs"
+  ],
+  "sampleItems": [
+    "Write a contrarian LinkedIn hook about [Core Belief in your Industry], explain why conventional wisdom is costing founders time or money, and conclude with a two-sentence takeaway promoting [Your Product/Service].",
+    "Analyze the following raw customer quote: '[Paste Quote]'. Extract the core pain point, frame it as a mini-case study of how a solo founder solved it using [Your Product], and end with a clear call-to-action."
+  ],
+  "items": [
+    {
+      "title": "The Contrarian Hook",
+      "category": "Thought Leadership",
+      "body": "Act as an expert copywriter. Take the conventional industry belief of '[Insert Common Belief]' and write a 150-word LinkedIn post arguing why it is completely wrong for solo founders. Start with a provocative one-sentence hook that stops the scroll. Back up the argument with a brief personal observation or a hard truth about bootstrapping. Conclude with a sharp, memorable takeaway that gently positions your product as the modern alternative. Keep the tone direct, conversational, and free of corporate jargon."
+    },
+    {
+      "title": "The Customer Quote Teardown",
+      "category": "Social Proof",
+      "body": "Analyze the following raw customer feedback or support ticket: '[Paste Customer Quote Here]'. Turn this into a high-performing X (Twitter) thread starter and a short LinkedIn post. Break down the user's initial frustration, explain the exact moment they realized our product solved it, and highlight the measurable metric or emotional relief they experienced. Ensure the narrative focuses on the customer as the hero while subtly demonstrating the practical value of '[Your Product Name]' for other solo operators."
+    },
+    {
+      "title": "The Metric Breakdown",
+      "category": "Transparency",
+      "body": "Write a transparent, numbers-driven build-in-public post about our recent milestone regarding '[Insert Metric, e.g., MRR, Churn, or User Signups]'. Break down the post into three clear sections: what went right, what completely failed or surprised us, and the exact action item we are taking next week. Avoid humble-bragging; focus purely on the tactical lessons other solo founders can apply to their own early-stage SaaS or service businesses. Keep paragraphs short and punchy."
+    },
+    {
+      "title": "The Framework Repurposer",
+      "category": "Educational",
+      "body": "Take our core business framework or process called '[Insert Framework Name]' and translate it into an actionable, step-by-step tutorial post. The output must be optimized for busy founders who want high ROI from reading. Format the steps using clear numbering (1-4), add a brief one-sentence explanation for each step, and finish with a prompt asking readers which step they struggle with the most to drive comments and engagement."
+    },
+    {
+      "title": "The Founder's Dilemma",
+      "category": "Vulnerability",
+      "body": "Draft a short, highly relatable micro-blog post about a common emotional or operational struggle faced by solo founders, such as context-switching, pricing anxiety, or feature creep. Share a quick, imperfect way you personally handled this challenge this week. End with an open-ended question inviting fellow bootstappers to share their own coping mechanisms, fostering a sense of community and driving high-intent replies."
+    },
+    {
+      "title": "The Feature-to-Benefit Shift",
+      "category": "Product Marketing",
+      "body": "Take the technical feature '[Insert Feature Name]' of our product and write a promotional post that completely avoids technical specs. Instead, translate this feature into a vivid picture of a solo founder saving 5 hours on a Tuesday afternoon. Contrast the painful 'before' state (manual, exhausting, error-prone) with the serene 'after' state unlocked by our software. End with a direct invitation to test the feature with a risk-free trial."
+    },
+    {
+      "title": "The Industry Prediction",
+      "category": "Thought Leadership",
+      "body": "Write a forward-looking post analyzing how '[Insert Recent Industry Trend or Tool]' will impact solo founders and micro-businesses over the next 12 months. Take a strong stance—avoid fence-sitting. Outline two things that will become completely obsolete and one new opportunity that clever founders should capitalize on immediately. Keep the tone authoritative yet accessible."
+    },
+    {
+      "title": "The FAQ Objection Killer",
+      "category": "Conversion",
+      "body": "Take our most common customer objection: '[Insert Objection, e.g., It is too expensive / I am too busy to set it up]'. Write a polite, empathetic, yet razor-sharp response post that reframes the objection. Show the hidden cost of *not* solving this problem right now. Conclude with a low-friction call-to-action inviting interested founders to DM you for a custom walkthrough."
+    },
+    {
+      "title": "The Behind-the-Scenes Experiment",
+      "category": "Transparency",
+      "body": "Write a behind-the-scenes post detailing a small experiment we ran this week in our business regarding '[Insert Experiment, e.g., pricing page redesign, cold email sequence, or ad test]'. Share the exact hypothesis we tested, what the data actually showed, and whether we are doubling down or scrapping the idea. Founders love real data—make sure no vanity metrics are exaggerated."
+    },
+    {
+      "title": "The Quick Win Checklist",
+      "category": "Educational",
+      "body": "Create a high-value, highly shareable checklist for solo founders looking to improve '[Insert Skill or Area, e.g., their landing page conversion or onboarding flow]'. Provide 5 ultra-specific, tactical items they can check off in under 10 minutes today. Format with clear check-box emojis. End by mentioning how '[Your Product]' automates the final, most tedious step of this process."
+    },
+    {
+      "title": "The Day-in-the-Life Micro-Story",
+      "category": "Storytelling",
+      "body": "Write a narrative-driven post recounting a specific, mundane, or funny moment from your workday as a solo founder that taught you a broader business lesson about '[Insert Lesson]'. Start *in media res* with dialogue or action rather than a formal introduction. Keep it under 200 words, ensuring the transition from the personal anecdote to the professional takeaway feels completely natural."
+    },
+    {
+      "title": "The Friday Recap & Resource Drop",
+      "category": "Community",
+      "body": "Draft a weekly wrap-up post for a Friday afternoon release. Summarize the best insight you learned this week while building your solo business, highlight one helpful resource or tool you discovered (non-competitive), and ask your audience what their biggest win of the week was. Keep the tone celebratory, relaxed, and supportive to encourage weekend engagement."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Content Engine: 12 prompts that turn one idea into a week of posts",
+  "_provider": "gemini"
+}
