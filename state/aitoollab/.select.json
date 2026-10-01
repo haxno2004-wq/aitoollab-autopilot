@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-10-01T13:17:16.218Z",
-  "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
-  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
-  "slug": "show-hn-a-tool-to-safely-migrate-github-actions-workflows-to-ubu",
+  "pickedAt": "2026-10-01T22:43:33.886Z",
+  "topic": "Show HN: Reverse-engineering web apps into agent tools",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "show-hn-reverse-engineering-web-apps-into-agent-tools",
   "source": "hn",
   "sourceMeta": {
-    "points": 69,
-    "url": "https://github.com/fchimpan/gh-slimify"
+    "points": 96,
+    "url": "https://news.ycombinator.com/item?id=48847834"
   },
   "finalScore": 4,
-  "remaining": 8
+  "remaining": 7
 }
