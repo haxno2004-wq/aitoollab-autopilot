@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-01T22:43:32.510Z",
-  "topic": "Show HN: Rhun, an open-source code editor written in assembly",
-  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
-  "slug": "show-hn-rhun-an-open-source-code-editor-written-in-assembly",
+  "pickedAt": "2026-10-02T12:36:47.934Z",
+  "topic": "How to speed up the Rust compiler in September 2026",
+  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
+  "slug": "how-to-speed-up-the-rust-compiler-in-september-2026",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 8,
-  "remaining": 27
+  "finalScore": 6,
+  "remaining": 23
 }

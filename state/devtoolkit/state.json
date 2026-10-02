@@ -2,12 +2,14 @@
   "publishedSlugs": [
     "a-brief-history-of-the-bloomberg-terminal",
     "dumb-servers-smart-clients-distributing-os-images-with-quarry",
-    "show-hn-rhun-an-open-source-code-editor-written-in-assembly"
+    "show-hn-rhun-an-open-source-code-editor-written-in-assembly",
+    "how-to-speed-up-the-rust-compiler-in-september-2026"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
     "Dumb servers, smart clients: Distributing OS images with Quarry",
-    "Show HN: Rhun, an open-source code editor written in assembly"
+    "Show HN: Rhun, an open-source code editor written in assembly",
+    "How to speed up the Rust compiler in September 2026"
   ],
-  "lastRun": "2026-10-01T22:44:13.057Z"
+  "lastRun": "2026-10-02T12:37:41.017Z"
 }

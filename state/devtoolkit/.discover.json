@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-01T22:43:32.466Z",
+  "fetchedAt": "2026-10-02T12:36:47.896Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Clef: Open-source decision models, and new RL fine-tuning platform",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "How to speed up the Rust compiler in September 2026",
@@ -15,8 +9,26 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Rhun, an open-source code editor written in assembly",
-      "score": 6,
+      "topic": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Several vulnerabilities have been discovered in the Linux kernel",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Shimano Bicycle Museum Review",
+      "score": 4,
       "meta": {}
     },
     {
@@ -27,146 +39,110 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+      "topic": "Pi Durable",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "RIP, vector database",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "score": 2,
+      "topic": "SvelteKit 3",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "DeepSeek Harness Desktop for macOS and Windows",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Car Is a Smartphone on Wheels. Here's Who's Listening",
-      "score": 2,
+      "topic": "Frog and Toad and the Increasingly Capable Machines",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Cloudflare K2: serverless event streams",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pi Durable",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Ask HN: Who is hiring? (October 2026)",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RacketCon Is Saturday",
-      "score": 1,
+      "topic": "How Singapore's government-run dating service works",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The death of web development education",
-      "score": 1,
+      "topic": "Vote on which of Hacker News' challenges for AI have been met",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Who wants to be hired? (October 2026)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bez: Generating a browser engine from specs and tests",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Identity Management for Agentic AI [pdf]",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Lightweight PDF parser with layout, tables, formulas and bounding boxes",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Oxygen-deprived underwater zones may not be \"dead zones\" but clue to early life",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Polyedergarten: Garden of Paper Polyhedron Models",
-      "score": 1,
+      "topic": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "CSS Bed: Classless CSS themes to use as starting points in web development",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Truemetrics (YC S23) Is Hiring a GTM Founder's Associate",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Context Language Models",
-      "score": 0,
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "ArXiv's Updated Rate Limit Policy",
-      "score": 0,
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SvelteKit 3 Is Here",
-      "score": 0,
+      "topic": "Turbo Haskell",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Effect 4.0",
-      "score": 0,
+      "topic": "Butterflies use optical illusions to dodge predators",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Don't Be Fooled by this Summer of AI Hype",
-      "score": 0,
+      "topic": "European payments groups join forces to challenge US dominance",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "2026 International Utility Locate Rodeo",
-      "score": 0,
+      "topic": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
+      "score": 1,
       "meta": {}
     }
   ]
