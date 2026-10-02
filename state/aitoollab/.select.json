@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-10-01T22:43:33.886Z",
-  "topic": "Show HN: Reverse-engineering web apps into agent tools",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "show-hn-reverse-engineering-web-apps-into-agent-tools",
+  "pickedAt": "2026-10-02T12:36:48.218Z",
+  "topic": "Show HN: A big tech dev experience for an open source CMS",
+  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
+  "slug": "show-hn-a-big-tech-dev-experience-for-an-open-source-cms",
   "source": "hn",
   "sourceMeta": {
-    "points": 96,
-    "url": "https://news.ycombinator.com/item?id=48847834"
+    "points": 58,
+    "url": "https://contentfoundry.com/"
   },
-  "finalScore": 4,
-  "remaining": 7
+  "finalScore": 3,
+  "remaining": 6
 }
