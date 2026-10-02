@@ -1,148 +1,166 @@
 {
-  "fetchedAt": "2026-10-02T12:36:47.896Z",
+  "fetchedAt": "2026-10-02T22:17:03.292Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "How to speed up the Rust compiler in September 2026",
-      "score": 6,
+      "topic": "With most information hidden, the game Stratego had stumped AI until now",
+      "score": 5,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "topic": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Several vulnerabilities have been discovered in the Linux kernel",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Shimano Bicycle Museum Review",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "StreetComplete on iOS is now in public beta",
+      "topic": "Show HN: Made an open-source Lego AI generator",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pi Durable",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "RIP, vector database",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "SvelteKit 3",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DeepSeek Harness Desktop for macOS and Windows",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Frog and Toad and the Increasingly Capable Machines",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cloudflare K2: serverless event streams",
+      "topic": "FLUX 3 Image",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Who is hiring? (October 2026)",
+      "topic": "The Legend of von Neumann (1973) [pdf]",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Singapore's government-run dating service works",
+      "topic": "Apple Pass Designer",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Vote on which of Hacker News' challenges for AI have been met",
+      "topic": "Show HN: Giving Opus 5.5 a simulated paint canvas",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "topic": "Mike Tomlin spent 12 years building a Minecraft city",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "topic": "Loss of cell identity drives human aging: Two new papers",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Context Language Models",
+      "topic": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sites in ChatGPT",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ArXiv's Updated Rate Limit Policy",
+      "topic": "Zig v0.17.0",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Turbo Haskell",
+      "topic": "On social reality in China",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Butterflies use optical illusions to dodge predators",
+      "topic": "From the creator of Redis; run LLM locally with ds4",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "European payments groups join forces to challenge US dominance",
+      "topic": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
+      "topic": "Anatomy of a Lean proof for software engineers",
       "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Our Project Suncatcher prototype satellite is in orbit",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "\"The only intuitive interface is the nipple\"",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Everyone's Packing Up",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One month coding with GLM 5.3 Flash",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Muse Gadgets",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "F.02 Decommission",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Blogging with Gleam, Org-Mode and Pandoc",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "STS-51-F Abort-to-Orbit",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Harness Is the Company",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Electrification Special Report 2026 [pdf]",
+      "score": 0,
       "meta": {}
     }
   ]
