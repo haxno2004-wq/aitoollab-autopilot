@@ -3,3 +3,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-09-30T22:20:39.988Z,dumb-servers-smart-clients-distributing-os-images-with-quarry,Quarry Review: Distributing OS Images with Dumb Servers,gemini,1218,success
 2026-10-01T22:44:13.057Z,show-hn-rhun-an-open-source-code-editor-written-in-assembly,Rhun Review: An Assembly Code Editor Built for Speed,gemini,1286,success
 2026-10-02T12:37:41.017Z,how-to-speed-up-the-rust-compiler-in-september-2026,How to Speed Up the Rust Compiler in September 2026,gemini,1042,success
+2026-10-02T22:17:43.148Z,with-most-information-hidden-the-game-stratego-had-stumped-ai-un,Cracking Stratego: Can Imperfect-Information AI Deliver?,gemini,1114,success
