@@ -16,7 +16,8 @@
     "show-hn-we-started-building-an-ai-dev-tool-but-it-turned-into-a",
     "show-hn-a-tool-to-safely-migrate-github-actions-workflows-to-ubu",
     "show-hn-reverse-engineering-web-apps-into-agent-tools",
-    "show-hn-a-big-tech-dev-experience-for-an-open-source-cms"
+    "show-hn-a-big-tech-dev-experience-for-an-open-source-cms",
+    "show-hn-a-karpathy-style-llm-wiki-your-agents-maintain-markdown"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -35,7 +36,8 @@
     "Show HN: We started building an AI dev tool but it turned into a Sims-style game",
     "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
     "Show HN: Reverse-engineering web apps into agent tools",
-    "Show HN: A big tech dev experience for an open source CMS"
+    "Show HN: A big tech dev experience for an open source CMS",
+    "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)"
   ],
-  "lastRun": "2026-10-02T12:38:17.374Z"
+  "lastRun": "2026-10-02T22:17:48.444Z"
 }

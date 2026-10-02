@@ -22,3 +22,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-01T13:19:05.299Z,show-hn-a-tool-to-safely-migrate-github-actions-workflows-to-ubu,Migrate GitHub Actions to Ubuntu-Slim: A Step-by-Step Guide,gemini,953,success
 2026-10-01T22:44:30.215Z,show-hn-reverse-engineering-web-apps-into-agent-tools,Reverse-Engineering Web Apps into AI Agent Tools: A Review,gemini,1088,success
 2026-10-02T12:38:17.375Z,show-hn-a-big-tech-dev-experience-for-an-open-source-cms,Open Source CMS Developer Experience: A Pragmatic Guide,gemini,1095,success
+2026-10-02T22:17:48.444Z,show-hn-a-karpathy-style-llm-wiki-your-agents-maintain-markdown,Karpathy-Style LLM Wiki Reviewed: Setup & Agent Workflow,gemini,1145,success
