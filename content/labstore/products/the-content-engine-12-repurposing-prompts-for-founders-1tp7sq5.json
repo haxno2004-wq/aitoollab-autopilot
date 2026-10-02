@@ -1,0 +1,91 @@
+{
+  "_slug": "the-content-engine-12-repurposing-prompts-for-founders-1tp7sq5",
+  "_date": "2026-10-02T22:17:20.657Z",
+  "name": "The Content Engine: 12 Repurposing Prompts for Founders",
+  "tagline": "Turn a single core idea into an entire week of engaging multi-platform founder content.",
+  "metaDescription": "Turn 1 core business idea into 7 days of founder content across LinkedIn, X, and newsletters with 12 plug-and-play AI prompts built for solo builders.",
+  "description": "The Content Engine is built specifically for time-strapped solo founders who know consistent distribution matters but refuse to spend ten hours a week wrestling with a blank cursor.\n\nWhen you are building, supporting customers, and writing code, ideation fatigue sets in fast. The solution is not generating random, disconnected posts every morning. It is running one validated insight, customer interaction, or technical obstacle through a deliberate repurposing system.\n\nThese 12 plug-and-play prompts break a single source idea into distinct, high-signal narrative angles: from technical teardowns and contrarian hooks to micro-case studies and actionable tutorials. Each prompt enforces lean, authentic copy that sounds like a pragmatic founder in the trenches—never a generic corporate marketer.\n\nSimply drop your weekly business win, failure, or feature release into each prompt. You will produce seven days of multi-format content for LinkedIn, X, and your email newsletter in under 45 minutes, letting you get straight back to building your product.",
+  "tags": [
+    "content marketing",
+    "solopreneur",
+    "prompts",
+    "repurposing"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "12 Battle-tested content transformation prompts",
+    "Notion workspace template for weekly pipeline planning",
+    "Swipe file of real founder examples and hooks",
+    "Markdown and PDF reference guides"
+  ],
+  "sampleItems": [
+    "Act as an editorial strategist for a solo SaaS founder. Take this core concept: [INSERT CORE IDEA/FEATURE/INSIGHT]. Transform it into a contrarian LinkedIn post that challenges a common industry best practice. Start with an arresting, 1-line contrarian hook. Follow with 3 bulleted reasons why traditional advice fails modern teams, drawn from real-world execution. End with the specific alternative approach we implemented and an open question to prompt discussion. Tone: direct, evidence-based, zero fluff.",
+    "Convert this business milestone or lesson: [INSERT RAW EXPERIENCE OR METRIC] into a punchy, 5-post X thread for builders. Post 1: The quantified hook (state the outcome and the unexpected timeline). Post 2: The standard mistake most founders make in this scenario. Post 3: The exact pivot or tactic we tested. Post 4: The trade-off or cost nobody mentions. Post 5: The one-sentence takeaway plus a link to our product/newsletter. Keep sentences under 15 words."
+  ],
+  "items": [
+    {
+      "title": "The Contrarian Take Transformer",
+      "category": "Hooks & Positioning",
+      "body": "Act as an editorial strategist for a solo SaaS founder. Take this core concept: [INSERT CORE IDEA/FEATURE/INSIGHT]. Transform it into a contrarian LinkedIn post that challenges a common industry best practice. Start with an arresting, 1-line contrarian hook. Follow with 3 bulleted reasons why traditional advice fails modern teams, drawn from real-world execution. End with the specific alternative approach we implemented and an open question to prompt discussion. Tone: direct, evidence-based, zero fluff."
+    },
+    {
+      "title": "The Tactical Thread Architect",
+      "category": "Short-Form Social",
+      "body": "Convert this business milestone or lesson: [INSERT RAW EXPERIENCE OR METRIC] into a punchy, 5-post X thread for builders. Post 1: The quantified hook (state the outcome and the unexpected timeline). Post 2: The standard mistake most founders make in this scenario. Post 3: The exact pivot or tactic we tested. Post 4: The trade-off or cost nobody mentions. Post 5: The one-sentence takeaway plus a link to our product/newsletter. Keep sentences under 15 words."
+    },
+    {
+      "title": "The Friction-to-Feature Teardown",
+      "category": "Micro-Case Studies",
+      "body": "Take this specific customer problem we recently solved: [DESCRIBE USER PROBLEM AND SOLUTION]. Write a behind-the-scenes case study post under 200 words. Structure it with: 1) The status quo pain point, 2) Why existing tools were inadequate, 3) The lightweight mechanism we built to fix it, and 4) The measurable result. Frame this around practical product philosophy rather than a hard sales pitch. Target audience: prospective B2B buyers and technical peers."
+    },
+    {
+      "title": "The Slide-by-Slide Carousel Outline",
+      "category": "Visual Assets",
+      "body": "Turn this insight: [INSERT CORE LESSON OR WORKFLOW] into a 6-slide LinkedIn PDF carousel outline. Slide 1: High-contrast hook title with subtext. Slide 2: The hidden cost of doing nothing. Slides 3-5: Step-by-step breakdown of our exact framework, with one clear action verb per slide. Slide 6: Summary checklist and bookmark CTA. Provide precise copy for both headline and body text for every slide, keeping visual real estate uncluttered."
+    },
+    {
+      "title": "The Transparent Failure Audit",
+      "category": "Build in Public",
+      "body": "Help me write a transparent 'build in public' post about this mistake: [DESCRIBE BUG, CHURN EVENT, OR WRONG ASSUMPTION]. Format the post to highlight intellectual honesty without sounding alarmist. Open with what broke and the exact metric impacted. Outline the flawed assumption that caused it, the immediate remediation steps taken, and the permanent operational guardrail we installed. Conclude with a takeaway for other bootstrapped founders. No corporate euphemisms."
+    },
+    {
+      "title": "The Operator's Actionable Checklist",
+      "category": "How-To Guides",
+      "body": "Extract a plug-and-play implementation guide from this concept: [INSERT PROCESS OR WORKFLOW]. Format it as a skimmable social post featuring a 5-step checklist. Every step must start with a strong imperative verb, describe the exact tool or method required, and include an estimated execution time. Add a short introductory note on who should use this workflow and who should skip it. Prioritize extreme clarity over theoretical depth."
+    },
+    {
+      "title": "The Non-Sales Product Integration",
+      "category": "Conversion",
+      "body": "Using this feature launch or update: [INSERT FEATURE AND BENEFIT], draft a soft-sell founder update. Anchor the post in the customer workflow problem that inspired the release. Walk through the 'before vs. after' user experience without using hype words like 'game-changer' or 'revolutionary'. Include a low-friction call-to-action inviting users to reply for early access or leave feedback on the architecture. Maintain a collaborative, product-first tone."
+    },
+    {
+      "title": "The Plain-English Tech Explainer",
+      "category": "Technical Authority",
+      "body": "Translate this technical choice or architecture decision: [INSERT TECH STACK CHOICE OR ARCHITECTURE DETAIL] for non-technical business founders. Explain: 1) What technical decision we made, 2) Why conventional stacks create hidden overhead for lean teams, and 3) The business speed or cost advantage this delivers to our end customers. Use an intuitive real-world analogy to illustrate the concept clearly in under 180 words."
+    },
+    {
+      "title": "The 3-Minute Newsletter Deep Dive",
+      "category": "Newsletters",
+      "body": "Expand this core premise: [INSERT CENTRAL THOUGHT] into a concise 300-word founder newsletter section. Use the following hierarchy: a relatable 2-sentence opening anecdote, the broader industry shift driving this reality, our direct internal data or experiment results, and 3 bulleted implementation rules readers can apply today. End with a personal founder sign-off that asks a specific question to encourage email replies."
+    },
+    {
+      "title": "The High-Engagement Discussion Poll",
+      "category": "Community Engagement",
+      "body": "Based on this debated industry topic: [INSERT INDUSTRY DILEMMA], create a high-engagement LinkedIn poll. Provide: 1) A provocative context paragraph explaining why this decision splits founders, 2) Four distinct, mutually exclusive poll choices representing different operating philosophies, and 3) A short prompt in the post body asking readers to defend their vote in the comments. Keep the setup unbiased and analytically sharp."
+    },
+    {
+      "title": "The Founder Philosophy Manifesto",
+      "category": "Brand Positioning",
+      "body": "Frame this internal operating rule: [INSERT CORE BELIEF OR OPINION] into an opinionated manifesto post. State what our company intentionally refuses to do, contrasting it directly with mainstream venture-backed or corporate defaults. Detail how this constraint makes our software, pricing, or customer relationships better. Keep the pacing rapid with alternating short and long sentences. Emphasize autonomy, simplicity, and craftsmanship."
+    },
+    {
+      "title": "The Friday Retrospective Digest",
+      "category": "Weekly Cadence",
+      "body": "Synthesize this week's raw notes: [INSERT 3-4 BULLETS OF WEEKLY EVENTS/WINS/METRICS] into a Friday recap post. Structure into three tidy sections: 'Shipped' (tangible product updates), 'Learned' (surprising customer data or technical friction), and 'Next' (the single priority for next week). Keep formatting ultra-clean with plain bullets and emojis used sparingly as structural markers. End by wishing fellow builders a productive weekend."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Content Engine: 12 prompts that turn one idea into a week of posts",
+  "_provider": "gemini"
+}
