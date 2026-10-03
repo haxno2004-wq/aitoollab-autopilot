@@ -1,22 +1,28 @@
 {
-  "fetchedAt": "2026-10-01T22:43:34.409Z",
+  "fetchedAt": "2026-10-03T21:21:31.989Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Clef: Open-source decision models, and new RL fine-tuning platform",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to speed up the Rust compiler in September 2026",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
       "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Mike Tomlin spent 12 years building a Minecraft city",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Loss of cell identity drives human aging: Two new papers",
+      "score": 4,
       "meta": {}
     },
     {
@@ -26,26 +32,20 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "At what portfolio size does a financial advisor become worth it?",
-      "score": 4,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "StreetComplete on iOS is now in public beta",
+      "topic": "Apple Pass Designer",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+      "topic": "Kolibri: A Sovereign Open-Weight Model",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Rhun, an open-source code editor written in assembly",
+      "topic": "RSS Feed Best Practices",
       "score": 3,
       "meta": {}
     },
@@ -56,104 +56,92 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Time to move, but my condo is worth far less than what I bought it for. What is the best way to proceed for long-term financial health?",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "RIP, vector database",
+      "topic": "Hole Punch: Sling your spaceship around gravitational fields",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Car Is a Smartphone on Wheels. Here's Who's Listening",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cloudflare K2: serverless event streams",
+      "topic": "ADHD, autism or complex trauma? [pdf]",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pi Durable",
+      "topic": "Cloudflare OHTTP gateway",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Who is hiring? (October 2026)",
+      "topic": "An Update on Orion for Linux and Windows",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RacketCon Is Saturday",
+      "topic": "FTL: A new operating system for clouds",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The death of web development education",
+      "topic": "Woking Electrical Control Room",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Who wants to be hired? (October 2026)",
+      "topic": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bez: Generating a browser engine from specs and tests",
+      "topic": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Identity Management for Agentic AI [pdf]",
+      "topic": "Getting the most out of Opus 5.5 in Claude and Claude Code",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lightweight PDF parser with layout, tables, formulas and bounding boxes",
+      "topic": "We want you to build the next Git platform on Cloudflare",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Oxygen-deprived underwater zones may not be \"dead zones\" but clue to early life",
+      "topic": "Two American Airlines Flights End Up with the Same Flight Numbers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Polyedergarten: Garden of Paper Polyhedron Models",
+      "topic": "Anthropic tried to persuade Pope that AI could be conscious being",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "topic": "MPEG-2 Transport Streams and MOQ: Yes, MPEG-TS Is Still Relevant Today",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Truemetrics (YC S23) Is Hiring a GTM Founder's Associate",
+      "topic": "At the Conformation Show: Chasing the Ideal Dog",
       "score": 1,
       "meta": {}
     },
@@ -165,13 +153,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "$71.5k wire fraud caught Day 1, but Chase delayed 5 month & lost funds. Need help!",
+      "topic": "Internship is overpaying me and giving me benefits I shouldn't be receiving",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Internship is overpaying me and giving me benefits I shouldn't be receiving",
+      "topic": "Impulsive Home Purchase Has Created a Financial and Personal Nightmare",
       "score": 1,
       "meta": {}
     },
@@ -189,25 +177,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "65 year old mother has too much money in the bank. What should she do with it?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Is paying off a car loan considered gifting from a tax perspective?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "In laws thinking of taking out heloc to afford their retirement?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Financially Irreparable Car While Still Owing Lots on It",
+      "topic": "65 year old mother has too much money in the bank. What should she do with it?",
       "score": 1,
       "meta": {}
     },
@@ -243,55 +219,43 @@
     },
     {
       "source": "hn",
-      "topic": "Context Language Models",
+      "topic": "Our AI Midwife",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ArXiv's Updated Rate Limit Policy",
+      "topic": "Holes (1996-2025)",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SvelteKit 3 Is Here",
+      "topic": "Body Awareness in Goffin's Cockatoos",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Effect 4.0",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Don't Be Fooled by this Summer of AI Hype",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "2026 International Utility Locate Rodeo",
+      "topic": "RetailReady (YC W24) Is Hiring",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Deceased relative had 30,000 employee stock options I found in old SEC filings. How do I trace what happened to them?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Giving up 2.8% mortgage rate",
+      "topic": "How do people afford home addition projects",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Zelled Money From A Stranger",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Giving up 2.8% mortgage rate",
       "score": 0,
       "meta": {}
     },
@@ -315,31 +279,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is my down payment too big?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "My companies 401k switched from a per-paycheck match to a single contribution at the end of the year.",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "I created my first Roth IRA at 30, and put in full 7500. 2 months in, and its gone down 200 dollars instead of any gains. How do I better manage my finances?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Are 529 plans protected in any way?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "When do you stop contributing to retirement?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Child buying my house",
       "score": 0,
       "meta": {}
     },
@@ -357,13 +309,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can I stop contributing to retirement?",
+      "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
+      "topic": "Company owner approached me about possible private equity buyout. What should my expectations be?",
       "score": 0,
       "meta": {}
     },
@@ -375,7 +327,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Significantly financially illiterate and coming into a fair amount of money - should we hire an advisor?",
+      "topic": "403b Management &quot;lost&quot; a check",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Merril 401k Verification Text Message",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Sell off stocks to buy house?",
       "score": 0,
       "meta": {}
     }
