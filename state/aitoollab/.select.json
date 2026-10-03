@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-10-02T22:17:04.453Z",
-  "topic": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+  "pickedAt": "2026-10-03T11:40:51.884Z",
+  "topic": "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "show-hn-a-karpathy-style-llm-wiki-your-agents-maintain-markdown",
+  "slug": "launch-hn-tinfoil-yc-p25-verifiable-privacy-for-cloud-ai",
   "source": "hn",
   "sourceMeta": {
-    "points": 260,
-    "url": "https://github.com/nex-crm/wuphf"
+    "points": 146,
+    "url": "https://news.ycombinator.com/item?id=43996555"
   },
-  "finalScore": 3,
-  "remaining": 5
+  "finalScore": 2,
+  "remaining": 4
 }
