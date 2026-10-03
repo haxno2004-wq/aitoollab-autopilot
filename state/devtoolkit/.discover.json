@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-02T22:17:03.292Z",
+  "fetchedAt": "2026-10-03T11:40:51.178Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "With most information hidden, the game Stratego had stumped AI until now",
-      "score": 5,
+      "score": 6,
       "meta": {}
     },
     {
@@ -15,14 +15,56 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Made an open-source Lego AI generator",
+      "topic": "Mike Tomlin spent 12 years building a Minecraft city",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple Pass Designer",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "FLUX 3 Image",
-      "score": 2,
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Extra Big Ass Intelligence",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Loss of cell identity drives human aging: Two new papers",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "From the creator of Redis; run LLM locally with ds4",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Gemini ending free use of Flash and Pro models",
+      "score": 3,
       "meta": {}
     },
     {
@@ -33,133 +75,85 @@
     },
     {
       "source": "hn",
-      "topic": "Apple Pass Designer",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Giving Opus 5.5 a simulated paint canvas",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Mike Tomlin spent 12 years building a Minecraft city",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Loss of cell identity drives human aging: Two new papers",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A 12-year sequence of telescope images of a star and four planets orbiting",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Sites in ChatGPT",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Zig v0.17.0",
-      "score": 1,
+      "topic": "The Forgetful CPU (Linux on M4)",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "On social reality in China",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "From the creator of Redis; run LLM locally with ds4",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anatomy of a Lean proof for software engineers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Our Project Suncatcher prototype satellite is in orbit",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "\"The only intuitive interface is the nipple\"",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Everyone's Packing Up",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "One month coding with GLM 5.3 Flash",
-      "score": 0,
+      "topic": "Updates to Full Disk Access in macOS",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Muse Gadgets",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One month coding with GLM 5.3 Flash",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GitHub's new dashboard experience now the default",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Cloudflare OHTTP gateway",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "F.02 Decommission",
+      "topic": "An Update on Orion for Linux and Windows",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Blogging with Gleam, Org-Mode and Pandoc",
+      "topic": "Make Tmux the OS",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "STS-51-F Abort-to-Orbit",
+      "topic": "Barcodes are about to go extinct",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Harness Is the Company",
+      "topic": "The Nintendo 64 Partner-N64 Development Kit",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Electrification Special Report 2026 [pdf]",
+      "topic": "Billions of triangles redux",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "cp: -r or -R?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Programming the ENIAC",
       "score": 0,
       "meta": {}
     }
