@@ -18,7 +18,8 @@
     "show-hn-reverse-engineering-web-apps-into-agent-tools",
     "show-hn-a-big-tech-dev-experience-for-an-open-source-cms",
     "show-hn-a-karpathy-style-llm-wiki-your-agents-maintain-markdown",
-    "launch-hn-tinfoil-yc-p25-verifiable-privacy-for-cloud-ai"
+    "launch-hn-tinfoil-yc-p25-verifiable-privacy-for-cloud-ai",
+    "show-hn-a-web-browser-agent-in-your-chrome-side-panel"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -39,7 +40,8 @@
     "Show HN: Reverse-engineering web apps into agent tools",
     "Show HN: A big tech dev experience for an open source CMS",
     "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-    "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI"
+    "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI",
+    "Show HN: A web browser agent in your Chrome side panel"
   ],
-  "lastRun": "2026-10-03T11:41:35.129Z"
+  "lastRun": "2026-10-03T21:22:18.005Z"
 }

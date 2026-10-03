@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-10-03T11:40:51.884Z",
-  "topic": "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI",
+  "pickedAt": "2026-10-03T21:21:30.271Z",
+  "topic": "Show HN: A web browser agent in your Chrome side panel",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "launch-hn-tinfoil-yc-p25-verifiable-privacy-for-cloud-ai",
+  "slug": "show-hn-a-web-browser-agent-in-your-chrome-side-panel",
   "source": "hn",
   "sourceMeta": {
-    "points": 146,
-    "url": "https://news.ycombinator.com/item?id=43996555"
+    "points": 153,
+    "url": "https://github.com/parsaghaffari/browserbee"
   },
   "finalScore": 2,
-  "remaining": 4
+  "remaining": 3
 }
