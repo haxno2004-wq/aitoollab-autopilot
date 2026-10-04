@@ -1,159 +1,165 @@
 {
-  "fetchedAt": "2026-10-03T11:40:51.178Z",
+  "fetchedAt": "2026-10-04T12:23:23.749Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "With most information hidden, the game Stratego had stumped AI until now",
-      "score": 6,
+      "topic": "We're going to need default hard budget caps on pretty much everything",
+      "score": 7,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "topic": "Hole Punch: Sling your spaceship around gravitational fields",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mike Tomlin spent 12 years building a Minecraft city",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A 12-year sequence of telescope images of a star and four planets orbiting",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple Pass Designer",
+      "topic": "Tell HN: Bob Cringely has died",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "FLUX 3 Image",
+      "topic": "Treachery in the Rodin Museum 3D scan verdict",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Extra Big Ass Intelligence",
+      "topic": "Agents don't need memory, they need documentation",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "topic": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Loss of cell identity drives human aging: Two new papers",
+      "topic": "How to hack time, with C2PA",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "From the creator of Redis; run LLM locally with ds4",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gemini ending free use of Flash and Pro models",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Legend of von Neumann (1973) [pdf]",
+      "topic": "So you think you could be an electrician?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sites in ChatGPT",
+      "topic": "I quit OpenAI because its culture is broken",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Forgetful CPU (Linux on M4)",
+      "topic": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Updates to Full Disk Access in macOS",
+      "topic": "We want you to build the next Git platform on Cloudflare",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Muse Gadgets",
+      "topic": "In Ukraine, distributed renewables foil Russia's assaults",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One month coding with GLM 5.3 Flash",
+      "topic": "FTL: A new operating system for clouds",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GitHub's new dashboard experience now the default",
+      "topic": "Reasons I didn't become an EMT, ranked",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cloudflare OHTTP gateway",
+      "topic": "City building games have a Soul Problem pt.2",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Surely you have ultra-wideband radios on your bins too?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Former SR-71 engineer talks NASA's Blackbird revival program",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: AI search for every photo and every frame of video on macOS",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Religious scholars met with Anthropic",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An Update on Orion for Linux and Windows",
+      "topic": "We're working on a new RuneScape MMO",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Make Tmux the OS",
+      "topic": "Your body of work thinks back at you",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Barcodes are about to go extinct",
+      "topic": "What Meta got right with Muse",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Nintendo 64 Partner-N64 Development Kit",
+      "topic": "Dirty Optimization Secrets (C for Playdate)",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Billions of triangles redux",
+      "topic": "gpuvis: GPU Trace Visualizer",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "cp: -r or -R?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Programming the ENIAC",
+      "topic": "Thought as a Technology",
       "score": 0,
       "meta": {}
     }
