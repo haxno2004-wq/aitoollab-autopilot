@@ -25,3 +25,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-02T22:17:48.444Z,show-hn-a-karpathy-style-llm-wiki-your-agents-maintain-markdown,Karpathy-Style LLM Wiki Reviewed: Setup & Agent Workflow,gemini,1145,success
 2026-10-03T11:41:35.129Z,launch-hn-tinfoil-yc-p25-verifiable-privacy-for-cloud-ai,Launch HN Tinfoil YC P25 Review: Verifiable Cloud AI Privacy,gemini,1083,success
 2026-10-03T21:22:18.005Z,show-hn-a-web-browser-agent-in-your-chrome-side-panel,Show HN Browser Agent Review: Chrome Side Panel AI,gemini,1191,success
+2026-10-04T12:24:07.465Z,tell-hn-im-a-pm-at-a-big-system-of-record-saas-were-cooked,Inside the AI Panic: A Product Manager's Take on SaaS,gemini,962,success

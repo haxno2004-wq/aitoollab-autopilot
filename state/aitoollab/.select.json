@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-10-03T21:21:30.271Z",
-  "topic": "Show HN: A web browser agent in your Chrome side panel",
+  "pickedAt": "2026-10-04T12:23:24.244Z",
+  "topic": "Tell HN: I'm a PM at a big system of record SaaS. We're cooked",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "show-hn-a-web-browser-agent-in-your-chrome-side-panel",
+  "slug": "tell-hn-im-a-pm-at-a-big-system-of-record-saas-were-cooked",
   "source": "hn",
   "sourceMeta": {
-    "points": 153,
-    "url": "https://github.com/parsaghaffari/browserbee"
+    "points": 103,
+    "url": "https://news.ycombinator.com/item?id=46917886"
   },
   "finalScore": 2,
-  "remaining": 3
+  "remaining": 2
 }
