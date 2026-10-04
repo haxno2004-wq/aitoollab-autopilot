@@ -1,5 +1,7 @@
 {
   "type": "store",
+  "skin": "storefront",
+  "defaultTheme": "light",
   "site": {
     "name": "PromptForge Shop",
     "tagline": "Professionally engineered AI prompt packs and templates — instant download, use with any AI model.",

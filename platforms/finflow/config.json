@@ -1,5 +1,7 @@
 {
   "type": "content",
+  "skin": "ledger",
+  "defaultTheme": "light",
   "site": {
     "name": "MoneyPilot",
     "tagline": "Practical, no-hype personal finance: budgeting systems, side income, and money automation that actually works.",

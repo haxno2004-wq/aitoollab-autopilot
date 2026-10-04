@@ -1,12 +1,17 @@
-// Aurora backdrop + scroll-reveal animations + theme toggle. No tracking, no external calls.
+// Skin-aware interactions: aurora backdrop, scroll-reveal, theme toggle.
+// No tracking, no external calls. The aurora is injected only for skins that
+// render it (editorial, command); CSS would hide it elsewhere anyway.
 (function () {
   document.documentElement.classList.remove("no-js");
+  var skin = document.documentElement.getAttribute("data-skin") || "editorial";
 
-  // aurora backdrop
-  var a = document.createElement("div");
-  a.className = "aurora";
-  for (var i = 0; i < 3; i++) a.appendChild(document.createElement("span"));
-  document.body.prepend(a);
+  // aurora backdrop — editorial + command skins only
+  if (skin === "editorial" || skin === "command") {
+    var a = document.createElement("div");
+    a.className = "aurora";
+    for (var i = 0; i < 3; i++) a.appendChild(document.createElement("span"));
+    document.body.prepend(a);
+  }
 
   // theme toggle
   var btn = document.createElement("button");
@@ -26,7 +31,7 @@
   document.body.appendChild(btn);
 
   // scroll-reveal
-  var targets = document.querySelectorAll("section, .aff-box, .takeaway, .card");
+  var targets = document.querySelectorAll("section, .aff-box, .takeaway, .card, .kpi");
   if ("IntersectionObserver" in window) {
     var io = new IntersectionObserver(
       function (entries) {

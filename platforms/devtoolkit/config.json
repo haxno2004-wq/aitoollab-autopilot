@@ -1,5 +1,7 @@
 {
   "type": "content",
+  "skin": "terminal",
+  "defaultTheme": "dark",
   "site": {
     "name": "DevToolkit Daily",
     "tagline": "Field-tested dev tools, terminal utilities, and workflow upgrades for working programmers.",

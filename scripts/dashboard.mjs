@@ -110,16 +110,16 @@ const recentRuns = (runs || []).slice(0, 10);
 const usd = (n) => `$${n.toFixed(2)}`;
 
 const html = `<!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" data-skin="command" data-default-theme="dark">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fleet Command Deck — Autonomous Earning Monitor</title>
 <meta name="robots" content="noindex">
-<link rel="stylesheet" href="/shared/style.css">
-<script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script>
+<link rel="stylesheet" href="/shared/style.css?v=2">
+<script>(function(){try{var d=document.documentElement.getAttribute('data-default-theme')==='dark';var t=localStorage.getItem('theme');if(t==='dark'||(d&&!t)||(!t&&!d&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script>
 </head>
 <body>
-<header class="site-head"><div class="wrap head-wrap"><a class="brand" href="/">🛰️ Fleet Command Deck</a><nav><a href="https://github.com/${esc(REPO)}/actions" target="_blank">Actions ↗</a></nav></div></header>
+<header class="site-head"><div class="wrap head-wrap"><a class="brand" href="/">🛰️ Fleet Command Deck</a><nav><a href="https://github.com/${esc(REPO)}/actions" target="_blank">Actions ↗</a><span class="currency-widget"><span class="currency-symbol">$</span><select id="currency-select" class="currency-select" aria-label="Currency"></select></span></nav></div></header>
 <main class="wrap">
   <section class="hero">
     <span class="eyebrow">live · rebuilt after every fleet run</span>
@@ -131,7 +131,14 @@ const html = `<!doctype html>
     <div class="kpi"><span class="kpi-num">${totals.items}</span><span class="kpi-label">items published</span></div>
     <div class="kpi"><span class="kpi-num">${totals.words.toLocaleString()}</span><span class="kpi-label">words written</span></div>
     <div class="kpi"><span class="kpi-num">${totals.ok}</span><span class="kpi-label">successful runs</span></div>
-    <div class="kpi"><span class="kpi-num">${usd(totals.rev)}</span><span class="kpi-label">revenue logged</span></div>
+    <div class="kpi"><span class="kpi-num" data-usd="${totals.rev}">${usd(totals.rev)}</span><span class="kpi-label">revenue logged</span></div>
+
+  </section>
+
+  <section class="rate-strip">
+    <span class="rate-label">FX ·</span>
+    <span id="fx-strip">loading live rates…</span>
+    <span class="rate-src">(ECB reference rates, auto-refreshed)</span>
   </section>
 
   <section>
@@ -154,7 +161,7 @@ const html = `<!doctype html>
     ${
       revenue.length
         ? `<table class="rev"><tr><th>month</th><th>platform</th><th>source</th><th>amount</th></tr>${revenue
-            .map((r) => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td>${usd(parseFloat(r[3]) || 0)}</td></tr>`)
+            .map((r) => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td><span data-usd="${parseFloat(r[3]) || 0}">${usd(parseFloat(r[3]) || 0)}</span></td></tr>`)
             .join("")}</table>`
         : `<p class="muted-note">No revenue logged yet — that's expected in the first weeks. Revenue appears in your affiliate/Gumroad/AdSense dashboards; add rows to <code>state/revenue.csv</code> (<code>month,platform,source,amount</code>) and redeploy to see them here. See docs/EARNINGS.md for realistic timelines.</p>`
     }
@@ -175,13 +182,13 @@ const html = `<!doctype html>
     }
   </section>
 </main>
-<footer class="site-foot"><div class="wrap">🛰️ Fleet Command Deck · rebuilt automatically · <a href="https://github.com/${esc(REPO)}">source</a></div></footer>
-<script src="/shared/site.js" defer></script>
+<footer class="site-foot"><div class="wrap foot-grid"><div><h4>Fleet Command Deck</h4><p class="foot-blurb">Live monitoring for the autonomous earning fleet — run health, content volume, monetization switches, revenue.</p></div><div><h4>Platforms</h4><ul><li><a href="https://aitoollab.pages.dev" target="_blank" rel="noopener">AI ToolLab</a></li><li><a href="https://moneypilot.pages.dev" target="_blank" rel="noopener">MoneyPilot</a></li><li><a href="https://devtoolkit-daily.pages.dev" target="_blank" rel="noopener">DevToolkit Daily</a></li><li><a href="https://promptforge-shop.pages.dev" target="_blank" rel="noopener">PromptForge Shop</a></li></ul></div><div><h4>Monitor</h4><ul><li><a href="https://github.com/${esc(REPO)}/actions" target="_blank" rel="noopener">Actions ↗</a></li><li><a href="https://github.com/${esc(REPO)}" target="_blank" rel="noopener">Source ↗</a></li></ul></div></div><div class="wrap foot-legal"><p>🛰️ Rebuilt automatically after every fleet run</p><p>© ${new Date().getUTCFullYear()} Fleet Command Deck</p></div></footer>
+<script src="/shared/site.js?v=2" defer></script>
 </body>
 </html>`;
 
 fs.mkdirSync("dist/dashboard", { recursive: true });
 fs.cpSync("site/assets", "dist/dashboard/assets", { recursive: true });
 fs.cpSync("site/shared", "dist/dashboard/shared", { recursive: true });
-fs.writeFileSync("dist/dashboard/index.html", html);
+fs.writeFileSync("dist/dashboard/index.html", html.replace("</body>", '<script src="/shared/fx.js?v=2" defer></script>\n</body>'));
 console.log(`[dashboard] built — ${rows.length} platforms, ${totals.items} items, recent runs: ${recentRuns.length}`);

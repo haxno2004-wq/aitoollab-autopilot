@@ -1,4 +1,6 @@
 {
+  "skin": "editorial",
+  "defaultTheme": "dark",
   "site": {
     "name": "AI ToolLab",
     "tagline": "Practical reviews, benchmarks, and workflows for the AI tools that actually save you time.",

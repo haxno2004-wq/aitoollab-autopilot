@@ -19,6 +19,30 @@ function base(config) {
   return config.site.url.replace(/\/+$/, "");
 }
 
+const FLEET_LINKS = [
+  ["AI ToolLab", "https://aitoollab.pages.dev"],
+  ["MoneyPilot", "https://moneypilot.pages.dev"],
+  ["DevToolkit Daily", "https://devtoolkit-daily.pages.dev"],
+  ["PromptForge Shop", "https://promptforge-shop.pages.dev"],
+];
+
+// cross-links to the other fleet sites (omits this site)
+function fleetLinksHtml(config) {
+  const own = base(config).replace(/^https:\/\//, "");
+  return FLEET_LINKS
+    .filter(([, u]) => !u.includes(own))
+    .map(([n, u]) => `<li><a href="${u}" target="_blank" rel="noopener">${n}</a></li>`)
+    .join("\n          ");
+}
+
+// About/Privacy pages carry their own <head>, so accent vars go inline there
+function accentStyle(config) {
+  const th = config.theme || {};
+  return `<style>:root{--accent:${th.accent || "#6d5cff"};--accent2:${th.accent2 || "#00c2a8"};--accent3:${th.accent3 || "#ff5c8a"}}</style>`;
+}
+
+const readingTime = (words) => `${Math.max(1, Math.round((words || 900) / 220))} min read`;
+
 // ---------- AI hero images (free, keyless; never blocks a build) ----------
 
 function imagePromptFor(title, tags) {
@@ -82,7 +106,7 @@ function renderPage(body, meta, config) {
     ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(config.adsense.client)}" crossorigin="anonymous"></script>`
     : "";
   return `<!doctype html>
-<html lang="${esc(config.site.language)}" class="no-js">
+<html lang="${esc(config.site.language)}" class="no-js" data-skin="${esc(config.skin || "editorial")}" data-default-theme="${esc(config.defaultTheme || "light")}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -102,26 +126,60 @@ function renderPage(body, meta, config) {
   <style>
     :root { --accent:${accent}; --accent2:${accent2}; --accent3:${accent3}; }
   </style>
-  <link rel="stylesheet" href="/assets/style.css">
-  <script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script>
+  <link rel="stylesheet" href="/assets/style.css?v=2">
+  <script>(function(){try{var d=document.documentElement.getAttribute('data-default-theme')==='dark';var t=localStorage.getItem('theme');if(t==='dark'||(d&&!t)||(!t&&!d&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script>
 </head>
 <body>
   <header class="site-head">
     <div class="wrap head-wrap">
       <a class="brand" href="/">⚡ ${esc(config.site.name)}</a>
-      <nav><a href="/">Latest</a> <a href="/rss.xml">RSS</a></nav>
+      <nav>
+        <a href="/">Latest</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/rss.xml">RSS</a>
+        <span class="currency-widget"><span class="currency-symbol">$</span><select id="currency-select" class="currency-select" aria-label="Currency"></select></span>
+      </nav>
     </div>
   </header>
   <main class="wrap">
 ${body}
   </main>
   <footer class="site-foot">
-    <div class="wrap">
+    <div class="wrap foot-grid">
+      <div>
+        <h4>${esc(config.site.name)}</h4>
+        <p class="foot-blurb">${esc(config.site.tagline)}</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/">Latest</a></li>
+          <li><a href="/rss.xml">RSS feed</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/privacy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The fleet</h4>
+        <ul>
+          ${fleetLinksHtml(config)}
+        </ul>
+      </div>
+    </div>
+    <div class="wrap foot-legal">
       <p>${esc(config.affiliate?.disclosure || "")}</p>
-      <p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously · <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a></p>
+      <p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p>
     </div>
   </footer>
-  <script src="/assets/site.js" defer></script>
+  <script src="/assets/site.js?v=2" defer></script>
+  <script src="/assets/fx.js?v=2" defer></script>
 </body>
 </html>`;
 }
@@ -195,7 +253,7 @@ function articleBodyHtml(a, config) {
     .join("\n")}</section>`;
 
   return `<article>
-    <p class="kicker">${(a._date || "").slice(0, 10)} · ${a._wordCount} words · autonomous edition</p>
+    <p class="kicker">${(a._date || "").slice(0, 10)} · <span class="reading-time">${readingTime(a._wordCount)}</span> · ${a._wordCount} words · autonomous edition</p>
     <h1>${esc(a.title)}</h1>
     <p class="dek">${esc(a.metaDescription)}</p>
     ${heroImg}
@@ -223,7 +281,7 @@ function productBodyHtml(p, config) {
     .map((i) => `<li>${esc(i)}</li>`)
     .join("\n");
   const cta = p.buyUrl
-    ? `<a class="buy-btn" href="${esc(p.buyUrl)}" rel="noopener nofollow sponsored" target="_blank">Get it on Gumroad — $${esc(p.price)}</a>`
+    ? `<a class="buy-btn" href="${esc(p.buyUrl)}" rel="noopener nofollow sponsored" target="_blank">Get it on Gumroad — <span data-usd="${esc(p.price)}">$${esc(p.price)}</span></a>`
     : `<p class="muted-note">Checkout link pending — set <code>buyUrl</code> in the product JSON.</p>`;
   const sampleHtml = p.sampleItems?.length
     ? `<section><h2>What's inside (sample)</h2><ul>${p.sampleItems.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></section>`
@@ -237,7 +295,7 @@ function productBodyHtml(p, config) {
     <section><h2>What this is</h2>${mdToHtml(p.description)}</section>
     ${sampleHtml}
     <section><h2>Included</h2><ul class="includes">${includesHtml}</ul></section>
-    <section class="takeaway"><h2>Price</h2><p class="price-line"><strong>$${esc(p.price)}</strong> · ${esc(p.license || "personal use license")}</p><p>${cta}</p></section>
+    <section class="takeaway"><h2>Price</h2><p class="price-line"><strong data-usd="${esc(p.price)}">$${esc(p.price)}</strong> · ${esc(p.license || "personal use license")}</p><p>${cta}</p></section>
   </article>`;
 }
 
@@ -267,7 +325,7 @@ function homeHtml(items, config) {
   <div class="card-body">
   <a href="${href}"><h2>${esc(p.title)}</h2></a>
   <p class="dek">${esc(p.description)}</p>
-  <p class="meta">${isStore && p.price ? `<span class="tag">$${esc(p.price)}</span> · ` : ""}<time>${p.date.slice(0, 10)}</time>${p.tags?.length ? " · " + p.tags.map((t) => `<span class="tag">#${esc(t)}</span>`).join(" ") : ""}</p>
+  <p class="meta">${isStore && p.price ? `<span class="tag price-tag" data-usd="${esc(p.price)}">$${esc(p.price)}</span> · ` : ""}<time>${p.date.slice(0, 10)}</time>${p.tags?.length ? " · " + p.tags.map((t) => `<span class="tag">#${esc(t)}</span>`).join(" ") : ""}</p>
   </div>
 </li>`;
     })
@@ -370,6 +428,7 @@ export async function buildSite(config, newItem, ctxOverride) {
     a._image = local.startsWith("data:") ? local : `${b}${local}`;
   }
   fs.cpSync(imagesDir, path.join(publicDir, "assets", "img"), { recursive: true });
+  fs.copyFileSync("site/assets/fx.js", path.join(publicDir, "assets", "fx.js"));
 
   const seg = isStore ? "products" : "posts";
   fs.mkdirSync(path.join(publicDir, seg), { recursive: true });
@@ -389,6 +448,40 @@ export async function buildSite(config, newItem, ctxOverride) {
   }));
 
   fs.writeFileSync(path.join(publicDir, "index.html"), homeHtml(listItems, config));
+
+  // About + Privacy — required for AdSense approval and user trust
+  const about = `<!doctype html>
+<html lang="${esc(config.site.language)}" class="no-js" data-skin="${esc(config.skin || "editorial")}" data-default-theme="${esc(config.defaultTheme || "light")}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About — ${esc(config.site.name)}</title><meta name="description" content="About ${esc(config.site.name)}: what we publish and how it's made.">
+<link rel="canonical" href="${b}/about.html"><link rel="stylesheet" href="/assets/style.css?v=2">${accentStyle(config)}
+<script>(function(){try{var d=document.documentElement.getAttribute('data-default-theme')==='dark';var t=localStorage.getItem('theme');if(t==='dark'||(d&&!t)||(!t&&!d&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script></head>
+<body><header class="site-head"><div class="wrap head-wrap"><a class="brand" href="/">⚡ ${esc(config.site.name)}</a><nav><a href="/">Latest</a><a href="/privacy.html">Privacy</a><a href="/rss.xml">RSS</a><span class="currency-widget"><span class="currency-symbol">$</span><select id="currency-select" class="currency-select" aria-label="Currency"></select></span></nav></div></header>
+<main class="wrap"><article><h1>About ${esc(config.site.name)}</h1>
+<p>${esc(config.site.tagline)}</p>
+<section><h2>How this site is made</h2>
+<p>${esc(config.site.name)} is an autonomous publication: an automated editorial pipeline monitors public sources (news aggregators, open-source communities, public forums), selects topics our readers ask about, drafts articles with AI models, and passes every piece through a quality gate before publication. Our editorial standards: no invented statistics, no fake claims, hedged language where certainty ends. Prices and product details are verified at publication time and can change — always confirm on the vendor's site.</p>
+<p>Some links are affiliate links, marked per our disclosure: if you buy through them we may earn a commission at no extra cost to you. This never influences our verdicts — negative reviews stay negative.</p>
+</section>
+<section><h2>Contact</h2><p>Questions, corrections, or partnership requests: open an issue on our <a href="https://github.com/haxno2004-wq/aitoollab-autopilot">public repository</a>.</p></section>
+</article></main><footer class="site-foot"><div class="wrap foot-grid"><div><h4>${esc(config.site.name)}</h4><p class="foot-blurb">${esc(config.site.tagline)}</p></div><div><h4>Explore</h4><ul><li><a href="/">Latest</a></li><li><a href="/rss.xml">RSS feed</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/privacy.html">Privacy policy</a></li></ul></div><div><h4>The fleet</h4><ul>${fleetLinksHtml(config)}</ul></div></div><div class="wrap foot-legal"><p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p></div></footer>
+<script src="/assets/site.js?v=2" defer></script><script src="/assets/fx.js?v=2" defer></script></body></html>`;
+  fs.writeFileSync(path.join(publicDir, "about.html"), about);
+
+  const privacy = `<!doctype html>
+<html lang="${esc(config.site.language)}" class="no-js" data-skin="${esc(config.skin || "editorial")}" data-default-theme="${esc(config.defaultTheme || "light")}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — ${esc(config.site.name)}</title><meta name="description" content="Privacy policy for ${esc(config.site.name)}.">
+<link rel="canonical" href="${b}/privacy.html"><link rel="stylesheet" href="/assets/style.css?v=2">${accentStyle(config)}
+<script>(function(){try{var d=document.documentElement.getAttribute('data-default-theme')==='dark';var t=localStorage.getItem('theme');if(t==='dark'||(d&&!t)||(!t&&!d&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})()</script></head>
+<body><header class="site-head"><div class="wrap head-wrap"><a class="brand" href="/">⚡ ${esc(config.site.name)}</a><nav><a href="/">Latest</a><a href="/about.html">About</a><a href="/rss.xml">RSS</a><span class="currency-widget"><span class="currency-symbol">$</span><select id="currency-select" class="currency-select" aria-label="Currency"></select></span></nav></div></header>
+<main class="wrap"><article><h1>Privacy Policy</h1>
+<p>Last updated: ${new Date().toISOString().slice(0, 10)}</p>
+<section><h2>What we collect</h2><p>This site runs no first-party analytics and stores no personal data on our servers. Your theme and currency preferences are saved only in your own browser (localStorage) and never leave your device.</p></section>
+<section><h2>Third parties</h2><p>If advertising is enabled, Google AdSense may set cookies to personalize ads. You can opt out via <a href="https://adssettings.google.com" rel="noopener">Google Ads Settings</a>. Affiliate partners may track referral clicks through their own links, governed by their privacy policies. Product checkout (if enabled) is processed by third parties (e.g. Gumroad) — we never see your payment details.</p></section>
+<section><h2>Your choices</h2><p>You can clear stored preferences any time via your browser settings. For privacy questions, open an issue on our <a href="https://github.com/haxno2004-wq/aitoollab-autopilot">public repository</a>.</p></section>
+</article></main><footer class="site-foot"><div class="wrap foot-grid"><div><h4>${esc(config.site.name)}</h4><p class="foot-blurb">${esc(config.site.tagline)}</p></div><div><h4>Explore</h4><ul><li><a href="/">Latest</a></li><li><a href="/rss.xml">RSS feed</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/privacy.html">Privacy policy</a></li></ul></div><div><h4>The fleet</h4><ul>${fleetLinksHtml(config)}</ul></div></div><div class="wrap foot-legal"><p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p></div></footer>
+<script src="/assets/site.js?v=2" defer></script><script src="/assets/fx.js?v=2" defer></script></body></html>`;
+  fs.writeFileSync(path.join(publicDir, "privacy.html"), privacy);
+
   fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemapXml(listItems, config, config.type));
   fs.writeFileSync(path.join(publicDir, "rss.xml"), rssXml(listItems, config, config.type));
   fs.writeFileSync(path.join(publicDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${b}/sitemap.xml\n`);
