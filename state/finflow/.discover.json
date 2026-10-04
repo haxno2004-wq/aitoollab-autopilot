@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-03T21:21:31.989Z",
+  "fetchedAt": "2026-10-04T12:54:31.415Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "We're going to need default hard budget caps on pretty much everything",
+      "score": 7,
+      "meta": {}
+    },
     {
       "source": "reddit/personalfinance",
       "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
@@ -9,19 +15,7 @@
     },
     {
       "source": "hn",
-      "topic": "Mike Tomlin spent 12 years building a Minecraft city",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A 12-year sequence of telescope images of a star and four planets orbiting",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Loss of cell identity drives human aging: Two new papers",
+      "topic": "Hole Punch: Sling your spaceship around gravitational fields",
       "score": 4,
       "meta": {}
     },
@@ -33,19 +27,37 @@
     },
     {
       "source": "hn",
-      "topic": "Apple Pass Designer",
+      "topic": "Tell HN: Bob Cringely has died",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Kolibri: A Sovereign Open-Weight Model",
+      "topic": "So you think you could be an electrician?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RSS Feed Best Practices",
+      "topic": "Treachery in the Rodin Museum 3D scan verdict",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Agents don't need memory, they need documentation",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to hack time, with C2PA",
       "score": 3,
       "meta": {}
     },
@@ -63,26 +75,26 @@
     },
     {
       "source": "hn",
-      "topic": "Hole Punch: Sling your spaceship around gravitational fields",
+      "topic": "I quit OpenAI because its culture is broken",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ADHD, autism or complex trauma? [pdf]",
-      "score": 1,
+      "topic": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cloudflare OHTTP gateway",
-      "score": 1,
+      "topic": "We want you to build the next Git platform on Cloudflare",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An Update on Orion for Linux and Windows",
-      "score": 1,
+      "topic": "In Ukraine, distributed renewables foil Russia's assaults",
+      "score": 2,
       "meta": {}
     },
     {
@@ -93,55 +105,43 @@
     },
     {
       "source": "hn",
-      "topic": "Woking Electrical Control Room",
+      "topic": "Reasons I didn't become an EMT, ranked",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+      "topic": "City building games have a Soul Problem pt.2",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
+      "topic": "Surely you have ultra-wideband radios on your bins too?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "topic": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We want you to build the next Git platform on Cloudflare",
+      "topic": "Emitting metadata early makes building/checking Rust up to twice as fast",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Two American Airlines Flights End Up with the Same Flight Numbers",
+      "topic": "Show HN: AI search for every photo and every frame of video on macOS",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anthropic tried to persuade Pope that AI could be conscious being",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MPEG-2 Transport Streams and MOQ: Yes, MPEG-TS Is Still Relevant Today",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "At the Conformation Show: Chasing the Ideal Dog",
+      "topic": "Rejection Sensitivity in Gifted and Twice-Exceptional Children",
       "score": 1,
       "meta": {}
     },
@@ -165,12 +165,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "&quot;Activate x% cash back&quot; - Why is it CC issuers must make me click this ?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "My (22) parents (55) want to put my name on their mortgage",
       "score": 1,
       "meta": {}
@@ -184,12 +178,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "65 year old mother has too much money in the bank. What should she do with it?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should I buy a used prius that is worth $20K with $30K in savings?",
       "score": 1,
       "meta": {}
     },
@@ -219,25 +207,43 @@
     },
     {
       "source": "hn",
-      "topic": "Our AI Midwife",
+      "topic": "Religious scholars met with Anthropic",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Holes (1996-2025)",
+      "topic": "We're working on a new RuneScape MMO",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Body Awareness in Goffin's Cockatoos",
+      "topic": "Your body of work thinks back at you",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RetailReady (YC W24) Is Hiring",
+      "topic": "What Meta got right with Muse",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "gpuvis: GPU Trace Visualizer",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dirty Optimization Secrets (C for Playdate)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Thought as a Technology",
       "score": 0,
       "meta": {}
     },
@@ -279,13 +285,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "I created my first Roth IRA at 30, and put in full 7500. 2 months in, and its gone down 200 dollars instead of any gains. How do I better manage my finances?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "My companies 401k switched from a per-paycheck match to a single contribution at the end of the year.",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I created my first Roth IRA at 30, and put in full 7500. 2 months in, and its gone down 200 dollars instead of any gains. How do I better manage my finances?",
+      "topic": "Your I'm done number?",
       "score": 0,
       "meta": {}
     },
@@ -321,13 +333,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Does anyone pay property taxes with a card?",
+      "topic": "Can you pay all medical bills through HSA",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "403b Management &quot;lost&quot; a check",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Does anyone pay property taxes with a card?",
       "score": 0,
       "meta": {}
     },
@@ -340,6 +358,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Sell off stocks to buy house?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Rent an Apartment or get a Townhouse?",
       "score": 0,
       "meta": {}
     }
