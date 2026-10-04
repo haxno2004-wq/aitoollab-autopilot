@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-04T12:23:23.791Z",
-  "topic": "We're going to need default hard budget caps on pretty much everything",
+  "pickedAt": "2026-10-04T21:31:31.039Z",
+  "topic": "Agents don't need memory, they need documentation",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "were-going-to-need-default-hard-budget-caps-on-pretty-much-every",
+  "slug": "agents-dont-need-memory-they-need-documentation",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 7,
-  "remaining": 26
+  "finalScore": 4,
+  "remaining": 25
 }

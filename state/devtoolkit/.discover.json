@@ -1,15 +1,27 @@
 {
-  "fetchedAt": "2026-10-04T12:23:23.749Z",
+  "fetchedAt": "2026-10-04T21:31:30.998Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "We're going to need default hard budget caps on pretty much everything",
-      "score": 7,
+      "topic": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hole Punch: Sling your spaceship around gravitational fields",
+      "topic": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Agents don't need memory, they need documentation",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to scale intent, quality, and artistry with AI [video]",
       "score": 4,
       "meta": {}
     },
@@ -21,145 +33,127 @@
     },
     {
       "source": "hn",
-      "topic": "Treachery in the Rodin Museum 3D scan verdict",
+      "topic": "Automating my 35mm film scanning pipeline",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Agents don't need memory, they need documentation",
+      "topic": "'Neanderthals Among Us' review",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to hack time, with C2PA",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "So you think you could be an electrician?",
+      "topic": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I quit OpenAI because its culture is broken",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We want you to build the next Git platform on Cloudflare",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "In Ukraine, distributed renewables foil Russia's assaults",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FTL: A new operating system for clouds",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Reasons I didn't become an EMT, ranked",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "City building games have a Soul Problem pt.2",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Surely you have ultra-wideband radios on your bins too?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Former SR-71 engineer talks NASA's Blackbird revival program",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Emitting metadata early makes building/checking Rust up to twice as fast",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Show HN: AI search for every photo and every frame of video on macOS",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Surely you have ultra-wideband radios on your bins too?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What is going on with ceiling fans",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Religious scholars met with Anthropic",
+      "topic": "A map of every lighthouse",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Improper redaction reveals Google Data Center water and electricity usage",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Declaring a bird extinct: The median wait is 36 years after the last sighting",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "cp: -r or -R?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We're working on a new RuneScape MMO",
+      "topic": "Results from the ASIC puzzle",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Your body of work thinks back at you",
+      "topic": "Bill Draper has died",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What Meta got right with Muse",
+      "topic": "The evolution of effective altruism",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dirty Optimization Secrets (C for Playdate)",
+      "topic": "A Minsky machine in ncurses terminfo",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "gpuvis: GPU Trace Visualizer",
+      "topic": "Homa: The end of TCP for AI clusters [video]",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Thought as a Technology",
+      "topic": "Page Table Memory Consumption",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Incentives in Academic Research",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fog-Bank: Archiving the oldest webcam feed",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A man who listens to whales",
       "score": 0,
       "meta": {}
     }
