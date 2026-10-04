@@ -1,87 +1,87 @@
 {
   "_slug": "the-content-engine-solo-founder-edition-1tp7sq5",
-  "_date": "2026-10-02T12:37:18.144Z",
+  "_date": "2026-10-04T12:23:50.202Z",
   "name": "The Content Engine: Solo Founder Edition",
-  "tagline": "Turn a single core idea into an entire week of targeted social media posts in minutes.",
-  "metaDescription": "Discover 12 plug-and-play prompts designed for solo founders to repurpose one core idea into a full week of high-converting content across platforms.",
-  "description": "As a solo founder, your biggest bottleneck isn't building your product—it's marketing it consistently without burning out. You have great ideas, but sitting down to write separate posts for X, LinkedIn, and your newsletter takes hours you don't have.\n\n**The Content Engine** solves this by giving you a systematic, 12-prompt framework to atomize a single core concept into a week's worth of multi-platform content. \n\n### Who It's For\nBootstrapped founders, indie hackers, and solo entrepreneurs who need to maintain a consistent social media presence to drive organic growth without a dedicated marketing team.\n\n### What Problem It Solves\nIt eliminates blank-page syndrome and the fatigue of daily brainstorming. Instead of wondering what to post, you feed your latest milestone, customer insight, or product update into these prompts to instantly generate tailored copy.\n\n### Why These Prompts Work\nThese aren't generic writing prompts. They are engineered using advanced copywriting frameworks (like PAS, AIDA, and story-driven arcs) specifically tuned for the B2B and indie SaaS landscapes. Each prompt includes a specific usage tip to help you inject your authentic founder voice, ensure high engagement, and drive traffic back to your landing page.",
+  "tagline": "Turn a single core idea into an entire week of targeted social media content in minutes.",
+  "metaDescription": "Stop staring at a blank screen. Use these 12 plug-and-play prompts designed for solo founders to turn one idea into a full week of high-converting posts.",
+  "description": "If you are a solo founder wearing all the hats, creating consistent social media content feels like a second full-time job. You know you need to post to build in public and attract customers, but you rarely have hours to write threads, thought leadership pieces, and engagement hooks.\n\nThis digital toolkit is built specifically for solo founders who want high-output content without sacrificing product development time. Inside, you will find 12 rigorous, plug-and-play AI prompts designed to take one raw seed idea—a customer win, a feature launch, or a hard-earned lesson—and expand it into a diversified weekly content calendar.\n\nWhy do these prompts work? Unlike generic brainstorming requests, these prompts use constrained output formats, specific audience framing, and proven copywriting frameworks. They force AI to adopt the voice of a pragmatic builder rather than a generic marketer. Each prompt includes a usage tip so you can train the model on your exact brand voice, ensuring your output sounds like you, not a robot. Stop letting good ideas die in your notes app and start building a predictable content engine.",
   "tags": [
     "content marketing",
+    "solopreneur",
     "ai prompts",
-    "solo founders",
     "social media"
   ],
   "price": 19,
   "license": "personal use license",
   "includes": [
-    "1 Notion template containing all 12 production-ready prompts",
-    "Markdown (.md) file for easy copy-pasting into ChatGPT or Claude",
-    "3 distinct categories: Thread & Short-form, Long-form & Authority, and Newsletter & Email"
+    "1 PDF guide containing 12 production-ready prompts",
+    "1 Notion template with embedded prompt workflows",
+    "Categories include: Thought Leadership, Conversion Hooks, Build in Public, and Educational Threads"
   ],
   "sampleItems": [
-    "Act as a direct response copywriter. Take my core idea about bootstrapping and rewrite it into a 5-tweet thread using the Hook-Story-Offer framework.",
-    "Act as a B2B content strategist. Convert my latest product update into a professional, insight-driven LinkedIn post that appeals to busy executives."
+    "Act as a pragmatic B2B SaaS founder. Take the core concept of [insert idea] and write a 5-part X/Twitter thread breaking down the counterintuitive truth behind it, ending with a soft call to action for our waitlist.",
+    "Draft a LinkedIn thought leadership post using the Problem-Agitate-Solve framework based on this recent customer support ticket: [insert ticket]. Focus on the operational inefficiency it highlights."
   ],
   "items": [
     {
-      "title": "The 5-Tweet Narrative Thread",
-      "category": "Short-Form",
-      "body": "Act as an expert growth marketer. Take my core idea below and break it down into a 5-part Twitter/X thread. Tweet 1 must be a high-curiosity hook under 280 characters without using clickbait clichés. Tweets 2 through 4 should deliver rapid-fire value, breaking the concept into actionable lessons. Tweet 5 must end with a clear, low-friction call-to-action inviting engagement or a newsletter sign-up. Usage tip: Replace any abstract jargon with concrete numbers or timeframe metrics from your actual founder journey before posting."
+      "title": "The Contrarian Thread",
+      "category": "Thought Leadership",
+      "body": "Act as an experienced solo founder who is tired of generic startup advice. Take this conventional industry best practice: [insert best practice]. Write a 6-part X/Twitter thread explaining why it fails for bootstrapped companies and offer a pragmatic alternative. Keep sentences punchy, remove all marketing jargon, and make the tone direct and peer-to-peer. Usage tip: Feed the AI your past three best-performing posts first to anchor its vocabulary to your personal speaking style."
     },
     {
-      "title": "The Contrarian Authority Post",
-      "category": "Long-Form",
-      "body": "Act as a contrarian industry analyst. Take my core idea and formulate a LinkedIn post that challenges conventional wisdom in my niche. Start with a bold, polarizing opening statement that stops the scroll. Follow up with three logical arguments supported by common founder mistakes, and conclude with a forward-looking prediction. Keep paragraphs short—one to two sentences max—to maximize mobile readability. Usage tip: Ensure your stance is genuinely held; mild controversy builds authority, but fake outrage damages trust."
+      "title": "The Behind-the-Scenes Build Story",
+      "category": "Build in Public",
+      "body": "Act as a transparent solo developer building a software product from scratch. Take this recent technical hurdle or product milestone: [insert milestone]. Write a short, engaging LinkedIn post detailing the actual mistake made, the messy middle of solving it, and the one key takeaway for other builders. Avoid toxic positivity; focus on authentic operational realities. Usage tip: Include raw metrics or error logs to instantly boost trust and engagement."
     },
     {
-      "title": "The Behind-The-Scenes Builder Story",
-      "category": "Storytelling",
-      "body": "Act as a narrative essayist. Translate my core idea into a vulnerable, behind-the-scenes founder story. Focus on a specific challenge, mistake, or breakthrough moment I experienced while working on my startup. Structure the post using a narrative arc: the inciting struggle, the turning point realization, and the ultimate takeaway for other builders. Usage tip: Avoid toxic positivity; acknowledging a real failure makes your eventual success far more compelling to potential users."
+      "title": "The Customer Pain Point Breakdown",
+      "category": "Conversion Hooks",
+      "body": "Act as a customer success lead for a micro-SaaS. Take this frequent customer complaint: [insert complaint]. Write a compelling LinkedIn post structured around the Problem-Agitate-Solve framework. Show empathy for the frustrated founder wasting time on manual work, highlight the hidden costs, and introduce our product as the frictionless fix. Usage tip: Keep the transition to your product natural rather than feeling like a hard infomercial."
     },
     {
-      "title": "The Step-by-Step Tactical Playbook",
+      "title": "The One-Sentence Framework",
       "category": "Educational",
-      "body": "Act as a technical documentation writer turned marketer. Convert my core idea into a chronological, step-by-step tutorial post for indie hackers. Format the output with clear numbered steps (1 through 5), including specific tools, metrics, or methods used at each stage. End with a prompt asking readers which step they struggle with the most. Usage tip: Use this prompt when you have recently solved a frustrating technical or operational problem in your business."
+      "body": "Act as a concise startup mentor. Take this broad topic: [insert topic, e.g., pricing strategy]. Distill it into a memorable 3-step framework that a solo founder can implement in under an hour. Format the output with clear bullet points, bold headers, and an actionable takeaway for each step. Usage tip: Use this prompt when you need high-save-rate content for Instagram or LinkedIn carousels."
     },
     {
-      "title": "The Customer Problem-Agitation-Solution (PAS)",
-      "category": "Conversion",
-      "body": "Act as a direct-response conversion copywriter. Take my core idea and adapt it into a short-form promotional post using the PAS (Problem-Agitate-Solution) framework. First, vividly describe the pain point my target user feels daily. Second, agitate that pain by highlighting the hidden costs of inaction (lost time, wasted money, stress). Third, introduce my product as the effortless, elegant solution. Usage tip: Keep the transition to your product seamless so the post reads like helpful advice rather than a desperate sales pitch."
+      "title": "The Founder's Weekly Retrospective",
+      "category": "Build in Public",
+      "body": "Act as a solo founder writing a raw weekly journal update. Using these raw notes from my week: [insert notes], write an engaging recap post highlighting one major win, one brutal failure, and one experiment we are running next week. End with an open-ended question to drive comments from fellow founders. Usage tip: Bullet points work best for the raw notes input; don't worry about formatting them nicely."
     },
     {
-      "title": "The Data-Driven Insight Breakdown",
-      "category": "Authority",
-      "body": "Act as a startup data analyst. Transform my core idea into an analytical post that highlights a surprising trend, metric, or user behavior observation. Present the data point immediately in the hook, explain the 'why' behind the numbers in the body, and offer a strategic recommendation for solo founders trying to scale. Usage tip: If you don't have public metrics, use internal beta-test observations or anonymized user feedback to back up your claims."
+      "title": "The Myth vs. Reality Matrix",
+      "category": "Thought Leadership",
+      "body": "Act as an industry insider. Take this common myth about bootstrapping: [insert myth]. Create a clear 'Myth vs. Reality' comparison post optimized for LinkedIn or X. Provide two columns or bullet lists that contrast the glossy startup media narrative with the gritty solo founder reality. Usage tip: Follow up by asking the AI to generate three headline variations for this post."
     },
     {
-      "title": "The Quick-Hit Bulleted Takeaways",
-      "category": "Short-Form",
-      "body": "Act as a busy curator. Distill my core idea into a punchy, ultra-scannable listicle optimized for LinkedIn or X. Provide an introductory sentence, followed by 5 distinct bullet points beginning with strong action verbs, and wrap up with a summary question that drives comments. Usage tip: This is your go-to format when you are short on time but still want to ship daily content to maintain algorithmic momentum."
+      "title": "The Micro-Case Study",
+      "category": "Conversion Hooks",
+      "body": "Act as a data-driven marketer. Take this user success metric or transformation: [insert result, e.g., saved 5 hours a week]. Write a short-form case study post. Structure it as: The Context, The Bottleneck, The Solution, and The Result. Keep the total word count under 150 words for maximum mobile readability. Usage tip: Blur out sensitive company names if sharing real user data, or use an anonymized composite persona."
     },
     {
-      "title": "The Founder FAQ & Objection Crusher",
-      "category": "Conversion",
-      "body": "Act as a skeptical customer success lead. Take my core idea and frame it as an answer to the most common objection prospective users have about my product or niche. Start by stating the objection bluntly ('Why bother building in public when...'), dismantle it with logic and personal experience, and position your product as the natural answer. Usage tip: Pull this objection directly from a recent customer email, DM, or Reddit comment you received."
-    },
-    {
-      "title": "The Weekly Newsletter Deep Dive",
-      "category": "Long-Form",
-      "body": "Act as an expert email newsletter editor. Expand my core idea into a 400-word standalone newsletter issue. Include a catchy subject line, a personal opening anecdote, a comprehensive exploration of the core idea, three actionable takeaways, and a soft promotional mention of my product at the very bottom. Usage tip: Send this out on Tuesday or Thursday mornings when B2B open rates peak for solo operators and decision-makers."
-    },
-    {
-      "title": "The Visionary Future-Of-The-Industry Post",
-      "category": "Authority",
-      "body": "Act as a startup futurist. Take my core idea and project it five years into the future of my industry. Write a visionary post detailing how current trends will transform the landscape, what legacy tools will die out, and how solo founders can position themselves to win. Usage tip: Bold predictions generate massive shares and attract high-value networking opportunities with other forward-thinking founders."
-    },
-    {
-      "title": "The Interactive Poll & Discussion Starter",
+      "title": "The Hot Take Engagement Prompt",
       "category": "Engagement",
-      "body": "Act as a community manager. Convert my core idea into a high-engagement post designed to spark debate and gather qualitative market research. Frame the post around a common industry dilemma, present two contrasting paths forward, and invite the audience to vote or explain their reasoning in the comments. Usage tip: Read every comment reply and use the insights to generate ideas for your next three pieces of content."
+      "body": "Act as a provocative startup commentator. Take this emerging trend in tech or software: [insert trend]. Write a short, punchy 3-sentence post stating a strong, defensible opinion that challenges consensus. End with a direct question asking other founders if they agree or disagree. Usage tip: Do not use this prompt more than once a week to maintain authority without coming across as purely contrarian."
     },
     {
-      "title": "The Milestone & Lessons Learned Retrospective",
-      "category": "Storytelling",
-      "body": "Act as a reflective solo founder documenting the journey. Take my core idea and turn it into a milestone celebration post that avoids humble-bragging by focusing entirely on the painful lessons learned along the way. Detail what went wrong, what you changed, and what advice you would give to someone starting out today. Usage tip: Authenticity wins online; sharing a specific mistake you made builds vastly more rapport than just posting a revenue screenshot."
+      "title": "The Tool Stack Breakdown",
+      "category": "Educational",
+      "body": "Act as an efficient solopreneur sharing operational secrets. Take these software tools or automations I use: [insert tools]. Write a structured post explaining how they connect to save time and reduce overhead for a one-person business. Focus heavily on ROI rather than feature lists. Usage tip: Tag the tools mentioned if you have existing relationships or want to spark outbound visibility."
+    },
+    {
+      "title": "The FAQ Objection Killer",
+      "category": "Conversion Hooks",
+      "body": "Act as a skeptical buyer evaluating our product. Write a short post addressing the biggest unspoken objection solo founders have about buying our product: [insert objection, e.g., 'I don't have time to set this up']. Answer the objection head-on with a simple implementation timeline. Usage tip: Pair this post with a direct link to a 60-second Loom demo in the comments."
+    },
+    {
+      "title": "The Lesson From a Mistake",
+      "category": "Build in Public",
+      "body": "Act as a reflective founder looking back at a costly error. Take this recent misstep: [insert mistake, e.g., launching the wrong feature]. Write a vulnerable, non-defensive post detailing what went wrong, how much it cost in time or money, and the exact heuristic adopted to prevent it from happening again. Usage tip: Vulnerability drives high comment engagement; reply to every comment within the first hour."
+    },
+    {
+      "title": "The Future Prediction Post",
+      "category": "Thought Leadership",
+      "body": "Act as a forward-thinking product strategist. Based on this current shift in the market: [insert market shift], write a concise LinkedIn post predicting where solo businesses will operate in the next 12 months. Give three specific tactical predictions and one warning for legacy players. Usage tip: Ground your prediction in a trend you are actively seeing inside your own customer base."
     }
   ],
   "buyUrl": null,
