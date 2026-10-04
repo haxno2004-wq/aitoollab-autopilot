@@ -21,7 +21,8 @@
     "launch-hn-tinfoil-yc-p25-verifiable-privacy-for-cloud-ai",
     "show-hn-a-web-browser-agent-in-your-chrome-side-panel",
     "tell-hn-im-a-pm-at-a-big-system-of-record-saas-were-cooked",
-    "show-hn-i-built-an-ai-agent-that-turns-ros-2s-turtlesim-into-a-d"
+    "show-hn-i-built-an-ai-agent-that-turns-ros-2s-turtlesim-into-a-d",
+    "show-hn-ozbrain-a-shared-brain-for-knowledge-between-agents-and"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -45,7 +46,8 @@
     "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI",
     "Show HN: A web browser agent in your Chrome side panel",
     "Tell HN: I'm a PM at a big system of record SaaS. We're cooked",
-    "Show HN: I built an AI agent that turns ROS 2's turtlesim into a digital artist"
+    "Show HN: I built an AI agent that turns ROS 2's turtlesim into a digital artist",
+    "Show HN: OzBrain, a shared brain for knowledge between agents and your team"
   ],
-  "lastRun": "2026-10-04T12:55:15.786Z"
+  "lastRun": "2026-10-04T21:31:31.380Z"
 }
