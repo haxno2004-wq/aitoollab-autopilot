@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-04T12:54:31.415Z",
+  "fetchedAt": "2026-10-04T21:31:00.697Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "We're going to need default hard budget caps on pretty much everything",
-      "score": 7,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
@@ -15,13 +9,55 @@
     },
     {
       "source": "hn",
-      "topic": "Hole Punch: Sling your spaceship around gravitational fields",
+      "topic": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Agents don't need memory, they need documentation",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to scale intent, quality, and artistry with AI [video]",
       "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "What causes people to be so skeptical of investing?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "How to help parents make money, if i feel useless? (money is very tight)",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Side hustles requiring minimal cold outreach?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Which is harder? A full time job or a side hustle you do full time?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Anyone knows how to sell commercial garbage bag liner to business?",
       "score": 4,
       "meta": {}
     },
@@ -33,31 +69,13 @@
     },
     {
       "source": "hn",
-      "topic": "So you think you could be an electrician?",
+      "topic": "Automating my 35mm film scanning pipeline",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Treachery in the Rodin Museum 3D scan verdict",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Agents don't need memory, they need documentation",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to hack time, with C2PA",
+      "topic": "'Neanderthals Among Us' review",
       "score": 3,
       "meta": {}
     },
@@ -74,74 +92,80 @@
       "meta": {}
     },
     {
+      "source": "reddit/sidehustle",
+      "topic": "top scoring links : sidehustle",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Side hustle for a cargo van?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Multitasking is my side hustle!",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "need ideas on what side hustle i can do!",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "I quit OpenAI because its culture is broken",
+      "topic": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We want you to build the next Git platform on Cloudflare",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "In Ukraine, distributed renewables foil Russia's assaults",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FTL: A new operating system for clouds",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Reasons I didn't become an EMT, ranked",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "City building games have a Soul Problem pt.2",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Surely you have ultra-wideband radios on your bins too?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Emitting metadata early makes building/checking Rust up to twice as fast",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Show HN: AI search for every photo and every frame of video on macOS",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Surely you have ultra-wideband radios on your bins too?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Emitting metadata early makes building/checking Rust up to twice as fast",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What is going on with ceiling fans",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rejection Sensitivity in Gifted and Twice-Exceptional Children",
+      "topic": "A map of every lighthouse",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Improper redaction reveals Google Data Center water and electricity usage",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Declaring a bird extinct: The median wait is 36 years after the last sighting",
       "score": 1,
       "meta": {}
     },
@@ -206,44 +230,86 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Been ignoring IRA's and going heavy on my 401k, should I reassess?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Give up half my earned commission or take the full amount and leave?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "30m just left the automotive shop & can go mobile..",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Sidehustle slowchat: What were your wins and fails this week?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Religious scholars met with Anthropic",
+      "topic": "cp: -r or -R?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We're working on a new RuneScape MMO",
+      "topic": "Results from the ASIC puzzle",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Your body of work thinks back at you",
+      "topic": "Bill Draper has died",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What Meta got right with Muse",
+      "topic": "The evolution of effective altruism",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "gpuvis: GPU Trace Visualizer",
+      "topic": "A Minsky machine in ncurses terminfo",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dirty Optimization Secrets (C for Playdate)",
+      "topic": "Homa: The end of TCP for AI clusters [video]",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Thought as a Technology",
+      "topic": "Page Table Memory Consumption",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Incentives in Academic Research",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fog-Bank: Archiving the oldest webcam feed",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A man who listens to whales",
       "score": 0,
       "meta": {}
     },
@@ -291,13 +357,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "My companies 401k switched from a per-paycheck match to a single contribution at the end of the year.",
+      "topic": "Your I'm done number?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Your I'm done number?",
+      "topic": "My companies 401k switched from a per-paycheck match to a single contribution at the end of the year.",
       "score": 0,
       "meta": {}
     },
@@ -315,19 +381,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Considering a joint account for household expenses in a long term unmarried relationship due to a large income difference",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Company owner approached me about possible private equity buyout. What should my expectations be?",
       "score": 0,
       "meta": {}
     },
@@ -339,13 +393,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "403b Management &quot;lost&quot; a check",
+      "topic": "Company owner approached me about possible private equity buyout. What should my expectations be?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Does anyone pay property taxes with a card?",
+      "topic": "Who do I see regarding deceased assets?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "403b Management &quot;lost&quot; a check",
       "score": 0,
       "meta": {}
     },
@@ -357,13 +417,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Sell off stocks to buy house?",
+      "topic": "Does anyone pay property taxes with a card?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Rent an Apartment or get a Townhouse?",
+      "topic": "Sell off stocks to buy house?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "i need 1300 more per month. gonna try to rent out the master bedroom, but is there anything i could do instead?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Pet sitting rate question",
       "score": 0,
       "meta": {}
     }
