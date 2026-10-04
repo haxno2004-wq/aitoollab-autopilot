@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-10-04T12:54:29.298Z",
-  "topic": "Show HN: I built an AI agent that turns ROS 2's turtlesim into a digital artist",
+  "pickedAt": "2026-10-04T21:30:57.221Z",
+  "topic": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "show-hn-i-built-an-ai-agent-that-turns-ros-2s-turtlesim-into-a-d",
+  "slug": "show-hn-ozbrain-a-shared-brain-for-knowledge-between-agents-and",
   "source": "hn",
   "sourceMeta": {
-    "points": 30,
-    "url": "https://github.com/Yutarop/turtlesim_agent"
+    "points": 93,
+    "url": "https://ozbrain.com"
   },
   "finalScore": 1,
-  "remaining": 1
+  "remaining": 0
 }
