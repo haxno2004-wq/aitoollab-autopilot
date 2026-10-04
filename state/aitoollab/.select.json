@@ -1,13 +1,13 @@
 {
-  "pickedAt": "2026-10-04T12:23:24.244Z",
-  "topic": "Tell HN: I'm a PM at a big system of record SaaS. We're cooked",
+  "pickedAt": "2026-10-04T12:54:29.298Z",
+  "topic": "Show HN: I built an AI agent that turns ROS 2's turtlesim into a digital artist",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "tell-hn-im-a-pm-at-a-big-system-of-record-saas-were-cooked",
+  "slug": "show-hn-i-built-an-ai-agent-that-turns-ros-2s-turtlesim-into-a-d",
   "source": "hn",
   "sourceMeta": {
-    "points": 103,
-    "url": "https://news.ycombinator.com/item?id=46917886"
+    "points": 30,
+    "url": "https://github.com/Yutarop/turtlesim_agent"
   },
-  "finalScore": 2,
-  "remaining": 2
+  "finalScore": 1,
+  "remaining": 1
 }

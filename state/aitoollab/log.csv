@@ -26,3 +26,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-03T11:41:35.129Z,launch-hn-tinfoil-yc-p25-verifiable-privacy-for-cloud-ai,Launch HN Tinfoil YC P25 Review: Verifiable Cloud AI Privacy,gemini,1083,success
 2026-10-03T21:22:18.005Z,show-hn-a-web-browser-agent-in-your-chrome-side-panel,Show HN Browser Agent Review: Chrome Side Panel AI,gemini,1191,success
 2026-10-04T12:24:07.465Z,tell-hn-im-a-pm-at-a-big-system-of-record-saas-were-cooked,Inside the AI Panic: A Product Manager's Take on SaaS,gemini,962,success
+2026-10-04T12:55:15.786Z,show-hn-i-built-an-ai-agent-that-turns-ros-2s-turtlesim-into-a-d,Turn ROS 2 Turtlesim Into an Artist: Hands-On AI Agent Review,gemini,1302,success
