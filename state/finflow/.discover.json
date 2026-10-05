@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T04:42:34.576Z",
+  "fetchedAt": "2026-10-05T14:41:48.451Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -27,13 +27,49 @@
     },
     {
       "source": "hn",
-      "topic": "How to scale intent, quality, and artistry with AI [video]",
+      "topic": "A browser-native classic Visual Basic VB6 IDE",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tell HN: Bob Cringely has died",
+      "topic": "Automating my 35mm film scanning pipeline",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Philadelphia Inquirer built Scrape, an AI tool to surface hyperlocal news",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What is going on with ceiling fans",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
       "score": 3,
       "meta": {}
     },
@@ -51,79 +87,85 @@
     },
     {
       "source": "hn",
-      "topic": "What is going on with ceiling fans",
+      "topic": "We ported the original Doom to SQL",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: AI search for every photo and every frame of video on macOS",
+      "topic": "The Tao of Backup",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Surely you have ultra-wideband radios on your bins too?",
+      "topic": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "topic": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A browser-native classic Visual Basic VB6 IDE",
+      "topic": "Huawei and Qualcomm Announce Broad Patent License Agreement",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nearly 200 People Under Observation After Irkutsk Lab Worker Dies from Plague",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Self-hosted HTTP tunnels with SSH and Nginx",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A map of every lighthouse",
+      "topic": "Infidel goes wild",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "cp: -r or -R?",
+      "topic": "Web Search API",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "In the wake of closure, a digital archive of animated materials appears online",
+      "topic": "Apple and a Hacker's Future",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Xray-core concealed a certificate verification bypass vulnerability",
+      "topic": "Press Release: Nobel Prize in Physiology or Medicine 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex",
+      "topic": "Lace and Labor: Lessons from the actual Luddites",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A 40ms Go garbage collector pause caused by swap",
+      "topic": "ExplainDB: A Database System Built for Understandability",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: Uceprotect is extorting website owners",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Era of Software Quality, or the Era of Ostriches?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Jonathan Haidt: AI Is the 'Neutron Bomb for Education' [video]",
       "score": 1,
       "meta": {}
     },
@@ -153,6 +195,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "I own a house with my brother. What should the plan be if one of us wants out?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Is paying off a car loan considered gifting from a tax perspective?",
       "score": 1,
       "meta": {}
@@ -160,12 +208,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "65 year old mother has too much money in the bank. What should she do with it?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I own a house with my brother. What should the plan be if one of us wants out?",
       "score": 1,
       "meta": {}
     },
@@ -195,67 +237,31 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "How stupid is it for me to rent my own place?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Give up half my earned commission or take the full amount and leave?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Infidel goes wild",
+      "topic": "Type Safe Generic Data Structures in C",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bill Draper has died",
+      "topic": "Differences Between `Foldl` and `Foldr`",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Results from the ASIC puzzle",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Tao of Backup",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Homa: The end of TCP for AI clusters [video]",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Page Table Memory Consumption",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Quantitative Finance with OCaml",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Watson Jr. memo about CDC 6600",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Demystifying Tufte's data-ink ratio",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fixed Points and Strike Mandates",
+      "topic": "Martian chaos terrain",
       "score": 0,
       "meta": {}
     },
@@ -327,6 +333,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Collecting social security and still working",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
       "score": 0,
       "meta": {}
@@ -334,12 +346,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Can you pay all medical bills through HSA",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Collecting social security and still working",
       "score": 0,
       "meta": {}
     },
@@ -381,7 +387,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Rent an Apartment or get a Townhouse?",
+      "topic": "My car dying screwed me",
       "score": 0,
       "meta": {}
     }
