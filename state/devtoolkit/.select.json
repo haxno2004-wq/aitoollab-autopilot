@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-04T21:31:31.039Z",
-  "topic": "Agents don't need memory, they need documentation",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "agents-dont-need-memory-they-need-documentation",
+  "pickedAt": "2026-10-05T04:42:29.611Z",
+  "topic": "Self-hosted HTTP tunnels with SSH and Nginx",
+  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
+  "slug": "self-hosted-http-tunnels-with-ssh-and-nginx",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 25
+  "finalScore": 7,
+  "remaining": 27
 }

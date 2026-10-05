@@ -1,8 +1,8 @@
 {
-  "slug": "agents-dont-need-memory-they-need-documentation",
-  "title": "Why AI Agents Need Documentation Over Memory",
-  "description": "Discover why AI coding agents perform better with good documentation than endless memory. A hands-on review for developers seeking better workflows.",
-  "date": "2026-10-04T21:31:49.479Z",
-  "words": 1026,
+  "slug": "self-hosted-http-tunnels-with-ssh-and-nginx",
+  "title": "Self-Hosted HTTP Tunnels with SSH and Nginx: Setup Guide",
+  "description": "Learn how to build a reliable, self-hosted HTTP tunnel using standard SSH and Nginx. A practical guide for developers who want secure remote access.",
+  "date": "2026-10-05T04:42:45.088Z",
+  "words": 1088,
   "provider": "gemini"
 }
