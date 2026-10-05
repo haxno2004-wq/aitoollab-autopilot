@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-05T04:42:29.584Z",
+  "fetchedAt": "2026-10-05T04:51:47.088Z",
   "candidates": [
     {
       "source": "hn",
@@ -87,6 +87,12 @@
     },
     {
       "source": "hn",
+      "topic": "Infidel goes wild",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "In the wake of closure, a digital archive of animated materials appears online",
       "score": 1,
       "meta": {}
@@ -107,12 +113,6 @@
       "source": "hn",
       "topic": "A 40ms Go garbage collector pause caused by swap",
       "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Infidel goes wild",
-      "score": 0,
       "meta": {}
     },
     {

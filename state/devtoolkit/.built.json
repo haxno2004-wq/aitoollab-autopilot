@@ -1,8 +1,8 @@
 {
-  "slug": "self-hosted-http-tunnels-with-ssh-and-nginx",
-  "title": "Self-Hosted HTTP Tunnels with SSH and Nginx: Setup Guide",
-  "description": "Learn how to build a reliable, self-hosted HTTP tunnel using standard SSH and Nginx. A practical guide for developers who want secure remote access.",
-  "date": "2026-10-05T04:42:45.088Z",
-  "words": 1088,
+  "slug": "improper-redaction-reveals-google-data-center-water-and-electric",
+  "title": "Reviewing Data Sanitization Tools After the Google Leak",
+  "description": "Discover what the Google data center disclosure teaches engineers about redaction failures, auditing CLI utilities, and choosing reliable dev tools.",
+  "date": "2026-10-05T04:52:02.012Z",
+  "words": 1199,
   "provider": "gemini"
 }
