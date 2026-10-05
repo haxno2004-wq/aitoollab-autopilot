@@ -21,7 +21,7 @@ function base(config) {
 
 const FLEET_LINKS = [
   ["AI ToolLab", "https://aitoollab.pages.dev"],
-  ["MoneyPilot", "https://moneypilot.pages.dev"],
+  ["MoneyPilot", "https://moneypilot-3gk.pages.dev"],
   ["DevToolkit Daily", "https://devtoolkit-daily.pages.dev"],
   ["PromptForge Shop", "https://promptforge-shop.pages.dev"],
 ];
