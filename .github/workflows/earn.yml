@@ -99,7 +99,7 @@ jobs:
           fi
           if [ -n "$TAG" ]; then
             echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
-            echo "✅ Web Analytics site info for $HOST: $TAG"
+            echo "✅ Web Analytics site info for $HOST: $TAG (env now set for all subsequent steps)"
           else
             echo "⚠️ Could not provision Web Analytics for $HOST — skipping beacon injection"
           fi
@@ -226,6 +226,10 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist/dashboard --project-name=fleetdeck --commit-dirty=true
+
+      - name: Fleet summary
+        if: always()
+        run: node scripts/monitor/status.mjs --summary
 
       - name: Fleet summary
         if: always()
