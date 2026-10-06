@@ -11,3 +11,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-06T00:06:48.348Z,anthropic-reported-diary-entry-to-police-woman-faces-felony-char,AI Diary Entry Reported to Police: What Users Need to Know,gemini,875,success
 2026-10-06T09:03:53.652Z,friendship-ended-with-deno-now-node-is-my-best-friend,Node.js vs Deno: Why Developers Are Returning to Node,gemini,1000,success
 2026-10-06T10:09:10.770Z,why-common-lisp-is-now-the-best-programming-language,Why Common Lisp Is the Ultimate Choice for Modern Devs,gemini,1234,success
+2026-10-06T10:29:55.903Z,chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker,ChatGPT New Yorker Cartoons: A Hands-On Review,gemini,974,success
