@@ -1,171 +1,165 @@
 {
-  "fetchedAt": "2026-10-05T04:51:47.088Z",
+  "fetchedAt": "2026-10-06T09:00:22.869Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Self-hosted HTTP tunnels with SSH and Nginx",
+      "topic": "Friendship ended with Deno, now Node is my best friend",
       "score": 5,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "topic": "Why Common Lisp is now the best programming language",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic reported diary entry to police, woman faces felony charge",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "topic": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Improper redaction reveals Google Data Center water and electricity usage",
+      "topic": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How to scale intent, quality, and artistry with AI [video]",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tell HN: Bob Cringely has died",
+      "topic": "Web Search API",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What is going on with ceiling fans",
+      "topic": "Beam: Reflection's 501B open-weight model",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Example.com just launched the biggest redesign in decades",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple and a hacker's future",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: AI search for every photo and every frame of video on macOS",
+      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Surely you have ultra-wideband radios on your bins too?",
+      "topic": "Find the flattest route between any two points in SF",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "topic": "Dust: Pretraining Transformers Without Backpropagation",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A browser-native classic Visual Basic VB6 IDE",
+      "topic": "Testing 12 different Zigbee temperature/humidity sensors",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nearly 200 People Under Observation After Irkutsk Lab Worker Dies from Plague",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A map of every lighthouse",
+      "topic": "The lamps in my house",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "cp: -r or -R?",
+      "topic": "Making a GTK application in Haskell, part 1",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Infidel goes wild",
+      "topic": "Linux containers in 500 lines of code",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "In the wake of closure, a digital archive of animated materials appears online",
+      "topic": "The first fully implanted cochlear implant reaches patients",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Xray-core concealed a certificate verification bypass vulnerability",
+      "topic": "An algorithmic failure beneath the secret ballot",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex",
+      "topic": "Global Solar Atlas: summary of solar power potential globally",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A 40ms Go garbage collector pause caused by swap",
+      "topic": "Resurrecting iChat Audio and Video Conferencing",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bill Draper has died",
+      "topic": "Accountability mechanisms can be joyful",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Using A.I. and machine learning to decode communication of sperm whales",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The complement of true is true, except when it's false",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ephemeral Testing",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Results from the ASIC puzzle",
+      "topic": "Samon: Designing a Zen Garden Raking Puzzle",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Tao of Backup",
+      "topic": "Show HN: Entombed in a Raycaster",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Homa: The end of TCP for AI clusters [video]",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Page Table Memory Consumption",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Quantitative Finance with OCaml",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Watson Jr. memo about CDC 6600",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Demystifying Tufte's data-ink ratio",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fixed Points and Strike Mandates",
+      "topic": "Protect Your Friends and Loved Ones",
       "score": 0,
       "meta": {}
     }

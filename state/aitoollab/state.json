@@ -22,7 +22,8 @@
     "show-hn-a-web-browser-agent-in-your-chrome-side-panel",
     "tell-hn-im-a-pm-at-a-big-system-of-record-saas-were-cooked",
     "show-hn-i-built-an-ai-agent-that-turns-ros-2s-turtlesim-into-a-d",
-    "show-hn-ozbrain-a-shared-brain-for-knowledge-between-agents-and"
+    "show-hn-ozbrain-a-shared-brain-for-knowledge-between-agents-and",
+    "show-hn-i-built-a-p2p-network-where-ai-agents-publish-formally-v"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -47,7 +48,8 @@
     "Show HN: A web browser agent in your Chrome side panel",
     "Tell HN: I'm a PM at a big system of record SaaS. We're cooked",
     "Show HN: I built an AI agent that turns ROS 2's turtlesim into a digital artist",
-    "Show HN: OzBrain, a shared brain for knowledge between agents and your team"
+    "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+    "Show HN: I built a P2P network where AI agents publish formally verified science"
   ],
-  "lastRun": "2026-10-06T00:05:43.439Z"
+  "lastRun": "2026-10-06T09:02:11.016Z"
 }
