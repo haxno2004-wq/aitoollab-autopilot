@@ -1,18 +1,6 @@
 {
-  "fetchedAt": "2026-10-06T13:20:17.289Z",
+  "fetchedAt": "2026-10-06T22:40:38.100Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Why Common Lisp is now the best programming language",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Friendship ended with Deno, now Node is my best friend",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
@@ -21,7 +9,19 @@
     },
     {
       "source": "hn",
-      "topic": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "topic": "Example.com just launched the biggest redesign in decades",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Find the flattest route between any two points in SF",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nature's capacity to 'bounce back' when species are lost is overestimated: study",
       "score": 4,
       "meta": {}
     },
@@ -32,14 +32,8 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Monthly Budget for a Family of Four in Boston",
-      "score": 4,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Web Search API",
+      "topic": "Mistral Large 4",
       "score": 3,
       "meta": {}
     },
@@ -51,31 +45,25 @@
     },
     {
       "source": "hn",
-      "topic": "Example.com just launched the biggest redesign in decades",
+      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
+      "topic": "Polars 2.0",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Find the flattest route between any two points in SF",
+      "topic": "Gleam doesn't compile to Erlang source anymore",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Dust: Pretraining Transformers Without Backpropagation",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nobel Prize in Physics goes to Francis Halzen",
       "score": 3,
       "meta": {}
     },
@@ -92,98 +80,92 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Multiple Kids phones - budget",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Apple and a hacker's future",
+      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The lamps in my house",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Testing 12 different Zigbee temperature/humidity sensors",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "JetBrains reported a net financial loss first time in its tracked history",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gleam doesn't compile to Erlang source anymore",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Making a GTK application in Haskell, part 1",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An algorithmic failure beneath the secret ballot",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Resurrecting iChat Audio and Video Conferencing",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Accountability mechanisms can be joyful",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Direct retinal projection display for smart glasses using a meta-optic mirror",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Benchmark in Milliseconds",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Using A.I. and machine learning to decode communication of sperm whales",
+      "topic": "What's Earth's dominant species by mass?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ASOS app users receive push notifications apparently sent by hackers",
+      "topic": "The Early History of Smalltalk",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The complement of true is true, except when it's false",
+      "topic": "Erdosproblems.com Succumbs to the AI Onslaught",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "World's First enhanced geothermal power plant completed in just 23 months",
+      "topic": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Toronto-Based VPN Provider Plans to Quit Canada over Lawful-Access Bill",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Mathematical manuscripts and supporting proof artifacts produced by OpenAI",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: Why is Ask HN only showing me 14 posts?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "401k advice for broke people because 15% is NOT realistic",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I just applied for credit and got denied for being dead, how do I fix this?",
       "score": 1,
       "meta": {}
     },
@@ -207,25 +189,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "65 year old mother has too much money in the bank. What should she do with it?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Accidental credit card payment needing refund",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "If I open a debit card, will my parents be able to tell?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should I Stop Paying Extra on My House at This Point?",
       "score": 1,
       "meta": {}
     },
@@ -248,26 +212,50 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Should someone like me have an emergency savings?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Ephemeral Testing",
+      "topic": "Subquadratic 3SUM and Subcubic APSP",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Samon: Designing a Zen Garden Raking Puzzle",
+      "topic": "Mathematics of Geothermal Energy",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Release of Polars 2.0",
+      "topic": "OpenSSH 10.6",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Entombed in a Raycaster",
+      "topic": "Sharing AI Progress in Mathematics",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Decisions API is in public beta",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "System-level ad-blocking in Android",
       "score": 0,
       "meta": {}
     },
@@ -280,12 +268,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Zelled Money From A Stranger",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Giving up 2.8% mortgage rate",
       "score": 0,
       "meta": {}
     },
@@ -321,7 +303,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Are 529 plans protected in any way?",
+      "topic": "Where do I look for my trust?",
       "score": 0,
       "meta": {}
     },
@@ -339,12 +321,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Where do I look for my trust?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
       "score": 0,
       "meta": {}
@@ -357,13 +333,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Who do I see regarding deceased assets?",
+      "topic": "High Yield Savings Account Advice",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "High Yield Savings Account Advice",
+      "topic": "Who do I see regarding deceased assets?",
       "score": 0,
       "meta": {}
     },
@@ -375,7 +351,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Single Mom in Debt - Need Advice",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Merril 401k Verification Text Message",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "What to do with inherited Roth IRA",
       "score": 0,
       "meta": {}
     },
