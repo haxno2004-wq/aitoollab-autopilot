@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T12:27:53.986Z",
+  "fetchedAt": "2026-10-06T13:19:38.600Z",
   "candidates": [
     {
       "source": "hn",
@@ -39,19 +39,25 @@
     },
     {
       "source": "hn",
-      "topic": "Find the flattest route between any two points in SF",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Competitive Programmer's Handbook (2018) [pdf]",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
+      "topic": "Find the flattest route between any two points in SF",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Dust: Pretraining Transformers Without Backpropagation",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nobel Prize in Physics goes to Francis Halzen",
       "score": 3,
       "meta": {}
     },
@@ -69,13 +75,19 @@
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics goes to Francis Halzen",
+      "topic": "Testing 12 different Zigbee temperature/humidity sensors",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Testing 12 different Zigbee temperature/humidity sensors",
+      "topic": "JetBrains reported a net financial loss first time in its tracked history",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Gleam doesn't compile to Erlang source anymore",
       "score": 2,
       "meta": {}
     },
@@ -99,19 +111,13 @@
     },
     {
       "source": "hn",
-      "topic": "Gleam doesn't compile to Erlang source anymore",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Global Solar Atlas: summary of solar power potential globally",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Accountability mechanisms can be joyful",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
       "score": 1,
       "meta": {}
     },
@@ -141,12 +147,6 @@
     },
     {
       "source": "hn",
-      "topic": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "World's First enhanced geothermal power plant completed in just 23 months",
       "score": 1,
       "meta": {}
@@ -160,6 +160,12 @@
     {
       "source": "hn",
       "topic": "Samon: Designing a Zen Garden Raking Puzzle",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Release of Polars 2.0",
       "score": 0,
       "meta": {}
     },
