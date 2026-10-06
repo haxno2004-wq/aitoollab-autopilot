@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T10:51:56.286Z",
+  "fetchedAt": "2026-10-06T12:27:53.986Z",
   "candidates": [
     {
       "source": "hn",
@@ -10,13 +10,7 @@
     {
       "source": "hn",
       "topic": "Friendship ended with Deno, now Node is my best friend",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
-      "score": 4,
+      "score": 6,
       "meta": {}
     },
     {
@@ -45,13 +39,13 @@
     },
     {
       "source": "hn",
-      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
+      "topic": "Find the flattest route between any two points in SF",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Find the flattest route between any two points in SF",
+      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
       "score": 3,
       "meta": {}
     },
@@ -75,6 +69,12 @@
     },
     {
       "source": "hn",
+      "topic": "Nobel Prize in Physics goes to Francis Halzen",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Testing 12 different Zigbee temperature/humidity sensors",
       "score": 2,
       "meta": {}
@@ -87,25 +87,7 @@
     },
     {
       "source": "hn",
-      "topic": "The first fully implanted cochlear implant reaches patients",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "An algorithmic failure beneath the secret ballot",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nobel Prize in Physics goes to Francis Halzen",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Global Solar Atlas: summary of solar power potential globally",
       "score": 1,
       "meta": {}
     },
@@ -117,7 +99,25 @@
     },
     {
       "source": "hn",
+      "topic": "Gleam doesn't compile to Erlang source anymore",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Global Solar Atlas: summary of solar power potential globally",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Accountability mechanisms can be joyful",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Direct retinal projection display for smart glasses using a meta-optic mirror",
       "score": 1,
       "meta": {}
     },
@@ -129,13 +129,25 @@
     },
     {
       "source": "hn",
+      "topic": "ASOS app users receive push notifications apparently sent by hackers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "The complement of true is true, except when it's false",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gleam doesn't compile to Erlang source anymore",
+      "topic": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "World's First enhanced geothermal power plant completed in just 23 months",
       "score": 1,
       "meta": {}
     },
@@ -154,12 +166,6 @@
     {
       "source": "hn",
       "topic": "Show HN: Entombed in a Raycaster",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fog-Bank: Archiving the oldest webcam feed",
       "score": 0,
       "meta": {}
     }
