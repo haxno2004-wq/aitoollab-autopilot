@@ -11,3 +11,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-05T04:52:22.022Z,improper-redaction-reveals-google-data-center-water-and-electric,Reviewing Data Sanitization Tools After the Google Leak,gemini,1199,success
 2026-10-06T09:02:33.416Z,friendship-ended-with-deno-now-node-is-my-best-friend,Node.js in Modern Development: A Pragmatic 2026 Review,gemini,1110,success
 2026-10-06T10:07:38.924Z,why-common-lisp-is-now-the-best-programming-language,Why Common Lisp Is Making a Surprising Comeback for Devs,gemini,902,success
+2026-10-06T10:28:30.888Z,chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker,ChatGPT Cartoon Controversy: Real Signatures on Fake Art,gemini,1016,success
