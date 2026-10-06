@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-06T10:27:49.983Z",
+  "fetchedAt": "2026-10-06T10:51:56.286Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "Why Common Lisp is now the best programming language",
-      "score": 5,
+      "score": 6,
       "meta": {}
     },
     {
@@ -57,6 +57,12 @@
     },
     {
       "source": "hn",
+      "topic": "Dust: Pretraining Transformers Without Backpropagation",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Apple and a hacker's future",
       "score": 2,
       "meta": {}
@@ -64,12 +70,6 @@
     {
       "source": "hn",
       "topic": "The lamps in my house",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dust: Pretraining Transformers Without Backpropagation",
       "score": 2,
       "meta": {}
     },
@@ -99,6 +99,12 @@
     },
     {
       "source": "hn",
+      "topic": "Nobel Prize in Physics goes to Francis Halzen",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Global Solar Atlas: summary of solar power potential globally",
       "score": 1,
       "meta": {}
@@ -111,19 +117,7 @@
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics goes to Francis Halzen",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Accountability mechanisms can be joyful",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
       "score": 1,
       "meta": {}
     },
@@ -141,7 +135,7 @@
     },
     {
       "source": "hn",
-      "topic": "Fundamentals of circadian entrainment by light",
+      "topic": "Gleam doesn't compile to Erlang source anymore",
       "score": 1,
       "meta": {}
     },
@@ -160,6 +154,12 @@
     {
       "source": "hn",
       "topic": "Show HN: Entombed in a Raycaster",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fog-Bank: Archiving the oldest webcam feed",
       "score": 0,
       "meta": {}
     }
