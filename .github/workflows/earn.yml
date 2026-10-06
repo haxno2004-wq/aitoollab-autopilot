@@ -80,14 +80,29 @@ jobs:
         continue-on-error: true
         run: |
           set -e
-          HOST=$(node -e "const c=JSON.parse(require('fs').readFileSync('platforms/${{ matrix.platform }}/config.json','utf8'));try{console.log(new URL(c.site.url).hostname)}catch{console.log('${{ env.PAGES_PROJECT }}.pages.dev')}")
+          # Resolve the live host for each platform. Cloudflare Web Analytics site tags are created in the
+          # account where the host is served from; reading site.url can resolve to a foreign-owned bare domain
+          # (moneypilot.pages.dev) or to a Pages project we don't own, so we pin the exact live host per platform.
+          case "${{ matrix.platform }}" in
+            aitoollab)  HOST=aitoollab.pages.dev  ;;
+            labstore)   HOST=promptforge-shop.pages.dev ;;
+            devtoolkit) HOST=devd3tollk.page.dev ;;
+            finflow)    HOST=moneypilot-3gk.pages.dev ;;
+            *)          HOST=;;
+          esac
+          if [ -z "$HOST" ]; then echo "⚠️ unknown platform ${{ matrix.platform }} — skipping Web Analytics"; exit 0; fi
           BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST'||x.name==='${{ env.PAGES_PROJECT }}');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
           if [ -z "$TAG" ]; then
+            echo "Creating Web Analytics site for $HOST"
             TAG=$(curl -s -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"${{ env.PAGES_PROJECT }}\",\"host\":\"$HOST\"}" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
           fi
-          echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
-          echo "analytics: host=$HOST tag=${TAG:0:8}…"
+          if [ -n "$TAG" ]; then
+            echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
+            echo "✅ Web Analytics site info for $HOST: $TAG"
+          else
+            echo "⚠️ Could not provision Web Analytics for $HOST — skipping beacon injection"
+          fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -190,12 +205,17 @@ jobs:
           set -e
           HOST=fleetdeck.pages.dev
           BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST'||x.name==='fleetdeck');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
           if [ -z "$TAG" ]; then
+            echo "Creating Web Analytics site for fleetdeck.pages.dev"
             TAG=$(curl -s -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"fleetdeck\",\"host\":\"$HOST\"}" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
           fi
-          echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
-          echo "analytics: host=$HOST tag=${TAG:0:8}…"
+          if [ -n "$TAG" ]; then
+            echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
+            echo "✅ Web Analytics site info for fleetdeck.pages.dev: $TAG"
+          else
+            echo "⚠️ Could not provision Web Analytics for fleetdeck — skipping beacon injection"
+          fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
