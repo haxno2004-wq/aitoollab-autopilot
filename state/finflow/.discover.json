@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-06T09:00:19.962Z",
+  "fetchedAt": "2026-10-06T10:06:52.715Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Friendship ended with Deno, now Node is my best friend",
-      "score": 5,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Why Common Lisp is now the best programming language",
@@ -14,15 +8,15 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
+      "source": "hn",
+      "topic": "Friendship ended with Deno, now Node is my best friend",
       "score": 5,
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Anthropic reported diary entry to police, woman faces felony charge",
-      "score": 4,
+      "source": "reddit/personalfinance",
+      "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
+      "score": 5,
       "meta": {}
     },
     {
@@ -68,6 +62,18 @@
       "meta": {}
     },
     {
+      "source": "hn",
+      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Find the flattest route between any two points in SF",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "reddit/personalfinance",
       "topic": "top scoring links : personalfinance",
       "score": 3,
@@ -87,13 +93,7 @@
     },
     {
       "source": "hn",
-      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Find the flattest route between any two points in SF",
+      "topic": "The lamps in my house",
       "score": 2,
       "meta": {}
     },
@@ -111,19 +111,7 @@
     },
     {
       "source": "hn",
-      "topic": "The lamps in my house",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Making a GTK application in Haskell, part 1",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Linux containers in 500 lines of code",
       "score": 1,
       "meta": {}
     },
@@ -165,7 +153,25 @@
     },
     {
       "source": "hn",
+      "topic": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "The complement of true is true, except when it's false",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nobel Prize in Physics goes to Francis Halzen",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fundamentals of circadian entrainment by light",
       "score": 1,
       "meta": {}
     },
@@ -250,12 +256,6 @@
     {
       "source": "hn",
       "topic": "Show HN: Entombed in a Raycaster",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Protect Your Friends and Loved Ones",
       "score": 0,
       "meta": {}
     },
