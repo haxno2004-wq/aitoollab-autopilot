@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-06T00:05:43.347Z",
+  "fetchedAt": "2026-10-06T09:00:25.197Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
-      "score": 6,
-      "meta": {
-        "points": 20,
-        "url": "https://github.com/katanemo/archgw"
-      }
-    },
     {
       "source": "hn",
       "topic": "Ask HN: What are some actual use cases of AI Agents right now?",
@@ -30,12 +21,15 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
-      "score": 4,
-      "meta": {
-        "points": 69,
-        "url": "https://github.com/fchimpan/gh-slimify"
-      }
+      "topic": "Friendship ended with Deno, now Node is my best friend",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why Common Lisp is now the best programming language",
+      "score": 5,
+      "meta": {}
     },
     {
       "source": "hn",
@@ -45,6 +39,39 @@
         "points": 96,
         "url": "https://news.ycombinator.com/item?id=48847834"
       }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I built a P2P network where AI agents publish formally verified science",
+      "score": 4,
+      "meta": {
+        "points": 47,
+        "url": "https://news.ycombinator.com/item?id=47444212"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic reported diary entry to police, woman faces felony charge",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to get more coding productivity with LLMs",
+      "score": 4,
+      "meta": {}
     },
     {
       "source": "hn",
@@ -63,6 +90,51 @@
         "points": 260,
         "url": "https://github.com/nex-crm/wuphf"
       }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: High-performance GenAI engine now open source",
+      "score": 3,
+      "meta": {
+        "points": 22,
+        "url": "https://github.com/arthur-ai/arthur-engine"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Web Search API",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Beam: Reflection's 501B open-weight model",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Example.com just launched the biggest redesign in decades",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I created an open source locally usable full fledged AI platform",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
+      "score": 3,
+      "meta": {}
     },
     {
       "source": "hn",
@@ -93,12 +165,39 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-      "score": 1,
-      "meta": {
-        "points": 93,
-        "url": "https://ozbrain.com"
-      }
+      "topic": "Apple and a hacker's future",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Find the flattest route between any two points in SF",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dust: Pretraining Transformers Without Backpropagation",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Testing 12 different Zigbee temperature/humidity sensors",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Free animated icon library for Vue",
+      "score": 2,
+      "meta": {}
     },
     {
       "source": "hn",
@@ -108,6 +207,189 @@
         "points": 30,
         "url": "https://github.com/Yutarop/turtlesim_agent"
       }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Evolving Agents Framework",
+      "score": 1,
+      "meta": {
+        "points": 139,
+        "url": "https://github.com/matiasmolinas/evolving-agents"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
+      "score": 1,
+      "meta": {
+        "points": 97,
+        "url": "https://github.com/godot-pty/gpty"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: LTE-connected IoT module with remote programming and NL data analysis",
+      "score": 1,
+      "meta": {
+        "points": 27,
+        "url": "https://www.youtube.com/watch?v=3L_OU-fMW_w"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "The lamps in my house",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Making a GTK application in Haskell, part 1",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Linux containers in 500 lines of code",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The first fully implanted cochlear implant reaches patients",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An algorithmic failure beneath the secret ballot",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Global Solar Atlas: summary of solar power potential globally",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Resurrecting iChat Audio and Video Conferencing",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Accountability mechanisms can be joyful",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Using A.I. and machine learning to decode communication of sperm whales",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The complement of true is true, except when it's false",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: Are we losing our engineering literacy?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: Is there any solution to the AI infestation?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why can AI generate Super Mario but not a wedge ramp for my robot vacuum?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Finterm.ai Bloomberg terminal for Claude Code",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: RLM-based local debugger for AI agent traces",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The AI Conundrum: We are living in highly subsidized, interesting times",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Forked CozoDB to give agents cognitive primitives",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Story of How Im Running an Unlimited $6/Month AI Provider on 4x RTX 3090s",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Command Center, the AI coding env for people who care about quality",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Voice control coding agents on your machine via smartwatch / CarPlay",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I built a RAG and knowledge graph agent that runs locally",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ephemeral Testing",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Samon: Designing a Zen Garden Raking Puzzle",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Entombed in a Raycaster",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Protect Your Friends and Loved Ones",
+      "score": 0,
+      "meta": {}
     }
   ]
 }
