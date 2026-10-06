@@ -56,30 +56,30 @@ async function fromHackerNews() {
   } catch {
     hits = await hnSearch(q, "search_by_date");
   }
-  let out = hits.filter((c) => baseFilter(c.topic) && (!TOPIC_RE || TOPIC_RE.test(c.topic)));
-  // niche queries can legitimately return few stories — top up from the front page
-  if (out.length < 8) {
+  const out = hits.filter((c) => baseFilter(c.topic) && (!TOPIC_RE || TOPIC_RE.test(c.topic)));
+  // Relevance search alone keeps returning the same evergreen hits, which the
+  // fleet-wide dedupe exhausts after a few consecutive runs — leaving select
+  // with an empty pool ("no unused candidates"). Always top up with the
+  // current front page and fresh by-date stories so back-to-back runs still
+  // have unused material.
+  const topUp = async (url) => {
     try {
-      const { status, data } = await fetchWithRetry(
-        "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50",
-        { method: "GET" },
-        { attempts: 2, baseMs: 1500, timeoutMs: 20000 }
-      );
-      if (status === 200 && data?.hits) {
-        const extra = data.hits
-          .map((h) => ({
-            source: "hn",
-            topic: (h.title || "").replace(/\s*\(\d{4}\)\s*$/, "").trim(),
-            score: score(h.title || "") + Math.min(3, Math.floor((h.points || 0) / 100)),
-            meta: {},
-          }))
-          .filter((c) => baseFilter(c.topic) && (!TOPIC_RE || TOPIC_RE.test(c.topic)));
-        out.push(...extra);
-      }
+      const { status, data } = await fetchWithRetry(url, { method: "GET" }, { attempts: 2, baseMs: 1500, timeoutMs: 20000 });
+      if (status !== 200 || !data?.hits) return [];
+      return data.hits
+        .map((h) => ({
+          source: "hn",
+          topic: (h.title || "").replace(/\s*\(\d{4}\)\s*$/, "").trim(),
+          score: score(h.title || "") + Math.min(3, Math.floor((h.points || 0) / 100)),
+          meta: {},
+        }))
+        .filter((c) => baseFilter(c.topic) && (!TOPIC_RE || TOPIC_RE.test(c.topic)));
     } catch {
-      /* front-page top-up is best-effort */
+      return []; // top-ups are best-effort
     }
-  }
+  };
+  out.push(...(await topUp("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=50")));
+  out.push(...(await topUp(`https://hn.algolia.com/api/v1/search_by_date?query=${encodeURIComponent(q)}&tags=story&hitsPerPage=50&numericFilters=points%3E5`)));
   return out;
 }
 
