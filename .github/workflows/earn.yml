@@ -99,14 +99,13 @@ jobs:
           fi
           if [ -n "$TAG" ]; then
             echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
-            echo "✅ Web Analytics site info for $HOST: $TAG (env now set for all subsequent steps)"
+            echo "OK Web Analytics site info for $HOST: $TAG (env set)"
           else
-            echo "⚠️ Could not provision Web Analytics for $HOST — skipping beacon injection"
+            echo "⚠ Could not provision Web Analytics for $HOST — skipping beacon injection"
           fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-
       - name: Deploy ${{ matrix.platform }} to Cloudflare Pages
         if: steps.pipe.outcome == 'success'
         uses: cloudflare/wrangler-action@v3
