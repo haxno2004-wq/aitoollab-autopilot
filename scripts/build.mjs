@@ -96,6 +96,13 @@ async function generateImageFor(title, tags, slug, imagesDir) {
 
 // ---------- rendering ----------
 
+const ANALYTICS_TOKEN = String(process.env.CF_ANALYTICS_TOKEN || "").trim();
+function analyticsBeacon() {
+  if (!ANALYTICS_TOKEN) return "";
+  const payload = JSON.stringify({ token: ANALYTICS_TOKEN }).replace(/'/g, "&#39;");
+  return `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='${payload}'></script>`;
+}
+
 function renderPage(body, meta, config) {
   const b = base(config);
   const th = config.theme || {};
@@ -475,7 +482,7 @@ export async function buildSite(config, newItem, ctxOverride) {
 <body><header class="site-head"><div class="wrap head-wrap"><a class="brand" href="/">⚡ ${esc(config.site.name)}</a><nav><a href="/">Latest</a><a href="/about.html">About</a><a href="/rss.xml">RSS</a><span class="currency-widget"><span class="currency-symbol">$</span><select id="currency-select" class="currency-select" aria-label="Currency"></select></span></nav></div></header>
 <main class="wrap"><article><h1>Privacy Policy</h1>
 <p>Last updated: ${new Date().toISOString().slice(0, 10)}</p>
-<section><h2>What we collect</h2><p>This site runs no first-party analytics and stores no personal data on our servers. Your theme and currency preferences are saved only in your own browser (localStorage) and never leave your device.</p></section>
+<section><h2>What we collect</h2><p>This site runs cookieless, privacy-friendly analytics (Cloudflare Web Analytics) that cannot identify individual visitors; no cookies are set for analytics and no personal data is stored on our servers. Your theme and currency preferences are saved only in your own browser (localStorage) and never leave your device.</p></section>
 <section><h2>Third parties</h2><p>If advertising is enabled, Google AdSense may set cookies to personalize ads. You can opt out via <a href="https://adssettings.google.com" rel="noopener">Google Ads Settings</a>. Affiliate partners may track referral clicks through their own links, governed by their privacy policies. Product checkout (if enabled) is processed by third parties (e.g. Gumroad) — we never see your payment details.</p></section>
 <section><h2>Your choices</h2><p>You can clear stored preferences any time via your browser settings. For privacy questions, open an issue on our <a href="https://github.com/haxno2004-wq/aitoollab-autopilot">public repository</a>.</p></section>
 </article></main><footer class="site-foot"><div class="wrap foot-grid"><div><h4>${esc(config.site.name)}</h4><p class="foot-blurb">${esc(config.site.tagline)}</p></div><div><h4>Explore</h4><ul><li><a href="/">Latest</a></li><li><a href="/rss.xml">RSS feed</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/privacy.html">Privacy policy</a></li></ul></div><div><h4>The fleet</h4><ul>${fleetLinksHtml(config)}</ul></div></div><div class="wrap foot-legal"><p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p></div></footer>
@@ -488,6 +495,23 @@ export async function buildSite(config, newItem, ctxOverride) {
 
   if (config.indexnow?.enabled && config.indexnow.key) {
     fs.writeFileSync(path.join(publicDir, `${config.indexnow.key}.txt`), config.indexnow.key + "\n");
+  }
+
+  if (ANALYTICS_TOKEN) {
+    const inject = (dir) => {
+      for (const f of fs.readdirSync(dir, { withFileTypes: true })) {
+        const p = path.join(dir, f.name);
+        if (f.isDirectory()) inject(p);
+        else if (f.name.endsWith(".html")) {
+          let page = fs.readFileSync(p, "utf8");
+          if (!page.includes("cloudflareinsights.com") && page.includes("</body>")) {
+            fs.writeFileSync(p, page.replace("</body>", `${analyticsBeacon()}</body>`));
+          }
+        }
+      }
+    };
+    inject(publicDir);
+    console.log(`[build/${C.id}] analytics beacon injected`);
   }
 
   const published = all.length;

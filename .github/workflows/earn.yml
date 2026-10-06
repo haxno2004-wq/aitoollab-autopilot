@@ -75,6 +75,23 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
+      - name: Web Analytics tag — ${{ matrix.platform }}
+        if: steps.pipe.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -e
+          HOST=$(node -e "const c=JSON.parse(require('fs').readFileSync('platforms/${{ matrix.platform }}/config.json','utf8'));try{console.log(new URL(c.site.url).hostname)}catch{console.log('${{ env.PAGES_PROJECT }}.pages.dev')}")
+          BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
+          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST'||x.name==='${{ env.PAGES_PROJECT }}');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          if [ -z "$TAG" ]; then
+            TAG=$(curl -s -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"${{ env.PAGES_PROJECT }}\",\"host\":\"$HOST\"}" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
+          fi
+          echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
+          echo "analytics: host=$HOST tag=${TAG:0:8}…"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Deploy ${{ matrix.platform }} to Cloudflare Pages
         if: steps.pipe.outcome == 'success'
         uses: cloudflare/wrangler-action@v3
@@ -163,6 +180,22 @@ jobs:
           if [ "$CODE" = "200" ]; then echo "✅ created"
           elif grep -qi "already_exists\|already exists" /tmp/p.json; then echo "✅ already exists"
           else head -c 300 /tmp/p.json; echo; echo "::error::Could not ensure Pages project fleetdeck"; exit 1; fi
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Web Analytics tag — fleetdeck
+        continue-on-error: true
+        run: |
+          set -e
+          HOST=fleetdeck.pages.dev
+          BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
+          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST'||x.name==='fleetdeck');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          if [ -z "$TAG" ]; then
+            TAG=$(curl -s -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"fleetdeck\",\"host\":\"$HOST\"}" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
+          fi
+          echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
+          echo "analytics: host=$HOST tag=${TAG:0:8}…"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Session Stash — Manager</title>
+  <link rel="stylesheet" href="ui.css" />
+</head>
+<body class="manager">
+  <div class="wrap">
+    <div class="masthead">
+      <img src="icons/icon48.png" alt="" width="40" height="40" />
+      <div>
+        <h1>Session Stash</h1>
+        <span id="usage" class="muted">—</span>
+      </div>
+    </div>
+
+    <div id="upgrade" class="upgrade" hidden>
+      <h3>Session Stash Pro</h3>
+      <p id="upgrade-copy">Free plan keeps 20 sessions with 30-minute autosave. Pro gives unlimited sessions, faster autosave and export/import — one-time payment, yours forever.</p>
+      <div class="row-flex">
+        <button id="buy" class="primary" style="width:auto">Get Pro — one-time</button>
+      </div>
+      <p style="margin:10px 0 0"><strong>Have a license key?</strong></p>
+      <div class="license-row" style="margin-top:6px">
+        <input id="license-key" type="text" placeholder="Paste your Gumroad license key" autocomplete="off" />
+        <button id="activate">Activate</button>
+      </div>
+      <p id="license-msg" class="note" hidden></p>
+    </div>
+
+    <div id="pro-banner" class="upgrade" hidden>
+      <h3>✅ Pro is active</h3>
+      <p id="pro-detail">Unlimited sessions, faster autosave, export/import.</p>
+      <div class="row-flex">
+        <button id="export" class="mini">⬇ Export all (JSON)</button>
+        <button id="import" class="mini">⬆ Import</button>
+        <button id="deactivate" class="mini danger">Deactivate license</button>
+      </div>
+      <input id="import-file" type="file" accept="application/json" hidden />
+    </div>
+
+    <div id="settings-panel" class="settings-panel" hidden>
+      <label><input type="checkbox" id="auto-on" /> Automatic snapshots</label>
+      <label>Every
+        <select id="auto-interval"></select>
+      </label>
+      <label>Keep at most
+        <select id="max-sessions">
+          <option value="20">20 sessions (free)</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+          <option value="250">250</option>
+        </select>
+      </label>
+      <div class="row-flex">
+        <button id="save-settings" class="primary" style="width:auto">Save settings</button>
+        <span id="settings-msg" class="muted"></span>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <div class="search-row"><input id="search" type="search" placeholder="Search sessions, titles, URLs…" /></div>
+      <button id="new-stash" class="primary" style="width:auto">💾 Stash now</button>
+      <button id="toggle-settings" class="mini">⚙ Settings</button>
+    </div>
+
+    <p id="action-msg" class="note" hidden></p>
+    <div id="cards" class="cards"></div>
+    <div id="empty" class="empty-state" hidden>
+      <p><strong>Nothing stashed yet.</strong></p>
+      <p>Hit <em>Stash now</em> (or the popup button) and every open tab is saved locally — searchable and restorable any time.</p>
+    </div>
+  </div>
+  <script type="module" src="manager.js"></script>
+</body>
+</html>

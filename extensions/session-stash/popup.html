@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Session Stash</title>
+  <link rel="stylesheet" href="ui.css" />
+</head>
+<body class="popup">
+  <header class="pop-head">
+    <div class="brand">
+      <img src="icons/icon32.png" alt="" width="24" height="24" />
+      <div>
+        <strong>Session Stash</strong>
+        <span id="usage" class="muted">—</span>
+      </div>
+    </div>
+    <button id="settings" class="icon-btn" title="Open full manager" aria-label="Open manager">⚙</button>
+  </header>
+
+  <button id="stash" class="primary">💾&nbsp; Stash current tabs</button>
+  <p id="stash-note" class="note" hidden></p>
+
+  <div class="search-row">
+    <input id="search" type="search" placeholder="Search sessions…" autocomplete="off" />
+  </div>
+
+  <ul id="list" class="session-list"></ul>
+
+  <footer class="pop-foot">
+    <button id="manage" class="link-btn">Manage all sessions →</button>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

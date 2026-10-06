@@ -190,5 +190,8 @@ const html = `<!doctype html>
 fs.mkdirSync("dist/dashboard", { recursive: true });
 fs.cpSync("site/assets", "dist/dashboard/assets", { recursive: true });
 fs.cpSync("site/shared", "dist/dashboard/shared", { recursive: true });
-fs.writeFileSync("dist/dashboard/index.html", html.replace("</body>", '<script src="/shared/fx.js?v=2" defer></script>\n</body>'));
+const beacon = String(process.env.CF_ANALYTICS_TOKEN || "").trim()
+  ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='${JSON.stringify({ token: String(process.env.CF_ANALYTICS_TOKEN).trim() })}'></script>`
+  : "";
+fs.writeFileSync("dist/dashboard/index.html", html.replace("</body>", `<script src="/shared/fx.js?v=2" defer></script>\n${beacon}\n</body>`));
 console.log(`[dashboard] built — ${rows.length} platforms, ${totals.items} items, recent runs: ${recentRuns.length}`);
