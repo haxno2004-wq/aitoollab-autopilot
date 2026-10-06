@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-06T10:06:50.393Z",
-  "topic": "Why Common Lisp is now the best programming language",
+  "pickedAt": "2026-10-06T10:27:50.025Z",
+  "topic": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "why-common-lisp-is-now-the-best-programming-language",
+  "slug": "chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 5,
-  "remaining": 25
+  "finalScore": 4,
+  "remaining": 24
 }
