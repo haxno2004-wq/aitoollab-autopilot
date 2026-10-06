@@ -9,3 +9,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-04T21:32:11.583Z,agents-dont-need-memory-they-need-documentation,Why AI Agents Need Documentation Over Memory,gemini,1026,success
 2026-10-05T04:43:02.256Z,self-hosted-http-tunnels-with-ssh-and-nginx,Self-Hosted HTTP Tunnels with SSH and Nginx: Setup Guide,gemini,1088,success
 2026-10-05T04:52:22.022Z,improper-redaction-reveals-google-data-center-water-and-electric,Reviewing Data Sanitization Tools After the Google Leak,gemini,1199,success
+2026-10-06T09:02:33.416Z,friendship-ended-with-deno-now-node-is-my-best-friend,Node.js in Modern Development: A Pragmatic 2026 Review,gemini,1110,success

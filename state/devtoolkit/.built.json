@@ -1,8 +1,8 @@
 {
-  "slug": "improper-redaction-reveals-google-data-center-water-and-electric",
-  "title": "Reviewing Data Sanitization Tools After the Google Leak",
-  "description": "Discover what the Google data center disclosure teaches engineers about redaction failures, auditing CLI utilities, and choosing reliable dev tools.",
-  "date": "2026-10-05T04:52:02.012Z",
-  "words": 1199,
+  "slug": "friendship-ended-with-deno-now-node-is-my-best-friend",
+  "title": "Node.js in Modern Development: A Pragmatic 2026 Review",
+  "description": "Explore a hands-on review of Node.js ecosystem shifts, examining where the backend runtime shines, where it fails, and who should use it today.",
+  "date": "2026-10-06T09:02:13.806Z",
+  "words": 1110,
   "provider": "gemini"
 }
