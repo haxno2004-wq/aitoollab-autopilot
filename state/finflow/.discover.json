@@ -1,30 +1,6 @@
 {
-  "fetchedAt": "2026-10-06T22:40:38.100Z",
+  "fetchedAt": "2026-10-07T05:20:12.436Z",
   "candidates": [
-    {
-      "source": "reddit/personalfinance",
-      "topic": "You can use the mega backdoor Roth through your 401(k) to save for a tax-free down payment on a home!",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Example.com just launched the biggest redesign in decades",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Find the flattest route between any two points in SF",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nature's capacity to 'bounce back' when species are lost is overestimated: study",
-      "score": 4,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "What am I missing? 401k, investments, savings at 27",
@@ -39,31 +15,31 @@
     },
     {
       "source": "hn",
-      "topic": "Beam: Reflection's 501B open-weight model",
+      "topic": "Sharing AI progress in mathematics",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
+      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Polars 2.0",
+      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gleam doesn't compile to Erlang source anymore",
+      "topic": "Strands Decider 2B: a small, open-source, decision model",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dust: Pretraining Transformers Without Backpropagation",
+      "topic": "Treg (OpenRouter for Tools)",
       "score": 3,
       "meta": {}
     },
@@ -87,26 +63,20 @@
     },
     {
       "source": "hn",
-      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "topic": "Decisions API is in public beta",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Direct retinal projection display for smart glasses using a meta-optic mirror",
+      "topic": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "topic": "Utah to let AI examine patients and prescribe medication without human oversight",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Benchmark in Milliseconds",
-      "score": 1,
       "meta": {}
     },
     {
@@ -117,43 +87,49 @@
     },
     {
       "source": "hn",
-      "topic": "The Early History of Smalltalk",
+      "topic": "Benchmark in Milliseconds",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "topic": "State of Devs 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+      "topic": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Toronto-Based VPN Provider Plans to Quit Canada over Lawful-Access Bill",
+      "topic": "California closed the Montana license plate loophole",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I turned my iPhone and a $20 smart plug into an f-stop timer",
+      "topic": "Xbox has secured exclusive GTA 6 streaming rights",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mathematical manuscripts and supporting proof artifacts produced by OpenAI",
+      "topic": "La Cueva BBS in Mexico in 1993 (session replay)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Why is Ask HN only showing me 14 posts?",
+      "topic": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Improving and Stabilizing the Racoon2 IKE Daemon in NetBSD",
       "score": 1,
       "meta": {}
     },
@@ -183,7 +159,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "My (22) parents (55) want to put my name on their mortgage",
+      "topic": "Laid off, business failed, $16.5k in credit card debt, what should I be doing right now?",
       "score": 1,
       "meta": {}
     },
@@ -201,6 +177,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Been ignoring IRA's and going heavy on my 401k, should I reassess?",
       "score": 1,
       "meta": {}
@@ -213,61 +195,79 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Should someone like me have an emergency savings?",
       "score": 1,
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "We planned this big expense, so why I am so stressed?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Estranged parents in control of my credit card",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Subquadratic 3SUM and Subcubic APSP",
+      "topic": "Integer multiplication below n log n",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mathematics of Geothermal Energy",
+      "topic": "LLMs may have helped my RSI",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSSH 10.6",
+      "topic": "The cost of lies: A Mineserver story",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sharing AI Progress in Mathematics",
+      "topic": "How Fast is Python 3.15?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Decisions API is in public beta",
+      "topic": "When random is not actually random enough",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "System-level ad-blocking in Android",
+      "topic": "What Is Codemode",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ESP32-C3 Adblock",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Calling It Quits on ServerFault",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The art of defusing a second world war bomb",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "How do people afford home addition projects",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Zelled Money From A Stranger",
       "score": 0,
       "meta": {}
     },
@@ -321,13 +321,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
+      "topic": "Company owner approached me about possible private equity buyout. What should my expectations be?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Company owner approached me about possible private equity buyout. What should my expectations be?",
+      "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
       "score": 0,
       "meta": {}
     },
@@ -339,19 +339,25 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Single Mom in Debt - Need Advice",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Who do I see regarding deceased assets?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "403b Management &quot;lost&quot; a check",
+      "topic": "Got a house- Salary being cut",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Single Mom in Debt - Need Advice",
+      "topic": "403b Management &quot;lost&quot; a check",
       "score": 0,
       "meta": {}
     },
@@ -369,19 +375,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Sell off stocks to buy house?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Retire early outside USA at 52",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Building home, rates have increased",
       "score": 0,
       "meta": {}
     }
