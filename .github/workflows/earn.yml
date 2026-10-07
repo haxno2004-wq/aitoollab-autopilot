@@ -92,7 +92,7 @@ jobs:
           esac
           if [ -z "$HOST" ]; then echo "⚠️ unknown platform ${{ matrix.platform }} — skipping Web Analytics"; exit 0; fi
           BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE?per_page=100")
+          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE/list?per_page=100")
           CODE=$(printf '%s' "$LIST" | tail -n1)
           BODY=$(printf '%s' "$LIST" | sed '$d')
           echo "rum list: HTTP $CODE"
@@ -223,7 +223,7 @@ jobs:
           set -e
           HOST=fleetdeck.pages.dev
           BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE?per_page=100")
+          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE/list?per_page=100")
           CODE=$(printf '%s' "$LIST" | tail -n1)
           BODY=$(printf '%s' "$LIST" | sed '$d')
           echo "rum list: HTTP $CODE"
