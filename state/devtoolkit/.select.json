@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-07T05:19:32.834Z",
-  "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+  "pickedAt": "2026-10-07T05:26:06.502Z",
+  "topic": "Mistral Large 4",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+  "slug": "mistral-large-4",
   "source": "hn",
   "sourceMeta": {},
   "finalScore": 3,
-  "remaining": 26
+  "remaining": 25
 }
