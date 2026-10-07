@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T05:19:35.220Z",
+  "fetchedAt": "2026-10-07T05:31:48.273Z",
   "candidates": [
     {
       "source": "hn",
@@ -79,6 +79,12 @@
     {
       "source": "hn",
       "topic": "Sharing AI progress in mathematics",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
       "score": 3,
       "meta": {}
     },
@@ -165,12 +171,6 @@
     },
     {
       "source": "hn",
-      "topic": "Utah to let AI examine patients and prescribe medication without human oversight",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Show HN: Free animated icon library for Vue",
       "score": 2,
       "meta": {}
@@ -249,6 +249,12 @@
     },
     {
       "source": "hn",
+      "topic": "My Homelab Two Years Later, Every Upgrade and What It Cost",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Ask HN: Are we losing our engineering literacy?",
       "score": 1,
       "meta": {}
@@ -317,12 +323,6 @@
       "source": "hn",
       "topic": "Show HN: I built a RAG and knowledge graph agent that runs locally",
       "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Integer multiplication below n log n",
-      "score": 0,
       "meta": {}
     },
     {
