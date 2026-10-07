@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T05:20:12.436Z",
+  "fetchedAt": "2026-10-07T05:31:53.583Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -16,6 +16,12 @@
     {
       "source": "hn",
       "topic": "Sharing AI progress in mathematics",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
       "score": 3,
       "meta": {}
     },
@@ -75,12 +81,6 @@
     },
     {
       "source": "hn",
-      "topic": "Utah to let AI examine patients and prescribe medication without human oversight",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "What's Earth's dominant species by mass?",
       "score": 1,
       "meta": {}
@@ -130,6 +130,12 @@
     {
       "source": "hn",
       "topic": "Improving and Stabilizing the Racoon2 IKE Daemon in NetBSD",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "My Homelab Two Years Later, Every Upgrade and What It Cost",
       "score": 1,
       "meta": {}
     },
@@ -209,12 +215,6 @@
       "source": "reddit/personalfinance",
       "topic": "Estranged parents in control of my credit card",
       "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Integer multiplication below n log n",
-      "score": 0,
       "meta": {}
     },
     {
