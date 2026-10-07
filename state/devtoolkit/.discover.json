@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T05:26:06.467Z",
+  "fetchedAt": "2026-10-07T05:31:50.830Z",
   "candidates": [
     {
       "source": "hn",
@@ -10,6 +10,12 @@
     {
       "source": "hn",
       "topic": "Sharing AI progress in mathematics",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
       "score": 3,
       "meta": {}
     },
@@ -46,12 +52,6 @@
     {
       "source": "hn",
       "topic": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Utah to let AI examine patients and prescribe medication without human oversight",
       "score": 2,
       "meta": {}
     },
