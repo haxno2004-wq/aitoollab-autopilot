@@ -1,177 +1,165 @@
 {
-  "fetchedAt": "2026-10-06T13:19:38.600Z",
+  "fetchedAt": "2026-10-07T05:19:32.794Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Why Common Lisp is now the best programming language",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Friendship ended with Deno, now Node is my best friend",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Web Search API",
+      "topic": "Mistral Large 4",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Beam: Reflection's 501B open-weight model",
+      "topic": "Sharing AI progress in mathematics",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Example.com just launched the biggest redesign in decades",
+      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Competitive Programmer's Handbook (2018) [pdf]",
+      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Find the flattest route between any two points in SF",
+      "topic": "Strands Decider 2B: a small, open-source, decision model",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dust: Pretraining Transformers Without Backpropagation",
+      "topic": "Treg (OpenRouter for Tools)",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics goes to Francis Halzen",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple and a hacker's future",
+      "topic": "Decisions API is in public beta",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The lamps in my house",
+      "topic": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Testing 12 different Zigbee temperature/humidity sensors",
+      "topic": "Utah to let AI examine patients and prescribe medication without human oversight",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "JetBrains reported a net financial loss first time in its tracked history",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gleam doesn't compile to Erlang source anymore",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Making a GTK application in Haskell, part 1",
+      "topic": "What's Earth's dominant species by mass?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An algorithmic failure beneath the secret ballot",
+      "topic": "Benchmark in Milliseconds",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Resurrecting iChat Audio and Video Conferencing",
+      "topic": "State of Devs 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Accountability mechanisms can be joyful",
+      "topic": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nature's capacity to 'bounce back' when species are lost is vastly overestimated",
+      "topic": "California closed the Montana license plate loophole",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Direct retinal projection display for smart glasses using a meta-optic mirror",
+      "topic": "Xbox has secured exclusive GTA 6 streaming rights",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Using A.I. and machine learning to decode communication of sperm whales",
+      "topic": "La Cueva BBS in Mexico in 1993 (session replay)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ASOS app users receive push notifications apparently sent by hackers",
+      "topic": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The complement of true is true, except when it's false",
+      "topic": "Improving and Stabilizing the Racoon2 IKE Daemon in NetBSD",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "World's First enhanced geothermal power plant completed in just 23 months",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ephemeral Testing",
+      "topic": "Integer multiplication below n log n",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Samon: Designing a Zen Garden Raking Puzzle",
+      "topic": "LLMs may have helped my RSI",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Release of Polars 2.0",
+      "topic": "The cost of lies: A Mineserver story",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Entombed in a Raycaster",
+      "topic": "How Fast is Python 3.15?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "When random is not actually random enough",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What Is Codemode",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ESP32-C3 Adblock",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Calling It Quits on ServerFault",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The art of defusing a second world war bomb",
       "score": 0,
       "meta": {}
     }
