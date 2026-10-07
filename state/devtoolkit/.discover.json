@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T05:19:32.794Z",
+  "fetchedAt": "2026-10-07T05:26:06.467Z",
   "candidates": [
     {
       "source": "hn",
@@ -111,8 +111,8 @@
     },
     {
       "source": "hn",
-      "topic": "Integer multiplication below n log n",
-      "score": 0,
+      "topic": "My Homelab Two Years Later, Every Upgrade and What It Cost",
+      "score": 1,
       "meta": {}
     },
     {

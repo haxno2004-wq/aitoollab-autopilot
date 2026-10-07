@@ -16,3 +16,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-06T12:28:38.674Z,beam-reflections-501b-open-weight-model,Beam Reflection 501B Review: Open-Weight Power,gemini,965,success
 2026-10-06T13:20:18.263Z,competitive-programmers-handbook-2018-pdf,Competitive Programmer's Handbook Review: Still Worth It?,gemini,978,success
 2026-10-07T05:20:13.111Z,embeddinggemma-2-an-open-lightweight-multimodal-embedding-model,EmbeddingGemma 2 Review: Lightweight Multimodal Embeddings,gemini,1129,success
+2026-10-07T05:26:44.250Z,mistral-large-4,Mistral Large 4 Hands-On Review: Capabilities and Verdict,gemini,1077,success
