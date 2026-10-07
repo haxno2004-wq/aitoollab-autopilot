@@ -92,10 +92,22 @@ jobs:
           esac
           if [ -z "$HOST" ]; then echo "⚠️ unknown platform ${{ matrix.platform }} — skipping Web Analytics"; exit 0; fi
           BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE?per_page=100")
+          CODE=$(printf '%s' "$LIST" | tail -n1)
+          BODY=$(printf '%s' "$LIST" | sed '$d')
+          echo "rum list: HTTP $CODE"
+          TAG=$(printf '%s' "$BODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          if [ -z "$TAG" ] && [ "$CODE" != "200" ]; then
+            echo "::warning::rum list failed HTTP $CODE: $(printf '%s' "$BODY" | head -c 400)"
+          fi
           if [ -z "$TAG" ]; then
             echo "Creating Web Analytics site for $HOST"
-            TAG=$(curl -s -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"${{ env.PAGES_PROJECT }}\",\"host\":\"$HOST\"}" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
+            POST=$(curl -s -w "\n%{http_code}" -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"${{ env.PAGES_PROJECT }}\",\"host\":\"$HOST\"}")
+            PCODE=$(printf '%s' "$POST" | tail -n1)
+            PBODY=$(printf '%s' "$POST" | sed '$d')
+            echo "rum create: HTTP $PCODE"
+            if [ "$PCODE" != "200" ]; then echo "::warning::rum create failed HTTP $PCODE: $(printf '%s' "$PBODY" | head -c 400)"; fi
+            TAG=$(printf '%s' "$PBODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
           fi
           if [ -n "$TAG" ]; then
             echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
@@ -211,10 +223,22 @@ jobs:
           set -e
           HOST=fleetdeck.pages.dev
           BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          TAG=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE?per_page=100")
+          CODE=$(printf '%s' "$LIST" | tail -n1)
+          BODY=$(printf '%s' "$LIST" | sed '$d')
+          echo "rum list: HTTP $CODE"
+          TAG=$(printf '%s' "$BODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
+          if [ -z "$TAG" ] && [ "$CODE" != "200" ]; then
+            echo "::warning::rum list failed HTTP $CODE: $(printf '%s' "$BODY" | head -c 400)"
+          fi
           if [ -z "$TAG" ]; then
             echo "Creating Web Analytics site for fleetdeck.pages.dev"
-            TAG=$(curl -s -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"fleetdeck\",\"host\":\"$HOST\"}" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
+            POST=$(curl -s -w "\n%{http_code}" -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"fleetdeck\",\"host\":\"$HOST\"}")
+            PCODE=$(printf '%s' "$POST" | tail -n1)
+            PBODY=$(printf '%s' "$POST" | sed '$d')
+            echo "rum create: HTTP $PCODE"
+            if [ "$PCODE" != "200" ]; then echo "::warning::rum create failed HTTP $PCODE: $(printf '%s' "$PBODY" | head -c 400)"; fi
+            TAG=$(printf '%s' "$PBODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
           fi
           if [ -n "$TAG" ]; then
             echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
