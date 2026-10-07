@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-06T12:27:55.395Z",
-  "topic": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
+  "pickedAt": "2026-10-07T05:19:35.254Z",
+  "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "38k-aws-bedrock-bill-caused-by-a-simple-prompt-caching-miss",
+  "slug": "embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
   "source": "hn",
   "sourceMeta": {},
   "finalScore": 3,
-  "remaining": 40
+  "remaining": 41
 }
