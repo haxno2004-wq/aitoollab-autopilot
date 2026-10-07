@@ -86,34 +86,28 @@ jobs:
           case "${{ matrix.platform }}" in
             aitoollab)  HOST=aitoollab.pages.dev  ;;
             labstore)   HOST=promptforge-shop.pages.dev ;;
-            devtoolkit) HOST=devd3tollk.page.dev ;;
+            devtoolkit) HOST=devtoolkit-daily.pages.dev ;;
             finflow)    HOST=moneypilot-3gk.pages.dev ;;
             *)          HOST=;;
           esac
           if [ -z "$HOST" ]; then echo "⚠️ unknown platform ${{ matrix.platform }} — skipping Web Analytics"; exit 0; fi
-          BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE/list?per_page=100")
-          CODE=$(printf '%s' "$LIST" | tail -n1)
-          BODY=$(printf '%s' "$LIST" | sed '$d')
-          echo "rum list: HTTP $CODE"
-          TAG=$(printf '%s' "$BODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
-          if [ -z "$TAG" ] && [ "$CODE" != "200" ]; then
-            echo "::warning::rum list failed HTTP $CODE: $(printf '%s' "$BODY" | head -c 400)"
-          fi
-          if [ -z "$TAG" ]; then
-            echo "Creating Web Analytics site for $HOST"
-            POST=$(curl -s -w "\n%{http_code}" -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"${{ env.PAGES_PROJECT }}\",\"host\":\"$HOST\"}")
-            PCODE=$(printf '%s' "$POST" | tail -n1)
-            PBODY=$(printf '%s' "$POST" | sed '$d')
-            echo "rum create: HTTP $PCODE"
-            if [ "$PCODE" != "200" ]; then echo "::warning::rum create failed HTTP $PCODE: $(printf '%s' "$PBODY" | head -c 400)"; fi
-            TAG=$(printf '%s' "$PBODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
-          fi
+          # Site tags were provisioned once per host. Resolve them statically: the CI token has no
+          # Web Analytics read scope (GET /rum/site_info/list -> 403) and the account is at its site
+          # cap (POST /rum/site_info -> 409 maxSiteInfo), so they cannot be looked up at run time.
+          # Override any entry with the repo variable CF_ANALYTICS_TAG_<PLATFORM> if a tag rotates.
+          case "${{ matrix.platform }}" in
+            aitoollab)  TAG='${{ vars.CF_ANALYTICS_TAG_AITOOLLAB }}'  ; [ -n "$TAG" ] || TAG=dd3750c1871b4fe88e0ce672ee9c9e08 ;;
+            finflow)    TAG='${{ vars.CF_ANALYTICS_TAG_FINFLOW }}'    ; [ -n "$TAG" ] || TAG=3378b48c929e47a883310f52e46c1ad0 ;;
+            labstore)   TAG='${{ vars.CF_ANALYTICS_TAG_LABSTORE }}'   ; [ -n "$TAG" ] || TAG=d00c049821314641a15e7b3a5b53e2a2 ;;
+            devtoolkit) TAG='${{ vars.CF_ANALYTICS_TAG_DEVTOOLKIT }}' ; [ -n "$TAG" ] || TAG=c99db0e69e754f0e8baa45f62ef2a7a4 ;;
+            *)          TAG= ;;
+          esac
+          echo "rum tag: host=$HOST tag=${TAG:-none}"
           if [ -n "$TAG" ]; then
             echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
             echo "OK Web Analytics site info for $HOST: $TAG (env set)"
           else
-            echo "⚠ Could not provision Web Analytics for $HOST — skipping beacon injection"
+            echo "⚠ No pinned Web Analytics tag for $HOST — skipping beacon injection"
           fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -222,29 +216,15 @@ jobs:
         run: |
           set -e
           HOST=fleetdeck.pages.dev
-          BASE="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/rum/site_info"
-          LIST=$(curl -s -w "\n%{http_code}" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$BASE/list?per_page=100")
-          CODE=$(printf '%s' "$LIST" | tail -n1)
-          BODY=$(printf '%s' "$LIST" | sed '$d')
-          echo "rum list: HTTP $CODE"
-          TAG=$(printf '%s' "$BODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);const s=(j.result||[]).find(x=>x.host==='$HOST');console.log(s?s.site_tag:'')}catch{console.log('')}})")
-          if [ -z "$TAG" ] && [ "$CODE" != "200" ]; then
-            echo "::warning::rum list failed HTTP $CODE: $(printf '%s' "$BODY" | head -c 400)"
-          fi
-          if [ -z "$TAG" ]; then
-            echo "Creating Web Analytics site for fleetdeck.pages.dev"
-            POST=$(curl -s -w "\n%{http_code}" -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$BASE" -d "{\"name\":\"fleetdeck\",\"host\":\"$HOST\"}")
-            PCODE=$(printf '%s' "$POST" | tail -n1)
-            PBODY=$(printf '%s' "$POST" | sed '$d')
-            echo "rum create: HTTP $PCODE"
-            if [ "$PCODE" != "200" ]; then echo "::warning::rum create failed HTTP $PCODE: $(printf '%s' "$PBODY" | head -c 400)"; fi
-            TAG=$(printf '%s' "$PBODY" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{console.log(JSON.parse(d).result.site_tag||'')}catch{console.log('')}})")
-          fi
+          # Fleetdeck's tag was provisioned once; see the platform job for why it is pinned here.
+          TAG='${{ vars.CF_ANALYTICS_TAG_FLEETDECK }}'
+          [ -n "$TAG" ] || TAG=211805463f9044c1bd5c3f8f200b1fef
+          echo "rum tag: host=$HOST tag=${TAG:-none}"
           if [ -n "$TAG" ]; then
             echo "CF_ANALYTICS_TOKEN=$TAG" >> "$GITHUB_ENV"
             echo "✅ Web Analytics site info for fleetdeck.pages.dev: $TAG"
           else
-            echo "⚠️ Could not provision Web Analytics for fleetdeck — skipping beacon injection"
+            echo "⚠️ No pinned Web Analytics tag for fleetdeck — skipping beacon injection"
           fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
