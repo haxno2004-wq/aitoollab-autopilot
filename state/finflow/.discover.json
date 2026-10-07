@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-10-07T05:31:53.583Z",
+  "fetchedAt": "2026-10-07T13:25:53.123Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "Strands Decider 2B: a small, open-source, decision model",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "score": 4,
+      "meta": {}
+    },
     {
       "source": "reddit/personalfinance",
       "topic": "What am I missing? 401k, investments, savings at 27",
@@ -21,31 +39,7 @@
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Strands Decider 2B: a small, open-source, decision model",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Treg (OpenRouter for Tools)",
+      "topic": "Decisions API is in public beta",
       "score": 3,
       "meta": {}
     },
@@ -69,85 +63,103 @@
     },
     {
       "source": "hn",
-      "topic": "Decisions API is in public beta",
+      "topic": "A font recreated from photographs of classic Commodore 64 keycaps",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+      "topic": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What's Earth's dominant species by mass?",
+      "topic": "Shipping JPEG XL in Chrome",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Benchmark in Milliseconds",
+      "topic": "The cost of lies: A Mineserver story",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "State of Devs 2026",
+      "topic": "ESP32-C3 Adblock",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "topic": "What is Codemode",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "California closed the Montana license plate loophole",
+      "topic": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Xbox has secured exclusive GTA 6 streaming rights",
+      "topic": "PS5 Jailbreaks Are Escalating at an Unprecedented Pace",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "La Cueva BBS in Mexico in 1993 (session replay)",
+      "topic": "It may soon be possible to create \"mirror life\"",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
+      "topic": "Forever Junior: The Skills AI Can't Develop for You",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Improving and Stabilizing the Racoon2 IKE Daemon in NetBSD",
+      "topic": "LLMs and Data Poisoning Are Weaponized to Manufacture Consensus",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "My Homelab Two Years Later, Every Upgrade and What It Cost",
+      "topic": "Write Like It's 1866: LLMs Relearn Telegraphese",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "401k advice for broke people because 15% is NOT realistic",
+      "source": "hn",
+      "topic": "House with 15m underground tunnels for sale for 300k",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Google Playground: Create and play custom games",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The keys to the Internet change on October 11. Are you ready?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "I just applied for credit and got denied for being dead, how do I fix this?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "401k advice for broke people because 15% is NOT realistic",
       "score": 1,
       "meta": {}
     },
@@ -177,13 +189,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How stupid is it for me to rent my own place?",
+      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
+      "topic": "How stupid is it for me to rent my own place?",
       "score": 1,
       "meta": {}
     },
@@ -212,68 +224,32 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Estranged parents in control of my credit card",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "LLMs may have helped my RSI",
+      "topic": "Rust's derive often implies inline",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The cost of lies: A Mineserver story",
+      "topic": "Gallery of Processor Cache Effects",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Fast is Python 3.15?",
+      "topic": "The Legend of the Paper Crane",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "When random is not actually random enough",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What Is Codemode",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ESP32-C3 Adblock",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Calling It Quits on ServerFault",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The art of defusing a second world war bomb",
+      "topic": "Mallet Head Angle",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "How do people afford home addition projects",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Mom wants to lock in 10yr bonds with 40% of her retirement and live off the interest..good idea?",
       "score": 0,
       "meta": {}
     },
@@ -327,6 +303,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Got a house- Salary being cut",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
       "score": 0,
       "meta": {}
@@ -351,12 +333,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Got a house- Salary being cut",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "403b Management &quot;lost&quot; a check",
       "score": 0,
       "meta": {}
@@ -376,6 +352,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Retire early outside USA at 52",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Parents made UGMA account for me, I never knew about it, never paid any taxes on it, how screwed am I",
       "score": 0,
       "meta": {}
     }
