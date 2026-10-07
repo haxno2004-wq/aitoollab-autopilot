@@ -106,6 +106,13 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Inject Web Analytics beacon — ${{ matrix.platform }}
+        if: steps.pipe.outcome == 'success'
+        continue-on-error: true
+        run: node scripts/inject-beacon.mjs
+        env:
+          DIST: dist/${{ matrix.platform }}
+
       - name: Deploy ${{ matrix.platform }} to Cloudflare Pages
         if: steps.pipe.outcome == 'success'
         uses: cloudflare/wrangler-action@v3
@@ -218,6 +225,12 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Inject Web Analytics beacon — fleetdeck
+        continue-on-error: true
+        run: node scripts/inject-beacon.mjs
+        env:
+          DIST: dist/dashboard
 
       - name: Deploy Command Deck
         uses: cloudflare/wrangler-action@v3
