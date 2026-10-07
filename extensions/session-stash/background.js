@@ -231,7 +231,7 @@ chrome.runtime.onStartup.addListener(async () => {
 // ---------------------------------------------------------------------------
 
 chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
-  (async () => {
+  const run = (async () => {
     try {
       switch (msg && msg.type) {
         case "bootstrap": {
@@ -310,5 +310,11 @@ chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
       return { ok: false, reason: String((err && err.message) || err) };
     }
   })();
-  return true; // async sendResponse
+  // The handler runs async, so the result must be pushed back explicitly;
+  // returning true only keeps the message channel open.
+  run.then(
+    (result) => sendResponse(result || { ok: false, reason: "empty-result" }),
+    (err) => sendResponse({ ok: false, reason: String((err && err.message) || err) })
+  );
+  return true;
 });

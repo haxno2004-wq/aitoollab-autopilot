@@ -51,7 +51,18 @@ popup.html/.js     toolbar popup: stash, search, quick restore
 manager.html/.js   full dashboard: sessions, settings, export/import, license
 ui.css             shared dark UI
 tools/gen-icons.mjs  regenerates icons (node tools/gen-icons.mjs)
+tools/pack.py        builds the release zip (python tools/pack.py)
+tools/smoke.mjs      headless behaviour test against a mock chrome API
 ```
+
+## Verify it yourself
+
+```bash
+node extensions/session-stash/tools/smoke.mjs   # 20 checks: capture, dedupe, restore, limits
+python extensions/session-stash/tools/pack.py   # rebuild releases/session-stash-1.0.0.zip
+```
+
+The smoke test stubs `chrome.storage` / `chrome.windows` / `chrome.tabs` / `chrome.runtime` and drives the real service-worker code, so it needs no browser. It covers snapshot creation, non-restorable URL filtering, pinned-state capture, autosave dedupe, window-per-session restore, the message router (bootstrap / export / import / settings gating), and the free 20-session cap.
 
 ## Publishing to the Chrome Web Store
 
