@@ -1,10 +1,22 @@
 {
-  "fetchedAt": "2026-10-07T05:38:12.584Z",
+  "fetchedAt": "2026-10-07T23:07:48.099Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Mistral Large 4",
-      "score": 3,
+      "topic": "Open source 160 sound visualization experiments",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "score": 4,
       "meta": {}
     },
     {
@@ -15,151 +27,133 @@
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
+      "topic": "Claude Haiku 5.5",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "topic": "Shipping JPEG XL in Chrome",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "topic": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Strands Decider 2B: a small, open-source, decision model",
+      "topic": "Margaret Hamilton, who led software development for the Apollo program, has died",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Treg (OpenRouter for Tools)",
+      "topic": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Decisions API is in public beta",
+      "topic": "Animated ASCII Art for Web Pages",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+      "topic": "God of War on PSP, recompiled to WebAssembly and running in the browser",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What's Earth's dominant species by mass?",
+      "topic": "House with 15m underground tunnels for sale for 300k",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI-assisted proof of optimal packing for 11 squares",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Google Playground: Create and play custom games",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anti-patterns in software blogging",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Benchmark in Milliseconds",
+      "topic": "Docker Agent",
       "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "State of Devs 2026",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "California closed the Montana license plate loophole",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Xbox has secured exclusive GTA 6 streaming rights",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "La Cueva BBS in Mexico in 1993 (session replay)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Improving and Stabilizing the Racoon2 IKE Daemon in NetBSD",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "My Homelab Two Years Later, Every Upgrade and What It Cost",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LLMs may have helped my RSI",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The cost of lies: A Mineserver story",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How Fast is Python 3.15?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "When random is not actually random enough",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What Is Codemode",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ESP32-C3 Adblock",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Calling It Quits on ServerFault",
-      "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "The art of defusing a second world war bomb",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ShinyHunters Extorted Boeing Spin-Off Prior to Arrests",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "3D-printing platform rapidly produces complex electric machines",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "If somebody tries to hot-patch an already-hot-patched function",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "SynthID Detector",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How machines learned precision",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why were Victorian elites so effective?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I'm in love with a German film star",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Brownian Motion",
       "score": 0,
       "meta": {}
     }
