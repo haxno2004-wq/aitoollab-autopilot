@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T13:31:32.403Z",
+  "fetchedAt": "2026-10-08T23:23:25.636Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,7 +48,31 @@
     },
     {
       "source": "hn",
-      "topic": "Dat-ecosystem: high level applications built on top of P2P protocols",
+      "topic": "Trump administration is suspending Microsoft from a green card program",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
       "score": 4,
       "meta": {}
     },
@@ -78,43 +102,13 @@
     },
     {
       "source": "hn",
-      "topic": "Margaret Hamilton has died",
+      "topic": "Whistle: Speech to Text in 16.9 MB",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sharing AI progress in mathematics",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude Haiku 5.5",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Animated ASCII Art for Web Pages",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The 15-year search for a band that charted once and vanished",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Telnet BBS Guide",
+      "topic": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
       "score": 3,
       "meta": {}
     },
@@ -165,43 +159,25 @@
     },
     {
       "source": "hn",
-      "topic": "The Mathocalypse",
+      "topic": "The Slow Formation of Durable Software",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Living off-grid: Hundred Rabbits",
+      "topic": "Beauty in DVD Menus",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Docker Agent",
+      "topic": "Theranos.world",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "'Jonathan' is the oldest land animal on Earth",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Push ifs up and fors down: The idiom, its algebra, and its limits",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Classic PC demoscene productions running natively in the browser",
+      "topic": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy",
       "score": 2,
       "meta": {}
     },
@@ -231,49 +207,61 @@
     },
     {
       "source": "hn",
-      "topic": "Why were Victorian elites so effective?",
+      "topic": "DuckDB Ducklake",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cleo (Mathematician)",
+      "topic": "Archaeologists Are Reconstructing the 'Invisible' Technologies of the Stone Age",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI Withdraws 3 Math Papers",
+      "topic": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "topic": "US man given prison sentence for bot-farming music streams",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "topic": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anne Carson wins Nobel Prize in literature 2026",
+      "topic": "A Terminal Protocol for Program Status (OSC 7501)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New repository settings for configuring pull request access",
+      "topic": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+      "topic": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI-ready biological data: $1.8B global commitment",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Vanillin provides a sweet solution for chronic wound healing",
       "score": 1,
       "meta": {}
     },
@@ -351,25 +339,31 @@
     },
     {
       "source": "hn",
-      "topic": "The Slow Formation of Durable Software",
+      "topic": "New gTLD Application for .lan",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Analog Computer Simulator in the Browser",
+      "topic": "The value of not getting to the point",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bloody Cavemen",
+      "topic": "OLED burn-in test: 30-month update",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Time Travel in Braid",
+      "topic": "ETH-68: Ethernet Audio Interface for Linux",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The dawn of the age of the exoskeleton",
       "score": 0,
       "meta": {}
     }
