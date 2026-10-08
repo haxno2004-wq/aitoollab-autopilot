@@ -1,159 +1,159 @@
 {
-  "fetchedAt": "2026-10-07T23:07:48.099Z",
+  "fetchedAt": "2026-10-08T23:23:24.914Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Open source 160 sound visualization experiments",
+      "topic": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
+      "topic": "Trump administration is suspending Microsoft from a green card program",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "topic": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sharing AI progress in mathematics",
+      "topic": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Terminal Protocol for Program Status (OSC 7501)",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Whistle: Speech to Text in 16.9 MB",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Haiku 5.5",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Shipping JPEG XL in Chrome",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Margaret Hamilton, who led software development for the Apollo program, has died",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Animated ASCII Art for Web Pages",
+      "topic": "The Slow Formation of Durable Software",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "topic": "Beauty in DVD Menus",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "House with 15m underground tunnels for sale for 300k",
+      "topic": "Theranos.world",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI-assisted proof of optimal packing for 11 squares",
+      "topic": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google Playground: Create and play custom games",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anti-patterns in software blogging",
+      "topic": "DuckDB Ducklake",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Docker Agent",
+      "topic": "Archaeologists Are Reconstructing the 'Invisible' Technologies of the Stone Age",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The art of defusing a second world war bomb",
+      "topic": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "topic": "US man given prison sentence for bot-farming music streams",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ShinyHunters Extorted Boeing Spin-Off Prior to Arrests",
+      "topic": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "3D-printing platform rapidly produces complex electric machines",
+      "topic": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If somebody tries to hot-patch an already-hot-patched function",
+      "topic": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SynthID Detector",
+      "topic": "AI-ready biological data: $1.8B global commitment",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Vanillin provides a sweet solution for chronic wound healing",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New gTLD Application for .lan",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How machines learned precision",
+      "topic": "The value of not getting to the point",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why were Victorian elites so effective?",
+      "topic": "OLED burn-in test: 30-month update",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm in love with a German film star",
+      "topic": "ETH-68: Ethernet Audio Interface for Linux",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Brownian Motion",
+      "topic": "The dawn of the age of the exoskeleton",
       "score": 0,
       "meta": {}
     }
