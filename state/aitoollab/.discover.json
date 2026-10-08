@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T23:07:46.317Z",
+  "fetchedAt": "2026-10-08T13:31:32.403Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,13 +48,7 @@
     },
     {
       "source": "hn",
-      "topic": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "topic": "Dat-ecosystem: high level applications built on top of P2P protocols",
       "score": 4,
       "meta": {}
     },
@@ -84,6 +78,12 @@
     },
     {
       "source": "hn",
+      "topic": "Margaret Hamilton has died",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Sharing AI progress in mathematics",
       "score": 3,
       "meta": {}
@@ -96,31 +96,25 @@
     },
     {
       "source": "hn",
-      "topic": "Shipping JPEG XL in Chrome",
+      "topic": "Animated ASCII Art for Web Pages",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "topic": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Margaret Hamilton, who led software development for the Apollo program, has died",
+      "topic": "The 15-year search for a band that charted once and vanished",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Open source 160 sound visualization experiments",
+      "topic": "Telnet BBS Guide",
       "score": 3,
       "meta": {}
     },
@@ -171,31 +165,43 @@
     },
     {
       "source": "hn",
-      "topic": "Animated ASCII Art for Web Pages",
+      "topic": "The Mathocalypse",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "topic": "Living off-grid: Hundred Rabbits",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "House with 15m underground tunnels for sale for 300k",
+      "topic": "Docker Agent",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI-assisted proof of optimal packing for 11 squares",
+      "topic": "'Jonathan' is the oldest land animal on Earth",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google Playground: Create and play custom games",
+      "topic": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Classic PC demoscene productions running natively in the browser",
       "score": 2,
       "meta": {}
     },
@@ -225,43 +231,49 @@
     },
     {
       "source": "hn",
-      "topic": "Anti-patterns in software blogging",
+      "topic": "Why were Victorian elites so effective?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Docker Agent",
+      "topic": "Cleo (Mathematician)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The art of defusing a second world war bomb",
+      "topic": "OpenAI Withdraws 3 Math Papers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "topic": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ShinyHunters Extorted Boeing Spin-Off Prior to Arrests",
+      "topic": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "3D-printing platform rapidly produces complex electric machines",
+      "topic": "Anne Carson wins Nobel Prize in literature 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If somebody tries to hot-patch an already-hot-patched function",
+      "topic": "New repository settings for configuring pull request access",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
       "score": 1,
       "meta": {}
     },
@@ -339,31 +351,25 @@
     },
     {
       "source": "hn",
-      "topic": "SynthID Detector",
+      "topic": "The Slow Formation of Durable Software",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How machines learned precision",
+      "topic": "Analog Computer Simulator in the Browser",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why were Victorian elites so effective?",
+      "topic": "Bloody Cavemen",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm in love with a German film star",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Brownian Motion",
+      "topic": "Time Travel in Braid",
       "score": 0,
       "meta": {}
     }
