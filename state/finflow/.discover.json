@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T23:07:51.642Z",
+  "fetchedAt": "2026-10-08T13:31:35.500Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,13 +9,7 @@
     },
     {
       "source": "hn",
-      "topic": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "topic": "Dat-ecosystem: high level applications built on top of P2P protocols",
       "score": 4,
       "meta": {}
     },
@@ -26,9 +20,9 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "26-year old with about 15.5K saved in a performance savings account, what should I do next?",
-      "score": 4,
+      "source": "hn",
+      "topic": "Margaret Hamilton has died",
+      "score": 3,
       "meta": {}
     },
     {
@@ -45,31 +39,25 @@
     },
     {
       "source": "hn",
-      "topic": "Shipping JPEG XL in Chrome",
+      "topic": "Animated ASCII Art for Web Pages",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "topic": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Margaret Hamilton, who led software development for the Apollo program, has died",
+      "topic": "The 15-year search for a band that charted once and vanished",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Open source 160 sound visualization experiments",
+      "topic": "Telnet BBS Guide",
       "score": 3,
       "meta": {}
     },
@@ -87,85 +75,103 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "How should I invest $25K for my toddler?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Multiple Kids phones - budget",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Animated ASCII Art for Web Pages",
+      "topic": "The Mathocalypse",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "God of War on PSP, recompiled to WebAssembly and running in the browser",
+      "topic": "Living off-grid: Hundred Rabbits",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "House with 15m underground tunnels for sale for 300k",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI-assisted proof of optimal packing for 11 squares",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Google Playground: Create and play custom games",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anti-patterns in software blogging",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Docker Agent",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The art of defusing a second world war bomb",
-      "score": 1,
+      "topic": "'Jonathan' is the oldest land animal on Earth",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Classic PC demoscene productions running natively in the browser",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why were Victorian elites so effective?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ShinyHunters Extorted Boeing Spin-Off Prior to Arrests",
+      "topic": "Cleo (Mathematician)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "3D-printing platform rapidly produces complex electric machines",
+      "topic": "OpenAI Withdraws 3 Math Papers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If somebody tries to hot-patch an already-hot-patched function",
+      "topic": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "401k advice for broke people because 15% is NOT realistic",
+      "source": "hn",
+      "topic": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anne Carson wins Nobel Prize in literature 2026",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New repository settings for configuring pull request access",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
       "score": 1,
       "meta": {}
     },
@@ -177,13 +183,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Impulsive Home Purchase Has Created a Financial and Personal Nightmare",
+      "topic": "Laid off, business failed, $16.5k in credit card debt, what should I be doing right now?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Laid off, business failed, $16.5k in credit card debt, what should I be doing right now?",
+      "topic": "Impulsive Home Purchase Has Created a Financial and Personal Nightmare",
       "score": 1,
       "meta": {}
     },
@@ -201,7 +207,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Been ignoring IRA's and going heavy on my 401k, should I reassess?",
+      "topic": "Inherited house through ladybird deed. Still need to worry about medical debts?",
       "score": 1,
       "meta": {}
     },
@@ -213,7 +219,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Should I keep maxxing my 401k or change things up?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should someone like me have an emergency savings?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Annuity question - parents are now thinking they got scammed, what's next?",
       "score": 1,
       "meta": {}
     },
@@ -230,44 +248,38 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Inherited house through ladybird deed. Still need to worry about medical debts?",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "SynthID Detector",
+      "topic": "The Slow Formation of Durable Software",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How machines learned precision",
+      "topic": "Analog Computer Simulator in the Browser",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why were Victorian elites so effective?",
+      "topic": "Bloody Cavemen",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm in love with a German film star",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Brownian Motion",
+      "topic": "Time Travel in Braid",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "How do people afford home addition projects",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Depositing &gt;$10K At Bank",
       "score": 0,
       "meta": {}
     },
@@ -280,12 +292,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Your I'm done number?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "My companies 401k switched from a per-paycheck match to a single contribution at the end of the year.",
       "score": 0,
       "meta": {}
     },
@@ -333,13 +339,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Who do I see regarding deceased assets?",
+      "topic": "403b Management &quot;lost&quot; a check",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "403b Management &quot;lost&quot; a check",
+      "topic": "Who do I see regarding deceased assets?",
       "score": 0,
       "meta": {}
     },
