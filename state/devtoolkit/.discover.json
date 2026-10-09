@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-09T13:18:56.614Z",
+  "fetchedAt": "2026-10-09T22:41:15.920Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "A Terminal Protocol for Program Status (OSC 7501)",
-      "score": 5,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
@@ -15,25 +9,31 @@
     },
     {
       "source": "hn",
-      "topic": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "topic": "Nobel Peace Prize for 2026 to Navanethem Pillay",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "topic": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy",
+      "topic": "Keyboard differences between Windows and Macs",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Whistle: Speech to Text in 16.9 MB",
+      "topic": "Cloudflare acquires Deno",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sorry, I'm in a meeting",
       "score": 3,
       "meta": {}
     },
@@ -45,127 +45,133 @@
     },
     {
       "source": "hn",
-      "topic": "OpenAI withdraws three mathematical results",
+      "topic": "Our $445M Series D",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Beauty in DVD Menus",
+      "topic": "Triple-A Minesweeper",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Keyboard differences between Windows and Macs",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Once: Cache CLI Commands",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Quake ported to safe Rust, playable in browser",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenAI, the Partition Principle, and Mathematics",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Let your AI agents paint big arrows, boxes and text on your screen",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI-ready biological data: $1.8B global commitment",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DuckDB Ducklake",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The value of not getting to the point",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ETH-68: Ethernet Audio Interface for Linux",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I'm in a Meeting",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "score": 1,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
-      "score": 1,
+      "topic": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Once: Cache CLI commands",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Typesafe AI raises $870M at $7.5B",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "No Man Is an Island",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Germany transforms former coal mines into Europe's largest lake landscape",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "MXC - a sandboxed code execution system",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Programming Isn't Special",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "'Wallace and Gromit,' 90% Alone",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "M7.6 Earthquake in Panama",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Microsoft-Decision-1, our model for fast decision-making",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A statement on the Tor Project's relationship with Mullvad",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ideas aren't getting harder to find, anyone who tells you otherwise is a coward",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: The rarest tech books and docs you've probably never read",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why Are Coding Agents So Dumb?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Deno Is Joining Cloudflare",
+      "topic": "You might want to try being less creative",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Training Text-to-Image Models Without a VAE",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Proton Drive for Linux",
       "score": 0,
       "meta": {}
     }
