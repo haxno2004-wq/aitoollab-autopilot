@@ -1,22 +1,10 @@
 {
-  "fetchedAt": "2026-10-08T23:23:24.914Z",
+  "fetchedAt": "2026-10-09T13:18:56.614Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Trump administration is suspending Microsoft from a green card program",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-      "score": 4,
+      "topic": "A Terminal Protocol for Program Status (OSC 7501)",
+      "score": 5,
       "meta": {}
     },
     {
@@ -39,7 +27,7 @@
     },
     {
       "source": "hn",
-      "topic": "A Terminal Protocol for Program Status (OSC 7501)",
+      "topic": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy",
       "score": 4,
       "meta": {}
     },
@@ -51,25 +39,85 @@
     },
     {
       "source": "hn",
-      "topic": "The Slow Formation of Durable Software",
-      "score": 2,
+      "topic": "Theranos.world",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI withdraws three mathematical results",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Beauty in DVD Menus",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Keyboard differences between Windows and Macs",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Once: Cache CLI Commands",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Quake ported to safe Rust, playable in browser",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Theranos.world",
+      "topic": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy",
+      "topic": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI, the Partition Principle, and Mathematics",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI-ready biological data: $1.8B global commitment",
       "score": 2,
       "meta": {}
     },
@@ -81,79 +129,43 @@
     },
     {
       "source": "hn",
-      "topic": "Archaeologists Are Reconstructing the 'Invisible' Technologies of the Stone Age",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "US man given prison sentence for bot-farming music streams",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A 5.3M-year-old deep-sea whale necropolis in the Diamantina Zone",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI-ready biological data: $1.8B global commitment",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Vanillin provides a sweet solution for chronic wound healing",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New gTLD Application for .lan",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "The value of not getting to the point",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OLED burn-in test: 30-month update",
-      "score": 0,
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "ETH-68: Ethernet Audio Interface for Linux",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I'm in a Meeting",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "MXC - a sandboxed code execution system",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The dawn of the age of the exoskeleton",
+      "topic": "Deno Is Joining Cloudflare",
       "score": 0,
       "meta": {}
     }
