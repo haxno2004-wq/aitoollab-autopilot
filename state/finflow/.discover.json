@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T13:31:35.500Z",
+  "fetchedAt": "2026-10-09T13:18:57.464Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,7 +9,25 @@
     },
     {
       "source": "hn",
-      "topic": "Dat-ecosystem: high level applications built on top of P2P protocols",
+      "topic": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy",
       "score": 4,
       "meta": {}
     },
@@ -21,43 +39,43 @@
     },
     {
       "source": "hn",
-      "topic": "Margaret Hamilton has died",
+      "topic": "Whistle: Speech to Text in 16.9 MB",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sharing AI progress in mathematics",
+      "topic": "Theranos.world",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Haiku 5.5",
+      "topic": "OpenAI withdraws three mathematical results",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Animated ASCII Art for Web Pages",
+      "topic": "Beauty in DVD Menus",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
+      "topic": "Ask HN: What do you run on a $5 VPS that's worth keeping online 24/7?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The 15-year search for a band that charted once and vanished",
+      "topic": "I think I found a planet nobody knew existed. I used Claude Code to find it",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Telnet BBS Guide",
+      "topic": "Keyboard differences between Windows and Macs",
       "score": 3,
       "meta": {}
     },
@@ -87,97 +105,97 @@
     },
     {
       "source": "hn",
-      "topic": "The Mathocalypse",
+      "topic": "Show HN: Quake ported to safe Rust, playable in browser",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Living off-grid: Hundred Rabbits",
+      "topic": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Docker Agent",
+      "topic": "A Terminal Protocol for Program Status (OSC 7501)",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "'Jonathan' is the oldest land animal on Earth",
+      "topic": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "topic": "OpenAI, the Partition Principle, and Mathematics",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+      "topic": "Let your AI agents paint big arrows, boxes and text on your screen",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Classic PC demoscene productions running natively in the browser",
+      "topic": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why were Victorian elites so effective?",
+      "topic": "AI-ready biological data: $1.8B global commitment",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "DuckDB Ducklake",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cleo (Mathematician)",
+      "topic": "The value of not getting to the point",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI Withdraws 3 Math Papers",
+      "topic": "ETH-68: Ethernet Audio Interface for Linux",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "topic": "I'm in a Meeting",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
+      "topic": "OpenAI fires three safety researchers for \"mishandling research information\"",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anne Carson wins Nobel Prize in literature 2026",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New repository settings for configuring pull request access",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+      "topic": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I own a house with my brother. What should the plan be if one of us wants out?",
+      "topic": "Citi Let an Impostor Withdraw $10,000 From My Account. Two Months Later, I'm Still Waiting",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Too much income for significant financial aid, not enough income to actually afford college",
       "score": 1,
       "meta": {}
     },
@@ -189,13 +207,31 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "I own a house with my brother. What should the plan be if one of us wants out?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Impulsive Home Purchase Has Created a Financial and Personal Nightmare",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Help me find reality - 529 contributions for a toddler",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Single, no plans for a family - does buying a house still make sense financially?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Annuity question - parents are now thinking they got scammed, what's next?",
       "score": 1,
       "meta": {}
     },
@@ -213,25 +249,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Give up half my earned commission or take the full amount and leave?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Should I keep maxxing my 401k or change things up?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should someone like me have an emergency savings?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Annuity question - parents are now thinking they got scammed, what's next?",
+      "topic": "I think my transmission is blown & I still owe on my car. /:",
       "score": 1,
       "meta": {}
     },
@@ -243,43 +267,31 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Should someone like me have an emergency savings?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Estranged parents in control of my credit card",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Slow Formation of Durable Software",
+      "topic": "MXC - a sandboxed code execution system",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Analog Computer Simulator in the Browser",
+      "topic": "Deno Is Joining Cloudflare",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bloody Cavemen",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Time Travel in Braid",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How do people afford home addition projects",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Depositing &gt;$10K At Bank",
+      "topic": "Once: Cache CLI Commands",
       "score": 0,
       "meta": {}
     },
@@ -303,13 +315,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Got a house- Salary being cut",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Collecting social security and still working",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Got a house- Salary being cut",
+      "topic": "Wife lost her job to AI almost 2 years ago and has been unable to find a job since, mortgage is unsustainable.",
       "score": 0,
       "meta": {}
     },
@@ -327,19 +345,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "High Yield Savings Account Advice",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Single Mom in Debt - Need Advice",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "403b Management &quot;lost&quot; a check",
+      "topic": "High Yield Savings Account Advice",
       "score": 0,
       "meta": {}
     },
@@ -381,7 +393,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Combining accounts with prenup?",
+      "topic": "Cancel whole life for 20 year term?",
       "score": 0,
       "meta": {}
     }
