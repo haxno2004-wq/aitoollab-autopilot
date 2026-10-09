@@ -1,8 +1,8 @@
 {
-  "slug": "a-terminal-protocol-for-program-status-osc-7501",
-  "title": "OSC 7501 Terminal Protocol Review: Program Status in CLI",
-  "description": "Discover OSC 7501, an open-source terminal protocol for program status. Read our hands-on review covering where it shines, fails, and who should adopt it.",
-  "date": "2026-10-09T13:19:52.663Z",
-  "words": 895,
+  "slug": "once-cache-cli-commands",
+  "title": "Once Review: Caching CLI Commands for Faster Workflows",
+  "description": "Discover how caching CLI commands with Once boosts developer productivity. We review its features, trade-offs, and best practices for modern workflows.",
+  "date": "2026-10-09T22:43:23.322Z",
+  "words": 1007,
   "provider": "gemini"
 }

@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-09T13:18:56.656Z",
-  "topic": "A Terminal Protocol for Program Status (OSC 7501)",
+  "pickedAt": "2026-10-09T22:41:15.950Z",
+  "topic": "Once: Cache CLI commands",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "a-terminal-protocol-for-program-status-osc-7501",
+  "slug": "once-cache-cli-commands",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 7,
-  "remaining": 27
+  "finalScore": 5,
+  "remaining": 28
 }
