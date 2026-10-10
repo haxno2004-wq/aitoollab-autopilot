@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T22:41:18.601Z",
+  "fetchedAt": "2026-10-10T12:33:43.527Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,31 +9,43 @@
     },
     {
       "source": "hn",
-      "topic": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "topic": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Peace Prize for 2026 to Navanethem Pillay",
+      "topic": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Keyboard differences between Windows and Macs",
+      "topic": "How to head into VR without wearing a headset",
       "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "What am I missing? 401k, investments, savings at 27",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I've saved 7000 euros, should I start investing or should I wait?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "26-year old with about 15.5K saved in a performance savings account, what should I do next?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Roth vs. Traditional 401(k) while in the 22% bracket?",
       "score": 4,
       "meta": {}
     },
@@ -45,13 +57,13 @@
     },
     {
       "source": "hn",
-      "topic": "Sorry, I'm in a meeting",
+      "topic": "Triple-A Minesweeper",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Theranos.world",
+      "topic": "Sorry, I'm in a meeting",
       "score": 3,
       "meta": {}
     },
@@ -63,19 +75,13 @@
     },
     {
       "source": "hn",
-      "topic": "Triple-A Minesweeper",
+      "topic": "Typesafe AI raises $870M at $7.5B",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+      "topic": "Telegram Desktop vulnerability allowed any user's file to be stolen",
       "score": 3,
       "meta": {}
     },
@@ -87,19 +93,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Time to move, but my condo is worth far less than what I bought it for. What is the best way to proceed for long-term financial health?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "How should I invest $25K for my toddler?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Multiple Kids phones - budget",
       "score": 3,
       "meta": {}
     },
@@ -110,80 +104,86 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Typesafe AI raises $870M at $7.5B",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "No Man Is an Island",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Germany transforms former coal mines into Europe's largest lake landscape",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MXC - a sandboxed code execution system",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Programming Isn't Special",
-      "score": 1,
+      "source": "reddit/personalfinance",
+      "topic": "Multiple Kids phones - budget",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "'Wallace and Gromit,' 90% Alone",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "M7.6 Earthquake in Panama",
-      "score": 1,
+      "topic": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Microsoft-Decision-1, our model for fast decision-making",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A statement on the Tor Project's relationship with Mullvad",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ideas aren't getting harder to find, anyone who tells you otherwise is a coward",
-      "score": 1,
+      "topic": "`123456' password used in Danish CPR data breach",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Scam American companies are using to manipulate ingredient lists",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Can you use autoregressive diffusion to generate market data?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Computers Cannot Make Decisions",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: The rarest tech books and docs you've probably never read",
+      "topic": "Clinical trial of a prion disease drug candidate begins enrolling participants",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Food processing influences metabolism and brain activity",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple/macOS silently removed from official Unix registry",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
       "score": 1,
       "meta": {}
     },
@@ -219,7 +219,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Fired and living on unemployment. How do I survive on what I have?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Single, no plans for a family - does buying a house still make sense financially?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "What do banks do with my money, and can I do that instead?",
       "score": 1,
       "meta": {}
     },
@@ -255,7 +267,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "What do banks do with my money, and can I do that instead?",
+      "topic": "Should someone like me have an emergency savings?",
       "score": 1,
       "meta": {}
     },
@@ -267,38 +279,8 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should someone like me have an emergency savings?",
+      "topic": "Victim of identity theft - iPhones financed in my name",
       "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Fired and living on unemployment. How do I survive on what I have?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Once: Cache CLI commands",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why Are Coding Agents So Dumb?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "You might want to try being less creative",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Training Text-to-Image Models Without a VAE",
-      "score": 0,
       "meta": {}
     },
     {
@@ -308,8 +290,26 @@
       "meta": {}
     },
     {
+      "source": "hn",
+      "topic": "Compiling Rust to readable C with Eurydice",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "C for Rust Programmers",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "LLMs Aren't Inevitable",
+      "score": 0,
+      "meta": {}
+    },
+    {
       "source": "reddit/personalfinance",
-      "topic": "I created my first Roth IRA at 30, and put in full 7500. 2 months in, and its gone down 200 dollars instead of any gains. How do I better manage my finances?",
+      "topic": "What can I do to make more money?",
       "score": 0,
       "meta": {}
     },
@@ -321,13 +321,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Where do I look for my trust?",
+      "topic": "Wife lost her job to AI almost 2 years ago and has been unable to find a job since, mortgage is unsustainable.",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Wife lost her job to AI almost 2 years ago and has been unable to find a job since, mortgage is unsustainable.",
+      "topic": "Can I stop contributing to my retirement?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Where do I look for my trust?",
       "score": 0,
       "meta": {}
     },
@@ -364,12 +370,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Who do I see regarding deceased assets?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Can I stop contributing to my retirement?",
       "score": 0,
       "meta": {}
     },

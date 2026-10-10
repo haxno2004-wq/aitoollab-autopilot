@@ -1,27 +1,27 @@
 {
-  "fetchedAt": "2026-10-09T22:41:15.920Z",
+  "fetchedAt": "2026-10-10T12:33:41.487Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "topic": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Peace Prize for 2026 to Navanethem Pillay",
+      "topic": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "topic": "Clinical trial of a prion disease drug candidate begins enrolling participants",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Keyboard differences between Windows and Macs",
+      "topic": "How to head into VR without wearing a headset",
       "score": 4,
       "meta": {}
     },
@@ -33,13 +33,13 @@
     },
     {
       "source": "hn",
-      "topic": "Sorry, I'm in a meeting",
+      "topic": "Triple-A Minesweeper",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Theranos.world",
+      "topic": "Sorry, I'm in a meeting",
       "score": 3,
       "meta": {}
     },
@@ -51,127 +51,109 @@
     },
     {
       "source": "hn",
-      "topic": "Triple-A Minesweeper",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Once: Cache CLI commands",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Typesafe AI raises $870M at $7.5B",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "No Man Is an Island",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Germany transforms former coal mines into Europe's largest lake landscape",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MXC - a sandboxed code execution system",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Programming Isn't Special",
-      "score": 1,
+      "topic": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "'Wallace and Gromit,' 90% Alone",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "M7.6 Earthquake in Panama",
-      "score": 1,
+      "topic": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Microsoft-Decision-1, our model for fast decision-making",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A statement on the Tor Project's relationship with Mullvad",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ideas aren't getting harder to find, anyone who tells you otherwise is a coward",
-      "score": 1,
+      "topic": "`123456' password used in Danish CPR data breach",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Scam American companies are using to manipulate ingredient lists",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Can you use autoregressive diffusion to generate market data?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Computers Cannot Make Decisions",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: The rarest tech books and docs you've probably never read",
+      "topic": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why Are Coding Agents So Dumb?",
-      "score": 0,
+      "topic": "Food processing influences metabolism and brain activity",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "You might want to try being less creative",
-      "score": 0,
+      "topic": "Apple/macOS silently removed from official Unix registry",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Training Text-to-Image Models Without a VAE",
-      "score": 0,
+      "topic": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Show HN: Proton Drive for Linux",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Compiling Rust to readable C with Eurydice",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "C for Rust Programmers",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "LLMs Aren't Inevitable",
       "score": 0,
       "meta": {}
     }
