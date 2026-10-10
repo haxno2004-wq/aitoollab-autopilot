@@ -24,3 +24,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-09T13:20:19.114Z,a-terminal-protocol-for-program-status-osc-7501,OSC 7501 Terminal Protocol Review: Program Status in CLI,gemini,895,success
 2026-10-09T22:43:41.586Z,once-cache-cli-commands,Once Review: Caching CLI Commands for Faster Workflows,gemini,1007,success
 2026-10-10T12:34:40.282Z,clinical-trial-of-a-prion-disease-drug-candidate-begins-enrollin,Prion Disease Drug Trial Enrolls: An Analytical Review,gemini,1096,success
+2026-10-10T21:48:09.488Z,hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix,Claude ClickFix Attacks: Threat Review and Defense Guide,gemini,1033,success
