@@ -1,159 +1,171 @@
 {
-  "fetchedAt": "2026-10-10T12:33:41.487Z",
+  "fetchedAt": "2026-10-10T21:47:23.481Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Clinical trial of a prion disease drug candidate begins enrolling participants",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to head into VR without wearing a headset",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cloudflare acquires Deno",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Triple-A Minesweeper",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sorry, I'm in a meeting",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Our $445M Series D",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Typesafe AI raises $870M at $7.5B",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "'Wallace and Gromit,' 90% Alone",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
-      "score": 2,
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "`123456' password used in Danish CPR data breach",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "PVX-001: open-source Covid-19 vaccine starts Phase 1 trial",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bitwarden Dual License Model",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple/macOS removed from official Unix registry",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Grieving the loss of details",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "topic": "2D Vehicles",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Scam American companies are using to manipulate ingredient lists",
+      "topic": "I would like the value of my home to rise, while my property taxes fall",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "topic": "Mxc: Microsoft Execution Containers version 1.0.0",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Can you use autoregressive diffusion to generate market data?",
+      "topic": "Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Computers Cannot Make Decisions",
+      "topic": "Knuth reward check",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "topic": "The Lightbulb Computer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Food processing influences metabolism and brain activity",
+      "topic": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple/macOS silently removed from official Unix registry",
+      "topic": "OpenSCAD the Programmers Solid 3D CAD Modeller",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Noto means \"no tofu\": fixing dotted circles in Myanmar text",
+      "topic": "Rampart: Browser native on-device PII radaction",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Proton Drive for Linux",
+      "topic": "Recent AI models struggled to match a human algorithmic innovation",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Whooping Cranes Learned to Migrate by Following Costumed Pilots",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "50MB operating system can resurrect your old PC",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A city-building game in which the city would prefer you didn't",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Chip-hex:cost-benefit, energy efficiency and hexagonal",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why DuckDB 2.0 is faster",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Compiling Rust to readable C with Eurydice",
+      "topic": "Takeshi's Castle",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "C for Rust Programmers",
+      "topic": "Nix wrote half of my debugger",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LLMs Aren't Inevitable",
+      "topic": "Unikernels were hard. key word: were",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How Protein Took over the World",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How strong is the strong interaction?",
       "score": 0,
       "meta": {}
     }
