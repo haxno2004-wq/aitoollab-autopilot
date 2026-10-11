@@ -25,3 +25,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-09T22:43:41.586Z,once-cache-cli-commands,Once Review: Caching CLI Commands for Faster Workflows,gemini,1007,success
 2026-10-10T12:34:40.282Z,clinical-trial-of-a-prion-disease-drug-candidate-begins-enrollin,Prion Disease Drug Trial Enrolls: An Analytical Review,gemini,1096,success
 2026-10-10T21:48:09.488Z,hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix,Claude ClickFix Attacks: Threat Review and Defense Guide,gemini,1033,success
+2026-10-11T12:54:09.811Z,a-city-building-game-in-which-the-city-would-prefer-you-didnt,Playing City-Building Games in Your Terminal with CLI Tools,gemini,1123,success

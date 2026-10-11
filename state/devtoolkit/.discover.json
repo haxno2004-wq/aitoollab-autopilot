@@ -1,63 +1,51 @@
 {
-  "fetchedAt": "2026-10-10T21:47:23.481Z",
+  "fetchedAt": "2026-10-11T12:52:00.156Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "topic": "A city-building game in which the city would prefer you didn't",
       "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "`123456' password used in Danish CPR data breach",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "PVX-001: open-source Covid-19 vaccine starts Phase 1 trial",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bitwarden Dual License Model",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple/macOS removed from official Unix registry",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Grieving the loss of details",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "2D Vehicles",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Lightbulb Computer",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Build your own decision model",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "3rd Yandex Cloud Data Center Was Hit",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I would like the value of my home to rise, while my property taxes fall",
+      "topic": "Nix wrote half of my debugger",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Knuth reward check",
       "score": 2,
       "meta": {}
     },
@@ -69,103 +57,109 @@
     },
     {
       "source": "hn",
-      "topic": "Chernobyl particles reveal unexpectedly stable nuclear fuel after 40 years",
+      "topic": "Nitter: Update Oct 10th seeking funding and legal help",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Knuth reward check",
+      "topic": "Five months treating bugs like patients and coding agents like a medical team",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "LineageOS 24.0",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Lightbulb Computer",
+      "topic": "Retrofitting language models to operate over bytes",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "topic": "Show HN: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSCAD the Programmers Solid 3D CAD Modeller",
+      "topic": "AI is creating a 'human premium' for art created by people",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rampart: Browser native on-device PII radaction",
+      "topic": "\"Robot\" Is a Social Construct: Why Your Dishwasher Is Not a Robot",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Recent AI models struggled to match a human algorithmic innovation",
+      "topic": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Whooping Cranes Learned to Migrate by Following Costumed Pilots",
+      "topic": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "50MB operating system can resurrect your old PC",
+      "topic": "When Ldaxr Doesn't Work: Exclusive Accesses and Cacheability on AArch64",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A city-building game in which the city would prefer you didn't",
+      "topic": "Valen's Memory Safety: A New Kind of Borrow Checking",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chip-hex:cost-benefit, energy efficiency and hexagonal",
+      "topic": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why DuckDB 2.0 is faster",
+      "topic": "Decade-old RAM is making a comeback",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Takeshi's Castle",
+      "topic": "I paid people to try and follow my README",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nix wrote half of my debugger",
+      "topic": "How big is a Git commit?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Unikernels were hard. key word: were",
+      "topic": "Rat's Register Allocator",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Protein Took over the World",
+      "topic": "Don't Put Tilde In Your Path",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How strong is the strong interaction?",
+      "topic": "Compression and Concatenation on the Web",
       "score": 0,
       "meta": {}
     }
