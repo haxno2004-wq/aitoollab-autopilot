@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T12:51:58.343Z",
+  "fetchedAt": "2026-10-11T22:01:06.703Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,7 +48,7 @@
     },
     {
       "source": "hn",
-      "topic": "A city-building game in which the city would prefer you didn't",
+      "topic": "How to Build Wealth as a Career Person",
       "score": 4,
       "meta": {}
     },
@@ -78,25 +78,31 @@
     },
     {
       "source": "hn",
-      "topic": "2D Vehicles",
+      "topic": "3rd Yandex Cloud Data Center Was Hit",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Lightbulb Computer",
+      "topic": "LineageOS 24.0",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Build your own decision model",
+      "topic": "I paid people to try and follow my README",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "topic": "NYC's \"Click to Cancel\" rule is now in effect",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Total Annihilation, rebuilt for modern computers",
       "score": 3,
       "meta": {}
     },
@@ -147,37 +153,25 @@
     },
     {
       "source": "hn",
-      "topic": "3rd Yandex Cloud Data Center Was Hit",
+      "topic": "I'm sorry, but you still have to think",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nix wrote half of my debugger",
+      "topic": "Terence Tao: Math 2.0 [pdf]",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Knuth reward check",
+      "topic": "The RAM shortage is bringing back DDR4",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mxc: Microsoft Execution Containers version 1.0.0",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nitter: Update Oct 10th seeking funding and legal help",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Five months treating bugs like patients and coding agents like a medical team",
+      "topic": "Valen's Memory Safety: A New Kind of Borrow Checking",
       "score": 2,
       "meta": {}
     },
@@ -207,37 +201,25 @@
     },
     {
       "source": "hn",
-      "topic": "LineageOS 24.0",
+      "topic": "The tilde in your PATH may not be your HOME",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Retrofitting language models to operate over bytes",
+      "topic": "Do You Have Pre-2012 Onion Issues?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes",
+      "topic": "How I reverse engineered a commercial spatial audio effect",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI is creating a 'human premium' for art created by people",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "\"Robot\" Is a Social Construct: Why Your Dishwasher Is Not a Robot",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
+      "topic": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
       "score": 1,
       "meta": {}
     },
@@ -249,13 +231,31 @@
     },
     {
       "source": "hn",
-      "topic": "When Ldaxr Doesn't Work: Exclusive Accesses and Cacheability on AArch64",
+      "topic": "Akhetonics Photonic Computing: 1,000x Faster CPUs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "topic": "The gap in shared understanding of LLM capability is widening",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Unreasonable Effectiveness of Vex in NixOS",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Shape-sensing sheet digitally tracks its own movement as it bends and twists",
       "score": 1,
       "meta": {}
     },
@@ -339,37 +339,37 @@
     },
     {
       "source": "hn",
-      "topic": "Decade-old RAM is making a comeback",
+      "topic": "Cartographers of North Korea",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I paid people to try and follow my README",
+      "topic": "Chapter 1 of Ways of Seeing by John Berger",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How big is a Git commit?",
+      "topic": "apsw: Another Python SQLite Wrapper",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rat's Register Allocator",
+      "topic": "Safe SIMD in Rust, even on the inside",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Don't Put Tilde In Your Path",
+      "topic": "FlowCE: Calculus on your TI-84 Plus CE",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Compression and Concatenation on the Web",
+      "topic": "Fetching AMD SEV Reports (With Zig)",
       "score": 0,
       "meta": {}
     }
