@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T22:01:06.703Z",
+  "fetchedAt": "2026-10-12T15:27:35.975Z",
   "candidates": [
     {
       "source": "hn",
@@ -30,6 +30,12 @@
     },
     {
       "source": "hn",
+      "topic": "Local Indexing to reduce tool calling and token usage",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -48,7 +54,19 @@
     },
     {
       "source": "hn",
-      "topic": "How to Build Wealth as a Career Person",
+      "topic": "Total Annihilation, rebuilt for modern computers",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The gap in shared understanding of LLM capability is widening",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Deloitte falsified documents to evade tax on Abramovich's wealth",
       "score": 4,
       "meta": {}
     },
@@ -78,31 +96,31 @@
     },
     {
       "source": "hn",
-      "topic": "3rd Yandex Cloud Data Center Was Hit",
+      "topic": "Passkeys are a trap",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LineageOS 24.0",
+      "topic": "Fingerprints are the new cookies",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I paid people to try and follow my README",
+      "topic": "Terence Tao: Math 2.0 [pdf]",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "NYC's \"Click to Cancel\" rule is now in effect",
+      "topic": "Cartographers of North Korea",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Total Annihilation, rebuilt for modern computers",
+      "topic": "Ask HN: How do swarms of AI agents work?",
       "score": 3,
       "meta": {}
     },
@@ -115,12 +133,6 @@
     {
       "source": "hn",
       "topic": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
       "score": 3,
       "meta": {}
     },
@@ -153,25 +165,31 @@
     },
     {
       "source": "hn",
-      "topic": "I'm sorry, but you still have to think",
+      "topic": "QGIS bans AI assisted contributions",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Terence Tao: Math 2.0 [pdf]",
+      "topic": "Why aren't AI companies being charged for hacking?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The RAM shortage is bringing back DDR4",
+      "topic": "Show HN: PS2 games statically recompiled to WebAssembly",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "topic": "Chapter 1 of \"Ways of Seeing\" by John Berger",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Secret of Orange Cats Revealed After 60-Year Search",
       "score": 2,
       "meta": {}
     },
@@ -201,67 +219,55 @@
     },
     {
       "source": "hn",
-      "topic": "The tilde in your PATH may not be your HOME",
+      "topic": "Calculus with Julia",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Do You Have Pre-2012 Onion Issues?",
+      "topic": "Type-safe HTML templating in Zig",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How I reverse engineered a commercial spatial audio effect",
+      "topic": "Whatever became of holography?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+      "topic": "Citroen revives the 2CV for an electric age",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
+      "topic": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Akhetonics Photonic Computing: 1,000x Faster CPUs",
+      "topic": "Incident with Actions, Pull Requests and Issues",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The gap in shared understanding of LLM capability is widening",
+      "topic": "Programmable pigments: Photochromic nanoparticle inks for rewritable tattoos",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
+      "topic": "Running the unmodified Linux amdgpu driver on an iPad",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Unreasonable Effectiveness of Vex in NixOS",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Shape-sensing sheet digitally tracks its own movement as it bends and twists",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "topic": "I Found a $90k Remote Code Execution Vulnerability in Google",
       "score": 1,
       "meta": {}
     },
@@ -339,37 +345,37 @@
     },
     {
       "source": "hn",
-      "topic": "Cartographers of North Korea",
+      "topic": "Illustration Beyond Proof",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chapter 1 of Ways of Seeing by John Berger",
+      "topic": "Bag of Decisions Reranker",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "apsw: Another Python SQLite Wrapper",
+      "topic": "Solar Panels That Plug into Your Wall",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Safe SIMD in Rust, even on the inside",
+      "topic": "Choreographic Programming in Rust",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "FlowCE: Calculus on your TI-84 Plus CE",
+      "topic": "An Unmade Film Shaped Hayao Miyazaki",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fetching AMD SEV Reports (With Zig)",
+      "topic": "Living in the Weimar Era of Ruby",
       "score": 0,
       "meta": {}
     }
