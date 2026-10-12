@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T12:52:02.689Z",
+  "fetchedAt": "2026-10-12T15:27:36.752Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,7 +9,25 @@
     },
     {
       "source": "hn",
-      "topic": "A city-building game in which the city would prefer you didn't",
+      "topic": "Local Indexing to reduce tool calling and token usage",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Total Annihilation, rebuilt for modern computers",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The gap in shared understanding of LLM capability is widening",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Deloitte falsified documents to evade tax on Abramovich's wealth",
       "score": 4,
       "meta": {}
     },
@@ -26,44 +44,26 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "26-year old with about 15.5K saved in a performance savings account, what should I do next?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "44M, married, NJ, started investing during COVID. How am I doing financially?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Learned the value of price comparison post purchase",
-      "score": 4,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "2D Vehicles",
+      "topic": "Passkeys are a trap",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Lightbulb Computer",
+      "topic": "Fingerprints are the new cookies",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Build your own decision model",
+      "topic": "Terence Tao: Math 2.0 [pdf]",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "topic": "Cartographers of North Korea",
       "score": 3,
       "meta": {}
     },
@@ -75,13 +75,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How should I invest $25K for my toddler?",
+      "topic": "60k invested in 2030 target fund.",
       "score": 3,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "60k invested in 2030 target fund.",
+      "topic": "How should I invest $25K for my toddler?",
       "score": 3,
       "meta": {}
     },
@@ -92,122 +92,86 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Multiple Kids phones - budget",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "top scoring links : Frugal",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Got any birthday freebie ideas for me this Sunday?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "STD Testing without Office Visit to save $?",
-      "score": 3,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "3rd Yandex Cloud Data Center Was Hit",
+      "topic": "QGIS bans AI assisted contributions",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nix wrote half of my debugger",
+      "topic": "Why aren't AI companies being charged for hacking?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Knuth reward check",
+      "topic": "Show HN: PS2 games statically recompiled to WebAssembly",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "topic": "Chapter 1 of \"Ways of Seeing\" by John Berger",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nitter: Update Oct 10th seeking funding and legal help",
+      "topic": "Secret of Orange Cats Revealed After 60-Year Search",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Five months treating bugs like patients and coding agents like a medical team",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LineageOS 24.0",
+      "topic": "Calculus with Julia",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Retrofitting language models to operate over bytes",
+      "topic": "Type-safe HTML templating in Zig",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes",
+      "topic": "Whatever became of holography?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI is creating a 'human premium' for art created by people",
+      "topic": "Citroen revives the 2CV for an electric age",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "\"Robot\" Is a Social Construct: Why Your Dishwasher Is Not a Robot",
+      "topic": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
+      "topic": "Incident with Actions, Pull Requests and Issues",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
+      "topic": "Programmable pigments: Photochromic nanoparticle inks for rewritable tattoos",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "When Ldaxr Doesn't Work: Exclusive Accesses and Cacheability on AArch64",
+      "topic": "Running the unmodified Linux amdgpu driver on an iPad",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Valen's Memory Safety: A New Kind of Borrow Checking",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "topic": "I Found a $90k Remote Code Execution Vulnerability in Google",
       "score": 1,
       "meta": {}
     },
@@ -220,12 +184,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Laid off, business failed, $16.5k in credit card debt, what should I be doing right now?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I own a house with my brother. What should the plan be if one of us wants out?",
       "score": 1,
       "meta": {}
     },
@@ -249,13 +207,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
+      "topic": "21, homeless & about to receive $12,000.. I need advice..",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Prioritize brokerage account for child instead of 529?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Mid 30s in NYC, looking for some sort of financial salvation",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
       "score": 1,
       "meta": {}
     },
@@ -273,19 +243,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How stupid is it for me to rent my own place?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "I think my transmission is blown & I still owe on my car. /:",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Owe $15K on a Jeep with a blown engine. $11K to fix. What are my options?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I keep maxxing my 401k or change things up?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "39, Broke the Cycle but Never Learned to Build Wealth. Now What?",
       "score": 1,
       "meta": {}
     },
@@ -302,164 +278,38 @@
       "meta": {}
     },
     {
-      "source": "reddit/Frugal",
-      "topic": "im a seventeen year old cook and I made chicken noodle soup tell me what you think",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "When takeout is cheaper than cooking for yourself",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Made some Halloween window decor out of construction paper.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "What are you doing to combat rising grocery costs?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "instead of listerine mouth strips buy a whole bottle and put them in these little vials",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "What could I use this for in my kitchen instead of trash cans?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Frugal peanut butter tip: $12 80oz jar @ Costco = FIVE regular jars for $2.4 ea",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "What are you all doing to combat these unrelenting gas prices?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "If I really tried hard, how little can I live off of annually?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Where do frugal people get old timey dress clothes? (Besides thrifting)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Where do I find bulk, affordable coffee that's actually good?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "What sub discusses the psychology of money hoarding / miserliness? (not actual saving hacks)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "A Goodwill Bins is coming to my town. Advice needed",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Flashfood loses appeal after service fee hike",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "How often do you actually have to replace this kind of cat scratcher?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Frugal Dental Care....tips, opinions, etc....",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Most frugal way to get a tuxedo for a one time event?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Has anyone gotten their haircut at a barber school?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "What fast food places and restaurants tend to have consistent half off, or BOGO deals",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Reusable plastic cup lids with straws that fit a variety of common disposable cups?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Storing wet veggies for days without paper towels?",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Decade-old RAM is making a comeback",
+      "topic": "Illustration Beyond Proof",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I paid people to try and follow my README",
+      "topic": "Bag of Decisions Reranker",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How big is a Git commit?",
+      "topic": "Solar Panels That Plug into Your Wall",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rat's Register Allocator",
+      "topic": "Choreographic Programming in Rust",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Don't Put Tilde In Your Path",
+      "topic": "An Unmade Film Shaped Hayao Miyazaki",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Compression and Concatenation on the Web",
+      "topic": "Living in the Weimar Era of Ruby",
       "score": 0,
       "meta": {}
     },
@@ -489,12 +339,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Collecting social security and still working",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Single Mom in Debt - Need Advice",
       "score": 0,
       "meta": {}
@@ -507,13 +351,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Contribute More to 401k After Raise?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "What to do with inherited Roth IRA",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Contribute More to 401k After Raise?",
+      "topic": "Financial debt help!",
       "score": 0,
       "meta": {}
     },
@@ -525,19 +375,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Retire early outside USA at 52",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Ally or SoFi for HYSA?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Cancel whole life for 20 year term?",
+      "topic": "Mom took out 22k or loans in my name",
       "score": 0,
       "meta": {}
     },
@@ -549,85 +387,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Software Engineer Seeks Escape Hatch",
+      "topic": "Cancel whole life for 20 year term?",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/Frugal",
-      "topic": "Stopping low value frugal behaviors",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "At what point do you consider being frugal as just being cheap? Need help on deciding on shampoo.",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Toothpaste, the little travel tubes",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Great Value energy packets are super affordable and yummy for someone who needs an energy drink at work",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Do you keep used pasta sauce, jam , etc. jars? Can these be used for canning in place of a true Mason jar (lid)? What else do you use these for?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Are you cutting your own hair? If so, how?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "People need to learn to bake their bread",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Keep fresh herbs longer with water and a bag",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "84 count hoagie rolls no longer available?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "First attempt at homemade Halloween decorations with cardboard boxes. Just need scissors and creativity! BOOL lol",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Cheap entertainment? What should I do?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Bought Antacid at the perfect time!",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "What are your favorite quality items?",
+      "source": "reddit/personalfinance",
+      "topic": "Ally or SoFi for HYSA?",
       "score": 0,
       "meta": {}
     }

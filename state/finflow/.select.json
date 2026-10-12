@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-11T12:52:02.729Z",
-  "topic": "44M, married, NJ, started investing during COVID. How am I doing financially?",
+  "pickedAt": "2026-10-12T15:27:36.794Z",
+  "topic": "Local Indexing to reduce tool calling and token usage",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "44m-married-nj-started-investing-during-covid-how-am-i-doing-fin",
-  "source": "reddit/personalfinance",
+  "slug": "local-indexing-to-reduce-tool-calling-and-token-usage",
+  "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 100
+  "finalScore": 5,
+  "remaining": 63
 }
