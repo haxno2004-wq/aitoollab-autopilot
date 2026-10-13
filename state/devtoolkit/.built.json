@@ -1,8 +1,8 @@
 {
-  "slug": "nycs-click-to-cancel-rule-is-now-in-effect",
-  "title": "NYC Click to Cancel Rule: What Developers Need to Know",
-  "description": "Explore how New York City's Click to Cancel rule impacts software subscriptions, developer tools, billing infrastructure, and SaaS compliance workflows.",
-  "date": "2026-10-11T22:02:38.471Z",
-  "words": 1208,
+  "slug": "codex-cli-installs-a-persistent-self-updating-background-daemon",
+  "title": "Codex CLI Review: The Cost of a Persistent Background Daemon",
+  "description": "Codex CLI brings fast AI assistance to the terminal, but installs a persistent background daemon by default. Here is our hands-on review of its trade-offs.",
+  "date": "2026-10-13T00:45:09.126Z",
+  "words": 1065,
   "provider": "gemini"
 }
