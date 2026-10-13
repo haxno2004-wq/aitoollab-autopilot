@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-13T00:44:31.341Z",
+  "fetchedAt": "2026-10-13T14:13:19.276Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Codex CLI installs a persistent, self-updating background daemon by default",
-      "score": 7,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Hackers activate automatic defrosting in supermarket fridges across Europe",
@@ -16,25 +10,31 @@
     {
       "source": "hn",
       "topic": "AI is a tool and using it well takes skill",
-      "score": 5,
+      "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI coding agents generate more code, but not more software",
+      "topic": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "'AI' Is Not a Tool by Rich Hickey",
+      "topic": "11 year old unsoundness bugs found in Rust borrow checker",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Muse Wonder",
-      "score": 3,
+      "topic": "The baffling intelligence of a single cell",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Document Review with Unsiloed and TypeSafe Jev",
+      "score": 4,
       "meta": {}
     },
     {
@@ -45,97 +45,115 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: PS2 games statically recompiled to WebAssembly",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Secret of Orange Cats Revealed After 60-Year Search",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Citroen revives the 2CV for an electric age",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Thinking will become a hobby",
-      "score": 2,
+      "topic": "AI models can provably hide arbitrary capabilities",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Breaking Bad star RJ Mitte dies aged 34",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Writing a Demoscene Intro for the ZX Spectrum",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The baffling intelligence of a single cell",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: An experimental pattern-first DAW that supports MCP",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Solar panels that plug into your wall",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Who Is Vfmaddrnd231pd?",
-      "score": 0,
+      "topic": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Making big downloads resumable in Firefox",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Who is vfmaddrnd231pd?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Solar panels that plug into your wall",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An hour of audio transcribed in about 13s on MacBook Air",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Writing a Demoscene Intro for the ZX Spectrum",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hittite royal archive found in Turkey",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Mozilla Introduces Firefox Enterprise",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple HomeView",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Character.ai Files for Bankruptcy",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Auto Research: Integer multiplication below n log n",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Character.ai files for Chapter 11 bankruptcy",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+      "topic": "A Visual Intro to Complex Numbers",
       "score": 0,
       "meta": {}
     }
