@@ -1,0 +1,91 @@
+{
+  "_slug": "the-content-engine-12-repurposing-prompts-1tp7sq5",
+  "_date": "2026-10-13T00:45:08.284Z",
+  "name": "The Content Engine: 12 Repurposing Prompts",
+  "tagline": "Turn one core insight into a week of high-converting social posts, newsletters, and quick teardowns.",
+  "metaDescription": "Transform a single founder insight into 7 days of engaging content across LinkedIn and X with this plug-and-play prompt pack designed for solo founders.",
+  "description": "Building a product while maintaining a consistent social presence is exhausting for solo founders. You spend hours writing a single LinkedIn update or tweet thread, only to face a blank screen again tomorrow.\n\nThe Content Engine solves the distribution bottleneck by turning one core lesson, win, or customer insight into an entire week of high-leverage content. Instead of starting from scratch every morning, you feed a single source idea into these 12 structured prompts to instantly produce diverse post formats: tactical teardowns, contrarian counter-narratives, bite-sized frameworks, behind-the-scenes build logs, and actionable newsletter blurbs.\n\nUnlike generic AI writing templates that sound robotic, these prompts enforce strict constraints: zero marketing jargon, concrete specifics, personal founder perspective, and strong opening hooks. Each prompt includes a built-in usage tip to help you tune the output to your voice. Use this system to maintain visibility, earn trust, and attract qualified leads without sacrificing your engineering time.",
+  "tags": [
+    "content marketing",
+    "prompt engineering",
+    "solo founders",
+    "social media"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "12 plug-and-play copy prompts for Claude, ChatGPT, and Notion AI",
+    "Categorized across 7 distribution styles (Contrarian, Tactical, Teardown, Storytelling, Behind-the-Scenes, Engagement, Conversion)",
+    "Plain-text (.txt) prompt vault and formatted Markdown (.md) reference guide",
+    "Step-by-step solo founder usage instructions with tuning notes for each prompt"
+  ],
+  "sampleItems": [
+    "Act as an experienced solo founder. Take this core lesson: [INSERT CORE LESSON]. Write a 150-word LinkedIn post challenging conventional wisdom on this topic. Structure: 1) A punchy one-line hook stating the mainstream advice that fails, 2) Why that advice breaks down for bootstrapped founders, 3) The counter-intuitive alternative that actually worked for me, 4) A clear closing takeaway. Tone: Direct, candid, no corporate fluff. Tip: In the input, include the exact bad advice you personally tried first.",
+    "Convert this source idea: [INSERT CORE IDEA] into a practical, step-by-step X thread or carousel outline. Give me 5 sequential, numbered steps that a solo founder can execute in under 30 minutes. Use plain English, action-oriented verbs, and avoid abstract concepts. Format each step with a bold action verb followed by a two-sentence explanation. Conclude with a one-sentence summary. Tip: Specify the target software or constraint (e.g., 'zero ad spend') in the prompt brackets for sharper steps."
+  ],
+  "items": [
+    {
+      "title": "The Contrarian Teardown",
+      "category": "Contrarian Angle",
+      "body": "Act as an experienced solo founder. Take this core lesson: [INSERT CORE LESSON]. Write a 150-word LinkedIn post challenging conventional wisdom on this topic. Structure: 1) A punchy one-line hook stating the mainstream advice that fails, 2) Why that advice breaks down for bootstrapped founders, 3) The counter-intuitive alternative that actually worked for me, 4) A clear closing takeaway. Tone: Direct, candid, no corporate fluff. Tip: In the input, include the exact bad advice you personally tried first."
+    },
+    {
+      "title": "The 5-Step Tactical Playbook",
+      "category": "Educational Framework",
+      "body": "Convert this source idea: [INSERT CORE IDEA] into a practical, step-by-step X thread or carousel outline. Give me 5 sequential, numbered steps that a solo founder can execute in under 30 minutes. Use plain English, action-oriented verbs, and avoid abstract concepts. Format each step with a bold action verb followed by a two-sentence explanation. Conclude with a one-sentence summary. Tip: Specify the target software or constraint (e.g., 'zero ad spend') in the prompt brackets for sharper steps."
+    },
+    {
+      "title": "The Transparent Post-Mortem",
+      "category": "Storytelling",
+      "body": "Take this founder challenge or mistake: [INSERT MISTAKE/METRIC DROP] and draft a transparent failure post-mortem post. Outline: 1) What we tried and the exact metric/outcome that failed, 2) The root cause we diagnosed, 3) What we changed, 4) The single heuristic we now follow. Write in first-person singular. Keep the tone humble and analytical, avoiding humblebrags. Max 200 words. Tip: Paste raw metrics (e.g., churn rate, CAC) directly into the prompt to anchor the post in reality."
+    },
+    {
+      "title": "The Micro-Case Study",
+      "category": "Proof & Credibility",
+      "body": "Transform this customer interaction or win: [INSERT CUSTOMER SITUATION] into a third-person micro-case study under 175 words. Format: The Problem (2 sentences), The Intervention (2 sentences describing what feature or workflow solved it), The Result (specific numbers or qualitative turnaround). Close with a single question asking readers how they currently handle this exact pain point. Tip: Remove identifiable customer data before submitting, but keep the concrete technical context."
+    },
+    {
+      "title": "The Visual Framework Metaphor",
+      "category": "Educational Framework",
+      "body": "Extract the core mental model from this concept: [INSERT CONCEPT] and translate it into a simple ASCII or text-based visual comparison framework. Provide: 1) An 'Old Way vs. New Way' side-by-side comparison matrix, 2) A two-sentence explanation of why the paradigm shifted, 3) Three bullet points on how to transition today. Keep it ultra-scannable and optimized for mobile screens. Tip: Use this prompt when your idea feels too complex or theoretical for a standard post."
+    },
+    {
+      "title": "The Weekly Newsletter Spark",
+      "category": "Long-Form & Newsletter",
+      "body": "Use this insight: [INSERT INSIGHT] to write a 250-word founder newsletter section. Structure: 1) Personal observation from the trenches this week, 2) The non-obvious realization, 3) One actionable tactic the reader can apply immediately, 4) A 'Tool of the Week' or 'One Resource' recommendation slot. Keep paragraphs under three sentences. Maintain a conversational, behind-the-scenes founder voice. Tip: Paste your actual raw scratch notes into the bracket to preserve your spontaneous speaking cadence."
+    },
+    {
+      "title": "The Zero-BS Tool Stack Breakdown",
+      "category": "Behind-the-Scenes",
+      "body": "Based on this workflow: [INSERT WORKFLOW OR GOAL], outline a minimalist tech stack breakdown post for solo builders. Detail the exact 3-4 tools used, the monthly cost of each, and the specific automation linking them. Format as a clean bulleted list followed by a candid 'What I would do differently if starting today' note. Tone: Pragmatic, budget-conscious. Tip: Explicitly state your monthly tool budget in the input to give the output authentic solo-operator credibility."
+    },
+    {
+      "title": "The Hard Truth Conversation Starter",
+      "category": "Engagement",
+      "body": "Transform this strong opinion: [INSERT UNPOPULAR OPINION] into an open-ended engagement prompt for professional social media. Draft a short 80-word post featuring: 1) A polarizing but respectful observation about our industry, 2) Why most early-stage founders get this wrong, 3) A direct question prompting peers to share their real experience. Tone: Thought-provoking without being rage-bait. Tip: End with a specific either/or question rather than an open 'What do you think?' to drive high-quality comments."
+    },
+    {
+      "title": "The Founder FAQ Distillation",
+      "category": "Educational Framework",
+      "body": "Take this recurring question asked by prospects or peers: [INSERT RECURRING QUESTION] and write a definitive 'Founder FAQ' answer post. Include: 1) The standard misconception, 2) The actual nuance behind the answer, 3) A real-world example from our company, 4) A rule of thumb to remember. Limit to 180 words. Remove corporate clichés like 'game-changer' and 'synergy'. Tip: Use this prompt right after ending a sales call or user interview while the phrasing is fresh."
+    },
+    {
+      "title": "The One-Metric Milestone Log",
+      "category": "Behind-the-Scenes",
+      "body": "Using this recent milestone: [INSERT MILESTONE & NUMBER], create a transparent milestone update post. Structure: 1) The number achieved, 2) How long it took (calendar time vs. expected time), 3) The single biggest lever that moved the needle, 4) What didn't work along the way. Tone: Gritty, candid, reflective. Avoid triumphalist bragging. Tip: Include both the positive milestone and an unglamorous friction point to make the post genuinely trustworthy and bookmarkable."
+    },
+    {
+      "title": "The Curated Resource Teardown",
+      "category": "Curation",
+      "body": "Take this thesis: [INSERT TOPIC/THESIS] and draft a curated recommendations post. Generate an intro hook explaining why most resources on this topic waste a founder's time, followed by 3 high-signal recommendations (e.g., 1 book, 1 essay/article, 1 practical tool). Add a one-sentence rationale for each explaining exactly who should read it and why. Tip: Replace the placeholder resources with actual titles you personally endorse before publishing."
+    },
+    {
+      "title": "The Direct Soft-Pitch Invitation",
+      "category": "Conversion",
+      "body": "Turn this product feature or capability: [INSERT PRODUCT FEATURE] into an organic, non-salesy value post. Structure: 1) The exact painful bottleneck it eliminates for solo operators, 2) A 2-sentence breakdown of how we solved it internally, 3) A low-friction invitation to test it or reply for early access. Tone: Useful, builder-to-builder, zero hype. Tip: Ensure 80% of the text delivers standalone tactical insight so the post is valuable even to non-buyers."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Content Engine: 12 prompts that turn one idea into a week of posts",
+  "_provider": "gemini"
+}
