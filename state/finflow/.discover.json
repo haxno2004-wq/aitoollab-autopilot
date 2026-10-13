@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-12T15:27:36.752Z",
+  "fetchedAt": "2026-10-13T14:13:22.431Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "score": 7,
+      "meta": {}
+    },
     {
       "source": "reddit/personalfinance",
       "topic": "Trying to remember the name of an older windows finance and budgeting app",
@@ -9,31 +15,37 @@
     },
     {
       "source": "hn",
-      "topic": "Local Indexing to reduce tool calling and token usage",
-      "score": 5,
+      "topic": "AI is a tool and using it well takes skill",
+      "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Total Annihilation, rebuilt for modern computers",
+      "topic": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The gap in shared understanding of LLM capability is widening",
+      "topic": "11 year old unsoundness bugs found in Rust borrow checker",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Deloitte falsified documents to evade tax on Abramovich's wealth",
+      "topic": "The baffling intelligence of a single cell",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Document Review with Unsiloed and TypeSafe Jev",
       "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "What am I missing? 401k, investments, savings at 27",
+      "topic": "Had some money to invest. Gave it to an advisor. Why not just the S&P and forget on my own?",
       "score": 4,
       "meta": {}
     },
@@ -45,25 +57,25 @@
     },
     {
       "source": "hn",
-      "topic": "Passkeys are a trap",
+      "topic": "A Modern Web App in C",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fingerprints are the new cookies",
+      "topic": "Citroen revives the 2CV for an electric age",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Terence Tao: Math 2.0 [pdf]",
+      "topic": "AI models can provably hide arbitrary capabilities",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cartographers of North Korea",
+      "topic": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
       "score": 3,
       "meta": {}
     },
@@ -93,91 +105,97 @@
     },
     {
       "source": "hn",
-      "topic": "QGIS bans AI assisted contributions",
+      "topic": "Making big downloads resumable in Firefox",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why aren't AI companies being charged for hacking?",
+      "topic": "Who is vfmaddrnd231pd?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "topic": "Solar panels that plug into your wall",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chapter 1 of \"Ways of Seeing\" by John Berger",
+      "topic": "A look at the math that OpenAI claims computes faster Fourier transforms",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Secret of Orange Cats Revealed After 60-Year Search",
+      "topic": "An hour of audio transcribed in about 13s on MacBook Air",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Calculus with Julia",
+      "topic": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Writing a Demoscene Intro for the ZX Spectrum",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hittite royal archive found in Turkey",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Type-safe HTML templating in Zig",
+      "topic": "Mozilla Introduces Firefox Enterprise",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Whatever became of holography?",
+      "topic": "Apple HomeView",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Citroen revives the 2CV for an electric age",
+      "topic": "Character.ai Files for Bankruptcy",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
+      "topic": "Show HN: Use your OpenAI subscription to create audiobooks",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Incident with Actions, Pull Requests and Issues",
+      "topic": "Auto Research: Integer multiplication below n log n",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Programmable pigments: Photochromic nanoparticle inks for rewritable tattoos",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Running the unmodified Linux amdgpu driver on an iPad",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "topic": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Too much income for significant financial aid, not enough income to actually afford college",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "21, homeless & about to receive $12,000.. I need advice..",
       "score": 1,
       "meta": {}
     },
@@ -207,12 +225,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "21, homeless & about to receive $12,000.. I need advice..",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Prioritize brokerage account for child instead of 529?",
       "score": 1,
       "meta": {}
@@ -220,6 +232,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Mid 30s in NYC, looking for some sort of financial salvation",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Owe $15K on a Jeep with a blown engine. $11K to fix. What are my options?",
       "score": 1,
       "meta": {}
     },
@@ -237,25 +255,13 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Thought I was ineligible to contribute to Roth IRA, but I can?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Inherited house through ladybird deed. Still need to worry about medical debts?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I think my transmission is blown & I still owe on my car. /:",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Owe $15K on a Jeep with a blown engine. $11K to fix. What are my options?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should I keep maxxing my 401k or change things up?",
       "score": 1,
       "meta": {}
     },
@@ -267,55 +273,31 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "I think my transmission is blown & I still owe on my car. /:",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Should I keep maxxing my 401k or change things up?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Victim of identity theft - iPhones financed in my name",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "We planned this big expense, so why I am so stressed?",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Illustration Beyond Proof",
+      "topic": "Character.ai files for Chapter 11 bankruptcy",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bag of Decisions Reranker",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Solar Panels That Plug into Your Wall",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Choreographic Programming in Rust",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An Unmade Film Shaped Hayao Miyazaki",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Living in the Weimar Era of Ruby",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Wife lost her job to AI almost 2 years ago and has been unable to find a job since, mortgage is unsustainable.",
+      "topic": "A Visual Intro to Complex Numbers",
       "score": 0,
       "meta": {}
     },
@@ -327,7 +309,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Where do I look for my trust?",
+      "topic": "I have 90k. Not sure what to do with it",
       "score": 0,
       "meta": {}
     },
@@ -339,31 +321,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Single Mom in Debt - Need Advice",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "High Yield Savings Account Advice",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Contribute More to 401k After Raise?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "What to do with inherited Roth IRA",
+      "topic": "Healthcare.Gov Check?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Financial debt help!",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Trump/530A Accounts - What is the Use Case?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Contribute More to 401k After Raise?",
       "score": 0,
       "meta": {}
     },
