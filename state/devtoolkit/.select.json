@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-13T14:13:19.317Z",
-  "topic": "AI is a tool and using it well takes skill",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "ai-is-a-tool-and-using-it-well-takes-skill",
+  "pickedAt": "2026-10-13T22:48:17.022Z",
+  "topic": "Nexus-Q: un motor open source de Rust para PQC",
+  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
+  "slug": "nexus-q-un-motor-open-source-de-rust-para-pqc",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
-  "remaining": 24
+  "finalScore": 8,
+  "remaining": 29
 }
