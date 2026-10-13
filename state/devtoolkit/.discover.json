@@ -1,165 +1,141 @@
 {
-  "fetchedAt": "2026-10-11T22:01:03.123Z",
+  "fetchedAt": "2026-10-13T00:44:31.341Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "NYC's \"Click to Cancel\" rule is now in effect",
-      "score": 6,
+      "topic": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "score": 7,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How to Build Wealth as a Career Person",
+      "topic": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "score": 7,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI is a tool and using it well takes skill",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI coding agents generate more code, but not more software",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "3rd Yandex Cloud Data Center Was Hit",
+      "topic": "'AI' Is Not a Tool by Rich Hickey",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Muse Wonder",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LineageOS 24.0",
+      "topic": "A Modern Web App in C",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I paid people to try and follow my README",
+      "topic": "Show HN: PS2 games statically recompiled to WebAssembly",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Total Annihilation, rebuilt for modern computers",
+      "topic": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm sorry, but you still have to think",
+      "topic": "Secret of Orange Cats Revealed After 60-Year Search",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Citroen revives the 2CV for an electric age",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Terence Tao: Math 2.0 [pdf]",
+      "topic": "Thinking will become a hobby",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The RAM shortage is bringing back DDR4",
+      "topic": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Valen's Memory Safety: A New Kind of Borrow Checking",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The tilde in your PATH may not be your HOME",
+      "topic": "Breaking Bad star RJ Mitte dies aged 34",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Do You Have Pre-2012 Onion Issues?",
+      "topic": "Writing a Demoscene Intro for the ZX Spectrum",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How I reverse engineered a commercial spatial audio effect",
+      "topic": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+      "topic": "The baffling intelligence of a single cell",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Scandinavia's first farmers slaughtered hunter-gatherer population, DNA suggests",
+      "topic": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Akhetonics Photonic Computing: 1,000x Faster CPUs",
+      "topic": "Show HN: An experimental pattern-first DAW that supports MCP",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The gap in shared understanding of LLM capability is widening",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Unreasonable Effectiveness of Vex in NixOS",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Shape-sensing sheet digitally tracks its own movement as it bends and twists",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cartographers of North Korea",
+      "topic": "Solar panels that plug into your wall",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chapter 1 of Ways of Seeing by John Berger",
+      "topic": "Who Is Vfmaddrnd231pd?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "apsw: Another Python SQLite Wrapper",
+      "topic": "Making big downloads resumable in Firefox",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Safe SIMD in Rust, even on the inside",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FlowCE: Calculus on your TI-84 Plus CE",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fetching AMD SEV Reports (With Zig)",
+      "topic": "GPT-6 Astra Helped Me Jailbreak My Kindle",
       "score": 0,
       "meta": {}
     }
