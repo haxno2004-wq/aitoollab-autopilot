@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-12T15:27:36.794Z",
-  "topic": "Local Indexing to reduce tool calling and token usage",
+  "pickedAt": "2026-10-13T14:13:22.477Z",
+  "topic": "AI is a tool and using it well takes skill",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "local-indexing-to-reduce-tool-calling-and-token-usage",
+  "slug": "ai-is-a-tool-and-using-it-well-takes-skill",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 5,
-  "remaining": 63
+  "finalScore": 6,
+  "remaining": 59
 }
