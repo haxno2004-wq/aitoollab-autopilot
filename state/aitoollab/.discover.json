@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-12T15:27:35.975Z",
+  "fetchedAt": "2026-10-13T00:44:36.259Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "score": 7,
+      "meta": {}
+    },
     {
       "source": "hn",
       "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
@@ -30,7 +36,7 @@
     },
     {
       "source": "hn",
-      "topic": "Local Indexing to reduce tool calling and token usage",
+      "topic": "AI is a tool and using it well takes skill",
       "score": 5,
       "meta": {}
     },
@@ -54,19 +60,19 @@
     },
     {
       "source": "hn",
-      "topic": "Total Annihilation, rebuilt for modern computers",
+      "topic": "Codex CLI installs a persistent, self-updating background daemon by default",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The gap in shared understanding of LLM capability is widening",
+      "topic": "AI coding agents generate more code, but not more software",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Deloitte falsified documents to evade tax on Abramovich's wealth",
+      "topic": "'AI' Is Not a Tool by Rich Hickey",
       "score": 4,
       "meta": {}
     },
@@ -96,25 +102,31 @@
     },
     {
       "source": "hn",
-      "topic": "Passkeys are a trap",
+      "topic": "Muse Wonder",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fingerprints are the new cookies",
+      "topic": "A Modern Web App in C",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Terence Tao: Math 2.0 [pdf]",
+      "topic": "Show HN: PS2 games statically recompiled to WebAssembly",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cartographers of North Korea",
+      "topic": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Secret of Orange Cats Revealed After 60-Year Search",
       "score": 3,
       "meta": {}
     },
@@ -165,31 +177,19 @@
     },
     {
       "source": "hn",
-      "topic": "QGIS bans AI assisted contributions",
+      "topic": "Citroen revives the 2CV for an electric age",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why aren't AI companies being charged for hacking?",
+      "topic": "Thinking will become a hobby",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: PS2 games statically recompiled to WebAssembly",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Chapter 1 of \"Ways of Seeing\" by John Berger",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Secret of Orange Cats Revealed After 60-Year Search",
+      "topic": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
       "score": 2,
       "meta": {}
     },
@@ -219,55 +219,37 @@
     },
     {
       "source": "hn",
-      "topic": "Calculus with Julia",
+      "topic": "Breaking Bad star RJ Mitte dies aged 34",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Type-safe HTML templating in Zig",
+      "topic": "Writing a Demoscene Intro for the ZX Spectrum",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Whatever became of holography?",
+      "topic": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Citroen revives the 2CV for an electric age",
+      "topic": "The baffling intelligence of a single cell",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
+      "topic": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Incident with Actions, Pull Requests and Issues",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Programmable pigments: Photochromic nanoparticle inks for rewritable tattoos",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Running the unmodified Linux amdgpu driver on an iPad",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I Found a $90k Remote Code Execution Vulnerability in Google",
+      "topic": "Show HN: An experimental pattern-first DAW that supports MCP",
       "score": 1,
       "meta": {}
     },
@@ -345,37 +327,25 @@
     },
     {
       "source": "hn",
-      "topic": "Illustration Beyond Proof",
+      "topic": "Solar panels that plug into your wall",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bag of Decisions Reranker",
+      "topic": "Who Is Vfmaddrnd231pd?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Solar Panels That Plug into Your Wall",
+      "topic": "Making big downloads resumable in Firefox",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Choreographic Programming in Rust",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An Unmade Film Shaped Hayao Miyazaki",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Living in the Weimar Era of Ruby",
+      "topic": "GPT-6 Astra Helped Me Jailbreak My Kindle",
       "score": 0,
       "meta": {}
     }
