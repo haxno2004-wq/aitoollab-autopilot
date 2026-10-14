@@ -51,3 +51,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-13T22:53:21.869Z,how-to-engineer-an-ai-harness-for-game-development,How to Engineer an AI Harness for Game Development,gemini,810,success
 2026-10-14T07:41:14.480Z,11-year-old-unsoundness-bugs-found-in-rust-borrow-checker,Rust Borrow Checker Bugs: 11-Year Soundness Flaws Reviewed,gemini,1061,success
 2026-10-14T07:51:17.968Z,i-built-a-tool-to-track-what-ai-leaders-say-and-how-their-views,Tracking AI Leaders on Video: A Hands-On Tool Review,gemini,1002,success
+2026-10-14T11:54:58.955Z,ai-laser-locking-for-quantum-computers-how-quera-automates-it,AI Laser Locking for Quantum Computers: QuEra Guide,gemini,1104,success
