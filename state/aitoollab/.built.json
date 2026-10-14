@@ -1,8 +1,8 @@
 {
-  "slug": "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker",
-  "title": "Rust Borrow Checker Bugs: 11-Year Soundness Flaws Reviewed",
-  "description": "Explore the discovery of 11-year-old soundness bugs in the Rust borrow checker, analyzing how type systems, automated analysis, and ai tools intersect.",
-  "date": "2026-10-14T07:40:54.718Z",
-  "words": 1061,
+  "slug": "i-built-a-tool-to-track-what-ai-leaders-say-and-how-their-views",
+  "title": "Tracking AI Leaders on Video: A Hands-On Tool Review",
+  "description": "Discover how a custom video-tracking tool monitors statements from AI leaders. Explore its features, limitations, and fit for your workflow.",
+  "date": "2026-10-14T07:50:58.325Z",
+  "words": 1002,
   "provider": "gemini"
 }

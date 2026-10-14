@@ -39,7 +39,8 @@
     "ask-hn-how-do-swarms-of-ai-agents-work",
     "hackers-activate-automatic-defrosting-in-supermarket-fridges-acr",
     "how-to-engineer-an-ai-harness-for-game-development",
-    "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker"
+    "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker",
+    "i-built-a-tool-to-track-what-ai-leaders-say-and-how-their-views"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -82,7 +83,8 @@
     "Ask HN: How do swarms of AI agents work?",
     "Hackers activate automatic defrosting in supermarket fridges across Europe",
     "How to engineer an AI harness for game development",
-    "11 year old unsoundness bugs found in Rust borrow checker"
+    "11 year old unsoundness bugs found in Rust borrow checker",
+    "I built a tool to track what AI leaders say and how their views change on video"
   ],
-  "lastRun": "2026-10-14T07:41:14.480Z"
+  "lastRun": "2026-10-14T07:51:17.967Z"
 }
