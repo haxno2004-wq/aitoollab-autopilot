@@ -1,8 +1,8 @@
 {
-  "slug": "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker",
-  "title": "Rust Borrow Checker Unsoundness Bugs: A Practical Review",
-  "description": "Explore the impact of 11-year-old unsoundness bugs found in the Rust borrow checker. A hands-on review for developers evaluating memory safety tools.",
-  "date": "2026-10-14T07:40:55.672Z",
-  "words": 999,
+  "slug": "i-built-a-tool-to-track-what-ai-leaders-say-and-how-their-views",
+  "title": "Tracking AI Leader Statements on Video: A Developer Tool Review",
+  "description": "Discover how a custom video-tracking tool monitors statements from AI leaders. Explore its features, limitations, and utility for modern developers.",
+  "date": "2026-10-14T07:49:30.371Z",
+  "words": 1073,
   "provider": "gemini"
 }
