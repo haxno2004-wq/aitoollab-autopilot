@@ -682,6 +682,15 @@ section.in, .aff-box.in, .takeaway.in { opacity: 1; transform: none; }
 .foot-grid a { color: var(--muted); text-decoration: none; }
 .foot-grid a:hover { color: var(--accent); }
 .foot-blurb { max-width: 38ch; margin: 0; }
+.foot-fleet { padding: 0 0 1.6rem; }
+.foot-fleet .fleet-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--fg);
+  margin: 0 0 0.8rem;
+}
+.foot-fleet .fleet-strip { margin-bottom: 1.8rem; }
 .foot-legal {
   border-top: 1px solid var(--border);
   padding: 1rem 0 2.2rem;
@@ -803,12 +812,56 @@ table.rev tbody tr:hover td, table.rev tr:hover td { background: color-mix(in sr
 table.rev a { color: var(--accent); font-weight: 700; text-decoration: none; }
 table.rev a:hover { text-decoration: underline; }
 
+/* ── fleet poster strip (footer cross-links) ─────────────────── */
+.fleet-strip {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem;
+}
+.fleet-poster {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius);
+  overflow: hidden;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  background:
+    radial-gradient(140% 120% at 85% -20%, hsla(var(--fh, 200), 60%, 55%, 0.35), transparent 60%),
+    linear-gradient(150deg, hsl(var(--fh, 200) 26% 20%), hsl(var(--fh, 200) 30% 13%));
+  color: #f2f5f0;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+}
+.fleet-poster:hover { transform: translateY(-3px); filter: brightness(1.12); }
+.fp-art {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  padding: 1.1rem 1.2rem 0.4rem;
+}
+.fp-bar {
+  width: 7px;
+  border-radius: 3px;
+  background: hsla(var(--fh, 200), 75%, 78%, 0.9);
+}
+.fp-bar:nth-child(1) { height: 16px; transform: translateY(2px); }
+.fp-bar:nth-child(2) { height: 26px; }
+.fp-bar:nth-child(3) { height: 16px; transform: translateY(-2px); }
+.fp-name { font-weight: 800; font-size: 1.02rem; padding: 0.45rem 1.2rem 0; letter-spacing: -0.01em; }
+.fp-tag { color: hsla(var(--fh, 200), 70%, 85%, 0.85); font-size: 0.82rem; padding: 0.15rem 1.2rem 0.9rem; }
+.fp-host { color: rgba(242, 245, 240, 0.55); font-size: 0.74rem; padding: 0 1.2rem 1rem; font-family: var(--font-mono); }
+
+/* ── wide screens: kill the dead side gutters ────────────────── */
+@media (min-width: 1700px) {
+  :root { --wrap: 1440px; }
+}
+
 /* ── desktop landscape breakpoint ───────────────────────────── */
 @media (min-width: 900px) {
   .posts { grid-template-columns: repeat(2, 1fr); }
   .posts li.card:first-child { grid-column: 1 / -1; }
   .posts li.card:first-child .card h2 { font-size: 1.7rem; }
   .posts li.card:first-child a.thumb img { aspect-ratio: 21 / 9; }
+  .fleet-strip { grid-template-columns: repeat(4, 1fr); }
 }
 @media (min-width: 1280px) {
   .posts { grid-template-columns: repeat(3, 1fr); }

@@ -20,19 +20,29 @@ function base(config) {
 }
 
 const FLEET_LINKS = [
-  ["AI ToolLab", "https://aitoollab.pages.dev"],
-  ["MoneyPilot", "https://moneypilot-3gk.pages.dev"],
-  ["DevToolkit Daily", "https://devtoolkit-daily.pages.dev"],
-  ["PromptForge Shop", "https://promptforge-shop.pages.dev"],
+  { name: "AI ToolLab", url: "https://aitoollab.pages.dev", tag: "AI tools, honestly reviewed", hue: 258 },
+  { name: "MoneyPilot", url: "https://moneypilot-3gk.pages.dev", tag: "Budgeting & money clarity", hue: 152 },
+  { name: "DevToolkit Daily", url: "https://devtoolkit-daily.pages.dev", tag: "Working-programmer tooling", hue: 196 },
+  { name: "PromptForge Shop", url: "https://promptforge-shop.pages.dev", tag: "Prompt packs, instant buy", hue: 32 },
 ];
 
-// cross-links to the other fleet sites (omits this site)
+// cross-links to the other fleet sites (omits this site) — poster cards, not bare links
 function fleetLinksHtml(config) {
   const own = base(config).replace(/^https:\/\//, "");
   return FLEET_LINKS
-    .filter(([, u]) => !u.includes(own))
-    .map(([n, u]) => `<li><a href="${u}" target="_blank" rel="noopener">${n}</a></li>`)
-    .join("\n          ");
+    .filter((l) => !l.url.includes(own))
+    .map(
+      (l) => `
+    <a class="fleet-poster" href="${l.url}" target="_blank" rel="noopener" style="--fh:${l.hue}">
+      <span class="fp-art" aria-hidden="true">
+        <span class="fp-bar"></span><span class="fp-bar"></span><span class="fp-bar"></span>
+      </span>
+      <span class="fp-name">${esc(l.name)}</span>
+      <span class="fp-tag">${esc(l.tag)}</span>
+      <span class="fp-host">${esc(l.url.replace(/^https:\/\//, ""))}</span>
+    </a>`
+    )
+    .join("\n    ");
 }
 
 // About/Privacy pages carry their own <head>, so accent vars go inline there
@@ -42,6 +52,52 @@ function accentStyle(config) {
 }
 
 const readingTime = (words) => `${Math.max(1, Math.round((words || 900) / 220))} min read`;
+
+// ---------- branded SVG posters (deterministic per slug — replaces random AI art) ----------
+
+function hash31(s) {
+  let h = 0;
+  for (const c of String(s)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return h;
+}
+
+// Editorial poster: solid deep panel from one hue family (matches data/topic),
+// glyph watermark, title text — consistent blog-style covers (no random faces).
+function posterSvg(title, seedSlug, siteName) {
+  const h0 = hash31(seedSlug || title);
+  const hue = h0 % 360; // single hue family per article, like real editorial blogs
+  const bgA = `hsl(${hue} 30% 22%)`;
+  const bgB = `hsl(${(hue + 14) % 360} 34% 16%)`;
+  const tint = `hsla(${hue}, 70%, 72%, 0.16)`;
+  const lines = String(title || "").split(/\s+/);
+  const rows = [];
+  let row = "";
+  for (const w of lines) {
+    if ((row + " " + w).trim().length > 30 && row) {
+      rows.push(row.trim());
+      row = w;
+    } else row = (row + " " + w).trim();
+  }
+  if (row) rows.push(row.trim());
+  const shown = rows.slice(0, 4);
+  const fs = shown.length >= 4 ? 46 : 54;
+  const textFs = shown
+    .map((r, i) => `<text x="80" y="${330 + i * (fs + 14)}" font-family="Segoe UI,Arial,sans-serif" font-size="${fs}" font-weight="800" fill="#f4f6f2">${esc(r)}</text>`)
+    .join("");
+  const decoChoice = h0 % 3;
+  const deco =
+    decoChoice === 0
+      ? `<circle cx="880" cy="170" r="240" fill="${tint}"/><circle cx="1040" cy="420" r="120" fill="hsla(${hue},70%,80%,0.10)"/>`
+      : decoChoice === 1
+        ? `<rect x="720" y="-80" width="340" height="340" rx="64" transform="rotate(18 890 90)" fill="${tint}"/><rect x="960" y="300" width="220" height="220" rx="44" transform="rotate(-12 1070 410)" fill="hsla(${hue},70%,80%,0.10)"/>`
+        : `<path d="M760 520 L1000 120 L1180 520 Z" fill="${tint}"/><circle cx="1080" cy="330" r="34" fill="hsla(${hue},80%,85%,0.35)"/>`;
+  const glyph = `hsl(${(hue + 180) % 360} 60% 62%)`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${bgA}"/><stop offset="1" stop-color="${bgB}"/></linearGradient></defs><rect width="1200" height="700" fill="url(#g)"/>${deco}<rect x="80" y="96" width="96" height="10" rx="5" fill="${glyph}"/><rect x="1040" y="586" width="80" height="10" rx="5" fill="hsla(${hue},70%,80%,0.35)"/><text x="80" y="190" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="hsla(${hue},70%,85%,0.8)" letter-spacing="3">${esc(String(siteName || "").toUpperCase())}</text>${textFs}</svg>`;
+  return `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
+}
+
+// Fleet-site mini-poster (CSS bars + hue, no image bytes)
+function fleetPosterStyle() { return ""; }
 
 // ---------- AI hero images (free, keyless; never blocks a build) ----------
 
@@ -172,12 +228,15 @@ ${body}
           <li><a href="/about.html">About us</a></li>
           <li><a href="/privacy.html">Privacy policy</a></li>
         </ul>
-      </div>
       <div>
-        <h4>The fleet</h4>
-        <ul>
-          ${fleetLinksHtml(config)}
-        </ul>
+        <h4>About the fleet</h4>
+        <p class="foot-blurb">One autonomous pipeline, several focused sites. Cross-links are regular anchor navigation — same layout language across the fleet.</p>
+      </div>
+    </div>
+    <div class="wrap foot-fleet">
+      <p class="fleet-label">The fleet — every site, one look</p>
+      <div class="fleet-strip">
+    ${fleetLinksHtml(config)}
       </div>
     </div>
     <div class="wrap foot-legal">
@@ -433,8 +492,16 @@ export async function buildSite(config, newItem, ctxOverride) {
   const b = base(config);
   for (const a of all) {
     const s = a._slug || slugify(a.title || a.name);
-    const local = await generateImageFor(a.title || a.name, a.tags, s, imagesDir);
-    a._image = local.startsWith("data:") ? local : `${b}${local}`;
+    // Branded poster first (deterministic, on-hue, no random AI art); AI image used only if it already exists on disk.
+    const cachedAi = ["jpg", "png", "webp"]
+      .map((ext) => path.join(imagesDir, `${s}.${ext}`))
+      .find((f) => fs.existsSync(f) && fs.statSync(f).size > 3000);
+    if (cachedAi) {
+      const ext = path.extname(cachedAi).slice(1);
+      a._image = `${b}/assets/img/${s}.${ext}`;
+    } else {
+      a._image = posterSvg(a.title || a.name, s, config.site.name);
+    }
   }
   fs.cpSync(imagesDir, path.join(publicDir, "assets", "img"), { recursive: true });
   fs.copyFileSync("site/assets/fx.js", path.join(publicDir, "assets", "fx.js"));
@@ -472,7 +539,7 @@ export async function buildSite(config, newItem, ctxOverride) {
 <p>Some links are affiliate links, marked per our disclosure: if you buy through them we may earn a commission at no extra cost to you. This never influences our verdicts — negative reviews stay negative.</p>
 </section>
 <section><h2>Contact</h2><p>Questions, corrections, or partnership requests: open an issue on our <a href="https://github.com/haxno2004-wq/aitoollab-autopilot">public repository</a>.</p></section>
-</article></main><footer class="site-foot"><div class="wrap foot-grid"><div><h4>${esc(config.site.name)}</h4><p class="foot-blurb">${esc(config.site.tagline)}</p></div><div><h4>Explore</h4><ul><li><a href="/">Latest</a></li><li><a href="/rss.xml">RSS feed</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/privacy.html">Privacy policy</a></li></ul></div><div><h4>The fleet</h4><ul>${fleetLinksHtml(config)}</ul></div></div><div class="wrap foot-legal"><p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p></div></footer>
+</article></main><footer class="site-foot"><div class="wrap foot-grid"><div><h4>${esc(config.site.name)}</h4><p class="foot-blurb">${esc(config.site.tagline)}</p></div><div><h4>Explore</h4><ul><li><a href="/">Latest</a></li><li><a href="/rss.xml">RSS feed</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/privacy.html">Privacy policy</a></li></ul></div></div><div class="wrap foot-fleet"><p class="fleet-label">The fleet — every site, one look</p><div class="fleet-strip">${fleetLinksHtml(config)}</div></div><div class="wrap foot-legal"><p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p></div></footer>
 <script src="/assets/site.js?v=2" defer></script><script src="/assets/fx.js?v=2" defer></script></body></html>`;
   fs.writeFileSync(path.join(publicDir, "about.html"), about);
 
@@ -487,7 +554,7 @@ export async function buildSite(config, newItem, ctxOverride) {
 <section><h2>What we collect</h2><p>This site runs cookieless, privacy-friendly analytics (Cloudflare Web Analytics) that cannot identify individual visitors; no cookies are set for analytics and no personal data is stored on our servers. Your theme and currency preferences are saved only in your own browser (localStorage) and never leave your device.</p></section>
 <section><h2>Third parties</h2><p>If advertising is enabled, Google AdSense may set cookies to personalize ads. You can opt out via <a href="https://adssettings.google.com" rel="noopener">Google Ads Settings</a>. Affiliate partners may track referral clicks through their own links, governed by their privacy policies. Product checkout (if enabled) is processed by third parties (e.g. Gumroad) — we never see your payment details.</p></section>
 <section><h2>Your choices</h2><p>You can clear stored preferences any time via your browser settings. For privacy questions, open an issue on our <a href="https://github.com/haxno2004-wq/aitoollab-autopilot">public repository</a>.</p></section>
-</article></main><footer class="site-foot"><div class="wrap foot-grid"><div><h4>${esc(config.site.name)}</h4><p class="foot-blurb">${esc(config.site.tagline)}</p></div><div><h4>Explore</h4><ul><li><a href="/">Latest</a></li><li><a href="/rss.xml">RSS feed</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/privacy.html">Privacy policy</a></li></ul></div><div><h4>The fleet</h4><ul>${fleetLinksHtml(config)}</ul></div></div><div class="wrap foot-legal"><p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p></div></footer>
+</article></main><footer class="site-foot"><div class="wrap foot-grid"><div><h4>${esc(config.site.name)}</h4><p class="foot-blurb">${esc(config.site.tagline)}</p></div><div><h4>Explore</h4><ul><li><a href="/">Latest</a></li><li><a href="/rss.xml">RSS feed</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/privacy.html">Privacy policy</a></li></ul></div></div><div class="wrap foot-fleet"><p class="fleet-label">The fleet — every site, one look</p><div class="fleet-strip">${fleetLinksHtml(config)}</div></div><div class="wrap foot-legal"><p>© ${new Date().getUTCFullYear()} ${esc(config.site.name)} · Generated autonomously</p></div></footer>
 <script src="/assets/site.js?v=2" defer></script><script src="/assets/fx.js?v=2" defer></script></body></html>`;
   fs.writeFileSync(path.join(publicDir, "privacy.html"), privacy);
 
