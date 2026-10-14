@@ -1,8 +1,8 @@
 {
-  "slug": "how-to-engineer-an-ai-harness-for-game-development",
-  "title": "How to Engineer an AI Harness for Game Development",
-  "description": "Learn how to build an efficient AI harness for game development. Step-by-step workflow tutorial covering automation, agents, and best practices.",
-  "date": "2026-10-13T22:52:57.381Z",
-  "words": 810,
+  "slug": "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker",
+  "title": "Rust Borrow Checker Bugs: 11-Year Soundness Flaws Reviewed",
+  "description": "Explore the discovery of 11-year-old soundness bugs in the Rust borrow checker, analyzing how type systems, automated analysis, and ai tools intersect.",
+  "date": "2026-10-14T07:40:54.718Z",
+  "words": 1061,
   "provider": "gemini"
 }

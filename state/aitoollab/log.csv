@@ -49,3 +49,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-12T15:28:18.031Z,ask-hn-how-do-swarms-of-ai-agents-work,How Swarms of AI Agents Work: A Hands-On Review,gemini,812,success
 2026-10-13T00:45:40.142Z,hackers-activate-automatic-defrosting-in-supermarket-fridges-acr,Defending Smart Cooling: AI Workflows for IoT Attacks,gemini,1259,success
 2026-10-13T22:53:21.869Z,how-to-engineer-an-ai-harness-for-game-development,How to Engineer an AI Harness for Game Development,gemini,810,success
+2026-10-14T07:41:14.480Z,11-year-old-unsoundness-bugs-found-in-rust-borrow-checker,Rust Borrow Checker Bugs: 11-Year Soundness Flaws Reviewed,gemini,1061,success

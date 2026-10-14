@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-13T22:48:15.703Z",
-  "topic": "How to engineer an AI harness for game development",
-  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
-  "slug": "how-to-engineer-an-ai-harness-for-game-development",
+  "pickedAt": "2026-10-14T07:40:26.580Z",
+  "topic": "11 year old unsoundness bugs found in Rust borrow checker",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 5,
-  "remaining": 44
+  "finalScore": 4,
+  "remaining": 38
 }
