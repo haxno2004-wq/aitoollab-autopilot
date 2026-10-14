@@ -29,7 +29,8 @@
     "nycs-click-to-cancel-rule-is-now-in-effect",
     "codex-cli-installs-a-persistent-self-updating-background-daemon",
     "nexus-q-un-motor-open-source-de-rust-para-pqc",
-    "900-page-pre-pantone-guide-to-color-from-1692-with-complete-high"
+    "900-page-pre-pantone-guide-to-color-from-1692-with-complete-high",
+    "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
@@ -63,7 +64,8 @@
     "Codex CLI installs a persistent, self-updating background daemon by default",
     "AI is a tool and using it well takes skill",
     "Nexus-Q: un motor open source de Rust para PQC",
-    "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)"
+    "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
+    "11 year old unsoundness bugs found in Rust borrow checker"
   ],
-  "lastRun": "2026-10-14T07:13:33.605Z"
+  "lastRun": "2026-10-14T07:41:11.091Z"
 }

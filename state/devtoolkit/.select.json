@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-14T07:12:57.447Z",
-  "topic": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
-  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
-  "slug": "900-page-pre-pantone-guide-to-color-from-1692-with-complete-high",
+  "pickedAt": "2026-10-14T07:40:27.175Z",
+  "topic": "11 year old unsoundness bugs found in Rust borrow checker",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 5,
-  "remaining": 25
+  "finalScore": 4,
+  "remaining": 23
 }
