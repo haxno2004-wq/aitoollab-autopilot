@@ -5,6 +5,7 @@
    html[data-skin="terminal"]   → DevToolkit: dark monospace terminal
    html[data-skin="storefront"] → PromptForge: warm retail storefront
    html[data-skin="command"]    → FleetDeck: command-center console
+   html[data-skin="scrollshift"] → fleet-wide calm paper/green (ScrollShift brand)
    Skins only set variables + signature details; the layout engine is shared.
    ═══════════════════════════════════════════════════════════════════ */
 
@@ -247,6 +248,97 @@ html[data-skin="command"] .kpi::after {
   background: linear-gradient(90deg, var(--accent), var(--accent2), transparent);
   opacity: 0.7;
 }
+
+/* ══ SKIN: scrollshift — calm paper + deep green + lime (fleet-wide) ══ */
+html[data-skin="scrollshift"] {
+  --bg: #f4f4ef;
+  --fg: #202820;
+  --muted: #777f77;
+  --accent: #3c5e4c;
+  --accent2: #7fa36b;
+  --accent3: #ee795e;
+  --card: #ffffff;
+  --card-tr: rgba(255, 255, 255, 0.92);
+  --border: #e7e9e2;
+  --code-bg: #f1f2eb;
+  --radius: 17px;
+  --wrap: 1140px;
+  --shadow: 0 14px 45px rgba(42, 54, 42, 0.06);
+  --glow: 0 0 0 1px rgba(45, 69, 60, 0.16), 0 14px 40px -18px rgba(45, 69, 60, 0.26);
+  --ratio: 2 / 1;
+}
+/* fixed-light brand design — never goes dark */
+html[data-skin="scrollshift"][data-theme="dark"] {
+  --bg: #f4f4ef;
+  --fg: #202820;
+  --muted: #777f77;
+  --card: #ffffff;
+  --card-tr: rgba(255, 255, 255, 0.92);
+  --border: #e7e9e2;
+  --code-bg: #f1f2eb;
+}
+html[data-skin="scrollshift"] body { line-height: 1.65; }
+html[data-skin="scrollshift"] .theme-btn { display: none; }
+html[data-skin="scrollshift"] .brand,
+html[data-skin="scrollshift"] .hero h1,
+html[data-skin="scrollshift"] article h1 {
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  color: #26332b;
+  animation: none;
+  font-family: var(--font-body);
+}
+html[data-skin="scrollshift"] .brand { color: #2d453c; font-weight: 800; }
+html[data-skin="scrollshift"] .brand::before { content: "⟩"; color: #8ab47d; margin-right: 0.3rem; }
+html[data-skin="scrollshift"] .hero h1,
+html[data-skin="scrollshift"] article h1,
+html[data-skin="scrollshift"] .card h2 { letter-spacing: -0.022em; }
+html[data-skin="scrollshift"] .eyebrow {
+  background: transparent;
+  border: none;
+  color: #828a80;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.2rem 0.1rem 0;
+  animation: none;
+}
+html[data-skin="scrollshift"] nav a { color: #687169; }
+html[data-skin="scrollshift"] nav a:hover { color: #2d453c; }
+html[data-skin="scrollshift"] .site-head { background: rgba(251, 251, 248, 0.92); }
+html[data-skin="scrollshift"] .card { box-shadow: var(--shadow); backdrop-filter: none; }
+html[data-skin="scrollshift"] .card:hover {
+  transform: translateY(-3px);
+  border-color: #d7dcd0;
+  box-shadow: var(--shadow), var(--glow);
+}
+html[data-skin="scrollshift"] .card a:hover h2 { background: none; -webkit-text-fill-color: currentColor; color: #2d453c; }
+html[data-skin="scrollshift"] article h2::before { background: var(--accent); }
+html[data-skin="scrollshift"] article a { color: #3c5e4c; }
+html[data-skin="scrollshift"] .takeaway {
+  background: #f1f2eb;
+  border: 1px solid #e7e9e2;
+  border-radius: 13px;
+}
+html[data-skin="scrollshift"] .faq details[open] { border-color: #cfd6c9; }
+html[data-skin="scrollshift"] .price-tag,
+html[data-skin="scrollshift"] .card .meta .price-tag,
+html[data-skin="scrollshift"] .price-line .price-tag {
+  background: #fff0e9;
+  color: #d95b3c;
+  border-radius: 999px;
+  padding: 0.2rem 0.62rem;
+  font-weight: 800;
+}
+/* signature lime CTA */
+html[data-skin="scrollshift"] .buy-btn {
+  background: #d9ed9e;
+  color: #22352a !important;
+  border-radius: 9px;
+  box-shadow: 0 8px 22px -12px rgba(45, 69, 60, 0.45);
+}
+html[data-skin="scrollshift"] .buy-btn:hover { background: #e5f4b9; color: #22352a !important; }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }

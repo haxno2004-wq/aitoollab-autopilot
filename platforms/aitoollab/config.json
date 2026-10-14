@@ -1,6 +1,7 @@
 {
-  "skin": "editorial",
-  "defaultTheme": "dark",
+  "skin": "scrollshift",
+  "defaultTheme": "light",
+  "adsense": { "enabled": false, "client": "" },
   "site": {
     "name": "AI ToolLab",
     "tagline": "Practical reviews, benchmarks, and workflows for the AI tools that actually save you time.",

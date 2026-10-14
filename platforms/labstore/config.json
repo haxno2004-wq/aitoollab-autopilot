@@ -1,7 +1,8 @@
 {
   "type": "store",
-  "skin": "storefront",
+  "skin": "scrollshift",
   "defaultTheme": "light",
+  "adsense": { "enabled": false, "client": "" },
   "site": {
     "name": "PromptForge Shop",
     "tagline": "Professionally engineered AI prompt packs and templates — instant download, use with any AI model.",
@@ -25,11 +26,7 @@
     "rotateDays": 10,
     "note": "One new product every 10 days keeps quality high and stays far under LLM free tiers"
   },
-  "gumroad": {
-    "enabled": true,
-    "note": "Set GUMROAD_ACCESS_TOKEN secret. When set, products are auto-published as drafts (publish: false) — you click publish in Gumroad after a 1-min review. Free forever plan, 10% + fee per sale.",
-    "publish": false
-  },
+  "gumroad": { "enabled": true, "publish": false, "storeUrl": "" },
   "affiliate": {
     "disclosure": "Products are digital downloads delivered via Gumroad. This site may earn commissions from links marked as sponsored."
   },

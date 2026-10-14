@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { pathToFileURL } from "node:url";
 import { platformCtx } from "../lib/platform.mjs";
 import { generateProduct } from "../lib/llm-product.mjs";
-import { loadState, slugify, nowIso } from "../lib/state.mjs";
+import { loadState, saveState, slugify, nowIso } from "../lib/state.mjs";
 
 const ctx = platformCtx();
 const config = ctx.config;

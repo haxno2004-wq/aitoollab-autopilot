@@ -1,7 +1,8 @@
 {
   "type": "content",
-  "skin": "terminal",
-  "defaultTheme": "dark",
+  "skin": "scrollshift",
+  "defaultTheme": "light",
+  "adsense": { "enabled": false, "client": "" },
   "site": {
     "name": "DevToolkit Daily",
     "tagline": "Field-tested dev tools, terminal utilities, and workflow upgrades for working programmers.",
