@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-14T07:12:57.202Z",
-  "topic": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+  "pickedAt": "2026-10-14T07:40:31.995Z",
+  "topic": "11 year old unsoundness bugs found in Rust borrow checker",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "show-hn-pulse-local-a-mac-budgeting-app-whose-ai-models-run-on-y",
+  "slug": "11-year-old-unsoundness-bugs-found-in-rust-borrow-checker",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 10,
-  "remaining": 59
+  "finalScore": 4,
+  "remaining": 57
 }

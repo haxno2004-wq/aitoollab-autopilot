@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T07:12:57.172Z",
+  "fetchedAt": "2026-10-14T07:40:31.935Z",
   "candidates": [
     {
       "source": "hn",
@@ -81,13 +81,13 @@
     },
     {
       "source": "hn",
-      "topic": "Apple HomeView",
+      "topic": "Redesigning source control at Anthropic",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Redesigning source control at Anthropic",
+      "topic": "Apple HomeView",
       "score": 3,
       "meta": {}
     },
@@ -147,8 +147,8 @@
     },
     {
       "source": "hn",
-      "topic": "Recreational Programming",
-      "score": 1,
+      "topic": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "score": 2,
       "meta": {}
     },
     {
@@ -159,7 +159,7 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: How random are you?",
+      "topic": "Recreational Programming",
       "score": 1,
       "meta": {}
     },
@@ -171,7 +171,7 @@
     },
     {
       "source": "hn",
-      "topic": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "topic": "Show HN: How random are you?",
       "score": 1,
       "meta": {}
     },
@@ -327,13 +327,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Healthcare.Gov Check?",
+      "topic": "Why do CD rates always feel like such a scam",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Why do CD rates always feel like such a scam",
+      "topic": "Healthcare.Gov Check?",
       "score": 0,
       "meta": {}
     },

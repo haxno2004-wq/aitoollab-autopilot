@@ -28,3 +28,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-12T15:28:15.133Z,local-indexing-to-reduce-tool-calling-and-token-usage,Local Indexing for AI Tools: Save Tokens & Cut Costs,gemini,943,success
 2026-10-13T14:14:48.390Z,ai-is-a-tool-and-using-it-well-takes-skill,AI for Personal Finance: A Hands-On Skill Review,gemini,878,success
 2026-10-14T07:13:42.534Z,show-hn-pulse-local-a-mac-budgeting-app-whose-ai-models-run-on-y,Pulse Local Review: Offline AI Budgeting App for Mac,gemini,1299,success
+2026-10-14T07:41:12.213Z,11-year-old-unsoundness-bugs-found-in-rust-borrow-checker,Rust Borrow Checker Unsoundness Bugs: A Practical Review,gemini,861,success
