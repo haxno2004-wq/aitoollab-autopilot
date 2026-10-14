@@ -492,16 +492,10 @@ export async function buildSite(config, newItem, ctxOverride) {
   const b = base(config);
   for (const a of all) {
     const s = a._slug || slugify(a.title || a.name);
-    // Branded poster first (deterministic, on-hue, no random AI art); AI image used only if it already exists on disk.
-    const cachedAi = ["jpg", "png", "webp"]
-      .map((ext) => path.join(imagesDir, `${s}.${ext}`))
-      .find((f) => fs.existsSync(f) && fs.statSync(f).size > 3000);
-    if (cachedAi) {
-      const ext = path.extname(cachedAi).slice(1);
-      a._image = `${b}/assets/img/${s}.${ext}`;
-    } else {
-      a._image = posterSvg(a.title || a.name, s, config.site.name);
-    }
+    // Branded poster for every item: deterministic per-slug SVG (single hue
+    // family, title + site brand). Cached AI art is no longer used — it was
+    // producing off-topic random imagery on cards.
+    a._image = posterSvg(a.title || a.name, s, config.site.name);
   }
   fs.cpSync(imagesDir, path.join(publicDir, "assets", "img"), { recursive: true });
   fs.copyFileSync("site/assets/fx.js", path.join(publicDir, "assets", "fx.js"));
