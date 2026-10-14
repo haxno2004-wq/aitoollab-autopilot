@@ -30,3 +30,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-14T07:13:42.534Z,show-hn-pulse-local-a-mac-budgeting-app-whose-ai-models-run-on-y,Pulse Local Review: Offline AI Budgeting App for Mac,gemini,1299,success
 2026-10-14T07:41:12.213Z,11-year-old-unsoundness-bugs-found-in-rust-borrow-checker,Rust Borrow Checker Unsoundness Bugs: A Practical Review,gemini,861,success
 2026-10-14T07:49:58.317Z,had-some-money-to-invest-gave-it-to-an-advisor-why-not-just-the,Advisors vs. S&P 500: Do You Really Need a Pro?,gemini,1141,success
+2026-10-14T11:54:59.940Z,ai-laser-locking-for-quantum-computers-how-quera-automates-it,AI Laser Locking for Quantum Computers: QuEra Automation Guide,gemini,1036,success
