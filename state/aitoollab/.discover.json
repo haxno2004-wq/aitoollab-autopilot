@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T07:49:15.447Z",
+  "fetchedAt": "2026-10-14T11:54:15.318Z",
   "candidates": [
     {
       "source": "hn",
@@ -42,12 +42,6 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -66,19 +60,7 @@
     },
     {
       "source": "hn",
-      "topic": "11 year old unsoundness bugs found in Rust borrow checker",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenAI engineer arrested in bugging of executive conference room",
       "score": 4,
       "meta": {}
     },
@@ -90,7 +72,31 @@
     },
     {
       "source": "hn",
-      "topic": "I built a tool to track what AI leaders say and how their views change on video",
+      "topic": "The United Kingdom generates less electricity per person than in the 1970s",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A guided 3D Leonardo da Vinci museum, built in code",
       "score": 4,
       "meta": {}
     },
@@ -138,25 +144,13 @@
     },
     {
       "source": "hn",
-      "topic": "Thunderbird for iOS",
+      "topic": "MIT class project turns into an FDA-cleared treatment for tremors",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hittite royal archive found in Turkey",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The United Kingdom generates less electricity per person than in the 1970s",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "topic": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
       "score": 3,
       "meta": {}
     },
@@ -207,13 +201,13 @@
     },
     {
       "source": "hn",
-      "topic": "MIT class project turns into an FDA-cleared treatment for tremors",
+      "topic": "Recreational Programming",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "topic": "Felix Rieseberg Homepage",
       "score": 2,
       "meta": {}
     },
@@ -243,24 +237,6 @@
     },
     {
       "source": "hn",
-      "topic": "Recreational Programming",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Felix Rieseberg Homepage",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Grace Hopper Celebration Cancelled",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Show HN: How random are you?",
       "score": 1,
       "meta": {}
@@ -273,7 +249,25 @@
     },
     {
       "source": "hn",
-      "topic": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "topic": "Show HN: Building an LLM from Scratch in TypeScript",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Same Job, Two Engines: InnoDB and Iceberg Internals",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Xi's 'death watch' will become a global spectacle",
       "score": 1,
       "meta": {}
     },
@@ -351,25 +345,31 @@
     },
     {
       "source": "hn",
-      "topic": "Hiking the world in search of rare cheeses",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: XY Music Notation",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Do Frameworks Matter Anymore?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Arena Allocators in C",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Amazon pushes up prices across the Internet",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What agents mean for Rust (and vice versa)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Who Taught the Machines Mathematics?",
       "score": 0,
       "meta": {}
     }
