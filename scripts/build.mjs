@@ -289,7 +289,9 @@ function productBodyHtml(p, config) {
     .join("\n");
   const cta = p.buyUrl
     ? `<a class="buy-btn" href="${esc(p.buyUrl)}" rel="noopener nofollow sponsored" target="_blank">Get it on Gumroad — <span data-usd="${esc(p.price)}">$${esc(p.price)}</span></a>`
-    : `<p class="muted-note">Checkout link pending — set <code>buyUrl</code> in the product JSON.</p>`;
+    : config.gumroad?.storeUrl
+      ? `<a class="buy-btn" href="${esc(config.gumroad.storeUrl)}" rel="noopener nofollow sponsored" target="_blank">Buy on the Gumroad store — <span data-usd="${esc(p.price)}">$${esc(p.price)}</span></a>`
+      : `<p class="muted-note">Checkout link pending — set <code>buyUrl</code> in the product JSON.</p>`;
   const sampleHtml = p.sampleItems?.length
     ? `<section><h2>What's inside (sample)</h2><ul>${p.sampleItems.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></section>`
     : "";

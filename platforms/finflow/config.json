@@ -1,7 +1,8 @@
 {
   "type": "content",
-  "skin": "ledger",
+  "skin": "scrollshift",
   "defaultTheme": "light",
+  "adsense": { "enabled": false, "client": "" },
   "site": {
     "name": "MoneyPilot",
     "tagline": "Practical, no-hype personal finance: budgeting systems, side income, and money automation that actually works.",
