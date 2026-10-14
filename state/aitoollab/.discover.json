@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T11:54:15.318Z",
+  "fetchedAt": "2026-10-14T21:43:42.492Z",
   "candidates": [
     {
       "source": "hn",
@@ -12,7 +12,7 @@
     },
     {
       "source": "hn",
-      "topic": "AI is a tool and using it well takes skill",
+      "topic": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
       "score": 6,
       "meta": {}
     },
@@ -36,12 +36,6 @@
     },
     {
       "source": "hn",
-      "topic": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -57,48 +51,6 @@
         "points": 96,
         "url": "https://news.ycombinator.com/item?id=48847834"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The United Kingdom generates less electricity per person than in the 1970s",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A guided 3D Leonardo da Vinci museum, built in code",
-      "score": 4,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -126,31 +78,31 @@
     },
     {
       "source": "hn",
-      "topic": "Gemini 4 Argon",
+      "topic": "Amazon pushes up prices across the Internet",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Redesigning source control at Anthropic",
+      "topic": "Google is silently linking your phone number across all signed-in accounts",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple HomeView",
+      "topic": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "MIT class project turns into an FDA-cleared treatment for tremors",
+      "topic": "Banks are now trying to offload the AI data center debt they just underwrote",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
+      "topic": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
       "score": 3,
       "meta": {}
     },
@@ -201,13 +153,31 @@
     },
     {
       "source": "hn",
-      "topic": "Recreational Programming",
+      "topic": "Do dentists know what they're doing?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Felix Rieseberg Homepage",
+      "topic": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic's Scion is heavily inspired by Mononoke",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "America didn't lose its rare earth industry, it sold it",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Yandex outage: data shows that instead of going dark, malicious bots moved",
       "score": 2,
       "meta": {}
     },
@@ -237,37 +207,61 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: How random are you?",
+      "topic": "The Origin Story of Kid Pix",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Maybe a better way to track the release history of a Git repo",
+      "topic": "Better HTTP/1 connection reuse in Go 1.27",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Building an LLM from Scratch in TypeScript",
+      "topic": "Submarine cable resilience",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+      "topic": "Why is every rationalist blog post way too long?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Same Job, Two Engines: InnoDB and Iceberg Internals",
+      "topic": "Running Windows desktop tests from Linux with disposable VMs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Xi's 'death watch' will become a global spectacle",
+      "topic": "The Gold-Bug: Edgar Allan Poe's story that taught me about cryptography",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Geneva, a Rust FFmpeg CLI alternative with HTML/CSS graphics",
       "score": 1,
       "meta": {}
     },
@@ -345,31 +339,37 @@
     },
     {
       "source": "hn",
-      "topic": "Arena Allocators in C",
+      "topic": "LittleJS is 2D and 3D now",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Amazon pushes up prices across the Internet",
+      "topic": "Phloem: Git history grown like a slime mold",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What agents mean for Rust (and vice versa)",
+      "topic": "OpenCode 2.0",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
+      "topic": "Fancy Curl Sites",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Who Taught the Machines Mathematics?",
+      "topic": "Strands Decider: Why Not an Encoder?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Marshall Islands Stick Chart",
       "score": 0,
       "meta": {}
     }
