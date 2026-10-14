@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-13T14:13:22.431Z",
+  "fetchedAt": "2026-10-14T07:12:57.172Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-      "score": 7,
+      "topic": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "score": 8,
       "meta": {}
     },
     {
@@ -21,8 +21,8 @@
     },
     {
       "source": "hn",
-      "topic": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-      "score": 4,
+      "topic": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
+      "score": 5,
       "meta": {}
     },
     {
@@ -33,13 +33,25 @@
     },
     {
       "source": "hn",
-      "topic": "The baffling intelligence of a single cell",
+      "topic": "Ledger confirms spy chip implant behind wallet crypto thefts",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Document Review with Unsiloed and TypeSafe Jev",
+      "topic": "OpenAI engineer arrested in bugging of executive conference room",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I built a tool to track what AI leaders say and how their views change on video",
       "score": 4,
       "meta": {}
     },
@@ -56,26 +68,50 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "44M, married, NJ, started investing during COVID. How am I doing financially?",
+      "score": 4,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "A Modern Web App in C",
+      "topic": "Gemini 4 Argon",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Citroen revives the 2CV for an electric age",
+      "topic": "Apple HomeView",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI models can provably hide arbitrary capabilities",
+      "topic": "Redesigning source control at Anthropic",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
+      "topic": "Thunderbird for iOS",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hittite royal archive found in Turkey",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The United Kingdom generates less electricity per person than in the 1970s",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
       "score": 3,
       "meta": {}
     },
@@ -105,91 +141,49 @@
     },
     {
       "source": "hn",
-      "topic": "Making big downloads resumable in Firefox",
+      "topic": "MIT class project turns into an FDA-cleared treatment for tremors",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Who is vfmaddrnd231pd?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Solar panels that plug into your wall",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A look at the math that OpenAI claims computes faster Fourier transforms",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An hour of audio transcribed in about 13s on MacBook Air",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Writing a Demoscene Intro for the ZX Spectrum",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Hittite royal archive found in Turkey",
+      "topic": "Recreational Programming",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mozilla Introduces Firefox Enterprise",
+      "topic": "Felix Rieseberg Homepage",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple HomeView",
+      "topic": "Show HN: How random are you?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Character.ai Files for Bankruptcy",
+      "topic": "Grace Hopper Celebration Cancelled",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "topic": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Auto Research: Integer multiplication below n log n",
+      "topic": "Maybe a better way to track the release history of a Git repo",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Too much income for significant financial aid, not enough income to actually afford college",
+      "topic": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
       "score": 1,
       "meta": {}
     },
@@ -201,7 +195,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Laid off, business failed, $16.5k in credit card debt, what should I be doing right now?",
+      "topic": "Too much income for significant financial aid, not enough income to actually afford college",
       "score": 1,
       "meta": {}
     },
@@ -225,6 +219,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Owe $15K on a Jeep with a blown engine. $11K to fix. What are my options?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Prioritize brokerage account for child instead of 529?",
       "score": 1,
       "meta": {}
@@ -232,18 +232,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Mid 30s in NYC, looking for some sort of financial salvation",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Owe $15K on a Jeep with a blown engine. $11K to fix. What are my options?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
       "score": 1,
       "meta": {}
     },
@@ -290,20 +278,38 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Character.ai files for Chapter 11 bankruptcy",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Visual Intro to Complex Numbers",
-      "score": 0,
+      "source": "reddit/personalfinance",
+      "topic": "Are there financial professionals who'd put you on an allowance?",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can I stop contributing to my retirement?",
+      "topic": "20s coworkers asking for advice on handling finances",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hiking the world in search of rare cheeses",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: XY Music Notation",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Do Frameworks Matter Anymore?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Arena Allocators in C",
       "score": 0,
       "meta": {}
     },
@@ -315,7 +321,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Got a house- Salary being cut",
+      "topic": "1% 401k management fee. What to do?",
       "score": 0,
       "meta": {}
     },
@@ -327,7 +333,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Financial debt help!",
+      "topic": "Why do CD rates always feel like such a scam",
       "score": 0,
       "meta": {}
     },
@@ -339,13 +345,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Contribute More to 401k After Raise?",
+      "topic": "Financial debt help!",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Parents made UGMA account for me, I never knew about it, never paid any taxes on it, how screwed am I",
+      "topic": "Contribute More to 401k After Raise?",
       "score": 0,
       "meta": {}
     },
@@ -369,7 +375,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Ally or SoFi for HYSA?",
+      "topic": "How do bonds actually work?",
       "score": 0,
       "meta": {}
     }
