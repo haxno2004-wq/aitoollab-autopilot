@@ -1,165 +1,159 @@
 {
-  "fetchedAt": "2026-10-14T11:54:17.160Z",
+  "fetchedAt": "2026-10-14T21:43:43.958Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "AI is a tool and using it well takes skill",
+      "topic": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "900-Page Pre-Pantone Guide to Color from 1692 (With Complete High-Res Scan)",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The United Kingdom generates less electricity per person than in the 1970s",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A guided 3D Leonardo da Vinci museum, built in code",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gemini 4 Argon",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Redesigning source control at Anthropic",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple HomeView",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MIT class project turns into an FDA-cleared treatment for tremors",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Recreational Programming",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Felix Rieseberg Homepage",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: How random are you?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Maybe a better way to track the release history of a Git repo",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Building an LLM from Scratch in TypeScript",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Same Job, Two Engines: InnoDB and Iceberg Internals",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Xi's 'death watch' will become a global spectacle",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Arena Allocators in C",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Amazon pushes up prices across the Internet",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Google is silently linking your phone number across all signed-in accounts",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Do dentists know what they're doing?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic's Scion is heavily inspired by Mononoke",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "America didn't lose its rare earth industry, it sold it",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Yandex outage: data shows that instead of going dark, malicious bots moved",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Origin Story of Kid Pix",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Better HTTP/1 connection reuse in Go 1.27",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Submarine cable resilience",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why is every rationalist blog post way too long?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Running Windows desktop tests from Linux with disposable VMs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Gold-Bug: Edgar Allan Poe's story that taught me about cryptography",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "LittleJS is 2D and 3D now",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What agents mean for Rust (and vice versa)",
+      "topic": "Phloem: Git history grown like a slime mold",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
+      "topic": "OpenCode 2.0",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Who Taught the Machines Mathematics?",
+      "topic": "Fancy Curl Sites",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Strands Decider: Why Not an Encoder?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Marshall Islands Stick Chart",
       "score": 0,
       "meta": {}
     }

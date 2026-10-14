@@ -34,3 +34,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-14T07:41:11.092Z,11-year-old-unsoundness-bugs-found-in-rust-borrow-checker,Rust Borrow Checker Unsoundness Bugs: A Practical Review,gemini,999,success
 2026-10-14T07:49:46.205Z,i-built-a-tool-to-track-what-ai-leaders-say-and-how-their-views,Tracking AI Leader Statements on Video: A Developer Tool Review,gemini,1073,success
 2026-10-14T11:54:59.992Z,ai-laser-locking-for-quantum-computers-how-quera-automates-it,AI Laser Locking for Quantum Computers: QuEra Guide,gemini,1089,success
+2026-10-14T21:44:41.204Z,iosevka-is-an-open-source-sans-serif-and-slab-serif-monospace-fo,"Iosevka Font Guide: Setup, Customization, and Trade-offs",gemini,1090,success
