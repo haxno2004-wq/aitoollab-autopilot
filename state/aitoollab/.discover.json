@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T11:31:14.209Z",
+  "fetchedAt": "2026-10-15T21:26:28.519Z",
   "candidates": [
     {
       "source": "hn",
@@ -30,6 +30,12 @@
     },
     {
       "source": "hn",
+      "topic": "FastH3-Omni: The best open-source H3 model",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -48,37 +54,19 @@
     },
     {
       "source": "hn",
-      "topic": "How Amazon pushes up prices all across the Internet",
+      "topic": "Wayland desktop for Linux with skeuomorphic design",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Americans' social activity has steeply declined in the past 30 years",
+      "topic": "Wanted to download an ISO, ended up writing a kernel exploit",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why is every rationalist blog post way too long?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Aidlc: Adaptive workflow steering rules for AI coding agents",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bookofjoe's Favorite Thing: Best Pill Splitter",
+      "topic": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
       "score": 4,
       "meta": {}
     },
@@ -108,37 +96,37 @@
     },
     {
       "source": "hn",
-      "topic": "Things to know when you get cancer",
+      "topic": "Muse Spark Open",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Do dentists know what they're doing?",
+      "topic": "Neural networks are clean",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenCode 2.0",
+      "topic": "I know why the mathematicians weep",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tiny Little Office",
+      "topic": "Steam Client is now faster than Epic's new vibe coded launcher",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "topic": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Double Headed Stack Allocator",
+      "topic": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
       "score": 3,
       "meta": {}
     },
@@ -189,19 +177,13 @@
     },
     {
       "source": "hn",
-      "topic": "Better HTTP/1 connection reuse in Go 1.27",
+      "topic": "C++26 Contracts: Introduction to Preconditions and Postconditions",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Wanted to download an ISO, ended up writing a kernel exploit",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
+      "topic": "What I Self-Host",
       "score": 2,
       "meta": {}
     },
@@ -231,49 +213,43 @@
     },
     {
       "source": "hn",
-      "topic": "Ask HN: CAD for wood working with LLM support?",
+      "topic": "Celebrating 70 Years of Fortran",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Donaldson Futuro House in Idyllwild, California, USA",
+      "topic": "Jev meets the Trolley Problem",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
+      "topic": "The technical actions needed to ensure the continuity of UTC",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sticky alpine flower confirms Darwin's 150-year-old carnivorous plant prediction",
+      "topic": "Someone on Torrent Sites Kept Fucking with My Sonarr",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Toftwood Male Voice Choir: A Mystery Pressed in Vinyl",
+      "topic": "The engineering that allows articulated buses to bend",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The First Social Network: In rural Argentina residents send messages w AM radio",
+      "topic": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "David Rudnick on \"borderline impossible\" process of designing Arsenal typeface",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Stopping sand from destroying a hydropower turbine [video]",
+      "topic": "We are entering a period of overlapping crises",
       "score": 1,
       "meta": {}
     },
@@ -357,13 +333,31 @@
     },
     {
       "source": "hn",
-      "topic": "Your C is not standard C",
+      "topic": "E Ink Kaleido 4",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "It took me nine years to hack my Xbox 360",
+      "topic": "Why I Wrote PGP (1991, revised 1999)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An Apology",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Using AI to reverse engineer hardware",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rediscovering the Romance of Travel Clocks",
       "score": 0,
       "meta": {}
     }
