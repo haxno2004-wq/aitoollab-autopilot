@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T21:43:42.492Z",
+  "fetchedAt": "2026-10-15T11:31:14.209Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,12 +9,6 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-      "score": 6,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -54,6 +48,42 @@
     },
     {
       "source": "hn",
+      "topic": "How Amazon pushes up prices all across the Internet",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Americans' social activity has steeply declined in the past 30 years",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why is every rationalist blog post way too long?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bookofjoe's Favorite Thing: Best Pill Splitter",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "How to get more coding productivity with LLMs",
       "score": 4,
       "meta": {}
@@ -78,31 +108,37 @@
     },
     {
       "source": "hn",
-      "topic": "Amazon pushes up prices across the Internet",
+      "topic": "Things to know when you get cancer",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google is silently linking your phone number across all signed-in accounts",
+      "topic": "Do dentists know what they're doing?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+      "topic": "OpenCode 2.0",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "topic": "Tiny Little Office",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "topic": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Double Headed Stack Allocator",
       "score": 3,
       "meta": {}
     },
@@ -153,31 +189,19 @@
     },
     {
       "source": "hn",
-      "topic": "Do dentists know what they're doing?",
+      "topic": "Better HTTP/1 connection reuse in Go 1.27",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "topic": "Wanted to download an ISO, ended up writing a kernel exploit",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anthropic's Scion is heavily inspired by Mononoke",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "America didn't lose its rare earth industry, it sold it",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Yandex outage: data shows that instead of going dark, malicious bots moved",
+      "topic": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
       "score": 2,
       "meta": {}
     },
@@ -207,55 +231,49 @@
     },
     {
       "source": "hn",
-      "topic": "The Origin Story of Kid Pix",
+      "topic": "Ask HN: CAD for wood working with LLM support?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Better HTTP/1 connection reuse in Go 1.27",
+      "topic": "Donaldson Futuro House in Idyllwild, California, USA",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Submarine cable resilience",
+      "topic": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why is every rationalist blog post way too long?",
+      "topic": "Sticky alpine flower confirms Darwin's 150-year-old carnivorous plant prediction",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Running Windows desktop tests from Linux with disposable VMs",
+      "topic": "The Toftwood Male Voice Choir: A Mystery Pressed in Vinyl",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Gold-Bug: Edgar Allan Poe's story that taught me about cryptography",
+      "topic": "The First Social Network: In rural Argentina residents send messages w AM radio",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I wrote an email app that accepts only one sender per inbox",
+      "topic": "David Rudnick on \"borderline impossible\" process of designing Arsenal typeface",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
+      "topic": "Stopping sand from destroying a hydropower turbine [video]",
       "score": 1,
       "meta": {}
     },
@@ -339,37 +357,13 @@
     },
     {
       "source": "hn",
-      "topic": "LittleJS is 2D and 3D now",
+      "topic": "Your C is not standard C",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Phloem: Git history grown like a slime mold",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenCode 2.0",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fancy Curl Sites",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Strands Decider: Why Not an Encoder?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Marshall Islands Stick Chart",
+      "topic": "It took me nine years to hack my Xbox 360",
       "score": 0,
       "meta": {}
     }
