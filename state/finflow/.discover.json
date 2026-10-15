@@ -1,16 +1,40 @@
 {
-  "fetchedAt": "2026-10-14T21:43:45.779Z",
+  "fetchedAt": "2026-10-15T11:31:13.130Z",
   "candidates": [
     {
-      "source": "reddit/personalfinance",
-      "topic": "Starting Over from Scratch at 56 - Need Advice on Retirement, Saving for a Home, and budgeting",
-      "score": 7,
+      "source": "hn",
+      "topic": "How Amazon pushes up prices all across the Internet",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-      "score": 6,
+      "topic": "Americans' social activity has steeply declined in the past 30 years",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why is every rationalist blog post way too long?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bookofjoe's Favorite Thing: Best Pill Splitter",
+      "score": 4,
       "meta": {}
     },
     {
@@ -39,31 +63,37 @@
     },
     {
       "source": "hn",
-      "topic": "Amazon pushes up prices across the Internet",
+      "topic": "Things to know when you get cancer",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google is silently linking your phone number across all signed-in accounts",
+      "topic": "Do dentists know what they're doing?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+      "topic": "OpenCode 2.0",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "topic": "Tiny Little Office",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "topic": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Double Headed Stack Allocator",
       "score": 3,
       "meta": {}
     },
@@ -81,91 +111,85 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "What should I do with unpaid child support I received after my dad's bankruptcy? How should I invest?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "how to not lose my house?",
       "score": 3,
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Do dentists know what they're doing?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic's Scion is heavily inspired by Mononoke",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "America didn't lose its rare earth industry, it sold it",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Yandex outage: data shows that instead of going dark, malicious bots moved",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Origin Story of Kid Pix",
-      "score": 1,
+      "source": "reddit/personalfinance",
+      "topic": "USDA Food Plan Budgets for 2026",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Better HTTP/1 connection reuse in Go 1.27",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Submarine cable resilience",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why is every rationalist blog post way too long?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Running Windows desktop tests from Linux with disposable VMs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Gold-Bug: Edgar Allan Poe's story that taught me about cryptography",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: I wrote an email app that accepts only one sender per inbox",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
-      "score": 1,
+      "topic": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: CAD for wood working with LLM support?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Donaldson Futuro House in Idyllwild, California, USA",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sticky alpine flower confirms Darwin's 150-year-old carnivorous plant prediction",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Toftwood Male Voice Choir: A Mystery Pressed in Vinyl",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The First Social Network: In rural Argentina residents send messages w AM radio",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "David Rudnick on \"borderline impossible\" process of designing Arsenal typeface",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Stopping sand from destroying a hydropower turbine [video]",
       "score": 1,
       "meta": {}
     },
@@ -213,12 +237,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Annuity question - parents are now thinking they got scammed, what's next?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Thought I was ineligible to contribute to Roth IRA, but I can?",
       "score": 1,
       "meta": {}
@@ -231,13 +249,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I think my transmission is blown & I still owe on my car. /:",
+      "topic": "Is it stupid to keep fixing my car when the repairs exceed the value of the car?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is it stupid to keep fixing my car when the repairs exceed the value of the car?",
+      "topic": "I think my transmission is blown & I still owe on my car. /:",
       "score": 1,
       "meta": {}
     },
@@ -260,38 +278,20 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Is working a Part time and a Full time job sustainable?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "LittleJS is 2D and 3D now",
+      "topic": "Your C is not standard C",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Phloem: Git history grown like a slime mold",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenCode 2.0",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fancy Curl Sites",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Strands Decider: Why Not an Encoder?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Marshall Islands Stick Chart",
+      "topic": "It took me nine years to hack my Xbox 360",
       "score": 0,
       "meta": {}
     },
@@ -316,12 +316,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Healthcare.Gov Check?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Girlfriends Finances",
       "score": 0,
       "meta": {}
     },
@@ -357,13 +351,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Cancel whole life for 20 year term?",
+      "topic": "How do bonds actually work?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How do bonds actually work?",
+      "topic": "Do I pull back on retirement?",
       "score": 0,
       "meta": {}
     }
