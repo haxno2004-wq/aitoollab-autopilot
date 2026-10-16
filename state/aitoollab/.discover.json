@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T11:26:04.608Z",
+  "fetchedAt": "2026-10-16T21:13:16.524Z",
   "candidates": [
     {
       "source": "hn",
@@ -30,12 +30,6 @@
     },
     {
       "source": "hn",
-      "topic": "What I self-host",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -54,25 +48,13 @@
     },
     {
       "source": "hn",
-      "topic": "Wayland desktop for Linux with skeuomorphic design",
+      "topic": "JPEG XL vs. AVIF for web use-cases",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "topic": "How the Claude Code team does code review",
       "score": 4,
       "meta": {}
     },
@@ -102,31 +84,25 @@
     },
     {
       "source": "hn",
-      "topic": "Muse Spark Open",
+      "topic": "Tesla Roadster",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Neural networks are clean",
+      "topic": "Claude reveals ECDSA curve origins",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jev meets the Trolley Problem",
+      "topic": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Two-Stack Sliding-Window Aggregation",
+      "topic": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
       "score": 3,
       "meta": {}
     },
@@ -177,37 +153,31 @@
     },
     {
       "source": "hn",
-      "topic": "Celebrating 70 Years of Fortran",
+      "topic": "I Love Software Rendering",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Using AI to reverse engineer hardware",
+      "topic": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "BIPM decides to stop adding leap seconds to UTC",
+      "topic": "Anthropic assigned highest junk credit rating in June",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Any window from your Mac, on your iPhone and iPad",
+      "topic": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "'500-hour' Order of the Sinking Star is as complex and exhausting as it sounds",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple routed a graphite pipe through the iPhone Duo's hinge to dissipate heat",
+      "topic": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
       "score": 2,
       "meta": {}
     },
@@ -237,43 +207,55 @@
     },
     {
       "source": "hn",
-      "topic": "RPKI now protects 70% of internet routes",
+      "topic": "Waymo in Toronto",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why I Wrote PGP (1991, revised 1999)",
+      "topic": "Show HN: Gemini 4 Argon plays StarCraft",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Comparing Chromium Development at Google and Igalia",
+      "topic": "What on Earth Is Dekton?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Yet another way to invoke functions without parentheses",
+      "topic": "Stolen Renoir paintings found hidden, and damaged, behind cinder block wall",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Economic Complexity of the Western Roman Empire",
+      "topic": "Designing more efficient quantum circuits with Claude",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Japanese people still aren't having sex. And nobody knows why",
+      "topic": "I never authorized an integration that scans my secrets",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New 'Super Ice' 10 Times Stronger, Bringing It Close to the Strength of Concrete",
+      "topic": "Flux 3 Image Klein: open weights, 5.6B parameters",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "You could have invented transformers from memory",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
       "score": 1,
       "meta": {}
     },
@@ -357,25 +339,43 @@
     },
     {
       "source": "hn",
-      "topic": "Major ICQ security hole",
+      "topic": "RFC8950: Announce IPv4 with an IPv6 next-hop",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Thank You, Deno",
+      "topic": "/dev/null: social network for developers",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Folders Programming Language",
+      "topic": "The Fatal Flaw of 911",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The insider trading you're allowed to do",
+      "topic": "C++26: The New Debugging Header",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Monte-Carlo Simulations",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Symmetries in Boolean Scan",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Piramidal (YC W24) Is Hiring",
       "score": 0,
       "meta": {}
     }

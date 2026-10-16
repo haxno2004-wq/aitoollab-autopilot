@@ -56,3 +56,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-15T11:31:59.166Z,aidlc-adaptive-workflow-steering-rules-for-ai-coding-agents,Aidlc Guide: Adaptive Steering Rules for AI Coding Agents,gemini,1074,success
 2026-10-15T21:27:16.988Z,fasth3-omni-the-best-open-source-h3-model,"FastH3-Omni Guide: Strengths, Setup, and When to Skip It",gemini,1026,success
 2026-10-16T11:27:16.163Z,what-i-self-host,What I Self-Host: A Pragmatic Guide to Local AI Setup,gemini,1062,success
+2026-10-16T21:13:57.510Z,how-the-claude-code-team-does-code-review,"Claude Code for Code Review: Strengths, Flaws, and Guide",gemini,1120,success
