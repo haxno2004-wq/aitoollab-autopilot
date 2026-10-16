@@ -35,3 +35,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-15T11:32:32.843Z,aidlc-adaptive-workflow-steering-rules-for-ai-coding-agents,Aidlc: Adaptive Workflow Steering Rules for AI Coding Agents,gemini,977,success
 2026-10-15T21:27:25.527Z,fasth3-omni-the-best-open-source-h3-model,"FastH3-Omni Guide: Open-Source Setup, Strengths & Trade-offs",gemini,1148,success
 2026-10-16T11:26:49.463Z,what-i-self-host,What I Self-Host: A Pragmatic Guide to Local Tools,gemini,1036,success
+2026-10-16T21:14:09.744Z,help-with-budgeting,Budgeting Systems Reviewed: What Works and What Fails,gemini,1099,success
