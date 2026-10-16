@@ -1,8 +1,8 @@
 {
-  "slug": "what-i-self-host",
-  "title": "What I Self-Host: A Pragmatic Developer Toolkit Guide",
-  "description": "Discover a pragmatic self-hosted developer stack. Learn what self-hosting is truly good for, which workflows benefit most, and who should skip it entirely.",
-  "date": "2026-10-16T11:26:27.956Z",
-  "words": 1291,
+  "slug": "how-the-claude-code-team-does-code-review",
+  "title": "How Claude Code Approaches Code Review: An In-Depth Look",
+  "description": "Explore how Claude Code approaches code review inside the terminal. Learn where agentic CLI tools shine, where they struggle, and how to use them safely.",
+  "date": "2026-10-16T21:13:43.461Z",
+  "words": 1053,
   "provider": "gemini"
 }
