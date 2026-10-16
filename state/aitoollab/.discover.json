@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T21:26:28.519Z",
+  "fetchedAt": "2026-10-16T11:26:04.608Z",
   "candidates": [
     {
       "source": "hn",
@@ -30,7 +30,7 @@
     },
     {
       "source": "hn",
-      "topic": "FastH3-Omni: The best open-source H3 model",
+      "topic": "What I self-host",
       "score": 5,
       "meta": {}
     },
@@ -60,13 +60,19 @@
     },
     {
       "source": "hn",
-      "topic": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "topic": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+      "topic": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
       "score": 4,
       "meta": {}
     },
@@ -108,13 +114,7 @@
     },
     {
       "source": "hn",
-      "topic": "I know why the mathematicians weep",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Steam Client is now faster than Epic's new vibe coded launcher",
+      "topic": "Jev meets the Trolley Problem",
       "score": 3,
       "meta": {}
     },
@@ -126,7 +126,7 @@
     },
     {
       "source": "hn",
-      "topic": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+      "topic": "Two-Stack Sliding-Window Aggregation",
       "score": 3,
       "meta": {}
     },
@@ -177,13 +177,37 @@
     },
     {
       "source": "hn",
-      "topic": "C++26 Contracts: Introduction to Preconditions and Postconditions",
+      "topic": "Celebrating 70 Years of Fortran",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What I Self-Host",
+      "topic": "Using AI to reverse engineer hardware",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "BIPM decides to stop adding leap seconds to UTC",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Any window from your Mac, on your iPhone and iPad",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "'500-hour' Order of the Sinking Star is as complex and exhausting as it sounds",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple routed a graphite pipe through the iPhone Duo's hinge to dissipate heat",
       "score": 2,
       "meta": {}
     },
@@ -213,43 +237,43 @@
     },
     {
       "source": "hn",
-      "topic": "Celebrating 70 Years of Fortran",
+      "topic": "RPKI now protects 70% of internet routes",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jev meets the Trolley Problem",
+      "topic": "Why I Wrote PGP (1991, revised 1999)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The technical actions needed to ensure the continuity of UTC",
+      "topic": "Comparing Chromium Development at Google and Igalia",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "topic": "Yet another way to invoke functions without parentheses",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The engineering that allows articulated buses to bend",
+      "topic": "The Economic Complexity of the Western Roman Empire",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "topic": "Japanese people still aren't having sex. And nobody knows why",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We are entering a period of overlapping crises",
+      "topic": "New 'Super Ice' 10 Times Stronger, Bringing It Close to the Strength of Concrete",
       "score": 1,
       "meta": {}
     },
@@ -333,31 +357,25 @@
     },
     {
       "source": "hn",
-      "topic": "E Ink Kaleido 4",
+      "topic": "Major ICQ security hole",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why I Wrote PGP (1991, revised 1999)",
+      "topic": "Thank You, Deno",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An Apology",
+      "topic": "The Folders Programming Language",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Using AI to reverse engineer hardware",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rediscovering the Romance of Travel Clocks",
+      "topic": "The insider trading you're allowed to do",
       "score": 0,
       "meta": {}
     }
