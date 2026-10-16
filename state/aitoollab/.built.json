@@ -1,8 +1,8 @@
 {
-  "slug": "what-i-self-host",
-  "title": "What I Self-Host: A Pragmatic Guide to Local AI Setup",
-  "description": "Discover a pragmatic approach to self-hosting AI tools for privacy and control. Learn what works, what to skip, and how to build a local AI workflow.",
-  "date": "2026-10-16T11:26:57.134Z",
-  "words": 1062,
+  "slug": "how-the-claude-code-team-does-code-review",
+  "title": "Claude Code for Code Review: Strengths, Flaws, and Guide",
+  "description": "Explore how the Claude Code team approaches automated code review. Learn what works, where it falls short, and how to integrate it into your workflow.",
+  "date": "2026-10-16T21:13:37.803Z",
+  "words": 1120,
   "provider": "gemini"
 }
