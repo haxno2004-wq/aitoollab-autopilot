@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-17T10:46:11.024Z",
+  "fetchedAt": "2026-10-17T20:39:23.490Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "How the Claude Code team does code review",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "Help with budgeting?",
@@ -15,25 +9,25 @@
     },
     {
       "source": "hn",
-      "topic": "JPEG XL vs. AVIF for web use-cases",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "You could have invented transformers from memory",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Solar surpasses nuclear power globally for first time",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Gold is now the top U.S. export",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Laser Fault Injection on a Budget: RP2350 Edition",
       "score": 4,
       "meta": {}
     },
@@ -50,32 +44,26 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "receiving ~80k in settlement. Should I invest or pay off debt?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I'm 21 and Want to Be Financially Stable. Should I Save, Invest, or Get Insurance First?",
+      "score": 4,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Tesla Roadster",
+      "topic": "DeepSeek-v4.1-Flash-1017",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude reveals ECDSA curve origins",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I love software rendering",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+      "topic": "OpenCode Hacked: User credentials leaked",
       "score": 3,
       "meta": {}
     },
@@ -99,91 +87,73 @@
     },
     {
       "source": "hn",
-      "topic": "Butlerian Jihad",
+      "topic": "Making chicken transparent using Dorito dust",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Gemini 4 Argon plays StarCraft",
+      "topic": "Furifont, a Japanese font that shows furigana",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Designing more efficient quantum circuits with Claude",
+      "topic": "Bleached corals thrive within days when touching healthy neighbour",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "FLUX 3 Image Klein",
+      "topic": "Rendering pretty sky in Around The World game",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Development statistics for the 7.2 kernel",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "DeepSeek-v4.1-Flash-1017",
+      "topic": "Source code of the Estonian online voting system",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "topic": "The Commodore 64 hardware simulator: break chips and pins, see the results",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Monte-Carlo Simulations",
+      "topic": "Dam removals are bringing fish back across the northeastern United States",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
+      "topic": "A skeptic's first contact with Kubernetes",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Intuitive concurrent programming in any language",
+      "topic": "Microsoft and CMU Team Up to Train Early Career Software Engineers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A story of WiFi secrets, UART lockdowns and a damaged flash memory chip",
+      "topic": "Chrome and Edge are removing XSLT: what breaks and what does not",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tell HN: Remember to migrate away from .name domain",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Is MCP becoming the common foundation of smart, decentralised search?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Recipes Are Moving from Maven Central to the Code Genome Project",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: I got tired of btop not seeing my Mac's chip, so I built siltop",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Flexport Is Hiring a Biz Ops Leader in Office of CEO",
+      "topic": "Artie (YC S23) Is Hiring Enterprise AES and Senior Engineers",
       "score": 1,
       "meta": {}
     },
@@ -195,13 +165,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Am I being taken advantage of by my financial advisor?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Can someone dumb it down maxing 401k over brokerage?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Prioritize brokerage account for child instead of 529?",
+      "topic": "42M, starting over after fleeing the war. How do I build long-term financial security?",
       "score": 1,
       "meta": {}
     },
@@ -213,7 +189,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "42M, starting over after fleeing the war. How do I build long-term financial security?",
+      "topic": "I am up against the wall and have no clue what to do!",
       "score": 1,
       "meta": {}
     },
@@ -232,6 +208,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Is it stupid to keep fixing my car when the repairs exceed the value of the car?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Laid off and looking for work. But can I retire now?",
       "score": 1,
       "meta": {}
     },
@@ -260,44 +242,62 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "I am up against the wall and have no clue what to do!",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Can I afford this new rent, or is this a bad idea?",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Nine-Inch Snails",
+      "topic": "I Became a Citizen of Japan",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I built the RealWorld app in Lean 4",
+      "topic": "Show HN: High-quality duck audio synthesizer",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "0/1 Knapsack Problem in PyTorch",
+      "topic": "A Tudor life in the time of plague",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "I have 90k. Not sure what to do with it",
+      "source": "hn",
+      "topic": "The First Candid",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The future of programming",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Vintage Cassettes: 1963-2010",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Things to Do API",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pattern Matching Beats Narrative Reasoning",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Just found out my employer has not posted 5 months worth of paycheck contributions to my 401(k) balance.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I have 90k. Not sure what to do with it",
       "score": 0,
       "meta": {}
     },
@@ -321,6 +321,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Gym Claims Unable to Cancel Membership",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Financial debt help!",
       "score": 0,
       "meta": {}
@@ -333,31 +339,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Gym Claims Unable to Cancel Membership",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Contribute More to 401k After Raise?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Mom took out 22k or loans in my name",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I want to open a trust account and put my life insurance, home, and bank account in the trust so that when I die, it will not end up in probate and the money will go to my son.",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Am I behind on retirement?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Someone wants to buy my house before I've listed it. Should I get an appraisal or ask them to make an offer first",
       "score": 0,
       "meta": {}
     },
