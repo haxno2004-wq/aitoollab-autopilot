@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-16T21:13:19.904Z",
+  "fetchedAt": "2026-10-17T10:46:11.024Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "How the Claude Code team does code review",
+      "score": 6,
+      "meta": {}
+    },
     {
       "source": "reddit/personalfinance",
       "topic": "Help with budgeting?",
@@ -10,12 +16,24 @@
     {
       "source": "hn",
       "topic": "JPEG XL vs. AVIF for web use-cases",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How the Claude Code team does code review",
+      "topic": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "You could have invented transformers from memory",
       "score": 4,
       "meta": {}
     },
@@ -45,13 +63,19 @@
     },
     {
       "source": "hn",
-      "topic": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "topic": "I love software rendering",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "topic": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
       "score": 3,
       "meta": {}
     },
@@ -75,79 +99,43 @@
     },
     {
       "source": "hn",
-      "topic": "I Love Software Rendering",
+      "topic": "Butlerian Jihad",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic assigned highest junk credit rating in June",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Waymo in Toronto",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Show HN: Gemini 4 Argon plays StarCraft",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What on Earth Is Dekton?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Stolen Renoir paintings found hidden, and damaged, behind cinder block wall",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Designing more efficient quantum circuits with Claude",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "FLUX 3 Image Klein",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I never authorized an integration that scans my secrets",
+      "topic": "DeepSeek-v4.1-Flash-1017",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Flux 3 Image Klein: open weights, 5.6B parameters",
+      "topic": "DeepSeek: DeepSeek v4.1 Flash 1017",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "You could have invented transformers from memory",
+      "topic": "Monte-Carlo Simulations",
       "score": 1,
       "meta": {}
     },
@@ -158,20 +146,50 @@
       "meta": {}
     },
     {
+      "source": "hn",
+      "topic": "Intuitive concurrent programming in any language",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A story of WiFi secrets, UART lockdowns and a damaged flash memory chip",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: Remember to migrate away from .name domain",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Is MCP becoming the common foundation of smart, decentralised search?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Recipes Are Moving from Maven Central to the Code Genome Project",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I got tired of btop not seeing my Mac's chip, so I built siltop",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Flexport Is Hiring a Biz Ops Leader in Office of CEO",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "reddit/personalfinance",
       "topic": "21, homeless & about to receive $12,000.. I need advice..",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Am I being taken advantage of by my financial advisor?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Owe $15K on a Jeep with a blown engine. $11K to fix. What are my options?",
       "score": 1,
       "meta": {}
     },
@@ -243,55 +261,43 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "I am up against the wall and have no clue what to do!",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Can I afford this new rent, or is this a bad idea?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RFC8950: Announce IPv4 with an IPv6 next-hop",
+      "topic": "Nine-Inch Snails",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "/dev/null: social network for developers",
+      "topic": "I built the RealWorld app in Lean 4",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Fatal Flaw of 911",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "C++26: The New Debugging Header",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Monte-Carlo Simulations",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Symmetries in Boolean Scan",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Piramidal (YC W24) Is Hiring",
+      "topic": "0/1 Knapsack Problem in PyTorch",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "I have 90k. Not sure what to do with it",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Just found out my employer has not posted 5 months worth of paycheck contributions to my 401(k) balance.",
       "score": 0,
       "meta": {}
     },
@@ -315,12 +321,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Trump/530A Accounts - What is the Use Case?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Financial debt help!",
       "score": 0,
       "meta": {}
@@ -333,13 +333,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Contribute More to 401k After Raise?",
+      "topic": "Gym Claims Unable to Cancel Membership",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Gym Claims Unable to Cancel Membership",
+      "topic": "Contribute More to 401k After Raise?",
       "score": 0,
       "meta": {}
     },
@@ -352,6 +352,18 @@
     {
       "source": "reddit/personalfinance",
       "topic": "I want to open a trust account and put my life insurance, home, and bank account in the trust so that when I die, it will not end up in probate and the money will go to my son.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Am I behind on retirement?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Is a CD better than HYSA?",
       "score": 0,
       "meta": {}
     },
