@@ -1,141 +1,135 @@
 {
-  "fetchedAt": "2026-10-18T11:07:09.028Z",
+  "fetchedAt": "2026-10-18T20:47:37.104Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Gold is now the top U.S. export",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "You could have invented transformers from memory",
+      "topic": "SIGSALY: Churchill's top secret hotline to the president",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bleached corals thrive within days when touching healthy neighbour",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Furifont, a Japanese font that shows furigana",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "NY announces game ownership bill requiring ownership rather than licensing",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Matthew Prince on why Cloudflare offers a free version and always will",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DeepSeek-v4.1-Flash-1017",
+      "topic": "Namecheap just seized and disabled all my domains",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making chicken transparent using Dorito dust",
+      "topic": "Legal experts warn Meta's new terms still grant broad scraping permissions",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dam removals are bringing fish back across the northeastern United States",
+      "topic": "Free Pascal compiler now supports dynamic packages",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "topic": "RepRapMicron",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Codex Desktop continuously generates Crashpad pending dumps",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Lean now ships with verified kernels",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: High-quality duck audio synthesizer",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Mole Infiltrated the Highest Ranks of American Militias",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Interactive Linear Programming in the Browser",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Southern ground hornbill gets 3D printed beak prostheses at Artis Zoo",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Custom server to revive neato bots",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fun Extending the C Preprocessor",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Notes on the Complex Roots of Unity",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Superoptimizing an FPU Emulator",
-      "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Parser Combinators",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Florida's HOAs and condo associations are making the housing crisis worse",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Will it be a golden age or a dark age for mathematics (and science)?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Java sealed classes and exhaustive pattern matching",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Someone behind the software",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I electrified my push scooter with a power drill",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Intel 8087 chip: floating-point addition and subtraction",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Beyond Tetris: The other games of Alexey Pajitnov [video]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Electronic Disturbance Theater and Electronic Civil Disobedience",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Voyage of the Paper Canoe: 2500 Miles from Quebec to the Gulf of Mexico, 1874-5",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Geographical Fun: Being Humourous Outlines of Various Countries",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Brain Sandwich",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Regex visualized as 3D marble run",
+      "topic": "PalmOS Lemmings",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "It's time to talk about TEEs",
+      "topic": "Developing for Debugging",
       "score": 0,
       "meta": {}
     }
