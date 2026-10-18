@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-17T20:39:23.490Z",
+  "fetchedAt": "2026-10-18T11:07:11.984Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "Gold is now the top U.S. export",
+      "score": 6,
+      "meta": {}
+    },
     {
       "source": "reddit/personalfinance",
       "topic": "Help with budgeting?",
@@ -15,19 +21,25 @@
     },
     {
       "source": "hn",
-      "topic": "Solar surpasses nuclear power globally for first time",
+      "topic": "Bleached corals thrive within days when touching healthy neighbour",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gold is now the top U.S. export",
+      "topic": "Furifont, a Japanese font that shows furigana",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Laser Fault Injection on a Budget: RP2350 Edition",
+      "topic": "NY announces game ownership bill requiring ownership rather than licensing",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Matthew Prince on why Cloudflare offers a free version and always will",
       "score": 4,
       "meta": {}
     },
@@ -45,13 +57,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "receiving ~80k in settlement. Should I invest or pay off debt?",
+      "topic": "I'm 21 and Want to Be Financially Stable. Should I Save, Invest, or Get Insurance First?",
       "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I'm 21 and Want to Be Financially Stable. Should I Save, Invest, or Get Insurance First?",
+      "topic": "receiving ~80k in settlement. Should I invest or pay off debt?",
       "score": 4,
       "meta": {}
     },
@@ -63,7 +75,13 @@
     },
     {
       "source": "hn",
-      "topic": "OpenCode Hacked: User credentials leaked",
+      "topic": "Making chicken transparent using Dorito dust",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dam removals are bringing fish back across the northeastern United States",
       "score": 3,
       "meta": {}
     },
@@ -80,86 +98,44 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "60k invested in 2030 target fund.",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Making chicken transparent using Dorito dust",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Furifont, a Japanese font that shows furigana",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bleached corals thrive within days when touching healthy neighbour",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rendering pretty sky in Around The World game",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Development statistics for the 7.2 kernel",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Source code of the Estonian online voting system",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
       "topic": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Codex Desktop continuously generates Crashpad pending dumps",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Lean now ships with verified kernels",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dam removals are bringing fish back across the northeastern United States",
+      "topic": "Show HN: High-quality duck audio synthesizer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A skeptic's first contact with Kubernetes",
+      "topic": "A Mole Infiltrated the Highest Ranks of American Militias",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Microsoft and CMU Team Up to Train Early Career Software Engineers",
+      "topic": "Interactive Linear Programming in the Browser",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chrome and Edge are removing XSLT: what breaks and what does not",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Artie (YC S23) Is Hiring Enterprise AES and Senior Engineers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "21, homeless & about to receive $12,000.. I need advice..",
+      "topic": "Southern ground hornbill gets 3D printed beak prostheses at Artis Zoo",
       "score": 1,
       "meta": {}
     },
@@ -171,7 +147,25 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "21, homeless & about to receive $12,000.. I need advice..",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Can someone dumb it down maxing 401k over brokerage?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Laid off and looking for work. But can I retire now?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I am up against the wall and have no clue what to do!",
       "score": 1,
       "meta": {}
     },
@@ -184,12 +178,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Mid 30s in NYC, looking for some sort of financial salvation",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I am up against the wall and have no clue what to do!",
       "score": 1,
       "meta": {}
     },
@@ -208,12 +196,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Is it stupid to keep fixing my car when the repairs exceed the value of the car?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Laid off and looking for work. But can I retire now?",
       "score": 1,
       "meta": {}
     },
@@ -243,49 +225,43 @@
     },
     {
       "source": "hn",
-      "topic": "I Became a Citizen of Japan",
+      "topic": "Custom server to revive neato bots",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: High-quality duck audio synthesizer",
+      "topic": "Fun Extending the C Preprocessor",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Tudor life in the time of plague",
+      "topic": "Notes on the Complex Roots of Unity",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The First Candid",
+      "topic": "Superoptimizing an FPU Emulator",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The future of programming",
+      "topic": "Parser Combinators",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Vintage Cassettes: 1963-2010",
+      "topic": "Regex visualized as 3D marble run",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Things to Do API",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pattern Matching Beats Narrative Reasoning",
+      "topic": "It's time to talk about TEEs",
       "score": 0,
       "meta": {}
     },
@@ -321,6 +297,18 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "What do to with an inheritance?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Stuck in a 2025 Ford F-150 Lightning lease with $27K negative equity. Currently unemployed. What are my options?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Gym Claims Unable to Cancel Membership",
       "score": 0,
       "meta": {}
@@ -333,13 +321,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "What to do with my parents money",
+      "topic": "Am I behind on retirement?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Am I behind on retirement?",
+      "topic": "What to do with my parents money",
       "score": 0,
       "meta": {}
     },
@@ -351,13 +339,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is a CD better than HYSA?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Need financial advice for pet emergencies",
+      "topic": "Scared for my family",
       "score": 0,
       "meta": {}
     }
