@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-18T11:07:11.984Z",
+  "fetchedAt": "2026-10-18T20:47:39.611Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Gold is now the top U.S. export",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "Help with budgeting?",
@@ -15,31 +9,7 @@
     },
     {
       "source": "hn",
-      "topic": "You could have invented transformers from memory",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bleached corals thrive within days when touching healthy neighbour",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Furifont, a Japanese font that shows furigana",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "NY announces game ownership bill requiring ownership rather than licensing",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Matthew Prince on why Cloudflare offers a free version and always will",
+      "topic": "SIGSALY: Churchill's top secret hotline to the president",
       "score": 4,
       "meta": {}
     },
@@ -69,19 +39,19 @@
     },
     {
       "source": "hn",
-      "topic": "DeepSeek-v4.1-Flash-1017",
+      "topic": "Namecheap just seized and disabled all my domains",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making chicken transparent using Dorito dust",
+      "topic": "Legal experts warn Meta's new terms still grant broad scraping permissions",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dam removals are bringing fish back across the northeastern United States",
+      "topic": "Free Pascal compiler now supports dynamic packages",
       "score": 3,
       "meta": {}
     },
@@ -99,43 +69,91 @@
     },
     {
       "source": "hn",
-      "topic": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "topic": "RepRapMicron",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Codex Desktop continuously generates Crashpad pending dumps",
+      "topic": "Parser Combinators",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lean now ships with verified kernels",
+      "topic": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Florida's HOAs and condo associations are making the housing crisis worse",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Will it be a golden age or a dark age for mathematics (and science)?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Java sealed classes and exhaustive pattern matching",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Someone behind the software",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: High-quality duck audio synthesizer",
+      "topic": "I electrified my push scooter with a power drill",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Mole Infiltrated the Highest Ranks of American Militias",
+      "topic": "The Intel 8087 chip: floating-point addition and subtraction",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Interactive Linear Programming in the Browser",
+      "topic": "Beyond Tetris: The other games of Alexey Pajitnov [video]",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Southern ground hornbill gets 3D printed beak prostheses at Artis Zoo",
+      "topic": "The Electronic Disturbance Theater and Electronic Civil Disobedience",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Voyage of the Paper Canoe: 2500 Miles from Quebec to the Gulf of Mexico, 1874-5",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Geographical Fun: Being Humourous Outlines of Various Countries",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
       "score": 1,
       "meta": {}
     },
@@ -177,25 +195,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Mid 30s in NYC, looking for some sort of financial salvation",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Thought I was ineligible to contribute to Roth IRA, but I can?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "39, Broke the Cycle but Never Learned to Build Wealth. Now What?",
+      "topic": "Is it stupid to keep fixing my car when the repairs exceed the value of the car?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is it stupid to keep fixing my car when the repairs exceed the value of the car?",
+      "topic": "39, Broke the Cycle but Never Learned to Build Wealth. Now What?",
       "score": 1,
       "meta": {}
     },
@@ -225,43 +237,19 @@
     },
     {
       "source": "hn",
-      "topic": "Custom server to revive neato bots",
+      "topic": "The Brain Sandwich",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fun Extending the C Preprocessor",
+      "topic": "PalmOS Lemmings",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Notes on the Complex Roots of Unity",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Superoptimizing an FPU Emulator",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Parser Combinators",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Regex visualized as 3D marble run",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "It's time to talk about TEEs",
+      "topic": "Developing for Debugging",
       "score": 0,
       "meta": {}
     },
@@ -297,31 +285,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "What do to with an inheritance?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Stuck in a 2025 Ford F-150 Lightning lease with $27K negative equity. Currently unemployed. What are my options?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Gym Claims Unable to Cancel Membership",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Financial debt help!",
+      "topic": "Scared for my family",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Am I behind on retirement?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Financial debt help!",
       "score": 0,
       "meta": {}
     },
@@ -339,7 +321,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Scared for my family",
+      "topic": "Just got my first job in nyc - what do I do?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Is a CD better than HYSA?",
       "score": 0,
       "meta": {}
     }
