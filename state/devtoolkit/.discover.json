@@ -1,177 +1,177 @@
 {
-  "fetchedAt": "2026-10-19T13:18:17.879Z",
+  "fetchedAt": "2026-10-19T22:23:33.782Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "topic": "Alternatives to animal testing are finally taking off",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Timestral: Mistral's time-series foundation models",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "topic": "I no longer care to work on any Ruby gems so I've archived all my repositories",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Free Pascal compiler now supports dynamic packages",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: WhatsApp MCP running free on Cloudflare",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Alternatives to Animal Testing Are Finally Taking Off",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Someone behind the software",
+      "topic": "Wine ported to OpenBSD",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RepRapMicron",
+      "topic": "It's still ok to enjoy programming",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Linux 7.3 Released",
+      "topic": "MiniMax M3.1 Flash",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Documents: Police officer gave her Flock login to her ICE agent husband",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I built a programming language that LLMs can't use",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "William Gibson and the trademarking of cyberspace",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to Train Your Robot",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Timestral: Mistral release time-series foundation models",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Superlite: A Faster Alternatie to Superpowers",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rabbits were a medieval royal luxury in England until the Black Death",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Laptop Based on 6502 CPU",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "PalmOS Lemmings",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The DNS Museum",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I built a drone with only one motor [video]",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Starcraft: Ashfall",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Android apps running native on macOS",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Mercury 3: Diffusion at scale",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The reverts will continue until morale improves",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The obscure trust looming over Anthropic's IPO",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "RuneScape Bench: MMOs for Agents [video]",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "topic": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ESA's Hera Will View Asteroid Scars from DART's Strike",
+      "topic": "Chicago O'Hare digs up 50-ton boulder under airfield, asks public for name ideas",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "topic": "Galois Finite Fields and the Advanced Encryption Standard (AES)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "8 in 10 Americans oppose live-streaming execution",
+      "topic": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gdynia and the Dream of a Maritime Poland",
+      "topic": "Detecting model weight tampering in GPU memory (Rome attacks)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Evidence (YC S21) Is Hiring Software Engineers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The fire retardant in the seafood chain",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tennyson's Faith: A Nobler Type",
+      "topic": "The Annotated VT100 Firmware",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Credit where credit is due",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Coconuts in Medieval Britain",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Integer to String Conversion",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Diablo 2 Survivors",
       "score": 0,
       "meta": {}
     }
