@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T20:47:39.611Z",
+  "fetchedAt": "2026-10-19T13:18:21.841Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,7 +9,31 @@
     },
     {
       "source": "hn",
-      "topic": "SIGSALY: Churchill's top secret hotline to the president",
+      "topic": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Free Pascal compiler now supports dynamic packages",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Alternatives to Animal Testing Are Finally Taking Off",
       "score": 4,
       "meta": {}
     },
@@ -39,19 +63,55 @@
     },
     {
       "source": "hn",
-      "topic": "Namecheap just seized and disabled all my domains",
+      "topic": "Someone behind the software",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Legal experts warn Meta's new terms still grant broad scraping permissions",
+      "topic": "RepRapMicron",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Free Pascal compiler now supports dynamic packages",
+      "topic": "Linux 7.3 Released",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I built a programming language that LLMs can't use",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "William Gibson and the trademarking of cyberspace",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to Train Your Robot",
       "score": 3,
       "meta": {}
     },
@@ -68,104 +128,92 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Trusts, worth it or not?",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "RepRapMicron",
+      "topic": "Timestral: Mistral release time-series foundation models",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Parser Combinators",
+      "topic": "Superlite: A Faster Alternatie to Superpowers",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+      "topic": "Rabbits were a medieval royal luxury in England until the Black Death",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Florida's HOAs and condo associations are making the housing crisis worse",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Will it be a golden age or a dark age for mathematics (and science)?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Java sealed classes and exhaustive pattern matching",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Someone behind the software",
+      "topic": "Laptop Based on 6502 CPU",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I electrified my push scooter with a power drill",
+      "topic": "PalmOS Lemmings",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Intel 8087 chip: floating-point addition and subtraction",
+      "topic": "The DNS Museum",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Beyond Tetris: The other games of Alexey Pajitnov [video]",
+      "topic": "How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Electronic Disturbance Theater and Electronic Civil Disobedience",
+      "topic": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "topic": "Let's Encrypt is adding two additional remote perspectives for domain validation",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Voyage of the Paper Canoe: 2500 Miles from Quebec to the Gulf of Mexico, 1874-5",
+      "topic": "Harness Engineering 101: The LLM is the brain, the harness is the body",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Geographical Fun: Being Humourous Outlines of Various Countries",
+      "topic": "ESA's Hera Will View Asteroid Scars from DART's Strike",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
+      "topic": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "8 in 10 Americans oppose live-streaming execution",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Am I being taken advantage of by my financial advisor?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "21, homeless & about to receive $12,000.. I need advice..",
       "score": 1,
       "meta": {}
     },
@@ -207,12 +255,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "39, Broke the Cycle but Never Learned to Build Wealth. Now What?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Are there financial professionals who'd put you on an allowance?",
       "score": 1,
       "meta": {}
@@ -236,20 +278,20 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Is it realistic to spend 50% of my income on rent in my situation?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "The Brain Sandwich",
+      "topic": "Gdynia and the Dream of a Maritime Poland",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PalmOS Lemmings",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Developing for Debugging",
+      "topic": "Tennyson's Faith: A Nobler Type",
       "score": 0,
       "meta": {}
     },
@@ -285,6 +327,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "I am 26 and have 1k to my name",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Gym Claims Unable to Cancel Membership",
       "score": 0,
       "meta": {}
@@ -303,13 +351,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Financial debt help!",
+      "topic": "What to do with my parents money",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "What to do with my parents money",
+      "topic": "HDHP is better than PPO, right?",
       "score": 0,
       "meta": {}
     },
