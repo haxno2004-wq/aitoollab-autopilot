@@ -1,8 +1,8 @@
 {
-  "slug": "ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders",
-  "title": "How to Safely Ship AI-Generated Code You Do Not Understand",
-  "description": "Learn a step-by-step workflow to audit, test, and document AI-generated code before production. Turn black-box output into maintainable software safely.",
-  "date": "2026-10-20T11:39:17.640Z",
-  "words": 1135,
+  "slug": "microg-free-libre-re-implementation-of-googles-proprietary-andro",
+  "title": "MicroG Guide: De-Googled Android for Modern AI Workflows",
+  "description": "Discover how MicroG replaces Google Play Services. Compare alternatives, assess trade-offs, and maintain your mobile AI productivity and automation securely.",
+  "date": "2026-10-20T21:41:12.290Z",
+  "words": 1180,
   "provider": "gemini"
 }

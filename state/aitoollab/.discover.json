@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-20T11:38:48.926Z",
+  "fetchedAt": "2026-10-20T21:39:51.731Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "score": 7,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
@@ -18,7 +12,7 @@
     },
     {
       "source": "hn",
-      "topic": "DeepSeek just open-sourced its inference engine",
+      "topic": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
       "score": 6,
       "meta": {}
     },
@@ -42,6 +36,12 @@
     },
     {
       "source": "hn",
+      "topic": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -60,25 +60,19 @@
     },
     {
       "source": "hn",
-      "topic": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "topic": "DeepInfer: High-performance inference framework for DeepSeek models",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ukraine claims first drone evacuation of wounded soldier",
+      "topic": "Apple broke an essential presentation feature of iPads",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An ad-free Android TV",
+      "topic": "Facebook Pages require paid subscription to post more than two links per month",
       "score": 4,
       "meta": {}
     },
@@ -108,43 +102,19 @@
     },
     {
       "source": "hn",
-      "topic": "It's still ok to enjoy programming",
+      "topic": "EMudhra Intermediate CA Compromise",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Wine ported to OpenBSD",
+      "topic": "SimCity, but with Permits",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I built a drone with only one motor [video]",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MiniMax M3.1 Flash",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Starcraft: Ashfall",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenBSD 8.0",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "topic": "Google Cloud outage affects almost all banking and other operations in Europe",
       "score": 3,
       "meta": {}
     },
@@ -195,31 +165,37 @@
     },
     {
       "source": "hn",
-      "topic": "Weball: Play Katamari on Websites",
+      "topic": "Publish fake stats, get cited in LLMs",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RuneScape Bench: MMOs for Agents [video]",
+      "topic": "Tsrs: A Port of TypeScript to Rust",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "France's supermarket fridges were vulnerable online for months",
+      "topic": "How I got over 300 Tor exit nodes removed",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "topic": "Ofcom concedes defeat in 4chan case",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "topic": "2026 is an exciting year for the Rust compiler (and me)",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery",
       "score": 2,
       "meta": {}
     },
@@ -249,37 +225,37 @@
     },
     {
       "source": "hn",
-      "topic": "How abliterated models can get you pwned",
+      "topic": "What shall I teach my son?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One Hash Bloom Filters",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Maxwell: A new kind of model that sits between code and hardware",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Restoration of Retinal Regenerative Potential",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "There is no official XScreenSaver GitHub repository",
+      "topic": "My Friend Bob Cringely",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "'Der Viener Schlinger': The meat cannon that launched 20k hot dogs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "JAXA is about to perform a Phobos sample return mission",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Claude designed protein binders against scorpion neurotoxins",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Academics have a duty to defend open knowledge systems like Wikipedia",
       "score": 1,
       "meta": {}
     },
@@ -363,31 +339,31 @@
     },
     {
       "source": "hn",
-      "topic": "How Do Fungi Keep the Planet Healthy?",
+      "topic": "Archive of Our Own",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Revolut down as users report app not working",
+      "topic": "On AI writing",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making a 88x31 button book using ImageMagick",
+      "topic": "Jepsen: Orkes Conductor 5.3.2",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google cloud outage takes down banks",
+      "topic": "Meta's GB{2,3}00 Cluster",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why Is Speculative Decoding Fast?",
+      "topic": "Hazel (YC W24) Is Hiring",
       "score": 0,
       "meta": {}
     }
