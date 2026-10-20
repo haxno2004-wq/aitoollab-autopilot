@@ -1,8 +1,8 @@
 {
-  "slug": "cern-and-mistral-sign-a-statement-of-intent-to-establish-a-strat",
-  "title": "CERN Partners with Mistral: A Scientific Dev Tool Review",
-  "description": "CERN and Mistral AI have signed a statement of intent. We evaluate how this partnership impacts self-hosted workflows, dev tools, and research productivity.",
-  "date": "2026-10-19T22:24:05.480Z",
-  "words": 1014,
+  "slug": "ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders",
+  "title": "Shipping AI Code You Don't Understand: A Practical Guide",
+  "description": "Learn how to inspect, verify, and safely ship AI-generated code. Discover robust workflows, testing strategies, and dev tools to maintain code quality.",
+  "date": "2026-10-20T11:39:31.737Z",
+  "words": 1082,
   "provider": "gemini"
 }

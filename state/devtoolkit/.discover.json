@@ -1,34 +1,46 @@
 {
-  "fetchedAt": "2026-10-19T22:23:33.782Z",
+  "fetchedAt": "2026-10-20T11:38:50.112Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Alternatives to animal testing are finally taking off",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "score": 5,
+      "score": 7,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Timestral: Mistral's time-series foundation models",
+      "topic": "DeepSeek just open-sourced its inference engine",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I no longer care to work on any Ruby gems so I've archived all my repositories",
+      "topic": "Ukraine claims first drone evacuation of wounded soldier",
       "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An ad-free Android TV",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "It's still ok to enjoy programming",
+      "score": 3,
       "meta": {}
     },
     {
@@ -39,7 +51,7 @@
     },
     {
       "source": "hn",
-      "topic": "It's still ok to enjoy programming",
+      "topic": "I built a drone with only one motor [video]",
       "score": 3,
       "meta": {}
     },
@@ -51,127 +63,115 @@
     },
     {
       "source": "hn",
-      "topic": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "topic": "Starcraft: Ashfall",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I built a drone with only one motor [video]",
-      "score": 2,
+      "topic": "OpenBSD 8.0",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Starcraft: Ashfall",
-      "score": 2,
+      "topic": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Android apps running native on macOS",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Mercury 3: Diffusion at scale",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The reverts will continue until morale improves",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The obscure trust looming over Anthropic's IPO",
+      "topic": "Weball: Play Katamari on Websites",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "RuneScape Bench: MMOs for Agents [video]",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Chicago O'Hare digs up 50-ton boulder under airfield, asks public for name ideas",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Galois Finite Fields and the Advanced Encryption Standard (AES)",
-      "score": 1,
+      "topic": "France's supermarket fridges were vulnerable online for months",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How abliterated models can get you pwned",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Detecting model weight tampering in GPU memory (Rome attacks)",
+      "topic": "One Hash Bloom Filters",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Evidence (YC S21) Is Hiring Software Engineers",
+      "topic": "Maxwell: A new kind of model that sits between code and hardware",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The fire retardant in the seafood chain",
+      "topic": "Restoration of Retinal Regenerative Potential",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "There is no official XScreenSaver GitHub repository",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "'Der Viener Schlinger': The meat cannon that launched 20k hot dogs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How Do Fungi Keep the Planet Healthy?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Annotated VT100 Firmware",
+      "topic": "Revolut down as users report app not working",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Credit where credit is due",
+      "topic": "Making a 88x31 button book using ImageMagick",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Coconuts in Medieval Britain",
+      "topic": "Google cloud outage takes down banks",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Integer to String Conversion",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Diablo 2 Survivors",
+      "topic": "Why Is Speculative Decoding Fast?",
       "score": 0,
       "meta": {}
     }
