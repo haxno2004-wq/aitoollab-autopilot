@@ -1,8 +1,8 @@
 {
-  "slug": "cern-and-mistral-sign-a-statement-of-intent-to-establish-a-strat",
-  "title": "CERN Teams with Mistral AI: An In-Depth Practical Review",
-  "description": "CERN and Mistral AI have signed a statement of intent. Discover how this partnership impacts scientific research, AI workflow automation, and open models.",
-  "date": "2026-10-19T22:24:23.110Z",
-  "words": 1248,
+  "slug": "ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders",
+  "title": "How to Safely Ship AI-Generated Code You Do Not Understand",
+  "description": "Learn a step-by-step workflow to audit, test, and document AI-generated code before production. Turn black-box output into maintainable software safely.",
+  "date": "2026-10-20T11:39:17.640Z",
+  "words": 1135,
   "provider": "gemini"
 }
