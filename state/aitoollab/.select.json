@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-21T11:50:48.821Z",
-  "topic": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
-  "slug": "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
+  "pickedAt": "2026-10-21T21:45:26.355Z",
+  "topic": "Using thousands of AI agents to uncover new leads in biological data",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "using-thousands-of-ai-agents-to-uncover-new-leads-in-biological",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
+  "finalScore": 7,
   "remaining": 41
 }
