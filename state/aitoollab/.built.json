@@ -1,8 +1,8 @@
 {
-  "slug": "microg-free-libre-re-implementation-of-googles-proprietary-andro",
-  "title": "MicroG Guide: De-Googled Android for Modern AI Workflows",
-  "description": "Discover how MicroG replaces Google Play Services. Compare alternatives, assess trade-offs, and maintain your mobile AI productivity and automation securely.",
-  "date": "2026-10-20T21:41:12.290Z",
-  "words": 1180,
+  "slug": "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
+  "title": "Google TorchTPU Guide: Native PyTorch on Google TPUs",
+  "description": "Learn how Google's open-source TorchTPU provides a native PyTorch back end for TPUs, improving your machine learning setup and workflow efficiency.",
+  "date": "2026-10-21T11:51:02.308Z",
+  "words": 856,
   "provider": "gemini"
 }
