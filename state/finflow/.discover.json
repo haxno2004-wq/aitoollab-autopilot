@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-21T11:50:49.073Z",
+  "fetchedAt": "2026-10-21T21:45:29.226Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "Help with budgeting?",
@@ -15,19 +9,25 @@
     },
     {
       "source": "hn",
-      "topic": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "topic": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "topic": "Today's PHP security release, and how we're strengthening security",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple broke an essential presentation feature of iPads",
+      "topic": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Google's Rust Style Guide",
       "score": 4,
       "meta": {}
     },
@@ -51,55 +51,25 @@
     },
     {
       "source": "hn",
-      "topic": "eMudhra intermediate CA compromise",
+      "topic": "PHP 8.2.35",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: SimCity, but with Permits",
+      "topic": "EA is shutting down BioWare",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What shall I teach my son?",
+      "topic": "Mistral Large 4",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Future of CSS",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ofcom concedes defeat in 4chan case",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Other Epidemic: Trying to get off benzodiazepines",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Muse exposes users' personal and business secrets when they share conversations",
+      "topic": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
       "score": 3,
       "meta": {}
     },
@@ -129,49 +99,85 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "For those that lived through 2008/2009 and had a ton of investments/portfolio, how was that rollercoaster?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Trusts, worth it or not?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "In Hilbert space, all things are quantumly possible",
+      "topic": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Good type against all odds",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Using Claude to reduce the attack surface of code",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Way to Play Super Mario 64: On Apple Vision Pro",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GitLab Remote Code Execution - Integer Overflow issue",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Using thousands of AI agents to uncover new leads in biological data",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Claude Duet",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Composite objects and C++26 the std:polymorphic type",
+      "topic": "OpenAI models are coming to Google Cloud",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bonanza of new dates rewrites the history of the Inca",
+      "topic": "Drupal is now light-years ahead of its reputation",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Your MCU likely escaped the eMudhra intermediate CA compromise",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days",
       "score": 1,
       "meta": {}
     },
@@ -201,13 +207,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I am up against the wall and have no clue what to do!",
+      "topic": "Employer I interviewed for, then got rejected, has shown up on my credit report",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Employer I interviewed for, then got rejected, has shown up on my credit report",
+      "topic": "I am up against the wall and have no clue what to do!",
       "score": 1,
       "meta": {}
     },
@@ -219,13 +225,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Canadian in the US: Lost job, must return home, no savings. Need help navigating debts (CAN/US)",
+      "topic": "Is it realistic to spend 50% of my income on rent in my situation?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is it realistic to spend 50% of my income on rent in my situation?",
+      "topic": "Canadian in the US: Lost job, must return home, no savings. Need help navigating debts (CAN/US)",
       "score": 1,
       "meta": {}
     },
@@ -237,61 +243,61 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "State garnished my bank account for back taxes",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Guaranteed annuities for retirement. Good or bad?",
       "score": 1,
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "20k in debt. Just received a 40k settlement check. Need guidance.",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "ZX Spectrum Next Laptop",
+      "topic": "Canary Tokens",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "C# now beats Rust on WASM size",
+      "topic": "The bridge to agent-scale Git infrastructure",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Decoherence Trap",
+      "topic": "Potential third critical PHP CVE",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Four Years with Decker",
+      "topic": "No More Icons in Every Menu by Default",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Whatever Happened to Fire Escapes",
+      "topic": "A Place Among the Fiddlers",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Does Ruby on Rails still make sense?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Finland Buying a Million Landmines",
+      "topic": "9 Mothers (YC P26) Is Hiring in Austin, TX",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Just found out my employer has not posted 5 months worth of paycheck contributions to my 401(k) balance.",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Girlfriends Finances",
       "score": 0,
       "meta": {}
     },

@@ -45,3 +45,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-20T11:43:53.772Z,ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders,Shipping AI-Code You Don't Understand: A Safe Developer Guide,gemini,906,success
 2026-10-20T21:40:55.245Z,microg-free-libre-re-implementation-of-googles-proprietary-andro,MicroG Guide: Open-Source Google Services Alternatives,gemini,1094,success
 2026-10-21T11:51:51.654Z,google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus,TorchTPU Guide: Native PyTorch on Google TPUs Explained,gemini,1133,success
+2026-10-21T21:46:31.897Z,compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale,"LiteLLM Review: Version 1.107.0 Breach, Features, and Safety",gemini,1065,success

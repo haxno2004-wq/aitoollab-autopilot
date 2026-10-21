@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-21T11:50:49.116Z",
-  "topic": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
-  "slug": "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
+  "pickedAt": "2026-10-21T21:45:29.267Z",
+  "topic": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
+  "finalScore": 4,
   "remaining": 56
 }
