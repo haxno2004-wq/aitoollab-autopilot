@@ -1,8 +1,8 @@
 {
-  "slug": "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
-  "title": "Google Open-Sources TorchTPU: A Practical Setup Guide",
-  "description": "Learn how Google's open-source TorchTPU backend works with PyTorch, what it excels at for model training, and whether your workflow should adopt it.",
-  "date": "2026-10-21T11:51:01.124Z",
-  "words": 860,
+  "slug": "compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale",
+  "title": "LiteLLM Review: Security Risks and the PyPI Compromise",
+  "description": "Evaluate LiteLLM following the PyPI version 1.107.0 compromise. Discover its core proxy strengths, security gaps, and tips to harden your dev environment.",
+  "date": "2026-10-21T21:46:06.764Z",
+  "words": 1054,
   "provider": "gemini"
 }
