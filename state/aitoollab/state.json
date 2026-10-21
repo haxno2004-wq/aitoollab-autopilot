@@ -54,7 +54,8 @@
     "alternatives-to-animal-testing-are-finally-taking-off",
     "cern-and-mistral-sign-a-statement-of-intent-to-establish-a-strat",
     "ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders",
-    "microg-free-libre-re-implementation-of-googles-proprietary-andro"
+    "microg-free-libre-re-implementation-of-googles-proprietary-andro",
+    "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -112,7 +113,8 @@
     "Alternatives to Animal Testing Are Finally Taking Off",
     "CERN and Mistral sign a statement of intent to establish a strategic partnership",
     "Ask HN: How to deal with shipping AI-written code you don't understand?",
-    "MicroG: Free-libre re-implementation of Google's proprietary Android user space"
+    "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+    "Google open-sources TorchTPU, a native PyTorch back end for TPUs"
   ],
-  "lastRun": "2026-10-20T21:41:31.374Z"
+  "lastRun": "2026-10-21T11:51:21.275Z"
 }
