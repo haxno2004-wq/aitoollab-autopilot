@@ -1,8 +1,8 @@
 {
-  "slug": "microg-free-libre-re-implementation-of-googles-proprietary-andro",
-  "title": "MicroG and DeGoogled Android: Guide to GMS Alternatives",
-  "description": "Explore MicroG and top Google Play Services alternatives for Android. Compare trade-offs, privacy gains, and developer workflows in this comprehensive guide.",
-  "date": "2026-10-20T21:40:42.719Z",
-  "words": 1124,
+  "slug": "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
+  "title": "Google Open-Sources TorchTPU: A Practical Setup Guide",
+  "description": "Learn how Google's open-source TorchTPU backend works with PyTorch, what it excels at for model training, and whether your workflow should adopt it.",
+  "date": "2026-10-21T11:51:01.124Z",
+  "words": 860,
   "provider": "gemini"
 }
