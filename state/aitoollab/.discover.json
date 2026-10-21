@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T21:39:51.731Z",
+  "fetchedAt": "2026-10-21T11:50:48.790Z",
   "candidates": [
     {
       "source": "hn",
@@ -12,7 +12,7 @@
     },
     {
       "source": "hn",
-      "topic": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "topic": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
       "score": 6,
       "meta": {}
     },
@@ -33,12 +33,6 @@
         "points": 156,
         "url": "https://www.youtube.com/watch?v=sRPnX_f2V_c"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "score": 5,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -66,13 +60,13 @@
     },
     {
       "source": "hn",
-      "topic": "Apple broke an essential presentation feature of iPads",
+      "topic": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Facebook Pages require paid subscription to post more than two links per month",
+      "topic": "Apple broke an essential presentation feature of iPads",
       "score": 4,
       "meta": {}
     },
@@ -102,19 +96,55 @@
     },
     {
       "source": "hn",
-      "topic": "EMudhra Intermediate CA Compromise",
+      "topic": "eMudhra intermediate CA compromise",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SimCity, but with Permits",
+      "topic": "Show HN: SimCity, but with Permits",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "topic": "What shall I teach my son?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Future of CSS",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ofcom concedes defeat in 4chan case",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Other Epidemic: Trying to get off benzodiazepines",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Muse exposes users' personal and business secrets when they share conversations",
       "score": 3,
       "meta": {}
     },
@@ -165,37 +195,7 @@
     },
     {
       "source": "hn",
-      "topic": "Publish fake stats, get cited in LLMs",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tsrs: A Port of TypeScript to Rust",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How I got over 300 Tor exit nodes removed",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ofcom concedes defeat in 4chan case",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "2026 is an exciting year for the Rust compiler (and me)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery",
+      "topic": "In Hilbert space, all things are quantumly possible",
       "score": 2,
       "meta": {}
     },
@@ -225,37 +225,31 @@
     },
     {
       "source": "hn",
-      "topic": "What shall I teach my son?",
+      "topic": "Good type against all odds",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "My Friend Bob Cringely",
+      "topic": "Using Claude to reduce the attack surface of code",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "'Der Viener Schlinger': The meat cannon that launched 20k hot dogs",
+      "topic": "Way to Play Super Mario 64: On Apple Vision Pro",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "JAXA is about to perform a Phobos sample return mission",
+      "topic": "Composite objects and C++26 the std:polymorphic type",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude designed protein binders against scorpion neurotoxins",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Academics have a duty to defend open knowledge systems like Wikipedia",
+      "topic": "Bonanza of new dates rewrites the history of the Inca",
       "score": 1,
       "meta": {}
     },
@@ -339,31 +333,43 @@
     },
     {
       "source": "hn",
-      "topic": "Archive of Our Own",
+      "topic": "ZX Spectrum Next Laptop",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "On AI writing",
+      "topic": "C# now beats Rust on WASM size",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jepsen: Orkes Conductor 5.3.2",
+      "topic": "The Decoherence Trap",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Meta's GB{2,3}00 Cluster",
+      "topic": "Four Years with Decker",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hazel (YC W24) Is Hiring",
+      "topic": "Whatever Happened to Fire Escapes",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Does Ruby on Rails still make sense?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Finland Buying a Million Landmines",
       "score": 0,
       "meta": {}
     }
