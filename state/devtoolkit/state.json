@@ -46,7 +46,8 @@
     "cern-and-mistral-sign-a-statement-of-intent-to-establish-a-strat",
     "ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders",
     "microg-free-libre-re-implementation-of-googles-proprietary-andro",
-    "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus"
+    "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
+    "compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
@@ -97,7 +98,8 @@
     "CERN and Mistral sign a statement of intent to establish a strategic partnership",
     "Ask HN: How to deal with shipping AI-written code you don't understand?",
     "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
-    "Google open-sources TorchTPU, a native PyTorch back end for TPUs"
+    "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+    "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor"
   ],
-  "lastRun": "2026-10-21T11:51:22.071Z"
+  "lastRun": "2026-10-21T21:46:24.882Z"
 }
