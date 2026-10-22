@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-21T21:45:25.539Z",
-  "topic": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+  "pickedAt": "2026-10-22T11:54:18.633Z",
+  "topic": "WorldTUI: I trained a 360M model to pretend to be a terminal",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale",
+  "slug": "worldtui-i-trained-a-360m-model-to-pretend-to-be-a-terminal",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 25
+  "finalScore": 8,
+  "remaining": 27
 }
