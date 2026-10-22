@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-21T21:45:29.267Z",
-  "topic": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale",
+  "pickedAt": "2026-10-22T11:54:21.482Z",
+  "topic": "Rust Style Guide",
+  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
+  "slug": "rust-style-guide",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 56
+  "finalScore": 6,
+  "remaining": 59
 }
