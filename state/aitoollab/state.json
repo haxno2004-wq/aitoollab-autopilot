@@ -57,7 +57,8 @@
     "microg-free-libre-re-implementation-of-googles-proprietary-andro",
     "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
     "using-thousands-of-ai-agents-to-uncover-new-leads-in-biological",
-    "rust-style-guide"
+    "rust-style-guide",
+    "emudhra-to-exit-global-ssl-tls-certificate-business"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -118,7 +119,8 @@
     "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
     "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
     "Using thousands of AI agents to uncover new leads in biological data",
-    "Rust Style Guide"
+    "Rust Style Guide",
+    "eMudhra to exit global SSL/TLS certificate business"
   ],
-  "lastRun": "2026-10-22T11:54:58.716Z"
+  "lastRun": "2026-10-22T21:39:48.645Z"
 }
