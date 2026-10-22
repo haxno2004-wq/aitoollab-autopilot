@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-21T21:45:26.355Z",
-  "topic": "Using thousands of AI agents to uncover new leads in biological data",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "using-thousands-of-ai-agents-to-uncover-new-leads-in-biological",
+  "pickedAt": "2026-10-22T11:54:20.055Z",
+  "topic": "Rust Style Guide",
+  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
+  "slug": "rust-style-guide",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 7,
-  "remaining": 41
+  "finalScore": 6,
+  "remaining": 43
 }

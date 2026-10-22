@@ -67,3 +67,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-20T21:41:31.374Z,microg-free-libre-re-implementation-of-googles-proprietary-andro,MicroG Guide: De-Googled Android for Modern AI Workflows,gemini,1180,success
 2026-10-21T11:51:21.275Z,google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus,Google TorchTPU Guide: Native PyTorch on Google TPUs,gemini,856,success
 2026-10-21T21:46:38.099Z,using-thousands-of-ai-agents-to-uncover-new-leads-in-biological,Deploying AI Agent Swarms to Uncover Biological Leads,gemini,1168,success
+2026-10-22T11:54:58.716Z,rust-style-guide,Rust Style Guide: A Step-by-Step Workflow Tutorial,gemini,1124,success

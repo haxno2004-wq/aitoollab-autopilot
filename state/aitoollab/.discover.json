@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T21:45:26.310Z",
+  "fetchedAt": "2026-10-22T11:54:20.013Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,6 +9,12 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
+    },
+    {
+      "source": "hn",
+      "topic": "Rust Style Guide",
+      "score": 6,
+      "meta": {}
     },
     {
       "source": "hn",
@@ -30,12 +36,6 @@
     },
     {
       "source": "hn",
-      "topic": "Using thousands of AI agents to uncover new leads in biological data",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -54,25 +54,25 @@
     },
     {
       "source": "hn",
-      "topic": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Today's PHP security release, and how we're strengthening security",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "topic": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google's Rust Style Guide",
+      "topic": "There isn't an easy exploit for this PHP vulnerability",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
       "score": 4,
       "meta": {}
     },
@@ -102,25 +102,61 @@
     },
     {
       "source": "hn",
-      "topic": "PHP 8.2.35",
+      "topic": "mitmproxy adds --emudhra option",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "EA is shutting down BioWare",
+      "topic": "Security Disclosure",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mistral Large 4",
+      "topic": "Claude Duet",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "topic": "PingCap TiDB Leaks",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GitLab critical patch release",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "No more icons in every menu by default",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI models are coming to Google Cloud",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
       "score": 3,
       "meta": {}
     },
@@ -171,31 +207,13 @@
     },
     {
       "source": "hn",
-      "topic": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "topic": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Way to Play Super Mario 64: On Apple Vision Pro",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GitLab Remote Code Execution - Integer Overflow issue",
+      "topic": "Using LLM for confidence scoring is a bad idea",
       "score": 2,
       "meta": {}
     },
@@ -225,43 +243,43 @@
     },
     {
       "source": "hn",
-      "topic": "Claude Duet",
+      "topic": "Code is clay now",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI models are coming to Google Cloud",
+      "topic": "OpenAI CLI",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Drupal is now light-years ahead of its reputation",
+      "topic": "Chain of Thought for Humans",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "topic": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New plastic pollution discovered: 'Plasticorals' coral rubble fused with plastic",
+      "topic": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Your MCU likely escaped the eMudhra intermediate CA compromise",
+      "topic": "Startup taps underwater volcano as energy source in \"proof point\" test",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AWS rates PHP RCE as Important so Amazon Linux 2023 patch may take 20 days",
+      "topic": "Eigenmoon: linear algebra puzzles by moonlight",
       "score": 1,
       "meta": {}
     },
@@ -345,37 +363,31 @@
     },
     {
       "source": "hn",
-      "topic": "Canary Tokens",
+      "topic": "Beyond the &",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The bridge to agent-scale Git infrastructure",
+      "topic": "Jailbreaking the Switch 2",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Potential third critical PHP CVE",
+      "topic": "What Is the Karakoram Anomaly?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "No More Icons in Every Menu by Default",
+      "topic": "ThinkPad I9990303 Error Catch-22",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Place Among the Fiddlers",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "9 Mothers (YC P26) Is Hiring in Austin, TX",
+      "topic": "The Robot I Didn't Expect to Build",
       "score": 0,
       "meta": {}
     }

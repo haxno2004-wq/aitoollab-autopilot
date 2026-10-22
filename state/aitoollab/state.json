@@ -56,7 +56,8 @@
     "ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders",
     "microg-free-libre-re-implementation-of-googles-proprietary-andro",
     "google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus",
-    "using-thousands-of-ai-agents-to-uncover-new-leads-in-biological"
+    "using-thousands-of-ai-agents-to-uncover-new-leads-in-biological",
+    "rust-style-guide"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -116,7 +117,8 @@
     "Ask HN: How to deal with shipping AI-written code you don't understand?",
     "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
     "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-    "Using thousands of AI agents to uncover new leads in biological data"
+    "Using thousands of AI agents to uncover new leads in biological data",
+    "Rust Style Guide"
   ],
-  "lastRun": "2026-10-21T21:46:38.098Z"
+  "lastRun": "2026-10-22T11:54:58.716Z"
 }
