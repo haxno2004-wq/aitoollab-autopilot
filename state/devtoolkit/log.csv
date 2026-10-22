@@ -49,3 +49,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-20T21:41:01.736Z,microg-free-libre-re-implementation-of-googles-proprietary-andro,MicroG and DeGoogled Android: Guide to GMS Alternatives,gemini,1124,success
 2026-10-21T11:51:22.071Z,google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus,Google Open-Sources TorchTPU: A Practical Setup Guide,gemini,860,success
 2026-10-21T21:46:24.882Z,compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale,LiteLLM Review: Security Risks and the PyPI Compromise,gemini,1054,success
+2026-10-22T11:54:52.246Z,worldtui-i-trained-a-360m-model-to-pretend-to-be-a-terminal,WorldTUI Review: I Trained a 360M Model for the Terminal,gemini,1194,success

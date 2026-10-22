@@ -1,8 +1,8 @@
 {
-  "slug": "compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale",
-  "title": "LiteLLM Review: Security Risks and the PyPI Compromise",
-  "description": "Evaluate LiteLLM following the PyPI version 1.107.0 compromise. Discover its core proxy strengths, security gaps, and tips to harden your dev environment.",
-  "date": "2026-10-21T21:46:06.764Z",
-  "words": 1054,
+  "slug": "worldtui-i-trained-a-360m-model-to-pretend-to-be-a-terminal",
+  "title": "WorldTUI Review: I Trained a 360M Model for the Terminal",
+  "description": "A hands-on review of WorldTUI, a 360M parameter model built to act as a terminal interface. Explore what works, what fails, and who should use it.",
+  "date": "2026-10-22T11:54:34.807Z",
+  "words": 1194,
   "provider": "gemini"
 }
