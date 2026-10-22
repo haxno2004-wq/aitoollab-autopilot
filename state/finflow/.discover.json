@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-10-22T11:54:21.449Z",
+  "fetchedAt": "2026-10-22T21:39:13.149Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Rust Style Guide",
-      "score": 6,
-      "meta": {}
-    },
     {
       "source": "reddit/personalfinance",
       "topic": "Help with budgeting?",
@@ -15,25 +9,19 @@
     },
     {
       "source": "hn",
-      "topic": "Today's PHP security release, and how we're strengthening security",
+      "topic": "eMudhra to exit global SSL/TLS certificate business",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+      "topic": "WorldTUI: I trained a 360M model to pretend to be a terminal",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "There isn't an easy exploit for this PHP vulnerability",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "topic": "Woman faces six years in prison over Cash App account she never opened",
       "score": 4,
       "meta": {}
     },
@@ -44,68 +32,32 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "receiving ~80k in settlement. Should I invest or pay off debt?",
-      "score": 4,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "mitmproxy adds --emudhra option",
+      "topic": "Quad9 (DNS Resolver) to Exit France",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Security Disclosure",
+      "topic": "Jailbreaking the Switch 2",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Duet",
+      "topic": "What Is Gridifcation",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PingCap TiDB Leaks",
+      "topic": "Show HN: Run full iOS 16.5 firmware on Android Devices",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GitLab critical patch release",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "No more icons in every menu by default",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenAI models are coming to Google Cloud",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "topic": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
       "score": 3,
       "meta": {}
     },
@@ -135,55 +87,85 @@
     },
     {
       "source": "hn",
-      "topic": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Using LLM for confidence scoring is a bad idea",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Code is clay now",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenAI CLI",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Chain of Thought for Humans",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Getting ready to operate GNU Taler in Germany",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A farewell to Arc browser",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "topic": "Dungeon Generation in the Gnomish Mines of NetHack",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Startup taps underwater volcano as energy source in \"proof point\" test",
+      "topic": "Every AI model has the same \"controversial\" take on humans",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Eigenmoon: linear algebra puzzles by moonlight",
+      "topic": "The Last Museum: Semantic search across 5.8M artworks from major museums",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI and the Enclosure of the Scientific Commons",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: UI micro interactions prompts for AI",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Turn regular JavaScript into a neural net",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The phenomena that brighten dawn and dusk",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Solving the 1950 cipher meant to test life after death",
       "score": 1,
       "meta": {}
     },
@@ -195,31 +177,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I feel ashamed. 26 and my parents are paying my rent",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Employer I interviewed for, then got rejected, has shown up on my credit report",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can someone dumb it down maxing 401k over brokerage?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Laid off and looking for work. But can I retire now?",
+      "topic": "I feel ashamed. 26 and my parents are paying my rent",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "I am up against the wall and have no clue what to do!",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Laid off and looking for work. But can I retire now?",
       "score": 1,
       "meta": {}
     },
@@ -237,19 +213,25 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Can you explain to me why the market only goes up in the long term as if I were a 5 year old ?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Is it realistic to spend 50% of my income on rent in my situation?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Canadian in the US: Lost job, must return home, no savings. Need help navigating debts (CAN/US)",
+      "topic": "Personal loan or 0%APR credit card to buy car?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Personal loan or 0%APR credit card to buy car?",
+      "topic": "45 no retirement, have $3,000 to put in Roth IRA",
       "score": 1,
       "meta": {}
     },
@@ -267,31 +249,7 @@
     },
     {
       "source": "hn",
-      "topic": "Beyond the &",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Jailbreaking the Switch 2",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What Is the Karakoram Anomaly?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ThinkPad I9990303 Error Catch-22",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Robot I Didn't Expect to Build",
+      "topic": "Arc is being sunset on December 22, 2026",
       "score": 0,
       "meta": {}
     },
@@ -345,6 +303,18 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Favorite credit cards for day to day use?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Early retirement - tell me what I'm missing",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Anxiety With Buying a Home",
       "score": 0,
       "meta": {}
@@ -363,19 +333,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Early retirement - tell me what I'm missing",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Favorite credit cards for day to day use?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "How can I retire early?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "3 payments behind on an $8k Capital One card, currently unemployed. Do I just let it go to default?",
       "score": 0,
       "meta": {}
     }
