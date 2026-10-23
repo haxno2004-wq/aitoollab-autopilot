@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T11:40:32.342Z",
+  "fetchedAt": "2026-10-23T21:27:00.818Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,55 +48,19 @@
     },
     {
       "source": "hn",
-      "topic": "eMudhra to exit global SSL/TLS certificate business",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Every AI model has the same \"controversial\" take on humans",
+      "topic": "Today, we hacked what we'd set out to hack: the iPhone",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Run full iOS 16.5 firmware on Android Devices",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LLMs are making formal software verification feasible at a much larger scale",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Getting ready to operate GNU Taler in Germany",
+      "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
       "score": 4,
       "meta": {}
     },
@@ -126,25 +90,19 @@
     },
     {
       "source": "hn",
-      "topic": "Quad9 to exit France",
+      "topic": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Docker is weird",
+      "topic": "Apple Music 404 Not Found",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hedra is a 3D open world game I wrote from scratch while in highschool",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The foolishness of \"natural language programming\"",
+      "topic": "Canadians are running out of time to oppose Bill C-22",
       "score": 3,
       "meta": {}
     },
@@ -195,7 +153,7 @@
     },
     {
       "source": "hn",
-      "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "topic": "The alien space of science: Coherent but cognitively unavailable directions",
       "score": 2,
       "meta": {}
     },
@@ -225,31 +183,85 @@
     },
     {
       "source": "hn",
-      "topic": "How does Fable 5.1 hide messages in images?",
+      "topic": "The Real Kevin Bacon",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The alien space of science: Coherent but cognitively unavailable directions",
+      "topic": "Job loss and cortisone mania",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dutch government had hacked into Jared Kushner's phone",
+      "topic": "Can we replace a $150k Looker with a bucket of HTML files?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Making a smart TV dumb and then smart",
+      "topic": "UUIDv7 doesn't have the properties you think it does",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hand-bent after 3D printing, Oberdoerfer and Krebs' Bend chair",
+      "topic": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dessa: the most authentic full-duplex speech model ever built",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Impossible Machines: declaratively program the physical world",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Florida officer found dead man, impersonated him for years, renovated his home",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We are all living inside of an obscure sci-fi film from 1970",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI: Securing our frontier model training environment",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
       "score": 1,
       "meta": {}
     },
@@ -339,49 +351,37 @@
     },
     {
       "source": "hn",
-      "topic": "This I Believe",
+      "topic": "How is music possible",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Color Names",
+      "topic": "The Missed Opportunities of Sonic 06",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The HTML-in-Canvas API origin trial",
+      "topic": "LISP Comes of Age",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I reverse engineered a board game",
+      "topic": "Animations for System Builders",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Rise and Fall of Jev",
+      "topic": "Total Historian",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Remove pgrust: the entry is cheating",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Is this the new cyber normal?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Job Loss and Cortisone Mania",
+      "topic": "DNS: A Replacement for Finger",
       "score": 0,
       "meta": {}
     }
