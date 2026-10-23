@@ -48,3 +48,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-21T21:46:31.897Z,compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale,"LiteLLM Review: Version 1.107.0 Breach, Features, and Safety",gemini,1065,success
 2026-10-22T11:54:51.969Z,rust-style-guide,Mastering the Rust Style Guide: A Step-by-Step Workflow,gemini,1116,success
 2026-10-22T21:43:59.714Z,emudhra-to-exit-global-ssl-tls-certificate-business,eMudhra Global SSL Exit: Full Review and Migration Guide,gemini,1102,success
+2026-10-23T11:44:11.970Z,every-ai-model-has-the-same-controversial-take-on-humans,Why Every AI Model Gives the Same Advice on Personal Finance,gemini,874,success
