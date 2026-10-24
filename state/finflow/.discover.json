@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-23T21:27:00.602Z",
+  "fetchedAt": "2026-10-24T11:02:49.007Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "A practical guide to AI image generation, from diffusion to agents",
+      "score": 5,
+      "meta": {}
+    },
     {
       "source": "hn",
       "topic": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
@@ -15,25 +21,19 @@
     },
     {
       "source": "hn",
-      "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "topic": "Canadians are running out of time to oppose Bill C-22",
       "score": 4,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "I'm 21 and Want to Be Financially Stable. Should I Save, Invest, or Get Insurance First?",
+      "source": "hn",
+      "topic": "Dessa: Conversation Model trained only on speech",
       "score": 4,
       "meta": {}
     },
     {
-      "source": "reddit/sidehustle",
-      "topic": "What side hustles work well for covering a small fixed monthly expense (like a subscription)?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/sidehustle",
-      "topic": "Good side hustle that takes little time and physical effort?",
+      "source": "hn",
+      "topic": "The Best Monopoly Strategy, Tested on 300M Games [video]",
       "score": 4,
       "meta": {}
     },
@@ -51,7 +51,19 @@
     },
     {
       "source": "hn",
-      "topic": "Canadians are running out of time to oppose Bill C-22",
+      "topic": "The Real Kevin Bacon",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "C vs. C#: racing VLC's Gaussian blur",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to run a city builder on 16 MHz",
       "score": 3,
       "meta": {}
     },
@@ -80,110 +92,98 @@
       "meta": {}
     },
     {
-      "source": "reddit/sidehustle",
-      "topic": "top scoring links : sidehustle",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/sidehustle",
-      "topic": "I really could use just an extra $500 per month, what are some good (and realistic) side hustle options?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/sidehustle",
-      "topic": "Digital Media Producer and Former Project Manager looking for a side hustle that aligns with my experience and skill-sets.",
+      "source": "reddit/personalfinance",
+      "topic": "Trusts, worth it or not?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The alien space of science: Coherent but cognitively unavailable directions",
+      "topic": "Twelve years of distributed SQLite",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Real Kevin Bacon",
+      "topic": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How close can pure functional programming get to C?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Quake Fan who built the map editor everybody uses",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Freezing a newborns credit",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "CVE Tracker",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Job loss and cortisone mania",
+      "topic": "OBS Studio 33",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Can we replace a $150k Looker with a bucket of HTML files?",
+      "topic": "Bringing uv and ty together",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "UUIDv7 doesn't have the properties you think it does",
+      "topic": "Air Purifiers as White Noise Machines",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+      "topic": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dessa: the most authentic full-duplex speech model ever built",
+      "topic": "Physicists trap a single antimatter particle for a month",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "topic": "How Block Blast harvests its players for ad money",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
+      "topic": "Rise of collagen-eating microbes may help explain gaps in the fossil record",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Impossible Machines: declaratively program the physical world",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Florida officer found dead man, impersonated him for years, renovated his home",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We are all living inside of an obscure sci-fi film from 1970",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenAI: Securing our frontier model training environment",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+      "topic": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
       "score": 1,
       "meta": {}
     },
@@ -202,12 +202,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "I feel ashamed. 26 and my parents are paying my rent",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I am up against the wall and have no clue what to do!",
       "score": 1,
       "meta": {}
     },
@@ -249,13 +243,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "State garnished my bank account for back taxes",
+      "topic": "Should i buy a used toyota corolla or just go for a new one?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should i buy a used toyota corolla or just go for a new one?",
+      "topic": "State garnished my bank account for back taxes",
       "score": 1,
       "meta": {}
     },
@@ -266,68 +260,50 @@
       "meta": {}
     },
     {
-      "source": "reddit/sidehustle",
-      "topic": "I got a little over 5K in 8 months using my old tech and about 2h a day",
+      "source": "reddit/personalfinance",
+      "topic": "Should I keep paying for extra life insurance when I have no dependents?",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/sidehustle",
-      "topic": "Sidehustle slowchat: What were your wins and fails this week?",
+      "source": "reddit/personalfinance",
+      "topic": "Elderly Father's (67M) Annual &quot;Heating & AC Maintenance Contract&quot;",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How is music possible",
+      "topic": "Apple Security Research Device",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Missed Opportunities of Sonic 06",
+      "topic": "I Don't Understand Quantum Physics",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LISP Comes of Age",
+      "topic": "One Man's Pan Am 747 Replica [video]",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Animations for System Builders",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Total Historian",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DNS: A Replacement for Finger",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Just found out my employer has not posted 5 months worth of paycheck contributions to my 401(k) balance.",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I am 26 and have 1k to my name",
+      "topic": "The Chalk and the Airplane",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "3 payments behind on an $8k Capital One card, currently unemployed. Do I just let it go to default?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I am 26 and have 1k to my name",
       "score": 0,
       "meta": {}
     },
@@ -345,19 +321,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Embarrassed to post this",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "HDHP is better than PPO, right?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Am I behind on retirement?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Is $10k in savings enough to move out?",
+      "topic": "Debt collector called me to get to my sister",
       "score": 0,
       "meta": {}
     },
@@ -381,19 +357,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Embarrassed to post this",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Anxiety With Buying a Home",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Someone wants to buy my house before I've listed it. Should I get an appraisal or ask them to make an offer first",
       "score": 0,
       "meta": {}
     },
@@ -406,24 +370,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "How can I retire early?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/sidehustle",
-      "topic": "Second job, part time schedule advice?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/sidehustle",
-      "topic": "Looking for advice, scared to start",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/sidehustle",
-      "topic": "survey platforms in the UAE",
       "score": 0,
       "meta": {}
     }
