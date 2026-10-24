@@ -1,0 +1,93 @@
+{
+  "_slug": "the-content-engine-turn-1-idea-into-7-days-of-content-1tp7sq5",
+  "_date": "2026-10-13T22:48:58.053Z",
+  "name": "The Content Engine: Turn 1 Idea Into 7 Days of Content",
+  "tagline": "Transform a single founder insight into a full week of high-converting social posts in under 20 minutes.",
+  "metaDescription": "Repurpose one core insight into 7 days of high-converting social posts. 12 plug-and-play prompts engineered specifically for busy solo founders and creators.",
+  "description": "The Content Engine is built specifically for solo founders who must drive qualified distribution while shipping product and handling operations. Maintaining a consistent editorial calendar often feels impossible when client emergencies and sprint deadlines dominate your calendar. This system solves founder content burnout by eliminating the blank-page problem. Instead of brainstorming seven disconnected ideas each week, you take one core breakthrough—a recent customer conversation, a failed feature experiment, or an operational bottleneck—and run it through these twelve modular transformation prompts.\n\nThese prompts work because they avoid generic AI platitudes and emulate proven founder-led growth frameworks. Each template forces structural specificity: extracting concrete data points, contrarian angles, tactical teardowns, visual frameworks, and high-converting calls to action. Every prompt includes explicit plug-and-play input brackets and a targeted execution tip to ensure your output sounds like an experienced builder rather than an automated bot. Run the engine once every Monday morning to generate an entire week of authoritative, client-generating LinkedIn posts and X threads in under thirty minutes.",
+  "tags": [
+    "solopreneur",
+    "content-marketing",
+    "prompts",
+    "social-media",
+    "founder-led-growth"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "12 plug-and-play prompts formatted for instant copy-pasting",
+    "1 Markdown source file (.md) for direct import into Obsidian, Notion, or text editors",
+    "1 Clean PDF quick-reference cheatsheet",
+    "Step-by-step 5-minute input guide with example founder inputs",
+    "Personal use license for solo founders, freelancers, and indie builders"
+  ],
+  "sampleItems": [
+    "Act as an experienced B2B copywriter. Transform this standard industry assumption: [Insert common industry belief] into an authoritative contrarian post. Break down why this conventional wisdom costs solo founders time or money, provide one concrete alternative approach based on [Insert your experience/data], and conclude with a practical 3-step action rule. Tone: analytical, direct, and pragmatic. Usage Tip: Pair this with a screenshot or real metric demonstrating the contrarian result to double engagement.",
+    "Write a candid build-in-public post analyzing this recent failure: [Insert failed experiment, lost deal, or wasted spend]. Structure it in four sections: What We Expected, What Actually Happened (with specific numbers), The Root Cause, and The System We Built to Prevent Recurrence. Tone: self-aware, resilient, objective. Usage Tip: Keep self-deprecation out; present the breakdown as professional engineering of operational improvements."
+  ],
+  "items": [
+    {
+      "title": "The Contrarian Teardown",
+      "category": "Contrarian",
+      "body": "Act as an experienced B2B copywriter. Transform this standard industry assumption: [Insert common industry belief] into an authoritative contrarian post. Break down why this conventional wisdom costs solo founders time or money, provide one concrete alternative approach based on [Insert your experience/data], and conclude with a practical 3-step action rule. Tone: analytical, direct, and pragmatic. Usage Tip: Pair this with a screenshot or real metric demonstrating the contrarian result to double engagement."
+    },
+    {
+      "title": "The Customer Objection Flip",
+      "category": "Case Study",
+      "body": "Turn this recent sales objection: [Insert customer hesitation or question] into a story-driven LinkedIn post. Detail the context of the conversation, why the prospect's concern was reasonable, the exact mental shift that resolved it, and the underlying principle other buyers should evaluate before purchasing. Avoid defensive language; focus entirely on buyer clarity. Usage Tip: Post this in the middle of the week when commercial prospects actively browse problem-solving content."
+    },
+    {
+      "title": "The 5-Step Micro-Tutorial",
+      "category": "Micro-Tutorial",
+      "body": "Take this technical or operational workflow: [Insert founder process] and condense it into a high-utility 5-step tutorial post. Format step 1 as quick context, steps 2-4 as immediate action items with zero fluff, and step 5 as common mistake to avoid. Add a crisp one-sentence summary at the end. Tone: actionable, concise, builder-focused. Usage Tip: Add line breaks between each numbered step to maximize skim-read readability on mobile feeds."
+    },
+    {
+      "title": "The Transparent Failure Post-Mortem",
+      "category": "Build in Public",
+      "body": "Write a candid build-in-public post analyzing this recent failure: [Insert failed experiment, lost deal, or wasted spend]. Structure it in four sections: What We Expected, What Actually Happened (with specific numbers), The Root Cause, and The System We Built to Prevent Recurrence. Tone: self-aware, resilient, objective. Usage Tip: Keep self-deprecation out; present the breakdown as professional engineering of operational improvements."
+    },
+    {
+      "title": "The Framework Visualizer",
+      "category": "Framework",
+      "body": "Convert this core strategic insight: [Insert founder insight] into a named, memorable 3-part framework. Give the framework an intuitive name, explain the input/output of each stage, and highlight the single bottleneck that breaks the system if ignored. Write an accompanying text post introducing the framework with bullet points. Usage Tip: Turn the text-based framework into a simple Canva diagram or hand-drawn sketch to accompany the post."
+    },
+    {
+      "title": "The Before-and-After Metric Breakdown",
+      "category": "Data Breakdown",
+      "body": "Extract a narrative post from this quantitative shift: [Insert before metric] to [Insert after metric] over [Insert timeframe]. Detail the baseline reality, the single catalyst variable that altered the trajectory, the second-order consequences of the change, and one caveat founders should know before replicating it. Keep the focus on operational mechanics. Usage Tip: Put the raw numbers directly in the opening hook line to capture instant attention."
+    },
+    {
+      "title": "The 'Stop Doing This' Diagnostic",
+      "category": "Curation",
+      "body": "Create a diagnostic checklist post identifying 3 subtle habits that sabotage [Insert target audience goal]. For each habit, provide the common rationalization solo operators use, the hidden operational tax it incurs, and the replacement habit. Conclude with a question asking readers which habit they struggle with most. Tone: empathetic but firm mentor. Usage Tip: Use bold text tags for the three habits so scanning readers immediately absorb the value."
+    },
+    {
+      "title": "The Direct Conversation Transcript",
+      "category": "Storytelling",
+      "body": "Reformat this recent conversation between me and [client/mentor/prospect] regarding [topic] into a short dialogue-style social post. Present the opening exchange verbatim, pause for an internal founder reflection explaining what was left unsaid, and summarize the key realization in two punchy takeaway sentences. Keep speaker labels clean and minimalistic. Usage Tip: Keep dialogue snippets under two sentences per turn to maintain rapid pacing."
+    },
+    {
+      "title": "The Stack Architecture Reveal",
+      "category": "Tool Stack",
+      "body": "Document the exact lean tech stack used to achieve: [Insert business outcome]. List 3 to 4 specific tools, their exact monthly cost, how they integrate, and why custom code or expensive enterprise alternatives were rejected. Emphasize capital efficiency and automation. Usage Tip: Solopreneurs love cost transparency; list exact dollar figures for each tool in your stack rather than generic tier names."
+    },
+    {
+      "title": "The Reframed FAQ",
+      "category": "Q&A Reframing",
+      "body": "Take this surface-level inquiry: [Insert frequently asked question] and reframe it into the question the prospect should have asked instead: [Insert deeper strategic question]. Explain why answering the surface question leads to poor outcomes and provide a detailed blueprint answering the deeper question. Usage Tip: Excellent for Friday afternoon posts when prospects reflect on broader strategy rather than immediate execution."
+    },
+    {
+      "title": "The Weekly Operational Retrospective",
+      "category": "Reflection",
+      "body": "Generate an end-of-week founder retrospective based on: [Insert primary win], [Insert primary drag], and [Insert single priority for next week]. Frame the post around deliberate focus, trade-offs made, and ruthless prioritization as a solo operator. Avoid hustle cliches; focus on leverage and sanity. Usage Tip: Post consistently on Friday afternoon or Sunday evening to establish a predictable touchpoint with your audience."
+    },
+    {
+      "title": "The High-Stakes Decision Teardown",
+      "category": "Decision Making",
+      "body": "Analyze this critical business fork-in-the-road: [Insert decision faced, e.g., pricing model change, feature deprecation, or tech migration]. Detail the options considered, the risk matrix evaluated, the non-consensus factor that determined the final call, and the early signals validating the choice. Tone: calm, strategic leadership. Usage Tip: Explicitly state what you had to sacrifice to make this decision work, proving founder conviction."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Content Engine: 12 prompts that turn one idea into a week of posts",
+  "_provider": "gemini"
+}

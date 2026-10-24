@@ -1,0 +1,52 @@
+{
+  "title": "What I Self-Host: A Pragmatic Guide to Local Tools",
+  "metaDescription": "Discover what I self-host to streamline personal finance and side projects. Learn which services save money, what to avoid, and who should skip self-hosting.",
+  "tags": [
+    "self-hosting",
+    "personal finance",
+    "open source",
+    "productivity",
+    "homelab"
+  ],
+  "sections": [
+    {
+      "heading": "Rethinking the Cloud: Why I Self-Host Core Tools",
+      "body": "The modern subscription model quietly extracts capital from household budgets under the guise of convenience. Over several years, standard cloud services for notes, password storage, and file hosting compound into significant recurring liabilities. In my own workflow, moving select services to local infrastructure began as an exercise to **save money**, but it evolved into an intentional strategy for digital independence and reliable utility.\n\nSelf-hosting does not require a commercial data rack or enterprise-grade cooling. My setup runs entirely on repurposed consumer hardware, keeping electricity consumption and capital investment low. The goal is never to recreate Amazon Web Services in a living room closet. Instead, the focus centers on running dependable, single-purpose applications that operate reliably without vendor telemetry, arbitrary price hikes, or forced interface redesigns.\n\nEvery dollar reclaimed from redundant software subscriptions can serve a more productive purpose, whether that means padding an **emergency fund** or accelerating an ongoing **debt payoff** journey. However, self-hosting is only an asset if the operational burden remains minimal. When systems demand frequent troubleshooting, the hidden cost of maintenance quickly overtakes any upfront software savings. By establishing strict boundaries around what runs locally, you can harvest the benefits of self-reliance while preserving your sanity and schedule."
+    },
+    {
+      "heading": "Self-Hosted Money Management: Securing Financial Records",
+      "body": "The foundation of my self-hosted environment belongs to **personal finance** applications. Handing over decades of transaction history, account numbers, and net worth tallies to commercial aggregators introduces privacy trade-offs that many users simply accept. By running open-source financial platforms like Actual Budget or Firefly III, I maintain full ownership of my financial history while building durable habits around cash flow tracking.\n\nLocal systems excel at granular **money management**. A dedicated self-hosted ledger makes it straightforward to design zero-based **budgeting** envelopes, track monthly progress toward milestones, and review historical spending patterns without third-party advertisements pushing high-interest credit cards. I also host Paperless-ngx, which serves as a central document hub. Every receipt, tax return, and mortgage statement is automatically ingested, tagged, and indexed with optical character recognition. \n\nThis setup also provides a distraction-free repository for educational notes on **investing basics**, such as broad-market index fund structures, asset allocation frameworks, and retirement contribution schedules. Because these services run behind an isolated reverse proxy on a private home network, the risk of data leakage via commercial broker integrations is eliminated. You get an immutable record of your financial journey that remains accessible even if an external internet service provider experiences an unexpected outage."
+    },
+    {
+      "heading": "Operational Utilities: Supporting a Lean Side Hustle",
+      "body": "Beyond budgeting, self-hosting offers tangible infrastructure for running an independent **side hustle**. Software platforms often charge steep tiered pricing for basic transactional capabilities, user management, and static site monitoring. By deploying lightweight, dockerized tools, you can prototype ideas and operate commercial micro-projects with virtually zero ongoing software overhead.\n\nIn my current stack, a few utility containers carry most of the workload:\n\n- **Vaultwarden:** A lightweight Bitwarden-compatible password manager that secures proprietary credentials, client accounts, and development keys across multiple machines.\n- **Umami:** A privacy-respecting analytics platform that delivers essential visitor metrics for commercial websites without relying on invasive cookies or heavy tracking scripts.\n- **Ntfy:** A simple push-notification service that alerts me when cron jobs finish, backups succeed, or client forms submit.\n\nMany online creators market digital infrastructure as a tool for effortless **passive income**, but running your own software is rarely entirely passive. Containers still require deliberate updating, operating systems demand regular security patches, and network configurations must be validated. However, by using self-hosted utilities to reduce project operational costs, you lower the break-even threshold for small business experiments. That financial breathing room lets you test new products, publish resources, and serve clients without the recurring pressure of enterprise software fees eating into your operational margins."
+    },
+    {
+      "heading": "How to Choose: Practical Rules and Who Should Skip It",
+      "body": "Deciding what to host comes down to evaluating utility against operational overhead. A pragmatic self-hosting strategy prioritizes tools that run on SQLite backends, consume negligible system memory, and require zero daily maintenance once deployed. If an application demands complex distributed databases or persistent external dependencies, the commercial cloud is usually the superior choice.\n\nBefore deploying any new service, apply these three criteria:\n\n1. **Data Sovereignty Value:** Does this tool hold sensitive information that benefits from private local storage, such as financial records or medical documents?\n2. **Failure Tolerance:** If the server goes offline during a workday, does it stop revenue generation or cause an immediate emergency?\n3. **Backup Simplicity:** Can the configuration and persistent data be fully backed up with a single folder snapshot to off-site storage?\n\n**Who should skip self-hosting?** Anyone whose primary professional work leaves them with zero bandwidth for system maintenance should avoid running their own applications. If you are struggling with basic technical configurations, or if spending three hours troubleshooting a failed Docker volume will derail your client deliverables, paying for managed software is a completely valid economic choice. Your billable time has concrete value; spending twenty hours configuring a tool just to trim ten dollars from your monthly budget is poor financial management. Self-host strictly when the autonomy, privacy, and cost efficiency genuinely outweigh the administrative effort."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does self-hosting actually save money compared to cloud subscriptions?",
+      "a": "Yes, but only if you use low-power consumer hardware you already own and deploy stable, low-maintenance applications. If you purchase expensive enterprise hardware or spend valuable working hours troubleshooting basic services, the financial advantage quickly disappears."
+    },
+    {
+      "q": "What happens to self-hosted financial tools if my local hardware fails?",
+      "a": "Hardware failures are inevitable over time, which makes an automated backup strategy essential. I maintain automated, encrypted daily backups that copy application data to both a separate local drive and an off-site object storage bucket, ensuring rapid recovery."
+    },
+    {
+      "q": "Can I run a side hustle purely on self-hosted services?",
+      "a": "You can host supporting utilities like analytics, internal documentation, and lightweight task boards locally. However, customer-facing web services that require 99.9% uptime and global low latency are usually better suited for inexpensive commercial VPS providers."
+    }
+  ],
+  "keyTakeaway": "Self-hosting delivers genuine value for privacy-critical personal finance records and lean side projects, provided you keep the infrastructure minimal and prioritize operational stability over complexity.",
+  "_wordCount": 1036,
+  "_provider": "gemini",
+  "_topic": "What I self-host",
+  "_slug": "what-i-self-host",
+  "_angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
+  "_source": "hn",
+  "_sourceMeta": {},
+  "_date": "2026-10-16T11:26:32.082Z"
+}

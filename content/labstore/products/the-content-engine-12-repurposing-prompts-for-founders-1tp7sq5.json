@@ -1,88 +1,88 @@
 {
   "_slug": "the-content-engine-12-repurposing-prompts-for-founders-1tp7sq5",
-  "_date": "2026-10-02T22:17:20.657Z",
+  "_date": "2026-10-09T22:44:59.588Z",
   "name": "The Content Engine: 12 Repurposing Prompts for Founders",
-  "tagline": "Turn a single core idea into an entire week of engaging multi-platform founder content.",
-  "metaDescription": "Turn 1 core business idea into 7 days of founder content across LinkedIn, X, and newsletters with 12 plug-and-play AI prompts built for solo builders.",
-  "description": "The Content Engine is built specifically for time-strapped solo founders who know consistent distribution matters but refuse to spend ten hours a week wrestling with a blank cursor.\n\nWhen you are building, supporting customers, and writing code, ideation fatigue sets in fast. The solution is not generating random, disconnected posts every morning. It is running one validated insight, customer interaction, or technical obstacle through a deliberate repurposing system.\n\nThese 12 plug-and-play prompts break a single source idea into distinct, high-signal narrative angles: from technical teardowns and contrarian hooks to micro-case studies and actionable tutorials. Each prompt enforces lean, authentic copy that sounds like a pragmatic founder in the trenches—never a generic corporate marketer.\n\nSimply drop your weekly business win, failure, or feature release into each prompt. You will produce seven days of multi-format content for LinkedIn, X, and your email newsletter in under 45 minutes, letting you get straight back to building your product.",
+  "tagline": "Turn one core insight into a full week of high-converting content across LinkedIn, X, and newsletters.",
+  "metaDescription": "Transform a single business insight into a full week of strategic social posts and emails with 12 plug-and-play AI prompts designed for solo founders.",
+  "description": "### Built for Solo Founders Who Lack Time to Write Daily\n\nAs a solo founder, you cannot afford to spend ten hours a week staring at a blinking cursor. Yet staying visible on social platforms and email is non-negotiable for organic distribution. The solution is not generating more random thoughts—it is extracting every drop of value from the operational insights you already generate while building your business.\n\n**The Content Engine** solves creator burnout with a hub-and-spoke repurposing architecture. You bring one core idea—a customer conversation, a launch takeaway, or a hard-won technical lesson—and these 12 prompts systematically translate it into diverse, platform-native assets.\n\n### Why These Prompts Work\n\nMost AI content prompts produce hollow, buzzword-heavy fluff because they lack structural guardrails. These prompts enforce strict negative constraints, proven narrative formulas, and direct tone controls. Each prompt includes built-in operational parameters that strip out clichés like \"game-changer\" or \"in today's fast-paced world,\" forcing the LLM to deliver crisp, actionable drafts tailored to founder-led growth.",
   "tags": [
     "content marketing",
     "solopreneur",
-    "prompts",
+    "prompt engineering",
     "repurposing"
   ],
   "price": 19,
   "license": "personal use license",
   "includes": [
-    "12 Battle-tested content transformation prompts",
-    "Notion workspace template for weekly pipeline planning",
-    "Swipe file of real founder examples and hooks",
-    "Markdown and PDF reference guides"
+    "12 battle-tested prompt templates in Markdown and Notion-ready formats",
+    "A 1-page Quickstart Implementation Guide with workflow recommendations",
+    "Negative constraint swipe file to eliminate generic AI phrases",
+    "Platform format breakdown: LinkedIn, X, Substack/Newsletters, and Short Video"
   ],
   "sampleItems": [
-    "Act as an editorial strategist for a solo SaaS founder. Take this core concept: [INSERT CORE IDEA/FEATURE/INSIGHT]. Transform it into a contrarian LinkedIn post that challenges a common industry best practice. Start with an arresting, 1-line contrarian hook. Follow with 3 bulleted reasons why traditional advice fails modern teams, drawn from real-world execution. End with the specific alternative approach we implemented and an open question to prompt discussion. Tone: direct, evidence-based, zero fluff.",
-    "Convert this business milestone or lesson: [INSERT RAW EXPERIENCE OR METRIC] into a punchy, 5-post X thread for builders. Post 1: The quantified hook (state the outcome and the unexpected timeline). Post 2: The standard mistake most founders make in this scenario. Post 3: The exact pivot or tactic we tested. Post 4: The trade-off or cost nobody mentions. Post 5: The one-sentence takeaway plus a link to our product/newsletter. Keep sentences under 15 words."
+    "Act as a direct-response B2B copywriter. Take this core insight: [INSERT IDEA]. Write a 150-word LinkedIn post challenging a common industry practice. Structure: 1) A one-line contrarian hook that stops the scroll, 2) The hidden financial or operational cost of the traditional method, 3) My proposed alternative derived from the core insight, 4) A concrete 3-step execution takeaway, and 5) An open question prompting debate. Tone: Direct, pragmatic, and analytical. Do not use emojis, hashtags, or hyperbolic jargon.",
+    "Turn this core insight: [INSERT IDEA] into a high-utility 6-post thread for founders on X. Post 1: State an uncomfortable truth and the tangible outcome of solving it. Posts 2-4: Break down the execution mechanics into sequential, numbered steps with zero filler. Post 5: Share the primary pitfall to avoid. Post 6: Provide a punchy summary rule and invite founders to bookmark. Usage tip: Replace passive verbs with direct commands before publishing."
   ],
   "items": [
     {
-      "title": "The Contrarian Take Transformer",
-      "category": "Hooks & Positioning",
-      "body": "Act as an editorial strategist for a solo SaaS founder. Take this core concept: [INSERT CORE IDEA/FEATURE/INSIGHT]. Transform it into a contrarian LinkedIn post that challenges a common industry best practice. Start with an arresting, 1-line contrarian hook. Follow with 3 bulleted reasons why traditional advice fails modern teams, drawn from real-world execution. End with the specific alternative approach we implemented and an open question to prompt discussion. Tone: direct, evidence-based, zero fluff."
+      "title": "The Contrarian Industry Take",
+      "category": "Thought Leadership",
+      "body": "Act as a direct-response B2B copywriter. Take this core insight: [INSERT IDEA]. Write a 150-word LinkedIn post challenging a common industry practice. Structure: 1) A one-line contrarian hook that stops the scroll, 2) The hidden financial or operational cost of the traditional method, 3) My proposed alternative derived from the core insight, 4) A concrete 3-step execution takeaway, and 5) An open question prompting debate. Tone: Direct, pragmatic, and analytical. Do not use emojis, hashtags, or hyperbolic jargon."
     },
     {
-      "title": "The Tactical Thread Architect",
-      "category": "Short-Form Social",
-      "body": "Convert this business milestone or lesson: [INSERT RAW EXPERIENCE OR METRIC] into a punchy, 5-post X thread for builders. Post 1: The quantified hook (state the outcome and the unexpected timeline). Post 2: The standard mistake most founders make in this scenario. Post 3: The exact pivot or tactic we tested. Post 4: The trade-off or cost nobody mentions. Post 5: The one-sentence takeaway plus a link to our product/newsletter. Keep sentences under 15 words."
+      "title": "The Step-by-Step Tactical Thread",
+      "category": "Educational Playbooks",
+      "body": "Turn this core insight: [INSERT IDEA] into a high-utility 6-post thread for founders on X. Post 1: State an uncomfortable truth and the tangible outcome of solving it. Posts 2-4: Break down the execution mechanics into sequential, numbered steps with zero filler. Post 5: Share the primary pitfall to avoid. Post 6: Provide a punchy summary rule and invite founders to bookmark. Usage tip: Replace passive verbs with direct commands before publishing."
     },
     {
-      "title": "The Friction-to-Feature Teardown",
-      "category": "Micro-Case Studies",
-      "body": "Take this specific customer problem we recently solved: [DESCRIBE USER PROBLEM AND SOLUTION]. Write a behind-the-scenes case study post under 200 words. Structure it with: 1) The status quo pain point, 2) Why existing tools were inadequate, 3) The lightweight mechanism we built to fix it, and 4) The measurable result. Frame this around practical product philosophy rather than a hard sales pitch. Target audience: prospective B2B buyers and technical peers."
+      "title": "The Vulnerable Founder Post-Mortem",
+      "category": "Storytelling",
+      "body": "Write a reflective narrative post (under 200 words) using this core insight: [INSERT IDEA]. Frame it around a mistake I made early on. Follow this arc: 1) The mistake and its immediate consequence, 2) The flawed assumption that led to it, 3) The realization that shifted my mental model, and 4) The operational change I made as a result. Tone: Transparent, humble, and grounded in operational reality. Avoid melodramatic language."
     },
     {
-      "title": "The Slide-by-Slide Carousel Outline",
-      "category": "Visual Assets",
-      "body": "Turn this insight: [INSERT CORE LESSON OR WORKFLOW] into a 6-slide LinkedIn PDF carousel outline. Slide 1: High-contrast hook title with subtext. Slide 2: The hidden cost of doing nothing. Slides 3-5: Step-by-step breakdown of our exact framework, with one clear action verb per slide. Slide 6: Summary checklist and bookmark CTA. Provide precise copy for both headline and body text for every slide, keeping visual real estate uncluttered."
+      "title": "The Newsletter Lead Essay",
+      "category": "Long-Form Email",
+      "body": "Act as an experienced tech editor. Expand this core insight: [INSERT IDEA] into a 350-word editorial for a founder newsletter. Include: 1) An anecdotal hook introducing a common friction point, 2) A detailed breakdown of why standard advice fails, 3) A deep dive into the insight with a hypothetical micro-scenario, and 4) A closing exercise readers can complete in 15 minutes. Voice: Clear, conversational, and intellectually rigorous."
     },
     {
-      "title": "The Transparent Failure Audit",
-      "category": "Build in Public",
-      "body": "Help me write a transparent 'build in public' post about this mistake: [DESCRIBE BUG, CHURN EVENT, OR WRONG ASSUMPTION]. Format the post to highlight intellectual honesty without sounding alarmist. Open with what broke and the exact metric impacted. Outline the flawed assumption that caused it, the immediate remediation steps taken, and the permanent operational guardrail we installed. Conclude with a takeaway for other bootstrapped founders. No corporate euphemisms."
+      "title": "The 3-Part Framework Breakdown",
+      "category": "Educational Playbooks",
+      "body": "Package this core insight: [INSERT IDEA] into a branded, proprietary 3-step framework. Give the framework a memorable name (2-3 words). For each step, write: 1) The action name, 2) The common error to avoid, and 3) The single metric to evaluate success. Output this in a clean, vertical list format optimized for mobile skimming on LinkedIn or Substack Notes. Keep total length under 180 words."
     },
     {
-      "title": "The Operator's Actionable Checklist",
-      "category": "How-To Guides",
-      "body": "Extract a plug-and-play implementation guide from this concept: [INSERT PROCESS OR WORKFLOW]. Format it as a skimmable social post featuring a 5-step checklist. Every step must start with a strong imperative verb, describe the exact tool or method required, and include an estimated execution time. Add a short introductory note on who should use this workflow and who should skip it. Prioritize extreme clarity over theoretical depth."
+      "title": "The High-Friction Debate Starter",
+      "category": "Audience Engagement",
+      "body": "Using this core insight: [INSERT IDEA], craft a polarizing discussion prompt designed to drive high-signal comments from other operators. Frame two competing philosophies: School A (the traditional, safe route) versus School B (the aggressive, modern route based on my insight). State the trade-offs of both without picking a clear winner, then ask: 'Which path did you pick when scaling, and what broke first?' Max 90 words."
     },
     {
-      "title": "The Non-Sales Product Integration",
-      "category": "Conversion",
-      "body": "Using this feature launch or update: [INSERT FEATURE AND BENEFIT], draft a soft-sell founder update. Anchor the post in the customer workflow problem that inspired the release. Walk through the 'before vs. after' user experience without using hype words like 'game-changer' or 'revolutionary'. Include a low-friction call-to-action inviting users to reply for early access or leave feedback on the architecture. Maintain a collaborative, product-first tone."
+      "title": "The Quantitative Case Study Teaser",
+      "category": "Social Proof",
+      "body": "Take this operational insight: [INSERT IDEA] and structure it into a results-driven mini case study. Outline: 1) Baseline situation and initial constraints, 2) The single change made based on the insight, 3) The timeline to see results, and 4) The qualitative or quantitative outcome achieved. Emphasize cause-and-effect over self-congratulation. Keep sentences short, punchy, and under 120 words total."
     },
     {
-      "title": "The Plain-English Tech Explainer",
-      "category": "Technical Authority",
-      "body": "Translate this technical choice or architecture decision: [INSERT TECH STACK CHOICE OR ARCHITECTURE DETAIL] for non-technical business founders. Explain: 1) What technical decision we made, 2) Why conventional stacks create hidden overhead for lean teams, and 3) The business speed or cost advantage this delivers to our end customers. Use an intuitive real-world analogy to illustrate the concept clearly in under 180 words."
+      "title": "The 60-Second Video Script",
+      "category": "Short-Form Video",
+      "body": "Write a 60-second talking-head video script based on this insight: [INSERT IDEA]. Format with bracketed camera directions and spoken lines. Second 0-5: Pattern interrupt hook addressing a solo founder's pain point. Second 6-25: Explain why current advice drains their resources. Second 26-50: Reveal the core insight and give one actionable instruction. Second 51-60: Call to action to leave a comment or save. Spoken pace: 130 words maximum."
     },
     {
-      "title": "The 3-Minute Newsletter Deep Dive",
-      "category": "Newsletters",
-      "body": "Expand this core premise: [INSERT CENTRAL THOUGHT] into a concise 300-word founder newsletter section. Use the following hierarchy: a relatable 2-sentence opening anecdote, the broader industry shift driving this reality, our direct internal data or experiment results, and 3 bulleted implementation rules readers can apply today. End with a personal founder sign-off that asks a specific question to encourage email replies."
+      "title": "The Visual Slide Deck Outline",
+      "category": "Visual Content",
+      "body": "Convert this core insight: [INSERT IDEA] into an outline for an 8-slide carousel. For each slide, write: 1) Slide Headline, 2) Visual concept or layout note, and 3) Body text (maximum 25 words per slide). Slide 1 must be a curiosity-inducing title slide; Slide 7 must summarize the key takeaway into a checklist; Slide 8 must be a profile follow CTA. Ensure logical pacing and strong readability."
     },
     {
-      "title": "The High-Engagement Discussion Poll",
-      "category": "Community Engagement",
-      "body": "Based on this debated industry topic: [INSERT INDUSTRY DILEMMA], create a high-engagement LinkedIn poll. Provide: 1) A provocative context paragraph explaining why this decision splits founders, 2) Four distinct, mutually exclusive poll choices representing different operating philosophies, and 3) A short prompt in the post body asking readers to defend their vote in the comments. Keep the setup unbiased and analytically sharp."
+      "title": "The Myth vs. Reality Breakdown",
+      "category": "Thought Leadership",
+      "body": "Take this core insight: [INSERT IDEA] and construct a 'Myth vs. Reality' comparison post. Highlight 3 widespread myths related to the topic. For each myth, provide: 1) What everyone says, 2) What actually happens in the trenches, and 3) The practical truth derived from my core insight. Conclude with a 1-sentence summary rule. Tone: Sharp, pragmatic, and demystifying. Target length: 140 words."
     },
     {
-      "title": "The Founder Philosophy Manifesto",
-      "category": "Brand Positioning",
-      "body": "Frame this internal operating rule: [INSERT CORE BELIEF OR OPINION] into an opinionated manifesto post. State what our company intentionally refuses to do, contrasting it directly with mainstream venture-backed or corporate defaults. Detail how this constraint makes our software, pricing, or customer relationships better. Keep the pacing rapid with alternating short and long sentences. Emphasize autonomy, simplicity, and craftsmanship."
+      "title": "The Curated Resource Stack",
+      "category": "Resource Curation",
+      "body": "Frame this core insight: [INSERT IDEA] through the lens of recommended tooling and workflows. Write a post listing: 1) The core bottleneck identified by the insight, 2) 3 complementary tools or mental models that solve it, and 3) The exact daily routine needed to implement the solution. Position this as an indispensable toolkit for bootstrapped operators. Keep formatting crisp with bullet points. Under 150 words."
     },
     {
-      "title": "The Friday Retrospective Digest",
-      "category": "Weekly Cadence",
-      "body": "Synthesize this week's raw notes: [INSERT 3-4 BULLETS OF WEEKLY EVENTS/WINS/METRICS] into a Friday recap post. Structure into three tidy sections: 'Shipped' (tangible product updates), 'Learned' (surprising customer data or technical friction), and 'Next' (the single priority for next week). Keep formatting ultra-clean with plain bullets and emojis used sparingly as structural markers. End by wishing fellow builders a productive weekend."
+      "title": "The Friday Retrospective Recap",
+      "category": "Weekly Retrospective",
+      "body": "Synthesize this core insight: [INSERT IDEA] into a Friday executive summary. Structure: 1) 'The Big Realization This Week' (2 sentences), 2) '3 Experiments Run' (bullet points summarizing practical applications), 3) 'The Metric That Moved', and 4) 'What We Are Changing Next Week'. Tone: Authentic, reflective, and operationally focused. Keep the entire update under 130 words to maximize weekend engagement."
     }
   ],
   "buyUrl": null,

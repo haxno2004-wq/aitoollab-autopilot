@@ -18,3 +18,35 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-06T22:41:14.944Z,example-com-just-launched-the-biggest-redesign-in-decades,"Example.com Redesign Review: Features, Pros, and Cons",gemini,1201,success
 2026-10-07T05:21:16.265Z,embeddinggemma-2-an-open-lightweight-multimodal-embedding-model,EmbeddingGemma 2 Review: Open Multimodal Embeddings,gemini,1218,success
 2026-10-07T05:32:31.492Z,multiple-kids-phones-budget,Best Budget Phones for Kids: A Hands-On Family Review,gemini,1009,success
+2026-10-07T13:26:39.610Z,strands-decider-2b-a-small-open-source-decision-model,Strands Decider 2B: Practical Guide & Setup for Users,gemini,1188,success
+2026-10-07T23:08:43.040Z,trying-to-remember-the-name-of-an-older-windows-finance-and-budg,Remembering Microsoft Money: Classic Desktop Finance Reviewed,gemini,1275,success
+2026-10-08T13:32:17.458Z,dat-ecosystem-high-level-applications-built-on-top-of-p2p-protoc,Dat-Ecosystem Review: Decentralized Storage Protocols,gemini,1052,success
+2026-10-09T13:20:50.954Z,adhd-as-a-circadian-rhythm-disorder-evidence-and-implications-fo,ADHD and Circadian Rhythms: Chronotherapy and Money,gemini,818,success
+2026-10-09T22:46:21.324Z,keyboard-differences-between-windows-and-macs,Windows vs Mac Keyboards: A Practical Review for Workers,gemini,879,success
+2026-10-10T12:35:13.197Z,26-year-old-with-about-15-5k-saved-in-a-performance-savings-acco,Have $15.5K Saved at 26? Here Is Exactly What to Do Next,gemini,1180,success
+2026-10-11T12:53:07.082Z,44m-married-nj-started-investing-during-covid-how-am-i-doing-fin,"Mid-Career Financial Review: 44, Married in New Jersey",gemini,1204,success
+2026-10-12T15:28:15.133Z,local-indexing-to-reduce-tool-calling-and-token-usage,Local Indexing for AI Tools: Save Tokens & Cut Costs,gemini,943,success
+2026-10-13T14:14:48.390Z,ai-is-a-tool-and-using-it-well-takes-skill,AI for Personal Finance: A Hands-On Skill Review,gemini,878,success
+2026-10-14T07:13:42.534Z,show-hn-pulse-local-a-mac-budgeting-app-whose-ai-models-run-on-y,Pulse Local Review: Offline AI Budgeting App for Mac,gemini,1299,success
+2026-10-14T07:41:12.213Z,11-year-old-unsoundness-bugs-found-in-rust-borrow-checker,Rust Borrow Checker Unsoundness Bugs: A Practical Review,gemini,861,success
+2026-10-14T07:49:58.317Z,had-some-money-to-invest-gave-it-to-an-advisor-why-not-just-the,Advisors vs. S&P 500: Do You Really Need a Pro?,gemini,1141,success
+2026-10-14T11:54:59.940Z,ai-laser-locking-for-quantum-computers-how-quera-automates-it,AI Laser Locking for Quantum Computers: QuEra Automation Guide,gemini,1036,success
+2026-10-14T21:44:33.439Z,starting-over-from-scratch-at-56-need-advice-on-retirement-savin,"Starting Over at 56: Retirement, Budgeting, and Housing Guide",gemini,1057,success
+2026-10-15T11:32:32.843Z,aidlc-adaptive-workflow-steering-rules-for-ai-coding-agents,Aidlc: Adaptive Workflow Steering Rules for AI Coding Agents,gemini,977,success
+2026-10-15T21:27:25.527Z,fasth3-omni-the-best-open-source-h3-model,"FastH3-Omni Guide: Open-Source Setup, Strengths & Trade-offs",gemini,1148,success
+2026-10-16T11:26:49.463Z,what-i-self-host,What I Self-Host: A Pragmatic Guide to Local Tools,gemini,1036,success
+2026-10-16T21:14:09.744Z,help-with-budgeting,Budgeting Systems Reviewed: What Works and What Fails,gemini,1099,success
+2026-10-17T10:47:03.828Z,jpeg-xl-vs-avif-for-web-use-cases,JPEG XL vs. AVIF: Practical Web Format Comparison & Guide,gemini,1260,success
+2026-10-17T20:40:19.284Z,22-advice-for-401k-vs-roth-401k-hysa-brokerage-roth-ira,"Investing at 22: Roth IRA, 401(k), HYSA, or Brokerage?",gemini,1078,success
+2026-10-18T11:07:56.100Z,bleached-corals-thrive-within-days-when-touching-healthy-neighbo,Bleached Corals Recover via Contact: Hands-On Field Review,gemini,1266,success
+2026-10-18T20:48:24.794Z,im-21-and-want-to-be-financially-stable-should-i-save-invest-or,"Save, Invest, or Insure First? A Guide for 21-Year-Olds",gemini,1339,success
+2026-10-19T13:19:17.814Z,alternatives-to-animal-testing-are-finally-taking-off,Top Alternatives to Animal Testing: Methods and Trade-Offs,gemini,1099,success
+2026-10-19T22:24:40.814Z,cern-and-mistral-sign-a-statement-of-intent-to-establish-a-strat,CERN and Mistral AI Partnership: A Practical Review,gemini,1036,success
+2026-10-20T11:43:53.772Z,ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders,Shipping AI-Code You Don't Understand: A Safe Developer Guide,gemini,906,success
+2026-10-20T21:40:55.245Z,microg-free-libre-re-implementation-of-googles-proprietary-andro,MicroG Guide: Open-Source Google Services Alternatives,gemini,1094,success
+2026-10-21T11:51:51.654Z,google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus,TorchTPU Guide: Native PyTorch on Google TPUs Explained,gemini,1133,success
+2026-10-21T21:46:31.897Z,compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale,"LiteLLM Review: Version 1.107.0 Breach, Features, and Safety",gemini,1065,success
+2026-10-22T11:54:51.969Z,rust-style-guide,Mastering the Rust Style Guide: A Step-by-Step Workflow,gemini,1116,success
+2026-10-22T21:43:59.714Z,emudhra-to-exit-global-ssl-tls-certificate-business,eMudhra Global SSL Exit: Full Review and Migration Guide,gemini,1102,success
+2026-10-23T11:44:11.970Z,every-ai-model-has-the-same-controversial-take-on-humans,Why Every AI Model Gives the Same Advice on Personal Finance,gemini,874,success
+2026-10-23T21:32:05.590Z,good-side-hustle-that-takes-little-time-and-physical-effort,Best Low-Effort Side Hustle Ideas for Busy Schedules,gemini,1277,success

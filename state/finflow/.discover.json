@@ -1,51 +1,57 @@
 {
-  "fetchedAt": "2026-10-07T05:31:53.583Z",
+  "fetchedAt": "2026-10-23T21:27:00.602Z",
   "candidates": [
     {
-      "source": "reddit/personalfinance",
-      "topic": "What am I missing? 401k, investments, savings at 27",
+      "source": "hn",
+      "topic": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mistral Large 4",
+      "topic": "Today, we hacked what we'd set out to hack: the iPhone",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I'm 21 and Want to Be Financially Stable. Should I Save, Invest, or Get Insurance First?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "What side hustles work well for covering a small fixed monthly expense (like a subscription)?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Good side hustle that takes little time and physical effort?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sharing AI progress in mathematics",
+      "topic": "Apple Music 404 Not Found",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Strands Decider 2B: a small, open-source, decision model",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Treg (OpenRouter for Tools)",
+      "topic": "Canadians are running out of time to oppose Bill C-22",
       "score": 3,
       "meta": {}
     },
@@ -57,325 +63,367 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Time to move, but my condo is worth far less than what I bought it for. What is the best way to proceed for long-term financial health?",
+      "topic": "Dad has no investments at 60",
       "score": 3,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Multiple Kids phones - budget",
+      "topic": "I plan to retire in 5 years. All savings is tied up in retirement accounts. Best way to fund pre 59 1/2 years?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Best credit card you would recommend?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "top scoring links : sidehustle",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "I really could use just an extra $500 per month, what are some good (and realistic) side hustle options?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Digital Media Producer and Former Project Manager looking for a side hustle that aligns with my experience and skill-sets.",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Decisions API is in public beta",
+      "topic": "The alien space of science: Coherent but cognitively unavailable directions",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What's Earth's dominant species by mass?",
+      "topic": "The Real Kevin Bacon",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Benchmark in Milliseconds",
+      "topic": "Job loss and cortisone mania",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "State of Devs 2026",
+      "topic": "Can we replace a $150k Looker with a bucket of HTML files?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "topic": "UUIDv7 doesn't have the properties you think it does",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "California closed the Montana license plate loophole",
+      "topic": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Xbox has secured exclusive GTA 6 streaming rights",
+      "topic": "Dessa: the most authentic full-duplex speech model ever built",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "La Cueva BBS in Mexico in 1993 (session replay)",
+      "topic": "Now Google says it might use your Gmail and Google Photos data to target ads",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
+      "topic": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Improving and Stabilizing the Racoon2 IKE Daemon in NetBSD",
+      "topic": "Show HN: Impossible Machines: declaratively program the physical world",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "My Homelab Two Years Later, Every Upgrade and What It Cost",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "401k advice for broke people because 15% is NOT realistic",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I just applied for credit and got denied for being dead, how do I fix this?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I own a house with my brother. What should the plan be if one of us wants out?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Impulsive Home Purchase Has Created a Financial and Personal Nightmare",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Laid off, business failed, $16.5k in credit card debt, what should I be doing right now?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "If I open a debit card, will my parents be able to tell?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How stupid is it for me to rent my own place?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Single, no plans for a family - does buying a house still make sense financially?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Been ignoring IRA's and going heavy on my 401k, should I reassess?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Give up half my earned commission or take the full amount and leave?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should someone like me have an emergency savings?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "We planned this big expense, so why I am so stressed?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Estranged parents in control of my credit card",
+      "topic": "Florida officer found dead man, impersonated him for years, renovated his home",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LLMs may have helped my RSI",
+      "topic": "We are all living inside of an obscure sci-fi film from 1970",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI: Securing our frontier model training environment",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Mom died, she left me money. Idk what to really do",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Employer I interviewed for, then got rejected, has shown up on my credit report",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I feel ashamed. 26 and my parents are paying my rent",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I am up against the wall and have no clue what to do!",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Can you explain to me why the market only goes up in the long term as if I were a 5 year old ?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Laid off and looking for work. But can I retire now?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Capital One refused hardship, interest reduction, and settlement. what options do I have left?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Is it realistic to spend 50% of my income on rent in my situation?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "45 no retirement, have $3,000 to put in Roth IRA",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Personal loan or 0%APR credit card to buy car?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "State garnished my bank account for back taxes",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Should i buy a used toyota corolla or just go for a new one?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "At what point does it make sense to pull money out of a brokerage acct to pay off a mortgage?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "I got a little over 5K in 8 months using my old tech and about 2h a day",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/sidehustle",
+      "topic": "Sidehustle slowchat: What were your wins and fails this week?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How is music possible",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The cost of lies: A Mineserver story",
+      "topic": "The Missed Opportunities of Sonic 06",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Fast is Python 3.15?",
+      "topic": "LISP Comes of Age",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "When random is not actually random enough",
+      "topic": "Animations for System Builders",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What Is Codemode",
+      "topic": "Total Historian",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ESP32-C3 Adblock",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Calling It Quits on ServerFault",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The art of defusing a second world war bomb",
+      "topic": "DNS: A Replacement for Finger",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How do people afford home addition projects",
+      "topic": "Just found out my employer has not posted 5 months worth of paycheck contributions to my 401(k) balance.",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Mom wants to lock in 10yr bonds with 40% of her retirement and live off the interest..good idea?",
+      "topic": "I am 26 and have 1k to my name",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "My dad is taking my money.",
+      "topic": "3 payments behind on an $8k Capital One card, currently unemployed. Do I just let it go to default?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I created my first Roth IRA at 30, and put in full 7500. 2 months in, and its gone down 200 dollars instead of any gains. How do I better manage my finances?",
+      "topic": "What do to with an inheritance?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Your I'm done number?",
+      "topic": "Stuck in a 2025 Ford F-150 Lightning lease with $27K negative equity. Currently unemployed. What are my options?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "My companies 401k switched from a per-paycheck match to a single contribution at the end of the year.",
+      "topic": "HDHP is better than PPO, right?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Where do I look for my trust?",
+      "topic": "Am I behind on retirement?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Collecting social security and still working",
+      "topic": "Is $10k in savings enough to move out?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can you pay all medical bills through HSA",
+      "topic": "Saving for old age: how much is enough?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Company owner approached me about possible private equity buyout. What should my expectations be?",
+      "topic": "Favorite credit cards for day to day use?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I'll be receiving control of my trust fund in 2027. I want to make the most out of this money, but I can't afford a financial planner right now",
+      "topic": "Early retirement - tell me what I'm missing",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "High Yield Savings Account Advice",
+      "topic": "Embarrassed to post this",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Single Mom in Debt - Need Advice",
+      "topic": "Anxiety With Buying a Home",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Who do I see regarding deceased assets?",
+      "topic": "Someone wants to buy my house before I've listed it. Should I get an appraisal or ask them to make an offer first",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Got a house- Salary being cut",
+      "topic": "Just got my first job in nyc - what do I do?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "403b Management &quot;lost&quot; a check",
+      "topic": "How can I retire early?",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Merril 401k Verification Text Message",
+      "source": "reddit/sidehustle",
+      "topic": "Second job, part time schedule advice?",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "What to do with inherited Roth IRA",
+      "source": "reddit/sidehustle",
+      "topic": "Looking for advice, scared to start",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Retire early outside USA at 52",
+      "source": "reddit/sidehustle",
+      "topic": "survey platforms in the UAE",
       "score": 0,
       "meta": {}
     }

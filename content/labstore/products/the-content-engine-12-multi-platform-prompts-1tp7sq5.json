@@ -1,0 +1,92 @@
+{
+  "_slug": "the-content-engine-12-multi-platform-prompts-1tp7sq5",
+  "_date": "2026-10-10T21:48:03.319Z",
+  "name": "The Content Engine: 12 Multi-Platform Prompts",
+  "tagline": "Turn a single business insight into a full week of high-converting social content without burnout.",
+  "metaDescription": "Scale your solo founder content marketing. 12 proven prompts turn one core idea into seven days of platform-ready posts for LinkedIn, X, and newsletters.",
+  "description": "The Content Engine is built specifically for solo founders, bootstrappers, and technical builders who know they need consistent organic distribution but cannot afford to spend ten hours a week staring at a blank editor.\n\nMost founders do not lack ideas; they lack a repeatable distribution pipeline. You solve an interesting technical problem or close a sales conversation, but translating that insight into multiple platform-native posts feels like a chore.\n\nThese 12 plug-and-play prompts solve that friction by functioning as an editorial transformation engine. Feed in a single core concept—like a lesson learned, a feature milestone, or a contrarian industry belief—and generate a full week of distinct, high-signal posts for LinkedIn, X, and your email newsletter.\n\nUnlike generic prompt packs that produce bland fluff, each prompt here applies rigorous constraints: concrete hooks, tight word limits, and proven copywriting frameworks like Problem-Agitate-Solve and curiosity-gap analysis. You get specific, tactical formats that sound like an experienced builder speaking directly to peers, turning your everyday work into authority-building content with zero guesswork.",
+  "tags": [
+    "content marketing",
+    "solopreneur",
+    "prompts",
+    "social media",
+    "copywriting"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "12 production-ready prompt templates in Markdown and JSON formats",
+    "12 distinct distribution angles covering LinkedIn, X, and email newsletters",
+    "Plug-and-play variable tags for rapid customization",
+    "Practitioner tips embedded in every prompt to eliminate robotic AI phrasing"
+  ],
+  "sampleItems": [
+    "Take this core insight from my business: [Insert core idea]. Act as a B2B content strategist and write a high-impact LinkedIn post (under 180 words) challenging conventional wisdom around this topic. Structure: 1) A polarizing one-line hook stating why standard advice is broken, 2) The hidden downside people ignore, 3) My alternate approach based on real operational experience, 4) A 3-bullet contrast between the old way vs. the new way, and 5) An open question inviting debate. Tip: Strip out buzzwords like 'game-changer' and maintain an authoritative, practitioner tone.",
+    "Transform this insight: [Insert core idea] into a clear, tactical X (Twitter) thread outline (5 to 7 posts). Post 1 must promise a tangible outcome achieved in a specific timeframe. Posts 2 through 5 should break the execution down into sequential, actionable steps with no filler. Post 6 highlights the single biggest pitfall to avoid. Post 7 recaps the steps in a checklist and links back to the main thesis. Tip: Start every internal post with an imperative verb (e.g., Audit, Eliminate, Deploy) to maximize readability."
+  ],
+  "items": [
+    {
+      "title": "The Contrarian LinkedIn Hook",
+      "category": "Contrarian Perspective",
+      "body": "Take this core insight from my business: [Insert core idea]. Act as a B2B content strategist and write a high-impact LinkedIn post (under 180 words) challenging conventional wisdom around this topic. Structure: 1) A polarizing one-line hook stating why standard advice is broken, 2) The hidden downside people ignore, 3) My alternate approach based on real operational experience, 4) A 3-bullet contrast between the old way vs. the new way, and 5) An open question inviting debate. Tip: Strip out buzzwords like 'game-changer' and maintain an authoritative, practitioner tone."
+    },
+    {
+      "title": "The Step-by-Step Tactical Playbook",
+      "category": "Tactical Playbook",
+      "body": "Transform this insight: [Insert core idea] into a clear, tactical X (Twitter) thread outline (5 to 7 posts). Post 1 must promise a tangible outcome achieved in a specific timeframe. Posts 2 through 5 should break the execution down into sequential, actionable steps with no filler. Post 6 highlights the single biggest pitfall to avoid. Post 7 recaps the steps in a checklist and links back to the main thesis. Tip: Start every internal post with an imperative verb (e.g., Audit, Eliminate, Deploy) to maximize readability."
+    },
+    {
+      "title": "The Pain-Point Customer Story",
+      "category": "Storytelling",
+      "body": "Using this topic: [Insert core idea], write a storytelling post based on the Problem-Agitate-Solve framework. Scene: A specific solo founder or customer struggling with this problem before discovering the solution. Show the emotional frustration and financial or time cost of doing it the hard way. Introduce the breakthrough moment, followed by the exact change implemented and the resulting quantifiable improvement. End with a takeaway lesson for builders. Tip: Keep sentences short, avoid corporate jargon, and focus heavily on visceral daily frustrations."
+    },
+    {
+      "title": "The 80/20 Curated Framework",
+      "category": "Curated Framework",
+      "body": "Analyze this theme: [Insert core idea] and extract an '80/20' framework post for founders. Structure the output as: 1) Hook explaining that 20% of the effort yields 80% of the outcome in this domain, 2) The 3 non-essential tactics to eliminate immediately, 3) The single high-leverage lever to double down on, and 4) A clear mini-formula or 2x2 mental model summarizing the strategy. Tip: Use high whitespace and clean bullet points for rapid mobile scanning on professional networks."
+    },
+    {
+      "title": "The Behind-the-Scenes Build Log",
+      "category": "Behind the Scenes",
+      "body": "Turn this milestone or technical realization: [Insert core idea] into a transparent 'Build in Public' update. Frame it around a decision made this week, why we made it, and the raw metrics or tradeoffs involved. Structure: The Context, The Dilemma, The Choice We Made, and What We Learned (Good and Bad). Conclude by asking fellow founders how they handle similar trade-offs. Tip: Don't romanticize success; emphasize the uncertainty and operational constraints to build genuine trust with technical peers."
+    },
+    {
+      "title": "The Micro-Case Study Teardown",
+      "category": "Micro-Case Study",
+      "body": "Convert this business principle: [Insert core idea] into a 150-word mini-case study. Outline: 1) The Client/User Baseline (where things started), 2) The Core Bottleneck (what was actually holding them back), 3) The 1-Step Fix (applying our core insight), and 4) The Measurable Result (specific metric or time saved). Add a 1-sentence concluding rule that anyone can apply today. Tip: Anchor the story around hard numbers, percentages, or saved hours rather than vague qualitative improvements."
+    },
+    {
+      "title": "The Weekly Newsletter Deep-Dive Intro",
+      "category": "Newsletter Content",
+      "body": "Take this concept: [Insert core idea] and write a compelling 200-word introduction for a weekly email newsletter. Use narrative hooks: begin in media res with an uncomfortable truth or a costly mistake made recently. Connect this mistake directly to the broader issue facing readers in [Insert niche]. State clearly what the rest of the issue will deconstruct and why reading it saves them 10+ hours this month. Tip: Write in a conversational 1-on-1 tone, as if writing an email to a peer."
+    },
+    {
+      "title": "The 'Stop Doing This' Diagnostic Post",
+      "category": "Customer Problem Analysis",
+      "body": "Using this concept: [Insert core idea], draft a diagnosis-style post highlighting 3 common mistakes solo founders make when handling this issue. For each mistake, provide: A) The flawed assumption behind it, B) The negative compounding consequence, and C) The exact replacement habit. Keep the tone empathetic yet direct, acting as a trusted technical advisor. Conclude with a strong call-to-action asking which mistake resonated most. Tip: Avoid preaching; frame mistakes around things you personally learned the hard way."
+    },
+    {
+      "title": "The Visual Framework Metaphor",
+      "category": "Metaphor & Analogy",
+      "body": "Take this complex or dry concept: [Insert core idea] and translate it into a simple everyday metaphor or analogy (e.g., plumbing, compounding interest, kitchen mise en place). Explain how viewing the problem through this metaphor clarifies the solution. Format as a clean, text-only post that paints a distinct visual picture. End with an actionable 1-2-3 execution rule. Tip: Ensure the analogy maps 1:1 with real business operations so it clarifies rather than confuses the core message."
+    },
+    {
+      "title": "The Direct Value Offer Teaser",
+      "category": "Direct Response",
+      "body": "Synthesize this key takeaway: [Insert core idea] into an educational promotional post offering a free resource, checklist, or template. Structure: 1) Hook emphasizing a specific, painful problem, 2) Brief story of how I codified the solution into a repeatable system, 3) The 3 tangible things inside the resource, and 4) A clear comment-to-receive call to action (e.g., 'Reply TEMPLATE and I'll DM it'). Tip: Focus on value and utility rather than hype; make the resource sound like an operational cheat-code."
+    },
+    {
+      "title": "The Metric & Observation Snapshot",
+      "category": "Data & Observation",
+      "body": "Take this observation or data point: [Insert core idea] and build an analytical post dissecting the trend. Structure: 1) The Surprising Data Point or Trend Observed, 2) Why 90% of the market is misinterpreting this signal, 3) The underlying structural shift driving it, and 4) How solo founders can position themselves to profit from this shift over the next 6 months. Tip: Emphasize agility and speed as the solo founder's primary advantage over legacy competitors."
+    },
+    {
+      "title": "The Founder Objection FAQ",
+      "category": "Founder FAQ",
+      "body": "Take this core proposition: [Insert core idea] and address the single biggest objection or hesitation a prospective customer has about it. Format: State the objection explicitly in quotes as the hook. Validate why this concern is logical, then dismantle it using an operational example and risk-reversal logic. Wrap up with a practical guideline on how to test the idea safely with zero downside. Tip: Keep the response crisp and grounded; never dismiss customer skepticism as invalid."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Content Engine: 12 prompts that turn one idea into a week of posts",
+  "_provider": "gemini"
+}

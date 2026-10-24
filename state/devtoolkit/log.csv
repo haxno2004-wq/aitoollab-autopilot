@@ -19,3 +19,37 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-07T05:26:44.250Z,mistral-large-4,Mistral Large 4 Hands-On Review: Capabilities and Verdict,gemini,1077,success
 2026-10-07T05:33:10.201Z,mistral-large-4,Mistral Large 4 Hands-On Review: Capabilities and Verdict,gemini,1077,success
 2026-10-07T05:38:56.189Z,paramount-skydance-has-completed-its-111b-merger-with-warner-bro,Paramount Skydance and WBD Merger: A Hands-On Industry Review,gemini,1066,success
+2026-10-07T23:08:37.683Z,open-source-160-sound-visualization-experiments,Open Source Sound Visualization Experiments: A Practical Guide,gemini,1052,success
+2026-10-08T23:24:03.154Z,show-hn-free-open-source-adobe-lightroom-alternative-completely,Best Free Open Source Adobe Lightroom Alternative with AI,gemini,975,success
+2026-10-09T13:20:19.114Z,a-terminal-protocol-for-program-status-osc-7501,OSC 7501 Terminal Protocol Review: Program Status in CLI,gemini,895,success
+2026-10-09T22:43:41.586Z,once-cache-cli-commands,Once Review: Caching CLI Commands for Faster Workflows,gemini,1007,success
+2026-10-10T12:34:40.282Z,clinical-trial-of-a-prion-disease-drug-candidate-begins-enrollin,Prion Disease Drug Trial Enrolls: An Analytical Review,gemini,1096,success
+2026-10-10T21:48:09.488Z,hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix,Claude ClickFix Attacks: Threat Review and Defense Guide,gemini,1033,success
+2026-10-11T12:54:09.811Z,a-city-building-game-in-which-the-city-would-prefer-you-didnt,Playing City-Building Games in Your Terminal with CLI Tools,gemini,1123,success
+2026-10-11T22:03:00.941Z,nycs-click-to-cancel-rule-is-now-in-effect,NYC Click to Cancel Rule: What Developers Need to Know,gemini,1208,success
+2026-10-13T00:45:38.843Z,codex-cli-installs-a-persistent-self-updating-background-daemon,Codex CLI Review: The Cost of a Persistent Background Daemon,gemini,1065,success
+2026-10-13T14:15:20.035Z,codex-cli-installs-a-persistent-self-updating-background-daemon,Codex CLI Review: The Cost of a Persistent Background Daemon,gemini,1065,success
+2026-10-13T22:49:47.424Z,nexus-q-un-motor-open-source-de-rust-para-pqc,Nexus-Q en Rust: Guía Práctica de Criptografía Poscuántica,gemini,1122,success
+2026-10-14T07:13:33.605Z,900-page-pre-pantone-guide-to-color-from-1692-with-complete-high,Exploring the 1692 Pre-Pantone Color Guide with Code,gemini,994,success
+2026-10-14T07:41:11.092Z,11-year-old-unsoundness-bugs-found-in-rust-borrow-checker,Rust Borrow Checker Unsoundness Bugs: A Practical Review,gemini,999,success
+2026-10-14T07:49:46.205Z,i-built-a-tool-to-track-what-ai-leaders-say-and-how-their-views,Tracking AI Leader Statements on Video: A Developer Tool Review,gemini,1073,success
+2026-10-14T11:54:59.992Z,ai-laser-locking-for-quantum-computers-how-quera-automates-it,AI Laser Locking for Quantum Computers: QuEra Guide,gemini,1089,success
+2026-10-14T21:44:41.204Z,iosevka-is-an-open-source-sans-serif-and-slab-serif-monospace-fo,"Iosevka Font Guide: Setup, Customization, and Trade-offs",gemini,1090,success
+2026-10-15T11:32:35.322Z,americans-social-activity-has-steeply-declined-in-the-past-30-ye,Reviewing the 30-Year Decline in Social Life for Developers,gemini,1275,success
+2026-10-15T21:27:22.834Z,adfection-targeted-ads-turned-into-a-pipeline-for-zero-click-mer,AdFection Review: Zero-Click Spyware via Targeted Ads,gemini,1099,success
+2026-10-16T11:26:45.598Z,what-i-self-host,What I Self-Host: A Pragmatic Developer Toolkit Guide,gemini,1291,success
+2026-10-16T21:13:58.447Z,how-the-claude-code-team-does-code-review,How Claude Code Approaches Code Review: An In-Depth Look,gemini,1053,success
+2026-10-17T10:47:11.773Z,jpeg-xl-vs-avif-for-web-use-cases,JPEG XL vs. AVIF: The Web Developer’s Image Format Guide,gemini,1319,success
+2026-10-17T20:43:12.421Z,gold-is-now-the-top-u-s-export,Gold as the Top U.S. Export: A Hands-On Developer Review,gemini,1188,success
+2026-10-18T11:07:56.832Z,bleached-corals-thrive-within-days-when-touching-healthy-neighbo,Coral Proximity Rescue: Hands-On Review and Tech Stack Guide,gemini,939,success
+2026-10-18T20:48:15.311Z,sigsaly-churchills-top-secret-hotline-to-the-president,SIGSALY Reviewed: Inside Churchill's Secret Hotline,gemini,1136,success
+2026-10-19T13:19:06.646Z,alternatives-to-animal-testing-are-finally-taking-off,Non-Animal Testing Alternatives: Top Modern Methods & Trade-Offs,gemini,1110,success
+2026-10-19T22:24:25.633Z,cern-and-mistral-sign-a-statement-of-intent-to-establish-a-strat,CERN Partners with Mistral: A Scientific Dev Tool Review,gemini,1014,success
+2026-10-20T11:39:50.106Z,ask-hn-how-to-deal-with-shipping-ai-written-code-you-dont-unders,Shipping AI Code You Don't Understand: A Practical Guide,gemini,1082,success
+2026-10-20T21:41:01.736Z,microg-free-libre-re-implementation-of-googles-proprietary-andro,MicroG and DeGoogled Android: Guide to GMS Alternatives,gemini,1124,success
+2026-10-21T11:51:22.071Z,google-open-sources-torchtpu-a-native-pytorch-back-end-for-tpus,Google Open-Sources TorchTPU: A Practical Setup Guide,gemini,860,success
+2026-10-21T21:46:24.882Z,compromised-litellm-1-107-0-on-pypi-installs-a-credential-steale,LiteLLM Review: Security Risks and the PyPI Compromise,gemini,1054,success
+2026-10-22T11:54:52.246Z,worldtui-i-trained-a-360m-model-to-pretend-to-be-a-terminal,WorldTUI Review: I Trained a 360M Model for the Terminal,gemini,1194,success
+2026-10-22T21:41:14.473Z,emudhra-to-exit-global-ssl-tls-certificate-business,eMudhra Exits Global SSL/TLS: What It Means for Devs,gemini,823,success
+2026-10-23T11:45:35.782Z,every-ai-model-has-the-same-controversial-take-on-humans,Why Every AI Model Shares the Same Controversial Take on Humans,gemini,1147,success
+2026-10-23T21:27:59.960Z,ask-hn-if-the-models-are-so-good-why-doesnt-openai-just-start-10,"Analyzing the 'If AI Is So Good, Why Not Start 100 Companies?' Debate",gemini,1171,success

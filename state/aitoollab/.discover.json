@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-07T05:31:48.273Z",
+  "fetchedAt": "2026-10-23T21:27:00.818Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,6 +48,24 @@
     },
     {
       "source": "hn",
+      "topic": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Today, we hacked what we'd set out to hack: the iPhone",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "How to get more coding productivity with LLMs",
       "score": 4,
       "meta": {}
@@ -72,43 +90,25 @@
     },
     {
       "source": "hn",
-      "topic": "Mistral Large 4",
+      "topic": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sharing AI progress in mathematics",
+      "topic": "Apple Music 404 Not Found",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nobel Prize in Physics 2026: Francis Halzen",
+      "topic": "Canadians are running out of time to oppose Bill C-22",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Strands Decider 2B: a small, open-source, decision model",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Treg (OpenRouter for Tools)",
+      "topic": "Ask HN: How do swarms of AI agents work?",
       "score": 3,
       "meta": {}
     },
@@ -121,12 +121,6 @@
     {
       "source": "hn",
       "topic": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
       "score": 3,
       "meta": {}
     },
@@ -159,13 +153,7 @@
     },
     {
       "source": "hn",
-      "topic": "Decisions API is in public beta",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+      "topic": "The alien space of science: Coherent but cognitively unavailable directions",
       "score": 2,
       "meta": {}
     },
@@ -195,61 +183,97 @@
     },
     {
       "source": "hn",
-      "topic": "What's Earth's dominant species by mass?",
+      "topic": "The Real Kevin Bacon",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Benchmark in Milliseconds",
+      "topic": "Job loss and cortisone mania",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "State of Devs 2026",
+      "topic": "Can we replace a $150k Looker with a bucket of HTML files?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tell HN: GitHub refuses to remove cracked copies of my software after a month",
+      "topic": "UUIDv7 doesn't have the properties you think it does",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "California closed the Montana license plate loophole",
+      "topic": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Xbox has secured exclusive GTA 6 streaming rights",
+      "topic": "Dessa: the most authentic full-duplex speech model ever built",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "La Cueva BBS in Mexico in 1993 (session replay)",
+      "topic": "Now Google says it might use your Gmail and Google Photos data to target ads",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
+      "topic": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Improving and Stabilizing the Racoon2 IKE Daemon in NetBSD",
+      "topic": "Show HN: Impossible Machines: declaratively program the physical world",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "My Homelab Two Years Later, Every Upgrade and What It Cost",
+      "topic": "Florida officer found dead man, impersonated him for years, renovated his home",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We are all living inside of an obscure sci-fi film from 1970",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI: Securing our frontier model training environment",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Geneva, a Rust FFmpeg CLI alternative with HTML/CSS graphics",
       "score": 1,
       "meta": {}
     },
@@ -327,49 +351,37 @@
     },
     {
       "source": "hn",
-      "topic": "LLMs may have helped my RSI",
+      "topic": "How is music possible",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The cost of lies: A Mineserver story",
+      "topic": "The Missed Opportunities of Sonic 06",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Fast is Python 3.15?",
+      "topic": "LISP Comes of Age",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "When random is not actually random enough",
+      "topic": "Animations for System Builders",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What Is Codemode",
+      "topic": "Total Historian",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ESP32-C3 Adblock",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Calling It Quits on ServerFault",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The art of defusing a second world war bomb",
+      "topic": "DNS: A Replacement for Finger",
       "score": 0,
       "meta": {}
     }
