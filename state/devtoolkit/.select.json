@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-23T21:27:00.432Z",
-  "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+  "pickedAt": "2026-10-24T11:02:44.726Z",
+  "topic": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "ask-hn-if-the-models-are-so-good-why-doesnt-openai-just-start-10",
+  "slug": "show-hn-corgi-a-helpful-agent-terminal-multiplexer",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 26
+  "finalScore": 6,
+  "remaining": 28
 }
