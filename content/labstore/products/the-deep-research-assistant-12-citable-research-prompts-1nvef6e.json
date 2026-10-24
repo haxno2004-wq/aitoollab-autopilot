@@ -1,0 +1,91 @@
+{
+  "_slug": "the-deep-research-assistant-12-citable-research-prompts-1nvef6e",
+  "_date": "2026-10-24T11:07:52.303Z",
+  "name": "The Deep Research Assistant: 12 Citable Research Prompts",
+  "tagline": "Rigorous prompts with built-in verification for knowledge workers who need accurate, defensible research.",
+  "metaDescription": "Accelerate deep research with 12 structured AI prompts featuring built-in verification steps, evidence matrices, and bias checks for knowledge workers.",
+  "description": "The Deep Research Assistant is built for analysts, researchers, consultants, and knowledge workers who cannot afford hallucinations or vague summaries. Standard AI prompts produce generic, superficial overviews that lack provenance and critical scrutiny. When decision-makers rely on research, every claim must be defensible, contextualized, and verifiable.\n\nThis toolkit solves the core vulnerabilities of generative research: unsupported claims, overlooked counter-arguments, and hidden methodological bias. Instead of asking for broad summaries, these 12 specialized prompts enforce strict analytical frameworks—such as systematic evidence matrices, qualitative-to-quantitative coding, and primary source provenance audits.\n\nEach prompt incorporates built-in verification gates, demanding direct source attribution, confidence scoring, and explicit distinction between empirical facts and subjective inferences. By forcing the model into structured schemas like Markdown tables and dialectical frameworks, these prompts reduce cognitive bias and prevent hallucinated drift.\n\nWhether you are stress-testing an investment thesis, preparing an executive briefing, or evaluating academic methodologies, these prompts transform conversational AI into a rigorous, skeptical analytical partner that delivers citable results every time.",
+  "tags": [
+    "deep research",
+    "knowledge work",
+    "prompt engineering",
+    "fact checking"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "12 high-precision research prompts in Markdown format",
+    "Plain text prompt sheet for one-click clipboard copying",
+    "Structured output schema templates (Markdown tables and JSON formats)",
+    "Provenance and citation verification checklist guide"
+  ],
+  "sampleItems": [
+    "Analyze the provided text or topic [insert topic or text] and extract key empirical claims into a structured Markdown table with columns: Claim, Primary Methodology, Sample Size/Scope, Stated Limitations, and Confidence Score (Low/Medium/High). Flag any assertion that relies on non-peer-reviewed or secondary citations. Conclude with a 3-bullet synthesis highlighting where consensus fractures among the cited sources.",
+    "Review the following claim or excerpt: [insert claim/text]. Trace the underlying factual assertion to its original primary source. Output: 1) Original Source Type (e.g., peer-reviewed study, regulatory filing, press release), 2) Direct Quote of the baseline finding, 3) Potential chain-of-custody distortions (how secondary reporting altered the nuance), and 4) A verification status tag: Verified Primary, Unverified Secondary, or Anecdotal."
+  ],
+  "items": [
+    {
+      "title": "Systematic Evidence Matrix Builder",
+      "category": "Literature Synthesis",
+      "body": "Analyze the provided text or topic [insert topic or text] and extract key empirical claims into a structured Markdown table with columns: Claim, Primary Methodology, Sample Size/Scope, Stated Limitations, and Confidence Score (Low/Medium/High). Flag any assertion that relies on non-peer-reviewed or secondary citations. Conclude with a 3-bullet synthesis highlighting where consensus fractures among the cited sources."
+    },
+    {
+      "title": "Primary Source Provenance Audit",
+      "category": "Source Verification",
+      "body": "Review the following claim or excerpt: [insert claim/text]. Trace the underlying factual assertion to its original primary source. Output: 1) Original Source Type (e.g., peer-reviewed study, regulatory filing, press release), 2) Direct Quote of the baseline finding, 3) Potential chain-of-custody distortions (how secondary reporting altered the nuance), and 4) A verification status tag: Verified Primary, Unverified Secondary, or Anecdotal."
+    },
+    {
+      "title": "Pre-Emptive Counter-Factual Stress Test",
+      "category": "Counter-Argument Auditing",
+      "body": "Act as an adversarial peer reviewer evaluating this thesis: [insert thesis]. Identify the three strongest empirical counter-arguments that contradict this position. For each counter-argument, provide: 1) The competing causal mechanism, 2) The specific type of data or benchmark that would falsify my thesis, and 3) A calibrated rebuttal addressing the criticism without resorting to rhetorical deflection or ad hominem reasoning."
+    },
+    {
+      "title": "Empirical Rigor and Bias Diagnostic",
+      "category": "Methodology Analysis",
+      "body": "Evaluate the methodology described in [insert study/report abstract or methodology section]. Assess potential internal and external validity threats. Provide a structured review covering: Selection Bias risks, Confounding Variables not accounted for, Measurement Reliability, and Statistical Power considerations. Rate the overall methodology rigor as Defensible, Fragile, or Inconclusive, accompanied by a two-sentence justification strictly grounded in experimental design principles."
+    },
+    {
+      "title": "Qualitative-to-Quantitative Coding Protocol",
+      "category": "Data Extraction",
+      "body": "Transform the qualitative interview excerpts or survey responses provided below into a structured codebook: [insert raw text]. Identify recurring themes using an inductive coding approach. Output a table containing: Code Name, Working Definition, Frequency Count, Anchor Example (direct quote), and Mutually Exclusive Category. Exclude any interpretation not directly supported by textual evidence, and flag ambiguous statements under a separate 'Unclassified' section."
+    },
+    {
+      "title": "Structured Policy and Tradeoff Brief",
+      "category": "Executive Briefing",
+      "body": "Synthesize the debate surrounding [insert policy or business decision] for executive review. Structure your output into four rigid sections: 1) Core Problem Statement (under 50 words), 2) Competing Interventions Matrix (Intervention, Capital Required, Implementation Timeline, Key Risk), 3) Irreversible Downside Scenarios, and 4) Empirical Metrics to monitor post-implementation. Avoid speculative upside; ground all projections in cited historical precedents or analogous case studies."
+    },
+    {
+      "title": "Historical Precedent Disruption Mapper",
+      "category": "Trend Analysis",
+      "body": "Analyze the emergence of [insert emerging technology or trend] by comparing it to two historical analog disruptions. Create an analytical matrix comparing: 1) Adoption Bottlenecks, 2) Regulatory Reactions, 3) Labor Displacement Dynamics, and 4) Time-to-Maturity. Highlight the fundamental variables where this current trend diverges from past cycles, specifically identifying whether cost curves or network effects behave differently under modern conditions."
+    },
+    {
+      "title": "Moat and Vulnerability Extraction",
+      "category": "Competitive Intelligence",
+      "body": "Analyze the public disclosures and strategic announcements of [insert competitor/organization] over the past 12 months. Dissect their actual operational strategy versus public marketing narrative. Output: 1) Verifiable Resource Allocations (capex, hiring, patents), 2) Structural Economic Moats identified, 3) Critical Single Points of Failure, and 4) Blind Spots exposed by regulatory filings or customer churn data. Ground every point in verifiable corporate actions."
+    },
+    {
+      "title": "Dialectical Research Consensus Mapper",
+      "category": "Literature Synthesis",
+      "body": "Map the intellectual landscape of [insert research question]. Split the current research landscape into Thesis, Antithesis, and Synthesis. Under Thesis, document the orthodox view with its primary empirical support. Under Antithesis, list the primary dissenting school of thought and its foundational evidence. Under Synthesis, describe the emergent consensus reconciling both sides, highlighting unresolved empirical edge cases that require further longitudinal research."
+    },
+    {
+      "title": "Ambiguity and Fact-Assertion Isolator",
+      "category": "Fact Checking",
+      "body": "Deconstruct the provided argument into atomic claims: [insert text]. Separate every sentence into three categories: 1) Factual Claims (testable, objective assertions requiring citations), 2) Analytical Inferences (logical deductions drawn from data), and 3) Normative Value Judgments (subjective opinions). Present these in a table with a recommended verification query or search string for each factual claim to enable targeted fact-checking."
+    },
+    {
+      "title": "Financial Metric and Covenant Deconstruct",
+      "category": "Data Extraction",
+      "body": "Extract key performance benchmarks and operational constraints from the provided financial report or earnings release: [insert financial text]. Generate a JSON-ready summary detailing: Stated Revenue vs. Organic Growth, Margin Decomposition (Gross, Operating, Free Cash Flow), Explicit Management Guidance vs. Historical Delivery, and Restrictive Debt Covenants or Capital Commitments. Mark any non-GAAP adjustments with a specific explanation of what expenses were added back."
+    },
+    {
+      "title": "Triangulation and Cross-Source Synthesis",
+      "category": "Methodology Analysis",
+      "body": "Synthesize three disparate sources on [insert subject] provided here: [Source A], [Source B], and [Source C]. Produce a triangulation matrix showing: 1) Points of Universal Agreement, 2) Direct Contradictions (with specific quoted evidence showing the clash), 3) Unique Contributions of each source, and 4) Missing Baseline Data that none of the sources provide. Conclude with a reliability ranking of the three inputs based on source transparency."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Deep Research Assistant: 12 prompts for faster, citable research",
+  "_provider": "gemini"
+}
