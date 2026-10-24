@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-23T21:27:00.876Z",
-  "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "ask-hn-if-the-models-are-so-good-why-doesnt-openai-just-start-10",
+  "pickedAt": "2026-10-24T11:02:45.844Z",
+  "topic": "A practical guide to AI image generation, from diffusion to agents",
+  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
+  "slug": "a-practical-guide-to-ai-image-generation-from-diffusion-to-agent",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 43
+  "finalScore": 5,
+  "remaining": 44
 }
