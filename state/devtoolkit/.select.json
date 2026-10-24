@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-24T11:02:44.726Z",
-  "topic": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+  "pickedAt": "2026-10-24T20:53:12.828Z",
+  "topic": "John Carmack on the Goose Language: multiple data stacks and relative references",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "show-hn-corgi-a-helpful-agent-terminal-multiplexer",
+  "slug": "john-carmack-on-the-goose-language-multiple-data-stacks-and-rela",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
-  "remaining": 28
+  "finalScore": 4,
+  "remaining": 25
 }
