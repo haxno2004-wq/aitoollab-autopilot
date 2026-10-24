@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T11:02:45.804Z",
+  "fetchedAt": "2026-10-24T20:53:10.717Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,6 +9,12 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
+    },
+    {
+      "source": "hn",
+      "topic": "A practical guide to AI image generation, from diffusion to agents",
+      "score": 6,
+      "meta": {}
     },
     {
       "source": "hn",
@@ -27,12 +33,6 @@
         "points": 156,
         "url": "https://www.youtube.com/watch?v=sRPnX_f2V_c"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "A practical guide to AI image generation, from diffusion to agents",
-      "score": 5,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -60,25 +60,7 @@
     },
     {
       "source": "hn",
-      "topic": "Today, we hacked what we'd set out to hack: the iPhone",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Canadians are running out of time to oppose Bill C-22",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dessa: Conversation Model trained only on speech",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Best Monopoly Strategy, Tested on 300M Games [video]",
+      "topic": "John Carmack on the Goose Language: multiple data stacks and relative references",
       "score": 4,
       "meta": {}
     },
@@ -108,31 +90,43 @@
     },
     {
       "source": "hn",
-      "topic": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Apple Music 404 Not Found",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Real Kevin Bacon",
+      "topic": "OBS Studio 33",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "C vs. C#: racing VLC's Gaussian blur",
+      "topic": "Twelve years of distributed SQLite",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How to run a city builder on 16 MHz",
+      "topic": "Physicists trap a single antimatter particle for a month",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How close can pure functional programming get to C?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Roku developer repositories moved from GitHub to GitLab",
       "score": 3,
       "meta": {}
     },
@@ -183,31 +177,31 @@
     },
     {
       "source": "hn",
-      "topic": "Twelve years of distributed SQLite",
+      "topic": "Bringing uv and ty together",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "topic": "I don't understand quantum physics",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How close can pure functional programming get to C?",
+      "topic": "No Signs of AI Payoff Outside the Tech Sector",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "topic": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Quake Fan who built the map editor everybody uses",
+      "topic": "Danish Government silently drops plan to dump MS Office",
       "score": 2,
       "meta": {}
     },
@@ -237,55 +231,55 @@
     },
     {
       "source": "hn",
-      "topic": "CVE Tracker",
+      "topic": "Why is AI generated language so hard to understand?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OBS Studio 33",
+      "topic": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bringing uv and ty together",
+      "topic": "PHP Foundation 'under-funded' with one full-time staff member, director says",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Air Purifiers as White Noise Machines",
+      "topic": "Neural chip decodes interactions between brain regions",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "topic": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Physicists trap a single antimatter particle for a month",
+      "topic": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Block Blast harvests its players for ad money",
+      "topic": "Zac-OS-9: The classic Platinum desktop, reborn for modern PCs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rise of collagen-eating microbes may help explain gaps in the fossil record",
+      "topic": "Cecilia Berdichevsky, Clementina expert",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "topic": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
       "score": 1,
       "meta": {}
     },
@@ -310,6 +304,12 @@
     {
       "source": "hn",
       "topic": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: Is there any solution to the AI infestation?",
       "score": 1,
       "meta": {}
     },
@@ -369,25 +369,19 @@
     },
     {
       "source": "hn",
-      "topic": "Apple Security Research Device",
+      "topic": "The Goose Programming Language",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I Don't Understand Quantum Physics",
+      "topic": "Symbolic Learning in Python and Julia",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One Man's Pan Am 747 Replica [video]",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Chalk and the Airplane",
+      "topic": "Steal My Bitcoin",
       "score": 0,
       "meta": {}
     }

@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-24T11:02:45.844Z",
-  "topic": "A practical guide to AI image generation, from diffusion to agents",
-  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
-  "slug": "a-practical-guide-to-ai-image-generation-from-diffusion-to-agent",
+  "pickedAt": "2026-10-24T20:53:10.772Z",
+  "topic": "John Carmack on the Goose Language: multiple data stacks and relative references",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "john-carmack-on-the-goose-language-multiple-data-stacks-and-rela",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 5,
-  "remaining": 44
+  "finalScore": 4,
+  "remaining": 42
 }
