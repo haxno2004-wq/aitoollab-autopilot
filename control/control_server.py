@@ -65,6 +65,10 @@ KEY_MANIFEST = {
             {"label": "Failure alerts → Telegram", "keys": [
                 ("TELEGRAM_BOT_TOKEN", "from @BotFather", "https://docs/api-setup-guides.md#7-telegram-alerts"),
                 ("TELEGRAM_CHAT_ID", "your chat id (message @userinfobot)", None)]},
+            {"label": "AI research keys (portfolio advisor + signals — any ONE)", "keys": [
+                ("GEMINI_API_KEY", "aistudio.google.com/apikey (free tier)", None),
+                ("GROQ_API_KEY", "console.groq.com/keys (free tier)", None),
+                ("OPENROUTER_API_KEY", "openrouter.ai/keys (free models)", None)]},
             {"label": "AngelOne SmartAPI (quotes/signals mode — no auto-orders)", "keys": [
                 ("ANGELONE_API_KEY", "smartapi.angelone.in → API keys (rotate any key pasted in chat!)", None),
                 ("ANGELONE_CLIENT_CODE", "your Angel broking client ID", None),
@@ -409,6 +413,9 @@ class Handler(BaseHTTPRequestHandler):
             self._json(200, trading.snapshot())
         elif self.path == "/api/tradingagent":
             self._json(200, trading_agent.snapshot())
+        elif self.path.split("?")[0] == "/api/advisor":
+            import portfolio_advisor
+            self._json(200, portfolio_advisor.review(force="refresh=1" in self.path))
         elif self.path.startswith("/api/file"):
             from urllib.parse import urlparse, parse_qs
             rel = parse_qs(urlparse(self.path).query).get("path", [""])[0]

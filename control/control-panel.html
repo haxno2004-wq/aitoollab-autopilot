@@ -3,189 +3,300 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Empire Monitor</title>
+<title>Empire · Control Panel</title>
 <style>
 :root{
-  --bg:#0b0d12;--panel:#141821;--panel2:#1a1f2b;--line:#242c3d;
-  --fg:#e8ecf4;--dim:#8b95ab;--ok:#34d399;--bad:#f87171;--warn:#fbbf24;
-  --accent:#6ea8ff;--grad:linear-gradient(135deg,#6ea8ff,#b48cff);
+  --bg:#0a0c10;--panel:#111419;--panel2:#171b22;--line:#202732;
+  --fg:#e7ebf3;--dim:#8a94a8;--ok:#2fd48c;--bad:#f4696b;--warn:#eab308;
+  --accent:#5b8cff;--accent2:#8f7bff;
+  --grad:linear-gradient(135deg,#5b8cff,#8f7bff);
+  --side:250px;
 }
 *{box-sizing:border-box;margin:0}
 body{background:var(--bg);color:var(--fg);
   font:14px/1.55 ui-sans-serif,system-ui,"Segoe UI",Roboto,sans-serif;
-  min-height:100vh}
-.wrap{max-width:1100px;margin:0 auto;padding:28px 20px 80px}
+  min-height:100vh;display:flex}
 
-/* --- header --- */
-header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
-.logo{width:38px;height:38px;border-radius:11px;background:var(--grad);
-  display:grid;place-items:center;font-size:19px;
-  box-shadow:0 4px 18px rgba(110,168,255,.35)}
-h1{font-size:21px;font-weight:650;letter-spacing:.3px}
-.sub{color:var(--dim);font-size:12.5px;margin-bottom:22px}
+/* ---------- sidebar ---------- */
+aside{position:fixed;top:0;left:0;bottom:0;width:var(--side);
+  background:var(--panel);border-right:1px solid var(--line);
+  padding:20px 14px;display:flex;flex-direction:column;gap:4px;z-index:5}
+.brand{display:flex;align-items:center;gap:10px;padding:2px 8px 16px}
+.brand .mark{width:34px;height:34px;border-radius:10px;background:var(--grad);
+  display:grid;place-items:center;font-weight:800;font-size:15px;color:#fff}
+.brand b{font-size:15.5px;letter-spacing:.2px}
+.brand small{display:block;color:var(--dim);font-size:10.5px;letter-spacing:1.2px;
+  text-transform:uppercase}
+nav button{display:flex;align-items:center;gap:10px;width:100%;
+  background:none;border:0;color:var(--dim);font:inherit;font-size:13.5px;
+  padding:10px 12px;border-radius:10px;cursor:pointer;text-align:left;
+  transition:background .15s,color .15s}
+nav button:hover{background:var(--panel2);color:var(--fg)}
+nav button.on{background:linear-gradient(90deg,rgba(91,140,255,.16),transparent);
+  color:#fff;font-weight:600}
+nav .ic{width:20px;text-align:center;font-size:15px;opacity:.9}
+nav .cnt{margin-left:auto;font-size:10.5px;color:var(--dim);
+  background:var(--panel2);border:1px solid var(--line);
+  padding:1px 8px;border-radius:10px}
+.side-foot{margin-top:auto;padding:10px 8px 0;border-top:1px solid var(--line)}
+.side-foot .row{display:flex;justify-content:space-between;font-size:11px;
+  color:var(--dim);padding:2px 0}
+.side-foot .row b{color:var(--fg);font-weight:600}
 
-/* --- stat row --- */
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:12px;margin-bottom:22px}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;
-  padding:14px 16px;position:relative;overflow:hidden}
-.stat .v{font-size:26px;font-weight:700;letter-spacing:.5px}
-.stat .l{color:var(--dim);font-size:11.5px;text-transform:uppercase;
-  letter-spacing:1.2px;margin-top:2px}
-.stat::after{content:"";position:absolute;inset:0 0 auto 0;height:3px;
-  background:var(--grad);opacity:.55}
-.stat.ok::after{background:var(--ok)}
-.stat.bad::after{background:var(--bad)}
+/* ---------- main ---------- */
+main{margin-left:var(--side);flex:1;padding:26px 30px 60px;max-width:1250px}
+.sechead{display:flex;align-items:baseline;gap:12px;margin-bottom:16px}
+.sechead h1{font-size:19px;font-weight:700}
+.sechead .n{color:var(--dim);font-size:12.5px}
+.view{display:none}
+.view.on{display:block;animation:fade .25s}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1}}
 
-/* --- ideas grid --- */
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}
+/* ---------- generic card ---------- */
 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;
-  padding:16px;transition:transform .18s ease,border-color .18s ease;
-  animation:rise .5s ease backwards}
-.card:hover{transform:translateY(-3px);border-color:#3a4763}
-@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1}}
-.card h3{font-size:14.5px;font-weight:600;display:flex;align-items:center;
-  gap:8px;margin-bottom:6px}
-.dot{width:9px;height:9px;border-radius:50%;flex:none}
-.dot.ok{background:var(--ok);box-shadow:0 0 0 4px rgba(52,211,153,.15);
-  animation:pulse 2.2s infinite}
-.dot.bad{background:var(--bad);box-shadow:0 0 0 4px rgba(248,113,113,.15)}
-.dot.unknown{background:var(--warn);box-shadow:0 0 0 4px rgba(251,191,36,.13)}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 3px rgba(52,211,153,.13)}
-  50%{box-shadow:0 0 0 7px rgba(52,211,153,.05)}}
-.stage{color:var(--dim);font-size:12px;margin-bottom:10px}
-.files{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}
-.files button{background:none;border:0;color:var(--accent);cursor:pointer;
-  font:inherit;font-size:12.5px;text-align:left;padding:3px 6px;border-radius:6px;
-  transition:background .12s}
-.files button:hover{background:var(--panel2)}
-.keys{display:flex;flex-wrap:wrap;gap:6px}
-.kchip{font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid var(--line);
-  color:var(--dim)}
-.kchip.set{background:rgba(52,211,153,.09);border-color:rgba(52,211,153,.35);
-  color:var(--ok)}
-.badge{font-size:11px;padding:2px 9px;border-radius:20px;font-weight:600}
-.badge.ok{background:rgba(52,211,153,.12);color:var(--ok)}
-.badge.bad{background:rgba(248,113,113,.12);color:var(--bad)}
-.badge.warn{background:rgba(251,191,36,.12);color:var(--warn)}
+  padding:16px 18px;transition:border-color .18s}
+.card:hover{border-color:#2b3545}
+.card h3{font-size:12px;font-weight:600;color:var(--dim);
+  text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;
+  display:flex;align-items:center;gap:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid2.start{align-items:start}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
+  gap:12px;margin-bottom:14px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  padding:14px 16px}
+.stat .v{font-size:23px;font-weight:700;letter-spacing:.3px;font-variant-numeric:tabular-nums}
+.stat .l{color:var(--dim);font-size:10.5px;text-transform:uppercase;
+  letter-spacing:1.2px;margin-top:2px}
+.stat.strip{position:relative;overflow:hidden}
+.stat.strip::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:var(--accent)}
+.stat.ok::before{background:var(--ok)}
+.stat.bad::before{background:var(--bad)}
+.up{color:var(--ok)}.down{color:var(--bad)}.flat{color:var(--dim)}
 
-/* --- launches --- */
-h2{font-size:15px;font-weight:600;margin:26px 0 10px}
+.badge{font-size:10.5px;padding:2px 9px;border-radius:20px;font-weight:600;letter-spacing:.4px}
+.badge.ok{background:rgba(47,212,140,.12);color:var(--ok)}
+.badge.bad{background:rgba(244,105,107,.13);color:var(--bad)}
+.badge.warn{background:rgba(234,179,8,.13);color:var(--warn)}
+.badge.info{background:rgba(91,140,255,.13);color:var(--accent)}
+.note{color:var(--dim);font-size:12px}
+.rows{display:flex;flex-direction:column;gap:4px;max-height:340px;overflow:auto}
+.rowitem{display:flex;gap:10px;align-items:center;padding:7px 10px;border-radius:9px;
+  background:var(--panel2);border:1px solid var(--line);font-size:12.5px;flex-wrap:wrap}
+.rowitem .sym{font-weight:700;min-width:110px}
+.rowitem .why{color:var(--dim);font-size:11.5px;flex:1}
+.num{font-variant-numeric:tabular-nums}
+.dot{width:8px;height:8px;border-radius:50%;flex:none}
+.dot.ok{background:var(--ok)}
+.dot.bad{background:var(--bad)}
+.dot.unknown{background:var(--warn)}
+@keyframes blink{50%{opacity:.4}}
+.jchip{font-size:11px;padding:2px 8px;border-radius:14px;background:var(--panel2);
+  border:1px solid var(--line)}
+.jchip.running{color:#7aa2ff;animation:blink 1.4s infinite}
+.jchip.done{color:var(--ok)}
+.jchip.failed{color:var(--bad)}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{color:var(--dim);font-size:10.5px;text-transform:uppercase;letter-spacing:1px;
+  text-align:left;padding:6px 10px;border-bottom:1px solid var(--line);font-weight:600}
+td{padding:7px 10px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+
+/* ---------- buttons & inputs ---------- */
+.btn{background:var(--grad);color:#fff;border:0;border-radius:10px;
+  padding:9px 16px;font-weight:600;font-size:13px;cursor:pointer;
+  transition:transform .12s,box-shadow .12s,opacity .12s}
+.btn:hover:not(:disabled){transform:translateY(-1px);
+  box-shadow:0 5px 18px rgba(91,140,255,.3)}
+.btn:disabled{opacity:.35;cursor:not-allowed}
+.btn.ghost{background:none;border:1px solid var(--line);color:var(--fg)}
+.btn.small{padding:5px 12px;font-size:12px}
+.btn.danger{background:linear-gradient(135deg,#f4696b,#e11d48)}
+input[type=text],input[type=password]{
+  background:var(--panel2);border:1px solid var(--line);color:var(--fg);
+  padding:7px 12px;border-radius:9px;font:inherit;font-size:13px;outline:none;
+  transition:border-color .15s;width:100%}
+input:focus{border-color:var(--accent)}
+.krow{display:grid;grid-template-columns:130px 1fr 90px;gap:8px;
+  align-items:center;margin:7px 0}
+.krow .kname{font-size:12px;color:var(--dim)}
+.krow .kname .badge{margin-right:6px}
+.hint{color:var(--dim);font-size:11px}
+.lockrow{display:grid;grid-template-columns:1fr 1fr 60px;gap:8px;align-items:center;
+  margin:8px 0}
+
+/* ---------- credentials veil ---------- */
+.veil{background:var(--panel2);border:2px dashed var(--line);border-radius:14px;
+  padding:34px 24px;text-align:center}
+.veil .big{font-size:22px;margin-bottom:8px}
+#creds button#reveal{margin-top:14px}
+
+/* ---------- some sections ---------- */
 .launch{background:var(--panel);border:1px solid var(--line);border-radius:12px;
-  padding:12px 16px;margin-bottom:8px;display:flex;gap:14px;align-items:center;
+  padding:11px 16px;margin-bottom:8px;display:flex;gap:14px;align-items:center;
   flex-wrap:wrap;font-size:12.5px}
 .launch .id{font-weight:600}
 .mode-dry_run{color:var(--accent)}
 .mode-live{color:#f472b6}
-.jobs{display:flex;gap:6px;flex-wrap:wrap}
-.jchip{font-size:11px;padding:2px 8px;border-radius:14px;background:var(--panel2);
-  border:1px solid var(--line)}
-.jchip.running{color:#60a5fa;animation:blink 1.4s infinite}
-.jchip.done{color:var(--ok)}
-.jchip.failed{color:var(--bad)}
-@keyframes blink{50%{opacity:.45}}
-
-/* --- launch bar --- */
-.bar{position:sticky;bottom:0;margin-top:26px;background:rgba(11,13,18,.9);
-  backdrop-filter:blur(8px);border-top:1px solid var(--line);padding:14px 4px;
-  display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.btn{background:var(--grad);color:#0b0d12;border:0;border-radius:10px;
-  padding:9px 18px;font-weight:600;font-size:13px;cursor:pointer;
-  transition:transform .12s,box-shadow .12s}
-.btn:hover:not(:disabled){transform:translateY(-1px);
-  box-shadow:0 6px 20px rgba(110,168,255,.35)}
-.btn:disabled{opacity:.4;cursor:not-allowed}
-.btn.ghost{background:none;border:1px solid var(--line);color:var(--fg)}
-.btn.small{padding:5px 12px;font-size:12px}
-.note{color:var(--dim);font-size:12px}
-input[type=text],input[type=password]{
-  background:var(--panel2);border:1px solid var(--line);color:var(--fg);
-  padding:7px 12px;border-radius:9px;font:inherit;font-size:13px;outline:none;
-  transition:border-color .15s}
-input:focus{border-color:var(--accent)}
-.krow{display:flex;gap:6px;margin:6px 0;flex-wrap:wrap;align-items:center}
-.krow input[type=password]{flex:1;min-width:140px}
-.hint{color:var(--dim);font-size:11px;width:100%}
-.glabel{color:var(--dim);font-size:11.5px;text-transform:uppercase;
-  letter-spacing:1px;margin:10px 0 4px}
-
-/* --- overlays --- */
-#fileview{position:fixed;inset:0;background:rgba(5,7,12,.8);display:none;
-  padding:40px;overflow:auto;z-index:9;animation:fadein .18s}
-@keyframes fadein{from{opacity:0}to{opacity:1}}
+.launchbar{margin-top:18px;background:var(--panel);border:1px solid var(--line);
+  border-radius:14px;padding:14px 18px;display:flex;gap:10px;align-items:center;
+  flex-wrap:wrap}
+#log{margin-top:8px;font:11.5px Consolas,monospace;color:var(--dim);
+  max-height:100px;overflow:auto;flex-basis:100%}
+#fileview{position:fixed;inset:0;background:rgba(4,6,10,.82);display:none;
+  padding:40px;overflow:auto;z-index:9;animation:fade .2s}
 #fileview pre{background:var(--panel);border:1px solid var(--line);padding:18px;
   border-radius:12px;white-space:pre-wrap;max-width:900px;margin:auto;
   font:12.5px/1.55 Consolas,monospace}
-#log{margin-top:10px;font:12px Consolas,monospace;color:var(--dim);
-  max-height:120px;overflow:auto}
+.verdict-hold{color:var(--warn)}
+.verdict-average{color:var(--ok)}
+.verdict-exit{color:var(--bad)}
+.verdict-recover{color:var(--accent)}
+@media(max-width:900px){
+  :root{--side:60px}
+  aside{padding:14px 8px}
+  .brand b,.brand small,nav button span.lbl,nav .cnt,.side-foot{display:none}
+  main{padding:20px 14px 50px}
+  .grid2{grid-template-columns:1fr}
+  .krow{grid-template-columns:1fr;gap:4px}
+  .krow .btn{width:100%}
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🛰</div>
-    <h1>Empire Monitor</h1>
-  </header>
-  <div class="sub">Local control plane · loopback only · launch requires explicit approval · <a href="#tradingagent" style="color:var(--accent)">🤖 trading-agent dashboard ↓</a></div>
+<aside>
+  <div class="brand"><div class="mark">E</div><div><b>Empire</b><small>Control Plane</small></div></div>
+  <nav>
+    <button data-view="overview" class="on"><span class="ic">◧</span><span class="lbl">Overview</span></button>
+    <button data-view="portfolio"><span class="ic">◧</span><span class="lbl">Portfolio</span></button>
+    <button data-view="agent"><span class="ic">◧</span><span class="lbl">Trading Agent</span></button>
+    <button data-view="systems"><span class="ic">◧</span><span class="lbl">Systems</span><span class="cnt" id="cnt-sys">—</span></button>
+    <button data-view="creds"><span class="ic">◧</span><span class="lbl">Credentials</span></button>
+  </nav>
+  <div class="side-foot">
+    <div class="row"><span>failures</span><b id="sf-bad">—</b></div>
+    <div class="row"><span>agent loop</span><b id="sf-loop">—</b></div>
+    <div class="row"><span>telegram</span><b id="sf-tg">—</b></div>
+  </div>
+</aside>
 
-  <div class="stats" id="stats"></div>
+<main>
+<!-- ============ OVERVIEW ============ -->
+<section class="view on" id="view-overview">
+  <div class="sechead"><h1>Overview</h1><span class="n" id="ts-line"></span></div>
+  <h3 style="margin:10px 0 10px;color:var(--dim);font-size:12px;letter-spacing:1px">BUSINESS</h3>
+  <div class="stats" id="ov-biz"></div>
+  <h3 style="margin:14px 0 10px;color:var(--dim);font-size:12px;letter-spacing:1px">TRADING</h3>
+  <div class="stats" id="ov-trade"></div>
+  <div class="grid2 start" style="margin-top:4px">
+    <div class="card"><h3>System status</h3><div id="ov-sys"></div></div>
+    <div class="card"><h3>Top sellers (Gumroad)</h3><div id="ov-top"></div></div>
+  </div>
+</section>
 
-  <h2>💰 Earnings</h2>
-  <div class="stats" id="earnings"></div>
-  <div class="card" id="revenue-top" style="max-width:640px;margin-bottom:22px"></div>
-
-  <div class="grid" id="ideas"></div>
-
-  <h2>📈 Portfolio &amp; Signals</h2>
+<!-- ============ PORTFOLIO ============ -->
+<section class="view" id="view-portfolio">
+  <div class="sechead"><h1>Portfolio</h1><span class="n" id="pf-src"></span></div>
   <div class="stats" id="pf-stats"></div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start">
+  <div class="grid2 start">
     <div class="card">
-      <div class="glabel">Your holdings (edit qty to 0 to remove)</div>
-      <div id="pf-holdings"></div>
-      <div class="krow">
-        <input type="text" id="h-sym" placeholder="symbol e.g. TATAMOTORS" style="flex:1">
-        <input type="text" id="h-qty" placeholder="qty" size="5">
-        <input type="text" id="h-buy" placeholder="buy ₹" size="7">
+      <h3>Holdings</h3>
+      <table><tbody id="pf-holdings"></tbody></table>
+      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+        <input type="text" id="h-sym" placeholder="symbol e.g. TATAMOTORS" style="flex:2;min-width:120px">
+        <input type="text" id="h-qty" placeholder="qty" style="flex:1;min-width:60px">
+        <input type="text" id="h-buy" placeholder="buy ₹" style="flex:1;min-width:80px">
         <button class="btn small" onclick="addHolding()">add</button>
       </div>
     </div>
     <div class="card">
-      <div class="glabel">Today's signals (rule-based, not advice)</div>
-      <div id="pf-signals" class="files" style="max-height:280px"></div>
+      <h3>Watchlist signals (rule-based, not advice)</h3>
+      <div id="pf-signals" class="rows"></div>
     </div>
   </div>
-  <div class="note" id="pf-note" style="margin:8px 0 22px"></div>
+  <div class="card" style="margin-top:14px">
+    <h3>AI portfolio advisor <span id="adv-state"></span></h3>
+    <div class="note" id="adv-note" style="margin-bottom:10px"></div>
+    <div id="adv-advice"></div>
+    <div style="display:flex;gap:8px;margin-top:12px;align-items:center">
+      <button class="btn ghost small" onclick="renderAdvisor(true)">refresh analysis</button>
+      <div class="lockrow" id="adv-keybox" style="margin:0;flex:2"></div>
+    </div>
+  </div>
+  <div class="note" id="pf-note" style="margin:10px 2px"></div>
+</section>
 
-  <h2 id="tradingagent">🤖 Trading agent (paper-first · read-only telemetry)</h2>
+<!-- ============ TRADING AGENT ============ -->
+<section class="view" id="view-agent">
+  <div class="sechead"><h1>Trading Agent</h1><span class="n" id="ta-mode"></span></div>
   <div class="stats" id="ta-stats"></div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start">
+  <div class="grid2 start">
     <div class="card">
-      <div class="glabel">Go-live readiness (same gate the bot enforces)</div>
-      <div id="ta-readiness" class="files"></div>
+      <h3>Go-live readiness</h3>
+      <div id="ta-readiness" class="rows"></div>
     </div>
     <div class="card">
-      <div class="glabel">Recent decisions (bot's own log)</div>
-      <div id="ta-decisions" class="files" style="max-height:250px"></div>
+      <h3>Recent decisions</h3>
+      <div id="ta-decisions" class="rows"></div>
     </div>
   </div>
-  <div class="card" id="ta-fills" style="margin-top:14px;max-width:720px"></div>
-  <div class="card" id="ta-keysbox" style="margin:14px auto 0;max-width:640px"></div>
-  <div class="note" id="ta-note" style="margin:10px 0 22px"></div>
+  <div class="card" style="margin-top:14px">
+    <h3>Last fills (paper ledger)</h3>
+    <div id="ta-fills" class="rows"></div>
+    <div id="ta-summaries" style="margin-top:8px"></div>
+  </div>
+  <div class="card" style="margin-top:14px">
+    <h3>CoinDCX live-trading key</h3>
+    <div id="ta-keysbox"></div>
+    <div class="note" id="ta-note" style="margin-top:8px"></div>
+  </div>
+</section>
 
-  <h2>Recent launches</h2>
-  <div id="launches"></div>
-
-  <h2>Shared keys</h2>
-  <div class="card" id="rootcard" style="max-width:560px"></div>
-
-  <div class="bar">
-    <button class="btn" id="btn-dry">▶ Dry-run all</button>
+<!-- ============ SYSTEMS ============ -->
+<section class="view" id="view-systems">
+  <div class="sechead"><h1>Systems</h1><span class="n">income engines — health, reviewable files, launches</span></div>
+  <div class="stats" id="sys-stats"></div>
+  <div id="sys-ideas" class="grid2 start"></div>
+  <h2 style="margin:22px 0 10px;font-size:15px">Recent launches</h2>
+  <div id="sys-launches"></div>
+  <div class="launchbar">
+    <button class="btn" id="btn-dry" disabled>▶ Dry-run all</button>
     <button class="btn ghost" id="btn-live" disabled>🚀 Go live</button>
-    <input type="text" id="confirm" placeholder="type RUN LIVE to arm" size="16">
-    <span class="note">Dry-run first, then type RUN LIVE to arm live mode.</span>
-    <div id="log" style="flex-basis:100%">ready.</div>
+    <input type="text" id="confirm" placeholder="type RUN LIVE to arm" style="max-width:180px">
+    <span class="note">Dry-run first; type RUN LIVE to arm live mode.</span>
+    <div id="log">ready.</div>
   </div>
-</div>
+</section>
+
+<!-- ============ CREDENTIALS ============ -->
+<section class="view" id="view-creds">
+  <div class="sechead"><h1>Credentials</h1><span class="n">stored locally in .env files · never logged · never returned by the API</span></div>
+  <div class="veil" id="veil">
+    <div class="big">🔒</div>
+    <div class="note" style="max-width:460px;margin:0 auto">
+      API keys are hidden behind this landing card. Only the names and their
+      set/unset state are shown — values are never rendered, logged or sent
+      anywhere except straight into the project's gitignored .env files.
+    </div>
+    <button class="btn" id="reveal">Reveal key fields</button>
+  </div>
+  <div id="creds" style="display:none">
+    <div class="stats" id="cred-stats" style="margin-bottom:14px"></div>
+    <div class="grid2 start">
+      <div class="card"><h3>Shared keys · root .env</h3><div id="cred-root"></div></div>
+      <div class="card"><h3>Trading agent · trading-agent/.env</h3><div id="cred-ta"></div></div>
+    </div>
+    <div class="grid2 start" style="margin-top:14px">
+      <div class="card"><h3>idea-1 · POD designs</h3><div id="cred-i1"></div></div>
+      <div class="card"><h3>idea-2 · Pinterest engine</h3><div id="cred-i2"></div></div>
+    </div>
+    <div class="grid2 start" style="margin-top:14px">
+      <div class="card"><h3>idea-3 · Content engine</h3><div id="cred-i3"></div></div>
+      <div class="card"><h3>idea-4 · Video engine</h3><div id="cred-i4"></div></div>
+    </div>
+  </div>
+</section>
+</main>
 
 <div id="fileview" onclick="this.style.display='none'">
   <pre><b id="fv-path"></b>
@@ -193,13 +304,15 @@ input:focus{border-color:var(--accent)}
 </div>
 
 <script>
-let S=null, armed=false, lastDry=null;
+let S=null,TA=null,P=null,ADV=null,armed=false,credsVisible=false,CRED=null;
 const $=id=>document.getElementById(id);
 const api=(p,o)=>fetch(p,o).then(r=>r.json());
-const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const esc=s=>String(s).replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
+const inr=n=>{n=Number(n)||0;return n.toLocaleString('en-IN',{maximumFractionDigits:2});};
+const pl=n=>(n>0?'+':'')+inr(n);
+const cls=n=>n>0?'up':(n<0?'down':'flat');
 function log(m){$('log').innerHTML =
   `[${new Date().toLocaleTimeString()}] ${esc(m)}<br>`+$('log').innerHTML;}
-
 function fmtAge(ts){
   if(!ts)return'';
   const d=(Date.now()-new Date(ts))/1000;
@@ -209,227 +322,334 @@ function fmtAge(ts){
   return Math.round(d/86400)+'d ago';
 }
 
+/* ---------- tabs ---------- */
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('on'));
+  $('view-'+b.dataset.view).classList.add('on');
+  if(b.dataset.view==='creds'&&!credsVisible)drawVeil();  // reset on entry
+});
+
+/* ---------- data loaders ---------- */
+let deferred={advisor:false,ta:false};
+async function load(){
+  S=await api('/api/status');
+  renderOverview(); renderSystems(); renderCredentials();
+  try{renderTradingAgent()}catch(e){}
+}
+function schedule(name,fn,ms){fn();setInterval(async()=>{deferred[name]=true;try{await fn()}finally{deferred[name]=false}},ms);}
+schedule('revenue',renderRevenue,120000);
+schedule('portfolio',renderPortfolio,300000);
+schedule('ta',renderTradingAgent,30000);
+load();
+
 async function renderRevenue(){
   try{
     const R=await api('/api/revenue');
-    const g=R.gumroad||{}, p=R.pinterest||{};
+    const g=R.gumroad||{},p=R.pinterest||{};
+    CRED=R;
     const tot=(g.revenue_usd||0)+(p.revenue_usd||0);
-    $('earnings').innerHTML=
-      `<div class="stat ok"><div class="v">$${tot.toFixed(2)}</div><div class="l">total earned</div></div>`+
+    $('ov-biz').innerHTML=
+      `<div class="stat strip ok"><div class="v">$${tot.toFixed(2)}</div><div class="l">total earned</div></div>`+
       `<div class="stat"><div class="v">${g.sales??'—'}</div><div class="l">gumroad sales</div></div>`+
-      `<div class="stat"><div class="v">${p.queued??'—'}</div><div class="l">pins queued</div></div>`+
-      `<div class="stat"><div class="v">${p.published??'—'}</div><div class="l">pins posted</div></div>`;
+      `<div class="stat"><div class="v">${p.published??'—'}/${p.queued??'—'}</div><div class="l">pins posted / queued</div></div>`+
+      `<div class="stat"><div class="v">${(g.products||0)+(p.available?1:0)}</div><div class="l">live pipelines</div></div>`;
     const top=(g.top||[]).map(r=>
-      `<div class="launch"><span class="id">${esc(r[0])}</span><span>${r[1]} sales · $${r[2].toFixed(2)}</span></div>`).join('')
-      || `<div class="note">No sales yet — products are live, revenue shows up here the moment one sells (refreshes every 2 min).</div>`;
-    $('revenue-top').innerHTML='<div class="glabel">top sellers (gumroad live)</div>'+top;
+      `<div class="rowitem"><span style="flex:1">${esc(r[0])}</span>
+       <span class="num">${r[1]} sales</span><span class="num up">$${r[2].toFixed(2)}</span></div>`).join('')
+      || `<div class="note">No sales yet — products are live; revenue lands here the moment one sells.</div>`;
+    $('ov-top').innerHTML=top;
+    renderOverviewCounts();renderOverviewTrade();
   }catch(e){
-    $('earnings').innerHTML=`<div class="note">revenue API unavailable: ${esc(String(e))}</div>`;
+    $('ov-biz').innerHTML=`<div class="note">revenue API unavailable: ${esc(String(e))}</div>`;
   }
 }
 
-async function renderTrading(){
+async function renderOverview(){
+  if(!S)return;
+  renderOverviewCounts();
+  $('ts-line').textContent='live · refreshes automatically · '+fmtAge(S.ts||new Date().toISOString());
+  $('ov-sys').innerHTML=S.ideas.map(i=>{
+    const h=i.health||{};
+    const cls=h.ok===true?'ok':(h.ok===false?'bad':'unknown');
+    const st=h.ok===true?'ok':(h.ok===false?'failed':'never run');
+    return `<div class="rowitem"><span class="dot ${cls}"></span>
+      <span class="sym">${esc(i.id)}</span><span class="why" style="flex:1">${esc(i.name)}</span>
+      <span class="badge ${cls}">${st}</span>
+      <span class="badge ${i.llm_ready?'ok':'warn'}">llm ${i.llm_ready?'ready':'mock'}</span></div>`;}).join('');
+}
+
+function renderOverviewTrade(){
+  if(!P&&!TA)return;
+  const inv=P?P.invested||0:0, val=P?P.value||0:0, plv=P?P.pl||0:0;
+  const eq=TA&&TA.available?(TA.equity_now||0):null;
+  const r=TA&&TA.available?(TA.readiness||{}):null;
+  $('ov-trade').innerHTML=
+    `<div class="stat"><div class="v">₹${inr(inv)}</div><div class="l">equity invested</div></div>`+
+    `<div class="stat ${plv>=0?'ok':'bad'}"><div class="v ${cls(plv)}">₹${pl(plv)}</div><div class="l">portfolio P/L</div></div>`+
+    `<div class="stat"><div class="v">${eq==null?'—':'₹'+inr(eq)}</div><div class="l">bot paper equity</div></div>`+
+    `<div class="stat ${r&&r.ready?'ok':''}"><div class="v">${r?(r.ready?'PASS':'FAIL'):'—'}</div><div class="l">go-live gate</div></div>`;
+}
+
+/* ---------- portfolio ---------- */
+function renderOverviewCounts(){
+  if(!S){return}
+  const bad=(S.ideas||[]).filter(i=>i.health?.ok===false).length;
+  $('sf-bad').textContent=bad?`${bad} failed`:'all ok';
+  if(TA&&TA.available){
+    $('sf-loop').textContent=TA.loop?.alive?'alive':'STOPPED';
+    $('sf-tg').textContent=TA.notify?'on':'—';
+  }
+}
+async function renderPortfolio(){
   try{
     const T=await api('/api/trading');
+    P=T;
     $('pf-stats').innerHTML=
-      `<div class="stat"><div class="v">₹${T.invested?.toLocaleString('en-IN')||0}</div><div class="l">invested</div></div>`+
-      `<div class="stat ${T.pl>=0?'ok':'bad'}"><div class="v">₹${T.value?.toLocaleString('en-IN')||0}</div><div class="l">current value</div></div>`+
-      `<div class="stat ${T.pl>=0?'ok':'bad'}"><div class="v">₹${(T.pl>0?'+':'')+T.pl?.toLocaleString('en-IN')}</div><div class="l">P / L</div></div>`+
+      `<div class="stat"><div class="v">₹${inr(T.invested)}</div><div class="l">invested</div></div>`+
+      `<div class="stat ${T.pl>=0?'ok':'bad'}"><div class="v">₹${inr(T.value)}</div><div class="l">current value</div></div>`+
+      `<div class="stat ${T.pl>=0?'ok':'bad'}"><div class="v ${cls(T.pl)}">₹${pl(T.pl)}</div><div class="l">P / L total</div></div>`+
       `<div class="stat"><div class="v">${T.holdings?.length||0}</div><div class="l">stocks held</div></div>`;
-    $('pf-holdings').innerHTML=(T.holdings||[]).map(h=>
-      `<div class="krow"><span class="kchip set">${esc(h.symbol)}</span>
-        <span style="font-size:12px">${h.qty} @ ₹${h.buy_price} → ₹${h.current}
-        <b style="color:${h.pl>=0?'var(--ok)':'var(--bad)'}">(${h.pl>0?'+':''}${h.pl})</b> · ${h.signal}</span></div>`).join('')
-      || '<div class="note">No holdings yet — add your stock below.</div>';
+    $('pf-src').textContent=T.data_source||'';
+    const tg=h=>`<tr>
+      <td><b>${esc(h.source==='angelone'?h.symbol+' ⚡':h.symbol)}</b></td>
+      <td class="num">${h.qty}</td>
+      <td class="num">₹${inr(h.buy_price)}</td>
+      <td class="num">₹${inr(h.current)}</td>
+      <td class="num ${h.pl>=0?'up':'down'}">${pl(h.pl)}</td>
+      <td class="num hint">${esc(h.signal&&h.signal!=='—'?h.signal:'')}</td></tr>`;
+    $('pf-holdings').innerHTML=`<tr>
+      <th>symbol</th><th>qty</th><th>buy</th><th>now</th><th>P/L</th><th></th></tr>`
+      +(T.holdings||[]).map(tg).join('')
+      || '<div class="note">no holdings yet — add one below, or configure AngelOne in Credentials</div>';
     $('pf-signals').innerHTML=(T.watchlist||[]).map(s=>{
-      const cls=s.signal==='BUY'?'ok':(s.signal==='AVOID'?'bad':'warn');
-      return `<button disabled style="cursor:default;color:var(--fg)">
-        <span class="badge ${cls}">${esc(s.signal)}</span> <b>${esc(s.symbol)}</b>
-        ₹${s.price??'—'} · RSI ${s.rsi??'—'} · 5d ${s.mom5d??'—'}%
-        <div class="hint">${esc(s.why||s.err||'')}</div></button>`;}).join('');
-    $('pf-note').textContent=(T.data_source||'')+' · '+(T.broker_integration||'')+' · '+(T.disclaimer||'');
+      const b=s.signal==='BUY'?'ok':(s.signal==='AVOID'?'bad':'warn');
+      return `<div class="rowitem"><span class="badge ${b}">${esc(s.signal)}</span>
+        <span class="sym" style="min-width:0;flex:1">${esc(s.symbol)}</span>
+        <span class="num">₹${s.price??'—'}</span><span class="num hint">RSI ${s.rsi??'—'}</span>
+        <span class="why" style="flex-basis:100%">${esc(s.why||s.err||'')}</span></div>`;}).join('')
+      ||'<div class="note">no watchlist saved</div>';
+    $('pf-note').textContent=(T.broker_integration||'')+'  ·  '+(T.disclaimer||'');
+    renderAdvisor(); // keep advisor card behind the same data pass
+    renderOverviewTrade();
   }catch(e){
     $('pf-note').textContent='trading API unavailable: '+e;
   }
 }
 
-async function renderTradingAgent(){
-  try{
-    const A=await api('/api/tradingagent');
-    const el=id=>document.getElementById(id);
-    if(!A.available){
-      el('ta-stats').innerHTML=`<div class="note">${esc(A.note||'trading agent not started')}</div>`;
-      return;
-    }
-    const r=A.readiness||{};
-    const eq=A.equity_now??0;
-    el('ta-stats').innerHTML=
-      `<div class="stat"><div class="v">₹${eq.toFixed(2)}</div><div class="l">paper equity</div></div>`+
-      `<div class="stat ${A.realized_pnl>=0?'ok':'bad'}"><div class="v">₹${(A.realized_pnl>0?'+':'')}${A.realized_pnl??0}</div><div class="l">realized P/L</div></div>`+
-      `<div class="stat"><div class="v">${A.evidence_days??0}d</div><div class="l">paper evidence</div></div>`+
-      `<div class="stat"><div class="v">${r.ready?'<span class="badge ok">READY</span>':'<span class="badge warn">NOT READY</span>'}</div><div class="l">go-live gate</div></div>`;
-    el('ta-readiness').innerHTML=(r.checks||[]).map(c=>
-      `<button disabled style="cursor:default;color:var(--fg)">
-        <span class="badge ${c.ok?'ok':'bad'}">${c.ok?'✓':'✗'}</span> <b>${esc(c.name)}</b>
-        <div class="hint">${esc(c.detail)}</div></button>`).join('')
-      + `<div class="hint" style="margin-top:6px">${esc(r.verdict||'')}`
-      + (A.open_position ? ` · open position marked ${A.open_mark?('₹'+A.open_mark):''}`
-         + (A.open_unrealized!=null?` (unrealized net ₹${A.open_unrealized})`:''): "") + `</div>`;
-    el('ta-decisions').innerHTML=(A.decisions||[]).reverse().map(d=>
-      `<button disabled style="cursor:default">
-        <span class="badge ${d.signal==='buy'?'ok':(d.signal==='sell'?'bad':'warn')}">${esc(d.signal)}</span>
-        ₹${d.price?.toLocaleString?.()??'—'} · ${esc(d.reason||'')}
-        <span style="opacity:.5">${fmtAge(new Date((d.ts||0)*1000).toISOString())}</span>
-        ${d.executed?'<span class="badge ok">EXECUTED</span>':'<span class="badge warn">hold</span>'}
-        <div class="hint">risk: ${esc(d.risk||'')} · equity ₹${d.equity??'—'}
-        ${d.advisor?` · [AI ${esc(d.advisor.verdict||'ok')}${d.advisor.why?': '+esc(d.advisor.why):''}]`:''}</div></button>`).join('')
-      || '<div class="note">no cycles logged yet</div>';
-    const fills=(A.fills||[]);
-    el('ta-fills').innerHTML='<div class="glabel">last fills (paper ledger)</div>'+
-      (fills.map(f=>
-        `<div class="krow"><span class="kchip set">${esc(f.side)}</span>${esc(f.pair)}
-          qty ${f.qty} @ ₹${f.price} · notional ₹${f.notional_inr} · fee ₹${f.fee_inr}
-          ${esc(String(f.note))}</div>`).join('')
-       || '<div class="note">no fills yet — the strategy is deliberately slow</div>')
-      + (A.summary_log?.length ? '<div class="hint" style="margin-top:8px">daily summaries:</div>'
-          + A.summary_log.map(l=>`<div class="hint">${esc(l)}</div>`).join('') : '');
-    el('ta-keysbox').innerHTML='<div class="glabel">CoinDCX live-trading key (trade-only · withdrawals OFF · IP whitelist)</div>'
-      + (S?.trading_agent?.keys||[]).map((g,ix)=>
-        '<div class="glabel">'+esc(g.label)+'</div>'+
-        (g.keys||[]).map(k=>
-          `<div class="krow">
-            <span class="kchip ${k.set?'set':''}">${k.set?'set':'—'}</span>
-            <input type="password" id="in-trading-agent-${ix}-${esc(k.name)}" placeholder="${esc(k.name)}" autocomplete="off" style="flex:1;min-width:160px">
-            <button class="btn ghost small" onclick="saveKeys('trading-agent','${ix}-${esc(k.name)}')">save</button>
-            <div class="hint">${esc(k.hint)}</div></div>`).join('')).join('')
-      + `<div class="hint" style="margin-top:6px">Stored in trading-agent/.env (gitignored, never logged). ${A.live_mode?'Bot is currently requesting LIVE — the readiness gate still has the final say.':A.coindcx_keys?'Key stored. The bot takes it automatically on its next cycle — flip LIVE_MODE to 1 only when the gate above is READY.':'Paste the key, then wait for the READY badge before enabling live.'}</div>`;
-    el('ta-note').innerHTML=
-      `${esc(A.parity||'')} · bot loop ${A.loop?.alive?'<b style="color:var(--ok)">alive</b>':'<b style="color:var(--bad)">STOPPED</b>'} (last write ${A.loop?.last_write_age_minutes??'?'} min ago)`
-      + ` · Telegram alerts: ${A.notify?'<span class="badge ok">on</span>':'<span class="badge warn">not configured</span>'}`
-      + ` · CoinDCX key: ${A.coindcx_keys?'<span class="badge ok">pasted</span>':'<span class="badge warn">not pasted yet</span>'}`
-      + ` · mode: ${A.live_mode?'<span class="badge bad">LIVE</span>':'<span class="badge ok">PAPER</span>'}`
-      + ` · AI advisor: ${A.advisor?'<span class="badge ok">on</span>':'<span class="badge warn">off</span>'}`
-      + ' · live trading starts only when this gate passes AND you paste a trade-only CoinDCX key and set LIVE_MODE=1 in the keys card below.';
-  }catch(e){
-    document.getElementById('ta-note').textContent='trading agent API unavailable: '+e;
+async function renderAdvisor(force){
+  const box=$('adv-advice'),note=$('adv-note'),state=$('adv-state');
+  if(!ADV||force){try{ADV=await api('/api/advisor'+(force?'?refresh=1':''))}catch(e){ADV={available:false,reason:String(e)}}}
+  const A=ADV;
+  if(!A.reported)A.reported=true;
+  if(!A.available){
+    state.innerHTML='<span class="badge warn">offline</span>';
+    note.textContent=A.reason||'advisor not configured yet';
+    $('adv-keybox').innerHTML=
+      `<input type="password" id="in-advisor-GEMINI_API_KEY" placeholder="paste GEMINI_API_KEY" autocomplete="off">
+       <input type="password" id="in-advisor-GROQ_API_KEY" placeholder="…or GROQ_API_KEY" autocomplete="off">
+       <button class="btn small" onclick="saveAdvisorKey()">save</button>`;
+    return;
   }
+  state.innerHTML=`<span class="badge ok">live · on ${esc(A.provider)}</span>`;
+  note.textContent=A.note||'';
+  box.innerHTML=(A.advice||[]).map(a=>{
+    const v=a.verdict;
+    const b=v==='exit'?'bad':(v==='average'?'ok':(v==='recover'?'info':'warn'));
+    return `<div class="rowitem">
+      <span class="sym">${esc(a.symbol)}</span>
+      <span class="badge ${b}">${esc(v)}</span>
+      <span class="why">${esc(a.why||'')}</span></div>`;}).join('')
+    ||'<div class="note">AI came back with no per-stock verdicts — try refresh.</div>';
+}
+async function saveAdvisorKey(){
+  const v=$('in-advisor-GEMINI_API_KEY')?.value.trim()||'';
+  const g=$('in-advisor-GROQ_API_KEY')?.value.trim()||'';
+  const values={};if(v)values.GEMINI_API_KEY=v;if(g)values.GROQ_API_KEY=g;
+  if(!Object.keys(values).length){log('nothing to save');return;}
+  const r=await api('/api/keys',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({target:'_root',values})});
+  log(r.saved?`advisor key(s) saved (${Object.keys(values).join(', ')})`:'key save refused: '+r.error);
+  ADV=null;renderAdvisor(true);
 }
 
 async function addHolding(){
-  const sym=$('h-sym').value.trim(), qty=$('h-qty').value.trim(), buy=$('h-buy').value.trim();
+  const sym=$('h-sym').value.trim(),qty=$('h-qty').value.trim(),buy=$('h-buy').value.trim();
   if(!sym||!qty)return;
   await api('/api/portfolio',{method:'POST',headers:{'Content-Type':'application/json'},
     body:JSON.stringify({holdings:[{symbol:sym,qty:parseFloat(qty),buy_price:parseFloat(buy||0)}]})});
   $('h-sym').value=$('h-qty').value=$('h-buy').value='';
   log('portfolio saved: '+sym.toUpperCase());
-  renderTrading();
+  renderPortfolio();
 }
 
-function render(){
-  renderRevenue();
-  renderTrading();
-  // stats
+/* ---------- trading agent ---------- */
+async function renderTradingAgent(){
+  try{TA=await api('/api/tradingagent')}catch(e){
+    $('ta-note')&&($('ta-note').textContent='trading agent API unavailable: '+e);return;}
+  const A=TA; if(!A.available){
+    $('ta-stats').innerHTML=`<div class="note">${esc(A.note||'trading agent not started')}</div>`;
+    renderOverviewCounts();return;
+  }
+  $('ta-mode').innerHTML=`mode: ${A.live_mode?'<span class="badge bad">LIVE</span>':'<span class="badge ok">PAPER</span>'}`;
+  const r=A.readiness||{};
+  $('ta-stats').innerHTML=
+    `<div class="stat"><div class="v">₹${inr(A.equity_now)}</div><div class="l">paper equity</div></div>`+
+    `<div class="stat ${A.realized_pnl>=0?'ok':'bad'}"><div class="v ${cls(A.realized_pnl)}">${pl(A.realized_pnl||0)}</div><div class="l">realized P/L</div></div>`+
+    `<div class="stat"><div class="v">${A.evidence_days??0}d</div><div class="l">paper evidence</div></div>`+
+    `<div class="stat ${r.ready?'ok':''}"><div class="v">${r.ready?'PASS':'FAIL'}</div><div class="l">go-live gate</div></div>`;
+  $('ta-readiness').innerHTML=(r.checks||[]).map(c=>
+    `<div class="rowitem"><span class="badge ${c.ok?'ok':'bad'}">${c.ok?'✓':'✗'}</span>
+      <b>${esc(c.name)}</b><span class="why" style="flex-basis:100%">${esc(c.detail)}</span></div>`).join('')
+    +`<div class="hint" style="padding:6px 10px">${esc(r.verdict||'')}`
+    +(A.open_position?` · open position ${A.open_mark?('₹'+A.open_mark):''}`
+      +(A.open_unrealized!=null?` (unrealized ₹${A.open_unrealized})`:''):"")+`</div>`;
+  $('ta-decisions').innerHTML=(A.decisions||[]).slice(0,12).reverse().map(d=>
+    `<div class="rowitem">
+      <span class="badge ${d.signal==='buy'?'ok':(d.signal==='sell'?'bad':'warn')}">${esc(d.signal)}</span>
+      <span class="num">₹${d.price?.toLocaleString?.('en-IN')??'—'}</span>
+      <span class="why" style="flex:1">${esc(d.reason||'')}</span>
+      <span class="hint">${fmtAge(new Date((d.ts||0)*1000).toISOString())}</span>
+      ${d.executed?'<span class="badge ok">exec</span>':'<span class="badge warn">hold</span>'}
+      <span class="hint" style="flex-basis:100%">${esc(d.risk||'')} · equity ₹${inr(d.equity)}${d.advisor?` · AI ${esc(d.advisor.verdict||'ok')}${d.advisor.why?': '+esc(d.advisor.why):''}`:''}</span></div>`).join('')
+    ||'<div class="note">no cycles logged yet</div>';
+  $('ta-fills').innerHTML=(A.fills||[]).map(f=>
+    `<div class="rowitem"><span class="badge ${f.side==='sell'?'bad':'info'}">${esc(f.side)}</span>
+      <b>${esc(f.pair)}</b><span class="num">qty ${f.qty}</span><span class="num">₹${inr(f.price)}</span>
+      <span class="num hint">fee ₹${f.fee_inr} · notional ₹${inr(f.notional_inr)} ${esc(String(f.note||''))}</span></div>`).join('')
+    ||'<div class="note">no fills yet — the strategy is deliberately slow</div>';
+  $('ta-summaries').innerHTML=(A.summary_log||[]).map(l=>`<div class="hint">${esc(l)}</div>`).join('');
+  const kc=(g,ix)=>{
+    return '<div class="glabel">'+esc(g.label)+'</div>'+(g.keys||[]).map(k=>
+      `<div class="krow"><span class="kname"><span class="badge ${k.set?'ok':'warn'}">${k.set?'set':'—'}</span>${esc(k.name)}</span>
+        <input type="password" id="in-trading-agent-${ix}-${esc(k.name)}" placeholder="${k.set?'••• paste to replace':esc(k.name)}" autocomplete="off">
+        <button class="btn ghost small" onclick="saveKeys('trading-agent','${ix}-${esc(k.name)}')">save</button>
+        <div class="hint" style="grid-column:1/-1">${esc(k.hint)}</div></div>`).join('');};
+  $('ta-keysbox').innerHTML=(S?.trading_agent?.keys||TA.keys||[]).map(kc).join('');
+  const bits=[
+    `bot loop ${A.loop?.alive?'<span class="ok">alive</span>':'<span class="down">STOPPED</span>'}`,
+    `last write ${A.loop?.last_write_age_minutes??'?'}m ago`,
+    `Telegram ${A.notify?'on':'not configured'}`,
+    `CoinDCX key ${A.coindcx_keys?'pasted':'not pasted'}`,
+    `AI advisor ${A.advisor?'on':'off'}`];
+  $('ta-note').innerHTML=bits.map(b=>`<span class="badge info">${b}</span>`).join(' ')
+    +`<div class="hint" style="margin-top:6px">Live trading starts only when the gate passes, a trade-only CoinDCX key is pasted here, and LIVE_MODE=1.</div>`;
+  renderOverviewCounts();
+  renderOverviewTrade();
+}
+
+/* ---------- systems ---------- */
+function renderSystems(){
+  if(!S)return;
   const ideasN=S.ideas.length;
   const okN=S.ideas.filter(i=>i.health?.ok===true).length;
   const badN=S.ideas.filter(i=>i.health?.ok===false).length;
   const keyN=S.ideas.filter(i=>i.llm_ready).length;
-  $('stats').innerHTML=
+  $('sys-stats').innerHTML=
     `<div class="stat"><div class="v">${ideasN}</div><div class="l">systems</div></div>`+
-    `<div class="stat ok"><div class="v">${okN}</div><div class="l">healthy</div></div>`+
+    `<div class="stat ok"><div class="v">${okN}/${ideasN}</div><div class="l">healthy</div></div>`+
     `<div class="stat"><div class="v">${keyN}/${ideasN}</div><div class="l">llm ready</div></div>`+
-    `<div class="stat ${badN?'bad':'ok'}"><div class="v">${badN?'⚠ '+badN:'✓'}</div>`+
-    `<div class="l">failures</div></div>`;
-
-  // idea cards
-  $('ideas').innerHTML=S.ideas.map((i,ix)=>{
+    `<div class="stat ${badN?'bad':'ok'}"><div class="v">${badN?badN:'✓'}</div><div class="l">failures</div></div>`;
+  $('cnt-sys').textContent=`${okN}/${ideasN}`;
+  $('sys-ideas').innerHTML=S.ideas.map((i,ix)=>{
     const h=i.health||{};
-    const cls=h.ok===true?'ok':(h.ok===false?'bad':'unknown');
+    const c=h.ok===true?'ok':(h.ok===false?'bad':'unknown');
     const badge=h.ok===true?'<span class="badge ok">ok</span>':
-      (h.ok===false?'<span class="badge bad">failed</span>':
-       '<span class="badge warn">never run</span>');
+      (h.ok===false?'<span class="badge bad">failed</span>':'<span class="badge warn">never run</span>');
     const files=(i.files||[]).map(f=>
-      `<button onclick="viewFile('${i.dir}/${esc(f.name)}')">📄 ${esc(f.name)} <span style="opacity:.5">${f.size}b</span></button>`).join('');
-    const keys=(i.keys||[]).map(g=>
-      `<div class="glabel">${esc(g.label)}</div>`+
-      (g.keys||[]).map(k=>
-      `<div class="krow">
-        <span class="kchip ${k.set?'set':''}"></span>
-        <span class="kchip ${k.set?'set':''}">${esc(k.name)}</span>
-        <input type="password" id="in-${esc(i.id)}-${esc(k.name)}" placeholder="${k.set?'••• set — paste to replace':''}" autocomplete="off" style="flex:1;min-width:140px">
-        <button class="btn ghost small" onclick="saveKeys('${esc(i.id)}','${esc(k.name)}')">save</button>
-      </div>`).join('')).join('');
-    return `<div class="card" style="animation-delay:${ix*.06}s">
-      <h3><span class="dot ${cls}"></span>${esc(i.id)} · ${esc(i.name)} ${badge}</h3>
-      <div class="stage">stage: ${esc(h.stage||'—')} · ${fmtAge(h.ts)} ·
-        LLM ${i.llm_ready?'<span class="badge ok">ready</span>':'<span class="badge warn">mock</span>'}</div>
-      <div class="files">${files||'<span class="note">no reviewable files</span>'}</div>
-      <div class="keys">${keys}</div>
-    </div>`;  // keys now render as paste-in rows per key group
-  }).join('');
-
-  // launches
-  $('launches').innerHTML=(S.launches||[]).slice(0,5).map(L=>{
+      `<button onclick="viewFile('${i.dir}/${esc(f.name)}')" style="background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;font-size:12.5px;text-align:left;padding:3px 6px;border-radius:6px">📄 ${esc(f.name)} <span style="opacity:.5">${f.size}b</span></button>`).join('');
+    return `<div class="card" style="animation-delay:${ix*.05}s">
+      <h3><span class="dot ${c}"></span>${esc(i.id)} · ${esc(i.name)} ${badge}</h3>
+      <div class="note">stage: ${esc(h.stage||'—')} · ${fmtAge(h.ts)} · LLM ${i.llm_ready?'ready':'mock'}</div>
+      <div style="display:flex;flex-direction:column;gap:2px;margin-top:8px;grid-column:1/-1">${files||'<span class="note">no reviewable files</span>'}</div>
+    </div>`;}).join('');
+  $('sys-launches').innerHTML=(S.launches||[]).slice(0,5).map(L=>{
     const jobs=Object.entries(L.jobs||{}).map(([k,v])=>
       `<span class="jchip ${v.status}">${esc(k)}:${esc(v.status)}</span>`).join('');
     return `<div class="launch"><span class="id">${esc(L.id)}</span>
       <span class="mode-${esc(L.mode)}">${esc(L.mode)}</span>
-      <div class="jobs">${jobs}</div><span style="opacity:.5">${fmtAge(L.ts)}</span></div>`;
-  }).join('')||'<div class="note">no launches yet</div>';
-
-  // shared keys (root .env) + trading-agent keys (.env inside that dir)
-  const keyCard=(g,target,idx)=>`<div class="glabel">${esc(g.label)}</div>`+
-    (g.keys||[]).map(k=>
-      `<div class="krow">
-        <span class="kchip ${k.set?'set':''}">${k.set?'set':'—'}</span>
-        <input type="password" id="in-${target}-${idx}-${esc(k.name)}" placeholder="${esc(k.name)}" autocomplete="off">
-        <button class="btn ghost small" onclick="saveKeys('${target}','${idx}-${esc(k.name)}')">save</button>
-        <div class="hint">${esc(k.hint)}</div></div>`).join('');
-  $('rootcard').innerHTML=(S.root?.keys||[]).map((g,ix)=>keyCard(g,'_root',ix)).join('');
-
+      <div style="display:flex;gap:6px;flex-wrap:wrap">${jobs}</div>
+      <span style="opacity:.5">${fmtAge(L.ts)}</span></div>`;}).join('')
+    ||'<div class="note">no launches yet</div>';
   refreshBtns();
 }
 
-function refreshBtns(){
-  $('btn-dry').disabled=!S;
-  $('btn-live').disabled=!(armed||S?.launches?.some(l=>l.mode==='dry_run'
-    && Object.values(l.jobs).every(j=>j.status!=='running')));
+/* ---------- credentials ---------- */
+/* ---------- credentials ---------- */
+function renderCredentials(){ if(S) drawCreds(); }
+function drawVeil(){
+  credsVisible=false;
+  $('veil').style.display='block';$('creds').style.display='none';
+}
+$('reveal').onclick=()=>{
+  credsVisible=true;
+  $('veil').style.display='none';$('creds').style.display='block';
+  drawCreds();
+};
+function drawCreds(){
+  if(!S||!credsVisible)return;
+  const rootG=S.root?.keys||[];
+  let total=0,set=0;
+  const count=g=>g.keys.forEach(k=>{total++;if(k.set)set++});
+  rootG.forEach(count);
+  (S.trading_agent?.keys||[]).forEach(g=>count(g));
+  (S.ideas||[]).forEach(i=>(i.keys||[]).forEach(g=>count(g)));
+  $('cred-stats').innerHTML=
+    `<div class="stat ok"><div class="v">${set}</div><div class="l">keys stored</div></div>`+
+    `<div class="stat"><div class="v">${total-set}</div><div class="l">still missing</div></div>`;
+  const group=(g,target,ix)=>{
+    return '<div style="margin:10px 0">'+'<div class="glabel">'+esc(g.label||target)+'</div>'+
+      (g.keys||[]).map(k=>
+        `<div class="krow">
+          <span class="kname"><span class="badge ${k.set?'ok':'warn'}">${k.set?'set':'missing'}</span>${esc(k.name)}</span>
+          <input type="password" id="in-${target}-${ix}-${esc(k.name)}" placeholder="${k.set?'••• paste to replace':'paste '+esc(k.name)}" autocomplete="off" ${k.set?'data-set="1"':''}>
+          <button class="btn ghost small${k.set?'':''}" onclick="saveKeys('${target}','${ix}-${esc(k.name)}')">save</button>
+        </div>`).join('')+'</div>';};
+  const ideag=(i)=> '<div class="glabel">'+esc(i.id)+'</div>'+
+    (i.keys||[]).map(g=>group(g,i.id,i.keys.indexOf(g))).join('');
+  $('cred-root').innerHTML=(rootG.map((g,ix)=>group(g,'_root',ix)).join(''))
+    ||'<div class="note">no shared key groups</div>';
+  $('cred-ta').innerHTML=((S.trading_agent?.keys||[]).map((g,ix)=>group(g,'trading-agent',ix)).join(''))
+    ||'<div class="note">trading agent keys appear here once the agent has run once</div>';
+  const byId=Object.fromEntries((S.ideas||[]).map(i=>[i.id,i]));
+  for(let n=1;n<=4;n++){
+    const i=byId['idea-'+n];
+    const el=$('cred-i'+n);
+    if(!el)continue;
+    el.innerHTML=i?((i.keys||[]).length?(i.keys||[]).map((g,ix)=>group(g,i.id,ix)).join(''):'<div class="note">no keys needed</div>'):'<div class="note">not present</div>';
+  }
 }
 
-async function load(){S=await api('/api/status');render();renderTradingAgent();}
-load();
-setInterval(load,8000);   // stats/ideas
-setInterval(renderRevenue,120000); // earnings every 2 min (API-cached)
-setInterval(renderTrading,300000); // signals every 5 min (API-cached)
-setInterval(renderTradingAgent,30000); // agent telemetry/loop heartbeat
-
+/* ---------- shared actions ---------- */
 async function viewFile(rel){
   const d=await api('/api/file?path='+encodeURIComponent(rel));
   $('fv-path').textContent=d.path||d.error;
   $('fv-body').textContent=d.text||'';
   $('fileview').style.display='block';
 }
-
 async function saveKeys(target,key){
-  const v=$(`in-${target}-${key}`).value.trim();
-  if(!v)return;
-  const name=key.replace(/^\d+-/, '');        // strip the group index prefix
-  const r=await api('/api/keys',{method:'POST',
-    headers:{'Content-Type':'application/json'},
+  const el=$(`in-${target}-${key}`);if(!el)return;
+  const v=el.value.trim();if(!v)return;
+  const name=key.replace(/^\d+-/,'');
+  const r=await api('/api/keys',{method:'POST',headers:{'Content-Type':'application/json'},
     body:JSON.stringify({target,values:{[name]:v}})});
-  log(r.saved?`saved ${name} → ${r.target}`:`key save refused: ${r.error}`);
-  $(`in-${target}-${key}`).value='';
-  load();
+  log(r.saved?`saved ${name} → ${target} (value never logged)`:`key save refused: ${r.error}`);
+  el.value='';
+  load();if(credsVisible)drawCreds();
 }
-
+function refreshBtns(){
+  $('btn-dry').disabled=!S;
+  $('btn-live').disabled=!(armed||S?.launches?.some(l=>l.mode==='dry_run'
+    && Object.values(l.jobs).every(j=>j.status!=='running')));
+}
 $('confirm').addEventListener('input',e=>{
   armed=e.target.value.trim()==='RUN LIVE';refreshBtns();});
-
 async function launch(mode){
   const r=await api('/api/launch',{method:'POST',
     headers:{'Content-Type':'application/json'},
     body:JSON.stringify({approved:true,mode,ideas:S.ideas.map(i=>i.id)})});
   if(r.error){log('REFUSED: '+r.error);return;}
-  if(mode==='dry_run')lastDry=r.launched;
   $('confirm').value='';armed=false;
   log(`launch ${r.launched} mode=${r.mode}: `+
     Object.entries(r.jobs).map(([k,v])=>`${k}=${v.status}`).join(', '));
