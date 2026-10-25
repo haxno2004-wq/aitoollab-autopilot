@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T11:32:04.673Z",
+  "fetchedAt": "2026-10-25T20:54:26.408Z",
   "candidates": [
     {
       "source": "hn",
@@ -15,20 +15,20 @@
     },
     {
       "source": "hn",
-      "topic": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "topic": "Cerebras Deploys Trillion-Parameter AI Models",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "topic": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Physicists trap a single antimatter particle for a month",
-      "score": 4,
+      "topic": "Root shell on Samsung TV",
+      "score": 3,
       "meta": {}
     },
     {
@@ -39,25 +39,25 @@
     },
     {
       "source": "hn",
-      "topic": "I don't understand quantum physics",
+      "topic": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Roku developer repositories moved from GitHub to GitLab",
+      "topic": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "topic": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "topic": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
       "score": 3,
       "meta": {}
     },
@@ -92,26 +92,26 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Trusts, worth it or not?",
-      "score": 3,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Cerebras Deploys Trillion-Parameter AI Models",
+      "topic": "SpeedCrunch 1.1",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "topic": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Neural chip decodes interactions between brain regions",
+      "topic": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
       "score": 2,
       "meta": {}
     },
@@ -123,7 +123,7 @@
     },
     {
       "source": "hn",
-      "topic": "SpeedCrunch 1.1",
+      "topic": "Dolly Parton's Imagination Library",
       "score": 1,
       "meta": {}
     },
@@ -135,67 +135,37 @@
     },
     {
       "source": "hn",
-      "topic": "Bbtree: Fastest Ordered Map",
+      "topic": "How Japanese Dried Bonito Is Made",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I Built a Stereo Vision Board for Hardware Hackers",
+      "topic": "Active incident at Dreamhost forcing password reset",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Importance of Limitations for Creativity and Learning",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Online censorship is crushing indie webcomics",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "France asked ISPs to prepare temporary DNS blocks for major social platforms",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Social dynamics of toxic metal industry in medieval Europe",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A story of a Figma bug that wasn't a bug at all",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pragtical v3.14 Lua-based text editor adds menus, floating views, and sessions",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Samsung running a TensorFlow lite model on 960x540 image to track you",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "topic": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Reverse engineer of PC-98 Touhou games retires",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "VCF Southwest 2026, but Edited on Silicon Graphics for '90s TV [video]",
       "score": 1,
       "meta": {}
     },
@@ -225,6 +195,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "If retiring early, what do you do about health insurance?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Capital One refused hardship, interest reduction, and settlement. what options do I have left?",
       "score": 1,
       "meta": {}
@@ -232,6 +208,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Is it realistic to spend 50% of my income on rent in my situation?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "i'm 18 and want to move out as soon as i can but i have absolutely nothing.",
       "score": 1,
       "meta": {}
     },
@@ -255,19 +237,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Elderly Father's (67M) Annual &quot;Heating & AC Maintenance Contract&quot;",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "State garnished my bank account for back taxes",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "i'm 18 and want to move out as soon as i can but i have absolutely nothing.",
       "score": 1,
       "meta": {}
     },
@@ -285,19 +255,49 @@
     },
     {
       "source": "hn",
-      "topic": "Why Gopher in 2026?",
+      "topic": "JetBrains Thinkrail",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Japanese Dried Bonito Is Made",
+      "topic": "Sabre Wulf Remastered",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rewriting a Commercial Engine in Jai",
+      "topic": "Recreate the Apollo Guidance Computer",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Eunice is almost here",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why I Am a Programmer",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "UTS #39: Unicode Security Mechanisms",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The U.S. Power Grid",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What goes into making an animated film?",
       "score": 0,
       "meta": {}
     },
@@ -357,13 +357,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Can I afford to move out of parents home?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Anxiety With Buying a Home",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can I afford to move out of parents home?",
+      "topic": "Talking with adult children about finances",
       "score": 0,
       "meta": {}
     },
