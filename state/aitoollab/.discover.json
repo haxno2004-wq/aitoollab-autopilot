@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T21:27:00.818Z",
+  "fetchedAt": "2026-10-24T20:53:10.717Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,6 +9,12 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
+    },
+    {
+      "source": "hn",
+      "topic": "A practical guide to AI image generation, from diffusion to agents",
+      "score": 6,
+      "meta": {}
     },
     {
       "source": "hn",
@@ -54,13 +60,7 @@
     },
     {
       "source": "hn",
-      "topic": "Today, we hacked what we'd set out to hack: the iPhone",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "topic": "John Carmack on the Goose Language: multiple data stacks and relative references",
       "score": 4,
       "meta": {}
     },
@@ -90,19 +90,43 @@
     },
     {
       "source": "hn",
-      "topic": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Apple Music 404 Not Found",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Canadians are running out of time to oppose Bill C-22",
+      "topic": "OBS Studio 33",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Twelve years of distributed SQLite",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Physicists trap a single antimatter particle for a month",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How close can pure functional programming get to C?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Roku developer repositories moved from GitHub to GitLab",
       "score": 3,
       "meta": {}
     },
@@ -153,7 +177,31 @@
     },
     {
       "source": "hn",
-      "topic": "The alien space of science: Coherent but cognitively unavailable directions",
+      "topic": "Bringing uv and ty together",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I don't understand quantum physics",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "No Signs of AI Payoff Outside the Tech Sector",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Danish Government silently drops plan to dump MS Office",
       "score": 2,
       "meta": {}
     },
@@ -183,85 +231,55 @@
     },
     {
       "source": "hn",
-      "topic": "The Real Kevin Bacon",
+      "topic": "Why is AI generated language so hard to understand?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Job loss and cortisone mania",
+      "topic": "TornadoVM 7 Enables GPU-Native Workloads from Java Applications",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Can we replace a $150k Looker with a bucket of HTML files?",
+      "topic": "PHP Foundation 'under-funded' with one full-time staff member, director says",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "UUIDv7 doesn't have the properties you think it does",
+      "topic": "Neural chip decodes interactions between brain regions",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+      "topic": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dessa: the most authentic full-duplex speech model ever built",
+      "topic": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "topic": "Zac-OS-9: The classic Platinum desktop, reborn for modern PCs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
+      "topic": "Cecilia Berdichevsky, Clementina expert",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Impossible Machines: declaratively program the physical world",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Florida officer found dead man, impersonated him for years, renovated his home",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We are all living inside of an obscure sci-fi film from 1970",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sony Retires Its Last 4K Blu-ray Player in Japan, PS5 Is All That's Left",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenAI: Securing our frontier model training environment",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+      "topic": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
       "score": 1,
       "meta": {}
     },
@@ -351,37 +369,19 @@
     },
     {
       "source": "hn",
-      "topic": "How is music possible",
+      "topic": "The Goose Programming Language",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Missed Opportunities of Sonic 06",
+      "topic": "Symbolic Learning in Python and Julia",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LISP Comes of Age",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Animations for System Builders",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Total Historian",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DNS: A Replacement for Finger",
+      "topic": "Steal My Bitcoin",
       "score": 0,
       "meta": {}
     }
