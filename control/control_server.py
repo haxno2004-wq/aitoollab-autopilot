@@ -413,6 +413,18 @@ class Handler(BaseHTTPRequestHandler):
             self._json(200, trading.snapshot())
         elif self.path == "/api/tradingagent":
             self._json(200, trading_agent.snapshot())
+        elif self.path == "/api/autopilot":
+            import autopilot
+            try:
+                self._json(200, autopilot.status_line(autopilot._load_state()))
+            except Exception as err:  # noqa: BLE001
+                self._json(200, {"available": False, "error": str(err)[:120]})
+        elif self.path == "/api/lessons":
+            import lessons
+            self._json(200, lessons.today())
+        elif self.path == "/api/lessons/all":
+            import lessons
+            self._json(200, lessons.all_tracks())
         elif self.path.split("?")[0] == "/api/advisor":
             import portfolio_advisor
             self._json(200, portfolio_advisor.review(force="refresh=1" in self.path))

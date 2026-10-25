@@ -75,13 +75,18 @@ def _summary_lines(path: Path, n: int = 5) -> list[str]:
 def snapshot() -> dict:
     db = TA_DIR / "paper.ledger.db"
     out: dict = {"available": db.is_file(),
-                 "dir": "trading-agent", "notify": tg.enabled()}
+                 "dir": "trading-agent", "notify": tg.enabled(),
+                 "notify_ok": notify_state}
     if not db.is_file():
         out["note"] = ("paper ledger not found — run "
                        "trading-agent/run-paper.bat once to start the bot")
         return out
     conn = sqlite3.connect(f"file:{db.as_posix()}?mode=ro", uri=True, timeout=10)
     conn.row_factory = sqlite3.Row
+    try:
+        notify_state = tg.verify()          # True | False | None(unconfigured)
+    except Exception:
+        notify_state = None
     try:
         with conn:
             rows = [dict(r) for r in conn.execute("SELECT * FROM fills ORDER BY id")]

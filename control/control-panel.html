@@ -117,6 +117,7 @@ input[type=text],input[type=password]{
   padding:7px 12px;border-radius:9px;font:inherit;font-size:13px;outline:none;
   transition:border-color .15s;width:100%}
 input:focus{border-color:var(--accent)}
+.sel{background:var(--panel2);border:1px solid var(--line);color:var(--fg);padding:7px 10px;border-radius:9px;font:inherit;font-size:13px;outline:none}
 .krow{display:grid;grid-template-columns:130px 1fr 90px;gap:8px;
   align-items:center;margin:7px 0}
 .krow .kname{font-size:12px;color:var(--dim)}
@@ -230,7 +231,51 @@ input:focus{border-color:var(--accent)}
 <section class="view" id="view-agent">
   <div class="sechead"><h1>Trading Agent</h1><span class="n" id="ta-mode"></span></div>
   <div class="stats" id="ta-stats"></div>
-  <div class="grid2 start">
+
+  <div class="card" style="margin-top:14px">
+    <h3>Live markets — NSE · Forex · Crypto (TradingView data)</h3>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px">
+      <button class="btn small" id="mk-ind">🇮🇳 NSE</button>
+      <button class="btn small ghost" id="mk-fx">💱 Forex</button>
+      <button class="btn small ghost" id="mk-crypto">₿ Crypto</button>
+      <input type="text" id="mk-symbol" style="max-width:200px" placeholder="symbol (e.g. NSE:TCS)">
+      <select id="mk-int" class="sel">
+        <option value="15">15m</option><option value="60" selected>1h</option>
+        <option value="240">4h</option><option value="D">1D</option><option value="W">1W</option>
+      </select>
+      <button class="btn ghost small" onclick="drawChart()">load</button>
+    </div>
+    <div id="chartbox" style="height:460px;border-radius:12px;overflow:hidden;border:1px solid var(--line)"></div>
+  </div>
+
+  <div class="grid2 start" style="margin-top:14px">
+    <div class="card">
+      <h3>Day-by-day trading school <span class="badge info" id="lesson-track"></span></h3>
+      <div id="lesson-no" class="note" style="margin-bottom:8px"></div>
+      <b id="lesson-title" style="font-size:15px"></b>
+      <p id="lesson-body" class="note" style="margin:8px 0"></p>
+      <div class="hint" id="lesson-action" style="background:var(--panel2);padding:8px 10px;border-radius:9px;border:1px solid var(--line)"></div>
+      <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn ghost small" onclick="lessonNav(-1)">← yesterday</button>
+        <button class="btn ghost small" onclick="lessonNav(1)">tomorrow →</button>
+        <button class="btn ghost small" onclick="lessonToday()">today's lesson</button>
+        <span class="note" id="lesson-progress" style="align-self:center"></span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Autopilot (Telegram watchdog)</h3>
+      <div id="ap-status" class="note">checking…</div>
+      <div class="hint" style="margin-top:10px">
+        The autopilot keeps everything moving while you are away and only messages
+        you on Telegram when something REAL happens: a trade fill, the bot dying
+        or reviving, a paper/live mode flip, the go-live gate changing, a sale on
+        any income pipeline, or a ≥3% portfolio move. One short digest a day.
+        No order is ever placed by it.
+      </div>
+    </div>
+  </div>
+
+  <div class="grid2 start" style="margin-top:14px">
     <div class="card">
       <h3>Go-live readiness</h3>
       <div id="ta-readiness" class="rows"></div>
@@ -342,7 +387,10 @@ function schedule(name,fn,ms){fn();setInterval(async()=>{deferred[name]=true;try
 schedule('revenue',renderRevenue,120000);
 schedule('portfolio',renderPortfolio,300000);
 schedule('ta',renderTradingAgent,30000);
+schedule('ap',renderAutopilot,121000);
 load();
+setTimeout(lessonToday,400);
+setTimeout(drawChart,600);
 
 async function renderRevenue(){
   try{
@@ -399,7 +447,7 @@ function renderOverviewCounts(){
   $('sf-bad').textContent=bad?`${bad} failed`:'all ok';
   if(TA&&TA.available){
     $('sf-loop').textContent=TA.loop?.alive?'alive':'STOPPED';
-    $('sf-tg').textContent=TA.notify?'on':'—';
+    $('sf-tg').textContent=TA.notify_ok===false?'BROKEN':(TA.notify?'on':'—');
   }
 }
 async function renderPortfolio(){
@@ -618,6 +666,96 @@ function drawCreds(){
     const el=$('cred-i'+n);
     if(!el)continue;
     el.innerHTML=i?((i.keys||[]).length?(i.keys||[]).map((g,ix)=>group(g,i.id,ix)).join(''):'<div class="note">no keys needed</div>'):'<div class="note">not present</div>';
+  }
+}
+
+/* ---------- live market charts (TradingView free widget) ---------- */
+const MARKETS=[
+  {id:'ind',   sym:'NSE:RELIANCE',      label:'🇮🇳 NSE'},
+  {id:'fx',    sym:'OANDA:EURUSD',      label:'💱 Forex'},
+  {id:'crypto',sym:'BINANCE:BTCUSDT',   label:'₿ Crypto'},
+];
+let mkSel='crypto';
+function drawChart(){
+  const sym=$('mk-symbol').value.trim()||
+    (MARKETS.find(m=>m.id===mkSel)?.sym||'BINANCE:BTCUSDT');
+  const iv=$('mk-int').value||'60';
+  $('chartbox').innerHTML=
+    `<iframe src="https://s.tradingview.com/widgetembed/?symbol=${encodeURIComponent(sym)}`+
+    `&interval=${iv}&theme=dark&style=1&timezone=Etc/UTC&hidesidetoolbar=0`+
+    `&withdateranges=1&studies=RSI@tv-basicstudies&hideideas=1&locale=en`+
+    `&width=100%25&height=100%25" style="border:0;width:100%;height:100%"`+
+    ` allowtransparency="true" allowfullscreen loading="lazy"></iframe>`;
+  document.querySelectorAll('[id^=mk-]').forEach(b=>{
+    if(!b.id.startsWith('mk-')||['mk-symbol','mk-int'].includes(b.id))return;
+    b.classList.toggle('ghost',b.id!=='mk-'+mkSel);
+  });
+}
+function setMarket(id){
+  mkSel=id;
+  $('mk-symbol').value=MARKETS.find(m=>m.id===id)?.sym||'';
+  drawChart();
+}
+MARKETS.forEach(m=>{
+  const b=$('mk-'+m.id); if(!b)return;
+  b.onclick=()=>setMarket(m.id);
+});
+$('mk-symbol').addEventListener('keydown',e=>{if(e.key==='Enter')drawChart();});
+
+/* ---------- trading school ---------- */
+let LESSONS_ALL=null, lessonNo=null, LESSONS_LIST=null;
+async function lessonToday(){
+  try{
+    if(!LESSONS_ALL)LESSONS_ALL=await api('/api/lessons');
+    lessonNo=LESSONS_ALL.lesson_no||1;
+    if(!LESSONS_LIST){
+      const r=await fetch('/api/lessons/all');
+      if(r.ok)LESSONS_LIST=(await r.json()).lessons||[];
+    }
+    drawLesson((LESSONS_LIST&&LESSONS_LIST[lessonNo-1])||LESSONS_ALL);
+  }catch(e){
+    $('lesson-title').textContent='lesson feed unavailable';
+  }
+}
+function drawLesson(L){
+  if(!L)return;
+  $('lesson-track').textContent=L.track;
+  $('lesson-title').textContent=L.title;
+  $('lesson-body').textContent=L.body;
+  $('lesson-action').textContent='✎ Today: '+(L.action||'→ apply it on one chart today');
+  $('lesson-no').textContent=(LESSONS_ALL?.cycle||1)>1
+    ?`review cycle ${LESSONS_ALL.cycle} · lesson ${lessonNo}`:`lesson ${lessonNo} of ${LESSONS_ALL.total}`;
+  $('lesson-progress').textContent=`${lessonNo}/${LESSONS_ALL.total}`;
+}
+function lessonNav(d){
+  if(!LESSONS_LIST)return;
+  const total=LESSONS_LIST.length;
+  lessonNo=(((lessonNo-1+d)%total)+total)%total+1;
+  drawLesson(LESSONS_LIST[lessonNo-1]);
+}
+
+/* ---------- autopilot ---------- */
+async function renderAutopilot(){
+  try{
+    const A=await api('/api/autopilot');
+    if(!A.available){
+      $('ap-status').innerHTML='<span class="badge warn">not running</span> — start it once: '+
+        '<div class="hint" style="margin-top:6px">double-click <b>control\\autopilot.bat</b> '+
+        '(or register: '+esc('schtasks /Create /TN "EmpireAutopilot" /SC ONLOGON /TR "D\\NEW PRO\\control\\autopilot.bat"')+')</div>';
+      return;
+    }
+    const tgBits=
+      A.telegram==='working'?'<span class="badge ok">telegram ✓ delivering</span>'
+     :A.telegram==='broken'?'<span class="badge bad">telegram ✗ token rejected — rotate in Credentials</span>'
+     :A.telegram==='off'?'<span class="badge warn">telegram not configured</span>':'';
+    $('ap-status').innerHTML=
+      `<span class="badge ${A.alive?'ok':'bad'}">${A.alive?'watching':'STOPPED'}</span> `+
+      `cycles <b>${A.cycles||0}</b> · alerts sent <b>${A.alerts_sent||0}</b>`+
+      (A.last_cycle_minutes_ago!=null?` · last check ${A.last_cycle_minutes_ago}m ago`:"")+
+      (A.digest_last?` · last digest ${esc(String(A.digest_last).slice(5,16))}`:"")+
+      (tgBits?'<div style="margin-top:8px">'+tgBits+'</div>':'');
+  }catch(e){
+    $('ap-status').innerHTML='<span class="badge warn">autopilot API unavailable</span>';
   }
 }
 
