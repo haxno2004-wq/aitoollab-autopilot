@@ -75,3 +75,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-24T20:53:53.016Z,john-carmack-on-the-goose-language-multiple-data-stacks-and-rela,John Carmack on Goose Language: A Developer Review,gemini,1046,success
 2026-10-25T11:37:07.491Z,america-has-lost-200k-of-jobs-in-media-film-and-the-arts-how-muc,AI Impact on Media Jobs: Navigating Creative Automation,gemini,953,success
 2026-10-25T20:56:32.586Z,cerebras-deploys-trillion-parameter-ai-models,Cerebras Trillion-Parameter AI Models: A Hands-On Review,gemini,1039,success
+2026-10-26T13:07:27.174Z,a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diag,A 10-Year-Old CNN Beats Frontier LLMs in Dermatology,gemini,1120,success
