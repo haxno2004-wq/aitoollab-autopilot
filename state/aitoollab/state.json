@@ -65,7 +65,8 @@
     "john-carmack-on-the-goose-language-multiple-data-stacks-and-rela",
     "america-has-lost-200k-of-jobs-in-media-film-and-the-arts-how-muc",
     "cerebras-deploys-trillion-parameter-ai-models",
-    "a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diag"
+    "a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diag",
+    "fixing-tool-call-accuracy-in-vllm"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -134,7 +135,8 @@
     "John Carmack on the Goose Language: multiple data stacks and relative references",
     "America has lost 200k of jobs in media, film and the arts. How much is AI?",
     "Cerebras Deploys Trillion-Parameter AI Models",
-    "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis"
+    "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+    "Fixing Tool-Call Accuracy in vLLM"
   ],
-  "lastRun": "2026-10-26T13:07:27.174Z"
+  "lastRun": "2026-10-26T22:44:57.411Z"
 }

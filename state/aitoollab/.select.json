@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-26T13:05:00.799Z",
-  "topic": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+  "pickedAt": "2026-10-26T22:42:15.575Z",
+  "topic": "Fixing Tool-Call Accuracy in vLLM",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diag",
+  "slug": "fixing-tool-call-accuracy-in-vllm",
   "source": "hn",
   "sourceMeta": {},
   "finalScore": 4,
-  "remaining": 42
+  "remaining": 43
 }

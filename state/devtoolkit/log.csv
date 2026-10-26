@@ -58,3 +58,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-25T11:37:05.446Z,america-has-lost-200k-of-jobs-in-media-film-and-the-arts-how-muc,AI Impact on Media Jobs: A Technical Reality Check,gemini,1119,success
 2026-10-25T20:57:43.418Z,show-hn-hurston-1-open-source-tts-that-speak-southern-american-a,Hurston-1 Open Source TTS: Setup and Practical Guide,gemini,832,success
 2026-10-26T13:11:03.234Z,birdwatching-rewires-the-brain-and-slows-cognitive-decline,How Birdwatching Rewires the Brain and Slows Cognitive Decline,gemini,1065,success
+2026-10-26T22:44:22.408Z,fixing-tool-call-accuracy-in-vllm,Fixing Tool-Call Accuracy in vLLM: A Practical Guide,gemini,1053,success
