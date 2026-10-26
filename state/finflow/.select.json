@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-26T13:05:02.079Z",
-  "topic": "When trying to save money on hobby kits completely backfires",
+  "pickedAt": "2026-10-26T22:42:18.709Z",
+  "topic": "Fixing Tool-Call Accuracy in vLLM",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "when-trying-to-save-money-on-hobby-kits-completely-backfires",
-  "source": "reddit/Frugal",
+  "slug": "fixing-tool-call-accuracy-in-vllm",
+  "source": "hn",
   "sourceMeta": {},
-  "finalScore": 9,
-  "remaining": 90
+  "finalScore": 4,
+  "remaining": 60
 }

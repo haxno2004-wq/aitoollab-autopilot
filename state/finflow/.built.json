@@ -1,8 +1,8 @@
 {
-  "slug": "when-trying-to-save-money-on-hobby-kits-completely-backfires",
-  "title": "When Hobby Kit Budgeting Backfires: A Hands-On Reality Check",
-  "description": "Explore how trying to save money on hobby kits can backfire. A hands-on review covering budgeting, hidden costs, and smarter financial choices.",
-  "date": "2026-10-26T13:08:52.365Z",
-  "words": 1141,
+  "slug": "fixing-tool-call-accuracy-in-vllm",
+  "title": "Fixing Tool-Call Accuracy in vLLM: A Practical Review",
+  "description": "Learn how to fix tool-call accuracy in vLLM. We review its strengths, schema failure modes, and practical optimizations for production agent workflows.",
+  "date": "2026-10-26T22:44:49.288Z",
+  "words": 1103,
   "provider": "gemini"
 }
