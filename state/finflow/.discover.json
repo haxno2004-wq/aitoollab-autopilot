@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-25T20:54:26.408Z",
+  "fetchedAt": "2026-10-26T13:05:02.039Z",
   "candidates": [
     {
-      "source": "hn",
-      "topic": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "score": 4,
+      "source": "reddit/Frugal",
+      "topic": "When trying to save money on hobby kits completely backfires",
+      "score": 7,
       "meta": {}
     },
     {
@@ -15,49 +15,43 @@
     },
     {
       "source": "hn",
-      "topic": "Cerebras Deploys Trillion-Parameter AI Models",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Root shell on Samsung TV",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Goose Programming Language",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "score": 3,
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
-      "score": 3,
+      "topic": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-      "score": 3,
+      "topic": "IBM CEO says open weight models are now good and cheap on-prem",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "topic": "Overgrown, when plants invade your abandoned tabs",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "How much is &quot;enough&quot; saved up when planning to move? 23, Bartender",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Spent 49 pounds on a week and a half's worth of food - good or should I try to save even more?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dolly Parton's Imagination Library",
       "score": 3,
       "meta": {}
     },
@@ -70,6 +64,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Dad has no investments at 60",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I'm confused about my HSA: Should I use it for medical expenses or save it? Can I reimburse myself all of it?",
       "score": 3,
       "meta": {}
     },
@@ -92,26 +92,50 @@
       "meta": {}
     },
     {
+      "source": "reddit/Frugal",
+      "topic": "top scoring links : Frugal",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "How to best share frugal food wisdom?",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "SpeedCrunch 1.1",
+      "topic": "Why I Am a Programmer",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "topic": "Switzerland. Block by block. At 1:1 scale",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+      "topic": "The State of Context Engineering",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "topic": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Behind the scenes at the NeXT Computer office",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Birdwatching rewires the brain and slows cognitive decline",
       "score": 2,
       "meta": {}
     },
@@ -122,50 +146,68 @@
       "meta": {}
     },
     {
+      "source": "reddit/Frugal",
+      "topic": "Where in San Jose can I get online prescription glasses checked for accuracy, preferably free or at small fee?",
+      "score": 2,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Dolly Parton's Imagination Library",
+      "topic": "Show HN: A Truly Modular Keyboard",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Small Programs and Languages",
+      "topic": "Attention Is Not What You Need",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Japanese Dried Bonito Is Made",
+      "topic": "F-Zero X on Nintendo 3DS",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Active incident at Dreamhost forcing password reset",
+      "topic": "Steal My Bitcoin CTF PoC",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+      "topic": "Where the Romans Fought (interactive map)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Reverse engineer of PC-98 Touhou games retires",
+      "topic": "Growing Trees",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
+      "topic": "Iron Age salt-mining complex found beneath Hallstatt in Austria",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "VCF Southwest 2026, but Edited on Silicon Graphics for '90s TV [video]",
+      "topic": "Tasks as Code: Move Your Tickets into the Repository",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One of the Greatest Inventions in the History of Human Transport",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Peter Thiel, the tech oligarch who believes in the Antichrist",
       "score": 1,
       "meta": {}
     },
@@ -183,6 +225,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "If retiring early, what do you do about health insurance?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Can you explain to me why the market only goes up in the long term as if I were a 5 year old ?",
       "score": 1,
       "meta": {}
@@ -195,19 +243,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "If retiring early, what do you do about health insurance?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Capital One refused hardship, interest reduction, and settlement. what options do I have left?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Is it realistic to spend 50% of my income on rent in my situation?",
       "score": 1,
       "meta": {}
     },
@@ -243,61 +279,145 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "At what point does it make sense to pull money out of a brokerage acct to pay off a mortgage?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Should I keep paying for extra life insurance when I have no dependents?",
       "score": 1,
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Am I actually safe to spend 30% of my income on rent? Recently got a new job in Nashville",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "At what point does it make sense to pull money out of a brokerage acct to pay off a mortgage?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Frugal Halloween tip: You can get a 4lb bag of saltwater taffy for about $10",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "What products are at an all time low to buy right now?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Check your benefits before paying someone for financial advice",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Ways to keep feet warm in winter for a diabetic?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Pill pocket alternative for senior dog on long term supplements?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "My laptop is almost 10 years old and still running.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "sometimes &quot;empty&quot; bottles are rarely that",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Ever get just a little too excited by your own frugal wins?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "When it comes to caffeine, is coffee cheaper than energy drinks?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Looking for recommendations on cutting pet supplies costs!",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Grocery Challenge and My Remaining Food Inventory",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Four Ways to Avoid Getting Ripped Off according to an expert",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "I want to start hunting and foraging, but I have no family to help.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "How do you keep track of upcoming bills and calculate how much you have to spend in the month?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Reasonably Priced Meals for Busy Professionals Aith Limited Cooking Appliances.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Trying to manage muddy car floors without buying junk twice",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Is there any way to cover this big scuff on my genuine leather shoe?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "JetBrains Thinkrail",
+      "topic": "Websites Should Be Printable",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sabre Wulf Remastered",
+      "topic": "Superhuman Hardware Design Is the Easy Part",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Recreate the Apollo Guidance Computer",
+      "topic": "Two Million Hornets",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Eunice is almost here",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why I Am a Programmer",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "UTS #39: Unicode Security Mechanisms",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The U.S. Power Grid",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What goes into making an animated film?",
+      "topic": "Writing Is Closer to Thought Than Code",
       "score": 0,
       "meta": {}
     },
@@ -315,12 +435,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I am 26 and have 1k to my name",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Embarrassed to post this",
       "score": 0,
       "meta": {}
@@ -333,7 +447,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "HDHP is better than PPO, right?",
+      "topic": "Mortgage payoff with no employment in sight?",
       "score": 0,
       "meta": {}
     },
@@ -369,7 +483,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Talking with adult children about finances",
+      "topic": "Do I HAVE to run my credit at car dealership??? I already have a loan offer from my credit union AND my credit is frozen. I don't want to run it. Thoughts??",
       "score": 0,
       "meta": {}
     },
@@ -380,8 +494,56 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Do I HAVE to run my credit at car dealership??? I already have a loan offer from my credit union AND my credit is frozen. I don't want to run it. Thoughts??",
+      "source": "reddit/Frugal",
+      "topic": "Live where no one keeps up with the Joneses",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "My wife and I just had our &quot;second&quot; anniversary dinner and look forward to several more in the coming weeks.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Ran the numbers on backup power and portable batteries are surprisingly competitive with generators now",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Don't sleep on store apps for your shopping!",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Cheap sources of calories beyond the usual",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Anyone tried a buying club with neighbors?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "PSA: I lowered my water bill by $35/month ($420/yr) by downsizing from a 1&quot; to a 3/4&quot; meter.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Cheap hair care products for curly hair.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Would you eat this expired cottage cheese?",
       "score": 0,
       "meta": {}
     }
