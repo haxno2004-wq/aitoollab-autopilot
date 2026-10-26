@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-25T20:54:22.942Z",
-  "topic": "Cerebras Deploys Trillion-Parameter AI Models",
+  "pickedAt": "2026-10-26T13:05:00.799Z",
+  "topic": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "cerebras-deploys-trillion-parameter-ai-models",
+  "slug": "a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diag",
   "source": "hn",
   "sourceMeta": {},
   "finalScore": 4,
-  "remaining": 46
+  "remaining": 42
 }
