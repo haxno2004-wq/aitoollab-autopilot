@@ -56,7 +56,8 @@
     "john-carmack-on-the-goose-language-multiple-data-stacks-and-rela",
     "america-has-lost-200k-of-jobs-in-media-film-and-the-arts-how-muc",
     "show-hn-hurston-1-open-source-tts-that-speak-southern-american-a",
-    "birdwatching-rewires-the-brain-and-slows-cognitive-decline"
+    "birdwatching-rewires-the-brain-and-slows-cognitive-decline",
+    "fixing-tool-call-accuracy-in-vllm"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
@@ -117,7 +118,8 @@
     "John Carmack on the Goose Language: multiple data stacks and relative references",
     "America has lost 200k of jobs in media, film and the arts. How much is AI?",
     "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
-    "Birdwatching rewires the brain and slows cognitive decline"
+    "Birdwatching rewires the brain and slows cognitive decline",
+    "Fixing Tool-Call Accuracy in vLLM"
   ],
-  "lastRun": "2026-10-26T13:11:03.234Z"
+  "lastRun": "2026-10-26T22:44:22.408Z"
 }
