@@ -1,16 +1,10 @@
 {
-  "fetchedAt": "2026-10-25T20:54:23.811Z",
+  "fetchedAt": "2026-10-26T13:04:59.338Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "score": 4,
+      "topic": "Birdwatching rewires the brain and slows cognitive decline",
+      "score": 5,
       "meta": {}
     },
     {
@@ -21,163 +15,145 @@
     },
     {
       "source": "hn",
-      "topic": "Cerebras Deploys Trillion-Parameter AI Models",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Root shell on Samsung TV",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Goose Programming Language",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "score": 3,
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
-      "score": 3,
+      "topic": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-      "score": 3,
+      "topic": "IBM CEO says open weight models are now good and cheap on-prem",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SpeedCrunch 1.1",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: I put employees inside S&P 500 market-cap bubbles",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-      "score": 2,
+      "topic": "Overgrown, when plants invade your abandoned tabs",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Dolly Parton's Imagination Library",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Small Programs and Languages",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How Japanese Dried Bonito Is Made",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Active incident at Dreamhost forcing password reset",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Reverse engineer of PC-98 Touhou games retires",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "VCF Southwest 2026, but Edited on Silicon Graphics for '90s TV [video]",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "JetBrains Thinkrail",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sabre Wulf Remastered",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Recreate the Apollo Guidance Computer",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Eunice is almost here",
-      "score": 0,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Why I Am a Programmer",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Switzerland. Block by block. At 1:1 scale",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The State of Context Engineering",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Behind the scenes at the NeXT Computer office",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A Truly Modular Keyboard",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Attention Is Not What You Need",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "F-Zero X on Nintendo 3DS",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Steal My Bitcoin CTF PoC",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Where the Romans Fought (interactive map)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Growing Trees",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Iron Age salt-mining complex found beneath Hallstatt in Austria",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tasks as Code: Move Your Tickets into the Repository",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One of the Greatest Inventions in the History of Human Transport",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Peter Thiel, the tech oligarch who believes in the Antichrist",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Websites Should Be Printable",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "UTS #39: Unicode Security Mechanisms",
+      "topic": "Superhuman Hardware Design Is the Easy Part",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The U.S. Power Grid",
+      "topic": "Two Million Hornets",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What goes into making an animated film?",
+      "topic": "Writing Is Closer to Thought Than Code",
       "score": 0,
       "meta": {}
     }
