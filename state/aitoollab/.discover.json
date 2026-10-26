@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-25T20:54:22.900Z",
+  "fetchedAt": "2026-10-26T13:05:00.769Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,25 +48,31 @@
     },
     {
       "source": "hn",
-      "topic": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "We should be more ambitious with the software we build",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cerebras Deploys Trillion-Parameter AI Models",
+      "topic": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gheist campaign plants secret-dumping workflows using stolen GitHub tokens",
+      "topic": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "IBM CEO says open weight models are now good and cheap on-prem",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Overgrown, when plants invade your abandoned tabs",
       "score": 4,
       "meta": {}
     },
@@ -96,37 +102,7 @@
     },
     {
       "source": "hn",
-      "topic": "Root shell on Samsung TV",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Goose Programming Language",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "topic": "Dolly Parton's Imagination Library",
       "score": 3,
       "meta": {}
     },
@@ -177,25 +153,37 @@
     },
     {
       "source": "hn",
-      "topic": "SpeedCrunch 1.1",
+      "topic": "Why I Am a Programmer",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "topic": "Switzerland. Block by block. At 1:1 scale",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+      "topic": "The State of Context Engineering",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "topic": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Behind the scenes at the NeXT Computer office",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Birdwatching rewires the brain and slows cognitive decline",
       "score": 2,
       "meta": {}
     },
@@ -225,49 +213,61 @@
     },
     {
       "source": "hn",
-      "topic": "Dolly Parton's Imagination Library",
+      "topic": "Show HN: A Truly Modular Keyboard",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Small Programs and Languages",
+      "topic": "Attention Is Not What You Need",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Japanese Dried Bonito Is Made",
+      "topic": "F-Zero X on Nintendo 3DS",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Active incident at Dreamhost forcing password reset",
+      "topic": "Steal My Bitcoin CTF PoC",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+      "topic": "Where the Romans Fought (interactive map)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Reverse engineer of PC-98 Touhou games retires",
+      "topic": "Growing Trees",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
+      "topic": "Iron Age salt-mining complex found beneath Hallstatt in Austria",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "VCF Southwest 2026, but Edited on Silicon Graphics for '90s TV [video]",
+      "topic": "Tasks as Code: Move Your Tickets into the Repository",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One of the Greatest Inventions in the History of Human Transport",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Peter Thiel, the tech oligarch who believes in the Antichrist",
       "score": 1,
       "meta": {}
     },
@@ -357,49 +357,25 @@
     },
     {
       "source": "hn",
-      "topic": "JetBrains Thinkrail",
+      "topic": "Websites Should Be Printable",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sabre Wulf Remastered",
+      "topic": "Superhuman Hardware Design Is the Easy Part",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Recreate the Apollo Guidance Computer",
+      "topic": "Two Million Hornets",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Eunice is almost here",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why I Am a Programmer",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "UTS #39: Unicode Security Mechanisms",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The U.S. Power Grid",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What goes into making an animated film?",
+      "topic": "Writing Is Closer to Thought Than Code",
       "score": 0,
       "meta": {}
     }
