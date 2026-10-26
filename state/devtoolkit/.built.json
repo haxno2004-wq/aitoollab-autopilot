@@ -1,8 +1,8 @@
 {
-  "slug": "birdwatching-rewires-the-brain-and-slows-cognitive-decline",
-  "title": "How Birdwatching Rewires the Brain and Slows Cognitive Decline",
-  "description": "Explore how birdwatching rewires the brain and supports cognitive longevity. A hands-on review of nature observation for mental clarity and focus.",
-  "date": "2026-10-26T13:10:39.849Z",
-  "words": 1065,
+  "slug": "fixing-tool-call-accuracy-in-vllm",
+  "title": "Fixing Tool-Call Accuracy in vLLM: A Practical Guide",
+  "description": "Learn how to improve tool-call accuracy in vLLM deployments. A hands-on review covering capabilities, limitations, and best practices for developers.",
+  "date": "2026-10-26T22:44:02.728Z",
+  "words": 1053,
   "provider": "gemini"
 }
