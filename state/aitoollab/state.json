@@ -66,7 +66,8 @@
     "america-has-lost-200k-of-jobs-in-media-film-and-the-arts-how-muc",
     "cerebras-deploys-trillion-parameter-ai-models",
     "a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diag",
-    "fixing-tool-call-accuracy-in-vllm"
+    "fixing-tool-call-accuracy-in-vllm",
+    "oldest-gui-application-that-still-runs-on-windows-11"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -136,7 +137,8 @@
     "America has lost 200k of jobs in media, film and the arts. How much is AI?",
     "Cerebras Deploys Trillion-Parameter AI Models",
     "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-    "Fixing Tool-Call Accuracy in vLLM"
+    "Fixing Tool-Call Accuracy in vLLM",
+    "Oldest GUI application that still runs on Windows 11"
   ],
-  "lastRun": "2026-10-26T22:44:57.411Z"
+  "lastRun": "2026-10-27T12:15:51.639Z"
 }
