@@ -1,27 +1,33 @@
 {
-  "fetchedAt": "2026-10-27T12:13:17.090Z",
+  "fetchedAt": "2026-10-27T22:18:14.207Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Three new discoveries in mathematics, computer science, and physics",
+      "topic": "Tailscale SSH: Investigation and remediation update",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "US Government is hiding a secret court ruling about how it spies on Americans",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "topic": "Anthropic trained Claude on illegally obtained Stanford professors' books",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Exponential Time Hypothesis Is False [pdf]",
+      "topic": "Police are using AI to pull over drivers for 'suspicious' behavior",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Oldest GUI application that still runs on Windows 11",
+      "topic": "Classification of Finite Simple Groups Formalized in Lean",
       "score": 4,
       "meta": {}
     },
@@ -32,38 +38,26 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "When is it worth it to switch from Ally to a new HYSA?",
+      "score": 4,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Anthropic S-1",
+      "topic": "Ghostty 1.4",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CSS-Tricks has a new owner",
+      "topic": "Wikipedia's Cleanup of AI-Generated Content",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Solar power is becoming bigger than nuclear",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Websites Should Be Printable",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Blaise Pascal invented fixed route public transport",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to grow a cacao tree at home",
+      "topic": "Python's experimental JIT to be removed",
       "score": 3,
       "meta": {}
     },
@@ -99,43 +93,37 @@
     },
     {
       "source": "hn",
-      "topic": "Type Server Protocol",
+      "topic": "New iMac with M6",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New iPad mini",
+      "topic": "PHP2Shell: Exploitation attempts and remediation trends",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Mythical Man-Month in the Age of AI",
+      "topic": "Amazon Is Gutting Its AI Division After Sustained Failure",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+      "topic": "Discord will soon let anyone find public server messages through Google",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "topic": "Here be monsters: What do you still need to know when agents do the work?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Roblox downloaded 145GB models from us (including adult content) without asking",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "topic": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "score": 2,
       "meta": {}
     },
@@ -147,55 +135,67 @@
     },
     {
       "source": "hn",
-      "topic": "Nietzschian Debugger",
+      "topic": "Introducing LFM3: Every Modality for Specialized Intelligence",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Printer Printing onto Paper",
+      "topic": "OpenLDK: Bringing the Java World into Common Lisp",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I will no longer upload to NEW",
+      "topic": "An examination of lost firefly species of the US and Canada",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "APC says let there be light, with standards to speed up photonics manufacturing",
+      "topic": "Early progress on accelerating drug development with Claude",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Software may be getting worse, but it used to be horrible",
+      "topic": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Txoko: Basques' traditional feast a gastronomic peek into a culture",
+      "topic": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rosettes and Other Hidden Traces of Hamburg's Tram",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Land Value Capture in Practice: Ethiopia's Urban Land Lease System",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "SS United States to be sunk as largest artificial reef",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One year of Dioxus fullstack in production: the good, the painful",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Mom died, she left me money. Idk what to really do",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "PNC Bank forbids goodwill credit adjustments.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Employer I interviewed for, then got rejected, has shown up on my credit report",
+      "topic": "DO NOT trust Chime promos, straight up scamming new members out of $200",
       "score": 1,
       "meta": {}
     },
@@ -213,25 +213,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Capital One refused hardship, interest reduction, and settlement. what options do I have left?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "DO NOT trust Chime promos, straight up scamming new members out of $200",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "i'm 18 and want to move out as soon as i can but i have absolutely nothing.",
+      "topic": "Former boss still paying some of our insurance",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Love an apartment, but don't know if i can afford high costs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
       "score": 1,
       "meta": {}
     },
@@ -244,12 +238,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Should i buy a used toyota corolla or just go for a new one?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Former boss still paying some of our insurance",
       "score": 1,
       "meta": {}
     },
@@ -273,43 +261,49 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Mom is facing foreclosure again. Can I help while protecting myself?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Questioning my divorce settlement: protect 401K at expense of cash?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "At what point does it make sense to pull money out of a brokerage acct to pay off a mortgage?",
       "score": 1,
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Margin loans. With high interest rates, what are they being used for exactly?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Need to move to a new city but ANXIOUS about money...",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "I still teach OpenGL ES 3.0",
+      "topic": "Three TLS Bugs in GoAhead",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Encarta 95 Web",
+      "topic": "Four Months of Zig",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Writing about pratt parsing so I remember it",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Wikipedia's Cleanup of AI-Generated Content",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gforth 1.0",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Python's experimental JIT to be removed",
+      "topic": "Hex Raises $100M",
       "score": 0,
       "meta": {}
     },
@@ -333,19 +327,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Mortgage payoff with no employment in sight?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Immigrant daughter to immigrant parents, I make enough to give my parents $1k a month, is this a wise move financially?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Saving for old age: how much is enough?",
+      "topic": "Mortgage payoff with no employment in sight?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Is it a problem if a car dealer ran credit reports on my wife and I each, when we told them we were doing a cash deal?",
       "score": 0,
       "meta": {}
     },
@@ -376,6 +370,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Downsizing disagreement",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Should I pay off my house, or ride it out?",
       "score": 0,
       "meta": {}
     }
