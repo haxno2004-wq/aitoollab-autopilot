@@ -1,8 +1,8 @@
 {
-  "slug": "oldest-gui-application-that-still-runs-on-windows-11",
-  "title": "Running Notepad in Windows 11: A Hands-On Retro Review",
-  "description": "Explore how the oldest GUI app still running on Windows 11 holds up today. A hands-on review covering where it shines, fails, and productivity use.",
-  "date": "2026-10-27T12:17:40.412Z",
-  "words": 944,
+  "slug": "tailscale-ssh-investigation-and-remediation-update",
+  "title": "Tailscale SSH Review: Remediation Updates and Workflow Fit",
+  "description": "Explore our hands-on review of Tailscale SSH. Learn how recent updates handle access control, terminal workflows, and where it fits your developer stack.",
+  "date": "2026-10-27T22:18:39.395Z",
+  "words": 1248,
   "provider": "gemini"
 }
