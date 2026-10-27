@@ -60,3 +60,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-26T13:11:03.234Z,birdwatching-rewires-the-brain-and-slows-cognitive-decline,How Birdwatching Rewires the Brain and Slows Cognitive Decline,gemini,1065,success
 2026-10-26T22:44:22.408Z,fixing-tool-call-accuracy-in-vllm,Fixing Tool-Call Accuracy in vLLM: A Practical Guide,gemini,1053,success
 2026-10-27T12:18:01.563Z,oldest-gui-application-that-still-runs-on-windows-11,Running Notepad in Windows 11: A Hands-On Retro Review,gemini,944,success
+2026-10-27T22:18:55.185Z,tailscale-ssh-investigation-and-remediation-update,Tailscale SSH Review: Remediation Updates and Workflow Fit,gemini,1248,success
