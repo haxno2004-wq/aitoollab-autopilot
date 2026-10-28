@@ -60,7 +60,8 @@
     "fixing-tool-call-accuracy-in-vllm",
     "oldest-gui-application-that-still-runs-on-windows-11",
     "tailscale-ssh-investigation-and-remediation-update",
-    "ink-droplets-in-motion-snag-top-prize-in-nikon-small-world-conte"
+    "ink-droplets-in-motion-snag-top-prize-in-nikon-small-world-conte",
+    "apples-git-still-trusts-the-compromised-emudhra-certificates"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
@@ -125,7 +126,8 @@
     "Fixing Tool-Call Accuracy in vLLM",
     "Oldest GUI application that still runs on Windows 11",
     "Tailscale SSH: Investigation and remediation update",
-    "Ink droplets in motion snag top prize in Nikon Small World contest"
+    "Ink droplets in motion snag top prize in Nikon Small World contest",
+    "Apple's git still trusts the compromised eMudhra certificates"
   ],
-  "lastRun": "2026-10-28T13:02:11.677Z"
+  "lastRun": "2026-10-28T22:40:58.953Z"
 }
