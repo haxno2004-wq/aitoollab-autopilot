@@ -1,9 +1,21 @@
 {
-  "fetchedAt": "2026-10-27T22:18:08.849Z",
+  "fetchedAt": "2026-10-28T12:56:23.038Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "Tailscale SSH: Investigation and remediation update",
+      "score": 7,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ink droplets in motion snag top prize in Nikon Small World contest",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Classification of Finite Simple Groups Formalized in Lean",
       "score": 5,
       "meta": {}
     },
@@ -15,31 +27,13 @@
     },
     {
       "source": "hn",
-      "topic": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Classification of Finite Simple Groups Formalized in Lean",
+      "topic": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Ghostty 1.4",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Wikipedia's Cleanup of AI-Generated Content",
       "score": 3,
       "meta": {}
     },
@@ -52,114 +46,126 @@
     {
       "source": "hn",
       "topic": "New iMac with M6",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PHP2Shell: Exploitation attempts and remediation trends",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Discord will soon let anyone find public server messages through Google",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Here be monsters: What do you still need to know when agents do the work?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Introducing LFM3: Every Modality for Specialized Intelligence",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenLDK: Bringing the Java World into Common Lisp",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An examination of lost firefly species of the US and Canada",
-      "score": 1,
+      "topic": "Git for the US Code",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Early progress on accelerating drug development with Claude",
-      "score": 1,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
-      "score": 1,
+      "topic": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rosettes and Other Hidden Traces of Hamburg's Tram",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Land Value Capture in Practice: Ethiopia's Urban Land Lease System",
-      "score": 1,
+      "topic": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "SS United States to be sunk as largest artificial reef",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One year of Dioxus fullstack in production: the good, the painful",
-      "score": 1,
+      "topic": "An examination of lost firefly species of the US and Canada",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Three TLS Bugs in GoAhead",
-      "score": 0,
+      "topic": "Start Doing Graph Theory",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Four Months of Zig",
-      "score": 0,
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hex Raises $100M",
+      "topic": "Jokes for the ZX81",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Decompiling Fast Food Tycoon 2: Drawing the World",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "MacOS Extensions Pack for the Apple Network Server v1.0",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Love Letter to the Super Dimension Fortress",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Amazon to buy satellite firm Globalstar in $11.57B deal",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "About the compromised eMudhra intermediate CAs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Unveiling The Grid: PCBs made in America, twice as fast as Shenzhen",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Closing the Sea: Lessons from Ancient Mediterranean Blockades",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Two high-speed trains collide near Toledo, Spain",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Colors of a Soap Film",
       "score": 0,
       "meta": {}
     }
