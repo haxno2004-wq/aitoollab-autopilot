@@ -1,9 +1,21 @@
 {
-  "fetchedAt": "2026-10-27T22:18:14.207Z",
+  "fetchedAt": "2026-10-28T12:56:22.835Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "Tailscale SSH: Investigation and remediation update",
+      "score": 7,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ink droplets in motion snag top prize in Nikon Small World contest",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Classification of Finite Simple Groups Formalized in Lean",
       "score": 5,
       "meta": {}
     },
@@ -15,19 +27,7 @@
     },
     {
       "source": "hn",
-      "topic": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Classification of Finite Simple Groups Formalized in Lean",
+      "topic": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "score": 4,
       "meta": {}
     },
@@ -44,6 +44,12 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "I think I need to fire my FA but not sure exactly how to go about it",
+      "score": 4,
+      "meta": {}
+    },
+    {
       "source": "hn",
       "topic": "Ghostty 1.4",
       "score": 3,
@@ -51,13 +57,25 @@
     },
     {
       "source": "hn",
-      "topic": "Wikipedia's Cleanup of AI-Generated Content",
+      "topic": "Python's experimental JIT to be removed",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Python's experimental JIT to be removed",
+      "topic": "New iMac with M6",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Git for the US Code",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Early progress on accelerating drug development with Claude",
       "score": 3,
       "meta": {}
     },
@@ -93,37 +111,31 @@
     },
     {
       "source": "hn",
-      "topic": "New iMac with M6",
+      "topic": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PHP2Shell: Exploitation attempts and remediation trends",
+      "topic": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "topic": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Discord will soon let anyone find public server messages through Google",
+      "topic": "SS United States to be sunk as largest artificial reef",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Here be monsters: What do you still need to know when agents do the work?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "topic": "An examination of lost firefly species of the US and Canada",
       "score": 2,
       "meta": {}
     },
@@ -135,67 +147,85 @@
     },
     {
       "source": "hn",
-      "topic": "Introducing LFM3: Every Modality for Specialized Intelligence",
+      "topic": "Start Doing Graph Theory",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenLDK: Bringing the Java World into Common Lisp",
+      "topic": "Four Months of Zig",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An examination of lost firefly species of the US and Canada",
+      "topic": "Jokes for the ZX81",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Early progress on accelerating drug development with Claude",
+      "topic": "Decompiling Fast Food Tycoon 2: Drawing the World",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
+      "topic": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "topic": "MacOS Extensions Pack for the Apple Network Server v1.0",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rosettes and Other Hidden Traces of Hamburg's Tram",
+      "topic": "A Love Letter to the Super Dimension Fortress",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Land Value Capture in Practice: Ethiopia's Urban Land Lease System",
+      "topic": "Amazon to buy satellite firm Globalstar in $11.57B deal",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SS United States to be sunk as largest artificial reef",
+      "topic": "About the compromised eMudhra intermediate CAs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One year of Dioxus fullstack in production: the good, the painful",
+      "topic": "Unveiling The Grid: PCBs made in America, twice as fast as Shenzhen",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Closing the Sea: Lessons from Ancient Mediterranean Blockades",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Two high-speed trains collide near Toledo, Spain",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "DO NOT trust Chime promos, straight up scamming new members out of $200",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "PNC Bank forbids goodwill credit adjustments.",
       "score": 1,
       "meta": {}
     },
@@ -213,6 +243,18 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Left job, can't get 401k withdrawal bc employer says I'm still employed there",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Former boss still paying some of our insurance",
       "score": 1,
       "meta": {}
@@ -220,12 +262,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Love an apartment, but don't know if i can afford high costs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
       "score": 1,
       "meta": {}
     },
@@ -243,24 +279,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "State garnished my bank account for back taxes",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should I keep paying for extra life insurance when I have no dependents?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Am I actually safe to spend 30% of my income on rent? Recently got a new job in Nashville",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Mom is facing foreclosure again. Can I help while protecting myself?",
       "score": 1,
       "meta": {}
@@ -273,43 +291,37 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "At what point does it make sense to pull money out of a brokerage acct to pay off a mortgage?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Margin loans. With high interest rates, what are they being used for exactly?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Need to move to a new city but ANXIOUS about money...",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Three TLS Bugs in GoAhead",
-      "score": 0,
+      "source": "reddit/personalfinance",
+      "topic": "Should I keep paying for extra life insurance when I have no dependents?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "At what point does it make sense to pull money out of a brokerage acct to pay off a mortgage?",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Four Months of Zig",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Hex Raises $100M",
+      "topic": "The Colors of a Soap Film",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Debt collector called me to get to my sister",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Is it a problem if a car dealer ran credit reports on my wife and I each, when we told them we were doing a cash deal?",
       "score": 0,
       "meta": {}
     },
@@ -339,7 +351,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is it a problem if a car dealer ran credit reports on my wife and I each, when we told them we were doing a cash deal?",
+      "topic": "Dental OM here: before putting a big treatment plan on a credit card, ask the office these things",
       "score": 0,
       "meta": {}
     },
@@ -358,12 +370,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Can I afford to move out of parents home?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Do I HAVE to run my credit at car dealership??? I already have a loan offer from my credit union AND my credit is frozen. I don't want to run it. Thoughts??",
       "score": 0,
       "meta": {}
     },
