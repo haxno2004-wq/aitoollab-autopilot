@@ -1,8 +1,8 @@
 {
-  "slug": "tailscale-ssh-investigation-and-remediation-update",
-  "title": "Tailscale SSH Review: Features, Security, and Hands-On Setup",
-  "description": "Explore a hands-on review of Tailscale SSH. Learn what it is, where it shines, where it fails, and how it fits into modern infrastructure workflows.",
-  "date": "2026-10-27T22:22:53.811Z",
-  "words": 854,
+  "slug": "apples-git-still-trusts-the-compromised-emudhra-certificates",
+  "title": "Apple Git and eMudhra Certificates: A Security Review",
+  "description": "Explore our hands-on security review of Apple's git trusting compromised eMudhra certificates. Learn where risks lie and who needs alternative workflows.",
+  "date": "2026-10-28T22:41:33.869Z",
+  "words": 881,
   "provider": "gemini"
 }

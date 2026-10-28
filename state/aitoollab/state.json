@@ -68,7 +68,8 @@
     "a-10-year-old-cnn-outperforms-frontier-llms-for-skin-cancer-diag",
     "fixing-tool-call-accuracy-in-vllm",
     "oldest-gui-application-that-still-runs-on-windows-11",
-    "tailscale-ssh-investigation-and-remediation-update"
+    "tailscale-ssh-investigation-and-remediation-update",
+    "apples-git-still-trusts-the-compromised-emudhra-certificates"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -141,7 +142,8 @@
     "Fixing Tool-Call Accuracy in vLLM",
     "Oldest GUI application that still runs on Windows 11",
     "Tailscale SSH: Investigation and remediation update",
-    "Ink droplets in motion snag top prize in Nikon Small World contest"
+    "Ink droplets in motion snag top prize in Nikon Small World contest",
+    "Apple's git still trusts the compromised eMudhra certificates"
   ],
-  "lastRun": "2026-10-28T13:03:32.089Z"
+  "lastRun": "2026-10-28T22:41:53.796Z"
 }
