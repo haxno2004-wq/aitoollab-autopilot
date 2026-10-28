@@ -1,33 +1,33 @@
 {
-  "fetchedAt": "2026-10-28T12:56:22.835Z",
+  "fetchedAt": "2026-10-28T22:38:16.354Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Tailscale SSH: Investigation and remediation update",
-      "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ink droplets in motion snag top prize in Nikon Small World contest",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Classification of Finite Simple Groups Formalized in Lean",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "US Government is hiding a secret court ruling about how it spies on Americans",
+      "topic": "Apple's git still trusts the compromised eMudhra certificates",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "topic": "Why is this fingerprinting script creating bioweapons?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "MacBook Pro with PROLED XDR Display and Touch",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
       "score": 4,
       "meta": {}
     },
@@ -51,31 +51,25 @@
     },
     {
       "source": "hn",
-      "topic": "Ghostty 1.4",
+      "topic": "Gemini 4 Carbon",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Python's experimental JIT to be removed",
+      "topic": "Start Doing Graph Theory",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New iMac with M6",
+      "topic": "Emacs Turns 50",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Git for the US Code",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Early progress on accelerating drug development with Claude",
+      "topic": "CNC Stone Carving",
       "score": 3,
       "meta": {}
     },
@@ -111,31 +105,7 @@
     },
     {
       "source": "hn",
-      "topic": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "SS United States to be sunk as largest artificial reef",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An examination of lost firefly species of the US and Canada",
+      "topic": "Meta censored the No Kings Instagram account during a nationwide campaign",
       "score": 2,
       "meta": {}
     },
@@ -147,73 +117,43 @@
     },
     {
       "source": "hn",
-      "topic": "Start Doing Graph Theory",
+      "topic": "Archive.today links going forward",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Four Months of Zig",
+      "topic": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jokes for the ZX81",
+      "topic": "Gaussian Splats part 3: There's always a bigger scene",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Decompiling Fast Food Tycoon 2: Drawing the World",
+      "topic": "Regent's Ground-Effect Vehicle Reimagines Coastal Travel",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
+      "topic": "Spiders Spin 'Silk Dope' into Nature's Toughest Material",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "MacOS Extensions Pack for the Apple Network Server v1.0",
+      "topic": "Executable Archaeology: Reanimating the Heuristic Compiler (1961) and KBEmacs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Love Letter to the Super Dimension Fortress",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Amazon to buy satellite firm Globalstar in $11.57B deal",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "About the compromised eMudhra intermediate CAs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Unveiling The Grid: PCBs made in America, twice as fast as Shenzhen",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Closing the Sea: Lessons from Ancient Mediterranean Blockades",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Two high-speed trains collide near Toledo, Spain",
+      "topic": "Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel",
       "score": 1,
       "meta": {}
     },
@@ -237,13 +177,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can you explain to me why the market only goes up in the long term as if I were a 5 year old ?",
+      "topic": "Left job, can't get 401k withdrawal bc employer says I'm still employed there",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Left job, can't get 401k withdrawal bc employer says I'm still employed there",
+      "topic": "Can you explain to me why the market only goes up in the long term as if I were a 5 year old ?",
       "score": 1,
       "meta": {}
     },
@@ -279,6 +219,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "i got a $25K award that i need to use in two years - what should i do with it for now?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Mom is facing foreclosure again. Can I help while protecting myself?",
       "score": 1,
       "meta": {}
@@ -302,14 +248,50 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "At what point does it make sense to pull money out of a brokerage acct to pay off a mortgage?",
-      "score": 1,
+      "source": "hn",
+      "topic": "The Agent SDK",
+      "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Colors of a Soap Film",
+      "topic": "Formlabs Studio 1 $699 Resin Printer",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The case of the 9 bit AES key",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The tragedy of losing your Wikipedia page",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Leak website releases data on DHS employees",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rubber Duck I've Ever Had",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Oseberg Tapestry Fragments",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Style Is Father of the Man",
       "score": 0,
       "meta": {}
     },
@@ -351,19 +333,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Dental OM here: before putting a big treatment plan on a credit card, ask the office these things",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Favorite credit cards for day to day use?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Early retirement - tell me what I'm missing",
       "score": 0,
       "meta": {}
     },
@@ -375,13 +345,25 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Should I pay off my house, or ride it out?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Downsizing disagreement",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should I pay off my house, or ride it out?",
+      "topic": "How much of my trust fund should I spend",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Relocation to USA from Scotland.",
       "score": 0,
       "meta": {}
     }
