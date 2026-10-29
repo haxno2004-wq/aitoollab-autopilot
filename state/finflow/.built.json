@@ -1,8 +1,8 @@
 {
-  "slug": "apples-git-still-trusts-the-compromised-emudhra-certificates",
-  "title": "Apple Git Security Review: Why It Still Trusts eMudhra",
-  "description": "We review Apple's default Git client, evaluating its continued trust in compromised eMudhra root certificates and what it means for developer security.",
-  "date": "2026-10-28T22:39:16.252Z",
-  "words": 1127,
+  "slug": "stackoverflow-now-gets-fewer-than-1000-questions-a-month",
+  "title": "StackOverflow Traffic Shift: A Developer Platform Review",
+  "description": "Explore the massive shift in developer trends as StackOverflow traffic drops. Discover what this means for coding help, modern platforms, and your career.",
+  "date": "2026-10-29T13:06:39.299Z",
+  "words": 1173,
   "provider": "gemini"
 }

@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-28T22:38:16.354Z",
+  "fetchedAt": "2026-10-29T13:03:17.326Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Apple's git still trusts the compromised eMudhra certificates",
-      "score": 4,
+      "topic": "StackOverflow now gets fewer than 1000 questions a month",
+      "score": 7,
       "meta": {}
     },
     {
@@ -15,13 +15,7 @@
     },
     {
       "source": "hn",
-      "topic": "MacBook Pro with PROLED XDR Display and Touch",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "topic": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
       "score": 4,
       "meta": {}
     },
@@ -34,6 +28,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "How much is &quot;enough&quot; saved up when planning to move? 23, Bartender",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Dad died, mom wants to gift investment account to me",
       "score": 4,
       "meta": {}
     },
@@ -57,19 +57,25 @@
     },
     {
       "source": "hn",
-      "topic": "Start Doing Graph Theory",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Emacs Turns 50",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "CNC Stone Carving",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI's agents talked to each other through the CPU Cache",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "NetBSD adds a new beginner-friendly text editor called atto",
       "score": 3,
       "meta": {}
     },
@@ -105,7 +111,31 @@
     },
     {
       "source": "hn",
-      "topic": "Meta censored the No Kings Instagram account during a nationwide campaign",
+      "topic": "A Health Update",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Formlabs Studio 1 $699 Resin Printer",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A new faster algorithm to compute 64-bit signed floor division",
       "score": 2,
       "meta": {}
     },
@@ -117,43 +147,61 @@
     },
     {
       "source": "hn",
-      "topic": "Archive.today links going forward",
+      "topic": "Zero click, silent, remote Android DoS",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
+      "topic": "Getting debug access on a Brother printer over Telnet",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gaussian Splats part 3: There's always a bigger scene",
+      "topic": "An Urgent Message on Artificial Intelligence from the Kogui People",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Regent's Ground-Effect Vehicle Reimagines Coastal Travel",
+      "topic": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Spiders Spin 'Silk Dope' into Nature's Toughest Material",
+      "topic": "Hackers expose the identities of more than 40k DHS employees",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Executable Archaeology: Reanimating the Heuristic Compiler (1961) and KBEmacs",
+      "topic": "Google determines the names for bodies of water in Google Earth",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel",
+      "topic": "Muhammad Aqeel: Undo for Postgres, without losing the rest of your day",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Southern Africa's first known stenciled rock art found hiding in plain sight",
       "score": 1,
       "meta": {}
     },
@@ -207,18 +255,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "45 no retirement, have $3,000 to put in Roth IRA",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should i buy a used toyota corolla or just go for a new one?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "i got a $25K award that i need to use in two years - what should i do with it for now?",
       "score": 1,
       "meta": {}
@@ -237,61 +273,43 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Need to move to a new city but ANXIOUS about money...",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Should I keep paying for extra life insurance when I have no dependents?",
       "score": 1,
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Need to move to a new city but ANXIOUS about money...",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "The Agent SDK",
+      "topic": "If IPv4 Were Land",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Formlabs Studio 1 $699 Resin Printer",
+      "topic": "Treap (Cartesian Tree)",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The case of the 9 bit AES key",
+      "topic": "Requests, Please",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The tragedy of losing your Wikipedia page",
+      "topic": "DoorDash to Acquire Instacart",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Leak website releases data on DHS employees",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rubber Duck I've Ever Had",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Oseberg Tapestry Fragments",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Style Is Father of the Man",
+      "topic": "Show HN: UK Farming Simulator",
       "score": 0,
       "meta": {}
     },
@@ -333,12 +351,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Favorite credit cards for day to day use?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Can I afford to move out of parents home?",
       "score": 0,
       "meta": {}
@@ -351,19 +363,25 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Question about 401K Plan",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Downsizing disagreement",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How much of my trust fund should I spend",
+      "topic": "Relocation to USA from Scotland.",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Relocation to USA from Scotland.",
+      "topic": "How much of my trust fund should I spend",
       "score": 0,
       "meta": {}
     }
