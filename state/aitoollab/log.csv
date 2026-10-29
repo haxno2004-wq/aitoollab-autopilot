@@ -82,3 +82,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-28T13:03:32.089Z,tailscale-ssh-investigation-and-remediation-update,"Tailscale SSH Review: Features, Security, and Hands-On Setup",gemini,854,success
 2026-10-28T22:41:53.796Z,apples-git-still-trusts-the-compromised-emudhra-certificates,Apple Git and eMudhra Certificates: A Security Review,gemini,881,success
 2026-10-29T13:05:52.410Z,stackoverflow-now-gets-fewer-than-1000-questions-a-month,StackOverflow Traffic Shift: Developer Q&A in the AI Era,gemini,995,success
+2026-10-29T22:56:17.597Z,were-releasing-the-weights-of-mistral-large-4,Mistral Large 4 Hands-On Review: Capabilities and Limits,gemini,1184,success
