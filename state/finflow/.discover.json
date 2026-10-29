@@ -1,39 +1,21 @@
 {
-  "fetchedAt": "2026-10-29T13:03:17.326Z",
+  "fetchedAt": "2026-10-29T22:47:45.481Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "StackOverflow now gets fewer than 1000 questions a month",
-      "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why is this fingerprinting script creating bioweapons?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How much is &quot;enough&quot; saved up when planning to move? 23, Bartender",
+      "topic": "We're releasing the weights of Mistral Large 4",
       "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Dad died, mom wants to gift investment account to me",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "How much is &quot;enough&quot; saved up when planning to move? 23, Bartender",
       "score": 4,
       "meta": {}
     },
@@ -51,31 +33,25 @@
     },
     {
       "source": "hn",
-      "topic": "Gemini 4 Carbon",
+      "topic": "Patrick Stewart has died",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CNC Stone Carving",
+      "topic": "DoorDash to acquire Instacart",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI's agents talked to each other through the CPU Cache",
+      "topic": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "NetBSD adds a new beginner-friendly text editor called atto",
+      "topic": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
       "score": 3,
       "meta": {}
     },
@@ -110,32 +86,32 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "What is the best alternative to CreditKarma?",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "A Health Update",
+      "topic": "H.264 Is Magic",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Formlabs Studio 1 $699 Resin Printer",
+      "topic": "If IPv4 were land",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "topic": "Zombie stats: Where the numbers AI quotes come from",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The US added a record 20.2 GWh of battery storage in just 3 months",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A new faster algorithm to compute 64-bit signed floor division",
+      "topic": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
       "score": 2,
       "meta": {}
     },
@@ -147,61 +123,79 @@
     },
     {
       "source": "hn",
-      "topic": "Zero click, silent, remote Android DoS",
+      "topic": "NetBSD adds a new text editor called atto",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Getting debug access on a Brother printer over Telnet",
+      "topic": "What we know so far about Spain train crash",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An Urgent Message on Artificial Intelligence from the Kogui People",
+      "topic": "The importance of communities around software",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
+      "topic": "Claude Duet is the first personal-assistant-type harness that feels useful",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hackers expose the identities of more than 40k DHS employees",
+      "topic": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google determines the names for bodies of water in Google Earth",
+      "topic": "A tiny world model running games on a Raspberry Pi Pico 2 W",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Muhammad Aqeel: Undo for Postgres, without losing the rest of your day",
+      "topic": "We ran AI agent swarms in Minecraft and Mindustry",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
+      "topic": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "topic": "Scattered thoughts on how doing math feels these days",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Southern Africa's first known stenciled rock art found hiding in plain sight",
+      "topic": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Should a medical diagnosis reshape the past?",
       "score": 1,
       "meta": {}
     },
@@ -231,12 +225,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can you explain to me why the market only goes up in the long term as if I were a 5 year old ?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
       "score": 1,
       "meta": {}
@@ -244,6 +232,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Former boss still paying some of our insurance",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "457b - what do you mean the company can use my funds for creditors??",
       "score": 1,
       "meta": {}
     },
@@ -273,43 +267,31 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Need to move to a new city but ANXIOUS about money...",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I keep paying for extra life insurance when I have no dependents?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Need to move to a new city but ANXIOUS about money...",
+      "topic": "Inherited money just stagnating in my checking account - advice?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If IPv4 Were Land",
+      "topic": "The Great American Rascal: Tom Sawyer at 150",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Treap (Cartesian Tree)",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Requests, Please",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DoorDash to Acquire Instacart",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: UK Farming Simulator",
+      "topic": "Lighthouses, War and a Puffling",
       "score": 0,
       "meta": {}
     },
@@ -322,12 +304,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Is it a problem if a car dealer ran credit reports on my wife and I each, when we told them we were doing a cash deal?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "3 payments behind on an $8k Capital One card, currently unemployed. Do I just let it go to default?",
       "score": 0,
       "meta": {}
     },
@@ -357,25 +333,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should I pay off my house, or ride it out?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Question about 401K Plan",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Downsizing disagreement",
+      "topic": "Should I pay off my house, or ride it out?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Relocation to USA from Scotland.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Downsizing disagreement",
       "score": 0,
       "meta": {}
     },

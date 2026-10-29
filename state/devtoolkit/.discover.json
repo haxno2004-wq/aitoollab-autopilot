@@ -1,177 +1,147 @@
 {
-  "fetchedAt": "2026-10-29T13:03:13.936Z",
+  "fetchedAt": "2026-10-29T22:47:42.647Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "StackOverflow now gets fewer than 1000 questions a month",
-      "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why is this fingerprinting script creating bioweapons?",
+      "topic": "We're releasing the weights of Mistral Large 4",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Zero click, silent, remote Android DoS",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gemini 4 Carbon",
+      "topic": "Patrick Stewart has died",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CNC Stone Carving",
+      "topic": "DoorDash to acquire Instacart",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI's agents talked to each other through the CPU Cache",
+      "topic": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "topic": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "NetBSD adds a new beginner-friendly text editor called atto",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Health Update",
+      "topic": "H.264 Is Magic",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Formlabs Studio 1 $699 Resin Printer",
+      "topic": "If IPv4 were land",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "topic": "Zombie stats: Where the numbers AI quotes come from",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "topic": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A new faster algorithm to compute 64-bit signed floor division",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Getting debug access on a Brother printer over Telnet",
+      "topic": "NetBSD adds a new text editor called atto",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An Urgent Message on Artificial Intelligence from the Kogui People",
+      "topic": "What we know so far about Spain train crash",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
+      "topic": "The importance of communities around software",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hackers expose the identities of more than 40k DHS employees",
+      "topic": "Claude Duet is the first personal-assistant-type harness that feels useful",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google determines the names for bodies of water in Google Earth",
+      "topic": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Muhammad Aqeel: Undo for Postgres, without losing the rest of your day",
+      "topic": "A tiny world model running games on a Raspberry Pi Pico 2 W",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
+      "topic": "We ran AI agent swarms in Minecraft and Mindustry",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "topic": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Southern Africa's first known stenciled rock art found hiding in plain sight",
+      "topic": "Scattered thoughts on how doing math feels these days",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If IPv4 Were Land",
+      "topic": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Should a medical diagnosis reshape the past?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Great American Rascal: Tom Sawyer at 150",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Treap (Cartesian Tree)",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Requests, Please",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DoorDash to Acquire Instacart",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: UK Farming Simulator",
+      "topic": "Lighthouses, War and a Puffling",
       "score": 0,
       "meta": {}
     }
