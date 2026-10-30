@@ -1,9 +1,15 @@
 {
-  "fetchedAt": "2026-10-29T22:47:45.481Z",
+  "fetchedAt": "2026-10-30T12:57:20.799Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "We're releasing the weights of Mistral Large 4",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We ran AI agent swarms in Minecraft and Mindustry",
       "score": 4,
       "meta": {}
     },
@@ -33,37 +39,37 @@
     },
     {
       "source": "hn",
-      "topic": "Patrick Stewart has died",
+      "topic": "H.264 Is Magic",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "DoorDash to acquire Instacart",
+      "topic": "Backdoors in official Claude Code extensions",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+      "topic": "If IPv4 were land",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+      "topic": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic hacked to deliver remote access trojan",
       "score": 3,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "top scoring links : personalfinance",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Dad has no investments at 60",
       "score": 3,
       "meta": {}
     },
@@ -87,31 +93,31 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "What is the best alternative to CreditKarma?",
+      "topic": "HDHP vs PPO when considering pregnancy",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "H.264 Is Magic",
+      "topic": "Herdr has released native app",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If IPv4 were land",
+      "topic": "What we know so far about Spain train crash",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Zombie stats: Where the numbers AI quotes come from",
+      "topic": "I'm so bad at billiards that I ended up in the hyperbolic plane [video]",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+      "topic": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta)",
       "score": 2,
       "meta": {}
     },
@@ -123,79 +129,61 @@
     },
     {
       "source": "hn",
-      "topic": "NetBSD adds a new text editor called atto",
+      "topic": "elect.horse",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What we know so far about Spain train crash",
+      "topic": "Astroterm: A Planetarium for Your Terminal",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The importance of communities around software",
+      "topic": "Pico CSS is no longer maintained",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Duet is the first personal-assistant-type harness that feels useful",
+      "topic": "Cuis: The Modern Smalltalk-80",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+      "topic": "Show HN: I Turned DOOM into a Transformer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "topic": "Why a program doesn't work when run from a batch file, but works when clicked",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We ran AI agent swarms in Minecraft and Mindustry",
+      "topic": "Artificial Analysis v5 and the benchmarker's dilemma",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
+      "topic": "An illustrated online book on Hewlett-Packard equipment",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Scattered thoughts on how doing math feels these days",
+      "topic": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Should a medical diagnosis reshape the past?",
+      "topic": "Wasmer (YC S19) Is Hiring OS/Hypervisor Experts in Europe",
       "score": 1,
       "meta": {}
     },
@@ -225,6 +213,18 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Just got knocked down a peg, feeling a little lost",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "457b - what do you mean the company can use my funds for creditors??",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
       "score": 1,
       "meta": {}
@@ -232,12 +232,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Former boss still paying some of our insurance",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "457b - what do you mean the company can use my funds for creditors??",
       "score": 1,
       "meta": {}
     },
@@ -261,6 +255,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Inherited money just stagnating in my checking account - advice?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Questioning my divorce settlement: protect 401K at expense of cash?",
       "score": 1,
       "meta": {}
@@ -278,32 +278,38 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Inherited money just stagnating in my checking account - advice?",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "The Great American Rascal: Tom Sawyer at 150",
+      "topic": "Cormac McCarthy's Library",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lighthouses, War and a Puffling",
+      "topic": "Python on My Wrist",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Debt collector called me to get to my sister",
+      "source": "hn",
+      "topic": "How Do You Take a Picture of a Black Hole?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Finding Panics with Call Graph Analyzer",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Is it a problem if a car dealer ran credit reports on my wife and I each, when we told them we were doing a cash deal?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Debt collector called me to get to my sister",
       "score": 0,
       "meta": {}
     },
@@ -333,6 +339,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Relocation to USA from Scotland.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Question about 401K Plan",
       "score": 0,
       "meta": {}
@@ -345,7 +357,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Relocation to USA from Scotland.",
+      "topic": "College savings for toddler",
       "score": 0,
       "meta": {}
     },
