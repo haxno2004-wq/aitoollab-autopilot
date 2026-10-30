@@ -84,3 +84,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-29T13:05:52.410Z,stackoverflow-now-gets-fewer-than-1000-questions-a-month,StackOverflow Traffic Shift: Developer Q&A in the AI Era,gemini,995,success
 2026-10-29T22:56:17.597Z,were-releasing-the-weights-of-mistral-large-4,Mistral Large 4 Hands-On Review: Capabilities and Limits,gemini,1184,success
 2026-10-30T13:02:17.434Z,we-ran-ai-agent-swarms-in-minecraft-and-mindustry,Running AI Agent Swarms in Minecraft and Mindustry Reviewed,gemini,1006,success
+2026-10-30T22:26:36.773Z,backdoor-in-claude-code-for-vs-code-extension-on-the-cursor-mark,Claude Code VS Code Extension vs. Cursor: Which AI Tool Wins?,gemini,985,success
