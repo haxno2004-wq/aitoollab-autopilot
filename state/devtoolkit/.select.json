@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-30T12:57:13.900Z",
-  "topic": "Astroterm: A Planetarium for Your Terminal",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "astroterm-a-planetarium-for-your-terminal",
+  "pickedAt": "2026-10-30T22:24:21.945Z",
+  "topic": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+  "angle": "a practical head-to-head comparison with a clear decision framework",
+  "slug": "backdoor-in-claude-code-for-vs-code-extension-on-the-cursor-mark",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
-  "remaining": 23
+  "finalScore": 7,
+  "remaining": 27
 }

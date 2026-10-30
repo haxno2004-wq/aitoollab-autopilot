@@ -1,153 +1,171 @@
 {
-  "fetchedAt": "2026-10-30T12:57:13.869Z",
+  "fetchedAt": "2026-10-30T22:24:21.901Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "We're releasing the weights of Mistral Large 4",
+      "topic": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "score": 7,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI isn't replacing SREs, it's deskilling them",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We ran AI agent swarms in Minecraft and Mindustry",
+      "topic": "Show HN: Automatic deduction of FlashAttention kernel from ~25 lines of SQL",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Astroterm: A Planetarium for Your Terminal",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why a program doesn't work when run from a batch file, but works when clicked",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "H.264 Is Magic",
+      "topic": "Northflank Breached",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Backdoors in official Claude Code extensions",
+      "topic": "A Pickpocket's Guide to New York",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If IPv4 were land",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A tiny world model running games on a Raspberry Pi Pico 2 W",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic hacked to deliver remote access trojan",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Herdr has released native app",
+      "topic": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What we know so far about Spain train crash",
+      "topic": "Show HN: A working Nintendo in ~1GB of Qwen weights",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm so bad at billiards that I ended up in the hyperbolic plane [video]",
+      "topic": "Breaking the open web won't stop the bad bots",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta)",
+      "topic": "GitHub Incident with Actions, Pages, and Webhooks",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "elect.horse",
+      "topic": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The federated code forge",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pico CSS is no longer maintained",
+      "topic": "My favourite PowerMac is a Nintendo Wii",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cuis: The Modern Smalltalk-80",
+      "topic": "Florilegium: Procedural Flowers in LaTeX",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I Turned DOOM into a Transformer",
+      "topic": "Bunny CDN Security Incident",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "topic": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An illustrated online book on Hewlett-Packard equipment",
+      "topic": "Tree-mounted machines connect to web app to let users knock on wood remotely",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+      "topic": "The oldest ice disappears and the Stone Age emerges from it",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Wasmer (YC S19) Is Hiring OS/Hypervisor Experts in Europe",
+      "topic": "Embraer's Atech aims to double in size by 2030 with drone traffic control",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cormac McCarthy's Library",
+      "topic": "Turning a solar power system into its own backup",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Building an AI-native engineering org",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Python on My Wrist",
+      "topic": "How do you take a picture of a black hole?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Do You Take a Picture of a Black Hole?",
+      "topic": "Infinite Mac: BeOS",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Finding Panics with Call Graph Analyzer",
+      "topic": "Jules Verne's Lost Novel",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Archive of our own (AO3) hacked",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An Arrogant Way of Killing",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Linode Security Incident",
       "score": 0,
       "meta": {}
     }

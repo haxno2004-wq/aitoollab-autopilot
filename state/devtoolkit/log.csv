@@ -66,3 +66,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-29T13:07:40.099Z,stackoverflow-now-gets-fewer-than-1000-questions-a-month,Stack Overflow in 2025: A Hands-On Review of Its Modern Value,gemini,975,success
 2026-10-29T22:49:50.155Z,were-releasing-the-weights-of-mistral-large-4,Mistral Large 4 Open Weights: A Hands-On Developer Review,gemini,998,success
 2026-10-30T12:59:23.280Z,astroterm-a-planetarium-for-your-terminal,Astroterm Review: A Planetarium for Your Terminal,gemini,1048,success
+2026-10-30T22:29:25.639Z,backdoor-in-claude-code-for-vs-code-extension-on-the-cursor-mark,Claude Code VS Code Extension vs Official CLI: Which Tool Wins?,gemini,977,success
