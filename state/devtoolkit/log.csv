@@ -67,3 +67,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-29T22:49:50.155Z,were-releasing-the-weights-of-mistral-large-4,Mistral Large 4 Open Weights: A Hands-On Developer Review,gemini,998,success
 2026-10-30T12:59:23.280Z,astroterm-a-planetarium-for-your-terminal,Astroterm Review: A Planetarium for Your Terminal,gemini,1048,success
 2026-10-30T22:29:25.639Z,backdoor-in-claude-code-for-vs-code-extension-on-the-cursor-mark,Claude Code VS Code Extension vs Official CLI: Which Tool Wins?,gemini,977,success
+2026-10-31T12:33:01.574Z,the-6-3b-binance-hack-was-pulled-off-in-just-20-minutes,Analyzing the $6.3B Binance Hack: A Developer Security Review,gemini,1091,success
