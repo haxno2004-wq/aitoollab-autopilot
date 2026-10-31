@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T22:24:21.901Z",
+  "fetchedAt": "2026-10-31T12:32:01.243Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,19 +9,7 @@
     },
     {
       "source": "hn",
-      "topic": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI isn't replacing SREs, it's deskilling them",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Automatic deduction of FlashAttention kernel from ~25 lines of SQL",
+      "topic": "The $6.3B Binance hack was pulled off in just 20 minutes",
       "score": 4,
       "meta": {}
     },
@@ -33,139 +21,151 @@
     },
     {
       "source": "hn",
-      "topic": "A Pickpocket's Guide to New York",
+      "topic": "My favourite PowerMac is a Nintendo Wii",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-      "score": 2,
+      "topic": "Florilegium: Procedural Flowers in LaTeX",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Breaking the open web won't stop the bad bots",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GitHub Incident with Actions, Pages, and Webhooks",
-      "score": 2,
+      "topic": "Serbia just elected the world's brainiest parliament",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "score": 2,
+      "topic": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Cloudflare Turnstile solver library (no headless browser required)",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Marelleo, an open-source story box I built for my kids using ESP32",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "The federated code forge",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "My favourite PowerMac is a Nintendo Wii",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Florilegium: Procedural Flowers in LaTeX",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bunny CDN Security Incident",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tree-mounted machines connect to web app to let users knock on wood remotely",
-      "score": 1,
+      "topic": "Tell HN: Scribd Breached",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "The oldest ice disappears and the Stone Age emerges from it",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Embraer's Atech aims to double in size by 2030 with drone traffic control",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Turning a solar power system into its own backup",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Building an AI-native engineering org",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How do you take a picture of a black hole?",
-      "score": 0,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Infinite Mac: BeOS",
-      "score": 0,
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Jules Verne's Lost Novel",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Longitudinal Changes InWearable-Captured PhysiologyBefore Sudden Cardiac Death",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How long do you need to hold down the power button to turn off a PC?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Switch Lowering in GCC",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Archive of our own (AO3) hacked",
+      "topic": "Digital Minimalism",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An Arrogant Way of Killing",
+      "topic": "Double Buffering with Cloudflare Queues",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Linode Security Incident",
+      "topic": "Brief History of PDP Computers",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We Took over ChatGPT Accounts",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Shiny Object Syndrome",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Keeping the Bonfires Lit",
       "score": 0,
       "meta": {}
     }
