@@ -1,171 +1,171 @@
 {
-  "fetchedAt": "2026-10-31T12:32:01.243Z",
+  "fetchedAt": "2026-10-31T21:38:46.043Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "topic": "Serbia just elected the world's brainiest parliament",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Northflank Breached",
+      "topic": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Do the math: How we took over ChatGPT accounts",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "My favourite PowerMac is a Nintendo Wii",
+      "topic": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Florilegium: Procedural Flowers in LaTeX",
+      "topic": "HackerTube: YouTube built from videos recommended by HN",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Breaking the open web won't stop the bad bots",
+      "topic": "Simple circuits can create complex behaviors",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Serbia just elected the world's brainiest parliament",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cloudflare Turnstile solver library (no headless browser required)",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Marelleo, an open-source story box I built for my kids using ESP32",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The federated code forge",
+      "topic": "Digital minimalism",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tell HN: Scribd Breached",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The oldest ice disappears and the Stone Age emerges from it",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Infinite Mac: BeOS",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Jules Verne's Lost Novel",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Longitudinal Changes InWearable-Captured PhysiologyBefore Sudden Cardiac Death",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How long do you need to hold down the power button to turn off a PC?",
-      "score": 1,
+      "topic": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Switch Lowering in GCC",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Jepsen: ParticleDB 1.1.4",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Reading and writing are less symmetric than you (probably) think",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic blocks users for anything touching training larger models",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A USB-C LTE modem that gives my computer a phone line",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A language model that lives in a boot sector",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Much Ado About None: Sentinel Values in Python",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "With 86% of the words, you might understand only 38% of an anime's lines",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "5 years of OqtaDrive: Microdrive emulation to Sinclair Network over the internet",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Duty of a Scholar",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Digital Minimalism",
+      "topic": "It's the Memory Latency, Stupid",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Double Buffering with Cloudflare Queues",
+      "topic": "Redox: Ring Buffers Project Summary",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Brief History of PDP Computers",
+      "topic": "I post trained a model on Demoscenes",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We Took over ChatGPT Accounts",
+      "topic": "William Nordhaus has died",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Shiny Object Syndrome",
+      "topic": "Surviving \"The Graduate\"",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Keeping the Bonfires Lit",
+      "topic": "Distributed Proofreaders",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rhind Mathematical Papyrus",
       "score": 0,
       "meta": {}
     }
