@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-31T21:38:46.079Z",
-  "topic": "Serbia just elected the world's brainiest parliament",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "serbia-just-elected-the-worlds-brainiest-parliament",
+  "pickedAt": "2026-11-01T13:26:37.962Z",
+  "topic": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+  "angle": "a curated alternatives/shortlist guide with honest trade-offs",
+  "slug": "tcp-use-after-free-cve-2026-98432-cvss-9-8",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 27
+  "finalScore": 6,
+  "remaining": 28
 }
