@@ -75,7 +75,8 @@
     "we-ran-ai-agent-swarms-in-minecraft-and-mindustry",
     "backdoor-in-claude-code-for-vs-code-extension-on-the-cursor-mark",
     "the-6-3b-binance-hack-was-pulled-off-in-just-20-minutes",
-    "serbia-just-elected-the-worlds-brainiest-parliament"
+    "serbia-just-elected-the-worlds-brainiest-parliament",
+    "tcp-use-after-free-cve-2026-98432-cvss-9-8"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -155,7 +156,8 @@
     "We ran AI agent swarms in Minecraft and Mindustry",
     "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
     "The $6.3B Binance hack was pulled off in just 20 minutes",
-    "Serbia just elected the world's brainiest parliament"
+    "Serbia just elected the world's brainiest parliament",
+    "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8"
   ],
-  "lastRun": "2026-10-31T21:40:54.790Z"
+  "lastRun": "2026-11-01T13:30:24.005Z"
 }
