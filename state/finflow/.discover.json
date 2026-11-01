@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T13:26:40.021Z",
+  "fetchedAt": "2026-11-01T22:05:31.811Z",
   "candidates": [
     {
       "source": "hn",
@@ -21,19 +21,31 @@
     },
     {
       "source": "hn",
-      "topic": "Do the math: How we took over ChatGPT accounts",
+      "topic": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Seoul Viosys begins production of rare-earth-free white light emitter",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple captures 50% of consumer revenue of the top half of the S&P 500",
       "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Dad died, mom wants to gift investment account to me",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How much is &quot;enough&quot; saved up when planning to move? 23, Bartender",
       "score": 4,
       "meta": {}
     },
@@ -51,13 +63,19 @@
     },
     {
       "source": "hn",
-      "topic": "Norway makes shithouses great again",
+      "topic": "Patrick Stewart taught us what good men do with power",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "topic": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Running a bootstrapped SaaS for 20 years with my brother",
       "score": 3,
       "meta": {}
     },
@@ -87,115 +105,79 @@
     },
     {
       "source": "hn",
-      "topic": "Jepsen: ParticleDB 1.1.4",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "It's the memory latency, stupid",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Electrification Could Cut Global Energy Use in Half",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Running a bootstrapped SaaS for 20 years with my brother",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Zinc creep in cable spelter sockets brought down the Arecibo telescope in 2020",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ChatGPT and Codex usage limits merging",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "The AI cost of JavaScript frameworks",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Surviving \"The Graduate\"",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Altoids Project",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A tiny Pacific country rolls out universal basic income",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "No AI, 52 min. Build all Linux Files utils in C by Hand [video]",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pilot-wave hydrodynamics (Quantum phenomena in macroscopic hydrodynamic systems)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A 1580 Map Shows Why Data Visualization Is Never Neutral",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Show HN: Point your camera at a landscape to learn about its geology",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "One-minute frequency disturbances from synchronization in power systems",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Frontier Airlines Likely Breached",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Domain hacks with unusual Unicode characters",
+      "topic": "Mathematics has changed. Let's act like it",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Ocean 'Was the Color of Chocolate.' Mexico Declares War on Seaweed.",
+      "topic": "Understanding Email Encryption",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The question we should all be asking about AI",
+      "topic": "Radiation Map of the World",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Landline phones will switch off across Britland in 100 days, no extensions",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nibnib: Image compression with extreme decompression speed",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tips for more effective fuzz testing with AFL++",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Parchment Paper History: How We Got Paper Perfect for Baking",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
       "score": 1,
       "meta": {}
     },
@@ -231,6 +213,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Getting out of debt is frikken hard. I feel for you. It sucks.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "457b - what do you mean the company can use my funds for creditors??",
       "score": 1,
       "meta": {}
@@ -243,13 +231,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
+      "topic": "Is there any reason not to use zelle to transfer money between accounts?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is there any reason not to use zelle to transfer money between accounts?",
+      "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
       "score": 1,
       "meta": {}
     },
@@ -303,6 +291,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Can see someone else's accounts in my Lloyds banking app",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "To anyone on the fence about fixing that old paid off car, just fix the damn car",
       "score": 1,
       "meta": {}
@@ -315,43 +309,25 @@
     },
     {
       "source": "hn",
-      "topic": "Understanding Email Encryption",
+      "topic": "Novellas with Groff",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Radiation Map of the World",
+      "topic": "Bidirectional charging during grid outages",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Everyone Has Email. Nobody Uses It Right",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Is It EDT or EST?",
+      "topic": "John Leeson (the voice of K9) has died",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Is it a problem if a car dealer ran credit reports on my wife and I each, when we told them we were doing a cash deal?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "My 65-year-old mother is $60k in debt, facing IRS wage garnishment, and has no retirement savings. How can I help without sacrificing my own future?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Mortgage payoff with no employment in sight?",
       "score": 0,
       "meta": {}
     },
@@ -364,6 +340,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Am I just stuck with this money order?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Parent wants me to co-sign on mortgage.",
       "score": 0,
       "meta": {}
     },
@@ -394,12 +376,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Question about 401K Plan",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How much of my trust fund should I spend",
       "score": 0,
       "meta": {}
     }
