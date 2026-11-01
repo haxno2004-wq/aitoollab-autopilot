@@ -1,15 +1,27 @@
 {
-  "fetchedAt": "2026-10-31T21:38:51.432Z",
+  "fetchedAt": "2026-11-01T13:26:40.021Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Serbia just elected the world's brainiest parliament",
+      "topic": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "HackerTube: YouTube built from videos recommended by HN",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "topic": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Do the math: How we took over ChatGPT accounts",
       "score": 4,
       "meta": {}
     },
@@ -39,25 +51,13 @@
     },
     {
       "source": "hn",
-      "topic": "Do the math: How we took over ChatGPT accounts",
+      "topic": "Norway makes shithouses great again",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "HackerTube: YouTube built from videos recommended by HN",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Simple circuits can create complex behaviors",
+      "topic": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
       "score": 3,
       "meta": {}
     },
@@ -86,98 +86,116 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "What is the best alternative to CreditKarma?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Saved stupidly not sure what to do with it",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Digital minimalism",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Switch Lowering in GCC",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
       "topic": "Jepsen: ParticleDB 1.1.4",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "It's the memory latency, stupid",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Electrification Could Cut Global Energy Use in Half",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Running a bootstrapped SaaS for 20 years with my brother",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Zinc creep in cable spelter sockets brought down the Arecibo telescope in 2020",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ChatGPT and Codex usage limits merging",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Reading and writing are less symmetric than you (probably) think",
+      "topic": "The AI cost of JavaScript frameworks",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anthropic blocks users for anything touching training larger models",
+      "topic": "Surviving \"The Graduate\"",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: A USB-C LTE modem that gives my computer a phone line",
+      "topic": "Altoids Project",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference",
+      "topic": "A tiny Pacific country rolls out universal basic income",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: A language model that lives in a boot sector",
+      "topic": "No AI, 52 min. Build all Linux Files utils in C by Hand [video]",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Much Ado About None: Sentinel Values in Python",
+      "topic": "Pilot-wave hydrodynamics (Quantum phenomena in macroscopic hydrodynamic systems)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "topic": "A 1580 Map Shows Why Data Visualization Is Never Neutral",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "With 86% of the words, you might understand only 38% of an anime's lines",
+      "topic": "Show HN: Point your camera at a landscape to learn about its geology",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "5 years of OqtaDrive: Microdrive emulation to Sinclair Network over the internet",
+      "topic": "Domain hacks with unusual Unicode characters",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Ocean 'Was the Color of Chocolate.' Mexico Declares War on Seaweed.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The question we should all be asking about AI",
       "score": 1,
       "meta": {}
     },
@@ -231,6 +249,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Is there any reason not to use zelle to transfer money between accounts?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Former boss still paying some of our insurance",
       "score": 1,
       "meta": {}
@@ -261,13 +285,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Questioning my divorce settlement: protect 401K at expense of cash?",
+      "topic": "Making sure I understand 401k properly - questions",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Making sure I understand 401k properly - questions",
+      "topic": "Questioning my divorce settlement: protect 401K at expense of cash?",
       "score": 1,
       "meta": {}
     },
@@ -284,50 +308,32 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "How stupid is it for me to rent my own place?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "The Duty of a Scholar",
+      "topic": "Understanding Email Encryption",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "It's the Memory Latency, Stupid",
+      "topic": "Radiation Map of the World",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Redox: Ring Buffers Project Summary",
+      "topic": "Everyone Has Email. Nobody Uses It Right",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I post trained a model on Demoscenes",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "William Nordhaus has died",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Surviving \"The Graduate\"",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Distributed Proofreaders",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rhind Mathematical Papyrus",
+      "topic": "Is It EDT or EST?",
       "score": 0,
       "meta": {}
     },
@@ -339,19 +345,25 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "My 65-year-old mother is $60k in debt, facing IRS wage garnishment, and has no retirement savings. How can I help without sacrificing my own future?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Mortgage payoff with no employment in sight?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Am I just stuck with this money order?",
+      "topic": "Was given $30k by my dad now what ?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Was given $30k by my dad now what ?",
+      "topic": "Am I just stuck with this money order?",
       "score": 0,
       "meta": {}
     },
@@ -388,12 +400,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "How much of my trust fund should I spend",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Downsizing disagreement",
       "score": 0,
       "meta": {}
     }

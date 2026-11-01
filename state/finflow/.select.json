@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-10-31T21:38:51.474Z",
-  "topic": "I think I need to fire my FA but not sure exactly how to go about it",
-  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
-  "slug": "i-think-i-need-to-fire-my-fa-but-not-sure-exactly-how-to-go-abou",
-  "source": "reddit/personalfinance",
+  "pickedAt": "2026-11-01T13:26:40.063Z",
+  "topic": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+  "angle": "a curated alternatives/shortlist guide with honest trade-offs",
+  "slug": "tcp-use-after-free-cve-2026-98432-cvss-9-8",
+  "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
+  "finalScore": 6,
   "remaining": 62
 }
