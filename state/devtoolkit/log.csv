@@ -71,3 +71,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-10-31T21:40:49.366Z,serbia-just-elected-the-worlds-brainiest-parliament,Serbia's New Parliament: A Tech and Dev Tool Perspective,gemini,1195,success
 2026-11-01T13:31:41.313Z,tcp-use-after-free-cve-2026-98432-cvss-9-8,Mitigating CVE-2026-98432: Securing Your Network Stack,gemini,1043,success
 2026-11-01T22:08:03.940Z,an-italian-farmer-found-some-unknown-seeds-in-his-attic-and-plan,Uncovering Legacy Seeds: A Practical Review for Developers,gemini,1316,success
+2026-11-02T15:56:10.155Z,ask-hn-which-tv-do-you-recommend-for-privacy,Best Privacy TVs: Analyzing the Ask HN Community Debate,gemini,1142,success
