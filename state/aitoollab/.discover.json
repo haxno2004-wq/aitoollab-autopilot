@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T22:05:31.234Z",
+  "fetchedAt": "2026-11-02T15:55:11.705Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,12 +9,6 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "score": 6,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -60,31 +54,25 @@
     },
     {
       "source": "hn",
-      "topic": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "topic": "Postgres 19 is late because so many more bugs are being found now",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "topic": "Ask HN: Which TV do you recommend for privacy?",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "topic": "Supermarket freezers across Europe hit by second suspected cyber-attack",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Seoul Viosys begins production of rare-earth-free white light emitter",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple captures 50% of consumer revenue of the top half of the S&P 500",
+      "topic": "Why are Soviet math textbooks so hardcore in comparison to US textbooks?",
       "score": 4,
       "meta": {}
     },
@@ -114,19 +102,31 @@
     },
     {
       "source": "hn",
-      "topic": "Patrick Stewart taught us what good men do with power",
+      "topic": "The AI cost of JavaScript frameworks",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "topic": "WTF Ubuntu?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Running a bootstrapped SaaS for 20 years with my brother",
+      "topic": "Show HN: Point your camera at a landscape to learn about its geology",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bones may release proteins that slow aging and extend life span",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Mystery of 60-Second Fluctuations in Power Grids Solved",
       "score": 3,
       "meta": {}
     },
@@ -177,19 +177,37 @@
     },
     {
       "source": "hn",
-      "topic": "The AI cost of JavaScript frameworks",
+      "topic": "Nibnib: Image compression with extreme decompression speed",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Point your camera at a landscape to learn about its geology",
+      "topic": "Trigger.dev customer environment variables exposed",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One-minute frequency disturbances from synchronization in power systems",
+      "topic": "Tips for more effective fuzz testing with AFL++",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I've updated my Linux System Call website and API",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
       "score": 2,
       "meta": {}
     },
@@ -219,61 +237,37 @@
     },
     {
       "source": "hn",
-      "topic": "Frontier Airlines Likely Breached",
+      "topic": "Never Complain, Never Explain",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mathematics has changed. Let's act like it",
+      "topic": "Anthropic releases amended IPO prospectus with third-quarter financials",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Understanding Email Encryption",
+      "topic": "From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Radiation Map of the World",
+      "topic": "Jobless Tech Workers Are Being Left Out of San Francisco's AI Boom",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "topic": "Napping Characteristics and Incident Dementia",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Landline phones will switch off across Britland in 100 days, no extensions",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nibnib: Image compression with extreme decompression speed",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tips for more effective fuzz testing with AFL++",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Parchment Paper History: How We Got Paper Perfect for Baking",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "topic": "LongCat-2.5: Native Multimodality for Agentic Tasks",
       "score": 1,
       "meta": {}
     },
@@ -363,19 +357,7 @@
     },
     {
       "source": "hn",
-      "topic": "Novellas with Groff",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bidirectional charging during grid outages",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "John Leeson (the voice of K9) has died",
+      "topic": "If you love a website, back it up",
       "score": 0,
       "meta": {}
     }
