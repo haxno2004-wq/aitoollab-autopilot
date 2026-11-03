@@ -69,3 +69,4 @@ timestamp,slug,topic_title,provider,words,success
 2026-11-01T13:31:42.822Z,tcp-use-after-free-cve-2026-98432-cvss-9-8,Mitigating TCP Use-After-Free CVE-2026-98432: A Guide,gemini,952,success
 2026-11-01T22:06:52.365Z,an-italian-farmer-found-some-unknown-seeds-in-his-attic-and-plan,Uncovering Unknown Seeds: A Unique Discovery Review,gemini,1041,success
 2026-11-02T15:55:56.196Z,ask-hn-which-tv-do-you-recommend-for-privacy,Best Privacy TVs: Ask HN Recommendations & Real Review,gemini,1112,success
+2026-11-03T01:01:35.498Z,astra-can-read-and-write-weights-to-improve-qwen,Astra Weight Reading and Writing for Qwen: A Practical Review,gemini,1125,success
