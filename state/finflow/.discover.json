@@ -1,27 +1,51 @@
 {
-  "fetchedAt": "2026-11-03T14:16:53.208Z",
+  "fetchedAt": "2026-11-03T23:25:59.606Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
-      "score": 6,
+      "topic": "Stringman, an $800 open-source room scale gripper robot",
+      "score": 5,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Astra can read and write weights to improve Qwen",
+      "topic": "Postman silently auto-installs AI plugins and attempts to share all API data",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "US boy names that became girl names and vice versa",
+      "topic": "The 'Astra can read and write weights to improve Qwen' post is misleading",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "topic": "Jailbreaking my car's navigation system just so I can change the time",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
       "score": 4,
       "meta": {}
     },
@@ -29,30 +53,6 @@
       "source": "reddit/personalfinance",
       "topic": "Dad died, mom wants to gift investment account to me",
       "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "If you love a website, back it up",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The 'Astra can read and write weights to improve Qwen' post is misleading",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Open-Source 5G Ran Platforms: A Dual Perspective on Performance and Capabilities",
-      "score": 3,
       "meta": {}
     },
     {
@@ -87,85 +87,67 @@
     },
     {
       "source": "hn",
-      "topic": "Resisting Cognitive Surrender",
+      "topic": "Mac at Any Scale",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Who is hiring? (November 2026)",
+      "topic": "Preparing for the Flipper One Kickstarter and opening pre-orders",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "European RISC-V Industrial Computing Initiative",
+      "topic": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "topic": "Writing seen in PHerc. 306B, for the first time in 2000 years",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Toit v2.0.0",
+      "topic": "Safari introduces Adaptive Dark Mode in 27.3",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Efficient algorithms, the Exponential Time Hypothesis, and losing the plot",
+      "topic": "Gitbook Breached",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Shrinking NixOS RAM footprint and resource requirements to the bare minimum",
+      "topic": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I built a little browser game to practice Vim commands",
+      "topic": "Antimony: CAD Software Evolved from Lisp Machines and Not Drafting Tables",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Vathographs: Photographic depth maps as creative expression",
+      "topic": "macOS 27 does not support CoreStorage volumes",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform",
+      "topic": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "433MHz TUI scanner: using a FT232H connected to a CC1101",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Charles Tandy, the mastermind behind Radio Shack",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Bema: Work messaging built for humans",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sava Trust (YC F25) Is Hiring a Founding Engineer in NYC",
+      "topic": "USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance",
       "score": 1,
       "meta": {}
     },
@@ -178,12 +160,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Just got knocked down a peg, feeling a little lost",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Left job, can't get 401k withdrawal bc employer says I'm still employed there",
       "score": 1,
       "meta": {}
     },
@@ -219,19 +195,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Engaged Couple Merging Finances - Planning and Your Methods",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "i got a $25K award that i need to use in two years - what should i do with it for now?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Inherited money just stagnating in my checking account - advice?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
       "score": 1,
       "meta": {}
     },
@@ -255,12 +225,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "To anyone on the fence about fixing that old paid off car, just fix the damn car",
       "score": 1,
       "meta": {}
@@ -278,32 +242,62 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Katamari Damacy but it's The Met collection",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Life with Down Syndrome",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why Don't We Live in an Art Nouveau World?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Kvittas, an Expense Splitting App",
-      "score": 0,
-      "meta": {}
-    },
-    {
       "source": "reddit/personalfinance",
-      "topic": "Is it a problem if a car dealer ran credit reports on my wife and I each, when we told them we were doing a cash deal?",
+      "topic": "Should I keep my 401k and start a roth ira? Or stick to one",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tiny Basic for Arduino",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How I use AI (Oct 2026)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We're Training a Figma-Fluent Editing Model",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Introduction to Programming in ATS",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Internals of PostgreSQL",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pratt parsing is a black box",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Curiosity Traps",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Union Types and Option Types",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ashby (YC W19) Is Hiring EMs",
       "score": 0,
       "meta": {}
     },
@@ -333,6 +327,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Is voluntary surrender my only real option",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Meeting with Financial Advisor for the first time. What should I be prepared to discuss that is often overlooked?",
       "score": 0,
       "meta": {}
@@ -345,19 +345,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Relocation to USA from Scotland.",
+      "topic": "Pension or not to Pension?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Question about 401K Plan",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Chargeback on a service appointment",
       "score": 0,
       "meta": {}
     },
@@ -376,6 +370,18 @@
     {
       "source": "reddit/personalfinance",
       "topic": "I think im mentally using my HSA wrong?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Recently inherited 11 yr 401k",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "When to buy a house?",
       "score": 0,
       "meta": {}
     }
