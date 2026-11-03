@@ -78,7 +78,8 @@
     "serbia-just-elected-the-worlds-brainiest-parliament",
     "tcp-use-after-free-cve-2026-98432-cvss-9-8",
     "an-italian-farmer-found-some-unknown-seeds-in-his-attic-and-plan",
-    "ask-hn-which-tv-do-you-recommend-for-privacy"
+    "ask-hn-which-tv-do-you-recommend-for-privacy",
+    "astra-can-read-and-write-weights-to-improve-qwen"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -161,7 +162,8 @@
     "Serbia just elected the world's brainiest parliament",
     "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
     "An Italian farmer found some unknown seeds in his attic and planted them",
-    "Ask HN: Which TV do you recommend for privacy?"
+    "Ask HN: Which TV do you recommend for privacy?",
+    "Astra can read and write weights to improve Qwen"
   ],
-  "lastRun": "2026-11-02T15:55:50.655Z"
+  "lastRun": "2026-11-03T01:03:19.830Z"
 }
