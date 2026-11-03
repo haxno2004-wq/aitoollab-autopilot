@@ -1,0 +1,91 @@
+{
+  "_slug": "the-code-reviewers-kit-mbxvw8",
+  "_date": "2026-11-03T14:20:21.242Z",
+  "name": "The Code Reviewer's Kit",
+  "tagline": "12 language-agnostic AI prompts for cleaner pull requests and faster code reviews in any IDE.",
+  "metaDescription": "Streamline pull requests with 12 language-agnostic AI prompts designed for any IDE. Catch bugs, refactor legacy code, and write tests efficiently.",
+  "description": "### Transform Your Code Review Workflow\n\nAre you spending hours untangling complex pull requests, hunting down subtle edge cases, or struggling to write comprehensive unit tests before merging? **The Code Reviewer's Kit** is built specifically for software engineers and tech leads who want to ship cleaner, safer code without slowing down their delivery pipeline.\n\nDesigned to be completely language-agnostic, these 12 practical prompts work seamlessly inside any AI-powered IDE or chat interface—whether you use VS Code with Copilot, Cursor, or JetBrains AI. They solve the common problem of inconsistent code quality and overlooked technical debt by providing structured, repeatable frameworks for analyzing logic, optimizing performance, and enforcing clean architecture.\n\nThese prompts work because they rely on role-prompting and constrained outputs. Instead of asking a vague 'fix this code,' each prompt forces the AI to evaluate specific vectors like cyclomatic complexity, security vulnerabilities, and missing test assertions. Stop wasting mental energy on boilerplate reviews and let this curated toolkit elevate your daily development standards.",
+  "tags": [
+    "code review",
+    "refactoring",
+    "ai prompts",
+    "developer tools"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "1 PDF guide containing 12 structured prompts",
+    "1 Markdown file for easy copy-pasting into IDE system prompts",
+    "Categories: Security, Refactoring, Testing, and Performance",
+    "Compatible with VS Code, Cursor, JetBrains, and any LLM"
+  ],
+  "sampleItems": [
+    "Act as a strict senior security architect. Review the provided git diff for OWASP Top 10 vulnerabilities, insecure dependency usage, improper error handling, and unvalidated inputs. List each finding with its severity level (Low, Medium, High, Critical), explain the potential exploit vector, and provide a secure, refactored code snippet.",
+    "Analyze the provided code block for unnecessary complexity, deep nesting, and tight coupling. Propose a refactored version adhering to SOLID principles and clean code standards. Break down your changes by explaining how readability and maintainability were improved without altering external behavior."
+  ],
+  "items": [
+    {
+      "title": "Security Vulnerability Scan",
+      "category": "Security",
+      "body": "Act as a strict senior security architect. Review the provided git diff for OWASP Top 10 vulnerabilities, insecure dependency usage, improper error handling, and unvalidated inputs. List each finding with its severity level (Low, Medium, High, Critical), explain the potential exploit vector, and provide a secure, refactored code snippet."
+    },
+    {
+      "title": "SOLID & Clean Architecture Refactor",
+      "category": "Refactoring",
+      "body": "Analyze the provided code block for unnecessary complexity, deep nesting, and tight coupling. Propose a refactored version adhering to SOLID principles and clean code standards. Break down your changes by explaining how readability and maintainability were improved without altering external behavior."
+    },
+    {
+      "title": "Edge Case & Boundary Test Generator",
+      "category": "Testing",
+      "body": "Examine the selected function or method and identify all hidden edge cases, null pointer scenarios, boundary conditions, and invalid data types. Generate a comprehensive suite of unit test cases covering these scenarios using the standard testing framework implied by the codebase context."
+    },
+    {
+      "title": "Performance Bottleneck Detector",
+      "category": "Performance",
+      "body": "Review the provided code for algorithmic inefficiencies, unnecessary database queries, memory leaks, and blocking operations. Highlight bottlenecks that could degrade performance under high load and suggest optimized alternatives with estimated time complexity improvements."
+    },
+    {
+      "title": "Legacy Code De-obfuscation",
+      "category": "Refactoring",
+      "body": "Act as a legacy code specialist. Explain what the provided undocumented function does in plain English, identify side effects, and refactor it into modern, idiomatic syntax with clear variable names and descriptive docstrings."
+    },
+    {
+      "title": "API Contract & Error Handling Audit",
+      "category": "Architecture",
+      "body": "Review the provided API endpoint implementation for robust error handling, status code accuracy, input validation, and consistent response formatting. Ensure that internal stack traces or sensitive database errors are never leaked to the client."
+    },
+    {
+      "title": "Concurrency & Race Condition Check",
+      "category": "Performance",
+      "body": "Analyze the selected asynchronous or multi-threaded code block for potential race conditions, deadlocks, shared state mutations, and thread-safety issues. Provide thread-safe alternatives using appropriate synchronization primitives or locking mechanisms."
+    },
+    {
+      "title": "Integration Test Scenario Planner",
+      "category": "Testing",
+      "body": "Based on the added features in this pull request, design a set of integration test scenarios that verify end-to-end functionality across multiple services or modules. Outline the setup, execution steps, expected outcomes, and cleanup procedures."
+    },
+    {
+      "title": "Junior-Friendly Code Explainer",
+      "category": "Review",
+      "body": "Review the complex algorithm or design pattern in this pull request and break it down into simple concepts that a junior developer can easily understand. Create a step-by-step execution walkthrough with a simple mental model analogy."
+    },
+    {
+      "title": "Dead Code and Bloat Purge",
+      "category": "Refactoring",
+      "body": "Examine the pull request for unused imports, unreachable code paths, orphaned variables, and redundant helper functions that add unnecessary technical debt. List every removable item and confirm its safety to delete."
+    },
+    {
+      "title": "Mock Data and Stub Generator",
+      "category": "Testing",
+      "body": "Generate realistic mock data fixtures, stubs, and test double implementations for the external dependencies and database models required to test the provided service class."
+    },
+    {
+      "title": "PR Summary and Risk Assessment",
+      "category": "Review",
+      "body": "Read through the changes in the provided git diff and synthesize a concise pull request summary for human reviewers. Highlight the business logic impact, potential regression risks, breaking changes, and deployment considerations."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Code Reviewer's Kit: 12 prompts for cleaner pull requests",
+  "_provider": "gemini"
+}
