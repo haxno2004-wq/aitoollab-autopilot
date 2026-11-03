@@ -1,33 +1,21 @@
 {
-  "fetchedAt": "2026-11-02T15:55:14.633Z",
+  "fetchedAt": "2026-11-03T01:00:48.916Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "HackerTube: YouTube built from videos recommended by HN",
+      "topic": "Astra can read and write weights to improve Qwen",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Postgres 19 is late because so many more bugs are being found now",
+      "topic": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Which TV do you recommend for privacy?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why are Soviet math textbooks so hardcore in comparison to US textbooks?",
+      "topic": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
       "score": 4,
       "meta": {}
     },
@@ -39,20 +27,8 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "When is it worth it to switch from Ally to a new HYSA?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "I think I need to fire my FA but not sure exactly how to go about it",
       "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The AI cost of JavaScript frameworks",
-      "score": 3,
       "meta": {}
     },
     {
@@ -63,19 +39,13 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Point your camera at a landscape to learn about its geology",
+      "topic": "If you love a website, back it up",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bones may release proteins that slow aging and extend life span",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "topic": "US boy names that became girl names and vice versa",
       "score": 3,
       "meta": {}
     },
@@ -98,98 +68,116 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Nibnib: Image compression with extreme decompression speed",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Trigger.dev customer environment variables exposed",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tips for more effective fuzz testing with AFL++",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: I've updated my Linux System Call website and API",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Never Complain, Never Explain",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic releases amended IPO prospectus with third-quarter financials",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Jobless Tech Workers Are Being Left Out of San Francisco's AI Boom",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Napping Characteristics and Incident Dementia",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LongCat-2.5: Native Multimodality for Agentic Tasks",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "reddit/personalfinance",
-      "topic": "DO NOT trust Chime promos, straight up scamming new members out of $200",
+      "topic": "Saved stupidly not sure what to do with it",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We halved DNS build delay and cut memory use by 85%",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: Who is hiring? (November 2026)",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "PNC Bank forbids goodwill credit adjustments.",
+      "source": "hn",
+      "topic": "Moving our warehouse off DuckDB",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Just got knocked down a peg, feeling a little lost",
+      "source": "hn",
+      "topic": "Anthropic's growth just flattened",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Egoless Mathematics in the AI Era",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Polyend releases the Tracker firmware source code",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Ford Privacy Promise: You're in Control of Your Data",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Intel stock collapse worsens as $3.5T chip rout spreads",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "When Modernization Breaks Working Code: A Study of LLMs on Legacy PHP",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Conversation with Paul Masurel, Creator of Tantivy",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bitmovin (YC S15) Is Hiring Technical Graduates in Denver (Engineering/CS Focus)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Getting out of debt is frikken hard. I feel for you. It sucks.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Just got knocked down a peg, feeling a little lost",
       "score": 1,
       "meta": {}
     },
@@ -202,6 +190,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Chase Amazon Prime card- repeatedly lowering my credit limit",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "CDs rolled over one too many times and now I can't find my money",
       "score": 1,
       "meta": {}
     },
@@ -231,19 +225,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Former boss still paying some of our insurance",
+      "topic": "Mom is facing foreclosure again. Can I help while protecting myself?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "i got a $25K award that i need to use in two years - what should i do with it for now?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Mom is facing foreclosure again. Can I help while protecting myself?",
       "score": 1,
       "meta": {}
     },
@@ -261,7 +249,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Questioning my divorce settlement: protect 401K at expense of cash?",
+      "topic": "Can see someone else's accounts in my Lloyds banking app",
       "score": 1,
       "meta": {}
     },
@@ -279,12 +267,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can see someone else's accounts in my Lloyds banking app",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "To anyone on the fence about fixing that old paid off car, just fix the damn car",
       "score": 1,
       "meta": {}
@@ -297,7 +279,31 @@
     },
     {
       "source": "hn",
-      "topic": "If you love a website, back it up",
+      "topic": "Apple reports fourth quarter results",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Skill to Create Product Videos",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Making Peace with the Projective Plane",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "WorkOS reports security breach",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why are car keys so expensive to replace?",
       "score": 0,
       "meta": {}
     },
@@ -339,13 +345,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Relocation to USA from Scotland.",
+      "topic": "Meeting with Financial Advisor for the first time. What should I be prepared to discuss that is often overlooked?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should I pay off my house, or ride it out?",
+      "topic": "Relocation to USA from Scotland.",
       "score": 0,
       "meta": {}
     },
@@ -358,6 +364,24 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Chargeback on a service appointment",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "401k after leaving job?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Seeking advice on 529 withdrawals",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I think im mentally using my HSA wrong?",
       "score": 0,
       "meta": {}
     }
