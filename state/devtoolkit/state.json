@@ -71,7 +71,8 @@
     "tcp-use-after-free-cve-2026-98432-cvss-9-8",
     "an-italian-farmer-found-some-unknown-seeds-in-his-attic-and-plan",
     "ask-hn-which-tv-do-you-recommend-for-privacy",
-    "astra-can-read-and-write-weights-to-improve-qwen"
+    "astra-can-read-and-write-weights-to-improve-qwen",
+    "self-employed-solopreneur-nist-has-a-cybersecurity-guide-just-fo"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
@@ -147,7 +148,8 @@
     "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
     "An Italian farmer found some unknown seeds in his attic and planted them",
     "Ask HN: Which TV do you recommend for privacy?",
-    "Astra can read and write weights to improve Qwen"
+    "Astra can read and write weights to improve Qwen",
+    "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You"
   ],
-  "lastRun": "2026-11-03T01:05:52.463Z"
+  "lastRun": "2026-11-03T14:17:56.915Z"
 }

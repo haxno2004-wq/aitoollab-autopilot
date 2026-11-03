@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-11-03T01:00:48.916Z",
+  "fetchedAt": "2026-11-03T14:16:53.208Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "score": 6,
+      "meta": {}
+    },
     {
       "source": "hn",
       "topic": "Astra can read and write weights to improve Qwen",
@@ -9,13 +15,13 @@
     },
     {
       "source": "hn",
-      "topic": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "topic": "US boy names that became girl names and vice versa",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "topic": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
       "score": 4,
       "meta": {}
     },
@@ -26,18 +32,6 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "I think I need to fire my FA but not sure exactly how to go about it",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "WTF Ubuntu?",
-      "score": 3,
-      "meta": {}
-    },
-    {
       "source": "hn",
       "topic": "If you love a website, back it up",
       "score": 3,
@@ -45,7 +39,19 @@
     },
     {
       "source": "hn",
-      "topic": "US boy names that became girl names and vice versa",
+      "topic": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Open-Source 5G Ran Platforms: A Dual Perspective on Performance and Capabilities",
       "score": 3,
       "meta": {}
     },
@@ -74,98 +80,92 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
-      "score": 2,
+      "source": "reddit/personalfinance",
+      "topic": "How to handle debt collector?",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The SEC Should Block Anthropic's IPO to Protect the Public",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We halved DNS build delay and cut memory use by 85%",
+      "topic": "Resisting Cognitive Surrender",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Ask HN: Who is hiring? (November 2026)",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "European RISC-V Industrial Computing Initiative",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Toit v2.0.0",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Moving our warehouse off DuckDB",
+      "topic": "Efficient algorithms, the Exponential Time Hypothesis, and losing the plot",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anthropic's growth just flattened",
+      "topic": "Shrinking NixOS RAM footprint and resource requirements to the bare minimum",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Egoless Mathematics in the AI Era",
+      "topic": "Show HN: I built a little browser game to practice Vim commands",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
+      "topic": "Vathographs: Photographic depth maps as creative expression",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Polyend releases the Tracker firmware source code",
+      "topic": "Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)",
+      "topic": "433MHz TUI scanner: using a FT232H connected to a CC1101",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Ford Privacy Promise: You're in Control of Your Data",
+      "topic": "Charles Tandy, the mastermind behind Radio Shack",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Intel stock collapse worsens as $3.5T chip rout spreads",
+      "topic": "Show HN: Bema: Work messaging built for humans",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "When Modernization Breaks Working Code: A Study of LLMs on Legacy PHP",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Conversation with Paul Masurel, Creator of Tantivy",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bitmovin (YC S15) Is Hiring Technical Graduates in Denver (Engineering/CS Focus)",
+      "topic": "Sava Trust (YC F25) Is Hiring a Founding Engineer in NYC",
       "score": 1,
       "meta": {}
     },
@@ -189,13 +189,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Chase Amazon Prime card- repeatedly lowering my credit limit",
+      "topic": "CDs rolled over one too many times and now I can't find my money",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "CDs rolled over one too many times and now I can't find my money",
+      "topic": "Chase Amazon Prime card- repeatedly lowering my credit limit",
       "score": 1,
       "meta": {}
     },
@@ -225,12 +225,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Mom is facing foreclosure again. Can I help while protecting myself?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "i got a $25K award that i need to use in two years - what should i do with it for now?",
       "score": 1,
       "meta": {}
@@ -255,13 +249,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Need to move to a new city but ANXIOUS about money...",
+      "topic": "How stupid is it for me to rent my own place?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How stupid is it for me to rent my own place?",
+      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
       "score": 1,
       "meta": {}
     },
@@ -273,37 +267,37 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Divorcing at 37. Financial check and advice needed.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I take on 15k debt to pay for an engineering degree or keep working?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple reports fourth quarter results",
+      "topic": "Katamari Damacy but it's The Met collection",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Skill to Create Product Videos",
+      "topic": "Life with Down Syndrome",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making Peace with the Projective Plane",
+      "topic": "Why Don't We Live in an Art Nouveau World?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "WorkOS reports security breach",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why are car keys so expensive to replace?",
+      "topic": "Show HN: Kvittas, an Expense Splitting App",
       "score": 0,
       "meta": {}
     },
@@ -339,13 +333,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "College savings for toddler",
+      "topic": "Meeting with Financial Advisor for the first time. What should I be prepared to discuss that is often overlooked?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Meeting with Financial Advisor for the first time. What should I be prepared to discuss that is often overlooked?",
+      "topic": "College savings for toddler",
       "score": 0,
       "meta": {}
     },
@@ -369,13 +363,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "401k after leaving job?",
+      "topic": "Seeking advice on 529 withdrawals",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Seeking advice on 529 withdrawals",
+      "topic": "401k after leaving job?",
       "score": 0,
       "meta": {}
     },
