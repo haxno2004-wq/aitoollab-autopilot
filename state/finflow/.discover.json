@@ -1,21 +1,15 @@
 {
-  "fetchedAt": "2026-11-03T23:25:59.606Z",
+  "fetchedAt": "2026-11-04T14:34:04.188Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "Stringman, an $800 open-source room scale gripper robot",
-      "score": 5,
+      "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The 'Astra can read and write weights to improve Qwen' post is misleading",
       "score": 4,
       "meta": {}
     },
@@ -33,19 +27,13 @@
     },
     {
       "source": "hn",
-      "topic": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI is forcing us to pay off 40 years of technical debt",
       "score": 4,
       "meta": {}
     },
@@ -53,6 +41,54 @@
       "source": "reddit/personalfinance",
       "topic": "Dad died, mom wants to gift investment account to me",
       "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Safari introduces Adaptive Dark Mode in 27.3",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "C++26 Disapproved",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Jelly Sheet",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Internals of PostgreSQL",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver",
+      "score": 3,
       "meta": {}
     },
     {
@@ -87,67 +123,73 @@
     },
     {
       "source": "hn",
-      "topic": "Mac at Any Scale",
+      "topic": "Kitty 0.50",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Preparing for the Flipper One Kickstarter and opening pre-orders",
+      "topic": "How I use AI (Oct 2026)",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "topic": "Geoffrey Hinton: it might turn out we were better off without AI",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Writing seen in PHerc. 306B, for the first time in 2000 years",
+      "topic": "Incident with Pull Requests, Git Operations and Issues",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Safari introduces Adaptive Dark Mode in 27.3",
+      "topic": "Verification Is Not Knowledge: Science needs more than answers",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Giant canyon on Mars is still tectonically active",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We're training a Figma-fluent editing model",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gitbook Breached",
+      "topic": "Distinct cellular and genetic differences in colorectal cancer in young patients",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "topic": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Antimony: CAD Software Evolved from Lisp Machines and Not Drafting Tables",
+      "topic": "Arrows to arrows, categories to queries",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "macOS 27 does not support CoreStorage volumes",
+      "topic": "North Korean fake job interview led to $6.3B Binance heist",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance",
+      "topic": "Jaron Lanier on parallels between AI and social media",
       "score": 1,
       "meta": {}
     },
@@ -195,7 +237,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Inherited money just stagnating in my checking account - advice?",
+      "topic": "Ex Refinanced House, Bank cut a check for a credit card debt that is mine.",
       "score": 1,
       "meta": {}
     },
@@ -207,13 +249,31 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Making sure I understand 401k properly - questions",
+      "topic": "Inherited money just stagnating in my checking account - advice?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Can see someone else's accounts in my Lloyds banking app",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Making sure I understand 401k properly - questions",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Father in Law wants wife to co-sign a HELOC - Advice needed",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Divorcing at 37. Financial check and advice needed.",
       "score": 1,
       "meta": {}
     },
@@ -231,12 +291,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Divorcing at 37. Financial check and advice needed.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Should I take on 15k debt to pay for an engineering degree or keep working?",
       "score": 1,
       "meta": {}
@@ -249,61 +303,25 @@
     },
     {
       "source": "hn",
-      "topic": "Tiny Basic for Arduino",
+      "topic": "There is no posttraining data commons",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How I use AI (Oct 2026)",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We're Training a Figma-Fluent Editing Model",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Introduction to Programming in ATS",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Internals of PostgreSQL",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pratt parsing is a black box",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Curiosity Traps",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Union Types and Option Types",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ashby (YC W19) Is Hiring EMs",
+      "topic": "The lost malloc()",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Parent wants me to co-sign on mortgage.",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Is voluntary surrender my only real option",
       "score": 0,
       "meta": {}
     },
@@ -327,19 +345,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is voluntary surrender my only real option",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Meeting with Financial Advisor for the first time. What should I be prepared to discuss that is often overlooked?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "College savings for toddler",
       "score": 0,
       "meta": {}
     },
@@ -351,7 +357,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Question about 401K Plan",
+      "topic": "College savings for toddler",
       "score": 0,
       "meta": {}
     },
@@ -376,12 +382,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Recently inherited 11 yr 401k",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "When to buy a house?",
       "score": 0,
       "meta": {}
     }
