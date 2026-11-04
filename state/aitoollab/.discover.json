@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-04T14:34:05.024Z",
+  "fetchedAt": "2026-11-04T23:42:49.254Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,12 +9,6 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "Stringman, an $800 open-source room scale gripper robot",
-      "score": 6,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -54,31 +48,37 @@
     },
     {
       "source": "hn",
-      "topic": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Jailbreaking my car's navigation system just so I can change the time",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "AI is forcing us to pay off 40 years of technical debt",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "North Korean fake job interview led to $6.3B Binance heist",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Residential proxies detected on White House network",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AMD expects to outsell Intel in Q4 for the first time in history",
       "score": 4,
       "meta": {}
     },
@@ -108,49 +108,25 @@
     },
     {
       "source": "hn",
-      "topic": "Safari introduces Adaptive Dark Mode in 27.3",
+      "topic": "Kimi K3.1 Pro model weights are out",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "C++26 Disapproved",
+      "topic": "Incident with Pull Requests, Git Operations and Issues",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jelly Sheet",
+      "topic": "Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Internals of PostgreSQL",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver",
+      "topic": "Verification Is Not Knowledge: Science needs more than answers",
       "score": 3,
       "meta": {}
     },
@@ -201,37 +177,13 @@
     },
     {
       "source": "hn",
-      "topic": "Kitty 0.50",
+      "topic": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How I use AI (Oct 2026)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Geoffrey Hinton: it might turn out we were better off without AI",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Incident with Pull Requests, Git Operations and Issues",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Verification Is Not Knowledge: Science needs more than answers",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Giant canyon on Mars is still tectonically active",
+      "topic": "Progress on provable inference for large language models",
       "score": 2,
       "meta": {}
     },
@@ -261,37 +213,55 @@
     },
     {
       "source": "hn",
-      "topic": "We're training a Figma-fluent editing model",
+      "topic": "A new Go API for JSON",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Distinct cellular and genetic differences in colorectal cancer in young patients",
+      "topic": "Tencent Hy4",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+      "topic": "OpenAI to acquire Pierre Computer Company",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Arrows to arrows, categories to queries",
+      "topic": "Insects don't swarm at LED lights",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "North Korean fake job interview led to $6.3B Binance heist",
+      "topic": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jaron Lanier on parallels between AI and social media",
+      "topic": "Ask HN: What your experience with the monthly \"who wants to be hired\" thread?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "From wild to mild: Friendly foxes show changes in brain region",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: What Cryptography book do you recommend for reading with 10 year olds?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
       "score": 1,
       "meta": {}
     },
@@ -375,19 +345,31 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: I built a RAG and knowledge graph agent that runs locally",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "There is no posttraining data commons",
+      "topic": "Conductor is joining Meta",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The lost malloc()",
+      "topic": "Less Popular Than Coal",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Death Comes for XSLT",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Is Curiosity Good for Us?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Successful People",
       "score": 0,
       "meta": {}
     }
