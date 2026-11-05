@@ -1,30 +1,6 @@
 {
-  "fetchedAt": "2026-11-04T23:42:47.433Z",
+  "fetchedAt": "2026-11-05T14:40:43.636Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "AI is forcing us to pay off 40 years of technical debt",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "North Korean fake job interview led to $6.3B Binance heist",
-      "score": 4,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Residential proxies detected on White House network",
@@ -33,7 +9,13 @@
     },
     {
       "source": "hn",
-      "topic": "AMD expects to outsell Intel in Q4 for the first time in history",
+      "topic": "Ask HN: What's your current AI agentic setup?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
       "score": 4,
       "meta": {}
     },
@@ -45,115 +27,151 @@
     },
     {
       "source": "hn",
-      "topic": "Incident with Pull Requests, Git Operations and Issues",
+      "topic": "A thousand fewer paths to root",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Guerrilla bike lanes: San Francisco makes illicit infrastructure permanent",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Verification Is Not Knowledge: Science needs more than answers",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Progress on provable inference for large language models",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "A new Go API for JSON",
-      "score": 1,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tencent Hy4",
-      "score": 1,
+      "topic": "Images 2.6",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI to acquire Pierre Computer Company",
-      "score": 1,
+      "topic": "TextEdit vs. Pages",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Insects don't swarm at LED lights",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
-      "score": 1,
+      "topic": "Lemmings CSS Animation",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: What your experience with the monthly \"who wants to be hired\" thread?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "From wild to mild: Friendly foxes show changes in brain region",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ask HN: What Cryptography book do you recommend for reading with 10 year olds?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
-      "score": 1,
+      "topic": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Conductor is joining Meta",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Spreading Liquid with Three.js",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Awesome repositories are no longer awesome",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Baidu released ERNIE 5.5 Flash Base",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Discord is ditching Electron and its new app uses less RAM",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GPT-6 Astra covertly underperforms on safety research",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why This Obscure Audio Codec Is a Perfect Fit for the N64",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "From 25M instructions to one faulty skip: fault analysis of a secure boot",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Partial Operator Precedence",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Less Popular Than Coal",
+      "topic": "Being a kid making games in the early 2000s",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Death Comes for XSLT",
+      "topic": "Moment of Ruby: An Argument for Nothing",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Is Curiosity Good for Us?",
+      "topic": "MCP Explained",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Successful People",
+      "topic": "TScert: A Sound Core for TypeScript",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I wish tech companies knew more about me",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Vivaldi 8.3 for Desktop: make bad ads sad",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Download your favourite YouTube videos",
       "score": 0,
       "meta": {}
     }
