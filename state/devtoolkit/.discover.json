@@ -1,87 +1,123 @@
 {
-  "fetchedAt": "2026-11-05T14:40:43.636Z",
+  "fetchedAt": "2026-11-05T23:39:56.893Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Residential proxies detected on White House network",
+      "topic": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: What's your current AI agentic setup?",
+      "topic": "Motorola Signature 27 with GrapheneOS support",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Kimi K3.1 Pro model weights are out",
+      "topic": "Search for everyone",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A thousand fewer paths to root",
+      "topic": "Goodbye from Salon",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A new Go API for JSON",
+      "topic": "GPT-6 Astra covertly underperforms on safety research",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Images 2.6",
+      "topic": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "TextEdit vs. Pages",
+      "topic": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Insects don't swarm at LED lights",
+      "topic": "The Stacks Project, Formalized in Lean",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I wish tech companies knew more about me",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lemmings CSS Animation",
+      "topic": "Download your favourite YouTube videos",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "topic": "MS Paint Remote Code Execution Vulnerability",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Conductor is joining Meta",
-      "score": 1,
+      "topic": "MCP Explained",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Spreading Liquid with Three.js",
-      "score": 1,
+      "topic": "Window Sweaters",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Awesome repositories are no longer awesome",
+      "topic": "Claude Code sends your email address to websites",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Obscure audio codec is a perfect fit for the N64",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "September in Servo: <progress>, rounded rectangles, and more",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "My psychophysics as a bilateral cochlear implant user",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hungary: Communist-era files released, up to 60k former agents revealed",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Lisp curse, now coming to your ecosystem",
       "score": 1,
       "meta": {}
     },
@@ -93,85 +129,37 @@
     },
     {
       "source": "hn",
-      "topic": "Discord is ditching Electron and its new app uses less RAM",
+      "topic": "The Hackintosh Reborn",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
+      "topic": "Building a Multi-Agent System from Scratch: Architecture Patterns",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-6 Astra covertly underperforms on safety research",
+      "topic": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why This Obscure Audio Codec Is a Perfect Fit for the N64",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "From 25M instructions to one faulty skip: fault analysis of a secure boot",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Partial Operator Precedence",
+      "topic": "We can do better than line-buffered output",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Being a kid making games in the early 2000s",
+      "topic": "The Cost of Blogging",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Moment of Ruby: An Argument for Nothing",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MCP Explained",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "TScert: A Sound Core for TypeScript",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I wish tech companies knew more about me",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Vivaldi 8.3 for Desktop: make bad ads sad",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Download your favourite YouTube videos",
+      "topic": "Introducing Pangram Image 1.0",
       "score": 0,
       "meta": {}
     }

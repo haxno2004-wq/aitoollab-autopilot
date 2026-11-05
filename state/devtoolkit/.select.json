@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-11-05T14:40:43.676Z",
-  "topic": "Ask HN: What's your current AI agentic setup?",
+  "pickedAt": "2026-11-05T23:39:56.934Z",
+  "topic": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "ask-hn-whats-your-current-ai-agentic-setup",
+  "slug": "alpine-linux-security-advisory-openssh-server-password-authentic",
   "source": "hn",
   "sourceMeta": {},
   "finalScore": 4,
-  "remaining": 28
+  "remaining": 26
 }
