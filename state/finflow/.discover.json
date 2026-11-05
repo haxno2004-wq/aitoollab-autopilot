@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T14:40:46.257Z",
+  "fetchedAt": "2026-11-05T23:40:02.378Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -8,50 +8,80 @@
       "meta": {}
     },
     {
+      "source": "reddit/Frugal",
+      "topic": "Is there any way to save money on industry-recognized courses and certifications?",
+      "score": 7,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Save the small cardboard boxes from groceries for (nearly) free kids play food.",
+      "score": 6,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Residential proxies detected on White House network",
+      "topic": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: What's your current AI agentic setup?",
+      "topic": "Motorola Signature 27 with GrapheneOS support",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "How to make Costco affordable and be more strategic?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Are barber/cosmetology schools worth it for cheap haircuts?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "grocery price comparison app reccomendations?",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Kimi K3.1 Pro model weights are out",
+      "topic": "Search for everyone",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A thousand fewer paths to root",
+      "topic": "Goodbye from Salon",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A new Go API for JSON",
+      "topic": "GPT-6 Astra covertly underperforms on safety research",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Images 2.6",
+      "topic": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "TextEdit vs. Pages",
+      "topic": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Stacks Project, Formalized in Lean",
       "score": 3,
       "meta": {}
     },
@@ -63,7 +93,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "HDHP vs PPO when considering pregnancy",
+      "topic": "How to use an HSA account .",
       "score": 3,
       "meta": {}
     },
@@ -75,49 +105,97 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How to use an HSA account .",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "How to handle debt collector?",
       "score": 3,
       "meta": {}
     },
     {
+      "source": "reddit/Frugal",
+      "topic": "top scoring links : Frugal",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "On how to be frugal with a wavy hair routine",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Can I get some ideas to process and freeze a whole turkey from a deal?",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Insects don't swarm at LED lights",
+      "topic": "I wish tech companies knew more about me",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lemmings CSS Animation",
+      "topic": "Download your favourite YouTube videos",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "topic": "MS Paint Remote Code Execution Vulnerability",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Conductor is joining Meta",
-      "score": 1,
+      "topic": "MCP Explained",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Spreading Liquid with Three.js",
-      "score": 1,
+      "topic": "Window Sweaters",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Awesome repositories are no longer awesome",
+      "topic": "Claude Code sends your email address to websites",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Obscure audio codec is a perfect fit for the N64",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "September in Servo: <progress>, rounded rectangles, and more",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "My psychophysics as a bilateral cochlear implant user",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hungary: Communist-era files released, up to 60k former agents revealed",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Lisp curse, now coming to your ecosystem",
       "score": 1,
       "meta": {}
     },
@@ -129,49 +207,25 @@
     },
     {
       "source": "hn",
-      "topic": "Discord is ditching Electron and its new app uses less RAM",
+      "topic": "The Hackintosh Reborn",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
+      "topic": "Building a Multi-Agent System from Scratch: Architecture Patterns",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-6 Astra covertly underperforms on safety research",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why This Obscure Audio Codec Is a Perfect Fit for the N64",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "From 25M instructions to one faulty skip: fault analysis of a secure boot",
+      "topic": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Getting out of debt is frikken hard. I feel for you. It sucks.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Just got knocked down a peg, feeling a little lost",
       "score": 1,
       "meta": {}
     },
@@ -190,12 +244,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Ex Refinanced House, Bank cut a check for a credit card debt that is mine.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "457b - what do you mean the company can use my funds for creditors??",
       "score": 1,
       "meta": {}
     },
@@ -254,50 +302,158 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Started a new job, what do I do with previous employer 401k?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Replaced my daily (and I mean DAILY) shoes after 4 years.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Might have been a little overkill but I do really enjoy eating beans",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Here is a tip for those who are stuck using the laundromat",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "A frugal &quot;toy&quot; that every kid loves and plays with until it breaks",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "What felt overpriced when you bought it but earned its keep?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Our backyard harvest became a three course meal, cost per person $1.50 in other ingredients.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Our 1980s washer finally gave out. Going to pre electric solutions.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "$25 Kroger clearance haul, is this a good deal?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Walmart+ discount with AARP - you don't have to be 65",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "What are your favorite store / generic brands?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Frugal tips for less expensive stocking stuffers?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Is it worth fixing non important parts on a car?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Bought it for the kids. Now I use it for exercise too.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "How long do you keep one pair of daily shoes?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "How do you subside the anxiety and panic of &quot;not enough&quot;?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Worth waiting for Black Friday to buy furniture online?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Do you have a house cleaner? Do you feel it's frugal?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Places to find affordable Christmas Decorations?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Super frugal make up hacks and other cheap beauty tips",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Homemade pot holders made from fabric, thermal fabric and Terry cloth help",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Can you please recommend your favorite sardines in oil?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Encapsulation and energy costs- Will they go up or down?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Partial Operator Precedence",
+      "topic": "We can do better than line-buffered output",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Being a kid making games in the early 2000s",
+      "topic": "The Cost of Blogging",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Moment of Ruby: An Argument for Nothing",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MCP Explained",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "TScert: A Sound Core for TypeScript",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I wish tech companies knew more about me",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Vivaldi 8.3 for Desktop: make bad ads sad",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Download your favourite YouTube videos",
+      "topic": "Introducing Pangram Image 1.0",
       "score": 0,
       "meta": {}
     },
@@ -333,6 +489,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "50k Bonus.. What should I do with it ?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "paying off 14k of debt",
       "score": 0,
       "meta": {}
@@ -351,7 +513,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "College savings for toddler",
+      "topic": "Should I make a payment",
       "score": 0,
       "meta": {}
     },
@@ -363,13 +525,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Unneeded Retirement Funds/Give to Kids?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Seeking advice on 529 withdrawals",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "401k after leaving job?",
+      "topic": "Taking out of a small old 401k",
       "score": 0,
       "meta": {}
     },
@@ -388,6 +556,60 @@
     {
       "source": "reddit/personalfinance",
       "topic": "When to buy a house?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Scored a Bosch 800 Refrigerator for $1382.42",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Homemade Christmas present ideas please?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Food Stock Should Help with Holiday Spending",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Have you noticed an improvement in how your local grocery store actively reduces near to expiry items?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Saving money on airfare and traveling",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Christmas gifts for children? 8yo and 15yo",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Frugal albeit fantastic turkey soup",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Monthly megathread: Discuss quick frugal ideas, frugal challenges you're starting, and share your hauls with others here!",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/Frugal",
+      "topic": "Thermomix frugalers .. what are you making?",
       "score": 0,
       "meta": {}
     }
