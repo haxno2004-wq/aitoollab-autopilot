@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-11-06T14:17:42.959Z",
-  "topic": "Blender's UI and Runtime: Much Faster Than GPUI",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "blenders-ui-and-runtime-much-faster-than-gpui",
+  "pickedAt": "2026-11-06T23:12:35.228Z",
+  "topic": "We've built an open-source feature flag server for 11 years",
+  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
+  "slug": "weve-built-an-open-source-feature-flag-server-for-11-years",
   "source": "hn",
   "sourceMeta": {},
   "finalScore": 4,
-  "remaining": 25
+  "remaining": 26
 }
