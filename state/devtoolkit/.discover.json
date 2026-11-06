@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-11-05T23:39:56.893Z",
+  "fetchedAt": "2026-11-06T14:17:42.917Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "topic": "Claude Code sends your email address to websites",
       "score": 4,
       "meta": {}
     },
@@ -15,151 +15,145 @@
     },
     {
       "source": "hn",
-      "topic": "Search for everyone",
-      "score": 3,
+      "topic": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Goodbye from Salon",
-      "score": 3,
+      "topic": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-6 Astra covertly underperforms on safety research",
-      "score": 3,
+      "topic": "Britain to make salary disclosure in job ads mandatory",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
-      "score": 3,
+      "topic": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Stacks Project, Formalized in Lean",
+      "topic": "MS Paint Remote Code Execution Vulnerability",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "I wish tech companies knew more about me",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Download your favourite YouTube videos",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MS Paint Remote Code Execution Vulnerability",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MCP Explained",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Window Sweaters",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Code sends your email address to websites",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Obscure audio codec is a perfect fit for the N64",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "September in Servo: <progress>, rounded rectangles, and more",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "My psychophysics as a bilateral cochlear implant user",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Hungary: Communist-era files released, up to 60k former agents revealed",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Lisp curse, now coming to your ecosystem",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Baidu released ERNIE 5.5 Flash Base",
-      "score": 1,
+      "topic": "Download your favourite YouTube videos",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "The Hackintosh Reborn",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "September in Servo: <progress>, rounded rectangles, and more",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We've built an open-source feature flag server for 11 years",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Inkling 2 Small",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pwn.college",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tesla winds down Cybertruck production after years of poor sales in few markets",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nvidia Kubernetes Engine (NVKE)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Building a Multi-Agent System from Scratch: Architecture Patterns",
+      "topic": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+      "topic": "Hardcoded credentials and other issues in Tata Motors App",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We can do better than line-buffered output",
-      "score": 0,
+      "topic": "Chomsky and the Two Cultures of Statistical Learning",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Cost of Blogging",
-      "score": 0,
+      "topic": "Can Democrats effectively abolish Electoral College after midterm wins?",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Introducing Pangram Image 1.0",
+      "topic": "Mbodi AI (YC P25) Is Hiring Research and Robotic Engineers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Gemini Omni 1.2 Flash",
       "score": 0,
       "meta": {}
     }
