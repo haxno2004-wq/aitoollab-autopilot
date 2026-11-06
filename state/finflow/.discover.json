@@ -1,28 +1,10 @@
 {
-  "fetchedAt": "2026-11-06T14:17:47.161Z",
+  "fetchedAt": "2026-11-06T23:12:37.147Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
       "topic": "Which budgeting apps are worth using long term?",
       "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude Code sends your email address to websites",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Motorola Signature 27 with GrapheneOS support",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-      "score": 4,
       "meta": {}
     },
     {
@@ -33,61 +15,25 @@
     },
     {
       "source": "hn",
-      "topic": "Britain to make salary disclosure in job ads mandatory",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MS Paint Remote Code Execution Vulnerability",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I wish tech companies knew more about me",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Window Sweaters",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Download your favourite YouTube videos",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Hackintosh Reborn",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "September in Servo: <progress>, rounded rectangles, and more",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "We've built an open-source feature flag server for 11 years",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tesla to wind down Cybertruck production",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "score": 3,
       "meta": {}
     },
@@ -117,67 +63,109 @@
     },
     {
       "source": "hn",
-      "topic": "Inkling 2 Small",
+      "topic": "Gemini Omni 1.2 Flash",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pwn.college",
+      "topic": "Anthropic IPO buyers see valuation as low as $1.1T",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "topic": "First steps in bare-metal programming using UEFI",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tesla winds down Cybertruck production after years of poor sales in few markets",
+      "topic": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+      "topic": "We know 15k websites are infected. how do we tell them?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia Kubernetes Engine (NVKE)",
+      "topic": "AI is dramatically accelerating AI research",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall",
+      "topic": "Firecracker VM Escape: PwnEscape Part 2",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hardcoded credentials and other issues in Tata Motors App",
+      "topic": "Chomsky and the two cultures of statistical learning",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chomsky and the Two Cultures of Statistical Learning",
+      "topic": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Can Democrats effectively abolish Electoral College after midterm wins?",
+      "topic": "As the Japanese countryside empties out, wildlife is disappearing",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mbodi AI (YC P25) Is Hiring Research and Robotic Engineers",
+      "topic": "Restaurant Delivery Payment-Skimming Campaign",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Replit rebuilt its sandbox engine with microVMs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "My first and last telegram was from Rebecca West",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Google has acquired Crusoe's data center site in southeast Wyoming",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
       "score": 1,
       "meta": {}
     },
@@ -213,7 +201,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "My mom wants me to set up a iul, pretty sure she just joined an MLM",
+      "topic": "Quick Question on HSA's - are that many people really on High Deductible Health plans?",
       "score": 1,
       "meta": {}
     },
@@ -237,18 +225,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Making sure I understand 401k properly - questions",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How stupid is it for me to rent my own place?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Credit utilization dropped significantly after large payment",
       "score": 1,
       "meta": {}
@@ -267,13 +243,43 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "What can we learn from whats happening right now in Paraguay and the UENO Bank collapse?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I keep my 401k and start a roth ira? Or stick to one",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gemini Omni 1.2 Flash",
+      "topic": "Devvm.dev: One VM for every project",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Memorilla: Latent Semantic Memory for LLMs",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Size-It-Up (Game)",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How octopuses squeeze through too small gaps",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "PyLings: Solve Exercises and Learn Python",
       "score": 0,
       "meta": {}
     },
@@ -291,13 +297,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Should I make a payment",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Was given $30k by my dad now what ?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should I make a payment",
+      "topic": "Can I afford $2.1k rent on $6k?",
       "score": 0,
       "meta": {}
     },
@@ -310,12 +322,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "paying off 14k of debt",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Can I afford $2.1k rent on $6k?",
       "score": 0,
       "meta": {}
     },
@@ -357,13 +363,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Recently inherited 11 yr 401k",
+      "topic": "Am I able to retire early?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "I think im mentally using my HSA wrong?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "When to buy a house?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Should I file my W-4 after quitting?",
       "score": 0,
       "meta": {}
     }
