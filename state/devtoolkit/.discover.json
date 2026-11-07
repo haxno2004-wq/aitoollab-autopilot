@@ -1,22 +1,28 @@
 {
-  "fetchedAt": "2026-11-07T13:03:22.848Z",
+  "fetchedAt": "2026-11-07T21:54:24.001Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "topic": "Need for Speed Underground 2 online in the browser",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "topic": "Every Mac comes with an (undocumented) family member classifier",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tesla to wind down Cybertruck production",
-      "score": 3,
+      "topic": "Running a law firm on Free software",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Text.js: Build full-stack React apps that render inside console.log",
+      "score": 4,
       "meta": {}
     },
     {
@@ -27,49 +33,13 @@
     },
     {
       "source": "hn",
-      "topic": "Gemini Omni 1.2 Flash",
+      "topic": "The end of Microsoft Research's AI Frontiers group",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI is dramatically accelerating AI research",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "First steps in bare-metal programming using UEFI",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Firecracker VM Escape: PwnEscape Part 2",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Every Mac comes with an (undocumented) family member classifier",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "RealPage rent-pricing case wraps with nearly $360M to renters",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Restaurant Delivery Payment-Skimming Campaign",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE",
+      "topic": "Asahi Linux Progress Linux 7.3",
       "score": 2,
       "meta": {}
     },
@@ -81,97 +51,121 @@
     },
     {
       "source": "hn",
-      "topic": "Need for Speed Underground 2 online in the browser",
+      "topic": "We know 15k websites are infected. how do we tell them?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Running a law firm on Free software",
+      "topic": "They don't make 'em like that any more: Borland Turbo Pascal 7",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Devvm.dev: One VM for every project",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GitHub's new Git storage architecture",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Upload Your RAM",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Can GROUP BY still be optimized after all these years?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Google has acquired Crusoe's data center site in southeast Wyoming",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What I run on my $10 USD OpenStick homelab",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Notes on San Marino",
+      "topic": "The $8 Linux Computer",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Five memorable books about programming",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Every processor die anyone has photographed and given away",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Yes, You Can Pass a Nuclear Missile Driving on Interstate 80 Through Wyoming",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GeoWorks, Microsoft Windows' Upstart '90s Competitor",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How long can life wait?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Components of Agent Memory",
+      "topic": "What do the next 4000 emoji look like?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Flash C Compiler",
+      "topic": "Terry Pratchett's Study",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PostgreSQL Internals [pdf]",
+      "topic": "The typo generation is damaging literature",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The great butter and cheese fire of 1991",
+      "topic": "Show HN: Where Were We",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "8088 Domination Post-Mortem",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Port 0: The Port That Does Not Exist",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ToothPaste",
+      "topic": "Shadow of the Sun",
       "score": 0,
       "meta": {}
     }
