@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-11-06T23:12:37.188Z",
-  "topic": "We've built an open-source feature flag server for 11 years",
-  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
-  "slug": "weve-built-an-open-source-feature-flag-server-for-11-years",
+  "pickedAt": "2026-11-07T13:03:20.961Z",
+  "topic": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "a-jev-that-can-ask-opus-for-help-gives-opus-accuracy-at-4x-lower",
   "source": "hn",
   "sourceMeta": {},
   "finalScore": 4,
-  "remaining": 61
+  "remaining": 63
 }
