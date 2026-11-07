@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T23:12:32.673Z",
+  "fetchedAt": "2026-11-07T13:03:21.416Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,13 +48,13 @@
     },
     {
       "source": "hn",
-      "topic": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "topic": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We've built an open-source feature flag server for 11 years",
+      "topic": "US FAA says it will phase out floppy disks from air traffic control by 2028",
       "score": 4,
       "meta": {}
     },
@@ -90,13 +90,25 @@
     },
     {
       "source": "hn",
-      "topic": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "topic": "Libghostty 1.0",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "topic": "Gemini Omni 1.2 Flash",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI is dramatically accelerating AI research",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "First steps in bare-metal programming using UEFI",
       "score": 3,
       "meta": {}
     },
@@ -147,31 +159,49 @@
     },
     {
       "source": "hn",
-      "topic": "Gemini Omni 1.2 Flash",
+      "topic": "Firecracker VM Escape: PwnEscape Part 2",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "topic": "Every Mac comes with an (undocumented) family member classifier",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "First steps in bare-metal programming using UEFI",
+      "topic": "RealPage rent-pricing case wraps with nearly $360M to renters",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+      "topic": "Restaurant Delivery Payment-Skimming Campaign",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We know 15k websites are infected. how do we tell them?",
+      "topic": "Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Need for Speed Underground 2 online in the browser",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Running a law firm on Free software",
       "score": 2,
       "meta": {}
     },
@@ -201,55 +231,25 @@
     },
     {
       "source": "hn",
-      "topic": "AI is dramatically accelerating AI research",
+      "topic": "Devvm.dev: One VM for every project",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Firecracker VM Escape: PwnEscape Part 2",
+      "topic": "GitHub's new Git storage architecture",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chomsky and the two cultures of statistical learning",
+      "topic": "Upload Your RAM",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "As the Japanese countryside empties out, wildlife is disappearing",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Restaurant Delivery Payment-Skimming Campaign",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Replit rebuilt its sandbox engine with microVMs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "My first and last telegram was from Rebecca West",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+      "topic": "Can GROUP BY still be optimized after all these years?",
       "score": 1,
       "meta": {}
     },
@@ -261,19 +261,7 @@
     },
     {
       "source": "hn",
-      "topic": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+      "topic": "Every Windows 11 app should kill Electron, and Discord just showed why",
       "score": 1,
       "meta": {}
     },
@@ -363,31 +351,49 @@
     },
     {
       "source": "hn",
-      "topic": "Devvm.dev: One VM for every project",
+      "topic": "Notes on San Marino",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Memorilla: Latent Semantic Memory for LLMs",
+      "topic": "The Components of Agent Memory",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Size-It-Up (Game)",
+      "topic": "The Flash C Compiler",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How octopuses squeeze through too small gaps",
+      "topic": "PostgreSQL Internals [pdf]",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PyLings: Solve Exercises and Learn Python",
+      "topic": "The great butter and cheese fire of 1991",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "8088 Domination Post-Mortem",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Port 0: The Port That Does Not Exist",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ToothPaste",
       "score": 0,
       "meta": {}
     }
