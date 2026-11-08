@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T21:54:24.001Z",
+  "fetchedAt": "2026-11-08T13:26:11.256Z",
   "candidates": [
     {
       "source": "hn",
@@ -15,157 +15,151 @@
     },
     {
       "source": "hn",
-      "topic": "Running a law firm on Free software",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Text.js: Build full-stack React apps that render inside console.log",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Libghostty 1.0",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "The end of Microsoft Research's AI Frontiers group",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Asahi Linux Progress Linux 7.3",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We know 15k websites are infected. how do we tell them?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "They don't make 'em like that any more: Borland Turbo Pascal 7",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Every Windows 11 app should kill Electron, and Discord just showed why",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What I run on my $10 USD OpenStick homelab",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The $8 Linux Computer",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Five memorable books about programming",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Every processor die anyone has photographed and given away",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf]",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Yes, You Can Pass a Nuclear Missile Driving on Interstate 80 Through Wyoming",
-      "score": 1,
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What I run on my $10 USD OpenStick homelab",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Goodbye Claude, Hello Pi",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Uranium cubes reveal why the German nuclear project failed",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GitHub New pull request overview page in public preview",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Making any integer with four 2s",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GeoWorks, Microsoft Windows' Upstart '90s Competitor",
+      "topic": "Person of Interest",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "topic": "Consumer brain wave headsets threaten privacy",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How long can life wait?",
+      "topic": "Petered (what happens after the Peter Principle)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Kirlian Photography: Building Your Own Equipment",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Finding Xanadu: Inside a JRPG classic translation 15 years in the making",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "JIT bitmap text rendering for microcontrollers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New typeface using intricate designs from Shakespeare's First Folio",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Earliest evidence of cannabis use found in ancient Siberian tomb",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Porting Android 16 to my blind mother's keypad phone",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A lack of male protagonists is making it harder to get young boys into books",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Agent memory needs its OpenTelemetry moment",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What do the next 4000 emoji look like?",
+      "topic": "Amsterdam School",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Terry Pratchett's Study",
+      "topic": "I will not be using LLMs in my coding",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The typo generation is damaging literature",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Where Were We",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Shadow of the Sun",
+      "topic": "WaveDudeNext 2D Wave Simulator",
       "score": 0,
       "meta": {}
     }
