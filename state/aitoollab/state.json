@@ -177,7 +177,8 @@
     "Blender's UI and Runtime: Much Faster Than GPUI",
     "We've built an open-source feature flag server for 11 years",
     "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-    "Every Mac comes with an (undocumented) family member classifier"
+    "Every Mac comes with an (undocumented) family member classifier",
+    "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files"
   ],
-  "lastRun": "2026-11-07T21:57:42.962Z"
+  "lastRun": "2026-11-08T13:26:30.834Z"
 }
