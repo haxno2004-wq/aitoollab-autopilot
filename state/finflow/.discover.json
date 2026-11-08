@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T21:54:23.392Z",
+  "fetchedAt": "2026-11-08T13:26:16.164Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -21,25 +21,43 @@
     },
     {
       "source": "hn",
-      "topic": "Running a law firm on Free software",
+      "topic": "The end of Microsoft Research's AI Frontiers group",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Text.js: Build full-stack React apps that render inside console.log",
+      "topic": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Libghostty 1.0",
+      "topic": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Just turned 18 and have $400 saved, what should I do?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What I run on my $10 USD OpenStick homelab",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The end of Microsoft Research's AI Frontiers group",
+      "topic": "Goodbye Claude, Hello Pi",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
       "score": 3,
       "meta": {}
     },
@@ -63,97 +81,91 @@
     },
     {
       "source": "hn",
-      "topic": "Asahi Linux Progress Linux 7.3",
+      "topic": "Uranium cubes reveal why the German nuclear project failed",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+      "topic": "GitHub New pull request overview page in public preview",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We know 15k websites are infected. how do we tell them?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "They don't make 'em like that any more: Borland Turbo Pascal 7",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Every Windows 11 app should kill Electron, and Discord just showed why",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What I run on my $10 USD OpenStick homelab",
+      "topic": "Making any integer with four 2s",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The $8 Linux Computer",
+      "topic": "Person of Interest",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Five memorable books about programming",
+      "topic": "Consumer brain wave headsets threaten privacy",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Every processor die anyone has photographed and given away",
+      "topic": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf]",
+      "topic": "Petered (what happens after the Peter Principle)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+      "topic": "Kirlian Photography: Building Your Own Equipment",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Yes, You Can Pass a Nuclear Missile Driving on Interstate 80 Through Wyoming",
+      "topic": "Finding Xanadu: Inside a JRPG classic translation 15 years in the making",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "topic": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GeoWorks, Microsoft Windows' Upstart '90s Competitor",
+      "topic": "JIT bitmap text rendering for microcontrollers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "topic": "New typeface using intricate designs from Shakespeare's First Folio",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Earliest evidence of cannabis use found in ancient Siberian tomb",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Porting Android 16 to my blind mother's keypad phone",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A lack of male protagonists is making it harder to get young boys into books",
       "score": 1,
       "meta": {}
     },
@@ -177,13 +189,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is there any reason not to use zelle to transfer money between accounts?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "What to do with 529 account that was never used ?",
+      "topic": "We are in 73k worth of debt and it feels like I am drowning. Help?!",
       "score": 1,
       "meta": {}
     },
@@ -195,19 +201,25 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "What to do with 529 account that was never used ?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I deplete high yield savings to pay off student loans?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
+      "topic": "Quitting my job Jan 1st - Can I spend all my FSA funds in a day?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Quitting my job Jan 1st - Can I spend all my FSA funds in a day?",
+      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
       "score": 1,
       "meta": {}
     },
@@ -225,19 +237,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Credit utilization dropped significantly after large payment",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "What can we learn from whats happening right now in Paraguay and the UENO Bank collapse?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "We are in 73k worth of debt and it feels like I am drowning. Help?!",
+      "topic": "Credit utilization dropped significantly after large payment",
       "score": 1,
       "meta": {}
     },
@@ -255,37 +261,25 @@
     },
     {
       "source": "hn",
-      "topic": "How long can life wait?",
+      "topic": "Agent memory needs its OpenTelemetry moment",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What do the next 4000 emoji look like?",
+      "topic": "Amsterdam School",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Terry Pratchett's Study",
+      "topic": "I will not be using LLMs in my coding",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The typo generation is damaging literature",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Where Were We",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Shadow of the Sun",
+      "topic": "WaveDudeNext 2D Wave Simulator",
       "score": 0,
       "meta": {}
     },
@@ -304,12 +298,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Should I make a payment",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Login.gov now available for use at IRS.gov",
       "score": 0,
       "meta": {}
     },
@@ -363,7 +351,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "When to buy a house?",
+      "topic": "Talking with a financial advisor",
       "score": 0,
       "meta": {}
     },
@@ -375,13 +363,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I want to move out but i'm stuck.",
+      "topic": "When to buy a house?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Should I do Traditional or Roth 401k?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I want to move out but i'm stuck.",
       "score": 0,
       "meta": {}
     }
