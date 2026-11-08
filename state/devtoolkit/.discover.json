@@ -1,22 +1,16 @@
 {
-  "fetchedAt": "2026-11-08T13:26:11.256Z",
+  "fetchedAt": "2026-11-08T22:09:42.714Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Need for Speed Underground 2 online in the browser",
-      "score": 4,
+      "topic": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Every Mac comes with an (undocumented) family member classifier",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The end of Microsoft Research's AI Frontiers group",
-      "score": 4,
+      "topic": "Writing as a thinking tool",
+      "score": 5,
       "meta": {}
     },
     {
@@ -27,13 +21,31 @@
     },
     {
       "source": "hn",
-      "topic": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "topic": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+      "topic": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to prove equations using diagrams, part 1",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A field guide to CAPTCHA types and how they break",
       "score": 4,
       "meta": {}
     },
@@ -45,67 +57,43 @@
     },
     {
       "source": "hn",
-      "topic": "Goodbye Claude, Hello Pi",
+      "topic": "Goodbye Claude, hello Pi",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "topic": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Uranium cubes reveal why the German nuclear project failed",
+      "topic": "Porting Android 16 to my blind mother's keypad phone",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GitHub New pull request overview page in public preview",
+      "topic": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making any integer with four 2s",
+      "topic": "Declarative Dragging",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Person of Interest",
+      "topic": "Agent memory needs its OpenTelemetry moment",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Consumer brain wave headsets threaten privacy",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Petered (what happens after the Peter Principle)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Kirlian Photography: Building Your Own Equipment",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Finding Xanadu: Inside a JRPG classic translation 15 years in the making",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "topic": "Show HN: Vegetable Gardening for Engineers",
       "score": 1,
       "meta": {}
     },
@@ -117,49 +105,67 @@
     },
     {
       "source": "hn",
-      "topic": "New typeface using intricate designs from Shakespeare's First Folio",
+      "topic": "I'm not a fan of Deno's security model",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Earliest evidence of cannabis use found in ancient Siberian tomb",
+      "topic": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Porting Android 16 to my blind mother's keypad phone",
+      "topic": "Playing Zork 1 on a CP/M emulator on Linux",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A lack of male protagonists is making it harder to get young boys into books",
+      "topic": "Ask HN: What are you working on? (November 2026)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Agent memory needs its OpenTelemetry moment",
+      "topic": "How I Fight AI Brain Fry",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Amsterdam School",
+      "topic": "The Reconstruction of Torn Documents",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I will not be using LLMs in my coding",
+      "topic": "A Little Snitch for Windows",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "WaveDudeNext 2D Wave Simulator",
+      "topic": "Edward Hopper's Iconic Painting, \"Nighthawks",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Web Is More Than Enough, by Paul Ford",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Playing with the STM32MP2",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The History of Djgpp",
       "score": 0,
       "meta": {}
     }
