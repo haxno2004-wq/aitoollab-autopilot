@@ -1,171 +1,165 @@
 {
-  "fetchedAt": "2026-11-08T22:09:42.714Z",
+  "fetchedAt": "2026-11-09T16:21:27.266Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "topic": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Writing as a thinking tool",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "topic": "Nvidia CEO Jensen Huang's letter to staff about affair",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "topic": "Unlocking any car from X brand in most of the world",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "topic": "Outlook.com is rejecting email from domains without DMARC",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users",
+      "topic": "Humans will never again create a project like Wikipedia",
       "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to prove equations using diagrams, part 1",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A field guide to CAPTCHA types and how they break",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What I run on my $10 USD OpenStick homelab",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Goodbye Claude, hello Pi",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Porting Android 16 to my blind mother's keypad phone",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Declarative Dragging",
-      "score": 1,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Agent memory needs its OpenTelemetry moment",
-      "score": 1,
+      "topic": "I'm not convinced the AI bubble exists",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Vegetable Gardening for Engineers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "JIT bitmap text rendering for microcontrollers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I'm not a fan of Deno's security model",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Playing Zork 1 on a CP/M emulator on Linux",
-      "score": 1,
+      "topic": "Fold Epic Paper Airplanes",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Ask HN: What are you working on? (November 2026)",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Chimera Vocal Synth",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ChatGPT Desktop forwards your SSH agent to remote machines",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What is malloc doing, anyway?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How I Fight AI Brain Fry",
+      "topic": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Psalm 7 release: PHP security&static analysis software",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Burying the Evidence: nine out of every 10 time capsules go missing",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Crypto foundation demanded employees endorse suicide pledge",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "He Was a Suspect in the Yogurt Shop Murders for Thirty Years. He Can't Forget",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Borrowing a Microsoft-signed shim to abuse Secure Boot on corporate hardware",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The French Cake Cooked on a Spit (2018) [video]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How Australia played the first music on a computer",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Quasi-Logarithmic Kitchen Timer",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Reconstruction of Torn Documents",
+      "topic": "I Saw Your HN Comment",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Little Snitch for Windows",
+      "topic": "Ur-Nammu Founder of the Sumerian Renaissance",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Edward Hopper's Iconic Painting, \"Nighthawks",
+      "topic": "Active Benchmarking",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Web Is More Than Enough, by Paul Ford",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Playing with the STM32MP2",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The History of Djgpp",
+      "topic": "Isn't It Time for AVIF Everywhere?",
       "score": 0,
       "meta": {}
     }
