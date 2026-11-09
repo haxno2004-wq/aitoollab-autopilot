@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-08T22:09:45.805Z",
+  "fetchedAt": "2026-11-09T16:21:29.109Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,49 +9,31 @@
     },
     {
       "source": "hn",
-      "topic": "Nvidia Board of Directors Is Investigating Jensen Huang",
+      "topic": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Writing as a thinking tool",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "topic": "Nvidia CEO Jensen Huang's letter to staff about affair",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "topic": "Unlocking any car from X brand in most of the world",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "topic": "Outlook.com is rejecting email from domains without DMARC",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ads in Popular Apps Give Police a Powerful Tool to Spy on Users",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to prove equations using diagrams, part 1",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A field guide to CAPTCHA types and how they break",
+      "topic": "Humans will never again create a project like Wikipedia",
       "score": 4,
       "meta": {}
     },
@@ -69,19 +51,25 @@
     },
     {
       "source": "hn",
-      "topic": "What I run on my $10 USD OpenStick homelab",
+      "topic": "Declarative Dragging",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Goodbye Claude, hello Pi",
+      "topic": "I'm not convinced the AI bubble exists",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "topic": "Fold Epic Paper Airplanes",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: What are you working on? (November 2026)",
       "score": 3,
       "meta": {}
     },
@@ -99,61 +87,79 @@
     },
     {
       "source": "hn",
-      "topic": "Porting Android 16 to my blind mother's keypad phone",
+      "topic": "Chimera Vocal Synth",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "topic": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Declarative Dragging",
+      "topic": "ChatGPT Desktop forwards your SSH agent to remote machines",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What is malloc doing, anyway?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Agent memory needs its OpenTelemetry moment",
+      "topic": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Vegetable Gardening for Engineers",
+      "topic": "Psalm 7 release: PHP security&static analysis software",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "JIT bitmap text rendering for microcontrollers",
+      "topic": "Burying the Evidence: nine out of every 10 time capsules go missing",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm not a fan of Deno's security model",
+      "topic": "Crypto foundation demanded employees endorse suicide pledge",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Starship Flight 15 on 11/13 plans to catch both booster and ship",
+      "topic": "He Was a Suspect in the Yogurt Shop Murders for Thirty Years. He Can't Forget",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Playing Zork 1 on a CP/M emulator on Linux",
+      "topic": "Borrowing a Microsoft-signed shim to abuse Secure Boot on corporate hardware",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: What are you working on? (November 2026)",
+      "topic": "The French Cake Cooked on a Spit (2018) [video]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How Australia played the first music on a computer",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
       "score": 1,
       "meta": {}
     },
@@ -166,6 +172,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Ex Refinanced House, Bank cut a check for a credit card debt that is mine.",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "We are in 73k worth of debt and it feels like I am drowning. Help?!",
       "score": 1,
       "meta": {}
     },
@@ -195,13 +207,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
+      "topic": "Divorcing at 37. Financial check and advice needed.",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Divorcing at 37. Financial check and advice needed.",
+      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
       "score": 1,
       "meta": {}
     },
@@ -231,7 +243,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Started a new job, what do I do with previous employer 401k?",
+      "topic": "Looking for a good response when money comes up",
       "score": 1,
       "meta": {}
     },
@@ -243,43 +255,31 @@
     },
     {
       "source": "hn",
-      "topic": "How I Fight AI Brain Fry",
+      "topic": "Quasi-Logarithmic Kitchen Timer",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Reconstruction of Torn Documents",
+      "topic": "I Saw Your HN Comment",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Little Snitch for Windows",
+      "topic": "Ur-Nammu Founder of the Sumerian Renaissance",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Edward Hopper's Iconic Painting, \"Nighthawks",
+      "topic": "Active Benchmarking",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Web Is More Than Enough, by Paul Ford",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Playing with the STM32MP2",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The History of Djgpp",
+      "topic": "Isn't It Time for AVIF Everywhere?",
       "score": 0,
       "meta": {}
     },
@@ -303,7 +303,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Meeting with Financial Advisor for the first time. What should I be prepared to discuss that is often overlooked?",
+      "topic": "40m with a family feeling behind",
       "score": 0,
       "meta": {}
     },
@@ -345,6 +345,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Which to choose?! HDHP or PPO",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I file my W-4 after quitting?",
       "score": 0,
       "meta": {}
@@ -363,19 +369,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Which to choose?! HDHP or PPO",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Should I do Traditional or Roth 401k?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "I want to move out but i'm stuck.",
       "score": 0,
       "meta": {}
     }
