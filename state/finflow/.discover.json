@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-11-10T01:35:24.826Z",
+  "fetchedAt": "2026-11-10T14:54:08.489Z",
   "candidates": [
     {
-      "source": "reddit/personalfinance",
-      "topic": "Which budgeting apps are worth using long term?",
+      "source": "hn",
+      "topic": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
       "score": 7,
       "meta": {}
     },
@@ -15,7 +15,7 @@
     },
     {
       "source": "hn",
-      "topic": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "topic": "USPS now offers official ZIP Code boundary polygons",
       "score": 4,
       "meta": {}
     },
@@ -27,13 +27,13 @@
     },
     {
       "source": "hn",
-      "topic": "USPS now offers official ZIP Code boundary polygons",
+      "topic": "E-means: Outperforming k-means in one-tenth the epochs",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google Gemini routes personal Drive files and emails to human annotators",
+      "topic": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
       "score": 4,
       "meta": {}
     },
@@ -50,6 +50,12 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Are HDHP Health insurance plans always worth it for HSA if I hit the OOPM?",
+      "score": 4,
+      "meta": {}
+    },
+    {
       "source": "hn",
       "topic": "Claude Fable 5.2 and Mythos 5.2",
       "score": 3,
@@ -57,31 +63,7 @@
     },
     {
       "source": "hn",
-      "topic": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "E-means: Outperforming k-means in one-tenth the epochs",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Our Smallest, Most Efficient Model: Muse Ember",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Every satellite that passed over any place this week, and its photos",
+      "topic": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
       "score": 3,
       "meta": {}
     },
@@ -98,86 +80,86 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Backdoor ira, is it worth it?",
-      "score": 3,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "What is malloc doing, anyway?",
+      "topic": "Locating the source of a mysterious beep",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A year after the 100% AI mandate nobody understands our code",
+      "topic": "AlphaProof Code",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "TPU 8tx and TPU 8i Max",
+      "topic": "Horible public key tricks",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Your TV can see through walls",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ultorg: The User Interface for Relational Databases",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fossil CO2 emissions decrease by 0.4% in 2026",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fireworks AI security breach impacts Notion and their customers",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Queens Public library under ransomware attack e-borrowing suspended",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fable 5.2 one-shotted my nephew's dream game",
+      "topic": "Show HN: Ghanaian street games you can play in the browser",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Infineon marks innovation milestone with 300mm power silicon carbide wafer",
+      "topic": "Simon Winchester, Author of 'The Professor and the Madman,' Has Died",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+      "topic": "Here comes the sun[light]:An ambient Daylight Clock with time and space controls",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Parking-app convenience fees in 312 U.S. cities (median $0.35 per session)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An ode to livelyness analysis; SSA to registers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Possible 19th-century castaway camp found on Isla de los Estados",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A renowned scientist, a deadly snakebite, and a diary that documented it",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Y/N (YC S23) is hiring a growth lead to distribute superhuman A.I. storytelling",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Ex Refinanced House, Bank cut a check for a credit card debt that is mine.",
+      "topic": "Taking another shot at the cheap IP camera, part 2",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "We are in 73k worth of debt and it feels like I am drowning. Help?!",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Quick Question on HSA's - are that many people really on High Deductible Health plans?",
       "score": 1,
       "meta": {}
     },
@@ -243,31 +225,61 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Paying for kids' college - What is the smartest option?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Financing a home battery when the payment beats the savings",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A primer on GPUs and kernel optimization",
+      "topic": "Don't buy AR glasses",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Deuterium's Impact on OLED Displays",
+      "topic": "Ableton Live 13",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Horible public key tricks",
+      "topic": "How hard is it to check for whitespace?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Never Gonna Print You Up",
+      "topic": "ClickHouse Acquires Xata",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Billion Watts in the Speaker [video]",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What's new in the .NET 11 runtime",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "NetBSD 11 desktop on a Raspberry Pi 4",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The U.S. Is Driving Away Young Scientists",
       "score": 0,
       "meta": {}
     },
@@ -291,6 +303,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Is it dumb to buy a brand new car?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Unneeded Retirement Funds/Give to Kids?",
       "score": 0,
       "meta": {}
@@ -303,7 +321,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Pension or not to Pension?",
+      "topic": "Roth IRA on Fidelity",
       "score": 0,
       "meta": {}
     },
@@ -345,12 +363,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Roth IRA on Fidelity",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Should I do Traditional or Roth 401k?",
       "score": 0,
       "meta": {}
@@ -363,13 +375,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Company gave me a 50k severance",
+      "topic": "Using a company truck for personal use?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "wanting to build good financial habits at 22",
+      "topic": "Company gave me a 50k severance",
       "score": 0,
       "meta": {}
     }
