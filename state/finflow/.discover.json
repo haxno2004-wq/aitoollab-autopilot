@@ -1,39 +1,21 @@
 {
-  "fetchedAt": "2026-11-10T14:54:08.489Z",
+  "fetchedAt": "2026-11-10T23:25:41.536Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-      "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Foldable Flight: The Best Paper Airplanes",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "USPS now offers official ZIP Code boundary polygons",
+      "topic": "Smart home devices should work without the internet",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "topic": "Blender 5.3 released with Gaussian Splat support",
       "score": 4,
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "E-means: Outperforming k-means in one-tenth the epochs",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+      "source": "reddit/personalfinance",
+      "topic": "How bad of a mistake did I make from my side hustle?",
       "score": 4,
       "meta": {}
     },
@@ -51,19 +33,55 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Mom receiving decent amount of money .. how to approach?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Are HDHP Health insurance plans always worth it for HSA if I hit the OOPM?",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Fable 5.2 and Mythos 5.2",
+      "topic": ".name Grandfathered",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+      "topic": "AlphaProof Code",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI usage generates a fragile codebase",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Synaptics patent claims stop work on DisplayLink drivers",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Toyota brand Scion is back and it's going to sell a kei truck in America",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An Open Field Guide to Inference Engineering",
       "score": 3,
       "meta": {}
     },
@@ -80,74 +98,92 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Budget for moving out",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Locating the source of a mysterious beep",
+      "topic": "Val Town is winding down",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AlphaProof Code",
+      "topic": "Ableton Live 13",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Horible public key tricks",
+      "topic": "What's new in the .NET 11 runtime",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Your TV can see through walls",
+      "topic": "What constant surveillance is doing to children and parents",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ultorg: The User Interface for Relational Databases",
+      "topic": "Queens Public Library under ransomware attack",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fossil CO2 emissions decrease by 0.4% in 2026",
+      "topic": "Show HN: Valencia, Spain in Sim City/Isometric View",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fireworks AI security breach impacts Notion and their customers",
+      "topic": "Claude Whiteboards, Claude Sheets, and Claude Data",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Queens Public library under ransomware attack e-borrowing suspended",
+      "topic": "M John Harrison becomes first science fiction author to win the Booker",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AMD's Zen 6 Family: Feeding the Beast",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Ghanaian street games you can play in the browser",
+      "topic": "NetBSD 11 desktop on a Raspberry Pi 4",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Simon Winchester, Author of 'The Professor and the Madman,' Has Died",
+      "topic": "Process Explorer for macOS",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Here comes the sun[light]:An ambient Daylight Clock with time and space controls",
+      "topic": "Apple has new Mac app coming to make running local AI models easy",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Taking another shot at the cheap IP camera, part 2",
+      "topic": "After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A comprehensive study of how fingerprintable users are",
       "score": 1,
       "meta": {}
     },
@@ -189,13 +225,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Using my personal vehicle for work for months",
+      "topic": "Father in Law wants wife to co-sign a HELOC - Advice needed",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Quitting my job Jan 1st - Can I spend all my FSA funds in a day?",
+      "topic": "30 years old. $40k in bank account. What to do with it?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Using my personal vehicle for work for months",
       "score": 1,
       "meta": {}
     },
@@ -213,79 +255,43 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Title: I have inherited 401k. What would you do with it?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Please help me understand how do stock options from a startup work",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Paying for kids' college - What is the smartest option?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Financing a home battery when the payment beats the savings",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Don't buy AR glasses",
+      "topic": "Six Math Essentials by Terence Tao",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ableton Live 13",
+      "topic": "What objective is reasoning solving?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How hard is it to check for whitespace?",
+      "topic": "Sherman Anti-Trust Act",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ClickHouse Acquires Xata",
+      "topic": "The planet Vulcan: a cautionary tale",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Billion Watts in the Speaker [video]",
+      "topic": "Stable URLs for 42,000 Huts and Peaks",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What's new in the .NET 11 runtime",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "NetBSD 11 desktop on a Raspberry Pi 4",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The U.S. Is Driving Away Young Scientists",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Is voluntary surrender my only real option",
+      "topic": "Hacking the meta ray-ban smartglasses",
       "score": 0,
       "meta": {}
     },
@@ -297,13 +303,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "50k Bonus.. What should I do with it ?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "paying off 14k of debt",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Is it dumb to buy a brand new car?",
+      "topic": "40m with a family feeling behind",
       "score": 0,
       "meta": {}
     },
@@ -363,6 +375,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Using a company truck for personal use?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I do Traditional or Roth 401k?",
       "score": 0,
       "meta": {}
@@ -370,18 +388,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Advice for Christmas?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Using a company truck for personal use?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Company gave me a 50k severance",
       "score": 0,
       "meta": {}
     }
