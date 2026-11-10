@@ -83,7 +83,8 @@
     "self-employed-solopreneur-nist-has-a-cybersecurity-guide-just-fo",
     "stringman-an-800-open-source-room-scale-gripper-robot",
     "ai-is-forcing-us-to-pay-off-40-years-of-technical-debt",
-    "amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history"
+    "amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history",
+    "blender-5-3-released-with-gaussian-splat-support"
   ],
   "usedTopics": [
     "logo-design-skill: A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, test",
@@ -182,7 +183,8 @@
     "Nvidia Board of Directors Is Investigating Jensen Huang",
     "Dux: Free, open-source Wayland desktop shell with file manager and theming",
     "Foldable Flight: The Best Paper Airplanes",
-    "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider"
+    "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+    "Blender 5.3 released with Gaussian Splat support"
   ],
-  "lastRun": "2026-11-10T14:54:22.433Z"
+  "lastRun": "2026-11-10T23:28:48.841Z"
 }
