@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T16:21:29.109Z",
+  "fetchedAt": "2026-11-10T01:35:24.826Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,31 +9,31 @@
     },
     {
       "source": "hn",
-      "topic": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "topic": "Foldable Flight: The Best Paper Airplanes",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "topic": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Unlocking any car from X brand in most of the world",
+      "topic": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Outlook.com is rejecting email from domains without DMARC",
+      "topic": "USPS now offers official ZIP Code boundary polygons",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Humans will never again create a project like Wikipedia",
+      "topic": "Google Gemini routes personal Drive files and emails to human annotators",
       "score": 4,
       "meta": {}
     },
@@ -45,31 +45,43 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Would it be worth it to cut back on retirement contributions to fund 'now' money?",
+      "topic": "My 403b provider says my investment has 0 risk of decreasing in value, how?",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Declarative Dragging",
+      "topic": "Claude Fable 5.2 and Mythos 5.2",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm not convinced the AI bubble exists",
+      "topic": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fold Epic Paper Airplanes",
+      "topic": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: What are you working on? (November 2026)",
+      "topic": "E-means: Outperforming k-means in one-tenth the epochs",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Our Smallest, Most Efficient Model: Muse Ember",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Every satellite that passed over any place this week, and its photos",
       "score": 3,
       "meta": {}
     },
@@ -86,86 +98,74 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Chimera Vocal Synth",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ChatGPT Desktop forwards your SSH agent to remote machines",
-      "score": 2,
+      "source": "reddit/personalfinance",
+      "topic": "Backdoor ira, is it worth it?",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "What is malloc doing, anyway?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A year after the 100% AI mandate nobody understands our code",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "TPU 8tx and TPU 8i Max",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+      "topic": "Fable 5.2 one-shotted my nephew's dream game",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Psalm 7 release: PHP security&static analysis software",
+      "topic": "Infineon marks innovation milestone with 300mm power silicon carbide wafer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Burying the Evidence: nine out of every 10 time capsules go missing",
+      "topic": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Crypto foundation demanded employees endorse suicide pledge",
+      "topic": "Parking-app convenience fees in 312 U.S. cities (median $0.35 per session)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "He Was a Suspect in the Yogurt Shop Murders for Thirty Years. He Can't Forget",
+      "topic": "An ode to livelyness analysis; SSA to registers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Borrowing a Microsoft-signed shim to abuse Secure Boot on corporate hardware",
+      "topic": "Possible 19th-century castaway camp found on Isla de los Estados",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The French Cake Cooked on a Spit (2018) [video]",
+      "topic": "A renowned scientist, a deadly snakebite, and a diary that documented it",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How Australia played the first music on a computer",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "CDs rolled over one too many times and now I can't find my money",
+      "topic": "Y/N (YC S23) is hiring a growth lead to distribute superhuman A.I. storytelling",
       "score": 1,
       "meta": {}
     },
@@ -183,7 +183,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "30 years old, only $1000 in 401K. What advice would you offer?",
+      "topic": "Confused about the retirement savings rule of thumb",
       "score": 1,
       "meta": {}
     },
@@ -195,25 +195,13 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "30 years old, only $1000 in 401K. What advice would you offer?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "What to do with 529 account that was never used ?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Quitting my job Jan 1st - Can I spend all my FSA funds in a day?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Divorcing at 37. Financial check and advice needed.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "High Deductible Health Plan with HSA or a health plan with no deductible?",
       "score": 1,
       "meta": {}
     },
@@ -225,19 +213,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "What can we learn from whats happening right now in Paraguay and the UENO Bank collapse?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Credit utilization dropped significantly after large payment",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should I keep my 401k and start a roth ira? Or stick to one",
+      "topic": "Quitting my job Jan 1st - Can I spend all my FSA funds in a day?",
       "score": 1,
       "meta": {}
     },
@@ -249,37 +225,49 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Credit utilization dropped significantly after large payment",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Title: I have inherited 401k. What would you do with it?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Please help me understand how do stock options from a startup work",
       "score": 1,
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Financing a home battery when the payment beats the savings",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Quasi-Logarithmic Kitchen Timer",
+      "topic": "A primer on GPUs and kernel optimization",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I Saw Your HN Comment",
+      "topic": "Deuterium's Impact on OLED Displays",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ur-Nammu Founder of the Sumerian Renaissance",
+      "topic": "Horible public key tricks",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Active Benchmarking",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Isn't It Time for AVIF Everywhere?",
+      "topic": "Never Gonna Print You Up",
       "score": 0,
       "meta": {}
     },
@@ -298,12 +286,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "paying off 14k of debt",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "40m with a family feeling behind",
       "score": 0,
       "meta": {}
     },
@@ -351,25 +333,43 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should I file my W-4 after quitting?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "When to buy a house?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Denied car loan with good credit",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Should I file my W-4 after quitting?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Roth IRA on Fidelity",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Should I do Traditional or Roth 401k?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Advice for Christmas?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Company gave me a 50k severance",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "wanting to build good financial habits at 22",
       "score": 0,
       "meta": {}
     }
