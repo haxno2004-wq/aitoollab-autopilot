@@ -1,171 +1,177 @@
 {
-  "fetchedAt": "2026-11-10T14:54:04.422Z",
+  "fetchedAt": "2026-11-10T23:25:40.439Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-      "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Foldable Flight: The Best Paper Airplanes",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "USPS now offers official ZIP Code boundary polygons",
+      "topic": "Smart home devices should work without the internet",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "topic": "Blender 5.3 released with Gaussian Splat support",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "E-means: Outperforming k-means in one-tenth the epochs",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude Fable 5.2 and Mythos 5.2",
+      "topic": ".name Grandfathered",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ClickHouse Acquires Xata",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Locating the source of a mysterious beep",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "AlphaProof Code",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI usage generates a fragile codebase",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Synaptics patent claims stop work on DisplayLink drivers",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Toyota brand Scion is back and it's going to sell a kei truck in America",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An Open Field Guide to Inference Engineering",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Val Town is winding down",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Horible public key tricks",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Your TV can see through walls",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ultorg: The User Interface for Relational Databases",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fossil CO2 emissions decrease by 0.4% in 2026",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Fireworks AI security breach impacts Notion and their customers",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Queens Public library under ransomware attack e-borrowing suspended",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Ghanaian street games you can play in the browser",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Simon Winchester, Author of 'The Professor and the Madman,' Has Died",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Here comes the sun[light]:An ambient Daylight Clock with time and space controls",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Taking another shot at the cheap IP camera, part 2",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Don't buy AR glasses",
-      "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Ableton Live 13",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How hard is it to check for whitespace?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Billion Watts in the Speaker [video]",
-      "score": 0,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "What's new in the .NET 11 runtime",
-      "score": 0,
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What constant surveillance is doing to children and parents",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Queens Public Library under ransomware attack",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Valencia, Spain in Sim City/Isometric View",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "M John Harrison becomes first science fiction author to win the Booker",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AMD's Zen 6 Family: Feeding the Beast",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "NetBSD 11 desktop on a Raspberry Pi 4",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Process Explorer for macOS",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple has new Mac app coming to make running local AI models easy",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A comprehensive study of how fingerprintable users are",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Six Math Essentials by Terence Tao",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The U.S. Is Driving Away Young Scientists",
+      "topic": "What objective is reasoning solving?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sherman Anti-Trust Act",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The planet Vulcan: a cautionary tale",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Stable URLs for 42,000 Huts and Peaks",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hacking the meta ray-ban smartglasses",
       "score": 0,
       "meta": {}
     }
