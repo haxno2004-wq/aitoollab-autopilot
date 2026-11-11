@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T23:25:40.439Z",
+  "fetchedAt": "2026-11-11T14:24:31.281Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,7 +9,31 @@
     },
     {
       "source": "hn",
-      "topic": "Blender 5.3 released with Gaussian Splat support",
+      "topic": "Scion is back and is going to sell a kei truck in America",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Synaptics patent claims stop work on DisplayLink drivers",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tracking Anthropic-discovered vulnerabilities",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Apple has new Mac app coming to make running local AI models easy",
       "score": 4,
       "meta": {}
     },
@@ -21,157 +45,133 @@
     },
     {
       "source": "hn",
-      "topic": "AlphaProof Code",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI usage generates a fragile codebase",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Synaptics patent claims stop work on DisplayLink drivers",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Toyota brand Scion is back and it's going to sell a kei truck in America",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An Open Field Guide to Inference Engineering",
+      "topic": "Starlink Mini 2",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Val Town is winding down",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ableton Live 13",
-      "score": 2,
+      "topic": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What's new in the .NET 11 runtime",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What constant surveillance is doing to children and parents",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Queens Public Library under ransomware attack",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Valencia, Spain in Sim City/Isometric View",
-      "score": 2,
+      "topic": "Protecting SSH Keys with macOS Secure Enclave",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A great old-timey game-programming hack",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Small-Grid Wraparound Cellular Automata",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Six Math Essentials",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "M John Harrison becomes first science fiction author to win the Booker",
+      "topic": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AMD's Zen 6 Family: Feeding the Beast",
+      "topic": "Why I wrote the BEAM book",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "NetBSD 11 desktop on a Raspberry Pi 4",
+      "topic": "Greg Kurtzer's Ginux is now a userspace kernel",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Process Explorer for macOS",
+      "topic": "Using voltage glitching to unleash the A100 in my mining card",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apple has new Mac app coming to make running local AI models easy",
+      "topic": "Can a Linear Program Do Weight-Space Programming?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+      "topic": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A comprehensive study of how fingerprintable users are",
+      "topic": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Six Math Essentials by Terence Tao",
+      "topic": "Physically Controllable Relighting of Photographs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: ThingStudio, Node-RED style programming for microcontrollers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why Amstrad chose the 3\" drives",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What objective is reasoning solving?",
+      "topic": "We need more goat sacrifices",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sherman Anti-Trust Act",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The planet Vulcan: a cautionary tale",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Stable URLs for 42,000 Huts and Peaks",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Hacking the meta ray-ban smartglasses",
+      "topic": "Make this forward pass as fast as possible",
       "score": 0,
       "meta": {}
     }
