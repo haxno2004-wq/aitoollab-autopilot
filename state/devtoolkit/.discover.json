@@ -1,177 +1,180 @@
 {
-  "fetchedAt": "2026-11-11T14:24:31.281Z",
+  "fetchedAt": "2026-11-12T00:46:37.135Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Smart home devices should work without the internet",
+      "topic": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Scion is back and is going to sell a kei truck in America",
+      "topic": "United Airlines bans AI agents from booking flights on behalf of travelers",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Synaptics patent claims stop work on DisplayLink drivers",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tracking Anthropic-discovered vulnerabilities",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Apple has new Mac app coming to make running local AI models easy",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": ".name Grandfathered",
+      "topic": "My AI agents found an unmapped Maya site",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Starlink Mini 2",
+      "topic": "Tim Peters has died",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Val Town is winding down",
+      "topic": "AWS emulator",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "topic": "Nvidia is preparing to oust Jensen Huang",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Protecting SSH Keys with macOS Secure Enclave",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude Whiteboards, Claude Sheets, and Claude Data",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A great old-timey game-programming hack",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Small-Grid Wraparound Cellular Automata",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Six Math Essentials",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why I wrote the BEAM book",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Greg Kurtzer's Ginux is now a userspace kernel",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Using voltage glitching to unleash the A100 in my mining card",
-      "score": 1,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Can a Linear Program Do Weight-Space Programming?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hyper-Realistic Sand with WebGL2",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Gemini Decisions API",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Atuin Threads: All your agent sessions on every machine",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Jensen Huang said to have had relationship with executive who reports to him",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Faster Retrieval for Better, More Efficient RAG",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Apple Support Community will permanently close on November 20, 2026",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Agentic interface for mainframes and COBOL",
+      "score": 1,
+      "meta": {
+        "points": 97,
+        "url": "https://www.hypercubic.ai/hopper"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "Emacs in the Age of Magic",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+      "topic": "93% of Paint Splatters Are Valid Perl Programs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
+      "topic": "Huawei releases MACaQ, its internal quantizer for local inference",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Physically Controllable Relighting of Photographs",
+      "topic": "IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "topic": "Flying on Green: Why Farmers Are Turning to Drones for Cover Crop Seeding",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: ThingStudio, Node-RED style programming for microcontrollers",
+      "topic": "A general purpose Apple Silicon layer for x86-64 PCs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why Amstrad chose the 3\" drives",
+      "topic": "Lock Your GitHub Actions",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We need more goat sacrifices",
+      "topic": "The Utah Teapot",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Make this forward pass as fast as possible",
+      "topic": "The hardest notes to find on the guitar",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Brief History of Sierra Online",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Optimizing Reference Deletions in Git",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Making the Iron Giant Live",
       "score": 0,
       "meta": {}
     }
