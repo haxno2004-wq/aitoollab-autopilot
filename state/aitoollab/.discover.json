@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T15:17:00.929Z",
+  "fetchedAt": "2026-11-12T23:40:27.745Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "United Airlines bans AI agents from booking flights on behalf of travelers",
-      "score": 7,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
@@ -54,19 +48,13 @@
     },
     {
       "source": "hn",
-      "topic": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "topic": "A live tree of systemd jobs on the boot console",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "93% of paint splatters are valid Perl programs",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Critical RCE Vulnerability in Apache HTTP Server",
+      "topic": "AI is turning Apple's app review process into a nightmare for synth developers",
       "score": 4,
       "meta": {}
     },
@@ -96,55 +84,49 @@
     },
     {
       "source": "hn",
-      "topic": "Tim Peters has died",
+      "topic": "Jensen Huang resigns",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia is preparing to oust Jensen Huang",
+      "topic": "Anthropic IPO",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AWS emulator",
+      "topic": "Gemini 4 Hydrogen",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "NVIDIA Announces CEO Transition",
+      "topic": "Service degradation on Microsoft 365",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gemini Decisions API",
+      "topic": "Rust 1.100",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jane Street: Socratic Tutor",
+      "topic": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lock Your GitHub Actions",
+      "topic": "I'm making LLMs work on small and old devices",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jensen Huang resigns as Nvidia CEO immediately",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A live tree of systemd jobs on the boot console",
+      "topic": "Abandoned Quake 4 expansion finished by modders and now playable",
       "score": 3,
       "meta": {}
     },
@@ -186,40 +168,37 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: A web browser agent in your Chrome side panel",
-      "score": 2,
-      "meta": {
-        "points": 153,
-        "url": "https://github.com/parsaghaffari/browserbee"
-      }
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic IPO",
+      "topic": "Gemini 4 Hydrogen and Orchestrator",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Emacs in the Age of Magic",
+      "topic": "Talking Zen 6 with Mike Clark at AMD In-Depth",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why Writing Correct Software Is Hard",
+      "topic": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+      "topic": "Our software engineering interviews are changing a little",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Free animated icon library for Vue",
+      "topic": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
       "score": 2,
       "meta": {}
     },
@@ -243,49 +222,25 @@
     },
     {
       "source": "hn",
-      "topic": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
+      "topic": "Relax: JIT compiler for Rust to reduce build times",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Researchers discover rare star system that emits radio signals every 8 minutes",
+      "topic": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+      "topic": "Words of warning about radiocarbon dating medieval human bones",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Research taste in history: the importance of learning Babylonian math",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Abandoned Quake 4 expansion finished by modders and now playable",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Talking Zen 6 with Mike Clark at AMD In-Depth",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Electric Ship Batteries Promise Compact, Cooler Power",
+      "topic": "Beyond the compiler: Making IBM i run modified native code",
       "score": 1,
       "meta": {}
     },
@@ -375,7 +330,31 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Build a PC in 3D in the Browser",
+      "topic": "Foundation Models framework",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Adapting CPython for Yk",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Distributed Ray Tracer",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why You Should Expect an AI Crash",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Safety in Algae Home Experiments",
       "score": 0,
       "meta": {}
     }
