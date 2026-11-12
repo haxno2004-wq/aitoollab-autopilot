@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T15:17:02.905Z",
+  "fetchedAt": "2026-11-12T23:40:30.909Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,25 +9,13 @@
     },
     {
       "source": "hn",
-      "topic": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "topic": "A live tree of systemd jobs on the boot console",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "93% of paint splatters are valid Perl programs",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Critical RCE Vulnerability in Apache HTTP Server",
+      "topic": "AI is turning Apple's app review process into a nightmare for synth developers",
       "score": 4,
       "meta": {}
     },
@@ -62,56 +50,56 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Are HDHP Health insurance plans always worth it for HSA if I hit the OOPM?",
+      "score": 4,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Tim Peters has died",
+      "topic": "Jensen Huang resigns",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia is preparing to oust Jensen Huang",
+      "topic": "Anthropic IPO",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AWS emulator",
+      "topic": "Gemini 4 Hydrogen",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "NVIDIA Announces CEO Transition",
+      "topic": "Service degradation on Microsoft 365",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gemini Decisions API",
+      "topic": "Rust 1.100",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jane Street: Socratic Tutor",
+      "topic": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lock Your GitHub Actions",
+      "topic": "I'm making LLMs work on small and old devices",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jensen Huang resigns as Nvidia CEO immediately",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A live tree of systemd jobs on the boot console",
+      "topic": "Abandoned Quake 4 expansion finished by modders and now playable",
       "score": 3,
       "meta": {}
     },
@@ -134,104 +122,62 @@
       "meta": {}
     },
     {
-      "source": "reddit/Frugal",
-      "topic": "top scoring links : Frugal",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Cheap protein season is upon us! Freezer stock alert!",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Tips on wearing the same simple clothes every day",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Angel tv and free movie tickets. I chose The Hershey movie.",
-      "score": 3,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Anthropic IPO",
+      "topic": "Gemini 4 Hydrogen and Orchestrator",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Emacs in the Age of Magic",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why Writing Correct Software Is Hard",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Extra Freezer for Single Household",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Researchers discover rare star system that emits radio signals every 8 minutes",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Research taste in history: the importance of learning Babylonian math",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Abandoned Quake 4 expansion finished by modders and now playable",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Our software engineering interviews are changing a little",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Relax: JIT compiler for Rust to reduce build times",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released",
+      "topic": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Electric Ship Batteries Promise Compact, Cooler Power",
+      "topic": "Words of warning about radiocarbon dating medieval human bones",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Beyond the compiler: Making IBM i run modified native code",
       "score": 1,
       "meta": {}
     },
@@ -250,6 +196,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Confused about the retirement savings rule of thumb",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Old job continuing to pay me, how do I protect from 401k, HSA, and FSA being overfunded.",
       "score": 1,
       "meta": {}
     },
@@ -279,12 +231,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Using my personal vehicle for work for months",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Looking for a good response when money comes up",
       "score": 1,
       "meta": {}
@@ -296,116 +242,38 @@
       "meta": {}
     },
     {
-      "source": "reddit/Frugal",
-      "topic": "Walmart's feed 10 for 35 deal is one heck of a deal",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Not bad for $37. It's nice to have access to cheap produce.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "YouTube commercials, is there a way to get rid of them without paying.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Does Anyone Have Insight on Walmart+ Tipping?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "My $68~ grocery haul as a one person household in seattle",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Do you have a house cleaner? Do you feel it's frugal?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "any stores offering 50% off or more on clothes this black friday?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "The subscription exit thread - what did you switch to and what's the catch?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "24/7 recording without monthly fees - does that combo actually exist?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Black Friday deals on shoes and clothes, which stores are actually legit this year?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Which phone charging cable lasts longer (and thus less costly): Woven or Plastic?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Got something repaired recently instead of replacing it?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Looking for comfortable, non-sneaker shoes for party",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Does anyone use the ReciMe app? Am I using it wrong?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Is it worth having a goat? For milk and yard keeping purposes.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Heinz Ketchup 44oz from 2024. Should i consume?",
+      "source": "reddit/personalfinance",
+      "topic": "How does the stock market choose who gets a stock during IPO?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Build a PC in 3D in the Browser",
+      "topic": "Foundation Models framework",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Should I make a payment",
+      "source": "hn",
+      "topic": "Adapting CPython for Yk",
       "score": 0,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "50k Bonus.. What should I do with it ?",
+      "source": "hn",
+      "topic": "Distributed Ray Tracer",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why You Should Expect an AI Crash",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Safety in Algae Home Experiments",
       "score": 0,
       "meta": {}
     },
@@ -417,7 +285,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Unneeded Retirement Funds/Give to Kids?",
+      "topic": "Can I afford to move out on my own?",
       "score": 0,
       "meta": {}
     },
@@ -430,12 +298,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "I'm in trouble and don't see a way ou.",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Want to help AWESOME parents",
       "score": 0,
       "meta": {}
     },
@@ -494,68 +356,8 @@
       "meta": {}
     },
     {
-      "source": "reddit/Frugal",
-      "topic": "Christmas holiday tags /decoration idea",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "DIY pimple patches for under a penny each",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "My November ingredient stock up list",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "20 days food including Thanksgiving for 8",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Tips for a frugal Christmas with kids???",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Anyone else grew up in a very frugal family?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Supporting local business OR saving $$?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Big bag of Creamer Potatoes from Costco",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Hot Lemon Drink for colds alternative?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "A little frugal win replacing my old glasses",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/Frugal",
-      "topic": "Energy coat reduction on windows units",
+      "source": "reddit/personalfinance",
+      "topic": "Company gave me a 50k severance",
       "score": 0,
       "meta": {}
     }
