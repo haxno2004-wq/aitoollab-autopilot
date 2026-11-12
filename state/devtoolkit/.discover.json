@@ -1,12 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T00:46:37.135Z",
+  "fetchedAt": "2026-11-12T15:16:58.631Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
-      "score": 4,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "United Airlines bans AI agents from booking flights on behalf of travelers",
@@ -15,19 +9,25 @@
     },
     {
       "source": "hn",
-      "topic": "My AI agents found an unmapped Maya site",
-      "score": 3,
+      "topic": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "93% of paint splatters are valid Perl programs",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Critical RCE Vulnerability in Apache HTTP Server",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Tim Peters has died",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AWS emulator",
       "score": 3,
       "meta": {}
     },
@@ -39,61 +39,67 @@
     },
     {
       "source": "hn",
-      "topic": "Using voltage glitching to unleash the A100 in my mining card",
+      "topic": "AWS emulator",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Can a Linear Program Do Weight-Space Programming?",
+      "topic": "NVIDIA Announces CEO Transition",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Hyper-Realistic Sand with WebGL2",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Gemini Decisions API",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Jane Street: Socratic Tutor",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Lock Your GitHub Actions",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Jensen Huang resigns as Nvidia CEO immediately",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A live tree of systemd jobs on the boot console",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic IPO",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Atuin Threads: All your agent sessions on every machine",
+      "topic": "Emacs in the Age of Magic",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "topic": "Why Writing Correct Software Is Hard",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Jensen Huang said to have had relationship with executive who reports to him",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Faster Retrieval for Better, More Efficient RAG",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Apple Support Community will permanently close on November 20, 2026",
+      "topic": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
       "score": 2,
       "meta": {}
     },
@@ -108,73 +114,55 @@
     },
     {
       "source": "hn",
-      "topic": "Emacs in the Age of Magic",
+      "topic": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "93% of Paint Splatters Are Valid Perl Programs",
+      "topic": "Researchers discover rare star system that emits radio signals every 8 minutes",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "topic": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality",
+      "topic": "Research taste in history: the importance of learning Babylonian math",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Flying on Green: Why Farmers Are Turning to Drones for Cover Crop Seeding",
+      "topic": "Abandoned Quake 4 expansion finished by modders and now playable",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "topic": "Talking Zen 6 with Mike Clark at AMD In-Depth",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lock Your GitHub Actions",
-      "score": 0,
+      "topic": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Utah Teapot",
-      "score": 0,
+      "topic": "Electric Ship Batteries Promise Compact, Cooler Power",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The hardest notes to find on the guitar",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Brief History of Sierra Online",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Optimizing Reference Deletions in Git",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Making the Iron Giant Live",
+      "topic": "Show HN: Build a PC in 3D in the Browser",
       "score": 0,
       "meta": {}
     }
