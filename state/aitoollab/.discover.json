@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T14:36:23.100Z",
+  "fetchedAt": "2026-11-13T23:36:48.799Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,31 +48,19 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "topic": "Reverse engineering my Coway air purifier to ditch the cloud",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm making LLMs work on small and old devices",
+      "topic": "Doomsday: Friday, 13 November, A.D. 2026",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "topic": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
       "score": 4,
       "meta": {}
     },
@@ -102,55 +90,31 @@
     },
     {
       "source": "hn",
-      "topic": "Jensen Huang resigns",
+      "topic": "FAA Issues National Ground Stop",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Service degradation on Microsoft 365",
+      "topic": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Anthropic IPO",
+      "topic": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rust 1.100",
+      "topic": "Live-migration support in FreeBSD and bhyve coming",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gemini 4 Hydrogen and Orchestrator",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Abandoned Quake 4 expansion finished by modders and now playable",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Doomsday: Friday, 13 November, A.D. 2026",
+      "topic": "Show HN: Langfuse AI Gateway, open source rust gateway to trace every LLM call",
       "score": 3,
       "meta": {}
     },
@@ -192,31 +156,19 @@
     },
     {
       "source": "hn",
-      "topic": "Foundation Models framework",
+      "topic": "After 600 experiments, here's what I discovered about JEPA world models",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Global Microsoft Outage",
+      "topic": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Brave Search API now accepts agentic payments via the x402 protocol",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Relax: JIT compiler for Rust to reduce build times",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Eli Lilly CEO pushes back on Dario Amodei's ludicrous medical claims",
+      "topic": "Microsoft outage gives customers a crash course in dependence on Redmond",
       "score": 2,
       "meta": {}
     },
@@ -240,31 +192,79 @@
     },
     {
       "source": "hn",
-      "topic": "Claude Is Down",
+      "topic": "Big tech is here to let us down",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI Is Destroying the Trust Between Writers and Readers",
+      "topic": "A technical vision for the Haskell ecosystem",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Reverse Engineering My Coway Air Purifier to Ditch the Cloud",
+      "topic": "No AI Slop: A Manifesto",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Building collapses in Brooklyn with 8 people dead so far",
+      "topic": "FM-1 Workbench",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
+      "topic": "Weight Space Misfolding",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "All US airports are currently ground stopped",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Found: A protein that drives ageing without unleashing inflammation",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "CERN Built the Large Hadron Collider's Next-Gen Magnets",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "US National Weather Service reports nationwide internet, communications issues",
       "score": 1,
       "meta": {}
     },
@@ -348,19 +348,25 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Command Center, the AI coding env for people who care about quality",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Dawn of the Data Intelligence Engineer",
+      "topic": "Apify Security Incident",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "US test reactor cleared for operations",
+      "topic": "Claude Meetings",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Concurrent Shell Command Queues",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Terminal borders that don't cost a cell",
       "score": 0,
       "meta": {}
     }
