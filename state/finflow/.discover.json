@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T23:40:30.909Z",
+  "fetchedAt": "2026-11-13T14:36:25.202Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,13 +9,31 @@
     },
     {
       "source": "hn",
-      "topic": "A live tree of systemd jobs on the boot console",
+      "topic": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "topic": "I'm making LLMs work on small and old devices",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
       "score": 4,
       "meta": {}
     },
@@ -63,19 +81,13 @@
     },
     {
       "source": "hn",
-      "topic": "Anthropic IPO",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gemini 4 Hydrogen",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Service degradation on Microsoft 365",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic IPO",
       "score": 3,
       "meta": {}
     },
@@ -87,19 +99,31 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "topic": "Gemini 4 Hydrogen and Orchestrator",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm making LLMs work on small and old devices",
+      "topic": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Abandoned Quake 4 expansion finished by modders and now playable",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Doomsday: Friday, 13 November, A.D. 2026",
       "score": 3,
       "meta": {}
     },
@@ -122,62 +146,68 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "How should I invest $1000 a month?",
+      "score": 3,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Gemini 4 Hydrogen and Orchestrator",
+      "topic": "Foundation Models framework",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+      "topic": "Global Microsoft Outage",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Our software engineering interviews are changing a little",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
+      "topic": "Brave Search API now accepts agentic payments via the x402 protocol",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Relax: JIT compiler for Rust to reduce build times",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Eli Lilly CEO pushes back on Dario Amodei's ludicrous medical claims",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Claude Is Down",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "topic": "AI Is Destroying the Trust Between Writers and Readers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Words of warning about radiocarbon dating medieval human bones",
+      "topic": "Reverse Engineering My Coway Air Purifier to Ditch the Cloud",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Beyond the compiler: Making IBM i run modified native code",
+      "topic": "Building collapses in Brooklyn with 8 people dead so far",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
       "score": 1,
       "meta": {}
     },
@@ -237,7 +267,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Please help me understand how do stock options from a startup work",
+      "topic": "Are personal checks from an employer considered off-the-books pay?",
       "score": 1,
       "meta": {}
     },
@@ -248,32 +278,20 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Please help me understand how do stock options from a startup work",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Foundation Models framework",
+      "topic": "The Dawn of the Data Intelligence Engineer",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Adapting CPython for Yk",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Distributed Ray Tracer",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why You Should Expect an AI Crash",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Safety in Algae Home Experiments",
+      "topic": "US test reactor cleared for operations",
       "score": 0,
       "meta": {}
     },
@@ -303,6 +321,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Using a company truck for personal use?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Shame/life on pause - decision",
       "score": 0,
       "meta": {}
@@ -310,18 +334,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Talking with a financial advisor",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Am I able to retire early?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Using a company truck for personal use?",
       "score": 0,
       "meta": {}
     },
@@ -345,19 +357,13 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "What percentage should I put in my 401k",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Advice for Christmas?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Should I do Traditional or Roth 401k?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Company gave me a 50k severance",
       "score": 0,
       "meta": {}
     }
