@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T13:32:57.592Z",
+  "fetchedAt": "2026-11-14T22:28:28.158Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,19 +9,43 @@
     },
     {
       "source": "hn",
-      "topic": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "topic": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Lovable apps expose passport details and more than 200K private messages",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "topic": "Why get an expensive Pi when I have an old phone?",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Live-migration support in FreeBSD and bhyve coming",
+      "topic": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "US IRS free online tax filing open source repo",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Demystifying phone unlocking tools: A technical overview",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to Create Your Own Decentralized Messenger Protocol",
       "score": 4,
       "meta": {}
     },
@@ -45,12 +69,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Just turned 18 and have $400 saved, what should I do?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "My 403b provider says my investment has 0 risk of decreasing in value, how?",
       "score": 4,
       "meta": {}
@@ -62,32 +80,26 @@
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "Do you budget for variable expenses by estimating their maximum?",
+      "score": 4,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Terminal borders that don't cost a cell",
+      "topic": "Monkey Island: all 13 versions side by side",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ggml v1.0.0",
+      "topic": "KDE: The documentary [video]",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "After 600 experiments, here's what I discovered about JEPA world models",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Found: A protein that drives ageing without unleashing inflammation",
+      "topic": "Italy fines Meta $887M over Android users' data access",
       "score": 3,
       "meta": {}
     },
@@ -117,109 +129,85 @@
     },
     {
       "source": "hn",
-      "topic": "FM-1 Workbench",
+      "topic": "SpaceX Catches the Starship to end Flight 15",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Monkey Island: all 13 versions side by side",
+      "topic": "PyPI's redesigned project pages with clearer security signals are now live",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A technical vision for the Haskell ecosystem",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why get an expensive Pi when I have an old phone?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Elephants found to be increasingly isolated leading to fractured social networks",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Perplexity Decider v1.3: Training, eval, and use cases",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What happened to 3Com?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How Not to Build a Music Player",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Service Crew Discovers Rare Yellow Burbot in Oswego Harbor",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Generative AI uses more energy on non-English text",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Advancing science and engineering with Antigravity's /teamwork",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Project Zero will disclose vulnerabilities 90 days after reporting",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Family Tree of Software Job Titles",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "We are in 73k worth of debt and it feels like I am drowning. Help?!",
+      "source": "hn",
+      "topic": "A visual explanation of reinforcement learning",
       "score": 1,
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "Old job continuing to pay me, how do I protect from 401k, HSA, and FSA being overfunded.",
+      "source": "hn",
+      "topic": "Reverse engineering a vintage diode-transistor logic chip",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Seagate's new hybrid drive raises some old questions",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dartmouth (Guarini) will not admit math PhD cohort this year",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "'Grey Rocking': The Life-Improving Power of Being Really, Really Boring",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "C3 0.8.6:Library fetching,30% smaller safe-mode binaries,and stricter type rules",
       "score": 1,
       "meta": {}
     },
@@ -231,13 +219,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Confused about the retirement savings rule of thumb",
+      "topic": "Old job continuing to pay me, how do I protect from 401k, HSA, and FSA being overfunded.",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Mortage company is raising my escrow payment despite my taxes going down $700/yr",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Confused about the retirement savings rule of thumb",
       "score": 1,
       "meta": {}
     },
@@ -255,19 +249,31 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Anyone ever do one of those &quot;nothing will be sold&quot; dinners?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Received a Wells Fargo bill for an account I never opened",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "How does the stock market choose who gets a stock during IPO?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Feeling like my life is over. Advice on reducing debt?",
+      "topic": "In college and received an inheritance. Advice needed.",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Please help me understand how do stock options from a startup work",
+      "topic": "Feeling like my life is over. Advice on reducing debt?",
       "score": 1,
       "meta": {}
     },
@@ -279,7 +285,19 @@
     },
     {
       "source": "hn",
-      "topic": "The curious case of the north-east arrow",
+      "topic": "Will we put data centers in space?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Creating a self booting ZIP archive",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Possible Futures",
       "score": 0,
       "meta": {}
     },
@@ -291,19 +309,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Can I afford to move out on my own?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "What percentage should I put in my 401k",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "20yr old , travelled to NYC from the uk uninsured and had to get emergency surgery. Bill of $50k +. What do I do ???",
+      "topic": "Can I afford to move out on my own?",
       "score": 0,
       "meta": {}
     },
@@ -322,6 +334,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Using a company truck for personal use?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Inheriting money at 60. Where to start?",
       "score": 0,
       "meta": {}
     },
@@ -346,12 +364,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "If my main purpose to buy is to avoid renting in retirement (fixed or no mortgage and just paying repairs etc) when should I consider buying that house?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Denied car loan with good credit",
       "score": 0,
       "meta": {}
     },

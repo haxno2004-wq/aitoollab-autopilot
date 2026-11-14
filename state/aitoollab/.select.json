@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-11-14T13:32:55.756Z",
-  "topic": "Live-migration support in FreeBSD and bhyve coming",
+  "pickedAt": "2026-11-14T22:28:25.818Z",
+  "topic": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "live-migration-support-in-freebsd-and-bhyve-coming",
+  "slug": "linkedin-monster-take-down-over-1000-fake-job-postings-after-cbc",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 41
+  "finalScore": 5,
+  "remaining": 43
 }
