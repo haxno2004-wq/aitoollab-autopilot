@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T23:36:49.595Z",
+  "fetchedAt": "2026-11-14T13:32:57.592Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -15,7 +15,13 @@
     },
     {
       "source": "hn",
-      "topic": "Doomsday: Friday, 13 November, A.D. 2026",
+      "topic": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Live-migration support in FreeBSD and bhyve coming",
       "score": 4,
       "meta": {}
     },
@@ -57,25 +63,31 @@
     },
     {
       "source": "hn",
-      "topic": "FAA Issues National Ground Stop",
+      "topic": "Terminal borders that don't cost a cell",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "topic": "Ggml v1.0.0",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "topic": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Live-migration support in FreeBSD and bhyve coming",
+      "topic": "After 600 experiments, here's what I discovered about JEPA world models",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Found: A protein that drives ageing without unleashing inflammation",
       "score": 3,
       "meta": {}
     },
@@ -105,7 +117,19 @@
     },
     {
       "source": "hn",
-      "topic": "After 600 experiments, here's what I discovered about JEPA world models",
+      "topic": "FM-1 Workbench",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Monkey Island: all 13 versions side by side",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A technical vision for the Haskell ecosystem",
       "score": 2,
       "meta": {}
     },
@@ -117,91 +141,73 @@
     },
     {
       "source": "hn",
-      "topic": "Microsoft outage gives customers a crash course in dependence on Redmond",
+      "topic": "Why get an expensive Pi when I have an old phone?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Big tech is here to let us down",
-      "score": 1,
+      "topic": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A technical vision for the Haskell ecosystem",
-      "score": 1,
+      "topic": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "No AI Slop: A Manifesto",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FM-1 Workbench",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Weight Space Misfolding",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "All US airports are currently ground stopped",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-      "score": 1,
+      "topic": "Elephants found to be increasingly isolated leading to fractured social networks",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What happened to 3Com?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Found: A protein that drives ageing without unleashing inflammation",
+      "topic": "How Not to Build a Music Player",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "topic": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CERN Built the Large Hadron Collider's Next-Gen Magnets",
+      "topic": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+      "topic": "Service Crew Discovers Rare Yellow Burbot in Oswego Harbor",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "US National Weather Service reports nationwide internet, communications issues",
+      "topic": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
+      "topic": "Generative AI uses more energy on non-English text",
       "score": 1,
       "meta": {}
     },
@@ -219,25 +225,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Confused about the retirement savings rule of thumb",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "27, still with parents. Want to get out. Rent, or wait and buy?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should I deplete high yield savings to pay off student loans?",
+      "topic": "Confused about the retirement savings rule of thumb",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "30 years old, only $1000 in 401K. What advice would you offer?",
+      "topic": "Mortage company is raising my escrow payment despite my taxes going down $700/yr",
       "score": 1,
       "meta": {}
     },
@@ -255,13 +255,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Are personal checks from an employer considered off-the-books pay?",
+      "topic": "How does the stock market choose who gets a stock during IPO?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How does the stock market choose who gets a stock during IPO?",
+      "topic": "Feeling like my life is over. Advice on reducing debt?",
       "score": 1,
       "meta": {}
     },
@@ -273,25 +273,13 @@
     },
     {
       "source": "hn",
-      "topic": "Apify Security Incident",
+      "topic": "Let's Write a PostScript Interpreter",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Meetings",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Concurrent Shell Command Queues",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Terminal borders that don't cost a cell",
+      "topic": "The curious case of the north-east arrow",
       "score": 0,
       "meta": {}
     },
@@ -310,6 +298,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "What percentage should I put in my 401k",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "20yr old , travelled to NYC from the uk uninsured and had to get emergency surgery. Bill of $50k +. What do I do ???",
       "score": 0,
       "meta": {}
     },
@@ -351,13 +345,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Denied car loan with good credit",
+      "topic": "If my main purpose to buy is to avoid renting in retirement (fixed or no mortgage and just paying repairs etc) when should I consider buying that house?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "If my main purpose to buy is to avoid renting in retirement (fixed or no mortgage and just paying repairs etc) when should I consider buying that house?",
+      "topic": "Denied car loan with good credit",
       "score": 0,
       "meta": {}
     },

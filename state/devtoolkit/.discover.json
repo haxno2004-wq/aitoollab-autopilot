@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-11-13T23:36:46.135Z",
+  "fetchedAt": "2026-11-14T13:32:56.896Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "topic": "Terminal borders that don't cost a cell",
       "score": 6,
       "meta": {}
     },
@@ -15,43 +15,55 @@
     },
     {
       "source": "hn",
-      "topic": "Doomsday: Friday, 13 November, A.D. 2026",
+      "topic": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FAA Issues National Ground Stop",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Live-migration support in FreeBSD and bhyve coming",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ggml v1.0.0",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Terminal borders that don't cost a cell",
+      "topic": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "After 600 experiments, here's what I discovered about JEPA world models",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Found: A protein that drives ageing without unleashing inflammation",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "FM-1 Workbench",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Monkey Island: all 13 versions side by side",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A technical vision for the Haskell ecosystem",
       "score": 2,
       "meta": {}
     },
@@ -63,103 +75,85 @@
     },
     {
       "source": "hn",
-      "topic": "Microsoft outage gives customers a crash course in dependence on Redmond",
+      "topic": "Why get an expensive Pi when I have an old phone?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Big tech is here to let us down",
-      "score": 1,
+      "topic": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A technical vision for the Haskell ecosystem",
-      "score": 1,
+      "topic": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "No AI Slop: A Manifesto",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FM-1 Workbench",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Weight Space Misfolding",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "All US airports are currently ground stopped",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-      "score": 1,
+      "topic": "Elephants found to be increasingly isolated leading to fractured social networks",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What happened to 3Com?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Found: A protein that drives ageing without unleashing inflammation",
+      "topic": "How Not to Build a Music Player",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "topic": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "CERN Built the Large Hadron Collider's Next-Gen Magnets",
+      "topic": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "US National Weather Service reports nationwide internet, communications issues",
+      "topic": "Service Crew Discovers Rare Yellow Burbot in Oswego Harbor",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
+      "topic": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Apify Security Incident",
+      "topic": "Generative AI uses more energy on non-English text",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Let's Write a PostScript Interpreter",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Meetings",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Concurrent Shell Command Queues",
+      "topic": "The curious case of the north-east arrow",
       "score": 0,
       "meta": {}
     }
