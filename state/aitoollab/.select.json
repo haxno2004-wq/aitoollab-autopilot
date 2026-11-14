@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-11-13T23:36:48.841Z",
-  "topic": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
+  "pickedAt": "2026-11-14T13:32:55.756Z",
+  "topic": "Live-migration support in FreeBSD and bhyve coming",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "autonomous-yc-f25-is-hiring-mts-to-build-ai-agents-that-manage-y",
+  "slug": "live-migration-support-in-freebsd-and-bhyve-coming",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
-  "remaining": 42
+  "finalScore": 4,
+  "remaining": 41
 }
