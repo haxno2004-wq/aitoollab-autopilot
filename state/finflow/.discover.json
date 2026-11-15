@@ -1,16 +1,10 @@
 {
-  "fetchedAt": "2026-11-14T22:28:28.158Z",
+  "fetchedAt": "2026-11-15T13:56:58.172Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
       "topic": "I am drowning in debt and need serious budgeting help!",
       "score": 7,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-      "score": 5,
       "meta": {}
     },
     {
@@ -22,30 +16,6 @@
     {
       "source": "hn",
       "topic": "Why get an expensive Pi when I have an old phone?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "US IRS free online tax filing open source repo",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Demystifying phone unlocking tools: A technical overview",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to Create Your Own Decentralized Messenger Protocol",
       "score": 4,
       "meta": {}
     },
@@ -87,7 +57,7 @@
     },
     {
       "source": "hn",
-      "topic": "Monkey Island: all 13 versions side by side",
+      "topic": "SpaceX catches the Starship to end Flight 15",
       "score": 3,
       "meta": {}
     },
@@ -99,7 +69,61 @@
     },
     {
       "source": "hn",
-      "topic": "Italy fines Meta $887M over Android users' data access",
+      "topic": "A family tree of software job titles",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Project Zero will disclose vulnerabilities 90 days after reporting",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Court denies motion to dismiss DRAM price fixing case",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "PyPI's redesigned project pages with clearer security signals are now live",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Generative AI uses more energy on non-English text",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Advancing science and engineering with Antigravity's /teamwork",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Open-Source HF Communications for Remote Communities and Experimenters",
       "score": 3,
       "meta": {}
     },
@@ -129,85 +153,55 @@
     },
     {
       "source": "hn",
-      "topic": "SpaceX Catches the Starship to end Flight 15",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "PyPI's redesigned project pages with clearer security signals are now live",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Generative AI uses more energy on non-English text",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Advancing science and engineering with Antigravity's /teamwork",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Project Zero will disclose vulnerabilities 90 days after reporting",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Family Tree of Software Job Titles",
+      "topic": "My favourite modern NES games",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A visual explanation of reinforcement learning",
+      "topic": "Why did some Apollo missions carry a grenade launcher?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Reverse engineering a vintage diode-transistor logic chip",
+      "topic": "The Evolving Story of How Chemistry Became Biology",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Seagate's new hybrid drive raises some old questions",
+      "topic": "Book list for streetfighting computer scientists",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Dartmouth (Guarini) will not admit math PhD cohort this year",
+      "topic": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "'Grey Rocking': The Life-Improving Power of Being Really, Really Boring",
+      "topic": "Handwritten 200-year-old dismissal notice found on roof tile",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "C3 0.8.6:Library fetching,30% smaller safe-mode binaries,and stricter type rules",
+      "topic": "Strictly monotonic timestamps and gapless sequences in Rust",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What thousands of conversations look like inside a language model",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Understanding Positional Embeddings in Modern LLMs",
       "score": 1,
       "meta": {}
     },
@@ -231,6 +225,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Anyone ever do one of those &quot;nothing will be sold&quot; dinners?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Confused about the retirement savings rule of thumb",
       "score": 1,
       "meta": {}
@@ -249,19 +249,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Anyone ever do one of those &quot;nothing will be sold&quot; dinners?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "Received a Wells Fargo bill for an account I never opened",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How does the stock market choose who gets a stock during IPO?",
       "score": 1,
       "meta": {}
     },
@@ -273,31 +261,49 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "How does the stock market choose who gets a stock during IPO?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Feeling like my life is over. Advice on reducing debt?",
       "score": 1,
       "meta": {}
     },
     {
+      "source": "reddit/personalfinance",
+      "topic": "ESSP seems like a no-brainer. Am I missing something?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Paying for kids' college - What is the smartest option?",
+      "score": 1,
+      "meta": {}
+    },
+    {
       "source": "hn",
-      "topic": "Let's Write a PostScript Interpreter",
+      "topic": "500 Lines or Less A 3D Modeller",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Will we put data centers in space?",
+      "topic": "Oxford Molecular Motors",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Creating a self booting ZIP archive",
+      "topic": "Semicircle Packing",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Possible Futures",
+      "topic": "Chasing an audio artifact on power loss",
       "score": 0,
       "meta": {}
     },
@@ -321,13 +327,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Roth IRA on Fidelity",
+      "topic": "Inheriting money at 60. Where to start?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I'm in trouble and don't see a way ou.",
+      "topic": "Roth IRA on Fidelity",
       "score": 0,
       "meta": {}
     },
@@ -339,7 +345,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Inheriting money at 60. Where to start?",
+      "topic": "I'm in trouble and don't see a way ou.",
       "score": 0,
       "meta": {}
     },
@@ -351,25 +357,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Talking with a financial advisor",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Which to choose?! HDHP or PPO",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "If my main purpose to buy is to avoid renting in retirement (fixed or no mortgage and just paying repairs etc) when should I consider buying that house?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Advice for Christmas?",
+      "topic": "Should I put 80% of my paycheck into my 401(k) to max it before Dec 31? Or put it into my brokerage?",
       "score": 0,
       "meta": {}
     },
