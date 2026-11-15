@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T13:56:54.267Z",
+  "fetchedAt": "2026-11-15T22:52:19.720Z",
   "candidates": [
     {
       "source": "hn",
@@ -30,6 +30,12 @@
     },
     {
       "source": "hn",
+      "topic": "All AI-generated code should be Open Source",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -45,18 +51,6 @@
         "points": 96,
         "url": "https://news.ycombinator.com/item?id=48847834"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "Lovable apps expose passport details and more than 200K private messages",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why get an expensive Pi when I have an old phone?",
-      "score": 4,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -90,67 +84,37 @@
     },
     {
       "source": "hn",
-      "topic": "KDE: The documentary [video]",
+      "topic": "The MacBook Pro's OLED PWM problem",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A family tree of software job titles",
+      "topic": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Project Zero will disclose vulnerabilities 90 days after reporting",
+      "topic": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Court denies motion to dismiss DRAM price fixing case",
+      "topic": "Why did some Apollo missions carry a grenade launcher?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "topic": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PyPI's redesigned project pages with clearer security signals are now live",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How did Woz write the Apple 1 BASIC before building the computer?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Generative AI uses more energy on non-English text",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Advancing science and engineering with Antigravity's /teamwork",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Open-Source HF Communications for Remote Communities and Experimenters",
+      "topic": "Eval Awareness vs. Eval Paranoia",
       "score": 3,
       "meta": {}
     },
@@ -198,6 +162,30 @@
     },
     {
       "source": "hn",
+      "topic": "Understanding Positional Embeddings in Modern LLMs",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Things That Turbo Pascal Is Smaller Than",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What thousands of conversations look like inside a language model",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
       "score": 1,
       "meta": {
@@ -216,55 +204,55 @@
     },
     {
       "source": "hn",
-      "topic": "My favourite modern NES games",
+      "topic": "Emacs Is My Browser",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why did some Apollo missions carry a grenade launcher?",
+      "topic": "Do House members' stock trades beat the market? A test of 8,900 trades",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Evolving Story of How Chemistry Became Biology",
+      "topic": "Your room can be as bright as the outdoors",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Book list for streetfighting computer scientists",
+      "topic": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "topic": "Notes on Mathematics for Engineers (1959) [pdf]",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Handwritten 200-year-old dismissal notice found on roof tile",
+      "topic": "WebGL Flight Simulator with seed generated terrain",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Strictly monotonic timestamps and gapless sequences in Rust",
+      "topic": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What thousands of conversations look like inside a language model",
+      "topic": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Understanding Positional Embeddings in Modern LLMs",
+      "topic": "Aspidistra: A British wartime radio transmitter used for MitM attacks",
       "score": 1,
       "meta": {}
     },
@@ -348,25 +336,43 @@
     },
     {
       "source": "hn",
-      "topic": "500 Lines or Less A 3D Modeller",
+      "topic": "A NES emulator written in Odin",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Oxford Molecular Motors",
+      "topic": "Clice v1.0 Released: Welcome to Modern C++",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Semicircle Packing",
+      "topic": "20 Years of Pyrolog",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Chasing an audio artifact on power loss",
+      "topic": "Your Agent Will Pick the Hackable One",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Handwriting, as a Font",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bullet Dodged",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Old Bitly Links Are Being Hijacked",
       "score": 0,
       "meta": {}
     }
