@@ -1,0 +1,91 @@
+{
+  "_slug": "the-job-hunt-arsenal-12-recruiter-ready-prompts-1wb9q8k",
+  "_date": "2026-11-15T22:53:20.447Z",
+  "name": "The Job Hunt Arsenal: 12 Recruiter-Ready Prompts",
+  "tagline": "Grounded AI prompts that translate your real career history into compelling resumes and interviews.",
+  "metaDescription": "Land interviews with 12 grounded AI prompts. Turn your real work history into high-impact resumes, cover letters, and interview stories without fluff.",
+  "description": "The Job Hunt Arsenal is built for professionals tired of AI-generated career fluff, robotic buzzwords, and exaggerated claims that crumble during interviews. Generic AI prompts often invent accomplishments or strip away your authentic voice. This toolkit solves that problem by using recruiter psychology and strict factual boundaries to extract, articulate, and polish your actual experience.\n\nWhether you are updating your resume, tailoring a targeted cover letter, or preparing for high-stakes behavioral questions, these 12 prompts act as a collaborative career strategist. Instead of hallucinating metrics, each prompt guides the AI to interrogate your real work history, isolate your core strengths, and frame accomplishments around what hiring managers actually evaluate: scope, ownership, problem-solving, and measurable outcomes.\n\nDesigned for mid-to-senior job seekers, career switchers, and technical professionals, these prompts prioritize credibility above all else. You will produce polished, honest application assets that pass automated screeners and survive rigorous executive interviews, giving you total confidence in every submission.",
+  "tags": [
+    "job search",
+    "resume prompts",
+    "interview prep",
+    "career tools"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "12 battle-tested prompt templates in Markdown and PDF formats",
+    "4 structured categories: Resume Engineering, Cover Letters, Interview Prep, Strategic Positioning",
+    "Step-by-step implementation guide with recruiter psychology rationale",
+    "Fill-in-the-blank input worksheets to extract your verified career metrics"
+  ],
+  "sampleItems": [
+    "Act as an executive resume editor. Review my draft bullet point: [PASTE BULLET]. Do not invent metrics, technologies, or responsibilities. Instead, ask me 3 clarifying questions about the project's scale, my specific contribution, and any measurable outcome. Once I answer, rewrite the bullet using the Action-Context-Result framework, keeping it concise and grounded strictly in my factual input.",
+    "Help me prepare a behavioral interview response for the prompt: 'Tell me about a time you handled a significant failure or setback.' Here are my raw notes on what happened: [PASTE NOTES]. Structure these notes into the STAR+L format (Situation, Task, Action, Result, Learning). Keep the explanation of the mistake clear and accountable, and focus 50% of the answer on the corrective action and permanent process improvement."
+  ],
+  "items": [
+    {
+      "title": "The Truth-First Bullet Rewriter",
+      "category": "Resume Engineering",
+      "body": "Act as an executive resume editor. Review my draft bullet point: [PASTE BULLET]. Do not invent metrics, technologies, or responsibilities. Instead, ask me 3 clarifying questions about the project's scale, my specific contribution, and any measurable outcome. Once I answer, rewrite the bullet using the Action-Context-Result framework, keeping it concise and grounded strictly in my factual input."
+    },
+    {
+      "title": "Contextual Metric Extractor",
+      "category": "Resume Engineering",
+      "body": "I want to quantify my impact without guessing or inflating numbers. Here is a project I managed: [PASTE PROJECT DETAILS]. Identify 4 realistic types of metrics relevant to this work (e.g., time saved, error reduction, stakeholder adoption, throughput) and prompt me with specific questions to help me calculate or estimate them conservatively based on data I actually have."
+    },
+    {
+      "title": "ATS Keyword Gap Auditor",
+      "category": "Resume Engineering",
+      "body": "Compare my current resume summary and experience [PASTE RESUME] against this target job description: [PASTE JD]. Do not rewrite anything yet. List the core hard skills and domain proficiencies mentioned in the JD that are absent from my text. For each missing item, ask me whether I possess equivalent real-world experience so we can incorporate it truthfully."
+    },
+    {
+      "title": "Scope and Seniority Calibrator",
+      "category": "Resume Engineering",
+      "body": "Review this experience section: [PASTE SECTION]. Mid-level phrasing often describes tasks, while senior phrasing demonstrates ownership and organizational context. Without adding unearned titles or fake scope, identify 3 phrases that sound passive or purely task-oriented, and suggest revisions that accurately highlight my initiative, cross-functional collaboration, and decision-making authority based only on the details provided."
+    },
+    {
+      "title": "The Hook-Driven Cover Letter Opener",
+      "category": "Cover Letters",
+      "body": "Write 3 distinct opening paragraphs for a cover letter targeting the role of [ROLE] at [COMPANY]. Base them on my background: [PASTE BACKGROUND] and this specific company initiative: [PASTE COMPANY DETAIL]. Avoid generic praise like 'I was thrilled to see your opening.' Focus on why my specific track record directly addresses a challenge this company currently faces. Keep the tone grounded, professional, and confident."
+    },
+    {
+      "title": "Pain-Point Matching Cover Letter",
+      "category": "Cover Letters",
+      "body": "Analyze this job description: [PASTE JD] and extract the company's 2 biggest operational challenges. Then, review my background: [PASTE RESUME SUMMARY]. Draft a concise, 250-word cover letter that explicitly maps two of my verified achievements to those specific business challenges. Emphasize how my past problem-solving approach reduces onboarding friction. Do not use hyperbolic buzzwords like 'synergistic' or 'visionary'."
+    },
+    {
+      "title": "The Unconventional Background Pivot",
+      "category": "Cover Letters",
+      "body": "I am pivoting from [CURRENT INDUSTRY/ROLE] to [TARGET INDUSTRY/ROLE]. Review my experience: [PASTE EXPERIENCE]. Draft a narrative bridge for a cover letter that explains this transition logically. Focus on transferable functional skills, problem-solving adaptability, and the deliberate reason for this pivot. Ensure the tone is proactive and self-aware, addressing potential skepticism directly without apologizing for a non-linear background."
+    },
+    {
+      "title": "STAR+L Behavioral Story Architect",
+      "category": "Interview Preparation",
+      "body": "Help me prepare a behavioral interview response for the prompt: 'Tell me about a time you handled a significant failure or setback.' Here are my raw notes on what happened: [PASTE NOTES]. Structure these notes into the STAR+L format (Situation, Task, Action, Result, Learning). Keep the explanation of the mistake clear and accountable, and focus 50% of the answer on the corrective action and permanent process improvement."
+    },
+    {
+      "title": "Tough Question Stress-Tester",
+      "category": "Interview Preparation",
+      "body": "Act as a critical hiring manager interviewing me for [ROLE]. Read my background: [PASTE SUMMARY] and the role requirements: [PASTE JD]. Identify the single weakest link or most obvious resume red flag (such as a tenure gap, lack of specific tool experience, or career change). Formulate a tough, direct interview question probing this weakness, and suggest a structured framework for answering honestly without getting defensive."
+    },
+    {
+      "title": "Executive Presence Elevator Pitch",
+      "category": "Interview Preparation",
+      "body": "Structure a compelling 90-second response to 'Tell me about yourself' for an interview for [ROLE]. Here are my key milestones: [PASTE 3-4 HIGHLIGHTS]. Follow this three-part structure: Past foundation (why I chose this path), Present expertise (the core problem I solve today), and Future alignment (why this role is the natural next step). Eliminate generic filler and ensure it sounds conversational when spoken aloud."
+    },
+    {
+      "title": "Reverse-Interview Question Generator",
+      "category": "Strategic Positioning",
+      "body": "I am in the final interview rounds with [COMPANY/LEADERSHIP] for [ROLE]. Based on their stated strategic goals: [PASTE GOALS/NEWS] and the job description: [PASTE JD], generate 5 sophisticated questions for me to ask the interviewers. Avoid superficial questions about culture or perks. Focus on team bottlenecks, definition of success in the first 90 days, resource allocation, and managerial expectations."
+    },
+    {
+      "title": "Salary Negotiation Value Anchor",
+      "category": "Strategic Positioning",
+      "body": "I received a job offer for [ROLE] offering [BASE/EQUITY], but my target is [TARGET COMPENSATION]. Draft an email to the hiring manager requesting a conversation about compensation. Ground the justification strictly in the unique, verified competencies I bring: [PASTE 2 KEY VALUE POINTS] and how they de-risk the company's immediate priorities. Maintain an appreciative, highly collaborative, yet firm professional tone."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Job Hunt Arsenal: 12 prompts for resumes, cover letters and interviews",
+  "_provider": "gemini"
+}
