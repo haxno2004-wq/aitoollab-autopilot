@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T22:52:21.890Z",
+  "fetchedAt": "2026-11-16T15:48:50.058Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,25 +9,25 @@
     },
     {
       "source": "hn",
-      "topic": "All AI-generated code should be Open Source",
-      "score": 5,
+      "topic": "How to make almost anything",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Universal XSS in uBlock Origin from website-driven element picker",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Am I low income or is the 50/30/20 budget guideline just not realistic?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Is moving out at 24 an investment in myself or a financial mistake?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Mom receiving decent amount of money .. how to approach?",
       "score": 4,
       "meta": {}
     },
@@ -45,49 +45,43 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Would reducing 401k contributions slightly to increase HSA and RothIRA investments be wise?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Do you budget for variable expenses by estimating their maximum?",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SpaceX catches the Starship to end Flight 15",
+      "topic": "Handwriting, as a Font",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The MacBook Pro's OLED PWM problem",
+      "topic": "What's Next for Nvidia?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "topic": "Old Bitly links are being hijacked",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "topic": "WebGL Flight Simulator with seed generated terrain",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Why did some Apollo missions carry a grenade launcher?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Eval Awareness vs. Eval Paranoia",
+      "topic": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
       "score": 3,
       "meta": {}
     },
@@ -116,92 +110,86 @@
       "meta": {}
     },
     {
-      "source": "hn",
-      "topic": "Understanding Positional Embeddings in Modern LLMs",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Things That Turbo Pascal Is Smaller Than",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What thousands of conversations look like inside a language model",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Emacs Is My Browser",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Do House members' stock trades beat the market? A test of 8,900 trades",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Your room can be as bright as the outdoors",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Notes on Mathematics for Engineers (1959) [pdf]",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "WebGL Flight Simulator with seed generated terrain",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Aspidistra: A British wartime radio transmitter used for MitM attacks",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "reddit/personalfinance",
-      "topic": "27, still with parents. Want to get out. Rent, or wait and buy?",
+      "topic": "Planning on what to do with VHCOL home after both parents pass... unsure if I can afford it and how to plan ahead.",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Crows make decisions faster than we can",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What is w2rt6byl5nf1opmc-a.com?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Researchers track whole body movement with just a smartwatch",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Army soldier files whistleblower complaint against the Pentagon over Iran strike",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Do we still have to denormalize? Have your schema and search it too",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Preserving 30 years of Salon journalism",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Coffeehouses and the Rise of Science [pdf]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "It's always DNS, so why are we running our own?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: ThingStudio, Node-RED style programming for microcontrollers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New James Bond Announced and the Name's Pattinson, Robert Pattinson",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Anyone ever do one of those &quot;nothing will be sold&quot; dinners?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "27, still with parents. Want to get out. Rent, or wait and buy?",
       "score": 1,
       "meta": {}
     },
@@ -231,19 +219,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Looking for a good response when money comes up",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "In college and received an inheritance. Advice needed.",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Received a Wells Fargo bill for an account I never opened",
+      "topic": "Would you still do 401k for super partime job",
       "score": 1,
       "meta": {}
     },
@@ -255,7 +237,7 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "How does the stock market choose who gets a stock during IPO?",
+      "topic": "Received a Wells Fargo bill for an account I never opened",
       "score": 1,
       "meta": {}
     },
@@ -267,73 +249,55 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "How does the stock market choose who gets a stock during IPO?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Feeling like my life is over. Advice on reducing debt?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "My parents never taught me about finance so I have a couple questions",
+      "topic": "Won settlement with previous employer. What should I do about the payout?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A NES emulator written in Odin",
+      "topic": "The Lasting Influence of John Berger",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Clice v1.0 Released: Welcome to Modern C++",
+      "topic": "Exact Gradients Through a BRep Kernel",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "20 Years of Pyrolog",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Your Agent Will Pick the Hackable One",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Handwriting, as a Font",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bullet Dodged",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Old Bitly Links Are Being Hijacked",
+      "topic": "The Opportunivore's Dilemma",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "40m with a family feeling behind",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "What percentage should I put in my 401k",
+      "topic": "Should I max out 401k at 22?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Inheriting money at 60. Where to start?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "What percentage should I put in my 401k",
       "score": 0,
       "meta": {}
     },
@@ -363,13 +327,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Shame/life on pause - decision",
+      "topic": "Should I put 80% of my paycheck into my 401(k) to max it before Dec 31? Or put it into my brokerage?",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Should I put 80% of my paycheck into my 401(k) to max it before Dec 31? Or put it into my brokerage?",
+      "topic": "Shame/life on pause - decision",
       "score": 0,
       "meta": {}
     },
