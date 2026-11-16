@@ -1,171 +1,135 @@
 {
-  "fetchedAt": "2026-11-15T22:52:20.286Z",
+  "fetchedAt": "2026-11-16T15:48:48.928Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "All AI-generated code should be Open Source",
-      "score": 8,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "SpaceX catches the Starship to end Flight 15",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The MacBook Pro's OLED PWM problem",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why did some Apollo missions carry a grenade launcher?",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Clice v1.0 Released: Welcome to Modern C++",
-      "score": 3,
+      "topic": "How to make almost anything",
+      "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-      "score": 3,
+      "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Eval Awareness vs. Eval Paranoia",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Understanding Positional Embeddings in Modern LLMs",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Things That Turbo Pascal Is Smaller Than",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "What thousands of conversations look like inside a language model",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Emacs Is My Browser",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Do House members' stock trades beat the market? A test of 8,900 trades",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Your room can be as bright as the outdoors",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Notes on Mathematics for Engineers (1959) [pdf]",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "WebGL Flight Simulator with seed generated terrain",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Aspidistra: A British wartime radio transmitter used for MitM attacks",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A NES emulator written in Odin",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "20 Years of Pyrolog",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Your Agent Will Pick the Hackable One",
-      "score": 0,
+      "topic": "Universal XSS in uBlock Origin from website-driven element picker",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Handwriting, as a Font",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What's Next for Nvidia?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Old Bitly links are being hijacked",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "WebGL Flight Simulator with seed generated terrain",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Crows make decisions faster than we can",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What is w2rt6byl5nf1opmc-a.com?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Researchers track whole body movement with just a smartwatch",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Army soldier files whistleblower complaint against the Pentagon over Iran strike",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Do we still have to denormalize? Have your schema and search it too",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Preserving 30 years of Salon journalism",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Coffeehouses and the Rise of Science [pdf]",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "It's always DNS, so why are we running our own?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: ThingStudio, Node-RED style programming for microcontrollers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New James Bond Announced and the Name's Pattinson, Robert Pattinson",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Lasting Influence of John Berger",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bullet Dodged",
+      "topic": "Exact Gradients Through a BRep Kernel",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Old Bitly Links Are Being Hijacked",
+      "topic": "The Opportunivore's Dilemma",
       "score": 0,
       "meta": {}
     }
