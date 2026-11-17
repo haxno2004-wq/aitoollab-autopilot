@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T15:48:50.058Z",
+  "fetchedAt": "2026-11-17T01:52:35.252Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -9,37 +9,43 @@
     },
     {
       "source": "hn",
-      "topic": "How to make almost anything",
+      "topic": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "topic": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Universal XSS in uBlock Origin from website-driven element picker",
+      "topic": "New open source C4 Diagram tool",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to Break into Security, Ptacek Edition",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to Intercept HTTP/3 Traffic: QUIC and Qpack",
       "score": 4,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Am I low income or is the 50/30/20 budget guideline just not realistic?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "My 403b provider says my investment has 0 risk of decreasing in value, how?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Are HDHP Health insurance plans always worth it for HSA if I hit the OOPM?",
       "score": 4,
       "meta": {}
     },
@@ -57,31 +63,25 @@
     },
     {
       "source": "hn",
-      "topic": "Handwriting, as a Font",
+      "topic": "BugMeNot has closed",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What's Next for Nvidia?",
+      "topic": "Jiff 1.0: A datetime library for Rust",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Old Bitly links are being hijacked",
+      "topic": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "WebGL Flight Simulator with seed generated terrain",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "topic": "Microsoft blames monster email outage on software defect introduced in July fix",
       "score": 3,
       "meta": {}
     },
@@ -117,67 +117,67 @@
     },
     {
       "source": "hn",
-      "topic": "Crows make decisions faster than we can",
+      "topic": "Grazing sheep in fields with solar arrays",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What is w2rt6byl5nf1opmc-a.com?",
+      "topic": "United Airlines experiencing a widespread system outage, airline says",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life",
+      "topic": "Strengthening the fight against online child sexual abuse",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Researchers track whole body movement with just a smartwatch",
+      "topic": "Optimizely Compromised, Served Malware on Zoom, GitLab",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Army soldier files whistleblower complaint against the Pentagon over Iran strike",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Do we still have to denormalize? Have your schema and search it too",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Preserving 30 years of Salon journalism",
+      "topic": "Rust changed me as a developer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Coffeehouses and the Rise of Science [pdf]",
+      "topic": "OpenCode Browse",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "It's always DNS, so why are we running our own?",
+      "topic": "Chemistry is Actually Geometry",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: ThingStudio, Node-RED style programming for microcontrollers",
+      "topic": "Aristotle Expands into Rust",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New James Bond Announced and the Name's Pattinson, Robert Pattinson",
+      "topic": "Michael Mann's 'Heat' Copyright Fight Turns on a Deal with Himself",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "My Quest to push native Three.js quality match AAA Game Engines",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Running coding agents without handing them my credentials",
       "score": 1,
       "meta": {}
     },
@@ -202,12 +202,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Old job continuing to pay me, how do I protect from 401k, HSA, and FSA being overfunded.",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Confused about the retirement savings rule of thumb",
       "score": 1,
       "meta": {}
     },
@@ -243,7 +237,19 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Unsure of my next steps as unemployment is running out",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "ESSP seems like a no-brainer. Am I missing something?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Won settlement with previous employer. What should I do about the payout?",
       "score": 1,
       "meta": {}
     },
@@ -261,25 +267,31 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Won settlement with previous employer. What should I do about the payout?",
+      "topic": "My parents never taught me about finance so I have a couple questions",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Lasting Influence of John Berger",
+      "topic": "Formal Verification Is Not Verifiable",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Exact Gradients Through a BRep Kernel",
+      "topic": "Do Repeat Yourself",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Opportunivore's Dilemma",
+      "topic": "Doom on the Nikon Z 6II camera",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I have been maxing out my HSA while my wife had an FSA for 8 years, which is apparently not allowed. What do even do to begin to recover from this?",
       "score": 0,
       "meta": {}
     },
@@ -309,18 +321,6 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Roth IRA on Fidelity",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Using a company truck for personal use?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
       "topic": "I'm in trouble and don't see a way ou.",
       "score": 0,
       "meta": {}
@@ -340,6 +340,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "If my main purpose to buy is to avoid renting in retirement (fixed or no mortgage and just paying repairs etc) when should I consider buying that house?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Emergency vet visit put me in the hole.",
       "score": 0,
       "meta": {}
     },
