@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-11-17T01:52:35.290Z",
-  "topic": "Carnegie Mellon is putting computer science courses on YouTube for free",
-  "angle": "a curated alternatives/shortlist guide with honest trade-offs",
-  "slug": "carnegie-mellon-is-putting-computer-science-courses-on-youtube-f",
+  "pickedAt": "2026-11-17T16:02:00.018Z",
+  "topic": "Microsoft blames monster email outage on software defect introduced in July fix",
+  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
+  "slug": "microsoft-blames-monster-email-outage-on-software-defect-introdu",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
-  "remaining": 55
+  "finalScore": 4,
+  "remaining": 60
 }

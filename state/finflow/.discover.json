@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T01:52:35.252Z",
+  "fetchedAt": "2026-11-17T16:01:59.970Z",
   "candidates": [
     {
       "source": "reddit/personalfinance",
@@ -15,31 +15,31 @@
     },
     {
       "source": "hn",
-      "topic": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New open source C4 Diagram tool",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+      "topic": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How to Break into Security, Ptacek Edition",
+      "topic": "Optimizely compromised, served malware on Zoom, GitLab",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How to Intercept HTTP/3 Traffic: QUIC and Qpack",
+      "topic": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We don't need more apps. We need better open source",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rows vs. Columns: How different are they, really?",
       "score": 4,
       "meta": {}
     },
@@ -52,12 +52,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Would reducing 401k contributions slightly to increase HSA and RothIRA investments be wise?",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Do you budget for variable expenses by estimating their maximum?",
       "score": 4,
       "meta": {}
     },
@@ -75,13 +69,25 @@
     },
     {
       "source": "hn",
-      "topic": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life",
+      "topic": "What is w2rt6byl5nf1opmc-a.com?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "topic": "Grazing sheep in fields with solar arrays",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why 3dfx 1 cards had such a washed out color output?",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
       "score": 3,
       "meta": {}
     },
@@ -117,67 +123,85 @@
     },
     {
       "source": "hn",
-      "topic": "Grazing sheep in fields with solar arrays",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "United Airlines experiencing a widespread system outage, airline says",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Strengthening the fight against online child sexual abuse",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Optimizely Compromised, Served Malware on Zoom, GitLab",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rust changed me as a developer",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "OpenCode Browse",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Chemistry is Actually Geometry",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "If an App Asks for Full Disk Access or System and App Protection Override",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "VisualBasic.World: A gallery of Planet Source Code programs from 1997 to 2012",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How the Claude Code team thinks about verification",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nimony: A New Compiler for Nim",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Aristotle Expands into Rust",
+      "topic": "Turbo Pascal Compiler Written in Turbo Pascal",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Michael Mann's 'Heat' Copyright Fight Turns on a Deal with Himself",
+      "topic": "S. Korea to send nationwide emergency alerts over college entrance exam cheating",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "My Quest to push native Three.js quality match AAA Game Engines",
+      "topic": "First Photos of the Poles of a Rod-Shaped Bacterium",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Running coding agents without handing them my credentials",
+      "topic": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: VennDB: append-only in-memory Rust DB for rows queried using bit flags",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A.I. Just Blew Up a Key Tenet of Computer Science",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Highly classified US national security communications network goes down",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "In 27,280 coding agent runs, 64% of inference spend went to runs that failed",
       "score": 1,
       "meta": {}
     },
@@ -189,13 +213,13 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "27, still with parents. Want to get out. Rent, or wait and buy?",
+      "topic": "Mortage company is raising my escrow payment despite my taxes going down $700/yr",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Mortage company is raising my escrow payment despite my taxes going down $700/yr",
+      "topic": "27, still with parents. Want to get out. Rent, or wait and buy?",
       "score": 1,
       "meta": {}
     },
@@ -219,6 +243,12 @@
     },
     {
       "source": "reddit/personalfinance",
+      "topic": "Unsure of my next steps as unemployment is running out",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
       "topic": "Would you still do 401k for super partime job",
       "score": 1,
       "meta": {}
@@ -237,19 +267,25 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "Unsure of my next steps as unemployment is running out",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "ESSP seems like a no-brainer. Am I missing something?",
+      "topic": "2 Years Unemployed, Financially Stable - What Would You Do to Grow Your Money?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Won settlement with previous employer. What should I do about the payout?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "currently pregnant, delivering in 2027. HDHP or PPO?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "ESSP seems like a no-brainer. Am I missing something?",
       "score": 1,
       "meta": {}
     },
@@ -266,26 +302,20 @@
       "meta": {}
     },
     {
-      "source": "reddit/personalfinance",
-      "topic": "My parents never taught me about finance so I have a couple questions",
-      "score": 1,
-      "meta": {}
-    },
-    {
       "source": "hn",
-      "topic": "Formal Verification Is Not Verifiable",
+      "topic": "Loopholes Are for Assholes",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Do Repeat Yourself",
+      "topic": "Pentagon fails 9th financial audit in a row",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Doom on the Nikon Z 6II camera",
+      "topic": "Too Many Stadiums with Roofs",
       "score": 0,
       "meta": {}
     },
@@ -298,6 +328,12 @@
     {
       "source": "reddit/personalfinance",
       "topic": "Should I max out 401k at 22?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "Pension but Little Else",
       "score": 0,
       "meta": {}
     },
@@ -321,13 +357,19 @@
     },
     {
       "source": "reddit/personalfinance",
-      "topic": "I'm in trouble and don't see a way ou.",
+      "topic": "Emergency vet visit put me in the hole.",
       "score": 0,
       "meta": {}
     },
     {
       "source": "reddit/personalfinance",
       "topic": "Should I put 80% of my paycheck into my 401(k) to max it before Dec 31? Or put it into my brokerage?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "reddit/personalfinance",
+      "topic": "I'm in trouble and don't see a way ou.",
       "score": 0,
       "meta": {}
     },
@@ -340,18 +382,6 @@
     {
       "source": "reddit/personalfinance",
       "topic": "If my main purpose to buy is to avoid renting in retirement (fixed or no mortgage and just paying repairs etc) when should I consider buying that house?",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "Emergency vet visit put me in the hole.",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "reddit/personalfinance",
-      "topic": "How does my employer 401k match compare",
       "score": 0,
       "meta": {}
     }
