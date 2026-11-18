@@ -1,21 +1,21 @@
 {
-  "fetchedAt": "2026-11-18T00:58:39.786Z",
+  "fetchedAt": "2026-11-18T15:40:46.583Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "What is the best harness for each model?",
+      "topic": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "topic": "Java4Shell: RCE in OpenJDK when processing Base64",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "topic": "Quad9's withdrawal from France: A canary in the coal mine",
       "score": 4,
       "meta": {}
     },
@@ -33,121 +33,139 @@
     },
     {
       "source": "hn",
-      "topic": "Apple Services Down",
+      "topic": "Google's AI answers reducing search traffic by 40%",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Can Peer Review Survive AI-Generated Text? [pdf]",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "AI is killing All About Berlin",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How the Claude Code team thinks about verification",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Quad9's withdrawal from France: A canary in the coal mine",
+      "topic": "ID.me terms required for IRS sign-in",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "MAI Code 2 and Code 2 Flash",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Phrack 73 Released",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "jQuery 4.1.0",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Archive Team is archiving the Apple Support Community",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Energy-Based Reasoners: 385x more efficient inference",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why is Gemini 4 Carbon taking so long?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+      "topic": "Claude was trained on protein sequences at scale",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Web Browser Engineering",
+      "topic": "A Perfect SimCity",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Who Builds the Machines That Build the Machines?",
+      "topic": "'Human' Is Cambridge Dictionary's Word of the Year 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "topic": "Energy drinks linked to 11 times more reports of cardiac arrest",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Effects of a Nuclear Detonation in Low Earth Orbit",
+      "topic": "IPv6 delegation, an unusually subtle failure mode",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Archive Team is archiving the Apple Support Community (closes November 20, 2026)",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Zoltraak and the Dynamics of Military Innovation",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Advancing computer-use agents for healthcare teams",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Google's AI answers reducing search traffic by 40%",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Munich Laser Emits a Beam of Matter Waves",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Not Everything Needs an LLM",
+      "topic": "My Emacs 31 contributions",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mouse Party",
+      "topic": "Show HN: Type Fighter 2",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Tencent Hy4 Flash",
+      "topic": "When AI Knows More Than It Can Offer",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Latent Lattice Language Models",
+      "topic": "Pre-auth RCE in Nginx HTTP/2 handling",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The x86 CPU: From 4004 to 486",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Primer on Fourier Series",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Evidence (YC S21) Is Hiring",
       "score": 0,
       "meta": {}
     }
