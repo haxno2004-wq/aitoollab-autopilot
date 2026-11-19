@@ -1,18 +1,6 @@
 {
-  "fetchedAt": "2026-11-19T00:25:53.718Z",
+  "fetchedAt": "2026-11-19T15:45:40.517Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "Unauthenticated remote code execution in Nginx",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DNS resolvers are the wrong place to fight piracy",
-      "score": 4,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Seven new models at scalable price-performance",
@@ -21,14 +9,20 @@
     },
     {
       "source": "hn",
-      "topic": "AI agents ask better questions than KPMG accountants in audit trial",
+      "topic": "How the European Commission rolled out Matrix to more than 40k staff",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Inside Deutsche Bank",
-      "score": 3,
+      "topic": "Multiple vulnerabilities in Regexp and String case conversion",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "score": 4,
       "meta": {}
     },
     {
@@ -39,127 +33,127 @@
     },
     {
       "source": "hn",
-      "topic": "Energy-Based Reasoners: 385x more efficient inference",
+      "topic": "Inside Deutsche Bank",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Take Voyager 1 apart, down to a single memory chip",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Genie 4 is now available",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Advancing chip design with OpenAI models",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The x86 CPU: From 4004 to 486",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We Need Smart People Who Give a Shit",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Primer on Fourier Series",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cuttlefish on Mac: Android's Virtual Device Framework on Apple Silicon",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Collage Showing 49 Drill Holes Made by NASA's Curiosity Mars Rover",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Software companies are trying to kill home computing",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Dumping an AES key from a MyQ garage opener to stop rebooting when offline",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Multiple vulnerabilities in Regexp and String case conversion",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "CrossPoint Reader",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Magic of Partial Evaluation",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sexp Matrix",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "LLM Assisted Reverse Engineering",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GTA6-like as a 942Kb UEFI bootable image",
-      "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Anthropic prices initial public offering",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Garage Door Spam",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "SSD prices will start going down the second half of next year",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Distributed, high-performance blob storage on SQLite",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nintendo takes Picofly firmware down from GitHub [video]",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "What's New in PHP 8.6",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Someone reported java4shell bug in September 2026",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Making 8-page foldable zines from a single A4 sheet in the browser",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Oregon library dropped Dewey Decimal system, adopted bookstore-like arrangement",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Germany and Austria Call for European Control of TikTok",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "C's designated initializers give us named arguments",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Everything you need to survive and rebuild society",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Funkycache: A Python library to cache functions in SQLite",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We taught robots to carve marble sculptures",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Do not buy RAM, compress",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Exponential Behavior in Magic: The Gathering",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenAI still has a WebRTC Problem",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "It's All about the Allocator",
       "score": 0,
       "meta": {}
     }
