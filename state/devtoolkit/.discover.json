@@ -1,87 +1,45 @@
 {
-  "fetchedAt": "2026-11-18T15:40:46.583Z",
+  "fetchedAt": "2026-11-19T00:25:51.322Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
-      "score": 6,
+      "topic": "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
+      "score": 5,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "topic": "Unauthenticated remote code execution in Nginx",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Quad9's withdrawal from France: A canary in the coal mine",
+      "topic": "DNS resolvers are the wrong place to fight piracy",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Highly classified US national security communications network goes down",
+      "topic": "Seven new models at scalable price-performance",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "topic": "AI agents ask better questions than KPMG accountants in audit trial",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google's AI answers reducing search traffic by 40%",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Microsoft's ONNX Runtime has disappeared from GitHub",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Can Peer Review Survive AI-Generated Text? [pdf]",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI is killing All About Berlin",
+      "topic": "Inside Deutsche Bank",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "ID.me terms required for IRS sign-in",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "MAI Code 2 and Code 2 Flash",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "jQuery 4.1.0",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Archive Team is archiving the Apple Support Community",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+      "topic": "Gemini 4 Neon",
       "score": 3,
       "meta": {}
     },
@@ -93,79 +51,115 @@
     },
     {
       "source": "hn",
-      "topic": "Why is Gemini 4 Carbon taking so long?",
+      "topic": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Claude was trained on protein sequences at scale",
+      "topic": "Show HN: Take Voyager 1 apart, down to a single memory chip",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Perfect SimCity",
+      "topic": "Genie 4 is now available",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "'Human' Is Cambridge Dictionary's Word of the Year 2026",
+      "topic": "Advancing chip design with OpenAI models",
       "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Energy drinks linked to 11 times more reports of cardiac arrest",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "IPv6 delegation, an unusually subtle failure mode",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "My Emacs 31 contributions",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Type Fighter 2",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "When AI Knows More Than It Can Offer",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pre-auth RCE in Nginx HTTP/2 handling",
-      "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "The x86 CPU: From 4004 to 486",
-      "score": 0,
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We Need Smart People Who Give a Shit",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "A Primer on Fourier Series",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Cuttlefish on Mac: Android's Virtual Device Framework on Apple Silicon",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Collage Showing 49 Drill Holes Made by NASA's Curiosity Mars Rover",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Software companies are trying to kill home computing",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Dumping an AES key from a MyQ garage opener to stop rebooting when offline",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Multiple vulnerabilities in Regexp and String case conversion",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "CrossPoint Reader",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Evidence (YC S21) Is Hiring",
+      "topic": "The Magic of Partial Evaluation",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sexp Matrix",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "LLM Assisted Reverse Engineering",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GTA6-like as a 942Kb UEFI bootable image",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic prices initial public offering",
       "score": 0,
       "meta": {}
     }

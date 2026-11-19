@@ -1,10 +1,10 @@
 {
-  "pickedAt": "2026-11-18T15:40:46.627Z",
-  "topic": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+  "pickedAt": "2026-11-19T00:25:51.351Z",
+  "topic": "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck",
+  "slug": "daisyrose-27b-1-200-task-rl-took-qwen3-8-from-5-6-to-12-on-termi",
   "source": "hn",
   "sourceMeta": {},
-  "finalScore": 6,
-  "remaining": 27
+  "finalScore": 7,
+  "remaining": 26
 }
