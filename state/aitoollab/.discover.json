@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T15:45:38.963Z",
+  "fetchedAt": "2026-11-20T00:39:14.771Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,25 +48,37 @@
     },
     {
       "source": "hn",
-      "topic": "Seven new models at scalable price-performance",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "How the European Commission rolled out Matrix to more than 40k staff",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Multiple vulnerabilities in Regexp and String case conversion",
+      "topic": "Pancreatic cancer halted by virus injection in three patients",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "topic": "UK government forced to admit it issued Apple a secret encryption order",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Claude solves two open problems in the physics of black holes",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Someone reported java4shell bug in September 2026",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to Make the Ink Used to Write Hamlet and the Declaration of Independence",
       "score": 4,
       "meta": {}
     },
@@ -96,31 +108,37 @@
     },
     {
       "source": "hn",
-      "topic": "Gemini 4 Neon",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Inside Deutsche Bank",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic prices initial public offering",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Garage Door Spam",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SSD prices will start going down the second half of next year",
+      "topic": "Distributed, high-performance blob storage on SQLite",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nintendo takes Picofly firmware down from GitHub [video]",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Making 8-page foldable zines from a single A4 sheet in the browser",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to CAD Almost Anything",
       "score": 3,
       "meta": {}
     },
@@ -168,13 +186,25 @@
     },
     {
       "source": "hn",
-      "topic": "Distributed, high-performance blob storage on SQLite",
+      "topic": "What's New in PHP 8.6",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nintendo takes Picofly firmware down from GitHub [video]",
+      "topic": "Do not buy RAM, compress",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An Oregon library ditched Dewey Decimal and got people excited about books again",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
       "score": 2,
       "meta": {}
     },
@@ -198,61 +228,37 @@
     },
     {
       "source": "hn",
-      "topic": "What's New in PHP 8.6",
+      "topic": "Unblockable communication with gravity",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Someone reported java4shell bug in September 2026",
+      "topic": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+      "topic": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making 8-page foldable zines from a single A4 sheet in the browser",
+      "topic": "Reverse-Engineering Kevin J. Lang's Lost OCaml Code in Apache DataSketches",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Oregon library dropped Dewey Decimal system, adopted bookstore-like arrangement",
+      "topic": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Germany and Austria Call for European Control of TikTok",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "C's designated initializers give us named arguments",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Everything you need to survive and rebuild society",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Funkycache: A Python library to cache functions in SQLite",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cooling buildings is overtaking heating them as an energy need, IEA says",
+      "topic": "Talking Venice with Mahesh Subramony at AMD In-Depth",
       "score": 1,
       "meta": {}
     },
@@ -336,31 +342,25 @@
     },
     {
       "source": "hn",
-      "topic": "We taught robots to carve marble sculptures",
+      "topic": "Synology Security Advisory",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Do not buy RAM, compress",
+      "topic": "Rebuilding my local voice assistant pipeline",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Exponential Behavior in Magic: The Gathering",
+      "topic": "Computer Graphics from Scratch",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI still has a WebRTC Problem",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "It's All about the Allocator",
+      "topic": "RegExr: Temporarily Offline",
       "score": 0,
       "meta": {}
     }
