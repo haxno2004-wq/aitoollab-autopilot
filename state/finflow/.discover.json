@@ -1,159 +1,171 @@
 {
-  "fetchedAt": "2026-11-20T00:39:22.145Z",
+  "fetchedAt": "2026-11-20T15:28:17.168Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "How the European Commission rolled out Matrix to more than 40k staff",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pancreatic cancer halted by virus injection in three patients",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "UK government forced to admit it issued Apple a secret encryption order",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Claude solves two open problems in the physics of black holes",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Someone reported java4shell bug in September 2026",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to Make the Ink Used to Write Hamlet and the Declaration of Independence",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Garage Door Spam",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Distributed, high-performance blob storage on SQLite",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nintendo takes Picofly firmware down from GitHub [video]",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Making 8-page foldable zines from a single A4 sheet in the browser",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "How to CAD Almost Anything",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "If you can't explain something in simple terms, you don't understand it",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Tinnitus frequency finder and audio notch tool",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "If you stop writing code, you also get worse at reviewing it",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "\"I can tell you wrote this yourself\"",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What's New in PHP 8.6",
+      "topic": "PostgreSQL 19",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "FFmpeg 9.1 'Gauss'",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Do not buy RAM, compress",
+      "topic": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An Oregon library ditched Dewey Decimal and got people excited about books again",
+      "topic": "Signal Is Serious About Protecting Your Privacy",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Unblockable communication with gravity",
+      "topic": "Jujutsu Primer",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "topic": "Vint Cerf on why TCP/IP was never patented",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+      "topic": "What Comes After AGI?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Reverse-Engineering Kevin J. Lang's Lost OCaml Code in Apache DataSketches",
+      "topic": "The Strongest Sokoban Solver",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "topic": "The Making of Oxygene",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Talking Venice with Mahesh Subramony at AMD In-Depth",
+      "topic": "UK fridges secured from hackers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Synology Security Advisory",
-      "score": 0,
+      "topic": "What people are building, discovered through new domains",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Rebuilding my local voice assistant pipeline",
-      "score": 0,
+      "topic": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Computer Graphics from Scratch",
-      "score": 0,
+      "topic": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "RegExr: Temporarily Offline",
+      "topic": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why the Airbus A321XLR often gets stuck climbing for first few hours of flight",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why there are still no non-WebKit browsers on iOS",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The G1 Garbage Collector",
       "score": 0,
       "meta": {}
     }
