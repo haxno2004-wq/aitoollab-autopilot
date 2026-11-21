@@ -1,34 +1,10 @@
 {
-  "fetchedAt": "2026-11-21T14:40:19.731Z",
+  "fetchedAt": "2026-11-21T23:21:52.802Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Tinnitus frequency finder and audio notch tool",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "We promoted developers into architects without informing them",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Language Models Can Rewrite Their Own Weights",
-      "score": 4,
+      "score": 6,
       "meta": {}
     },
     {
@@ -39,7 +15,25 @@
     },
     {
       "source": "hn",
-      "topic": "FBI reportedly investigating apparent hack of its criminal database",
+      "topic": "We promoted developers into architects without informing them",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why there are still no non-WebKit browsers on iOS",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "My monitor was cutting my download speed by 75%",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "score": 4,
       "meta": {}
     },
@@ -57,97 +51,109 @@
     },
     {
       "source": "hn",
-      "topic": "NINLIVE: The Nine Inch Nails live archive",
+      "topic": "Lean verification of the Riemann Hypothesis",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "topic": "Detonating a pile of lead azide",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Clojure will affect the way you think about programming",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why the Airbus A321XLR often gets stuck climbing for first few hours of flight",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sir Brian May adds new dimension to Hera asteroid",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "My Monitor Was Cutting My Download Speed by 75%",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Vibecoding an inference chip",
-      "score": 1,
+      "topic": "Inkling-2-Mini in 5.4 GB Memory",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "RCE in Gnupg",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Adult-only households accounted for 55% of toy sales in the first half of 2026",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "LLMs can read and write executables byte by byte from a hex dump",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "I'm quite pleased by the tech architecture of my art website",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Getting the mind to steer the body to steer you",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "PostgreSQL Extensions in Go",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Surprisingly Adorable Insect Portraits",
+      "topic": "Verification files for the Lean proof of the Riemann Hypothesis",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: An ASCII cell aquarium for your terminal",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tropical Rainforests Species may be surprisingly young",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Windows has two settings that bring work back after restart, both off by default",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bolt's Scooters Are Becoming Accessibility Sensors",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Emergence of Inequality in the Czech Corded Ware Culture",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Exponential Behavior in Magic: The Gathering",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Derek Lowe: Detonating a Pile of Lead Azide",
+      "topic": "Upload2Shell (CVE-2026-125396)",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fewer slides, more dragons",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Defcon 5's California Caravan Program/Zine",
+      "topic": "Advice for the next 100 Rust GUIs",
       "score": 0,
       "meta": {}
     }
