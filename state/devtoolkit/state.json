@@ -76,7 +76,8 @@
     "stringman-an-800-open-source-room-scale-gripper-robot",
     "amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history",
     "a-jev-that-can-ask-opus-for-help-gives-opus-accuracy-at-4x-lower",
-    "claude-solves-two-open-problems-in-the-physics-of-black-holes"
+    "claude-solves-two-open-problems-in-the-physics-of-black-holes",
+    "if-you-cant-explain-something-in-simple-terms-you-dont-understan"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
@@ -187,7 +188,8 @@
     "DaisyRose-27B: 1,200-task RL took Qwen3.8 from 5.6% to 12% on Terminal-Bench 4.1",
     "How the European Commission rolled out Matrix to more than 40k staff",
     "Claude solves two open problems in the physics of black holes",
-    "How to CAD Almost Anything"
+    "How to CAD Almost Anything",
+    "If you can't explain something in simple terms, you don't understand it"
   ],
-  "lastRun": "2026-11-20T15:31:33.554Z"
+  "lastRun": "2026-11-21T00:02:58.995Z"
 }
