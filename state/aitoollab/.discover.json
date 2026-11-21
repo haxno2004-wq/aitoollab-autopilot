@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T23:59:52.018Z",
+  "fetchedAt": "2026-11-21T14:40:20.367Z",
   "candidates": [
     {
       "source": "hn",
@@ -9,12 +9,6 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "If you can't explain something in simple terms, you don't understand it",
-      "score": 6,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -36,7 +30,13 @@
     },
     {
       "source": "hn",
-      "topic": "Nvidia accounting under SEC investigation, sources say",
+      "topic": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Tinnitus frequency finder and audio notch tool",
       "score": 5,
       "meta": {}
     },
@@ -60,13 +60,13 @@
     },
     {
       "source": "hn",
-      "topic": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "topic": "We promoted developers into architects without informing them",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Signal Is Serious About Protecting Your Privacy",
+      "topic": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
       "score": 4,
       "meta": {}
     },
@@ -78,7 +78,13 @@
     },
     {
       "source": "hn",
-      "topic": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "topic": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "FBI reportedly investigating apparent hack of its criminal database",
       "score": 4,
       "meta": {}
     },
@@ -120,13 +126,13 @@
     },
     {
       "source": "hn",
-      "topic": "We promoted developers into architects without informing them",
+      "topic": "NINLIVE: The Nine Inch Nails live archive",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+      "topic": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
       "score": 3,
       "meta": {}
     },
@@ -174,7 +180,37 @@
     },
     {
       "source": "hn",
-      "topic": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "topic": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Clojure will affect the way you think about programming",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why the Airbus A321XLR often gets stuck climbing for first few hours of flight",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Sir Brian May adds new dimension to Hera asteroid",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "My Monitor Was Cutting My Download Speed by 75%",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
       "score": 2,
       "meta": {}
     },
@@ -204,61 +240,19 @@
     },
     {
       "source": "hn",
-      "topic": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
+      "topic": "RCE in Gnupg",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "topic": "Adult-only households accounted for 55% of toy sales in the first half of 2026",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Microsoft announces Windows Server 2028 with hardened security",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: An API for word timestamps from speech, 75% within 20ms",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A few hours ago Google DeepMind created a math horizon repo",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GitHub nuked me with no reason, and (so far) no ability to contact a human",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Sir Brian May adds new dimension to Hera asteroid",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Replacing implicit optionals with a None type in TypeDB",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI may have solved the most important problem in mathematics",
+      "topic": "LLMs can read and write executables byte by byte from a hex dump",
       "score": 1,
       "meta": {}
     },
@@ -342,19 +336,25 @@
     },
     {
       "source": "hn",
-      "topic": "And Yet, It Moves",
+      "topic": "Surprisingly Adorable Insect Portraits",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nasdaq erases all 2026 gains",
+      "topic": "Derek Lowe: Detonating a Pile of Lead Azide",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "NINLIVE: The Nine Inch Nails live archive",
+      "topic": "Fewer slides, more dragons",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Defcon 5's California Caravan Program/Zine",
       "score": 0,
       "meta": {}
     }
