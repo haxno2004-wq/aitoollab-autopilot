@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T15:28:16.545Z",
+  "fetchedAt": "2026-11-20T23:59:52.018Z",
   "candidates": [
     {
       "source": "hn",
@@ -12,7 +12,7 @@
     },
     {
       "source": "hn",
-      "topic": "How to CAD Almost Anything",
+      "topic": "If you can't explain something in simple terms, you don't understand it",
       "score": 6,
       "meta": {}
     },
@@ -36,7 +36,7 @@
     },
     {
       "source": "hn",
-      "topic": "If you can't explain something in simple terms, you don't understand it",
+      "topic": "Nvidia accounting under SEC investigation, sources say",
       "score": 5,
       "meta": {}
     },
@@ -60,37 +60,25 @@
     },
     {
       "source": "hn",
-      "topic": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "topic": "Signal Is Serious About Protecting Your Privacy",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars",
+      "topic": "Language Models Can Rewrite Their Own Weights",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Tinnitus frequency finder and audio notch tool",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "If you stop writing code, you also get worse at reviewing it",
+      "topic": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
       "score": 4,
       "meta": {}
     },
@@ -120,13 +108,25 @@
     },
     {
       "source": "hn",
-      "topic": "\"I can tell you wrote this yourself\"",
+      "topic": "Hurried Announcement: Alessandro Masullo GRH",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PostgreSQL 19",
+      "topic": "Inkling 2 Mini",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "We promoted developers into architects without informing them",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I made an audio-to-MIDI model 60x more efficient",
       "score": 3,
       "meta": {}
     },
@@ -174,19 +174,7 @@
     },
     {
       "source": "hn",
-      "topic": "FFmpeg 9.1 'Gauss'",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Signal Is Serious About Protecting Your Privacy",
+      "topic": "The stochastic parrots have apparently proved the Riemann Hypothesis",
       "score": 2,
       "meta": {}
     },
@@ -210,85 +198,67 @@
     },
     {
       "source": "hn",
-      "topic": "Jujutsu Primer",
+      "topic": "Vibecoding an inference chip",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Vint Cerf on why TCP/IP was never patented",
+      "topic": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What Comes After AGI?",
+      "topic": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Strongest Sokoban Solver",
+      "topic": "Microsoft announces Windows Server 2028 with hardened security",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Making of Oxygene",
+      "topic": "Show HN: An API for word timestamps from speech, 75% within 20ms",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "UK fridges secured from hackers",
+      "topic": "A few hours ago Google DeepMind created a math horizon repo",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What people are building, discovered through new domains",
+      "topic": "GitHub nuked me with no reason, and (so far) no ability to contact a human",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "topic": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "topic": "Sir Brian May adds new dimension to Hera asteroid",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+      "topic": "Replacing implicit optionals with a None type in TypeDB",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why the Airbus A321XLR often gets stuck climbing for first few hours of flight",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Epic Games Turns to AI Coding for the Unreal Engine",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why there are still no non-WebKit browsers on iOS",
+      "topic": "AI may have solved the most important problem in mathematics",
       "score": 1,
       "meta": {}
     },
@@ -372,7 +342,19 @@
     },
     {
       "source": "hn",
-      "topic": "The G1 Garbage Collector",
+      "topic": "And Yet, It Moves",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nasdaq erases all 2026 gains",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "NINLIVE: The Nine Inch Nails live archive",
       "score": 0,
       "meta": {}
     }
