@@ -1,16 +1,22 @@
 {
-  "fetchedAt": "2026-11-22T14:36:05.992Z",
+  "fetchedAt": "2026-11-22T23:37:54.768Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Self-hosted library branch over public web OPDS",
+      "topic": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "score": 7,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "score": 4,
+      "topic": "Localcode, open source agentic coding on your Mac with one command",
+      "score": 6,
       "meta": {}
     },
     {
@@ -21,139 +27,157 @@
     },
     {
       "source": "hn",
-      "topic": "My monitor was cutting my download speed by 75%",
+      "topic": "All Delta Flights Through Atlanta Delayed as Automated System Falters",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Getting the mind to steer the body to steer you",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Lean verification of the Riemann Hypothesis",
+      "topic": "Perplexity and Intelligence",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Detonating a pile of lead azide",
+      "topic": "What Happened to Silicon Valley?",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Inkling-2-Mini in 5.4 GB Memory",
+      "topic": "Show HN: I built a game where you are an LLM's subagent",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Sandwich Simulator",
+      "topic": "Agent swarm trying to solve P vs. NP",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "LLMs can read and write executables byte by byte from a hex dump",
+      "topic": "The struggle for freedom: How BSD escaped AT&T licensing",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Data Processing Incidents on Inference Providers",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Advice for the next 100 Rust GUIs",
+      "topic": "Open Social Web Alliance",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A real Linux kernel, compiled to WebAssembly",
+      "topic": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: Tips for transitioning from web development to embedded/firmware?",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Better Vocabulary for Testing",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Upload2Shell (CVE-2026-125396)",
+      "topic": "A miniature San Francisco with live buses, planes and boats",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Mythology of Conscious AI",
+      "topic": "C++26 is done (again): November 2026 ISO C++ meeting trip report",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "topic": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Notes on the discrete Fourier transform (DFT)",
+      "topic": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Blackberry releases secure browser for Windows",
+      "topic": "I did a meditation and it sort of changed my personality?!",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: The Riemann Proof Handbook",
+      "topic": "Assume People Are Not Interested in Your Blog Post",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Will the first approved psychedelic become a blockbuster?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nyx, the Oldest Internet Service Provider",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "If tiny 'primordial' black holes exist",
+      "topic": "Inside PyPy: First Contact with RPython",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Split Radiance Cascades",
+      "topic": "Agentics: Mushy Software",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Prisons get OK to jam contraband phones",
+      "topic": "Advice for Young Researchers",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Is 'fork' missing operation in sandboxes?",
+      "topic": "Do Not Accept",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "String Art Font",
+      "topic": "Harvard CS 2881R AI Safety",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Field Mice on Drugs",
+      "topic": "The Usefulness of Useless Knowledge [pdf]",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GL.iNet Security Notice 2026-11-20",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Gateless Gate 3D",
       "score": 0,
       "meta": {}
     }
