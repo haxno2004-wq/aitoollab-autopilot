@@ -1,27 +1,15 @@
 {
-  "fetchedAt": "2026-11-21T23:21:52.802Z",
+  "fetchedAt": "2026-11-22T14:36:07.741Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-      "score": 6,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+      "topic": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "We promoted developers into architects without informing them",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why there are still no non-WebKit browsers on iOS",
+      "topic": "Toyota, Nissan, and Honda to standardize parts to lower costs",
       "score": 4,
       "meta": {}
     },
@@ -33,20 +21,14 @@
     },
     {
       "source": "hn",
-      "topic": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "topic": "Getting the mind to steer the body to steer you",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hurried Announcement: Alessandro Masullo GRH",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Inkling 2 Mini",
-      "score": 3,
+      "topic": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "score": 4,
       "meta": {}
     },
     {
@@ -69,91 +51,109 @@
     },
     {
       "source": "hn",
-      "topic": "RCE in Gnupg",
-      "score": 2,
+      "topic": "Sandwich Simulator",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "LLMs can read and write executables byte by byte from a hex dump",
-      "score": 2,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I'm quite pleased by the tech architecture of my art website",
-      "score": 2,
+      "topic": "Data Processing Incidents on Inference Providers",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Getting the mind to steer the body to steer you",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "PostgreSQL Extensions in Go",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Verification files for the Lean proof of the Riemann Hypothesis",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: An ASCII cell aquarium for your terminal",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tropical Rainforests Species may be surprisingly young",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Windows has two settings that bring work back after restart, both off by default",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bolt's Scooters Are Becoming Accessibility Sensors",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Emergence of Inequality in the Czech Corded Ware Culture",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Exponential Behavior in Magic: The Gathering",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Upload2Shell (CVE-2026-125396)",
-      "score": 0,
+      "topic": "Self-hosted library branch over public web OPDS",
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Advice for the next 100 Rust GUIs",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A real Linux kernel, compiled to WebAssembly",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Upload2Shell (CVE-2026-125396)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Mythology of Conscious AI",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Notes on the discrete Fourier transform (DFT)",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Blackberry releases secure browser for Windows",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: The Riemann Proof Handbook",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "If tiny 'primordial' black holes exist",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Split Radiance Cascades",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Prisons get OK to jam contraband phones",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Is 'fork' missing operation in sandboxes?",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "String Art Font",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Field Mice on Drugs",
       "score": 0,
       "meta": {}
     }
