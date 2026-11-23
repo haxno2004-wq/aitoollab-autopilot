@@ -1,28 +1,52 @@
 {
-  "fetchedAt": "2026-11-22T23:37:59.059Z",
+  "fetchedAt": "2026-11-23T18:10:43.739Z",
   "candidates": [
     {
       "source": "hn",
       "topic": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-      "score": 7,
+      "score": 9,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "score": 7,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Free alternative TV network built from the Internet Archive's forgotten videos",
       "score": 6,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "topic": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "All Delta Flights Through Atlanta Delayed as Automated System Falters",
+      "topic": "A miniature San Francisco with live buses, planes and boats",
       "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Assume People Are Not Interested in Your Blog Post",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nvidia Reinstates Jensen Huang as CEO",
+      "score": 3,
       "meta": {}
     },
     {
@@ -33,151 +57,121 @@
     },
     {
       "source": "hn",
-      "topic": "What Happened to Silicon Valley?",
+      "topic": "XNU Linux: Full OS X GUI Userspace on Linux",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I built a game where you are an LLM's subagent",
+      "topic": "Ladybird Is Now in Alpha",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Agent swarm trying to solve P vs. NP",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The struggle for freedom: How BSD escaped AT&T licensing",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Localcode, open source agentic coding on your Mac with one command",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Open Social Web Alliance",
+      "topic": "Masullo on the Riemann Hypothesis",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+      "topic": "Yes, 17M lines of Lean is a lot",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Tips for transitioning from web development to embedded/firmware?",
+      "topic": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Better Vocabulary for Testing",
+      "topic": "Elixir HLS makes FPGA circuits from functions written in Elixir",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Treemap of the Riemann Hypothesis Lean Proof",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A miniature San Francisco with live buses, planes and boats",
+      "topic": "The next circle of security hell",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "C++26 is done (again): November 2026 ISO C++ meeting trip report",
+      "topic": "Cyberleek posted the GTA 6 Xbox build executable",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+      "topic": "Was software just always too complex for humans?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "topic": "What's the difference between an integer and a pointer?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "I did a meditation and it sort of changed my personality?!",
+      "topic": "MRAM Basics: How Magnetic Memory Is Replacing Embedded Flash",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Assume People Are Not Interested in Your Blog Post",
+      "topic": "Building a wireless network adapter for the Super Nintendo",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Will the first approved psychedelic become a blockbuster?",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nyx, the Oldest Internet Service Provider",
+      "topic": "A Partial Evaluator for C",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Inside PyPy: First Contact with RPython",
+      "topic": "Kagi Mail is here (Public Beta)",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Agentics: Mushy Software",
+      "topic": "One man's quest to end daylight savings",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Advice for Young Researchers",
+      "topic": "Reviving the Donkey Car with Erlang",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Do Not Accept",
+      "topic": "Let's Meet in the Middle",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Harvard CS 2881R AI Safety",
+      "topic": "Making torch_remat work in TorchTitan",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Usefulness of Useless Knowledge [pdf]",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GL.iNet Security Notice 2026-11-20",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Gateless Gate 3D",
+      "topic": "EasyPost (YC S13) Is Hiring",
       "score": 0,
       "meta": {}
     }
