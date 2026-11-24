@@ -1,33 +1,33 @@
 {
-  "fetchedAt": "2026-11-24T03:58:22.782Z",
+  "fetchedAt": "2026-11-24T17:46:18.233Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Free alternative TV network built from the Internet Archive's forgotten videos",
-      "score": 6,
+      "topic": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+      "score": 5,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+      "topic": "New York Bans Subscription and Post-Purchase Fees on Cars",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "topic": "Stalwart is now a drop-in replacement for Microsoft Exchange",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+      "topic": "LLM agents work for their parent companies, not for you",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+      "topic": "Top MIT Physicist: Anthropic Staff Openly Talk About 'Taking over the World'",
       "score": 4,
       "meta": {}
     },
@@ -45,133 +45,121 @@
     },
     {
       "source": "hn",
-      "topic": "Kagi Mail (public beta)",
+      "topic": "2035 came early",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The search for a top dark matter candidate",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: FireVoice, free open-source voice studio on your own GPU",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bored.com: Fun, interesting and cool websites to explore when bored",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "C++26 is done (again): ISO C++ meeting trip report",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Freeing the iPod Nano 5G",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "GPUI is getting its own repository",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How to Make a Lovable City",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tidal bans AI-generated music",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "How a Mechanical Watch Keeps Time (Interactive 3D)",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Cyberattack campaign compromising Check Point servers across 22 organizations",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Quad9 pulled their DNS service from France",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
+      "topic": "Worshipping at the altar of Brendan Gregg",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What does it mean to understand what we built?",
+      "topic": "Drone Maps of Salvage Yards",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "topic": "Just a Few Bugs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+      "topic": "A training engine for your local model, using your idle compute",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How photos were transmitted by wire in the 1930s",
+      "topic": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Developing the perception to separate the form of a place from what it contains",
+      "topic": "SeaStore: Redesigning Ceph's Storage Back End for CPU-Efficient NVMe Performance",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Modernizing iperf/iperf3 and introducing fireperf",
+      "topic": "The KL Divergence Is Never Negative, Except in PyTorch",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Derivative Flipping",
+      "topic": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An anti-slavery sugar bowl",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Power of GraphQL, Without GraphQL",
+      "topic": "Mechanical Pencil: Spray Bottle",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making a dumb TV just smart enough",
+      "topic": "Splitting USB-C: USB 3 and USB 2 on One Port",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hacking radiators for fun and no profit",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "EasyPost (YC S13) Is Hiring",
+      "topic": "Gnomon: Git for Postgres Data",
       "score": 0,
       "meta": {}
     }
