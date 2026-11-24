@@ -1,18 +1,6 @@
 {
-  "fetchedAt": "2026-11-23T18:10:43.585Z",
+  "fetchedAt": "2026-11-24T03:58:24.488Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-      "score": 9,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
-      "score": 7,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
@@ -66,25 +54,25 @@
     },
     {
       "source": "hn",
-      "topic": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "topic": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A miniature San Francisco with live buses, planes and boats",
+      "topic": "GLM-5.4: Toward generalized coding with our first loop transformer",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+      "topic": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Assume People Are Not Interested in Your Blog Post",
+      "topic": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
       "score": 4,
       "meta": {}
     },
@@ -120,19 +108,37 @@
     },
     {
       "source": "hn",
-      "topic": "Perplexity and Intelligence",
+      "topic": "Ladybird is now in alpha",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "topic": "Kagi Mail (public beta)",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ladybird Is Now in Alpha",
+      "topic": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The search for a top dark matter candidate",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: FireVoice, free open-source voice studio on your own GPU",
       "score": 3,
       "meta": {}
     },
@@ -180,25 +186,25 @@
     },
     {
       "source": "hn",
-      "topic": "Masullo on the Riemann Hypothesis",
+      "topic": "Bored.com: Fun, interesting and cool websites to explore when bored",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Yes, 17M lines of Lean is a lot",
+      "topic": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+      "topic": "C++26 is done (again): ISO C++ meeting trip report",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Elixir HLS makes FPGA circuits from functions written in Elixir",
+      "topic": "Freeing the iPod Nano 5G",
       "score": 2,
       "meta": {}
     },
@@ -222,43 +228,49 @@
     },
     {
       "source": "hn",
-      "topic": "Treemap of the Riemann Hypothesis Lean Proof",
+      "topic": "GPUI is getting its own repository",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The next circle of security hell",
+      "topic": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Cyberleek posted the GTA 6 Xbox build executable",
+      "topic": "What does it mean to understand what we built?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Was software just always too complex for humans?",
+      "topic": "New York Bans Subscription and Post-Purchase Fees on Cars",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "What's the difference between an integer and a pointer?",
+      "topic": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "MRAM Basics: How Magnetic Memory Is Replacing Embedded Flash",
+      "topic": "How photos were transmitted by wire in the 1930s",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Building a wireless network adapter for the Super Nintendo",
+      "topic": "Developing the perception to separate the form of a place from what it contains",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Modernizing iperf/iperf3 and introducing fireperf",
       "score": 1,
       "meta": {}
     },
@@ -348,37 +360,25 @@
     },
     {
       "source": "hn",
-      "topic": "A Partial Evaluator for C",
+      "topic": "Derivative Flipping",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Kagi Mail is here (Public Beta)",
+      "topic": "The Power of GraphQL, Without GraphQL",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "One man's quest to end daylight savings",
+      "topic": "Making a dumb TV just smart enough",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Reviving the Donkey Car with Erlang",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Let's Meet in the Middle",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Making torch_remat work in TorchTitan",
+      "topic": "Hacking radiators for fun and no profit",
       "score": 0,
       "meta": {}
     },
