@@ -1,24 +1,6 @@
 {
-  "fetchedAt": "2026-11-24T17:46:23.907Z",
+  "fetchedAt": "2026-11-25T02:31:57.631Z",
   "candidates": [
-    {
-      "source": "hn",
-      "topic": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New York Bans Subscription and Post-Purchase Fees on Cars",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-      "score": 4,
-      "meta": {}
-    },
     {
       "source": "hn",
       "topic": "LLM agents work for their parent companies, not for you",
@@ -27,7 +9,7 @@
     },
     {
       "source": "hn",
-      "topic": "Top MIT Physicist: Anthropic Staff Openly Talk About 'Taking over the World'",
+      "topic": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
       "score": 4,
       "meta": {}
     },
@@ -39,97 +21,115 @@
     },
     {
       "source": "hn",
-      "topic": "Ladybird is now in alpha",
+      "topic": "The Spray Bottle",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "2035 came early",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GPUI is getting its own repository",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How to Make a Lovable City",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tidal bans AI-generated music",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "How a Mechanical Watch Keeps Time (Interactive 3D)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Cyberattack campaign compromising Check Point servers across 22 organizations",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Quad9 pulled their DNS service from France",
-      "score": 1,
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ternary Bonsai 2.5 27B",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Active intrusion campaign against Check Point security management servers",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GTA 6 Running on Windows",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Worshipping at the altar of Brendan Gregg",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Drone Maps of Salvage Yards",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Just a Few Bugs",
-      "score": 1,
+      "topic": "How a Mechanical Watch Keeps Time",
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "A training engine for your local model, using your idle compute",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Heart attack and stroke risk detectable decades in advance",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An Italian folding bicycle design that fits into a suitcase",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An unclassified CIA system was breached in a cyberattack",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Splitting USB-C: USB 3 and USB 2 on one port",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+      "topic": "Calculate how many mesh radio nodes your city needs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "SeaStore: Redesigning Ceph's Storage Back End for CPU-Efficient NVMe Performance",
+      "topic": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The KL Divergence Is Never Negative, Except in PyTorch",
+      "topic": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: PQCrypta Proxy: Rust proxy with HTTP/3, QUIC, hybrid post-quantum TLS",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hierarchical Bayesian Neural Networks: When Structure Meets Flexibility",
       "score": 1,
       "meta": {}
     },
@@ -141,25 +141,13 @@
     },
     {
       "source": "hn",
-      "topic": "An anti-slavery sugar bowl",
+      "topic": "Matrix Multiplication is O(n^2.25) [pdf]",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mechanical Pencil: Spray Bottle",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Splitting USB-C: USB 3 and USB 2 on One Port",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Gnomon: Git for Postgres Data",
+      "topic": "The Artificial Monkey Mind",
       "score": 0,
       "meta": {}
     }
