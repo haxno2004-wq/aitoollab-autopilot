@@ -1,10 +1,13 @@
 {
-  "pickedAt": "2026-11-25T02:31:53.015Z",
-  "topic": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+  "pickedAt": "2026-11-25T17:15:10.362Z",
+  "topic": "jetbrains-clion: Jetbrains Clion for Windows 10/11. Writes, compiles and debugs C and C++ code with CMake projects, smart completion and ref",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "gta-6-recomp-leonida-banned-from-github-while-lead-dev-was-in-sc",
-  "source": "hn",
-  "sourceMeta": {},
-  "finalScore": 4,
-  "remaining": 24
+  "slug": "jetbrains-clion-jetbrains-clion-for-windows-10-11-writes-compile",
+  "source": "github",
+  "sourceMeta": {
+    "stars": 119,
+    "url": "https://github.com/nataliey22/jetbrains-clion"
+  },
+  "finalScore": 5,
+  "remaining": 27
 }

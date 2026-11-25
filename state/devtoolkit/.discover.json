@@ -1,33 +1,39 @@
 {
-  "fetchedAt": "2026-11-25T02:31:52.976Z",
+  "fetchedAt": "2026-11-25T17:15:10.320Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "LLM agents work for their parent companies, not for you",
+      "topic": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
+      "topic": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nvidia Reinstates Jensen Huang as CEO",
-      "score": 3,
+      "topic": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Investigating degraded experiences across GitHub products",
+      "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "The Spray Bottle",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Quad9 pulled their DNS service from France",
       "score": 3,
       "meta": {}
     },
@@ -39,115 +45,130 @@
     },
     {
       "source": "hn",
-      "topic": "Active intrusion campaign against Check Point security management servers",
+      "topic": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GTA 6 Running on Windows",
+      "topic": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "github",
+      "topic": "jetbrains-clion: Jetbrains Clion for Windows 10/11. Writes, compiles and debugs C and C++ code with CMake projects, smart completion and ref",
+      "score": 3,
+      "meta": {
+        "stars": 119,
+        "url": "https://github.com/nataliey22/jetbrains-clion"
+      }
+    },
+    {
+      "source": "hn",
+      "topic": "The short age of dragon riders",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Worshipping at the altar of Brendan Gregg",
+      "topic": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "How a Mechanical Watch Keeps Time",
+      "topic": "Taking over US Treasury subdomains for $3 each",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A training engine for your local model, using your idle compute",
+      "topic": "Rumors swirling that labs might have cracked Factoring in P",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "topic": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Heart attack and stroke risk detectable decades in advance",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An Italian folding bicycle design that fits into a suitcase",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An unclassified CIA system was breached in a cyberattack",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Splitting USB-C: USB 3 and USB 2 on one port",
+      "topic": "Getting old Java phones online again",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Calculate how many mesh radio nodes your city needs",
+      "topic": "The Shapes of Rivers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
+      "topic": "When in Doubt, Flail About",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "topic": "Porting Rockbox to an Undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: PQCrypta Proxy: Rust proxy with HTTP/3, QUIC, hybrid post-quantum TLS",
+      "topic": "Pinocchio at 200: a tale of hunger, greed and Italy's culinary history",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hierarchical Bayesian Neural Networks: When Structure Meets Flexibility",
+      "topic": "Anthropic migrated Messages API to Rust with no Rust developers",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Weave (YC W25) is hiring ML, AI, product, & design engineers",
+      "topic": "I checked Clojure's core with Lean and found unreported bugs",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Matrix Multiplication is O(n^2.25) [pdf]",
+      "topic": "The algebra of dependent types",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Artificial Monkey Mind",
+      "topic": "Predicting LoRA size for any dataset",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A Clock Made of Branches",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Hazel (YC W24) Is Hiring a Product Designer",
       "score": 0,
       "meta": {}
     }
