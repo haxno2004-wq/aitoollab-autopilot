@@ -1,13 +1,10 @@
 {
-  "pickedAt": "2026-11-25T17:15:10.362Z",
-  "topic": "jetbrains-clion: Jetbrains Clion for Windows 10/11. Writes, compiles and debugs C and C++ code with CMake projects, smart completion and ref",
+  "pickedAt": "2026-11-26T01:47:06.621Z",
+  "topic": "Smart people who give a shit use tools",
   "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "jetbrains-clion-jetbrains-clion-for-windows-10-11-writes-compile",
-  "source": "github",
-  "sourceMeta": {
-    "stars": 119,
-    "url": "https://github.com/nataliey22/jetbrains-clion"
-  },
+  "slug": "smart-people-who-give-a-shit-use-tools",
+  "source": "hn",
+  "sourceMeta": {},
   "finalScore": 5,
   "remaining": 27
 }

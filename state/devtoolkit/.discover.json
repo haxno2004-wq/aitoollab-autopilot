@@ -1,69 +1,51 @@
 {
-  "fetchedAt": "2026-11-25T17:15:10.320Z",
+  "fetchedAt": "2026-11-26T01:47:06.575Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "topic": "Smart people who give a shit use tools",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Google releases Cogentic papers on integer factorization, discrete logs and more",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "topic": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
       "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "PenGPT: A Generative Transformer for Handwriting and Sketches",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Investigating degraded experiences across GitHub products",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Spray Bottle",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Ternary Bonsai 2.5 27B",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
-      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "1Password Security Incident",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "topic": "Much shorter version of GRH Lean verification from Anthropic",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
       "score": 3,
       "meta": {}
     },
@@ -72,103 +54,127 @@
       "topic": "jetbrains-clion: Jetbrains Clion for Windows 10/11. Writes, compiles and debugs C and C++ code with CMake projects, smart completion and ref",
       "score": 3,
       "meta": {
-        "stars": 119,
+        "stars": 182,
         "url": "https://github.com/nataliey22/jetbrains-clion"
       }
     },
     {
       "source": "hn",
-      "topic": "The short age of dragon riders",
+      "topic": "Jev is probably Qwen3.5-35B-A3B",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+      "topic": "The New York Times warns photographers not to update Photoshop over AI features",
       "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Taking over US Treasury subdomains for $3 each",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rumors swirling that labs might have cracked Factoring in P",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Getting old Java phones online again",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Shapes of Rivers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "When in Doubt, Flail About",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Porting Rockbox to an Undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pinocchio at 200: a tale of hunger, greed and Italy's culinary history",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Anthropic migrated Messages API to Rust with no Rust developers",
-      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "I checked Clojure's core with Lean and found unreported bugs",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "72-hour fasting can reset your immune system, USC study shows",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The polynomial Hirsch conjecture is false [pdf]",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Slow Ubuntu security response times",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The algebra of dependent types",
-      "score": 0,
+      "topic": "SSH is a GUI framework",
+      "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Predicting LoRA size for any dataset",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The undocumented 249-file limit for Googlebot rendering",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Deploying a payphone on a tiny Pacific Island",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "A fast CAS with a focus on resolution of singularities",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Why \"all different\" Sets take 5x longer to find",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The trouble with serendipity: Scientific discoveries don't happen how you think",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Britain's ghost stations",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A Clock Made of Branches",
+      "topic": "Defang Security Incident",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hazel (YC W24) Is Hiring a Product Designer",
+      "topic": "Bare Metal Qwen",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: Lots of Ask HNs again",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Multiagent coding is the future",
       "score": 0,
       "meta": {}
     }
