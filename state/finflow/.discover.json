@@ -1,27 +1,39 @@
 {
-  "fetchedAt": "2026-11-26T01:47:07.901Z",
+  "fetchedAt": "2026-11-26T16:55:16.105Z",
   "candidates": [
     {
       "source": "hn",
-      "topic": "Smart people who give a shit use tools",
+      "topic": "Collection of preserved UI style guides",
+      "score": 6,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Great Automatic Grammatizator (By Roald Dahl), 1954 [pdf]",
       "score": 5,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+      "topic": "The New York Times warns photographers not to update Photoshop over AI features",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+      "topic": "Much shorter version of GRH Lean verification from Anthropic",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "topic": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
       "score": 4,
       "meta": {}
     },
@@ -33,139 +45,115 @@
     },
     {
       "source": "hn",
-      "topic": "Much shorter version of GRH Lean verification from Anthropic",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Jev is probably Qwen3.5-35B-A3B",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The New York Times warns photographers not to update Photoshop over AI features",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "I checked Clojure's core with Lean and found unreported bugs",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "72-hour fasting can reset your immune system, USC study shows",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The polynomial Hirsch conjecture is false [pdf]",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Slow Ubuntu security response times",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "SSH is a GUI framework",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Predicting LoRA size for any dataset",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The undocumented 249-file limit for Googlebot rendering",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Deploying a payphone on a tiny Pacific Island",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A fast CAS with a focus on resolution of singularities",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Why \"all different\" Sets take 5x longer to find",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The trouble with serendipity: Scientific discoveries don't happen how you think",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Britain's ghost stations",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Defang Security Incident",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Bare Metal Qwen",
-      "score": 0,
+      "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "Tell HN: Lots of Ask HNs again",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Intel One Mono font",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tell HN: Happy Thanksgiving",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Minipg: PostgreSQL as a Single Executable",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Bare Metal Qwen",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An algebraic quantization of gravity from the null cone",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Unconditional Integer Factorization in Subexponential Time",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Moat: Your OpenRouter Replacement",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Synth Patch Hero",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The history of civilization is the history of wheat",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Discovery of curse ritual in trash dump surprises Egyptologist",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Ask HN: Any courses/products by indie makers worth getting today?",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Curiosity Is No Solo Act",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Multiagent coding is the future",
+      "topic": "Kagi Watch",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Engineering of Smartphone Cameras",
       "score": 0,
       "meta": {}
     }
