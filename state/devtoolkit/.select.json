@@ -1,10 +1,13 @@
 {
-  "pickedAt": "2026-11-26T01:47:06.621Z",
-  "topic": "Smart people who give a shit use tools",
-  "angle": "a hands-on review framing: what it is, where it shines, where it fails, and who should use it",
-  "slug": "smart-people-who-give-a-shit-use-tools",
-  "source": "hn",
-  "sourceMeta": {},
-  "finalScore": 5,
-  "remaining": 27
+  "pickedAt": "2026-11-26T16:55:16.478Z",
+  "topic": "awesome-obsidian: A curated list of awesome Obsidian plugins, themes, CSS snippets, publishing engines, CLI workflows, companion apps, start",
+  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
+  "slug": "awesome-obsidian-a-curated-list-of-awesome-obsidian-plugins-them",
+  "source": "github",
+  "sourceMeta": {
+    "stars": 84,
+    "url": "https://github.com/thebigby10/awesome-obsidian"
+  },
+  "finalScore": 8,
+  "remaining": 26
 }
