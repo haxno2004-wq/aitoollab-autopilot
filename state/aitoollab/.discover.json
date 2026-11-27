@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-26T16:55:15.848Z",
+  "fetchedAt": "2026-11-27T01:45:21.289Z",
   "candidates": [
     {
       "source": "hn",
@@ -12,7 +12,7 @@
     },
     {
       "source": "hn",
-      "topic": "Collection of preserved UI style guides",
+      "topic": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
       "score": 6,
       "meta": {}
     },
@@ -36,12 +36,6 @@
     },
     {
       "source": "hn",
-      "topic": "The Great Automatic Grammatizator (By Roald Dahl), 1954 [pdf]",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -60,25 +54,19 @@
     },
     {
       "source": "hn",
-      "topic": "The New York Times warns photographers not to update Photoshop over AI features",
+      "topic": "AI made self-hosting fun again",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Much shorter version of GRH Lean verification from Anthropic",
+      "topic": "Top-cited AI scientists at four US companies compared",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+      "topic": "AI agents now control part of DeepMind's compute for Gemini experiments",
       "score": 4,
       "meta": {}
     },
@@ -108,19 +96,7 @@
     },
     {
       "source": "hn",
-      "topic": "1Password Security Incident",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Slow Ubuntu security response times",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tell HN: Lots of Ask HNs again",
+      "topic": "Tell HN: Happy Thanksgiving",
       "score": 3,
       "meta": {}
     },
@@ -132,7 +108,31 @@
     },
     {
       "source": "hn",
-      "topic": "Tell HN: Happy Thanksgiving",
+      "topic": "Nextcloud Office Desktop app",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An algebraic quantization of gravity from the null cone",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "CTO of 'RansomwareHelp' indicted for wire fraud",
+      "score": 3,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rvoip: VoIP stack in Rust",
       "score": 3,
       "meta": {}
     },
@@ -180,37 +180,25 @@
     },
     {
       "source": "hn",
-      "topic": "Minipg: PostgreSQL as a Single Executable",
+      "topic": "AMD-specific fork of llama.cpp",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Bare Metal Qwen",
+      "topic": "OpenAI may be in cost control mode",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "topic": "Moat: OpenRouter replacement",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An algebraic quantization of gravity from the null cone",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Unconditional Integer Factorization in Subexponential Time",
+      "topic": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
       "score": 2,
       "meta": {}
     },
@@ -234,19 +222,13 @@
     },
     {
       "source": "hn",
-      "topic": "Moat: Your OpenRouter Replacement",
+      "topic": "The USAID Files",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Synth Patch Hero",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The history of civilization is the history of wheat",
+      "topic": "Curiosity Is No Solo Act",
       "score": 1,
       "meta": {}
     },
@@ -258,13 +240,37 @@
     },
     {
       "source": "hn",
-      "topic": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "topic": "NormalScript: A perfectly normal scripting language",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Ask HN: Any courses/products by indie makers worth getting today?",
+      "topic": "Show HN: Olumino, a Markdown notes and spaced repetition app",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: I wrote an entire Vim manual over 4 years",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An introduction to uncertainty in machine learning",
       "score": 1,
       "meta": {}
     },
@@ -354,19 +360,13 @@
     },
     {
       "source": "hn",
-      "topic": "Curiosity Is No Solo Act",
+      "topic": "George Whitesides, 1939-2026",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Kagi Watch",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Engineering of Smartphone Cameras",
+      "topic": "The Naturalist's Library",
       "score": 0,
       "meta": {}
     }
