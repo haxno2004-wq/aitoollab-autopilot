@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-11-27T01:45:21.289Z",
+  "fetchedAt": "2026-11-27T16:41:12.734Z",
   "candidates": [
+    {
+      "source": "hn",
+      "topic": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "score": 7,
+      "meta": {}
+    },
     {
       "source": "hn",
       "topic": "Show HN: archgw: open-source, intelligent proxy for AI agents, built on Envoy",
@@ -9,12 +15,6 @@
         "points": 20,
         "url": "https://github.com/katanemo/archgw"
       }
-    },
-    {
-      "source": "hn",
-      "topic": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "score": 6,
-      "meta": {}
     },
     {
       "source": "hn",
@@ -36,6 +36,12 @@
     },
     {
       "source": "hn",
+      "topic": "AI made self-hosting fun again",
+      "score": 5,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "score": 4,
       "meta": {
@@ -54,19 +60,19 @@
     },
     {
       "source": "hn",
-      "topic": "AI made self-hosting fun again",
+      "topic": "The group chat where your AI talks behind your back",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Top-cited AI scientists at four US companies compared",
+      "topic": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "topic": "CTO of 'RansomwareHelp' indicted for wire fraud",
       "score": 4,
       "meta": {}
     },
@@ -96,43 +102,25 @@
     },
     {
       "source": "hn",
-      "topic": "Tell HN: Happy Thanksgiving",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
       "topic": "Intel One Mono font",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Nextcloud Office Desktop app",
+      "topic": "Hard Drive pricing has gotten bad",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "topic": "AMD-specific fork of llama.cpp",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "An algebraic quantization of gravity from the null cone",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "CTO of 'RansomwareHelp' indicted for wire fraud",
-      "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Rvoip: VoIP stack in Rust",
+      "topic": "Show HN: I wrote an entire Vim manual over 4 years",
       "score": 3,
       "meta": {}
     },
@@ -180,25 +168,37 @@
     },
     {
       "source": "hn",
-      "topic": "AMD-specific fork of llama.cpp",
+      "topic": "Claude sabotaging ML research tasks?",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "OpenAI may be in cost control mode",
+      "topic": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Moat: OpenRouter replacement",
+      "topic": "US Air Force's cloud computing platform hacked",
       "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "topic": "Kimi for Science: More scientific ideas, made possible",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "An introduction to uncertainty in machine learning",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "New York and California age gating rules go into effect in the new year",
       "score": 2,
       "meta": {}
     },
@@ -222,55 +222,49 @@
     },
     {
       "source": "hn",
-      "topic": "The USAID Files",
+      "topic": "First images of the impact of DART asteroid deflection experiment",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Curiosity Is No Solo Act",
+      "topic": "Mental Health Resources and Political Engagement",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Discovery of curse ritual in trash dump surprises Egyptologist",
+      "topic": "AI on brink of making online security useless, mathematicians fear",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "NormalScript: A perfectly normal scripting language",
+      "topic": "Norse Atlantic suspends all flights as it faces potential collapse",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Olumino, a Markdown notes and spaced repetition app",
+      "topic": "Credit card skimming scripts using WebRTC found on popular shopping sites",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I wrote an entire Vim manual over 4 years",
+      "topic": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "topic": "Pimalaya goes stable: Himalaya v3 and the pimdir standard",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An introduction to uncertainty in machine learning",
+      "topic": "Making a 3D fantasy map like a 16th-Century atlas",
       "score": 1,
       "meta": {}
     },
@@ -360,13 +354,19 @@
     },
     {
       "source": "hn",
-      "topic": "George Whitesides, 1939-2026",
+      "topic": "GPT 6.2 Astra Solves a Historical Mystery",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Naturalist's Library",
+      "topic": "The Cutthroat Business of Shipwrecks",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "False Computer-Checked Proofs",
       "score": 0,
       "meta": {}
     }
