@@ -1,13 +1,10 @@
 {
-  "pickedAt": "2026-11-26T16:55:16.478Z",
-  "topic": "awesome-obsidian: A curated list of awesome Obsidian plugins, themes, CSS snippets, publishing engines, CLI workflows, companion apps, start",
-  "angle": "a step-by-step workflow tutorial with concrete setup advice and common pitfalls",
-  "slug": "awesome-obsidian-a-curated-list-of-awesome-obsidian-plugins-them",
-  "source": "github",
-  "sourceMeta": {
-    "stars": 84,
-    "url": "https://github.com/thebigby10/awesome-obsidian"
-  },
-  "finalScore": 8,
-  "remaining": 26
+  "pickedAt": "2026-11-27T01:45:20.982Z",
+  "topic": "AI made self-hosting fun again",
+  "angle": "a pragmatic setup-and-use guide focused on what it's genuinely good at, plus who should skip it",
+  "slug": "ai-made-self-hosting-fun-again",
+  "source": "hn",
+  "sourceMeta": {},
+  "finalScore": 4,
+  "remaining": 25
 }
