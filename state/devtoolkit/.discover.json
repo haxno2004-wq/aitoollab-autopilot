@@ -1,153 +1,60 @@
 {
-  "fetchedAt": "2026-11-27T16:41:11.801Z",
+  "fetchedAt": "2026-11-28T01:28:11.547Z",
   "candidates": [
     {
       "source": "github",
       "topic": "awesome-obsidian: A curated list of awesome Obsidian plugins, themes, CSS snippets, publishing engines, CLI workflows, companion apps, start",
       "score": 6,
       "meta": {
-        "stars": 102,
+        "stars": 109,
         "url": "https://github.com/thebigby10/awesome-obsidian"
       }
     },
     {
       "source": "hn",
-      "topic": "AI made self-hosting fun again",
-      "score": 5,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The group chat where your AI talks behind your back",
+      "topic": "Credit card skimming scripts using WebRTC found on popular shopping sites",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "topic": "Michael Nielsen took down his book on neural nets",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "CTO of 'RansomwareHelp' indicted for wire fraud",
-      "score": 4,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Intel One Mono font",
+      "topic": "GPT 6.2 Astra Solves a Historical Mystery",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Hard Drive pricing has gotten bad",
+      "topic": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "AMD-specific fork of llama.cpp",
+      "topic": "Convex skills send the user's app idea to a remote server without telling them",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: I wrote an entire Vim manual over 4 years",
+      "topic": "Prospero: Bloat-free, native AI coding harness with ImGui",
       "score": 3,
-      "meta": {}
-    },
-    {
-      "source": "github",
-      "topic": "jetbrains-clion: Jetbrains Clion for Windows 10/11. Writes, compiles and debugs C and C++ code with CMake projects, smart completion and ref",
-      "score": 3,
-      "meta": {
-        "stars": 354,
-        "url": "https://github.com/nataliey22/jetbrains-clion"
-      }
-    },
-    {
-      "source": "hn",
-      "topic": "Claude sabotaging ML research tasks?",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "US Air Force's cloud computing platform hacked",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Kimi for Science: More scientific ideas, made possible",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "An introduction to uncertainty in machine learning",
-      "score": 2,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "New York and California age gating rules go into effect in the new year",
-      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
       "topic": "First images of the impact of DART asteroid deflection experiment",
-      "score": 1,
+      "score": 2,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Mental Health Resources and Political Engagement",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "AI on brink of making online security useless, mathematicians fear",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Norse Atlantic suspends all flights as it faces potential collapse",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Credit card skimming scripts using WebRTC found on popular shopping sites",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Pimalaya goes stable: Himalaya v3 and the pimdir standard",
+      "topic": "False computer-checked proofs",
       "score": 1,
       "meta": {}
     },
@@ -159,19 +66,103 @@
     },
     {
       "source": "hn",
-      "topic": "GPT 6.2 Astra Solves a Historical Mystery",
+      "topic": "9/UX: a Macintosh-inspired desktop for 9front",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Analysis of Hacker News predictions since 2008",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Lydian Chromatic Concept of Tonal Organization",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Build your own amp modeler: $78 DIY pedal kit from TONE3000",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Atlantic 1866: information and shipping in the age of the telegraph",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "score": 1,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Rayshader 1.0: Exit the Matrix",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The Cutthroat Business of Shipwrecks",
+      "topic": "Scrapheap America",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "False Computer-Checked Proofs",
+      "topic": "The AT&T Unix PC (3B1) VM",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Source Control from Hell",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "The Balatro Timeline",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Quad9 Blocks Nginx2root.com",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Painting 1990s anime scenes in Python",
+      "score": 0,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Passkey blues",
       "score": 0,
       "meta": {}
     }
