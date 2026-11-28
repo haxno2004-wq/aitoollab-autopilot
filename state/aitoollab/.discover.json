@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-28T01:28:14.882Z",
+  "fetchedAt": "2026-11-28T15:32:38.373Z",
   "candidates": [
     {
       "source": "hn",
@@ -48,13 +48,37 @@
     },
     {
       "source": "hn",
+      "topic": "Michael Nielsen took down his book on neural nets",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
       "topic": "Credit card skimming scripts using WebRTC found on popular shopping sites",
       "score": 4,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Michael Nielsen took down his book on neural nets",
+      "topic": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Convex skills send the user's app idea to a remote server without telling them",
+      "score": 4,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Claude Code sabotage: preliminary benchmarking",
       "score": 4,
       "meta": {}
     },
@@ -90,19 +114,19 @@
     },
     {
       "source": "hn",
-      "topic": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "topic": "The Balatro Timeline",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Convex skills send the user's app idea to a remote server without telling them",
+      "topic": "Loom seamlessly combines weaving, knitting and braiding",
       "score": 3,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "topic": "Audible removes download option for purchased audiobooks",
       "score": 3,
       "meta": {}
     },
@@ -150,7 +174,25 @@
     },
     {
       "source": "hn",
-      "topic": "First images of the impact of DART asteroid deflection experiment",
+      "topic": "Knuth: Moratorium on Error Reports",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+      "score": 2,
+      "meta": {}
+    },
+    {
+      "source": "hn",
+      "topic": "Build your own amp modeler: $78 DIY pedal kit from TONE3000",
       "score": 2,
       "meta": {}
     },
@@ -174,67 +216,37 @@
     },
     {
       "source": "hn",
-      "topic": "False computer-checked proofs",
+      "topic": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Making a 3D fantasy map like a 16th-Century atlas",
+      "topic": "What Is the Metabolism-First Theory for the Origin of Life?",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "9/UX: a Macintosh-inspired desktop for 9front",
+      "topic": "The AI-designed USB-C LTE Modem is built, and it makes calls",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "topic": "IBM MVS 3.8j Community Edition (52-year old OS)",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Show HN: Analysis of Hacker News predictions since 2008",
+      "topic": "Swapping Jolt's sorted collections to a B+tree",
       "score": 1,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Lydian Chromatic Concept of Tonal Organization",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Build your own amp modeler: $78 DIY pedal kit from TONE3000",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Atlantic 1866: information and shipping in the age of the telegraph",
-      "score": 1,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "topic": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
       "score": 1,
       "meta": {}
     },
@@ -324,49 +336,25 @@
     },
     {
       "source": "hn",
-      "topic": "Rayshader 1.0: Exit the Matrix",
+      "topic": "Sydney Fire Ant Infestation",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Scrapheap America",
+      "topic": "Physics Breakthrough Simulator",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "The AT&T Unix PC (3B1) VM",
+      "topic": "AI Isn't That Dangerous",
       "score": 0,
       "meta": {}
     },
     {
       "source": "hn",
-      "topic": "Source Control from Hell",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "The Balatro Timeline",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Quad9 Blocks Nginx2root.com",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Painting 1990s anime scenes in Python",
-      "score": 0,
-      "meta": {}
-    },
-    {
-      "source": "hn",
-      "topic": "Passkey blues",
+      "topic": "Skala by Bjango",
       "score": 0,
       "meta": {}
     }
