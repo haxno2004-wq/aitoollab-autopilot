@@ -1,0 +1,92 @@
+{
+  "_slug": "the-finance-clarity-pack-1on7qas",
+  "_date": "2026-11-28T15:33:13.143Z",
+  "name": "The Finance Clarity Pack",
+  "tagline": "Master your cash flow and cut unnecessary expenses without uploading sensitive bank transactions.",
+  "metaDescription": "Optimize your budget safely. 12 privacy-focused AI prompts designed to audit spending categories, eliminate waste, and build savings without exposing bank data.",
+  "description": "The Finance Clarity Pack is built for privacy-conscious professionals, freelancers, and households who want the analytical power of modern AI without handing over bank logins, credit card numbers, or transaction histories. Traditional budgeting tools and generic AI workflows often demand raw CSV exports, introducing significant security and privacy concerns.\n\nThis prompt pack solves that friction by utilizing categorical modeling, ratio analysis, and behavioral economics. Instead of parsing raw line items, you input high-level estimates, category percentages, or aggregated monthly totals. The prompts guide the AI to act as an objective financial analyst, uncovering category creep, evaluating recurring subscription drag, optimizing debt payoff trajectories, and calculating emotional return on investment for discretionary spending.\n\nEach prompt incorporates battle-tested financial frameworks such as the 50/30/20 benchmark, sinking fund amortization, and price-friction cooling periods. By decoupling financial analysis from identifiable personal data, you gain immediate, strategic clarity on where your money leaks occur and how to recapture cash flow—completely safely and on your own terms.",
+  "tags": [
+    "personal finance",
+    "budgeting",
+    "prompt pack",
+    "money management",
+    "privacy"
+  ],
+  "price": 19,
+  "license": "personal use license",
+  "includes": [
+    "12 structured AI prompts in PDF, Markdown, and plain text formats",
+    "6 financial categories: Fixed Overhead, Subscriptions, Discretionary Spend, Food & Dining, Debt, and Long-Term Allocation",
+    "Quick-start implementation guide for ChatGPT, Claude, and local LLMs",
+    "Categorical data input worksheet to calculate aggregate percentages safely"
+  ],
+  "sampleItems": [
+    "I am auditing my recurring monthly digital subscriptions. Here is my breakdown by category total: Entertainment: [$X], Software/Productivity: [$Y], Fitness/Wellness: [$Z], News/Media: [$W]. Act as a frugal financial analyst. For each category, evaluate whether the spend aligns with typical high-value benchmarks, identify likely redundant overlaps, and provide a 3-step decision filter to determine which subscriptions to cancel, pause, or downgrade without sacrificing daily utility. Do not ask for specific vendor names or private data.",
+    "My essential fixed costs (rent/mortgage, baseline utilities, insurance, loan minimums) currently account for [X]% of my net monthly income. Analyze this percentage against standard financial health frameworks like the 50/30/20 rule. Highlight specific risks of this ratio in a high-inflation environment, suggest safe targets to aim for, and recommend three structural ways to lower baseline fixed overhead over the next 6 to 12 months without requiring extreme lifestyle disruption."
+  ],
+  "items": [
+    {
+      "title": "Recurring Service Pruning Audit",
+      "category": "Subscription Audit",
+      "body": "I am auditing my recurring monthly digital subscriptions. Here is my breakdown by category total: Entertainment: [$X], Software/Productivity: [$Y], Fitness/Wellness: [$Z], News/Media: [$W]. Act as a frugal financial analyst. For each category, evaluate whether the spend aligns with typical high-value benchmarks, identify likely redundant overlaps, and provide a 3-step decision filter to determine which subscriptions to cancel, pause, or downgrade without sacrificing daily utility. Do not ask for specific vendor names or private data."
+    },
+    {
+      "title": "Fixed Overhead Ratio Diagnostic",
+      "category": "Fixed Expenses",
+      "body": "My essential fixed costs (rent/mortgage, baseline utilities, insurance, loan minimums) currently account for [X]% of my net monthly income. Analyze this percentage against standard financial health frameworks like the 50/30/20 rule. Highlight specific risks of this ratio in a high-inflation environment, suggest safe targets to aim for, and recommend three structural ways to lower baseline fixed overhead over the next 6 to 12 months without requiring extreme lifestyle disruption."
+    },
+    {
+      "title": "The Discretionary Creep Identifier",
+      "category": "Variable Spending",
+      "body": "Over the past 6 months, my discretionary spend category has grown from [X]% to [Y]% of my take-home pay, while my core savings rate dropped by [Z]%. Help me diagnose this category creep. Provide five probing diagnostic questions to isolate emotional or convenience-driven spending drivers, and propose a weekly category allowance system to reset this spending category back to [Target %] over the next 60 days."
+    },
+    {
+      "title": "Grocery vs. Convenience Substitution Matrix",
+      "category": "Dining & Food",
+      "body": "My monthly food spending is divided into two aggregated figures: Grocery Ingredients: [$X] and Prepared Food/Takeout/Dining: [$Y]. The total represents [Z]% of my net monthly income. Calculate the ratio between home-prepared and convenience meals. Propose three realistic behavioral substitutions that shift [$Amount] from dining out into bulk grocery planning, accounting for busy weekday time constraints, without causing diet fatigue or unrealistic cooking expectations."
+    },
+    {
+      "title": "Impulse Spending Friction Blueprint",
+      "category": "Behavioral Psychology",
+      "body": "My unallocated 'miscellaneous shopping' category averages [$X] per month, which is [Y]% higher than my target budget. Act as a behavioral economist. Design a customized 72-hour cooling-off decision matrix based on price thresholds (e.g., under $50, $50-$200, over $200). Give me three psychological friction mechanisms to implement in my browser and phone settings to prevent spontaneous purchases in this category."
+    },
+    {
+      "title": "Bill Negotiation Script Generator",
+      "category": "Utility & Bills",
+      "body": "I want to lower my recurring utility and service costs. My monthly telecom/internet total is [$X] and insurance total is [$Y]. Generate two assertive, polite phone and live-chat negotiation scripts tailored to retain promotional pricing or request loyalty discounts. Include responses to common customer service rebuttals, such as 'that promotion has ended' or 'this is our lowest tier rate,' while keeping my provider names anonymous."
+    },
+    {
+      "title": "Surplus Cash Flow Waterfall Planner",
+      "category": "Savings Allocation",
+      "body": "After covering baseline expenses, I have an estimated monthly surplus of [$X] (or [Y]% of my income). My financial priorities are emergency cushion, mid-term sinking funds, and retirement investing. Create a mathematical cash flow waterfall rule allocating this surplus by percentage across these three buckets. Explain the trade-offs of this allocation and how to adjust it once the emergency fund reaches 3 to 6 months of living expenses."
+    },
+    {
+      "title": "Irregular Expense Smoothing Model",
+      "category": "Seasonal & Sinking Funds",
+      "body": "I struggle with predictable non-monthly expenses (car maintenance, annual insurance premiums, holiday gifts, medical copays). In the past year, these totaled approximately [$X]. Help me design an automated sinking fund system. Calculate the exact monthly amortized contribution needed, suggest an allocation split across 3 umbrella sinking categories, and outline a protocol for handling unexpected cost spikes that exceed the accrued fund balance."
+    },
+    {
+      "title": "Debt Payoff Strategy Comparator",
+      "category": "Debt Optimization",
+      "body": "I am carrying three non-mortgage debt balances: Debt A: Balance [$X] at [Interest rate A]%, Debt B: Balance [$Y] at [Interest rate B]%, Debt C: Balance [$Z] at [Interest rate C]%. I have an extra [$W] per month to accelerate payoff. Compare the Avalanche and Snowball payoff trajectories for these numbers. Detail the total interest savings versus behavioral momentum of each approach, and recommend which method fits my financial profile."
+    },
+    {
+      "title": "Post-Raise Lifestyle Creep Audit",
+      "category": "Lifestyle Inflation",
+      "body": "I recently received an income increase of [$X] net per month (a [Y]% increase). Rather than absorbing this into general lifestyle inflation, I want to construct a reverse-budgeting split. Propose three models for dividing the raise between future wealth building, guilt-free lifestyle upgrades, and debt/emergency reserves. Include guardrails to prevent lifestyle creep from permanently elevating my baseline monthly burn rate."
+    },
+    {
+      "title": "True Cost of Commute Evaluator",
+      "category": "Transportation",
+      "body": "My transportation category (vehicle payment, fuel, transit passes, insurance, parking) costs [$X] per month, representing [Y]% of my net income, for a commute of [Z] miles/hours weekly. Help me calculate the fully loaded economic cost of this transportation setup, including vehicle depreciation and opportunity cost of transit time. Provide two low-friction options to reduce this category total by 15% to 25%."
+    },
+    {
+      "title": "Joy-to-Spend ROI Assessment",
+      "category": "Value Alignment",
+      "body": "Here are my top 4 discretionary spending categories by monthly total: Category A: [$X], Category B: [$Y], Category C: [$Z], Category D: [$W]. On a scale of 1 to 10, my personal fulfillment rating for each is [Score A], [Score B], [Score C], and [Score D]. Calculate the cost-per-fulfillment unit for each category, rank them by emotional return on investment, and highlight which category should be trimmed first to free up capital without decreasing subjective well-being."
+    }
+  ],
+  "buyUrl": null,
+  "catalogTitle": "The Finance Clarity Pack: 12 prompts to understand and cut your spending",
+  "_provider": "gemini"
+}
