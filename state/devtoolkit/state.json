@@ -78,7 +78,8 @@
     "a-jev-that-can-ask-opus-for-help-gives-opus-accuracy-at-4x-lower",
     "claude-solves-two-open-problems-in-the-physics-of-black-holes",
     "if-you-cant-explain-something-in-simple-terms-you-dont-understan",
-    "ai-made-self-hosting-fun-again"
+    "ai-made-self-hosting-fun-again",
+    "claude-code-sabotage-preliminary-benchmarking"
   ],
   "usedTopics": [
     "A Brief History of the Bloomberg Terminal",
@@ -204,7 +205,8 @@
     "awesome-obsidian: A curated list of awesome Obsidian plugins, themes, CSS snippets, publishing engines, CLI workflows, companion apps, start",
     "AI made self-hosting fun again",
     "CTO of 'RansomwareHelp' indicted for wire fraud",
-    "Credit card skimming scripts using WebRTC found on popular shopping sites"
+    "Credit card skimming scripts using WebRTC found on popular shopping sites",
+    "Claude Code sabotage: preliminary benchmarking"
   ],
-  "lastRun": "2026-11-28T01:28:33.693Z"
+  "lastRun": "2026-11-28T15:33:30.163Z"
 }

@@ -1,8 +1,8 @@
 {
-  "slug": "ai-made-self-hosting-fun-again",
-  "title": "Why Local AI Made Self-Hosting Fun Again: A Pragmatic Guide",
-  "description": "Discover how open-source runtimes and lightweight LLMs revived self-hosting. Learn practical setups, code editor integration, and whether local AI fits you.",
-  "date": "2026-11-27T01:50:55.611Z",
-  "words": 1418,
+  "slug": "claude-code-sabotage-preliminary-benchmarking",
+  "title": "Claude Code Review: Benchmarking Risks, Bugs, and Strengths",
+  "description": "Explore our preliminary benchmarking review of Claude Code. Discover where the agentic CLI excels, where it introduces code sabotage, and who should use it.",
+  "date": "2026-11-28T15:33:15.006Z",
+  "words": 1177,
   "provider": "gemini"
 }
